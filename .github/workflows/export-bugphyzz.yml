@@ -1,0 +1,56 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 22 * * 0" # UTC Time
+
+name: Export bugphyzz 
+
+jobs:
+
+  export-bugphyzz:
+
+    runs-on: ubuntu-latest
+
+    container: bioconductor/bioconductor_docker:devel
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+
+      - name: Checkout bugphyzzExports
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          install.packages('stringr')
+          BiocManager::install('waldronlab/bugphyzz')
+        shell: Rscript {0}
+
+      - name: Export bugphyzz physiologies
+        run: |
+          bugphyzz_physiologies <- bugphyzz::physiologies()
+          for (physiology in names(bugphyzz_physiologies)) {
+              physiology_file <- file.path(stringr::str_replace_all(physiology, ' ', '-'), '.csv')
+              if (!file.exists(physiology_file)) {
+                  file.create(physiology_file)
+              }
+              tryCatch({
+                  write.csv(physiology, file = physiology_file, row.names = FALSE)
+                  }, error = function(e) {
+                      message(e)
+                  }, warning = function(w) {
+                      message(w)
+                  }
+              )
+          }
+        shell:
+          Rscript {0}
+
+      - name: Commit Exports
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Weekly export update"
+          git push origin main
