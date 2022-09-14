@@ -20,6 +20,8 @@ jobs:
 
       - name: Checkout bugphyzzExports
         uses: actions/checkout@v3
+        with:
+          path: bugphyzzExports
 
       - name: Install dependencies
         run: |
@@ -31,7 +33,7 @@ jobs:
         run: |
           bugphyzz_physiologies <- bugphyzz::physiologies()
           for (physiology in names(bugphyzz_physiologies)) {
-              physiology_file <- file.path(stringr::str_replace_all(physiology, ' ', '-'), '.csv')
+              physiology_file <- paste0(stringr::str_replace_all(physiology, ' ', '-'), '.csv')
               if (!file.exists(physiology_file)) {
                   file.create(physiology_file)
               }
@@ -49,8 +51,9 @@ jobs:
 
       - name: Commit Exports
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
+          cd $GITHUB_WORKSPACE/bugphyzzExports
+          git config user.name github-actions 
+          git config user.email actions@github.com
           git add .
           git commit -m "Weekly export update"
-          git push origin main
+          git push
