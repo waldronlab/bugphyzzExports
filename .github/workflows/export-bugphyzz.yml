@@ -25,26 +25,20 @@ jobs:
 
       - name: Install dependencies
         run: |
-          install.packages('stringr')
           BiocManager::install('waldronlab/bugphyzz')
         shell: Rscript {0}
 
       - name: Export bugphyzz physiologies
         run: |
           bugphyzz_physiologies <- bugphyzz::physiologies()
-          for (physiology in names(bugphyzz_physiologies)) {
-              physiology_file <- paste0(stringr::str_replace_all(physiology, ' ', '-'), '.csv')
-              if (!file.exists(physiology_file)) {
-                  file.create(physiology_file)
+          for (physiology in bugphyzz::physiologiesList()) {
+              file_name <- gsub(' ', '_', physiology, fixed = TRUE)
+              csv_file <- file.path(paste0(file_name, '.csv'))
+              if (!file.exists(csv_file)) {
+                  file.create(csv_file)
               }
-              tryCatch({
-                  write.csv(physiology, file = physiology_file, row.names = FALSE)
-                  }, error = function(e) {
-                      message(e)
-                  }, warning = function(w) {
-                      message(w)
-                  }
-              )
+             write.csv(bugphyzz_physiologies[[physiology]],
+                       file = csv_file, row.names = FALSE)
           }
         shell:
           Rscript {0}
@@ -53,8 +47,8 @@ jobs:
         run: |
           mv *.csv $GITHUB_WORKSPACE/bugphyzzExports
           cd $GITHUB_WORKSPACE/bugphyzzExports
-          git config user.name github-actions 
+          git config user.name "Github Actions"
           git config user.email actions@github.com
           git add .
-          git commit -m "Weekly export update"
+          git commit -m "Export update"
           git push
