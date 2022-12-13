@@ -6,7 +6,7 @@ This repository contains data exports from/for the bugphyzz project.
 
 Data files come from different sources:
 
-1. bugphyzz spreadsheets hosted on google drive (imported through the physiologies function).
+1. bugphyzz spreadsheets hosted on google drive (imported through the `bugphyzz::physiologies` function).
 2. BacDive file hosted on google drive.
 3. Madin et al data hosted on google drive.
 4. PATRIC data hosted on google drive.
@@ -20,7 +20,7 @@ All of this workflow happens in an Rscript (see `inst/scripts/dump_release.R`.
 3. Combine datasets.
 4. Solve duplicates, conflicts, and annotations.
 5. Propagate annotations (run ASR and Inhertiance algorithms).
-6. Merge data into a single object and export as tsv or csv.
+6. Merge data into a single object and export as tsv or csv (could be very large).
 7. Use the single object and `bugphyzz::getSignatures` to create signatures.
 8. Export .gmt files.
 
