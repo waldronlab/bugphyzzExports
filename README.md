@@ -18,8 +18,8 @@ All of this workflow happens in an Rscript (see `inst/scripts/dump_release.R`.
 1. Import physiologies from google spreadsheets with `bugphyzz::physiologies`. This function might become a hidden function.
 2. Import data from BacDive, Madin et al, and PATRIC (whcih are in a google drive).
 3. Combine datasets.
-4. Solve duplicates, conflicts, and annotations.
-5. Propagate annotations (run ASR and Inhertiance algorithms).
+4. Solve duplicates, conflicts, and agreements (and other possible cases).
+5. Propagate annotations (run ASR and inheritance algorithms).
 6. Merge data into a single object and export as tsv or csv (could be very large).
 7. Use the single object and `bugphyzz::getSignatures` to create signatures.
 8. Export .gmt files.
