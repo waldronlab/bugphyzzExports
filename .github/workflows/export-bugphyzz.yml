@@ -1,0 +1,37 @@
+on:
+  schedule:
+    - cron: "0 22 * * 0" # UTC Time
+  workflow_dispatch:
+
+name: Export bugphyzz 
+
+jobs:
+  export-bugsigdb:
+    runs-on: ubuntu-latest
+    container: bioconductor/bioconductor_docker:devel
+
+    steps:
+
+      - name: Checkout bugphyzzExports 
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          BiocManager::install(c("waldronlab/bugphyzz", "bugsigdbr", "readr"))
+        shell: Rscript {0}
+
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Export bugphyzz
+        run: $GITHUB_WORKSPACE/inst/scripts/export_bugphyzz.R 
+        timeout-minutes: 20
+
+      - name: Commit Exports
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          git add .
+          git commit -m "Weekly export update"
+          git push origin main
