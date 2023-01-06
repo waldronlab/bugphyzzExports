@@ -30,16 +30,8 @@ jobs:
 
       - name: Export bugphyzz physiologies
         run: |
-          bugphyzz_physiologies <- bugphyzz::physiologies()
-          for (physiology in bugphyzz::physiologiesList()) {
-              file_name <- gsub(' ', '_', physiology, fixed = TRUE)
-              csv_file <- file.path(paste0(file_name, '.csv'))
-              if (!file.exists(csv_file)) {
-                  file.create(csv_file)
-              }
-             write.csv(bugphyzz_physiologies[[physiology]],
-                       file = csv_file, row.names = FALSE)
-          }
+          library(bugphyzzExports)
+          makeAllSignatures()
         shell:
           Rscript {0}
 
