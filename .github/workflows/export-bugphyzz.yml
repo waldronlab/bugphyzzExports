@@ -30,6 +30,7 @@ jobs:
 
       - name: Setup git config
         run: |
+          cd $GITHUB_WORKSPACE
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
@@ -39,7 +40,7 @@ jobs:
 
       - name: Commit Exports
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
+          cd $GITHUB_WORKSPACE
           git add .
           git commit -m "Weekly export update"
           git push origin main
