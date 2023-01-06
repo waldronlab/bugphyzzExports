@@ -6,9 +6,11 @@ on:
 name: Export bugphyzz 
 
 jobs:
-  export-bugsigdb:
+  export-bugphyzz:
     runs-on: ubuntu-latest
     container: bioconductor/bioconductor_docker:devel
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
 
     steps:
 
