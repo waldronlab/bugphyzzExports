@@ -37,7 +37,7 @@ jobs:
           git config user.email "actions@github.com"
 
       - name: Export bugphyzz
-        run: $GITHUB_WORKSPACE/bugphyzzExports/inst/scripts/export_bugphyzz.R 
+        run: Rscript $GITHUB_WORKSPACE/bugphyzzExports/inst/scripts/export_bugphyzz.R $GITHUB_WORKSPACE/bugphyzzExports
         timeout-minutes: 20
 
       - name: Commit Exports
