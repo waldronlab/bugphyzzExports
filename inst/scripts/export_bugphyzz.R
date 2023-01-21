@@ -161,8 +161,8 @@ library(readr)
 #' .makeSignaturesByTaxIdAndLevel(fattyAcidComposition(), physiologies(), 
 #'                               "species", "NCBI_ID")
 .makeSignaturesByTaxIdAndLevel <- function(ps = physiologies(),
-                                          tax.id.type = .TAX.ID.TYPES,
-                                          tax.level = .TAX.LEVELS) {
+                                           tax.id.type = .TAX.ID.TYPES,
+                                           tax.level = .TAX.LEVELS) {
     signatures <- list()
     for (p in names(ps)) {
         if (.hasSpecialThresholds(p)) {
@@ -263,18 +263,17 @@ library(readr)
 #' @examples
 #' makeAllSignatures()
 makeAllSignatures <- function(header = .getHeader()) {
-    signatures <- list()
     fac <- fattyAcidComposition()
     ps <- physiologies()
-    all_ps <- append(ps, list(`fatty acid composition` = fac))
+    ps[["fatty acid composition"]] <- fac
     for (tax.level in .TAX.LEVELS) {
         for (tax.id.type in .TAX.ID.TYPES) {
             file_path <- file.path(tolower(paste0("bugphyzz-", tax.id.type, "-",
                                                   tax.level, ".gmt")))
-            signatures <- append(signatures,
-                                 .makeSignaturesByTaxIdAndLevel(ps,
-                                                                tax.id.type,
-                                                                tax.level))
+
+            signatures <- .makeSignaturesByTaxIdAndLevel(ps,
+                                                         tax.id.type,
+                                                         tax.level)
             .writeFileWithHeader(signatures, file_path, header)
         }
     }
