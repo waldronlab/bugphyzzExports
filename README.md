@@ -1,41 +1,36 @@
 # bugphyzzExports
 
-This repository contains data exports from
-[bugphyzz](https://github.com/waldronlab/bugphyzz). The exports are updated
-weekly.
+This repository contains the devel
+[bugphyzz](https://github.com/waldronlab/bugphyzz) signature files and a full
+data dump. The devel files are generated weekly.
 
-## Data sources
+The release version of these files will soon be available on Zenodo.
 
-Data files come from different sources:
+## File creation
 
-1. bugphyzz spreadsheets hosted on google drive (imported through the
-   `bugphyzz::physiologies` function).
-2. BacDive file hosted on google drive.
-3. Madin et al data hosted on google drive.
-4. PATRIC data hosted on google drive.
+If desired, you can generate the signatures and full dump file.
 
-## Exports workflow
+### Requirements
 
-All of this workflow happens in an Rscript (see `inst/scripts/export_bugphyzz.R`.
+You will need to install
 
-1. Import physiologies from google spreadsheets with `bugphyzz::physiologies`.
-   This function might become a hidden function.
-2. Import data from BacDive, Madin et al, and PATRIC (whcih are in a google drive).
-3. Combine datasets.
-4. Solve duplicates, conflicts, and agreements (and other possible cases).
-5. Propagate annotations (run ASR and inheritance algorithms).
-6. Merge data into a single object and export as tsv or csv (could be very large).
-7. Use the single object and `bugphyzz::getSignatures` to create signatures.
-8. Export .gmt files.
+* [bugphyzz](https://github.com/waldronlab/bugphyzz)
+* [bugsigdbr](https://www.bioconductor.org/packages/bugsigdbr/)
+* [readr](https://readr.tidyverse.org/)
 
-## Zenodo version
+Install using `BiocManager`:
 
-The entire repository will be used for Zenodo.
+```
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
-## Intended usage
+BiocManager::install(c("waldronlab/bugphyzz", "bugsigdbr", "readr"))
+```
+### Run export_bugphyzz.R
 
-+ The exported data, character delimited text (csv or tsv) and .gmt files,
-can be used as is, i.e., outside of the R environment.
-+ The data can be also be imported back into R through bugphyzz with the
-`bugphyzz::importBugphyzz` function. This function should have
-two arguments, version and cache, mirroring `bugsigdbr::imoprtBugSigDB`.
+Run the script, which will produce the files in the directory where the script
+is run.
+
+```
+Rscript bugphyzzExports\inst\script\export_bugphyzz.R
+```
