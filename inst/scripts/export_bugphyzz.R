@@ -182,7 +182,7 @@ library(readr)
                                                             tax.level))
         }
     }
-    signatures <- append(signatures, signatures)
+    signatures
 }
 
 #' Header for bugphyzz files
