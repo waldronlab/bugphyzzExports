@@ -120,8 +120,7 @@ library(readr)
 #' @param tax.level "species" or "genus"
 #' @return list of signature lists
 #' 
-#' @importFrom dplyr filter
-#' @importFrom bugphyzz getSignatures
+#' @importFrom bugphyzz makeSignatures
 #' 
 #' @example
 #' ps <- physiologies()
@@ -158,7 +157,7 @@ library(readr)
 #' @export
 #'
 #' @examples
-#' .makeSignaturesByTaxIdAndLevel(fattyAcidComposition(), physiologies(), 
+#' .makeSignaturesByTaxIdAndLevel(fattyAcidComposition(), physiologies(),
 #'                               "species", "NCBI_ID")
 .makeSignaturesByTaxIdAndLevel <- function(ps = physiologies(),
                                            tax.id.type = .TAX.ID.TYPES,
@@ -254,7 +253,8 @@ library(readr)
 #' 
 #' Write four files for the combinations of .TAX.LEVELS and .TAX.ID.TYPES
 #'
-#' @param header a character vector representing the header. Use default header with date.
+#' @param header a character vector representing the header. Use default header
+#' with date.
 #' 
 #' @importFrom bugphyzz fattyAcidComposition physiologies
 #' 
@@ -263,21 +263,21 @@ library(readr)
 #' @examples
 #' makeAllSignatures()
 makeAllSignatures <- function(header = .getHeader()) {
-    fac <- fattyAcidComposition()
     ps <- physiologies()
-    ps[["fatty acid composition"]] <- fac
+    # fac <- fattyAcidComposition()
+    # ps[["fatty acid composition"]] <- fac
     for (tax.level in .TAX.LEVELS) {
         for (tax.id.type in .TAX.ID.TYPES) {
             file_path <- file.path(tolower(paste0("bugphyzz-", tax.id.type, "-",
                                                   tax.level, ".gmt")))
 
-            signatures <- .makeSignaturesByTaxIdAndLevel(ps,
-                                                         tax.id.type,
-                                                         tax.level)
-            .writeFileWithHeader(signatures, file_path, header)
+            .writeFileWithHeader(
+                .makeSignaturesByTaxIdAndLevel(ps, tax.id.type, tax.level),
+                file_path,
+                header)
         }
     }
-    .makeFullDump("full_dump.csv", all_ps, header = header)
+    .makeFullDump("full_dump.csv", ps, header = header)
 }
 
 makeAllSignatures()

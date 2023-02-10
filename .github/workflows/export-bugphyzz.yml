@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     container: bioconductor/bioconductor_docker:devel
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+      GITHUB_PAT: ${{ secrets.wl_pat }}
 
     steps:
 
@@ -39,6 +39,7 @@ jobs:
       - name: Export bugphyzz
         run: |
           cd $GITHUB_WORKSPACE/bugphyzzExports
+          rm *.gmt
           Rscript $GITHUB_WORKSPACE/bugphyzzExports/inst/scripts/export_bugphyzz.R
         timeout-minutes: 20
 
