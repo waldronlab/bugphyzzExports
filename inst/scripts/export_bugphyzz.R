@@ -21,11 +21,6 @@ library(readr)
         "average" = list(lower = 601, upper = 6000), 
         "very large"= list(lower = 6001, upper = 999999999999)
     ),
-    "cogem pathogenicity rating" = list(
-        "does not belong to a species of which representatives are known to be pathogenic for humans, animals or plants" = list(lower = NA, upper = 1),
-        "cause a disease in humans or animals" = list(lower = 1, upper = 2),
-        "serious disease in humans or animals" = list(lower = 3, upper = 3)
-    ),
     "fatty acid" = list(
         "minimally present" = list(lower = NA, upper = 0.99),
         "lower concentration" = list(lower = 0.991, upper = 23.2),
