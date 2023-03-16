@@ -8,3 +8,15 @@
 ## Run ASR/Inheritance  .
 ## Create new data.frames.
 ## Combine data.frames and export the full_dump file.
+
+## Some pacakges installed from github with remotes
+## BiocManager::install('waldronlab/bugphyzz', force = TRUE)
+## BiocManager::install('sdgamboa/taxPPro', force = TRUE)
+
+library(bugphyzz)
+library(taxPPro)
+
+
+
+
+
