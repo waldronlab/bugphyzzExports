@@ -23,6 +23,25 @@ library(dplyr)
 ## Import of physiologies
 phys <- physiologies(full_source = FALSE, remove_false = TRUE)
 x <- phys$aerophilicity
+y <- phys$width
+
+x$NCBI_ID[which(is.na(x$NCBI_ID))] <- 'unknown'
+x$NCBI_ID[which(is.na(x$Parent_NCBI_ID))] <- 'unknown'
+
+y$NCBI_ID[which(is.na(y$NCBI_ID))] <- 'unknown'
+y$NCBI_ID[which(is.na(y$Parent_NCBI_ID))] <- 'unknown'
+
+## Remove taxa without parent NCBI_ID
+x <- x[x$NCBI_ID != 'unknown',]
+y <- y[y$NCBI_ID != 'unknown',]
+
+## Separate taxa without NCBI ID from taxa with NCBI ID
+which(x$NCBI_ID == 'unknown')
+which(y$NCBI_ID == 'unknown')
+
+
+
+
 
 ## Code for filtering
 
@@ -39,3 +58,5 @@ unlink(fname)
 con <- bzfile(fname, "w")
 write.csv(full_dump, file=con, quote = TRUE)
 close(con)
+
+## Code for creating bugphyzz signatures and exporting to gmt
