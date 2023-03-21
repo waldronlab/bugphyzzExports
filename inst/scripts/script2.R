@@ -99,9 +99,14 @@ y_ready <- prepareData2(y_new)
 ## Code for resolving conflicts (this only applies for numeric values)
 ## This only applies to character/numerical values
 resolvedAgreements <- resolveAgreements(x_ready)
-
+resolvedConflicts <- resolveConflicts(resolvedAgreements)
 
 ## Code for propagation
+data('tree_list')
+tree <- data.tree::as.Node(tree_list)
+x_propagated <- propagate(data_tree = tree, df = x_ready)
+y_propagated <- propagate(data_tree = tree, df = y_ready)
+
 
 ## Code for exporting
 # full_dump <- reduce(phys, bind_rows)
