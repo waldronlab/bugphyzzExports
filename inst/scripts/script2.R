@@ -98,9 +98,7 @@ y_ready <- prepareData2(y_new)
 
 ## Code for resolving conflicts (this only applies for numeric values)
 ## This only applies to character/numerical values
-getDuplicates(x_ready) |>
-    resolveAgreements()
-
+resolvedAgreements <- resolveAgreements(x_ready)
 
 
 ## Code for propagation
