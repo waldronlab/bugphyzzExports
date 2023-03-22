@@ -104,13 +104,15 @@ resolvedConflicts <- resolveConflicts(resolvedAgreements)
 ## Code for propagation
 data('tree_list')
 tree <- data.tree::as.Node(tree_list)
-x_propagated <- propagate(data_tree = tree, df = x_ready)
-y_propagated <- propagate(data_tree = tree, df = y_ready)
+
+x_propagated <- propagate(data_tree = tree, df = resolvedConflicts)
+y_propagated <- propagate(data_tree = tree, df = resolvedConflicts)
+
+
+
 
 ## Code for exporting
 # full_dump <- reduce(phys, bind_rows)
-
-x_ready
 
 ##
 # fname <- paste0("full_dump_bugphyzz_", Sys.Date(), ".csv.bz2")
