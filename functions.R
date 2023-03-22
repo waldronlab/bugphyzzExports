@@ -83,7 +83,45 @@ calcParentScores <- function(df) {
 }
 
 
-
+getDataReady <- function(x) {
+    x$NCBI_ID[which(is.na(x$NCBI_ID))] <- 'unknown'
+    x$Parent_NCBI_ID[which(is.na(x$Parent_NCBI_ID))] <- 'unknown'
+    x <- x[x$Parent_NCBI_ID != 'unknown',]
+    x <- x[!is.na(x$Rank), ]
+    x <- x[!is.na(x$Evidence), ]
+    x <- x[!is.na(x$Frequency), ]
+    x <- x[!is.na(x$Confidence_in_curation), ]
+    x <- unique(x)
+    x <- freq2Scores(x)
+    x_yesid <- x[which(x$NCBI_ID != 'unknown'),]
+    x_noid <- x[which(x$NCBI_ID == 'unknown'),]
+    x_noid_asr <- calcParentScores(x_noid)
+    x_new <- dplyr::bind_rows(x_yesid, x_noid_asr)
+    attr_type <- unique(x$Attribute_type)
+    if (attr_type == 'logical') {
+        cols <- c(
+            'NCBI_ID', 'Rank',
+            'Attribute', 'Attribute_value', 'Attribute_source',
+            'Evidence', 'Frequency',
+            'Attribute_type', 'Attribute_group',
+            'Confidence_in_curation', 'Score'
+        )
+    } else if (attr_type == 'range') {
+        cols <- c(
+            'NCBI_ID', 'Rank',
+            'Attribute', 'Attribute_value_min', 'Attribute_value_max',
+            'Attribute_source',
+            'Evidence', 'Frequency',
+            'Attribute_type', 'Attribute_group',
+            'Confidence_in_curation', 'Score'
+        )
+    }
+    x_new <- unique(x_new[,cols])
+    x_ready <- prepareData2(x_new)
+    resolvedAgreements <- resolveAgreements(x_ready)
+    resolvedConflicts <- resolveConflicts(resolvedAgreements)
+    return(resolvedConflicts)
+}
 
 
 
