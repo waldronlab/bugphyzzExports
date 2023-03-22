@@ -44,9 +44,7 @@ output <- discard(output, ~ rlang::is_error(.x))
 # y_propagated <- propagate(data_tree = tree, df = resolvedConflicts)
 
 ## Code for exporting
-# full_dump <- reduce(phys, bind_rows)
-
-##
+# full_dump <- reduce(output, bind_rows)
 # fname <- paste0("full_dump_bugphyzz_", Sys.Date(), ".csv.bz2")
 # unlink(fname)
 # con <- bzfile(fname, "w")
