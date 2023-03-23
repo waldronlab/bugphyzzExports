@@ -21,7 +21,7 @@ library(purrr)
 library(dplyr)
 source('functions.R')
 
-phys <- physiologies(full_source = FALSE, remove_false = TRUE)
+# phys <- physiologies(full_source = FALSE, remove_false = TRUE)
 output <- vector('list', length(phys))
 for (i in seq_along(output)) {
     names(output)[i] <- names(phys)[i]
@@ -32,12 +32,33 @@ for (i in seq_along(output)) {
         }
     )
 }
-output <- discard(output, ~ rlang::is_error(.x))
+
+errors <- keep(output, rlang::is_error)
+rlang::message_cnd(errors[[1]])
+
+names(errors)
+
+z <- getDataReady(x = phys$`acetate producing`)
+
+
+
+# output <- discard(output, ~ rlang::is_error(.x))
 
 ## Code for propagation
 # data('tree_list')
 # tree <- data.tree::as.Node(tree_list)
-
+# propagation <- vector('list', length(output))
+# for (i in seq_along(propagation)) {
+#     message('Running ', names(output)[i], ' - ', Sys.time())
+#     names(propagation)[i] <- names(output)[i]
+#     propagation[[i]] <- tryCatch(
+#         error = function(e) e,
+#         {
+#             propagate(data_tree = tree, df = output[[i]])
+#         }
+#     )
+# }
+# propagation <- discard(propagation, ~ rlang::is_error(.x))
 
 
 # x_propagated <- propagate(data_tree = tree, df = resolvedConflicts)

@@ -82,51 +82,63 @@ calcParentScores <- function(df) {
 
 }
 
-
-getDataReady <- function(x) {
+getDataReadyForPropagation <- function(x) {
+    ## Convert NAs in the NCBI_ID and Parent_NCBI_ID columns to 'unknown'
     x$NCBI_ID[which(is.na(x$NCBI_ID))] <- 'unknown'
     x$Parent_NCBI_ID[which(is.na(x$Parent_NCBI_ID))] <- 'unknown'
+
+    ## Remove parents with 'unknown' because we wouldn't be able to use them
+    ## for the first necessary step of ASR
     x <- x[x$Parent_NCBI_ID != 'unknown',]
-    x <- x[!is.na(x$Rank), ]
-    x <- x[!is.na(x$Evidence), ]
-    x <- x[!is.na(x$Frequency), ]
-    x <- x[!is.na(x$Confidence_in_curation), ]
+
+    ## Rmove data without information about Rank, Evidence, Frequency, and
+    ## Confidence in curation. All of them needed for ASR.
+    x <- x[which(!is.na(x$Rank)), ]
+    x <- x[which(!is.na(x$Evidence)), ]
+    x <- x[which(!is.na(x$Frequency)), ]
+    x <- x[which(!is.na(x$Confidence_in_curation)), ]
     x <- unique(x)
+
+    ## Convert the frequnecy values to scores
+    ## Which will be needed for ASR for categorical values
     x <- freq2Scores(x)
+
+    ## The row with NCBI_ID will be used 'as is' for signatures
     x_yesid <- x[which(x$NCBI_ID != 'unknown'),]
+
+    ## Those without NCBI_ID will go a first round of ASR using the
+    ## caclParentScores function
     x_noid <- x[which(x$NCBI_ID == 'unknown'),]
-    x_noid_asr <- calcParentScores(x_noid)
-    x_new <- dplyr::bind_rows(x_yesid, x_noid_asr)
-    attr_type <- unique(x$Attribute_type)
-    if (attr_type == 'logical') {
-        cols <- c(
-            'NCBI_ID', 'Rank',
-            'Attribute', 'Attribute_value', 'Attribute_source',
-            'Evidence', 'Frequency',
-            'Attribute_type', 'Attribute_group',
-            'Confidence_in_curation', 'Score'
-        )
-    } else if (attr_type == 'range') {
-        cols <- c(
-            'NCBI_ID', 'Rank',
-            'Attribute', 'Attribute_value_min', 'Attribute_value_max',
-            'Attribute_source',
-            'Evidence', 'Frequency',
-            'Attribute_type', 'Attribute_group',
-            'Confidence_in_curation', 'Score'
-        )
+    if (nrow(x_noid)) {
+        x_noid_asr <- calcParentScores(x_noid)
+        ## Then we combine the just inferred parent values (with ASR) with
+        ## the original annotations with taxid
+        x_new <- dplyr::bind_rows(x_yesid, x_noid_asr)
+    } else {
+        x_new <- x_yesid
     }
+    ## Different sets of columns are selected for categiral/boolean
+    ## values and for numeric ranges
+    attr_type <- unique(x$Attribute_type)
+    cols <- c(
+        'NCBI_ID', 'Rank',
+        'Attribute', 'Attribute_source',
+        'Evidence', 'Frequency',
+        'Attribute_type', 'Attribute_group',
+        'Confidence_in_curation', 'Score'
+    )
+    if (attr_type == 'logical') {
+        cols <- c(cols, 'Attribute_value')
+    } else if (attr_type == 'range') {
+        cols <- c(cols, c('Attribute_value_min', 'Attribute_value_max'))
+    }
+
     x_new <- unique(x_new[,cols])
+
+    ## Last preparations before using the data for ASR. Then
+    ## resolve agreements and conflicts
     x_ready <- prepareData2(x_new)
     resolvedAgreements <- resolveAgreements(x_ready)
     resolvedConflicts <- resolveConflicts(resolvedAgreements)
     return(resolvedConflicts)
 }
-
-
-
-
-
-
-
-
