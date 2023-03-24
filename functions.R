@@ -106,6 +106,14 @@ getDataReadyForPropagation <- function(x) {
     ## The row with NCBI_ID will be used 'as is' for signatures
     x_yesid <- x[which(x$NCBI_ID != 'unknown'),]
 
+    if (nrow(x_yesid) > 0) {
+        x_yesid <- x_yesid |>
+            dplyr::group_by(.data$NCBI_ID) |>
+            dplyr::mutate(Taxon_name = paste(unique(.data$Taxon_name), collapse = ';')) |>
+            dplyr::ungroup()
+        x_yesid <- x_yesid[grep(';', x_yesid$Taxon_name),]
+    }
+
     ## Those without NCBI_ID will go a first round of ASR using the
     ## caclParentScores function
     x_noid <- x[which(x$NCBI_ID == 'unknown'),]
@@ -121,7 +129,7 @@ getDataReadyForPropagation <- function(x) {
     ## values and for numeric ranges
     attr_type <- unique(x$Attribute_type)
     cols <- c(
-        'NCBI_ID', 'Rank',
+        'NCBI_ID', 'Taxon_name', 'Rank',
         'Attribute', 'Attribute_source',
         'Evidence', 'Frequency',
         'Attribute_type', 'Attribute_group',

@@ -29,9 +29,17 @@ any(map_int(data_ready, rlang::is_error))
 ## Code for propagation
 data('tree_list')
 tree <- data.tree::as.Node(tree_list)
-
 propagated <- data_ready |>
     map(~ tryCatch(error = function(e) e, propagate(tree, .x)))
+
+
+
+## Code for propagation
+# data('tree_list')
+# tree <- data.tree::as.Node(tree_list)
+#
+# propagated <- data_ready |>
+#     map(~ tryCatch(error = function(e) e, propagate(tree, .x)))
 
 ## Code for exporting
 # full_dump <- reduce(output, bind_rows)
