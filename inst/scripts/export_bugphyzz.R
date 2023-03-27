@@ -285,6 +285,7 @@ phys <- physiologies(keyword = 'all', remove_false = TRUE, full_source = FALSE)
 ## Removing these for now
 phys$`metabolite production` <- NULL
 phys$`metabolite utilization` <- NULL
+phys$`isolation site` <- NULL
 
 data_ready <- vector('list', length(phys))
 for (i in seq_along(data_ready)) {
