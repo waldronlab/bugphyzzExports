@@ -21,14 +21,33 @@ library(purrr)
 library(dplyr)
 source('functions.R')
 
-# phys <- physiologies(full_source = FALSE, remove_false = TRUE)
-# data_ready <- phys |>
-#     map(~ tryCatch(error = function(e) e, getDataReadyForPropagation(.x)))
+phys_names <- c('aerophilicity', 'growth temperature')
+phys <- physiologies(phys_names, full_source = FALSE, remove_false = TRUE)
+
+data_ready <- phys |>
+    map(~ tryCatch(error = function(e) e, getDataReadyForPropagation(.x)))
 # any(map_int(data_ready, rlang::is_error))
-#
-# ## Code for propagation
+
+aer <- phys$aerophilicity
+gt <- phys$`growth temperature`
+
+x <- getDataReadyForPropagation(gt)
+y <- getDuplicates(x)
+
+
+chooseColVal(y)
+## Code for propagation
 # data('tree_list')
 # tree <- data.tree::as.Node(tree_list)
+# propagated <- data_ready |>
+    # map(~ tryCatch(error = function(e) e, propagate(tree, .x)))
+
+
+
+## Code for propagation
+# data('tree_list')
+# tree <- data.tree::as.Node(tree_list)
+#
 # propagated <- data_ready |>
 #     map(~ tryCatch(error = function(e) e, propagate(tree, .x)))
 
