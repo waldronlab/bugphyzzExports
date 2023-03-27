@@ -21,17 +21,16 @@ library(purrr)
 library(dplyr)
 source('functions.R')
 
-phys <- physiologies(full_source = FALSE, remove_false = TRUE)
-data_ready <- phys |>
-    map(~ tryCatch(error = function(e) e, getDataReadyForPropagation(.x)))
-any(map_int(data_ready, rlang::is_error))
-
-## Code for propagation
-data('tree_list')
-tree <- data.tree::as.Node(tree_list)
-
-propagated <- data_ready |>
-    map(~ tryCatch(error = function(e) e, propagate(tree, .x)))
+# phys <- physiologies(full_source = FALSE, remove_false = TRUE)
+# data_ready <- phys |>
+#     map(~ tryCatch(error = function(e) e, getDataReadyForPropagation(.x)))
+# any(map_int(data_ready, rlang::is_error))
+#
+# ## Code for propagation
+# data('tree_list')
+# tree <- data.tree::as.Node(tree_list)
+# propagated <- data_ready |>
+#     map(~ tryCatch(error = function(e) e, propagate(tree, .x)))
 
 ## Code for exporting
 # full_dump <- reduce(output, bind_rows)
