@@ -400,6 +400,25 @@ for (i in seq_along(output)) {
 }
 
 ## Lets get some thresholds
+# "growth temperature" = list(
+#     "psychrophile" = list(lower = NA, upper = 24.9),
+#     "mesophile" = list(lower = 25, upper = 45),
+#     "thermophile" = list(lower = 46, upper = 60),
+#     "hyperthermophile" = list(lower = 61, upper = 121)
+# )
+gt <- output$`growth temperature`
+gt <- gt |>
+    mutate(
+        Attribute = case_when(
+            Attribute_value_max < 25 ~ 'psychrophile',
+            Attribute_value_min >= 25 & Attribute_value_max < 45 ~ 'mesophile',
+            Attribute_value_min >= 45 & Attribute_value_max < 60 ~ 'thermophile',
+            Attribute_value_min >= 60 ~ 'hyperthermophile',
+            TRUE ~ NA
+        ),
+        Attribute = paste0(Attribute_group, ':', Attribute)
+    )
+output$`growth temperature` <- gt
 full_dump <- reduce(output, bind_rows)
 full_dump <- full_dump |>
     mutate(
@@ -421,9 +440,3 @@ unlink(fname)
 con <- bzfile(fname, "w")
 write.csv(full_dump, file = con, quote = TRUE, row.names = FALSE)
 close(con)
-
-
-
-
-
-
