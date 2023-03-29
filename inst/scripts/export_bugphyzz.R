@@ -399,13 +399,6 @@ for (i in seq_along(output)) {
     }
 }
 
-## Lets get some thresholds
-# "growth temperature" = list(
-#     "psychrophile" = list(lower = NA, upper = 24.9),
-#     "mesophile" = list(lower = 25, upper = 45),
-#     "thermophile" = list(lower = 46, upper = 60),
-#     "hyperthermophile" = list(lower = 61, upper = 121)
-# )
 gt <- output$`growth temperature`
 gt <- gt |>
     mutate(
