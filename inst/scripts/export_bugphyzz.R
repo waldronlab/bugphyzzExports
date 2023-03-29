@@ -287,16 +287,40 @@ library(rlang)
 library(dplyr)
 library(data.tree)
 
-phys_names <- c('aerophilicity', 'growth temperature')
+# phys_names <- c('aerophilicity', 'growth temperature')
+phys_names <- 'all'
 phys <- physiologies(phys_names, remove_false = TRUE, full_source = FALSE)
-phys <- map(phys, ~ distinct(select(.x, -Accession_ID, -Genome_ID)))
+
+## For now, removing these datasets
+phys[['metabolite utilization']] <- NULL ## Contains a mix of binary attributes
+phys[['metabolite production']] <- NULL ## Contains a mix of binaryu attributes
+phys[['isolation site']] <- NULL ## Too many values
+phys[['habitat']] <- NULL ## Some FALSE values are important
+
+## The Accession_ID or Genome_ID columns are missing from some datasets.
+## Or these columns are incomplete or inconsistent across datasets.
+phys <- phys |>
+    map( ~ {
+        if ('Accession_ID' %in% colnames(.x)) {
+            .x <- select(.x, -Accession_ID)
+        }
+        if ('Genome_ID' %in% colnames(.x)) {
+            .x <- select(.x, -Genome_ID)
+        }
+        distinct(.x)
+    })
+
+## Ensure that only valid attribute values are included.
 fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
 attributes <- read.table(fname, header = TRUE, sep = '\t')
 phys <- map(phys, ~ filter(.x, Attribute %in% unique(attributes$attribute)))
 phys <- keep(phys, ~ nrow(.x) > 0)
+
+## Prepare data in a uniform format before running propagation with
+## functions from the taxPPro package (currently at sdgamboa/taxPPro)
 data_ready <- vector('list', length(phys))
 for (i in seq_along(data_ready)) {
-    message('Preparing ', names(phys)[i])
+    message('Preparing ', names(phys)[i], '.')
     names(data_ready)[i] <- names(phys)[i]
     data_ready[[i]] <- tryCatch(
         error = function(e) e,
@@ -340,7 +364,6 @@ data_ready <- data_ready |>
         }
         .x
     })
-
 
 output <- vector('list', length(dfs))
 for (i in seq_along(output)) {
