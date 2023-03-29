@@ -370,6 +370,10 @@ for (i in seq_along(output)) {
         })
         names(data) <- attr_names
         data <- bind_rows(data)
+        attr_grp <- unique(data_ready[[names(dfs)[i]]][['Attribute_group']])
+        attr_typ <- unique(data_ready[[names(dfs)[i]]][['Attribute_type']])
+        data[['Attribute_group']] <- attr_grp
+        data[['Attribute_type']] <- attr_typ
         data <- bind_rows(data_ready[[names(dfs)[i]]], data)
         output[[i]] <- data
     } else if (attr_type == 'range') {
@@ -386,11 +390,16 @@ for (i in seq_along(output)) {
         data <- data[which(data$Evidence %in% c('asr', 'inh')),]
         data$Frequency <- scores2Freq(data$Score)
         data <- data[which(data$Frequency != 'unknown'),]
+        attr_grp <- unique(data_ready[[names(dfs)[i]]][['Attribute_group']])
+        attr_typ <- unique(data_ready[[names(dfs)[i]]][['Attribute_type']])
+        data[['Attribute_group']] <- attr_grp
+        data[['Attribute_type']] <- attr_typ
         data <- bind_rows(data_ready[[names(dfs)[i]]], data)
         output[[i]] <- data
     }
 }
 
+## Lets get some thresholds
 full_dump <- reduce(output, bind_rows)
 full_dump <- full_dump |>
     mutate(
@@ -408,10 +417,10 @@ full_dump <- full_dump |>
     )
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
 
-fname <- paste0("full_dump_bugphyzz_", Sys.Date(), ".csv.bz2")
+fname <- paste0("full_dump_bugphyzz.csv.bz2")
 unlink(fname)
 con <- bzfile(fname, "w")
-write.csv(full_dump, file = con, quote = TRUE)
+write.csv(full_dump, file = con, quote = TRUE, row.names = FALSE)
 close(con)
 
 
