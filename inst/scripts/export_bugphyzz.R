@@ -334,6 +334,9 @@ if (any(vct_lgl))  {
     message('Removing data with errors.')
     data_ready <- discard(data_ready, is_error)
 }
+
+## Run propagation with functions from the taxPPro package.
+## Output is a data.tree R6 object.
 data('tree_list')
 tree <- as.Node(tree_list)
 propagated <- vector('list', length(data_ready))
@@ -347,8 +350,15 @@ for (i in seq_along(propagated)) {
         }
     )
 }
+
+## Convert data.tree R6 to a data.frame
+## NCBI taxonomy is appended. Could be useful for creating metaphlan-like
+## names for the taxids
 ncbi_taxonomy <- get_ncbi_taxonomy()
 dfs <- map(propagated, ~ toDataFrame(.x, ncbi_tax = ncbi_taxonomy))
+
+## Append attribute group and attribute type information.
+## This information was lost during the propagation step.
 for (i in seq_along(dfs)) {
     if (names(dfs)[i] %in% names(phys)) {
         dfs[[i]]$Attribute_group <- unique(phys[[names(dfs[i])]]$Attribute_group)
@@ -356,6 +366,9 @@ for (i in seq_along(dfs)) {
     }
 }
 
+## In the case of some logical values
+## We need to mix attribute group (e.g., aerophilicity) and
+## attribute (e.g., aerobic).
 data_ready <- data_ready |>
     map(~ {
         attr_type <- unique(.x$Attribute_type)
@@ -364,6 +377,7 @@ data_ready <- data_ready |>
         }
         .x
     })
+
 
 output <- vector('list', length(dfs))
 for (i in seq_along(output)) {
@@ -394,13 +408,12 @@ for (i in seq_along(output)) {
         names(data) <- attr_names
         data <- bind_rows(data)
         attr_grp <- unique(data_ready[[names(dfs)[i]]][['Attribute_group']])
-        attr_typ <- unique(data_ready[[names(dfs)[i]]][['Attribute_type']])
         data[['Attribute_group']] <- attr_grp
-        data[['Attribute_type']] <- attr_typ
+        data[['Attribute_type']] <- 'logical'
         data <- bind_rows(data_ready[[names(dfs)[i]]], data)
         output[[i]] <- data
     } else if (attr_type == 'range') {
-        cols2 <- c(
+        cols <- c(
             'NCBI_ID', 'Taxon_name', 'Attribute',
             'Attribute_value_min', 'Attribute_value_max',
             'Evidence', 'Score', 'Rank'
@@ -408,15 +421,14 @@ for (i in seq_along(output)) {
         attr_name <- unique(sub('__.*$', '', grep('__', names(data), value = TRUE)))
         colnames(data) <- sub('.*__', '', colnames(data))
         data[['Attribute']] <- sub('_', ' ', attr_name)
-        data <- data[,cols2]
+        data <- data[,cols]
         data <- data[which(!is.na(data$Evidence)),]
         data <- data[which(data$Evidence %in% c('asr', 'inh')),]
         data$Frequency <- scores2Freq(data$Score)
         data <- data[which(data$Frequency != 'unknown'),]
         attr_grp <- unique(data_ready[[names(dfs)[i]]][['Attribute_group']])
-        attr_typ <- unique(data_ready[[names(dfs)[i]]][['Attribute_type']])
         data[['Attribute_group']] <- attr_grp
-        data[['Attribute_type']] <- attr_typ
+        data[['Attribute_type']] <- 'range'
         data <- bind_rows(data_ready[[names(dfs)[i]]], data)
         output[[i]] <- data
     }
@@ -450,6 +462,8 @@ full_dump <- full_dump |>
             TRUE ~ Rank),
         Attribute = sub(' ', '_', Attribute)
     )
+
+## Create and export dump file(s)
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
 fname <- paste0("full_dump_bugphyzz.csv.bz2")
 unlink(fname)
