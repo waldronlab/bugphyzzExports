@@ -359,7 +359,7 @@ for (i in seq_along(output)) {
             k[['Attribute_value']] <- TRUE
             cols <- c(
                 'NCBI_ID', 'Taxon_name', 'Attribute', 'Attribute_value',
-                'Evidence', 'Score'
+                'Evidence', 'Score', 'Rank'
             )
             k <- k[,cols]
             k <- k[which(!is.na(k$Evidence)),]
@@ -380,7 +380,7 @@ for (i in seq_along(output)) {
         cols2 <- c(
             'NCBI_ID', 'Taxon_name', 'Attribute',
             'Attribute_value_min', 'Attribute_value_max',
-            'Evidence', 'Score'
+            'Evidence', 'Score', 'Rank'
         )
         attr_name <- unique(sub('__.*$', '', grep('__', names(data), value = TRUE)))
         colnames(data) <- sub('.*__', '', colnames(data))
@@ -404,19 +404,18 @@ full_dump <- reduce(output, bind_rows)
 full_dump <- full_dump |>
     mutate(
         Rank = case_when(
-            grepl('t__', full_dump$NCBI_ID) ~ 'strain',
-            grepl('s__', full_dump$NCBI_ID) ~ 'species',
-            grepl('g__', full_dump$NCBI_ID) ~ 'genus',
-            grepl('f__', full_dump$NCBI_ID) ~ 'family',
-            grepl('o__', full_dump$NCBI_ID) ~ 'order',
-            grepl('c__', full_dump$NCBI_ID) ~ 'class',
-            grepl('p__', full_dump$NCBI_ID) ~ 'phylum',
-            grepl('d__', full_dump$NCBI_ID) ~ 'domain',
+            grepl('t__', NCBI_ID) ~ 'strain',
+            grepl('s__', NCBI_ID) ~ 'species',
+            grepl('g__', NCBI_ID) ~ 'genus',
+            grepl('f__', NCBI_ID) ~ 'family',
+            grepl('o__', NCBI_ID) ~ 'order',
+            grepl('c__', NCBI_ID) ~ 'class',
+            grepl('p__', NCBI_ID) ~ 'phylum',
+            grepl('d__', NCBI_ID) ~ 'domain',
             TRUE ~ Rank),
         Attribute = sub(' ', '_', Attribute)
     )
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
-
 fname <- paste0("full_dump_bugphyzz.csv.bz2")
 unlink(fname)
 con <- bzfile(fname, "w")
