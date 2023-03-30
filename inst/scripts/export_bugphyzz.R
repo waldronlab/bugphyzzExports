@@ -431,14 +431,14 @@ for (i in seq_along(output)) {
     }
 }
 
-
-for (i in seq_along(output)) {
+## Add code here for automatically selecting thresholds, filtering, and
+## changing numeric attributes to categorical/logical
+test_output <- vector('list', length(output))
+for (i in seq_along(test_output)) {
     if (.hasSpecialThresholds(names(output)[i])) {
-        .getSpecialThresholds(names(output[i]))
+       test_output[[i]] <-  .getSpecialThresholds(names(output[i]))
     }
 }
-
-### Add more code here.
 
 gt <- output$`growth temperature`
 gt <- gt |>
@@ -470,6 +470,10 @@ full_dump <- full_dump |>
     )
 
 ## Create and export dump file(s)
+## A file with numeric values
+## TODO
+
+## A file with categorical labels for numeric values
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
 fname <- paste0("full_dump_bugphyzz.csv.bz2")
 unlink(fname)
@@ -479,4 +483,4 @@ close(con)
 
 ## Code for creating signatures
 
-
+## TODO
