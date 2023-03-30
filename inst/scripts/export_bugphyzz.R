@@ -1,9 +1,9 @@
 
-library(taxPPro)
-library(bugphyzz)
-library(bugsigdbr)
-library(readr)
-library(purrr)
+# library(taxPPro)
+# library(bugphyzz)
+# library(bugsigdbr)
+# library(readr)
+# library(purrr)
 
 # Lower bounds are excluded but upper bounds are included
 
@@ -287,13 +287,13 @@ library(rlang)
 library(dplyr)
 library(data.tree)
 
-# phys_names <- c('aerophilicity', 'growth temperature')
-phys_names <- 'all'
+phys_names <- c('aerophilicity', 'growth temperature')
+# phys_names <- 'all'
 phys <- physiologies(phys_names, remove_false = TRUE, full_source = FALSE)
 
 ## For now, removing these datasets
 phys[['metabolite utilization']] <- NULL ## Contains a mix of binary attributes
-phys[['metabolite production']] <- NULL ## Contains a mix of binaryu attributes
+phys[['metabolite production']] <- NULL ## Contains a mix of binary attributes
 phys[['isolation site']] <- NULL ## Too many values
 phys[['habitat']] <- NULL ## Some FALSE values are important
 
@@ -316,7 +316,7 @@ attributes <- read.table(fname, header = TRUE, sep = '\t')
 phys <- map(phys, ~ filter(.x, Attribute %in% unique(attributes$attribute)))
 phys <- keep(phys, ~ nrow(.x) > 0)
 
-## Prepare data in a uniform format before running propagation with
+## Prepare data in an uniform format before running propagation with
 ## functions from the taxPPro package (currently at sdgamboa/taxPPro)
 data_ready <- vector('list', length(phys))
 for (i in seq_along(data_ready)) {
@@ -366,9 +366,7 @@ for (i in seq_along(dfs)) {
     }
 }
 
-## In the case of some logical values
-## We need to mix attribute group (e.g., aerophilicity) and
-## attribute (e.g., aerobic).
+## Mix Attribute group and Attribute (just attributes with logical type)
 data_ready <- data_ready |>
     map(~ {
         attr_type <- unique(.x$Attribute_type)
@@ -377,7 +375,6 @@ data_ready <- data_ready |>
         }
         .x
     })
-
 
 output <- vector('list', length(dfs))
 for (i in seq_along(output)) {
@@ -434,6 +431,15 @@ for (i in seq_along(output)) {
     }
 }
 
+
+for (i in seq_along(output)) {
+    if (.hasSpecialThresholds(names(output)[i])) {
+        .getSpecialThresholds(names(output[i]))
+    }
+}
+
+### Add more code here.
+
 gt <- output$`growth temperature`
 gt <- gt |>
     mutate(
@@ -472,12 +478,5 @@ write.csv(full_dump, file = con, quote = TRUE, row.names = FALSE)
 close(con)
 
 ## Code for creating signatures
-
-
-
-
-
-
-
 
 
