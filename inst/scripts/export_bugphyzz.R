@@ -470,3 +470,14 @@ unlink(fname)
 con <- bzfile(fname, "w")
 write.csv(full_dump, file = con, quote = TRUE, row.names = FALSE)
 close(con)
+
+## Code for creating signatures
+
+
+
+
+
+
+
+
+
