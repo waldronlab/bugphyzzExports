@@ -40,7 +40,7 @@
         "psychrophile" = list(lower = NA, upper = 24.9),
         "mesophile" = list(lower = 25, upper = 45),
         "thermophile" = list(lower = 46, upper = 60),
-        "hyperthermophile" = list(lower = 61, upper = 121)
+        "hyperthermophile" = list(lower = 61, upper = NA)
     ),
     "hydrogen gas producing" = list(
         "low" = list(lower = NA, upper = 1.7),
