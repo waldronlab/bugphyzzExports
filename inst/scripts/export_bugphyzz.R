@@ -1,9 +1,16 @@
 
-# library(taxPPro)
-# library(bugphyzz)
+## Script to create bugphyzz exports dump files and signature files
+
+library(bugphyzz)
+library(taxPPro)
+library(purrr)
+library(rlang)
+library(dplyr)
+library(data.tree)
+library(bugphyzzExports)
+
 # library(bugsigdbr)
 # library(readr)
-# library(purrr)
 
 # Lower bounds are excluded but upper bounds are included
 
@@ -280,12 +287,6 @@ makeAllSignatures <- function(header = .getHeader()) {
 
 # makeAllSignatures()
 
-library(bugphyzz)
-library(taxPPro)
-library(purrr)
-library(rlang)
-library(dplyr)
-library(data.tree)
 
 phys_names <- c('aerophilicity', 'growth temperature')
 # phys_names <- 'all'
@@ -433,53 +434,23 @@ for (i in seq_along(output)) {
 
 ## Add code here for automatically selecting thresholds, filtering, and
 ## changing numeric attributes to categorical/logical
-test_output <- vector('list', length(output))
-names(test_output) <- names(output)
-for (i in seq_along(test_output)) {
-    if (.hasSpecialThresholds(names(output)[i])) {
-        thresholds <- .getSpecialThresholds(names(output[i]))
-        if (!is.null(thresholds)) {
-            test_output[[i]] <- thresholds
-        }
+categorical_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'logical')
+numeric_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'range')
+numeric_attributes_with_thr <- keep(
+    .x = numeric_attributes,
+    .p = ~ .hasSpecialThresholds(unique(.x$Attribute_group))
+)
+new_categorical_attributes <- map(
+    .x = numeric_attributes_with_thr,
+    .f =  ~ {
+        thresholds <-.getSpecialThresholds(unique(.x$Attribute_group))
+        rangeToLogicalThr(.x, thresholds)
     }
-}
+)
 
-th <- discard(test_output, is.null)
-
-
-map(th, ~ {
-    names(.x)
-})
-
-
-
-
-subsetByThreshold(gt, test_output$`growth temperature`$hyperthermophile)
-
-
-o <- rangeToLogical(gt, test_output[[2]])
-
-
-
-gt <- output$`growth temperature`
-gt <- gt |>
-    mutate(
-        Attribute = case_when(
-            Attribute_value_max < 25 ~ 'psychrophile',
-            Attribute_value_min >= 25 & Attribute_value_max < 45 ~ 'mesophile',
-            Attribute_value_min >= 45 & Attribute_value_max < 60 ~ 'thermophile',
-            Attribute_value_min >= 60 ~ 'hyperthermophile',
-            TRUE ~ NA
-        ),
-        Attribute = paste0(Attribute_group, ':', Attribute)
-    )
-
-
-
-
-output$`growth temperature` <- gt
-full_dump <- reduce(output, bind_rows)
-full_dump <- full_dump |>
+cat_list <- c(categorical_attributes, new_categorical_attributes)
+full_dump_cat <- reduce(cat_list, bind_rows)
+full_dump_cat <- full_dump_cat |>
     mutate(
         Rank = case_when(
             grepl('t__', NCBI_ID) ~ 'strain',
@@ -493,6 +464,13 @@ full_dump <- full_dump |>
             TRUE ~ Rank),
         Attribute = sub(' ', '_', Attribute)
     )
+## A file with categorical labels for numeric values
+full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
+fname <- paste0("full_dump_bugphyzz.csv.bz2")
+unlink(fname)
+con <- bzfile(fname, "w")
+write.csv(full_dump, file = con, quote = TRUE, row.names = FALSE)
+close(con)
 
 ## Create and export dump file(s)
 ## A file with numeric values
