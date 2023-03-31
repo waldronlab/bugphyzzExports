@@ -22,7 +22,7 @@
         "very small" = list(lower = NA, upper = 473),
         "small" = list(lower = 474, upper = 600),
         "average" = list(lower = 601, upper = 6000),
-        "very large"= list(lower = 6001, upper = 999999999999)
+        "very large" = list(lower = 6001, upper = 999999999999)
     ),
     "fatty acid" = list(
         "minimally present" = list(lower = NA, upper = 0.99),
@@ -434,11 +434,38 @@ for (i in seq_along(output)) {
 ## Add code here for automatically selecting thresholds, filtering, and
 ## changing numeric attributes to categorical/logical
 test_output <- vector('list', length(output))
+names(test_output) <- names(output)
 for (i in seq_along(test_output)) {
     if (.hasSpecialThresholds(names(output)[i])) {
-       test_output[[i]] <-  .getSpecialThresholds(names(output[i]))
+        thresholds <- .getSpecialThresholds(names(output[i]))
+        if (!is.null(thresholds)) {
+            test_output[[i]] <- thresholds
+        }
     }
 }
+
+th <- discard(test_output, is.null)
+
+
+map(th, ~ {
+    names(.x)
+})
+
+
+subsetThreshold <- function(df, thr) {
+    lower <- thr$lower
+    upper <- thr$upper
+    if (is.na(lower)) {
+        df <- df[which(df$Attribute_value_max < upper),]
+    } else if (is.na(upper)) {
+        df <- df[which(df$Attribute_value_min >= lower),]
+    } else {
+        df <- df[which(df$Attribute_value_min >= lower * df$Attribute_value_max < upper),]
+    }
+}
+
+
+
 
 gt <- output$`growth temperature`
 gt <- gt |>
@@ -452,6 +479,10 @@ gt <- gt |>
         ),
         Attribute = paste0(Attribute_group, ':', Attribute)
     )
+
+
+
+
 output$`growth temperature` <- gt
 full_dump <- reduce(output, bind_rows)
 full_dump <- full_dump |>
