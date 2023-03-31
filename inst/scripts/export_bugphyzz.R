@@ -452,18 +452,12 @@ map(th, ~ {
 })
 
 
-subsetThreshold <- function(df, thr) {
-    lower <- thr$lower
-    upper <- thr$upper
-    if (is.na(lower)) {
-        df <- df[which(df$Attribute_value_max < upper),]
-    } else if (is.na(upper)) {
-        df <- df[which(df$Attribute_value_min >= lower),]
-    } else {
-        df <- df[which(df$Attribute_value_min >= lower * df$Attribute_value_max < upper),]
-    }
-}
 
+
+subsetByThreshold(gt, test_output$`growth temperature`$hyperthermophile)
+
+
+o <- rangeToLogical(gt, test_output[[2]])
 
 
 
