@@ -286,11 +286,14 @@ makeAllSignatures <- function(header = .getHeader()) {
 
 # makeAllSignatures()
 
+# Code starts -------------------------------------------------------------
+
 message('>>>>>>> Importing data', Sys.time(), ' <<<<<<')
 
 phys_names <- c(
     ## Categorical
     'aerophilicity',
+    'gram stain',
 
     ## Numeric
     'growth temperature',
