@@ -1,6 +1,5 @@
 
 ## Script to create bugphyzz exports dump files and signature files
-
 library(bugphyzz)
 library(taxPPro)
 library(purrr)
@@ -288,18 +287,14 @@ makeAllSignatures <- function(header = .getHeader()) {
 # makeAllSignatures()
 
 
-phys_names <- c('aerophilicity', 'growth temperature')
+phys_names <- c(
+    'aerophilicity', 'growth temperature'
+)
 # phys_names <- 'all'
 phys <- physiologies(phys_names, remove_false = TRUE, full_source = FALSE)
 
-## For now, removing these datasets
-phys[['metabolite utilization']] <- NULL ## Contains a mix of binary attributes
-phys[['metabolite production']] <- NULL ## Contains a mix of binary attributes
-phys[['isolation site']] <- NULL ## Too many values
-phys[['habitat']] <- NULL ## Some FALSE values are important
-
 ## The Accession_ID or Genome_ID columns are missing from some datasets.
-## Or these columns are incomplete or inconsistent across datasets.
+## These columns can be incomplete or inconsistent in some datasets.
 phys <- phys |>
     map( ~ {
         if ('Accession_ID' %in% colnames(.x)) {
@@ -311,14 +306,14 @@ phys <- phys |>
         distinct(.x)
     })
 
-## Ensure that only valid attribute values are included.
+## Make sure that only valid attribute values are included.
 fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
 attributes <- read.table(fname, header = TRUE, sep = '\t')
 phys <- map(phys, ~ filter(.x, Attribute %in% unique(attributes$attribute)))
 phys <- keep(phys, ~ nrow(.x) > 0)
 
-## Prepare data in an uniform format before running propagation with
-## functions from the taxPPro package (currently at sdgamboa/taxPPro)
+## Prepare data in an uniform format before running propagation.
+## Functions from the taxPPro package (currently at sdgamboa/taxPPro)
 data_ready <- vector('list', length(phys))
 for (i in seq_along(data_ready)) {
     message('Preparing ', names(phys)[i], '.')
@@ -330,11 +325,7 @@ for (i in seq_along(data_ready)) {
         }
     )
 }
-vct_lgl <- map_lgl(data_ready, is_error)
-if (any(vct_lgl))  {
-    message('Removing data with errors.')
-    data_ready <- discard(data_ready, is_error)
-}
+data_ready <- discard(data_ready, is_error)
 
 ## Run propagation with functions from the taxPPro package.
 ## Output is a data.tree R6 object.
@@ -351,15 +342,17 @@ for (i in seq_along(propagated)) {
         }
     )
 }
+propagated <- discard(propagated, is_error)
 
 ## Convert data.tree R6 to a data.frame
-## NCBI taxonomy is appended. Could be useful for creating metaphlan-like
+## NCBI taxonomy is added. Could be useful for creating metaphlan-like
 ## names for the taxids
 ncbi_taxonomy <- get_ncbi_taxonomy()
 dfs <- map(propagated, ~ toDataFrame(.x, ncbi_tax = ncbi_taxonomy))
 
-## Append attribute group and attribute type information.
-## This information was lost during the propagation step.
+## Add attribute group and attribute type information to the data.frames.
+## This information was lost during the propagation step, but is needed to treat
+## differently logical/categorical attributes and numeric attributes.
 for (i in seq_along(dfs)) {
     if (names(dfs)[i] %in% names(phys)) {
         dfs[[i]]$Attribute_group <- unique(phys[[names(dfs[i])]]$Attribute_group)
@@ -367,7 +360,8 @@ for (i in seq_along(dfs)) {
     }
 }
 
-## Mix Attribute group and Attribute (just attributes with logical type)
+## Concatenate the name of the Attribute group with the Attribute
+## (just attributes with logical type), e.g. aerophilicity:aerobic
 data_ready <- data_ready |>
     map(~ {
         attr_type <- unique(.x$Attribute_type)
@@ -377,15 +371,22 @@ data_ready <- data_ready |>
         .x
     })
 
+## Some final edits to the output data.frames
+## In the code below, '__' was used to mark the attributes specific
+## to a certain attribute. Example: aerobic__Attribute_source
 output <- vector('list', length(dfs))
 for (i in seq_along(output)) {
     data <- dfs[[i]]
     names(output)[i] <- names(dfs)[i]
     attr_type <- unique(data$Attribute_type)
     if (attr_type == 'logical') {
-        common_names <- grep('__', names(data), value = TRUE, invert = TRUE)
-        unique_names <- grep('__', names(data), value = TRUE)
+        ## Here, attribute names are obtained form the columns.
+        ## Attribute names in colums was the format in the propagation step.
+        common_names <- grep('__', colnames(data), value = TRUE, invert = TRUE)
+        unique_names <- grep('__', colnames(data), value = TRUE)
         attr_names <- unique(sub('__.*$', '', unique_names))
+        ## This map function call repeat the process for each attribute
+        ## e.g. aerophilicity:aerobic.
         data <- map(attr_names, ~ {
             names <- c(grep(.x, unique_names, value = TRUE), common_names)
             k <- data[,names]
@@ -398,6 +399,8 @@ for (i in seq_along(output)) {
             )
             k <- k[,cols]
             k <- k[which(!is.na(k$Evidence)),]
+            ## Get only asr and inh which is the main output from the
+            ## propagation step
             k <- k[which(k$Evidence %in% c('asr', 'inh')),]
             k$Frequency <- scores2Freq(k$Score)
             k <- k[which(k$Frequency != 'unknown'),]
@@ -405,9 +408,13 @@ for (i in seq_along(output)) {
         })
         names(data) <- attr_names
         data <- bind_rows(data)
+        ## The attribute group is the same for all attributes.
+        ## e.g. aerophilicity for aerophilicity:aerobic and aerophiliciyt:anaerobic
         attr_grp <- unique(data_ready[[names(dfs)[i]]][['Attribute_group']])
         data[['Attribute_group']] <- attr_grp
         data[['Attribute_type']] <- 'logical'
+        ## Here, we join the data before the propagation (inh, exp, tas, nas
+        ## with the data after the propagation (asr, inh)
         data <- bind_rows(data_ready[[names(dfs)[i]]], data)
         output[[i]] <- data
     } else if (attr_type == 'range') {
@@ -416,11 +423,13 @@ for (i in seq_along(output)) {
             'Attribute_value_min', 'Attribute_value_max',
             'Evidence', 'Score', 'Rank'
         )
+        ## In this case, the attribute is the same for all data
         attr_name <- unique(sub('__.*$', '', grep('__', names(data), value = TRUE)))
         colnames(data) <- sub('.*__', '', colnames(data))
         data[['Attribute']] <- sub('_', ' ', attr_name)
         data <- data[,cols]
         data <- data[which(!is.na(data$Evidence)),]
+        ## Filter asr and inh from the propagation output
         data <- data[which(data$Evidence %in% c('asr', 'inh')),]
         data$Frequency <- scores2Freq(data$Score)
         data <- data[which(data$Frequency != 'unknown'),]
@@ -432,10 +441,21 @@ for (i in seq_along(output)) {
     }
 }
 
+## Code for a first dump file, containing only numeric attributes.
+# numeric_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'range')
+numeric_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'range')
+full_dump_numeric <- reduce(numeric_attributes, bind_rows)
+full_dump_numeric$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump_numeric$NCBI_ID)
+full_dump_numeric$Attribute <- sub(' ', '_', full_dump_numeric$Attribute)
+fname <- paste0("full_dump_numeric.csv.bz2")
+unlink(fname)
+con <- bzfile(fname, "w")
+write.csv(full_dump_numeric, file = con, quote = TRUE, row.names = FALSE)
+close(con)
+
 ## Add code here for automatically selecting thresholds, filtering, and
 ## changing numeric attributes to categorical/logical
 categorical_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'logical')
-numeric_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'range')
 numeric_attributes_with_thr <- keep(
     .x = numeric_attributes,
     .p = ~ .hasSpecialThresholds(unique(.x$Attribute_group))
@@ -447,43 +467,16 @@ new_categorical_attributes <- map(
         rangeToLogicalThr(.x, thresholds)
     }
 )
-
 cat_list <- c(categorical_attributes, new_categorical_attributes)
 full_dump_cat <- reduce(cat_list, bind_rows)
-full_dump_cat <- full_dump_cat |>
-    mutate(
-        Rank = case_when(
-            grepl('t__', NCBI_ID) ~ 'strain',
-            grepl('s__', NCBI_ID) ~ 'species',
-            grepl('g__', NCBI_ID) ~ 'genus',
-            grepl('f__', NCBI_ID) ~ 'family',
-            grepl('o__', NCBI_ID) ~ 'order',
-            grepl('c__', NCBI_ID) ~ 'class',
-            grepl('p__', NCBI_ID) ~ 'phylum',
-            grepl('d__', NCBI_ID) ~ 'domain',
-            TRUE ~ Rank),
-        Attribute = sub(' ', '_', Attribute)
-    )
-## A file with categorical labels for numeric values
-full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
-fname <- paste0("full_dump_bugphyzz.csv.bz2")
-unlink(fname)
-con <- bzfile(fname, "w")
-write.csv(full_dump, file = con, quote = TRUE, row.names = FALSE)
+full_dump_cat$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump_cat$NCBI_ID)
+full_dump_cat$Attribute <- sub(' ', '_', full_dump_cat$Attribute)
+fname2 <- paste0("full_dump_categorical.csv.bz2")
+unlink(fname2)
+con <- bzfile(fname2, "w")
+write.csv(full_dump_cat, file = con, quote = TRUE, row.names = FALSE)
 close(con)
 
-## Create and export dump file(s)
-## A file with numeric values
-## TODO
-
-## A file with categorical labels for numeric values
-full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
-fname <- paste0("full_dump_bugphyzz.csv.bz2")
-unlink(fname)
-con <- bzfile(fname, "w")
-write.csv(full_dump, file = con, quote = TRUE, row.names = FALSE)
-close(con)
-
-## Code for creating signatures
-
+## Code for creating signatures and exporting signatures
+## Add headers
 ## TODO
