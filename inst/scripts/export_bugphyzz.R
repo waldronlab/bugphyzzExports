@@ -288,7 +288,7 @@ makeAllSignatures <- function(header = .getHeader()) {
 
 # Code starts -------------------------------------------------------------
 
-message('>>>>>>> Importing data', Sys.time(), ' <<<<<<')
+message('>>>>>>> Importing data ', Sys.time(), ' <<<<<<')
 
 phys_names <- c(
     ## Categorical
@@ -321,7 +321,7 @@ attributes <- read.table(fname, header = TRUE, sep = '\t')
 phys <- map(phys, ~ filter(.x, Attribute %in% unique(attributes$attribute)))
 phys <- keep(phys, ~ nrow(.x) > 0)
 
-message('>>>>>>> Preparing data', Sys.time(), ' <<<<<<')
+message('>>>>>>> Preparing data ', Sys.time(), ' <<<<<<')
 
 ## Prepare data in an uniform format before running propagation.
 ## Functions from the taxPPro package (currently at sdgamboa/taxPPro)
@@ -338,7 +338,7 @@ for (i in seq_along(data_ready)) {
 }
 data_ready <- discard(data_ready, is_error)
 
-message('>>>>>>> Propagating data', Sys.time(), ' <<<<<<')
+message('>>>>>>> Propagating data ', Sys.time(), ' <<<<<<')
 ## Run propagation with functions from the taxPPro package.
 ## Output is a data.tree R6 object.
 data('tree_list')
@@ -383,7 +383,7 @@ data_ready <- data_ready |>
         .x
     })
 
-message('>>>>>>> Creaing output data', Sys.time(), ' <<<<<<')
+message('>>>>>>> Creaing output data ', Sys.time(), ' <<<<<<')
 
 ## Some final edits to the output data.frames
 ## In the code below, '__' was used to mark the attributes specific
@@ -456,7 +456,7 @@ for (i in seq_along(output)) {
 }
 
 
-message('>>>>>>> Exporting first dump file', Sys.time(), ' <<<<<<')
+message('>>>>>>> Exporting first dump file ', Sys.time(), ' <<<<<<')
 
 ## Code for a first dump file, containing only numeric attributes.
 # numeric_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'range')
@@ -472,7 +472,7 @@ close(con)
 
 ## Add code here for automatically selecting thresholds, filtering, and
 ## changing numeric attributes to categorical/logical
-message('>>>>>>> Exporting second dump file', Sys.time(), ' <<<<<<')
+message('>>>>>>> Exporting second dump file ', Sys.time(), ' <<<<<<')
 
 categorical_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'logical')
 numeric_attributes_with_thr <- keep(
@@ -496,7 +496,7 @@ con <- bzfile(fname2, "w")
 write.csv(full_dump_cat, file = con, quote = TRUE, row.names = FALSE)
 close(con)
 
-message('>>>>>>> Finished exporting dump files', Sys.time(), ' <<<<<<')
+message('>>>>>>> Finished exporting dump files ', Sys.time(), ' <<<<<<')
 
 ## Code for creating signatures and exporting signatures
 ## Add headers
