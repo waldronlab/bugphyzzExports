@@ -1,5 +1,5 @@
-
 ## Script to create bugphyzz exports dump files and signature files
+
 library(bugphyzz)
 library(taxPPro)
 library(purrr)
@@ -79,7 +79,7 @@ library(bugphyzzExports)
         "acidic" = list(lower = NA, upper = 5),
         "neutral" = list(lower = 6, upper = 7),
         "alkaline" = list(lower = 8, upper = 9.75),
-        "very alkaline" = list(lower = 9.76, upper = 11.25)
+        "very alkaline" = list(lower = 9.76, upper = NA)
     ),
     "width" = list(
         "small" = list(lower = NA, upper = 0.9),
@@ -286,9 +286,15 @@ makeAllSignatures <- function(header = .getHeader()) {
 
 # makeAllSignatures()
 
+message('>>>>>>> Importing data', Sys.time(), ' <<<<<<')
 
 phys_names <- c(
-    'aerophilicity', 'growth temperature'
+    ## Categorical
+    'aerophilicity',
+
+    ## Numeric
+    'growth temperature',
+    'optimal ph'
 )
 # phys_names <- 'all'
 phys <- physiologies(phys_names, remove_false = TRUE, full_source = FALSE)
@@ -312,6 +318,8 @@ attributes <- read.table(fname, header = TRUE, sep = '\t')
 phys <- map(phys, ~ filter(.x, Attribute %in% unique(attributes$attribute)))
 phys <- keep(phys, ~ nrow(.x) > 0)
 
+message('>>>>>>> Preparing data', Sys.time(), ' <<<<<<')
+
 ## Prepare data in an uniform format before running propagation.
 ## Functions from the taxPPro package (currently at sdgamboa/taxPPro)
 data_ready <- vector('list', length(phys))
@@ -327,6 +335,7 @@ for (i in seq_along(data_ready)) {
 }
 data_ready <- discard(data_ready, is_error)
 
+message('>>>>>>> Propagating data', Sys.time(), ' <<<<<<')
 ## Run propagation with functions from the taxPPro package.
 ## Output is a data.tree R6 object.
 data('tree_list')
@@ -370,6 +379,8 @@ data_ready <- data_ready |>
         }
         .x
     })
+
+message('>>>>>>> Creaing output data', Sys.time(), ' <<<<<<')
 
 ## Some final edits to the output data.frames
 ## In the code below, '__' was used to mark the attributes specific
@@ -441,6 +452,9 @@ for (i in seq_along(output)) {
     }
 }
 
+
+message('>>>>>>> Exporting first dump file', Sys.time(), ' <<<<<<')
+
 ## Code for a first dump file, containing only numeric attributes.
 # numeric_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'range')
 numeric_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'range')
@@ -455,6 +469,8 @@ close(con)
 
 ## Add code here for automatically selecting thresholds, filtering, and
 ## changing numeric attributes to categorical/logical
+message('>>>>>>> Exporting second dump file', Sys.time(), ' <<<<<<')
+
 categorical_attributes <- keep(output, ~ unique(.x$Attribute_type) == 'logical')
 numeric_attributes_with_thr <- keep(
     .x = numeric_attributes,
@@ -476,6 +492,8 @@ unlink(fname2)
 con <- bzfile(fname2, "w")
 write.csv(full_dump_cat, file = con, quote = TRUE, row.names = FALSE)
 close(con)
+
+message('>>>>>>> Finished exporting dump files', Sys.time(), ' <<<<<<')
 
 ## Code for creating signatures and exporting signatures
 ## Add headers
