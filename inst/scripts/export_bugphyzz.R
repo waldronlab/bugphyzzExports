@@ -85,7 +85,7 @@ library(bugphyzzExports)
         "small" = list(lower = NA, upper = 0.9),
         "average" = list(lower = 0.91, upper = 3.5),
         "large" = list(lower = 3.51, upper = 12),
-        "very large" = list(lower = 13, upper = 100)
+        "very large" = list(lower = 13, upper = NA)
     )
 )
 
@@ -297,7 +297,8 @@ phys_names <- c(
 
     ## Numeric
     'growth temperature',
-    'optimal ph'
+    'optimal ph',
+    'width'
 )
 # phys_names <- 'all'
 phys <- physiologies(phys_names, remove_false = TRUE, full_source = FALSE)
