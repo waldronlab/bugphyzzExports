@@ -34,3 +34,11 @@ is run.
 ```
 Rscript bugphyzzExports\inst\script\export_bugphyzz.R
 ```
+When on supermicro
+
+```
+/usr/bin/Rscript --vanilla inst/scripts/export_bugphyzz.R
+```
+
+
+

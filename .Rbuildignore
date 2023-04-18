@@ -1,5 +1,5 @@
-*.csv$
-*.gmt$
+.*csv$
+.*gmt$
 ^LICENSE$
 ^README\.Rmd$
 ^curatedMetagenomicData\.Rproj$
