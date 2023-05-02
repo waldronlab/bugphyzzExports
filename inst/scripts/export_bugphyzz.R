@@ -294,6 +294,7 @@ phys_names <- c(
     ## Categorical
     'aerophilicity',
     'gram stain',
+    'shape',
 
     ## Numeric
     'growth temperature',
