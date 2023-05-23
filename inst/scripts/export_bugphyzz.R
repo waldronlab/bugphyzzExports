@@ -419,7 +419,7 @@ for (i in seq_along(output)) {
             ## propagation step
             k <- k[which(k$Evidence %in% c('asr', 'inh')),]
             k$Frequency <- scores2Freq(k$Score)
-            k <- k[which(k$Frequency != 'unknown'),]
+            # k <- k[which(k$Frequency != 'unknown'),]
             k
         })
         names(data) <- attr_names
@@ -448,7 +448,7 @@ for (i in seq_along(output)) {
         ## Filter asr and inh from the propagation output
         data <- data[which(data$Evidence %in% c('asr', 'inh')),]
         data$Frequency <- scores2Freq(data$Score)
-        data <- data[which(data$Frequency != 'unknown'),]
+        # data <- data[which(data$Frequency != 'unknown'),]
         attr_grp <- unique(data_ready[[names(dfs)[i]]][['Attribute_group']])
         data[['Attribute_group']] <- attr_grp
         data[['Attribute_type']] <- 'range'
