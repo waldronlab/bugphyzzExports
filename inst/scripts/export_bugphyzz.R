@@ -295,6 +295,14 @@ phys_names <- c(
     'aerophilicity',
     'gram stain',
     'shape',
+    'acetate producing',
+    # 'animal pathogen',
+    'arrangement',
+    'biofilm forming',
+    # 'biosafety level',
+    # 'butyrate producing',
+    # 'disease association',
+    'halophily',
 
     ## Numeric
     'growth temperature',
