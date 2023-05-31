@@ -331,8 +331,19 @@ attributes <- read.table(fname, header = TRUE, sep = '\t')
 phys <- map(phys, ~ filter(.x, Attribute %in% unique(attributes$attribute)))
 phys <- keep(phys, ~ nrow(.x) > 0)
 
-message('>>>>>>> Preparing data ', Sys.time(), ' <<<<<<')
+## This code is to make sure all annotations in the aerophilicity dataset
+## are at the same level in the GO tree
+phys$aerophilicity <- phys$aerophilicity |>
+    mutate(
+        Attribute = case_when(
+            Attribute == 'obligately anaerobic' ~ 'anaerobic',
+            Attribute == 'microaerophilic' ~ 'aerobic',
+            Attribute == 'obligately aerobic' ~ 'aerobic',
+            TRUE ~ Attribute
+        )
+    )
 
+message('>>>>>>> Preparing data ', Sys.time(), ' <<<<<<')
 ## Prepare data in an uniform format before running propagation.
 ## Functions from the taxPPro package (currently at sdgamboa/taxPPro)
 data_ready <- vector('list', length(phys))
