@@ -46,3 +46,161 @@ rangeToLogicalThr <- function(df, thresholds) {
     output <- dplyr::bind_rows(subsets)
     return(output)
 }
+
+
+
+# library(bugsigdbr)
+# library(readr)
+
+# Lower bounds are excluded but upper bounds are included
+
+.THRESHOLDS <- list(
+    "acetate producing" = list(
+        "small" = list(lower = NA, upper = 0.7),
+        "moderate" = list(lower = 0.71, upper = 7.2),
+        "large" = list(lower = 7.21, upper = 47.9)
+    ),
+    "butyrate producing" = list(
+        "low" = list(lower = NA, upper = 4.9),
+        "medium" = list(lower = 4.91, upper = 12.7),
+        "high" = list(lower = 12.71, upper = 21.3)
+    ),
+    "coding genes" = list(
+        "very small" = list(lower = NA, upper = 473),
+        "small" = list(lower = 474, upper = 600),
+        "average" = list(lower = 601, upper = 6000),
+        "very large" = list(lower = 6001, upper = 999999999999)
+    ),
+    "fatty acid" = list(
+        "minimally present" = list(lower = NA, upper = 0.99),
+        "lower concentration" = list(lower = 0.991, upper = 23.2),
+        "concentrated" = list(lower = 23.21, upper = 55.5),
+        "very concentrated" = list(lower = 55.51, upper = 76.6)
+    ),
+    "genome size" = list(
+        "small" = list(lower = NA, upper = 490885),
+        "average" = list(lower = 490886, upper = 998123),
+        "large" = list(lower = 998124, upper = 6997434),
+        "very large" = list(lower = 6997435, upper = 16040666)
+    ),
+    "growth temperature" = list(
+        "psychrophile" = list(lower = NA, upper = 24.9),
+        "mesophile" = list(lower = 25, upper = 45),
+        "thermophile" = list(lower = 46, upper = 60),
+        "hyperthermophile" = list(lower = 61, upper = NA)
+    ),
+    "hydrogen gas producing" = list(
+        "low" = list(lower = NA, upper = 1.7),
+        "medium" = list(lower = 1.6, upper = 4.3),
+        "high" = list(lower = 4.4, upper = 14.8)
+    ),
+    "lactate producing" = list(
+        "low" = list(lower = NA, upper = 2.1),
+        "medium" = list(lower = 2.1, upper = 7.1),
+        "high" = list(lower = 7.1, upper = 26.5)
+    ),
+    "length" = list(
+        "small" = list(lower = NA, upper = 3.8),
+        "average" = list(lower = 3.9, upper = 22),
+        "large" = list(lower = 23, upper = 60),
+        "very large" = list(lower = 61, upper = 250)
+    ),
+    "mutation rate per site per generation" = list(
+        "slow" = list(lower = NA, upper = 2.92),
+        "medium" = list(lower = 2.93, upper = 16),
+        "fast" = list(lower = 17, upper = 97.8)
+    ),
+    "mutation rate per site per year" = list(
+        "slow" = list(lower = NA, upper = 7.5),
+        "medium" = list(lower = 7.6, upper = 20),
+        "medium fast" = list(lower = 21, upper = 54.2),
+        "fast" = list(lower = 54.3, upper = 410)
+    ),
+    "optimal ph" = list(
+        "acidic" = list(lower = NA, upper = 5),
+        "neutral" = list(lower = 6, upper = 7),
+        "alkaline" = list(lower = 8, upper = 9.75),
+        "very alkaline" = list(lower = 9.76, upper = NA)
+    ),
+    "width" = list(
+        "small" = list(lower = NA, upper = 0.9),
+        "average" = list(lower = 0.91, upper = 3.5),
+        "large" = list(lower = 3.51, upper = 12),
+        "very large" = list(lower = 13, upper = NA)
+    )
+)
+
+.TAX.LEVELS <- c("species", "genus")
+
+.TAX.ID.TYPES <- c("Taxon_name", "NCBI_ID")
+
+#' Returns if a physiology has manually curated thresholds
+#'
+#' @param physiology the name of a physiology
+#'
+#' @return boolean
+#'
+#' @examples
+#' .hasSpecialThreshold()
+.hasSpecialThresholds <- function(physiology) {
+    physiology %in% names(.THRESHOLDS)
+}
+
+#' Returns a physiology's manually curated thresholds
+#'
+#' @param physiology the name of a physiology
+#'
+#' @return list of lists representing threshold ranges
+#'
+#' @examples
+#' .getSpecialThreshold()
+.getSpecialThresholds <- function(physiology) {
+    .THRESHOLDS[[physiology]]
+}
+
+
+#' Header for bugphyzz files
+#'
+#' @param identifier any character vector. Defaults to today.
+#'
+#' @examples
+#' .getHeader("3.17")
+.getHeader <- function(identifier = format(Sys.time(), "%Y-%m-%d")) {
+    paste0("# bugphyzz ", identifier,
+           ", License: Creative Commons Attribution 4.0 International",
+           ", URL: https://waldronlab.io/bugphyzz")
+}
+
+#' Write a header for a file given its path
+#'
+#' @param file_path path to the file
+#' @param header a character vector representing the header
+#'
+#' @importFrom readr read_lines write_lines
+#'
+#' @examples
+#' writeHeader(file.path(tempdir(), "test.txt"))
+.writeHeader <- function(file_path, header = header) {
+    lines <- read_lines(file_path)
+    write_lines(c(header, lines), file_path)
+}
+
+#' Write file given a signature with header
+#'
+#' @param signatures to write to file
+#' @param file_path to write a file
+#' @param header a character vector representing the header
+#'
+#' @importFrom bugsigdbr writeGMT
+#' @importFrom readr write_csv
+#'
+#' @examples
+#' writeFileWithHeader(signatures, "mysigs.gmt", .getHeader())
+.writeFileWithHeader <- function(signatures, file_path, header = header) {
+    writeGMT(signatures, file_path)
+    .writeHeader(file_path, header)
+}
+
+
+
+

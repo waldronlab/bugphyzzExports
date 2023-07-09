@@ -2,3 +2,7 @@
 
 export(rangeToLogicalThr)
 export(subsetByThreshold)
+importFrom(bugsigdbr,writeGMT)
+importFrom(readr,read_lines)
+importFrom(readr,write_csv)
+importFrom(readr,write_lines)
