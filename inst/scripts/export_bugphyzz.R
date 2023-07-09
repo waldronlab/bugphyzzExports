@@ -117,77 +117,6 @@ library(bugphyzzExports)
     .THRESHOLDS[[physiology]]
 }
 
-#' Get list of physiology signatures by attributes and attribute values
-#'
-#' @param physiology data frame from bugphyzz
-#' @param tax.id.type "Taxon_name" or "NCBI_ID"
-#' @param tax.level "species" or "genus"
-#' @return list of signature lists
-#'
-#' @importFrom bugphyzz makeSignatures
-#'
-#' @example
-#' ps <- physiologies()
-#' p <- ps$`animal pathogen`
-#' .getSignaturesByThreshold(p, "species", "Taxon_name")
-.getSignaturesByThreshold <- function(physiology,
-                                      tax.id.type = .TAX.ID.TYPES,
-                                      tax.level = .TAX.LEVELS,
-                                      lower.bound = NA,
-                                      upper.bound = NA) {
-    if (is.na(lower.bound) && is.na(upper.bound))
-        makeSignatures(physiology, tax.id.type, tax.level)
-    else if (is.na(lower.bound))
-        makeSignatures(physiology, tax.id.type, tax.level, max = upper.bound)
-    else if (is.na(upper.bound))
-        makeSignatures(physiology, tax.id.type, tax.level, min = lower.bound)
-    else {
-        makeSignatures(physiology, tax.id.type, tax.level, min = lower.bound,
-                       max = upper.bound)
-    }
-}
-
-#' Make bugphyzz signatures
-#'
-#' @param ps list of data frames of physiologies from bugphyzz
-#' @param tax.id.type a value in .TAX.ID.TYPES
-#' @param tax.level a value in .TAX.LEVELS
-#' @return a list of data frames representing signatures
-#'
-#' @importFrom bugphyzz fattyAcidComposition physiologies physiologiesList
-#'             makeSignatures
-#' @importFrom dplyr filter select
-#'
-#' @export
-#'
-#' @examples
-#' .makeSignaturesByTaxIdAndLevel(fattyAcidComposition(), physiologies(),
-#'                               "species", "NCBI_ID")
-.makeSignaturesByTaxIdAndLevel <- function(ps = physiologies(),
-                                           tax.id.type = .TAX.ID.TYPES,
-                                           tax.level = .TAX.LEVELS) {
-    signatures <- list()
-    for (p in names(ps)) {
-        if (.hasSpecialThresholds(p)) {
-            thresholds <- .getSpecialThresholds(p)
-            for (threshold in names(thresholds)) {
-                lower_bound <- thresholds[[threshold]]$lower
-                upper_bound <- thresholds[[threshold]]$upper
-                signatures <- append(signatures,
-                                     .getSignaturesByThreshold(p,
-                                                               tax.id.type,
-                                                               tax.level,
-                                                               lower_bound,
-                                                               upper_bound))
-            }
-        } else {
-            signatures <- append(signatures, makeSignatures(p,
-                                                            tax.id.type,
-                                                            tax.level))
-        }
-    }
-    signatures
-}
 
 #' Header for bugphyzz files
 #'
@@ -231,60 +160,6 @@ library(bugphyzzExports)
     .writeHeader(file_path, header)
 }
 
-#' Write a full dump csv
-#'
-#' Include only similar columns
-#'
-#' @param file_path to write a file
-#' @param ps physiologies data frame from bugphyzz
-#' @param header a character vector representing the header
-#'
-#' @importFrom bugphyzz fattyAcidComposition physiologies
-#' @importFrom readr write_csv
-#'
-#' @examples
-#' makeFullDump(fattyAcidComposition(), physiologies())
-.makeFullDump <- function(file_path, ps = physiologies(), header = header) {
-    colname_intersection <- Reduce(intersect, lapply(ps, colnames))
-    all_ps_ci <- lapply(ps, function(p) p[colname_intersection])
-    for (i in 1:length(all_ps_ci)) {
-        write_csv(all_ps_ci[[i]], file_path, col_names = i == 1, append = i != 1)
-    }
-    .writeHeader(file_path, header)
-}
-
-#' Make all signatures
-#'
-#' Write four files for the combinations of .TAX.LEVELS and .TAX.ID.TYPES
-#'
-#' @param header a character vector representing the header. Use default header
-#' with date.
-#'
-#' @importFrom bugphyzz fattyAcidComposition physiologies
-#'
-#' @export
-#'
-#' @examples
-#' makeAllSignatures()
-makeAllSignatures <- function(header = .getHeader()) {
-    ps <- physiologies()
-    # fac <- fattyAcidComposition()
-    # ps[["fatty acid composition"]] <- fac
-    for (tax.level in .TAX.LEVELS) {
-        for (tax.id.type in .TAX.ID.TYPES) {
-            file_path <- file.path(tolower(paste0("bugphyzz-", tax.id.type, "-",
-                                                  tax.level, ".gmt")))
-
-            .writeFileWithHeader(
-                .makeSignaturesByTaxIdAndLevel(ps, tax.id.type, tax.level),
-                file_path,
-                header)
-        }
-    }
-    .makeFullDump("full_dump.csv", ps, header = header)
-}
-
-# makeAllSignatures()
 
 # Code starts -------------------------------------------------------------
 
