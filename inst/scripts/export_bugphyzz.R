@@ -294,20 +294,20 @@ phys_names <- c(
     ## Categorical
     'aerophilicity',
     'gram stain',
-    'shape',
-    'acetate producing',
+    # 'shape',
+    # 'acetate producing',
     # 'animal pathogen',
-    'arrangement',
-    'biofilm forming',
+    # 'arrangement',
+    # 'biofilm forming',
     # 'biosafety level',
     # 'butyrate producing',
     # 'disease association',
-    'halophily',
+    # 'halophily',
 
     ## Numeric
-    'growth temperature',
-    'optimal ph',
-    'width'
+    'growth temperature'
+    # 'optimal ph',
+    # 'width'
 )
 # phys_names <- 'all'
 phys <- physiologies(phys_names, remove_false = TRUE, full_source = FALSE)
