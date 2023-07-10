@@ -9,23 +9,52 @@ library(data.tree)
 library(bugphyzzExports)
 
 phys_names <- c(
-    ## Categorical
-    'aerophilicity',
-    # 'gram stain',
-    # 'shape',
-    # 'acetate producing',
-    # 'animal pathogen',
-    # 'arrangement',
-    # 'biofilm forming',
-    # 'biosafety level',
-    # 'butyrate producing',
-    # 'disease association',
-    # 'halophily',
 
-    ## ranges
-    'growth temperature',
-    'optimal ph'
-    # 'width'
+    ## Categorical attributes <<<<
+
+    # "acetate producing",
+    "aerophilicity",
+    # "animal pathogen",
+    # "antimicrobial resistance",
+    # "antimicrobial sensitivity",
+    # "arrangement",
+    # "biofilm forming",
+    # "biosafety level",
+    # "butyrate producing",
+    # "COGEM pathogenicity rating",
+    # "country",
+    # "disease association",
+    # "extreme environment",
+    # "geographic location",
+    # "gram stain",
+    # "growth medium",
+    # "habitat",
+    # "health associated",
+    # "hemolysis",
+    # "hydrogen gas producing",
+    # "isolation site",
+    # "lactate producing",
+    # "metabolite production",
+    # "metabolite utilization",
+    # "motility",
+    # "pathogenicity human",
+    # "plant pathogenicity",
+    # "shape",
+    # "sphingolipid producing",
+    # "spore formation",
+    # "spore shape",
+
+    ## Ranges <<<<
+
+    # "coding genes",
+    # "genome size",
+    "growth temperature",
+    # "halophily",
+    # "length",
+    # "mutation rate per site per generation",
+    # "mutation rates per site per year",
+    "optimal ph"
+    # "width",
 )
 phys <- physiologies(phys_names, full_source = FALSE) |>
     map(removeAccessionAndGenomeID)
