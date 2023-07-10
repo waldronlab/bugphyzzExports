@@ -10,51 +10,51 @@ library(bugphyzzExports)
 
 phys_names <- c(
 
-    ## Categorical attributes <<<<
+    ## Categorical <<<<
 
-    # "acetate producing",
+    "acetate producing",
     "aerophilicity",
-    # "animal pathogen",
-    # "antimicrobial resistance",
-    # "antimicrobial sensitivity",
+    "animal pathogen",
+    "antimicrobial resistance",
+    "antimicrobial sensitivity",
     # "arrangement",
     # "biofilm forming",
     # "biosafety level",
-    # "butyrate producing",
+    "butyrate producing",
     # "COGEM pathogenicity rating",
     # "country",
     # "disease association",
     # "extreme environment",
     # "geographic location",
-    # "gram stain",
+    "gram stain",
     # "growth medium",
     # "habitat",
-    # "health associated",
+    "health associated",
     # "hemolysis",
-    # "hydrogen gas producing",
+    "hydrogen gas producing",
     # "isolation site",
-    # "lactate producing",
+    "lactate producing",
     # "metabolite production",
     # "metabolite utilization",
     # "motility",
-    # "pathogenicity human",
-    # "plant pathogenicity",
-    # "shape",
-    # "sphingolipid producing",
-    # "spore formation",
-    # "spore shape",
+    "pathogenicity human",
+    "plant pathogenicity",
+    "shape",
+    "sphingolipid producing",
+    "spore formation",
+    "spore shape",
 
     ## Ranges <<<<
 
     # "coding genes",
     # "genome size",
     "growth temperature",
-    # "halophily",
-    # "length",
+    "halophily",
+    "length",
     # "mutation rate per site per generation",
     # "mutation rates per site per year",
-    "optimal ph"
-    # "width",
+    "optimal ph",
+    "width"
 )
 phys <- physiologies(phys_names, full_source = FALSE) |>
     map(removeAccessionAndGenomeID)
@@ -154,5 +154,3 @@ unlink(full_dump_fname)
 con <- bzfile(full_dump_fname, "w")
 write.csv(x = full_dump, file = con, quote = TRUE, row.names = FALSE)
 close(con)
-
-
