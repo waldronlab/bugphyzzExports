@@ -7,8 +7,8 @@
 #' @export
 #'
 subsetByThreshold <- function(df, thr) {
-    lower <- thr$lower
-    upper <- thr$upper
+    lower <- thr[['lower']]
+    upper <- thr[['upper']]
     if (is.na(lower)) {
         output <- df[which(df$Attribute_value_max < upper),]
     } else if (is.na(upper)) {
@@ -37,102 +37,84 @@ rangeToLogicalThr <- function(df, thresholds) {
     for (i in seq_along(thresholds)) {
         names(subsets)[i] <- thr_names[i]
         x <- subsetByThreshold(df, thresholds[[i]])
-        x$Attribute <- paste0(attr_grp, ':', thr_names[i])
+        x$Attribute <- thr_names[i]
         x$Attribute_value_min <- NULL
         x$Attribute_value_max <- NULL
         x$Attribute_value <- TRUE
+        x$Attribute_type <- 'logical'
         subsets[[i]] <- x
     }
-    output <- dplyr::bind_rows(subsets)
+    output <- dplyr::bind_rows(subsets) |>
+        dplyr::distinct()
     return(output)
 }
 
-
-
-# library(bugsigdbr)
-# library(readr)
-
-# Lower bounds are excluded but upper bounds are included
-
-.THRESHOLDS <- list(
-    "acetate producing" = list(
-        "small" = list(lower = NA, upper = 0.7),
-        "moderate" = list(lower = 0.71, upper = 7.2),
-        "large" = list(lower = 7.21, upper = 47.9)
-    ),
-    "butyrate producing" = list(
-        "low" = list(lower = NA, upper = 4.9),
-        "medium" = list(lower = 4.91, upper = 12.7),
-        "high" = list(lower = 12.71, upper = 21.3)
-    ),
-    "coding genes" = list(
-        "very small" = list(lower = NA, upper = 473),
-        "small" = list(lower = 474, upper = 600),
-        "average" = list(lower = 601, upper = 6000),
-        "very large" = list(lower = 6001, upper = 999999999999)
-    ),
-    "fatty acid" = list(
-        "minimally present" = list(lower = NA, upper = 0.99),
-        "lower concentration" = list(lower = 0.991, upper = 23.2),
-        "concentrated" = list(lower = 23.21, upper = 55.5),
-        "very concentrated" = list(lower = 55.51, upper = 76.6)
-    ),
-    "genome size" = list(
-        "small" = list(lower = NA, upper = 490885),
-        "average" = list(lower = 490886, upper = 998123),
-        "large" = list(lower = 998124, upper = 6997434),
-        "very large" = list(lower = 6997435, upper = 16040666)
-    ),
-    "growth temperature" = list(
-        "psychrophile" = list(lower = NA, upper = 24.9),
-        "mesophile" = list(lower = 25, upper = 45),
-        "thermophile" = list(lower = 46, upper = 60),
-        "hyperthermophile" = list(lower = 61, upper = NA)
-    ),
-    "hydrogen gas producing" = list(
-        "low" = list(lower = NA, upper = 1.7),
-        "medium" = list(lower = 1.6, upper = 4.3),
-        "high" = list(lower = 4.4, upper = 14.8)
-    ),
-    "lactate producing" = list(
-        "low" = list(lower = NA, upper = 2.1),
-        "medium" = list(lower = 2.1, upper = 7.1),
-        "high" = list(lower = 7.1, upper = 26.5)
-    ),
-    "length" = list(
-        "small" = list(lower = NA, upper = 3.8),
-        "average" = list(lower = 3.9, upper = 22),
-        "large" = list(lower = 23, upper = 60),
-        "very large" = list(lower = 61, upper = 250)
-    ),
-    "mutation rate per site per generation" = list(
-        "slow" = list(lower = NA, upper = 2.92),
-        "medium" = list(lower = 2.93, upper = 16),
-        "fast" = list(lower = 17, upper = 97.8)
-    ),
-    "mutation rate per site per year" = list(
-        "slow" = list(lower = NA, upper = 7.5),
-        "medium" = list(lower = 7.6, upper = 20),
-        "medium fast" = list(lower = 21, upper = 54.2),
-        "fast" = list(lower = 54.3, upper = 410)
-    ),
-    "optimal ph" = list(
-        "acidic" = list(lower = NA, upper = 5),
-        "neutral" = list(lower = 6, upper = 7),
-        "alkaline" = list(lower = 8, upper = 9.75),
-        "very alkaline" = list(lower = 9.76, upper = NA)
-    ),
-    "width" = list(
-        "small" = list(lower = NA, upper = 0.9),
-        "average" = list(lower = 0.91, upper = 3.5),
-        "large" = list(lower = 3.51, upper = 12),
-        "very large" = list(lower = 13, upper = NA)
+#' THRESHOLDS
+#'
+#' \code{THRESHOLDS} this function returns a list of thresholds for numeric
+#' attributes. This woud allow to convert them to categorical/logical in
+#' order to use them in the propagation workflow.
+#'
+#' @return A named nested list.
+#' @export
+#'
+THRESHOLDS <- function() {
+    list(
+        `coding genes` = list(
+            `very small` = c(lower = NA, upper = 473),
+            small = c(lower = 474, upper = 600),
+            average = c(lower = 601, upper = 6000),
+            `very large` = c(lower = 6001, upper = NA)
+        ),
+        `fatty acid` = list(
+            `minimally present` = c(lower = NA, upper = 0.99),
+            `lower concentration` = c(lower = 0.991, upper = 23.2),
+            concentrated = c(lower = 23.21, upper = 55.5),
+            `very concentrated` = c(lower = 55.51, upper = NA)
+        ),
+        `genome size` = list(
+            small = c(lower = NA, upper = 490885),
+            average = c(lower = 490886, upper = 998123),
+            large = c(lower = 998124, upper = 6997434),
+            `very large` = c(lower = 6997435, upper = NA)
+        ),
+        `growth temperature` = list(
+            psychrophile = c(lower = NA, upper = 24.9),
+            mesophile = c(lower = 25, upper = 45),
+            thermophile = c(lower = 46, upper = 60),
+            hyperthermophile = c(lower = 61, upper = NA)
+        ),
+        length = list(
+            small = c(lower = NA, upper = 3.8),
+            average = c(lower = 3.9, upper = 22),
+            large = c(lower = 23, upper = 60),
+            `very large` = c(lower = 61, upper = NA)
+        ),
+        `mutation rate per site per generation` = list(
+            slow = c(lower = NA, upper = 2.92),
+            medium = c(lower = 2.93, upper = 16),
+            fast = c(lower = 17, upper = NA)
+        ),
+        `mutation rate per site per year` = list(
+            slow = c(lower = NA, upper = 7.5),
+            medium = c(lower = 7.6, upper = 20),
+            `medium fast` = c(lower = 21, upper = 54.2),
+            fast = c(lower = 54.3, upper = NA)
+        ),
+        `optimal ph` = list(
+            acidic = c(lower = NA, upper = 5),
+            neutral = c(lower = 6, upper = 7),
+            alkaline = c(lower = 8, upper = 9.75),
+            `very alkaline` = c(lower = 9.76, upper = NA)
+        ),
+        width = list(
+            small = c(lower = NA, upper = 0.9),
+            average = c(lower = 0.91, upper = 3.5),
+            large = c(lower = 3.51, upper = 12),
+            `very large` = c(lower = 13, upper = NA)
+        )
     )
-)
-
-.TAX.LEVELS <- c("species", "genus")
-
-.TAX.ID.TYPES <- c("Taxon_name", "NCBI_ID")
+}
 
 #' Returns if a physiology has manually curated thresholds
 #'
@@ -145,19 +127,6 @@ rangeToLogicalThr <- function(df, thresholds) {
 .hasSpecialThresholds <- function(physiology) {
     physiology %in% names(.THRESHOLDS)
 }
-
-#' Returns a physiology's manually curated thresholds
-#'
-#' @param physiology the name of a physiology
-#'
-#' @return list of lists representing threshold ranges
-#'
-#' @examples
-#' .getSpecialThreshold()
-.getSpecialThresholds <- function(physiology) {
-    .THRESHOLDS[[physiology]]
-}
-
 
 #' Header for bugphyzz files
 #'
@@ -200,7 +169,3 @@ rangeToLogicalThr <- function(df, thresholds) {
     writeGMT(signatures, file_path)
     .writeHeader(file_path, header)
 }
-
-
-
-
