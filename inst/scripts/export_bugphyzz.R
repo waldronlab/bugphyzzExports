@@ -7,6 +7,7 @@ library(rlang)
 library(dplyr)
 library(data.tree)
 library(bugphyzzExports)
+library(BiocParallel)
 
 phys_names <- c(
 
@@ -56,14 +57,12 @@ phys_names <- c(
     "optimal ph",
     "width"
 )
-phys <- physiologies(phys_names, full_source = FALSE) |>
-    map(removeAccessionAndGenomeID)
 
-categorical <- keep(phys, ~ unique(.x$Attribute_type == 'logical'))
+phys <- physiologies(phys_names, full_source = FALSE)
+categorical <- keep(phys, ~ unique(.x$Attribute_type) == 'logical')
 categorical$aerophilicity <- homogenizeAerophilicityAttributeNames(
     categorical$aerophilicity
 )
-
 range <- keep(phys, ~ unique(.x$Attribute_type == 'range'))
 range <- range[which(names(range) %in% names(THRESHOLDS()))]
 range_cat <- map2(range, names(range), ~ rangeToLogicalThr(.x, THRESHOLDS()[[.y]]))
@@ -71,20 +70,18 @@ categorical <- c(categorical, range_cat)
 
 ## Make sure that only valid attribute values are included.
 fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
-attributes <- read.table(fname, header = TRUE, sep = '\t')
+valid_attributes <- read.table(fname, header = TRUE, sep = '\t')
 
+data <- bplapply(categorical, function(x) {
+    filter(x, Attribute %in% unique(valid_attributes$attribute))
+}) |>
+    discard(~ !nrow(.x))
 
-data <- map(categorical, ~ filter(.x, Attribute %in% unique(attributes$attribute)))
-data <- keep(data, ~ nrow(.x) > 0)
-
-data_ready <- vector('list', length(data))
-for (i in seq_along(data_ready)) {
-    message('Preparing ', names(data)[i], '.')
-    names(data_ready)[i] <- names(data)[i]
-    data_ready[[i]] <- tryCatch(
+data_ready <- bplapply(data, function(x) {
+    tryCatch(
         error = function(e) e,
         {
-            data[[i]] |>
+            x |>
                 prepareDataForPropagation() |>
                 mergeOriginalAndEarlyASR() |>
                 group_by(NCBI_ID) |>
@@ -93,15 +90,31 @@ for (i in seq_along(data_ready)) {
                 distinct()
         }
     )
-}
+})
 data_ready <- discard(data_ready, is_error)
 
-message('>>>>>>> Propagating data ', Sys.time(), ' <<<<<<')
+# data_ready <- vector('list', length(data))
+# for (i in seq_along(data_ready)) {
+#     message('Preparing ', names(data)[i], '.')
+#     names(data_ready)[i] <- names(data)[i]
+#     data_ready[[i]] <- tryCatch(
+#         error = function(e) e,
+#         {
+#             data[[i]] |>
+#                 prepareDataForPropagation() |>
+#                 mergeOriginalAndEarlyASR() |>
+#                 group_by(NCBI_ID) |>
+#                 mutate(Score = Score / sum(Score)) |>
+#                 ungroup() |>
+#                 distinct()
+#         }
+#     )
+# }
 data('tree_list')
 tree <- as.Node(tree_list)
-propagated <- vector('list', length(data_ready))
-for (i in seq_along(propagated)) {
-    input_tbl <- data_ready[[i]] |>
+
+propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
+    input_tbl <- x |>
         select(NCBI_ID, Attribute, Score, Evidence) |>
         distinct() |>
         tidyr::complete(
@@ -121,7 +134,7 @@ for (i in seq_along(propagated)) {
         dplyr::bind_rows() |>
         relocate(NCBI_ID)
 
-    attrs <- unique(data[[i]]$Attribute)
+    attrs <- unique(x$Attribute)
     all_node_names <- tree$Get(function(node) node$name, simplify = FALSE) |>
         unlist(recursive = TRUE, use.names = FALSE) |>
         unique()
@@ -134,17 +147,74 @@ for (i in seq_along(propagated)) {
     )
     inferred_values <- bind_rows(data_tree_tbl, empty_df)
 
-    other_ids <- data[[i]]$NCBI_ID[which(!phys$NCBI_ID %in% inferred_values$NCBI_ID)]
+    other_ids <- x$NCBI_ID[which(!phys$NCBI_ID %in% inferred_values$NCBI_ID)]
     other_ids <- unique(other_ids)
-    other_phys <- filter(data[[i]], NCBI_ID %in% other_ids)
+    other_phys <- filter(x, NCBI_ID %in% other_ids)
     final_table <- bind_rows(inferred_values, other_phys)
-    propagated[[i]] <- final_table
 
     tree$Do(function(node) {
         node[['table']] <- NULL
     })
-}
-names(propagated) <- names(data_ready)
+
+    return(final_table)
+})
+
+
+
+
+
+
+
+
+# message('>>>>>>> Propagating data ', Sys.time(), ' <<<<<<')
+# data('tree_list')
+# tree <- as.Node(tree_list)
+# propagated <- vector('list', length(data_ready))
+# for (i in seq_along(propagated)) {
+#     input_tbl <- data_ready[[i]] |>
+#         select(NCBI_ID, Attribute, Score, Evidence) |>
+#         distinct() |>
+#         tidyr::complete(
+#             NCBI_ID, Attribute, fill = list(Score = 0, Evidence = '')
+#         )
+#     l <- split(input_tbl, factor(input_tbl$NCBI_ID))
+#     tree$Do(function(node) {
+#         if (!is.null(l[[node$name]])) {
+#             node[['table']] <- l[[node$name]]
+#         }
+#     })
+#     tree$Do(asr, traversal = 'post-order')
+#     tree$Do(inh, traversal = 'pre-order')
+#
+#     data_tree_tbl <- tree$Get(function(node) node[['table']], simplify = FALSE) |>
+#         purrr::discard(~ all(is.na(.x))) |>
+#         dplyr::bind_rows() |>
+#         relocate(NCBI_ID)
+#
+#     attrs <- unique(data[[i]]$Attribute)
+#     all_node_names <- tree$Get(function(node) node$name, simplify = FALSE) |>
+#         unlist(recursive = TRUE, use.names = FALSE) |>
+#         unique()
+#     all_node_names <- all_node_names[which(!all_node_names %in% unique(data_tree_tbl$NCBI_ID))]
+#     empty_df <- data.frame(
+#         NCBI_ID = sort(rep(all_node_names, length(attrs))),
+#         Attribute = rep(attrs, length(all_node_names)),
+#         Score = 0,
+#         Evidence = NA
+#     )
+#     inferred_values <- bind_rows(data_tree_tbl, empty_df)
+#
+#     other_ids <- data[[i]]$NCBI_ID[which(!phys$NCBI_ID %in% inferred_values$NCBI_ID)]
+#     other_ids <- unique(other_ids)
+#     other_phys <- filter(data[[i]], NCBI_ID %in% other_ids)
+#     final_table <- bind_rows(inferred_values, other_phys)
+#     propagated[[i]] <- final_table
+#
+#     tree$Do(function(node) {
+#         node[['table']] <- NULL
+#     })
+# }
+# names(propagated) <- names(data_ready)
 
 full_dump <- bind_rows(propagated)
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
