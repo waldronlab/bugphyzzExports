@@ -98,11 +98,6 @@ tree <- as.Node(tree_list)
 
 nodes <- tree$Get(function(node) node$name)
 
-
-
-
-
-
 propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
     input_tbl <- x |>
         select(NCBI_ID, Attribute, Score, Evidence) |>
@@ -139,13 +134,6 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
     } else {
         inferred_values <- data_tree_tbl
     }
-    # empty_df <- data.frame(
-    #     NCBI_ID = sort(rep(all_node_names, length(attrs))),
-    #     Attribute = rep(attrs, length(all_node_names)),
-    #     Score = 0,
-    #     Evidence = NA
-    # )
-    # inferred_values <- bind_rows(data_tree_tbl, empty_df)
 
     other_ids <- x$NCBI_ID[which(!phys$NCBI_ID %in% inferred_values$NCBI_ID)]
     other_ids <- unique(other_ids)
@@ -162,14 +150,6 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
 full_dump <- bind_rows(propagated)
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
 full_dump$Attribute <- gsub(' ', '_', full_dump$Attribute)
-
-# full_dump_fname <- paste0("full_dump.csv.bz2")
-# on.exit(unlink(full_dump_fname))
-# con <- bzfile(full_dump_fname, "w")
-# write.csv(x = full_dump, file = con, quote = TRUE, row.names = FALSE)
-# readr::write_csv(x = full_dump, file = full_dump_fname, quote = 'needed', num_threads = 16)
-# close(con)
-
 
 readr::write_csv(x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16)
 
