@@ -1,5 +1,6 @@
 ## Script to create bugphyzz exports dump files and signature files
 
+library(logr)
 library(bugphyzz)
 library(taxPPro)
 library(purrr)
@@ -8,11 +9,14 @@ library(dplyr)
 library(data.tree)
 library(bugphyzzExports)
 library(BiocParallel)
+library(tidyr)
+
+logfile <- "log_file"
+lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 phys_names <- c(
 
     ## Categorical <<<<
-
     "acetate producing",
     "aerophilicity",
     "animal pathogen",
@@ -46,7 +50,6 @@ phys_names <- c(
     "spore shape",
 
     ## Ranges <<<<
-
     "coding genes",
     "genome size",
     "growth temperature",
@@ -58,6 +61,11 @@ phys_names <- c(
     "width"
 )
 
+msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
+msg_len <- length(phys_names)
+msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys.time())
+log_print(msg, blank_after = TRUE)
+
 phys <- physiologies(phys_names, full_source = FALSE)
 categorical <- keep(phys, ~ unique(.x$Attribute_type) == 'logical')
 categorical$aerophilicity <- homogenizeAerophilicityAttributeNames(
@@ -68,16 +76,27 @@ range <- range[which(names(range) %in% names(THRESHOLDS()))]
 range_cat <- map2(range, names(range), ~ rangeToLogicalThr(.x, THRESHOLDS()[[.y]]))
 categorical <- c(categorical, range_cat)
 
-## Make sure that only valid attribute values are included.
+log_print('Check that all attributes are valid. Invalid values will be printed:', blank_after = TRUE)
 fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
-valid_attributes <- read.table(fname, header = TRUE, sep = '\t')
-
-data <- bplapply(categorical, function(x) {
-    filter(x, Attribute %in% unique(valid_attributes$attribute))
+valid_attributes <- unique(read.table(fname, header = TRUE, sep = '\t')$attribute)
+data <- map(categorical, ~ {
+    attr_names <- unique(.x$Attribute)
+    attr_grp <- unique(.x$Attribute_group)
+    lgl <- sum(!attr_names %in% valid_attributes)
+    if (lgl > 0) {
+        invalid_values <- filter(.x, !Attribute %in% valid_attributes)
+        invalid_values <- invalid_values |>
+            select(Attribute_group, Attribute) |>
+            unique() |>
+            as_tibble()
+        log_print(paste0('Invalid values for ', attr_grp, ': '))
+        log_print(invalid_values, blank_after = TRUE)
+    }
+    filter(.x, Attribute %in% valid_attributes)
 }) |>
     discard(~ !nrow(.x))
 
-data_ready <- bplapply(data, function(x) {
+data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
     tryCatch(
         error = function(e) e,
         {
@@ -102,9 +121,7 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
     input_tbl <- x |>
         select(NCBI_ID, Attribute, Score, Evidence) |>
         distinct() |>
-        tidyr::complete(
-            NCBI_ID, Attribute, fill = list(Score = 0, Evidence = '')
-        )
+        complete(NCBI_ID, Attribute, fill = list(Score = 0, Evidence = ''))
     l <- split(input_tbl, factor(input_tbl$NCBI_ID))
     tree$Do(function(node) {
         if (!is.null(l[[node$name]])) {
@@ -113,7 +130,6 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
     })
     tree$Do(asr, traversal = 'post-order')
     tree$Do(inh, traversal = 'pre-order')
-
     data_tree_tbl <- tree$Get(function(node) node[['table']], simplify = FALSE) |>
         purrr::discard(~ all(is.na(.x))) |>
         dplyr::bind_rows() |>
@@ -152,10 +168,4 @@ full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
 full_dump$Attribute <- gsub(' ', '_', full_dump$Attribute)
 
 readr::write_csv(x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16)
-
-
-
-
-
-
-
+log_close()
