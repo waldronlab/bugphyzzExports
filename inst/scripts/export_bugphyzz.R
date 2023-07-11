@@ -22,21 +22,21 @@ phys_names <- c(
     "biofilm forming",
     "biosafety level",
     "butyrate producing",
-    # "COGEM pathogenicity rating",
-    # "country",
+    # # "COGEM pathogenicity rating",
+    # # "country",
     "disease association",
     "extreme environment",
-    # "geographic location",
+    # # "geographic location",
     "gram stain",
     "growth medium",
-    # "habitat",
+    # # "habitat",
     "health associated",
     "hemolysis",
     "hydrogen gas producing",
-    # "isolation site",
+    # # "isolation site",
     "lactate producing",
-    # "metabolite production",
-    # "metabolite utilization",
+    # # "metabolite production",
+    # # "metabolite utilization",
     "motility",
     "pathogenicity human",
     "plant pathogenicity",
@@ -96,6 +96,13 @@ data_ready <- discard(data_ready, is_error)
 data('tree_list')
 tree <- as.Node(tree_list)
 
+nodes <- tree$Get(function(node) node$name)
+
+
+
+
+
+
 propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
     input_tbl <- x |>
         select(NCBI_ID, Attribute, Score, Evidence) |>
@@ -115,20 +122,30 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
     data_tree_tbl <- tree$Get(function(node) node[['table']], simplify = FALSE) |>
         purrr::discard(~ all(is.na(.x))) |>
         dplyr::bind_rows() |>
-        relocate(NCBI_ID)
+        dplyr::relocate(NCBI_ID)
 
     attrs <- unique(x$Attribute)
-    all_node_names <- tree$Get(function(node) node$name, simplify = FALSE) |>
-        unlist(recursive = TRUE, use.names = FALSE) |>
-        unique()
+    all_node_names <- tree$Get(function(node) node$name, simplify = TRUE)
     all_node_names <- all_node_names[which(!all_node_names %in% unique(data_tree_tbl$NCBI_ID))]
-    empty_df <- data.frame(
-        NCBI_ID = sort(rep(all_node_names, length(attrs))),
-        Attribute = rep(attrs, length(all_node_names)),
-        Score = 0,
-        Evidence = NA
-    )
-    inferred_values <- bind_rows(data_tree_tbl, empty_df)
+
+    if (length(all_node_names > 0)) {
+        empty_df <- data.frame(
+            NCBI_ID = sort(rep(all_node_names, length(attrs))),
+            Attribute = rep(attrs, length(all_node_names)),
+            Score = 0,
+            Evidence = NA
+        )
+        inferred_values <- bind_rows(data_tree_tbl, empty_df)
+    } else {
+        inferred_values <- data_tree_tbl
+    }
+    # empty_df <- data.frame(
+    #     NCBI_ID = sort(rep(all_node_names, length(attrs))),
+    #     Attribute = rep(attrs, length(all_node_names)),
+    #     Score = 0,
+    #     Evidence = NA
+    # )
+    # inferred_values <- bind_rows(data_tree_tbl, empty_df)
 
     other_ids <- x$NCBI_ID[which(!phys$NCBI_ID %in% inferred_values$NCBI_ID)]
     other_ids <- unique(other_ids)
@@ -146,11 +163,11 @@ full_dump <- bind_rows(propagated)
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
 full_dump$Attribute <- gsub(' ', '_', full_dump$Attribute)
 
-full_dump_fname <- paste0("full_dump.csv.bz2")
-on.exit(unlink(full_dump_fname))
+# full_dump_fname <- paste0("full_dump.csv.bz2")
+# on.exit(unlink(full_dump_fname))
 # con <- bzfile(full_dump_fname, "w")
 # write.csv(x = full_dump, file = con, quote = TRUE, row.names = FALSE)
-readr::write_csv(x = full_dump, file = full_dump_fname, quote = 'needed', num_threads = 16)
+# readr::write_csv(x = full_dump, file = full_dump_fname, quote = 'needed', num_threads = 16)
 # close(con)
 
 
