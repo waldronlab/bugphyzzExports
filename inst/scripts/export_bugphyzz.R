@@ -165,7 +165,16 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
 
 full_dump <- bind_rows(propagated)
 full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
-full_dump$Attribute <- gsub(' ', '_', full_dump$Attribute)
+# full_dump$Attribute <- gsub(' ', '_', full_dump$Attribute)
 
 readr::write_csv(x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16)
+data.table::fwrite(
+    x = full_dump, file = "full_dump.gz", quote = TRUE, sep = ',', na = NA,
+    row.names = FALSE, nThread = 16, compress = 'auto'
+)
+
+data.table::fwrite(
+    x = full_dump, file = "full_dump.csv", quote = TRUE, sep = ',', na = NA,
+    row.names = FALSE, nThread = 16
+)
 log_close()
