@@ -172,6 +172,18 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
 
     final_table <- final_table |>
         filter(NCBI_ID != 'ArcBac') |>
+        mutate(
+            Rank = case_when(
+                grepl('^d__', NCBI_ID) ~ 'superkingdom',
+                grepl('^p__', NCBI_ID) ~ 'phylum',
+                grepl('^c__', NCBI_ID) ~ 'class',
+                grepl('^o__', NCBI_ID) ~ 'order',
+                grepl('^f__', NCBI_ID) ~ 'family',
+                grepl('^g__', NCBI_ID) ~ 'genus',
+                grepl('^s__', NCBI_ID) ~ 'species',
+                grepl('^t__', NCBI_ID) ~ 'strain'
+            )
+        ) |>
         mutate(NCBI_ID = sub('^[dpcofgst]__', '', NCBI_ID)) |>
         mutate(Taxon_name = ifelse(is.na(Taxon_name), check_id(NCBI_ID), Taxon_name)) |>
         filter(!is.na(NCBI_ID) | !is.na(Taxon_name)) |>

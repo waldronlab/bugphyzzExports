@@ -7,9 +7,9 @@ R Version: 4.3.0 (2023-04-21)
 Machine: pop-os x86_64 
 Operating System: Linux 6.2.6-76060206-generic #202303130630~1689015125~22.04~ab2190e SMP PREEMPT_DYNAMIC Mon J 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: tidyr_1.3.0 BiocParallel_1.34.2 bugphyzzExports_0.0.0.9000 data.tree_1.0.0 dplyr_1.1.2 rlang_1.1.1 purrr_1.0.1 taxPPro_0.1.0 bugphyzz_0.0.1.3 logr_1.3.4 
-Log Start Time: 2023-07-11 23:31:28.43772 
+Log Start Time: 2023-07-12 01:20:23.234221 
 ========================================================================= 
-Importing 33 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, disease association, extreme environment, gram stain, growth medium, health associated, hemolysis, hydrogen gas producing, lactate producing, motility, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, coding genes, genome size, growth temperature, halophily, length, mutation rate per site per generation, mutation rates per site per year, optimal ph, width" -- 2023-07-11 23:31:28.441438 
+Importing 33 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, disease association, extreme environment, gram stain, growth medium, health associated, hemolysis, hydrogen gas producing, lactate producing, motility, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, coding genes, genome size, growth temperature, halophily, length, mutation rate per site per generation, mutation rates per site per year, optimal ph, width" -- 2023-07-12 01:20:23.239076 
 
 Check that all attributes are valid. Invalid values will be printed: 
 
@@ -22,18 +22,15 @@ Invalid values for aerophilicity:
 3 aerophilicity   positive          
 
 Invalid values for biosafety level: 
-# A tibble: 9 × 2
+# A tibble: 6 × 2
   Attribute_group Attribute                                          
   <chr>           <chr>                                              
-1 biosafety level "biosafety level 1"                                
-2 biosafety level "biosafety level 2"                                
-3 biosafety level "biosafety level Risk group (German classification…
-4 biosafety level "biosafety level 11o58'14.4\\\""                   
-5 biosafety level "biosafety level Germany"                          
-6 biosafety level "biosafety level 3"                                
-7 biosafety level "biosafety level 1+"                               
-8 biosafety level "biosafety level 3**"                              
-9 biosafety level "biosafety level L1"                               
+1 biosafety level "biosafety level Risk group (German classification…
+2 biosafety level "biosafety level 11o58'14.4\\\""                   
+3 biosafety level "biosafety level Germany"                          
+4 biosafety level "biosafety level 1+"                               
+5 biosafety level "biosafety level 3**"                              
+6 biosafety level "biosafety level L1"                               
 
 Invalid values for disease association: 
 # A tibble: 4 × 2
@@ -60,27 +57,6 @@ Invalid values for growth medium:
 10 growth medium   MLO agar                                          
 # ℹ 2,181 more rows
 # ℹ Use `print(n = ...)` to see more rows
-
-Invalid values for hemolysis: 
-# A tibble: 4 × 2
-  Attribute_group Attribute
-  <chr>           <chr>    
-1 hemolysis       gamma    
-2 hemolysis       beta     
-3 hemolysis       alpha    
-4 hemolysis       CAMP test
-
-Invalid values for motility: 
-# A tibble: 1 × 2
-  Attribute_group Attribute
-  <chr>           <chr>    
-1 motility        motility 
-
-Invalid values for pathogenicity human: 
-# A tibble: 1 × 2
-  Attribute_group     Attribute          
-  <chr>               <chr>              
-1 pathogenicity human pathogenicity human
 
 Invalid values for shape: 
 # A tibble: 20 × 2
@@ -113,76 +89,42 @@ Invalid values for sphingolipid producing:
   <chr>                  <chr>                 
 1 sphingolipid producing Sphingolipid producing
 
-Invalid values for spore formation: 
-# A tibble: 1 × 2
-  Attribute_group Attribute      
-  <chr>           <chr>          
-1 spore formation spore formation
-
 Invalid values for coding genes: 
-# A tibble: 4 × 2
+# A tibble: 1 × 2
   Attribute_group Attribute 
   <chr>           <chr>     
 1 coding genes    very small
-2 coding genes    small     
-3 coding genes    average   
-4 coding genes    very large
-
-Invalid values for genome size: 
-# A tibble: 4 × 2
-  Attribute_group Attribute 
-  <chr>           <chr>     
-1 genome size     small     
-2 genome size     average   
-3 genome size     large     
-4 genome size     very large
-
-Invalid values for length: 
-# A tibble: 4 × 2
-  Attribute_group Attribute 
-  <chr>           <chr>     
-1 length          small     
-2 length          average   
-3 length          large     
-4 length          very large
-
-Invalid values for mutation rate per site per generation: 
-# A tibble: 3 × 2
-  Attribute_group                       Attribute
-  <chr>                                 <chr>    
-1 mutation rate per site per generation slow     
-2 mutation rate per site per generation medium   
-3 mutation rate per site per generation fast     
-
-Invalid values for width: 
-# A tibble: 4 × 2
-  Attribute_group Attribute 
-  <chr>           <chr>     
-1 width           small     
-2 width           average   
-3 width           large     
-4 width           very large
 
 Propagating acetate producing... 
 Propagating animal pathogen... 
 Propagating antimicrobial sensitivity... 
 Propagating biofilm forming... 
-Propagating disease association... 
-Propagating gram stain... 
-Propagating health associated... 
-Propagating lactate producing... 
-Propagating shape... 
-Propagating growth temperature... 
-Propagating plant pathogenicity... 
-Propagating hydrogen gas producing... 
-Propagating aerophilicity... 
-Propagating arrangement... 
-Propagating antimicrobial resistance... 
 Propagating butyrate producing... 
-Propagating growth medium... 
-Propagating spore shape... 
 Propagating extreme environment... 
+Propagating growth medium... 
+Propagating hemolysis... 
+Propagating lactate producing... 
+Propagating pathogenicity human... 
+Propagating shape... 
+Propagating spore shape... 
+Propagating genome size... 
+Propagating length... 
 Propagating optimal ph... 
+Propagating motility... 
+Propagating aerophilicity... 
+Propagating disease association... 
+Propagating coding genes... 
+Propagating biosafety level... 
+Propagating hydrogen gas producing... 
+Propagating arrangement... 
+Propagating gram stain... 
+Propagating plant pathogenicity... 
+Propagating width... 
+Propagating mutation rate per site per generation... 
+Propagating antimicrobial resistance... 
+Propagating health associated... 
+Propagating growth temperature... 
+Propagating spore formation... 
 Warning messages:
 1: Missing columns in biosafety level. Missing columns are: Accession_ID
 2: Missing columns in halophily. Missing columns are: Accession_ID
@@ -191,6 +133,6 @@ Warning messages:
 5: Missing columns in pathogenicity human. Missing columns are: Accession_ID
 6: Missing columns in spore formation. Missing columns are: Accession_ID
 ========================================================================= 
-Log End Time: 2023-07-11 23:44:47.114187 
-Log Elapsed Time: 0 00:13:18 
+Log End Time: 2023-07-12 01:36:26.530857 
+Log Elapsed Time: 0 00:16:03 
 ========================================================================= 
