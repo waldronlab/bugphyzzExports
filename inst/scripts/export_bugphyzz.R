@@ -26,21 +26,21 @@ phys_names <- c(
     "biofilm forming",
     "biosafety level",
     "butyrate producing",
-    # # "COGEM pathogenicity rating",
-    # # "country",
+    # "COGEM pathogenicity rating",
+    # "country",
     "disease association",
     "extreme environment",
-    # # "geographic location",
+    # "geographic location",
     "gram stain",
     "growth medium",
-    # # "habitat",
+    # "habitat",
     "health associated",
     "hemolysis",
     "hydrogen gas producing",
-    # # "isolation site",
+    # "isolation site",
     "lactate producing",
-    # # "metabolite production",
-    # # "metabolite utilization",
+    # "metabolite production",
+    # "metabolite utilization",
     "motility",
     "pathogenicity human",
     "plant pathogenicity",
@@ -115,9 +115,10 @@ data_ready <- discard(data_ready, is_error)
 data('tree_list')
 tree <- as.Node(tree_list)
 
-nodes <- tree$Get(function(node) node$name)
-
 propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
+    msg <- unique(x$Attribute_group)
+    msg <- paste0('Propagating ', msg, '...')
+    log_print(msg)
     input_tbl <- x |>
         select(NCBI_ID, Attribute, Score, Evidence) |>
         distinct() |>
@@ -130,31 +131,54 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
     })
     tree$Do(asr, traversal = 'post-order')
     tree$Do(inh, traversal = 'pre-order')
+
+    ## Get NCBI_IDs with propagation results
     data_tree_tbl <- tree$Get(function(node) node[['table']], simplify = FALSE) |>
         purrr::discard(~ all(is.na(.x))) |>
         dplyr::bind_rows() |>
-        dplyr::relocate(NCBI_ID)
+        dplyr::relocate(NCBI_ID) |>
+        dplyr::filter(Evidence %in% c('', 'asr', 'inh') | is.na(Evidence))
 
-    attrs <- unique(x$Attribute)
+    ## Combine data from propagation and original annotations
+    data_with_values <- bind_rows(data_tree_tbl, x)
+
+    ## Add missing values for the tree (this is maybe just necessary for
+    ## displaying stats
     all_node_names <- tree$Get(function(node) node$name, simplify = TRUE)
-    all_node_names <- all_node_names[which(!all_node_names %in% unique(data_tree_tbl$NCBI_ID))]
+    missing_node_names <- all_node_names[which(!all_node_names %in% unique(data_with_values$NCBI_ID))]
 
-    if (length(all_node_names > 0)) {
+    if (length(missing_node_names > 0)) {
+        attrs <- unique(x$Attribute)
         empty_df <- data.frame(
-            NCBI_ID = sort(rep(all_node_names, length(attrs))),
-            Attribute = rep(attrs, length(all_node_names)),
+            NCBI_ID = sort(rep(missing_node_names, length(attrs))),
+            Attribute = rep(attrs, length(missing_node_names)),
             Score = 0,
             Evidence = NA
         )
-        inferred_values <- bind_rows(data_tree_tbl, empty_df)
+        final_table <- bind_rows(data_with_values, empty_df)
     } else {
-        inferred_values <- data_tree_tbl
+        final_table <- data_with_values
     }
 
-    other_ids <- x$NCBI_ID[which(!phys$NCBI_ID %in% inferred_values$NCBI_ID)]
-    other_ids <- unique(other_ids)
-    other_phys <- filter(x, NCBI_ID %in% other_ids)
-    final_table <- bind_rows(inferred_values, other_phys)
+    attr_grp <- unique(x$Attribute_group)
+    attr_type <- unique(x$Attribute_type)
+
+    check_id <- function(id) {
+        tryCatch(
+            error = function(e) NA,
+            taxizedb::taxid2name(id, db = 'ncbi')
+        )
+    }
+
+    final_table <- final_table |>
+        filter(NCBI_ID != 'ArcBac') |>
+        mutate(NCBI_ID = sub('^[dpcofgst]__', '', NCBI_ID)) |>
+        mutate(Taxon_name = ifelse(is.na(Taxon_name), check_id(NCBI_ID), Taxon_name)) |>
+        filter(!is.na(NCBI_ID) | !is.na(Taxon_name)) |>
+        mutate(Frequency = taxPPro:::scores2Freq(Score)) |>
+        mutate(Attribute_value = TRUE) |>
+        mutate(Attribute_group = attr_grp) |>
+        mutate(Attribute_type = attr_type)
 
     tree$Do(function(node) {
         node[['table']] <- NULL
@@ -164,7 +188,7 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
 })
 
 full_dump <- bind_rows(propagated)
-full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
+# full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
 # full_dump$Attribute <- gsub(' ', '_', full_dump$Attribute)
 
 readr::write_csv(
