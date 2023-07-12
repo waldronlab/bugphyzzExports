@@ -170,6 +170,8 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
         )
     }
 
+    ## TODO Add code to merge attribute group and attribute, e.g, aerophilicity:aerobic
+
     final_table <- final_table |>
         filter(NCBI_ID != 'ArcBac') |>
         mutate(
