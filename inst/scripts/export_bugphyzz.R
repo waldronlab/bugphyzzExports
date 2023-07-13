@@ -10,7 +10,6 @@ library(data.tree)
 library(bugphyzzExports)
 library(BiocParallel)
 library(tidyr)
-library(gpuMagic)
 
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
@@ -165,8 +164,15 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
 
 full_dump <- bind_rows(propagated)
 
-readr::write_csv(
-    x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
+# readr::write_csv(
+#     x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
+# )
+
+data.table::fwrite(
+    x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
+    na = NA, row.names = FALSE, nThread = 16
 )
+
+system2('pbzip2', args = list('-p16', '-f', 'full_dump.csv'))
 
 log_close()
