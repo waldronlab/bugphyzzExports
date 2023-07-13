@@ -56,7 +56,7 @@ data <- map(categorical, ~ {
 }) |>
     discard(~ !nrow(.x))
 
-data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
+data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 34), FUN = function(x) {
     tryCatch(
         error = function(e) e,
         {
@@ -75,7 +75,7 @@ data_ready <- discard(data_ready, is_error)
 data('tree_list')
 tree <- as.Node(tree_list)
 
-propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
+propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 34), FUN = function(x) {
 # propagated <- gpuSapply(X = data_ready, FUN = function(x) {
     msg <- unique(x$Attribute_group)
     msg <- paste0('Propagating ', msg, '...')
@@ -170,9 +170,9 @@ full_dump <- bind_rows(propagated)
 
 data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
-    na = NA, row.names = FALSE, nThread = 16
+    na = NA, row.names = FALSE, nThread = 50
 )
 
-system2('pbzip2', args = list('-p16', '-f', 'full_dump.csv'))
+system2('pbzip2', args = list('-p50', '-f', 'full_dump.csv'))
 
 log_close()
