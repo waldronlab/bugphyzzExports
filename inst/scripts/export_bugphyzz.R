@@ -170,9 +170,9 @@ full_dump <- bind_rows(propagated)
 
 data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
-    na = NA, row.names = FALSE, nThread = 50
+    na = NA, row.names = FALSE, nThread = 60
 )
 
-system2('pbzip2', args = list('-p50', '-f', 'full_dump.csv'))
+system2('pbzip2', args = list('-p60', '-f', 'full_dump.csv'))
 
 log_close()
