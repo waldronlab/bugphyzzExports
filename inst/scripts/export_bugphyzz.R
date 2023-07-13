@@ -10,57 +10,18 @@ library(data.tree)
 library(bugphyzzExports)
 library(BiocParallel)
 library(tidyr)
+library(gpuMagic)
 
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
-phys_names <- c(
-
-    ## Categorical <<<<
-    "acetate producing",
-    "aerophilicity",
-    "animal pathogen",
-    "antimicrobial resistance",
-    "antimicrobial sensitivity",
-    "arrangement",
-    "biofilm forming",
-    "biosafety level",
-    "butyrate producing",
-    # "COGEM pathogenicity rating",
-    # "country",
-    "disease association",
-    "extreme environment",
-    # "geographic location",
-    "gram stain",
-    "growth medium",
-    # "habitat",
-    "health associated",
-    "hemolysis",
-    "hydrogen gas producing",
-    # "isolation site",
-    "lactate producing",
-    # "metabolite production",
-    # "metabolite utilization",
-    "motility",
-    "pathogenicity human",
-    "plant pathogenicity",
-    "shape",
-    "sphingolipid producing",
-    "spore formation",
-    "spore shape",
-
-    ## Ranges <<<<
-    "coding genes",
-    "genome size",
-    "growth temperature",
-    "halophily",
-    "length",
-    "mutation rate per site per generation",
-    "mutation rates per site per year",
-    "optimal ph",
-    "width"
+exlclude_phys <- c(
+    'country', 'geographic location',
+    'habitat', 'isolation site',
+    'metabolite production', 'metabolite utilization'
 )
-
+phys_names <- showPhys()
+phys_names <- phys_names[which(!phys_names %in% exlclude_phys)]
 msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
 msg_len <- length(phys_names)
 msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys.time())
@@ -116,6 +77,7 @@ data('tree_list')
 tree <- as.Node(tree_list)
 
 propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), FUN = function(x) {
+# propagated <- gpuSapply(X = data_ready, FUN = function(x) {
     msg <- unique(x$Attribute_group)
     msg <- paste0('Propagating ', msg, '...')
     log_print(msg)
@@ -202,20 +164,9 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 16), F
 })
 
 full_dump <- bind_rows(propagated)
-# full_dump$NCBI_ID <- sub('^[dpcofgst]__', '', full_dump$NCBI_ID)
-# full_dump$Attribute <- gsub(' ', '_', full_dump$Attribute)
 
 readr::write_csv(
     x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
 )
-# data.table::fwrite(
-#     x = full_dump, file = "full_dump.csv", quote = TRUE, sep = ',', na = NA,
-#     row.names = FALSE, nThread = 16
-# )
-# R.utils::bzip2('full_dump.csv')
-
-# vroom::vroom_write(
-#     x = full_dump, file = 'full_dump.csv.bz2', num_threds = 16
-# )
 
 log_close()
