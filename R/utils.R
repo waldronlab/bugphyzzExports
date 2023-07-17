@@ -42,3 +42,27 @@ homogenizeAerophilicityAttributeNames <- function(df) {
         )
     )
 }
+
+
+#' Check rank
+#'
+#' \code{checkRank} checks that the rank matches the NCBI ID (taxids).
+#' If not, NA is returned. This entry will be removed before propagation
+#' during the exports workflow.
+#'
+#' @param taxid A character string with a taxid.
+#'
+#' @return A character string. NA if error.
+#' @export
+#'
+checkRank <- function(taxid) {
+    tryCatch(
+        error = function(e) NA,
+        {
+            taxizedb::taxid2rank(taxid, db = 'ncbi')
+        }
+    )
+}
+
+
+

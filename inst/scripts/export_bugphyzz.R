@@ -56,7 +56,12 @@ data <- map(categorical, ~ {
 }) |>
     discard(~ !nrow(.x))
 
-data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 34), FUN = function(x) {
+data <- bplapply(data, BPPARAM = MulticoreParam(workers = 35), FUN = function(x) {
+    x$Rank <- checkRank(x$NCBI_ID)
+    return(x)
+})
+
+data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 35), FUN = function(x) {
     tryCatch(
         error = function(e) e,
         {
@@ -162,11 +167,35 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 34), F
     return(final_table)
 })
 
+propagated <- map(propagated, ~ {
+    total_scores <- .x |>
+        group_by(Attribute_group, NCBI_ID) |>
+        reframe(Total_score = sum(Score))
+    taxids_above_0 <- total_scores |>
+        filter(Total_score > 0)
+    output <- .x |>
+        filter(NCBI_ID %in% taxids_above_0)
+    return(output)
+})
+
 full_dump <- bind_rows(propagated)
 
 # readr::write_csv(
 #     x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
 # )
+
+
+# map(fu)
+#
+# total_scores <- full_dump |>
+#     group_by(Attribute_group, NCBI_ID) |>
+#     reframe(Total_score = sum(Score))
+#
+# taxids_above_0 <- total_scores |>
+#     filter(Total_score > 0)
+#
+# full_dump <- full_dump |>
+#     filter(NCBI_ID %in% taxids_above_0)
 
 data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
