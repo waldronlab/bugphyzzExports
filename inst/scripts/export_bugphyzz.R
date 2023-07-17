@@ -36,7 +36,7 @@ range <- range[which(names(range) %in% names(THRESHOLDS()))]
 range_cat <- map2(range, names(range), ~ rangeToLogicalThr(.x, THRESHOLDS()[[.y]]))
 categorical <- c(categorical, range_cat)
 
-log_print('Check that all attributes are valid. Invalid values will be printed:', blank_after = TRUE)
+log_print('Check that all attributes are valid. Invalid values will be printed and dropped from the full dump file:', blank_after = TRUE)
 fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
 valid_attributes <- unique(read.table(fname, header = TRUE, sep = '\t')$attribute)
 data <- map(categorical, ~ {

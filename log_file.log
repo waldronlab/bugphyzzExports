@@ -7,9 +7,9 @@ R Version: 4.3.1 (2023-06-16)
 Machine: supermicro x86_64 
 Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: tidyr_1.3.0 BiocParallel_1.35.3 bugphyzzExports_0.0.0.9000 data.tree_1.0.0 dplyr_1.1.2 rlang_1.1.1 purrr_1.0.1 taxPPro_0.1.0 bugphyzz_0.0.1.3 logr_1.3.4 
-Log Start Time: 2023-07-17 00:41:43.506429 
+Log Start Time: 2023-07-17 09:36:25.419245 
 ========================================================================= 
-Importing 34 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, coding genes, COGEM pathogenicity rating, disease association, extreme environment, genome size, gram stain, growth medium, growth temperature, halophily, health associated, hemolysis, hydrogen gas producing, lactate producing, length, motility, mutation rate per site per generation, mutation rates per site per year, optimal ph, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, width" -- 2023-07-17 00:41:44.332825 
+Importing 34 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, coding genes, COGEM pathogenicity rating, disease association, extreme environment, genome size, gram stain, growth medium, growth temperature, halophily, health associated, hemolysis, hydrogen gas producing, lactate producing, length, motility, mutation rate per site per generation, mutation rates per site per year, optimal ph, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, width" -- 2023-07-17 09:36:25.432112 
 
 Check that all attributes are valid. Invalid values will be printed: 
 
@@ -23,49 +23,47 @@ Invalid values for aerophilicity:
 
 Invalid values for biosafety level: 
 # A tibble: 6 × 2
-  Attribute_group Attribute                                 
-  <chr>           <chr>                                     
-1 biosafety level "biosafety level Risk group (German class…
-2 biosafety level "biosafety level 11o58'14.4\\\""          
-3 biosafety level "biosafety level Germany"                 
-4 biosafety level "biosafety level 1+"                      
-5 biosafety level "biosafety level 3**"                     
-6 biosafety level "biosafety level L1"                      
+  Attribute_group Attribute                                           
+  <chr>           <chr>                                               
+1 biosafety level "biosafety level Risk group (German classification)"
+2 biosafety level "biosafety level 11o58'14.4\\\""                    
+3 biosafety level "biosafety level Germany"                           
+4 biosafety level "biosafety level 1+"                                
+5 biosafety level "biosafety level 3**"                               
+6 biosafety level "biosafety level L1"                                
 
 Invalid values for disease association: 
-# A tibble: 15 × 2
-   Attribute_group     Attribute                            
-   <chr>               <chr>                                
- 1 disease association caries                               
- 2 disease association periodontal disorder                 
- 3 disease association Infection caused by Escherichia coli…
- 4 disease association Endocarditis                         
- 5 disease association Endocarditis. septicemia             
- 6 disease association Meningitis                           
- 7 disease association Periodontal Disorder                 
- 8 disease association Infection                            
- 9 disease association arthritis                            
-10 disease association and pneumonia                        
-11 disease association meningitis and septicemia            
-12 disease association septicemia and arthritis             
-13 disease association Fever                                
-14 disease association urlnary tract infection              
-15 disease association Tetnus                               
+# A tibble: 13 × 2
+   Attribute_group     Attribute                                      
+   <chr>               <chr>                                          
+ 1 disease association caries                                         
+ 2 disease association periodontal disorder                           
+ 3 disease association Infection caused by Escherichia coli (disorder)
+ 4 disease association Endocarditis                                   
+ 5 disease association Meningitis                                     
+ 6 disease association Periodontal Disorder                           
+ 7 disease association Infection                                      
+ 8 disease association arthritis                                      
+ 9 disease association meningitis septicemia                          
+10 disease association septicemia arthritis                           
+11 disease association Fever                                          
+12 disease association urlnary tract infection                        
+13 disease association Tetnus                                         
 
 Invalid values for growth medium: 
 # A tibble: 2,191 × 2
-   Attribute_group Attribute                                
-   <chr>           <chr>                                    
- 1 growth medium   NUTRIENT AGAR (DSMZ Medium 1)            
- 2 growth medium   Marine agar (MA)                         
- 3 growth medium   R2A MEDIUM (DSMZ Medium 830)             
- 4 growth medium   ACETIVIBRIO MEDIUM (DSMZ Medium 122)     
- 5 growth medium   Zobell marine agar (ZMA)                 
- 6 growth medium   MEDIUM 1 - for Acetobacter, Azotobacter,…
- 7 growth medium   MEDIUM 85 - for Abiotrophia              
- 8 growth medium   GS2 agar plates                          
- 9 growth medium   TRYPTICASE SOY YEAST EXTRACT MEDIUM (DSM…
-10 growth medium   MLO agar                                 
+   Attribute_group Attribute                                                                      
+   <chr>           <chr>                                                                          
+ 1 growth medium   NUTRIENT AGAR (DSMZ Medium 1)                                                  
+ 2 growth medium   Marine agar (MA)                                                               
+ 3 growth medium   R2A MEDIUM (DSMZ Medium 830)                                                   
+ 4 growth medium   ACETIVIBRIO MEDIUM (DSMZ Medium 122)                                           
+ 5 growth medium   Zobell marine agar (ZMA)                                                       
+ 6 growth medium   MEDIUM 1 - for Acetobacter, Azotobacter, Gluconobacter, Gluconacetobacter, Mes…
+ 7 growth medium   MEDIUM 85 - for Abiotrophia                                                    
+ 8 growth medium   GS2 agar plates                                                                
+ 9 growth medium   TRYPTICASE SOY YEAST EXTRACT MEDIUM (DSMZ Medium 92)                           
+10 growth medium   MLO agar                                                                       
 # ℹ 2,181 more rows
 # ℹ Use `print(n = ...)` to see more rows
 
@@ -120,6 +118,6 @@ Warning messages:
 5: Missing columns in pathogenicity human. Missing columns are: Accession_ID
 6: Missing columns in spore formation. Missing columns are: Accession_ID
 ========================================================================= 
-Log End Time: 2023-07-17 00:46:25.422373 
-Log Elapsed Time: 0 00:04:41 
+Log End Time: 2023-07-17 09:41:19.740132 
+Log Elapsed Time: 0 00:04:54 
 ========================================================================= 
