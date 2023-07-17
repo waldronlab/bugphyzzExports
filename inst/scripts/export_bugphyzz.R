@@ -211,6 +211,14 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 34), F
     return(final_table)
 })
 
+full_dump_With_0 <- bind_rows(propagated)
+
+data.table::fwrite(
+    x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
+    na = NA, row.names = FALSE, nThread = 60
+)
+system2('pbzip2', args = list('-p60', '-f', 'full_dump_with_0.csv'))
+
 propagated <- map(propagated, ~ {
     total_scores <- .x |>
         group_by(Attribute_group, NCBI_ID) |>
@@ -247,7 +255,6 @@ data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
     na = NA, row.names = FALSE, nThread = 60
 )
-
 system2('pbzip2', args = list('-p60', '-f', 'full_dump.csv'))
 
 log_close()
