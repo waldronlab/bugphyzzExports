@@ -19,6 +19,24 @@ exlclude_phys <- c(
     'habitat', 'isolation site',
     'metabolite production', 'metabolite utilization'
 )
+
+binaries <- c(
+    "acetate producing",
+    "animal pathogen",
+    "antimicrobial sensitivity",
+    "biofilm forming",
+    "butyrate producing",
+    "extreme environment",
+    "health associated",
+    "hydrogen gas producing",
+    "lactate producing",
+    "motility",
+    "pathogenicity human",
+    "plant pathogenicity",
+    "sphingolipid producing",
+    "spore formation"
+)
+
 phys_names <- showPhys()
 phys_names <- phys_names[which(!phys_names %in% exlclude_phys)]
 msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
@@ -27,6 +45,18 @@ msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys
 log_print(msg, blank_after = TRUE)
 
 phys <- physiologies(phys_names, full_source = FALSE)
+phys <- map(phys, ~ {
+    attr_grp <- unique(.x$Attribute_group)
+    if (attr_grp %in% binaries) { # binaries is defined above
+        .x$Attribute <- paste0(.x$Attribute, '--', .x$Attribute_value)
+        .x$Attribute_value <- TRUE
+    }
+    if (unique(.x$Attribute_type) == 'logical') {
+        .x <- filter(.x, Attribute_value == TRUE)
+    }
+    return(.x)
+})
+
 categorical <- keep(phys, ~ unique(.x$Attribute_type) == 'logical')
 categorical$aerophilicity <- homogenizeAerophilicityAttributeNames(
     categorical$aerophilicity
@@ -39,6 +69,17 @@ categorical <- c(categorical, range_cat)
 log_print('Check that all attributes are valid. Invalid values will be printed and dropped from the full dump file:', blank_after = TRUE)
 fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
 valid_attributes <- unique(read.table(fname, header = TRUE, sep = '\t')$attribute)
+
+more_valid_attributes <- map(categorical, ~ {
+    attr_grp <- unique(.x$Attribute_group)
+    if (attr_grp %in% binaries) {
+        binary_attr <- unique(.x$Attribute)
+        return(binary_attr)
+    }
+}) |>
+    discard(is.null) |>
+    unlist(recursive = TRUE, use.names = FALSE)
+
 data <- map(categorical, ~ {
     attr_names <- unique(.x$Attribute)
     attr_grp <- unique(.x$Attribute_group)
