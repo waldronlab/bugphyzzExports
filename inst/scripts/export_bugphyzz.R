@@ -58,8 +58,10 @@ data <- map(categorical, ~ {
     discard(~ !nrow(.x))
 
 data <- bplapply(data, BPPARAM = MulticoreParam(workers = 35), FUN = function(x) {
-    x$Rank <- checkRank(x$NCBI_ID)
-    return(x)
+    set1 <- filter(x, !is.na(NCBI_ID))
+    set2 <- filter(x, is.na(NCBI_ID))
+    set1$Rank <- checkRank(set1$NCBI_ID)
+    bind_rows(set1, set2)
 })
 
 data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 35), FUN = function(x) {
