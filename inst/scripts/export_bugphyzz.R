@@ -173,7 +173,9 @@ propagated <- map(propagated, ~ {
         group_by(Attribute_group, NCBI_ID) |>
         reframe(Total_score = sum(Score))
     taxids_above_0 <- total_scores |>
-        filter(Total_score > 0)
+        filter(Total_score > 0) |>
+        pull(NCBI_ID) |>
+        unique()
     output <- .x |>
         filter(NCBI_ID %in% taxids_above_0)
     return(output)
