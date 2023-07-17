@@ -80,6 +80,8 @@ more_valid_attributes <- map(categorical, ~ {
     discard(is.null) |>
     unlist(recursive = TRUE, use.names = FALSE)
 
+valid_attributes <- unique(c(valid_attributes, more_valid_attributes))
+
 data <- map(categorical, ~ {
     attr_names <- unique(.x$Attribute)
     attr_grp <- unique(.x$Attribute_group)
