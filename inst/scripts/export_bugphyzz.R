@@ -52,7 +52,8 @@ data <- map(categorical, ~ {
         log_print(paste0('Invalid values for ', attr_grp, ': '))
         log_print(invalid_values, blank_after = TRUE)
     }
-    filter(.x, Attribute %in% valid_attributes)
+    output <- filter(.x, Attribute %in% valid_attributes)
+    return(output)
 }) |>
     discard(~ !nrow(.x))
 
