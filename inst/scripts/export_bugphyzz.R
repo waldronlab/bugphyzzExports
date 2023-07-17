@@ -98,14 +98,14 @@ data <- map(categorical, ~ {
 }) |>
     discard(~ !nrow(.x))
 
-data <- bplapply(data, BPPARAM = MulticoreParam(workers = 35), FUN = function(x) {
+data <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
     set1 <- filter(x, !is.na(NCBI_ID))
     set2 <- filter(x, is.na(NCBI_ID))
     set1$Rank <- checkRank(set1$NCBI_ID)
     bind_rows(set1, set2)
 })
 
-data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 35), FUN = function(x) {
+data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
     tryCatch(
         error = function(e) e,
         {
@@ -124,8 +124,8 @@ data_ready <- discard(data_ready, is_error)
 data('tree_list')
 tree <- as.Node(tree_list)
 
-propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 34), FUN = function(x) {
-# propagated <- gpuSapply(X = data_ready, FUN = function(x) {
+propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
+    # propagated <- gpuSapply(X = data_ready, FUN = function(x) {
     msg <- unique(x$Attribute_group)
     msg <- paste0('Propagating ', msg, '...')
     log_print(msg)
@@ -211,7 +211,7 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 34), F
     return(final_table)
 })
 
-full_dump_With_0 <- bind_rows(propagated)
+full_dump_with_0 <- bind_rows(propagated)
 
 data.table::fwrite(
     x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
