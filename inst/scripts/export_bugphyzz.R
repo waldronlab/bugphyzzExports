@@ -104,6 +104,7 @@ data <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x)
     set1 <- filter(x, !is.na(NCBI_ID))
     set2 <- filter(x, is.na(NCBI_ID))
     set1$Rank <- checkRank(set1$NCBI_ID)
+    set1$Taxon_name <- checkTaxonName(set1$NCBI_ID)
     bind_rows(set1, set2)
 })
 
@@ -214,6 +215,7 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), F
 })
 
 full_dump_with_0 <- bind_rows(propagated)
+full_dump_with_0$Attribute_value <- NULL
 
 data.table::fwrite(
     x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
@@ -235,11 +237,10 @@ propagated <- map(propagated, ~ {
 })
 
 full_dump <- bind_rows(propagated)
-
+full_dump$Attribute_value <- NULL
 # readr::write_csv(
 #     x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
 # )
-
 
 # map(fu)
 #

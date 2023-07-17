@@ -14,6 +14,5 @@ A character string. NA if error.
 }
 \description{
 \code{checkRank} checks that the rank matches the NCBI ID (taxids).
-If not, NA is returned. This entry will be removed before propagation
-during the exports workflow.
+If not, NA is returned.
 }
