@@ -11,10 +11,13 @@ subsetByThreshold <- function(df, thr) {
     upper <- thr[['upper']]
     if (is.na(lower)) {
         output <- df[which(df$Attribute_value_max < upper),]
+        output$Attribute_range <- paste0('(<', upper, ')')
     } else if (is.na(upper)) {
-        output <- df[which(df$Attribute_value_min >= lower),]
+        output <- df[which(df$Attribute_value_min > lower),]
+        output$Attribute_range <- paste0('(>', lower, ')')
     } else {
         output <- df[which(df$Attribute_value_min >= lower & df$Attribute_value_max < upper),]
+        output$Attribute_range <- paste0('(', lower, '-', upper, ')')
     }
     return(output)
 }
@@ -46,6 +49,7 @@ rangeToLogicalThr <- function(df, thresholds) {
     }
     output <- dplyr::bind_rows(subsets) |>
         dplyr::distinct()
+        # dplyr::mutate(Attribute = paste0(.data$Attribute, ' ', .data$Attribute_range))
     return(output)
 }
 
@@ -102,9 +106,9 @@ THRESHOLDS <- function() {
             fast = c(lower = 54.3, upper = NA)
         ),
         `optimal ph` = list(
-            acidic = c(lower = NA, upper = 5),
-            neutral = c(lower = 6, upper = 7),
-            alkaline = c(lower = 8, upper = 9.75),
+            acidic = c(lower = NA, upper = 6), # 5 --> 6
+            neutral = c(lower = 6, upper = 8), # upper 7 --> 8
+            alkaline = c(lower = 8, upper = 9.76), # upper 9.75 --> 9.76
             `very alkaline` = c(lower = 9.76, upper = NA)
         ),
         width = list(

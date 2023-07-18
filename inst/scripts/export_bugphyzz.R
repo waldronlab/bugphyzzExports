@@ -108,6 +108,13 @@ data <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x)
     bind_rows(set1, set2)
 })
 
+data <- map(data, ~ {
+    if ('Attribute_range' %in% colnames(.x)) {
+        .x$Attribute <- paste0(.x$Attribute, ' ', .x$Attribute_range)
+    }
+    return(.x)
+})
+
 data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
     tryCatch(
         error = function(e) e,
@@ -216,6 +223,15 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), F
 
 full_dump_with_0 <- bind_rows(propagated)
 full_dump_with_0$Attribute_value <- NULL
+full_dump_with_0 <- full_dump_with_0 |>
+    dplyr::mutate(
+        Attribute_range = ifelse(
+            test = grepl('\\(', Attribute),
+            yes = sub('^.*(\\(.*)$', '\\1', Attribute),
+            no = NA
+        )
+    ) |>
+    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute))
 
 data.table::fwrite(
     x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
@@ -238,6 +254,15 @@ propagated <- map(propagated, ~ {
 
 full_dump <- bind_rows(propagated)
 full_dump$Attribute_value <- NULL
+full_dump <- full_dump |>
+    dplyr::mutate(
+        Attribute_range = ifelse(
+            test = grepl('\\(', Attribute),
+            yes = sub('^.*(\\(.*)$', '\\1', Attribute),
+            no = NA
+        )
+    ) |>
+    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute))
 # readr::write_csv(
 #     x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
 # )
