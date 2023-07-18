@@ -17,7 +17,7 @@ subsetByThreshold <- function(df, thr) {
         output$Attribute_range <- paste0('(>', lower, ')')
     } else {
         output <- df[which(df$Attribute_value_min >= lower & df$Attribute_value_max < upper),]
-        output$Attribute_range <- paste0('(', lower, '-', upper, ')')
+        output$Attribute_range <- paste0('(>=', lower, ', <', upper, ')')
     }
     return(output)
 }

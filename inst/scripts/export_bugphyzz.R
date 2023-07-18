@@ -111,6 +111,8 @@ data <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x)
 data <- map(data, ~ {
     if ('Attribute_range' %in% colnames(.x)) {
         .x$Attribute <- paste0(.x$Attribute, ' ', .x$Attribute_range)
+        .x$Attribute <- sub('\\)$', '', .x$Attribute)
+        .x$Attribute <- paste0(.x$Attribute, ' ', .x$Unit, ')')
     }
     return(.x)
 })
@@ -231,7 +233,8 @@ full_dump_with_0 <- full_dump_with_0 |>
             no = NA
         )
     ) |>
-    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute))
+    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute)) |>
+    dplyr::mutate(Attribute = stringr::str_squish(Attribute))
 
 data.table::fwrite(
     x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
@@ -262,7 +265,8 @@ full_dump <- full_dump |>
             no = NA
         )
     ) |>
-    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute))
+    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute)) |>
+    dplyr::mutate(Attribute = stringr::str_squish(Attribute))
 # readr::write_csv(
 #     x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
 # )
