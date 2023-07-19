@@ -7,7 +7,7 @@ library(purrr)
 library(rlang)
 library(dplyr)
 library(data.tree)
-library(bugphyzzExports) # BiocManager::install('sdgambpa/taxPPro', force = TRUE)
+library(bugphyzzExports) # BiocManager::install('sdgamboa/taxPPro', force = TRUE)
 library(BiocParallel)
 library(tidyr)
 
