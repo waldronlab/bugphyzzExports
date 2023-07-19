@@ -1,13 +1,13 @@
 ## Script to create bugphyzz exports dump files and signature files
 
 library(logr)
-library(bugphyzz)
+library(bugphyzz) # BiocManager::install('waldronlab/bugphyzz', force = TRUE)
 library(taxPPro)
 library(purrr)
 library(rlang)
 library(dplyr)
 library(data.tree)
-library(bugphyzzExports)
+library(bugphyzzExports) # BiocManager::install('sdgambpa/taxPPro', force = TRUE)
 library(BiocParallel)
 library(tidyr)
 
