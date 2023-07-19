@@ -113,6 +113,7 @@ data <- map(data, ~ {
         .x$Attribute <- paste0(.x$Attribute, ' ', .x$Attribute_range)
         .x$Attribute <- sub('\\)$', '', .x$Attribute)
         .x$Attribute <- paste0(.x$Attribute, ' ', .x$Unit, ')')
+        .x$Attribute <- sub(' \\)', ')', .x$Attribute)
     }
     return(.x)
 })
