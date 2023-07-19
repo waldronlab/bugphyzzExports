@@ -137,8 +137,19 @@ data_ready <- discard(data_ready, is_error)
 data('tree_list')
 tree <- as.Node(tree_list)
 
-propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
-    # propagated <- gpuSapply(X = data_ready, FUN = function(x) {
+propagated <- bplapply(X = data_ready['growth temperature'], BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
+
+    if ('Unit' %in% colnames(x)) {
+        unit <- x$Unit
+        unit <- unique(unit[!is.na(unit)])
+        if (length(unit) > 1) {
+            attr_grp <- unique(x$Attribute_group)
+            warning('More than 1 unit for', attr_grp, call. = FALSE)
+        }
+    } else {
+        unit <- NULL
+    }
+
     msg <- unique(x$Attribute_group)
     msg <- paste0('Propagating ', msg, '...')
     log_print(msg)
@@ -193,13 +204,11 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), F
         )
     }
 
-    ## TODO Add code to merge attribute group and attribute, e.g, aerophilicity:aerobic
-
     final_table <- final_table |>
         filter(NCBI_ID != 'ArcBac') |>
         mutate(
             Rank = case_when(
-                grepl('^d__', NCBI_ID) ~ 'superkingdom',
+                grepl('^d__', NCBI_ID) ~ 'domain',
                 grepl('^p__', NCBI_ID) ~ 'phylum',
                 grepl('^c__', NCBI_ID) ~ 'class',
                 grepl('^o__', NCBI_ID) ~ 'order',
@@ -211,11 +220,15 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), F
         ) |>
         mutate(NCBI_ID = sub('^[dpcofgst]__', '', NCBI_ID)) |>
         mutate(Taxon_name = ifelse(is.na(Taxon_name), check_id(NCBI_ID), Taxon_name)) |>
-        filter(!is.na(NCBI_ID) | !is.na(Taxon_name)) |>
+        filter(!is.na(NCBI_ID) & !is.na(Taxon_name)) |>
         mutate(Frequency = taxPPro:::scores2Freq(Score)) |>
         mutate(Attribute_value = TRUE) |>
         mutate(Attribute_group = attr_grp) |>
         mutate(Attribute_type = attr_type)
+
+    if (!is.null(unit)) {
+        final_table$Unit <- unit
+    }
 
     tree$Do(function(node) {
         node[['table']] <- NULL
