@@ -122,13 +122,23 @@ data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = funct
     tryCatch(
         error = function(e) e,
         {
-            x |>
+            output <- x |>
                 prepareDataForPropagation() |>
                 mergeOriginalAndEarlyASR() |>
                 group_by(NCBI_ID) |>
                 mutate(Score = Score / sum(Score)) |>
                 ungroup() |>
                 distinct()
+            if ('Unit' %in% colnames(x)) {
+                unit <- x$Unit
+                unit <- unique(unit[!is.na(unit)])
+                if (length(unit) > 1) {
+                    attr_grp <- unique(x$Attribute_group)
+                    warning('More than 1 unit for', attr_grp, call. = FALSE)
+                }
+                output$Unit <- unit
+            }
+            return(output)
         }
     )
 })
@@ -137,7 +147,7 @@ data_ready <- discard(data_ready, is_error)
 data('tree_list')
 tree <- as.Node(tree_list)
 
-propagated <- bplapply(X = data_ready['growth temperature'], BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
+propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
 
     if ('Unit' %in% colnames(x)) {
         unit <- x$Unit
