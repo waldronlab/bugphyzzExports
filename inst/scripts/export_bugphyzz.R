@@ -17,7 +17,8 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 exlclude_phys <- c(
     'country', 'geographic location',
     'habitat', 'isolation site',
-    'metabolite production', 'metabolite utilization'
+    'metabolite production', 'metabolite utilization',
+    'halophily' # I think this should be separated in optimal and not optimal, or just optimal so it's similar to optimal ph
 )
 
 binaries <- c(
@@ -55,7 +56,7 @@ phys <- map(phys, ~ {
         .x <- filter(.x, Attribute_value == TRUE)
     }
     if ('Unit' %in% colnames(.x)) {
-        unit <- .x$unit
+        unit <- .x$Unit
         unit <- unique(unit[!is.na(unit)])
         .x$Unit <- unit
     }
