@@ -54,6 +54,11 @@ phys <- map(phys, ~ {
     if (unique(.x$Attribute_type) == 'logical') {
         .x <- filter(.x, Attribute_value == TRUE)
     }
+    if ('Unit' %in% colnames(.x)) {
+        unit <- .x$unit
+        unit <- unique(unit[!is.na(unit)])
+        .x$Unit <- unit
+    }
     return(.x)
 })
 
@@ -129,15 +134,15 @@ data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = funct
                 mutate(Score = Score / sum(Score)) |>
                 ungroup() |>
                 distinct()
-            if ('Unit' %in% colnames(x)) {
-                unit <- x$Unit
-                unit <- unique(unit[!is.na(unit)])
-                if (length(unit) > 1) {
-                    attr_grp <- unique(x$Attribute_group)
-                    warning('More than 1 unit for', attr_grp, call. = FALSE)
-                }
-                output$Unit <- unit
-            }
+            # if ('Unit' %in% colnames(x)) {
+            #     unit <- x$Unit
+            #     unit <- unique(unit[!is.na(unit)])
+            #     if (length(unit) > 1) {
+            #         attr_grp <- unique(x$Attribute_group)
+            #         warning('More than 1 unit for', attr_grp, call. = FALSE)
+            #     }
+            #     output$Unit <- unit
+            # }
             return(output)
         }
     )
@@ -149,16 +154,16 @@ tree <- as.Node(tree_list)
 
 propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
 
-    if ('Unit' %in% colnames(x)) {
-        unit <- x$Unit
-        unit <- unique(unit[!is.na(unit)])
-        if (length(unit) > 1) {
-            attr_grp <- unique(x$Attribute_group)
-            warning('More than 1 unit for', attr_grp, call. = FALSE)
-        }
-    } else {
-        unit <- NULL
-    }
+    # if ('Unit' %in% colnames(x)) {
+    #     unit <- x$Unit
+    #     unit <- unique(unit[!is.na(unit)])
+    #     if (length(unit) > 1) {
+    #         attr_grp <- unique(x$Attribute_group)
+    #         warning('More than 1 unit for', attr_grp, call. = FALSE)
+    #     }
+    # } else {
+    #     unit <- NULL
+    # }
 
     msg <- unique(x$Attribute_group)
     msg <- paste0('Propagating ', msg, '...')
@@ -236,9 +241,9 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), F
         mutate(Attribute_group = attr_grp) |>
         mutate(Attribute_type = attr_type)
 
-    if (!is.null(unit)) {
-        final_table$Unit <- unit
-    }
+    # if (!is.null(unit)) {
+    #     final_table$Unit <- unit
+    # }
 
     tree$Do(function(node) {
         node[['table']] <- NULL
