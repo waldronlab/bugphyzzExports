@@ -14,6 +14,14 @@ library(tidyr)
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
+n_threads <- parallel::detectCores()
+if (n_threads > 16) {
+    n_threads <- round(n_threads * 0.6)
+}
+
+msg <- paste0('Using ', n_threads, ' cores.')
+log_print(msg, blank_after = TRUE)
+
 exlclude_phys <- c(
     'country', 'geographic location',
     'habitat', 'isolation site',
@@ -106,7 +114,7 @@ data <- map(categorical, ~ {
 }) |>
     discard(~ !nrow(.x))
 
-data <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
+data <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
     set1 <- filter(x, !is.na(NCBI_ID))
     set2 <- filter(x, is.na(NCBI_ID))
     set1$Rank <- checkRank(set1$NCBI_ID)
@@ -124,7 +132,7 @@ data <- map(data, ~ {
     return(.x)
 })
 
-data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
+data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
     tryCatch(
         error = function(e) e,
         {
@@ -153,19 +161,7 @@ data_ready <- discard(data_ready, is_error)
 data('tree_list')
 tree <- as.Node(tree_list)
 
-propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), FUN = function(x) {
-
-    # if ('Unit' %in% colnames(x)) {
-    #     unit <- x$Unit
-    #     unit <- unique(unit[!is.na(unit)])
-    #     if (length(unit) > 1) {
-    #         attr_grp <- unique(x$Attribute_group)
-    #         warning('More than 1 unit for', attr_grp, call. = FALSE)
-    #     }
-    # } else {
-    #     unit <- NULL
-    # }
-
+propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
     msg <- unique(x$Attribute_group)
     msg <- paste0('Propagating ', msg, '...')
     log_print(msg)
@@ -242,10 +238,6 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = 60), F
         mutate(Attribute_group = attr_grp) |>
         mutate(Attribute_type = attr_type)
 
-    # if (!is.null(unit)) {
-    #     final_table$Unit <- unit
-    # }
-
     tree$Do(function(node) {
         node[['table']] <- NULL
     })
@@ -268,7 +260,7 @@ full_dump_with_0 <- full_dump_with_0 |>
 
 data.table::fwrite(
     x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
-    na = NA, row.names = FALSE, nThread = 60
+    na = NA, row.names = FALSE, nThread = n_threads
 )
 system2('pbzip2', args = list('-p60', '-f', 'full_dump_with_0.csv'))
 
@@ -297,25 +289,10 @@ full_dump <- full_dump |>
     ) |>
     dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute)) |>
     dplyr::mutate(Attribute = stringr::str_squish(Attribute))
-# readr::write_csv(
-#     x = full_dump, file = "full_dump.csv.bz2", quote = 'needed', num_threads = 16
-# )
-
-# map(fu)
-#
-# total_scores <- full_dump |>
-#     group_by(Attribute_group, NCBI_ID) |>
-#     reframe(Total_score = sum(Score))
-#
-# taxids_above_0 <- total_scores |>
-#     filter(Total_score > 0)
-#
-# full_dump <- full_dump |>
-#     filter(NCBI_ID %in% taxids_above_0)
 
 data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
-    na = NA, row.names = FALSE, nThread = 60
+    na = NA, row.names = FALSE, nThread = n_threads
 )
 system2('pbzip2', args = list('-p60', '-f', 'full_dump.csv'))
 
