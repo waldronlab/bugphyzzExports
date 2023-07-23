@@ -230,13 +230,6 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
     attr_grp <- unique(x$Attribute_group)
     attr_type <- unique(x$Attribute_type)
 
-    # check_id <- function(id) {
-    #     tryCatch(
-    #         error = function(e) NA,
-    #         taxizedb::taxid2name(id, db = 'ncbi')
-    #     )
-    # }
-
     final_table <- final_table |>
         filter(NCBI_ID != 'ArcBac') |>
         mutate(
@@ -312,9 +305,9 @@ propagated <- map(propagated, ~ {
 
 full_dump <- bind_rows(propagated)
 full_dump$Attribute_value <- NULL
-full_dump_with_0$Parent_name <- NULL
-full_dump_with_0$Parent_rank <- NULL
-full_dump_with_0$Parent_NCBI_ID <- NULL
+full_dump$Parent_name <- NULL
+full_dump$Parent_rank <- NULL
+full_dump$Parent_NCBI_ID <- NULL
 full_dump$Strain <- NULL
 full_dump$Genome_ID <- NULL
 full_dump$Accession_ID <- NULL
