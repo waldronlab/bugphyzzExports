@@ -2,12 +2,12 @@
 
 library(logr)
 library(bugphyzz) # BiocManager::install('waldronlab/bugphyzz', force = TRUE)
-library(taxPPro)
+library(taxPPro) # BiocManager::install('sdgamboa/taxPPro', force = TRUE)
 library(purrr)
 library(rlang)
 library(dplyr)
 library(data.tree)
-library(bugphyzzExports) # BiocManager::install('sdgamboa/taxPPro', force = TRUE)
+library(bugphyzzExports) # Install locally
 library(BiocParallel)
 library(tidyr)
 
@@ -18,17 +18,21 @@ n_threads <- parallel::detectCores()
 if (n_threads > 16) {
     n_threads <- round(n_threads * 0.6)
 }
-
 msg <- paste0('Using ', n_threads, ' cores.')
 log_print(msg, blank_after = TRUE)
 
+## For now, do not inlcude these physiologies/Attribute groups.
+## They need more curation.
 exlclude_phys <- c(
     'country', 'geographic location',
     'habitat', 'isolation site',
     'metabolite production', 'metabolite utilization',
-    'halophily' # I think this should be separated in optimal and not optimal, or just optimal so it's similar to optimal ph
+    'halophily'
 )
 
+## These are true binary attributes.
+## We need to keep TRUE and FALSE values and merge them with the
+## attribute name
 binaries <- c(
     "acetate producing",
     "animal pathogen",
@@ -48,6 +52,7 @@ binaries <- c(
 
 phys_names <- showPhys()
 phys_names <- phys_names[which(!phys_names %in% exlclude_phys)]
+
 msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
 msg_len <- length(phys_names)
 msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys.time())
@@ -56,7 +61,7 @@ log_print(msg, blank_after = TRUE)
 phys <- physiologies(phys_names, full_source = FALSE)
 phys <- map(phys, ~ {
     attr_grp <- unique(.x$Attribute_group)
-    if (attr_grp %in% binaries) { # binaries is defined above
+    if (attr_grp %in% binaries) {
         .x$Attribute <- paste0(.x$Attribute, '--', .x$Attribute_value)
         .x$Attribute_value <- TRUE
     }
@@ -71,19 +76,21 @@ phys <- map(phys, ~ {
     return(.x)
 })
 
+## Convert all attributes to categorical before propagation
+## This would allow to use the same AUR-ROC method for comparison
 categorical <- keep(phys, ~ unique(.x$Attribute_type) == 'logical')
-categorical$aerophilicity <- homogenizeAerophilicityAttributeNames(
-    categorical$aerophilicity
-)
 range <- keep(phys, ~ unique(.x$Attribute_type == 'range'))
 range <- range[which(names(range) %in% names(THRESHOLDS()))]
 range_cat <- map2(range, names(range), ~ rangeToLogicalThr(.x, THRESHOLDS()[[.y]]))
 categorical <- c(categorical, range_cat)
 
+
+## The next chunk checks that only attributes with valid values are included.
+## Those attributes with invalid values are reported in the log file.
+## <Attribute>--TRUE and <Attribute>--FALSE are added for binary attributes.
 log_print('Check that all attributes are valid. Invalid values will be printed and dropped from the full dump file:', blank_after = TRUE)
 fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
 valid_attributes <- unique(read.table(fname, header = TRUE, sep = '\t')$attribute)
-
 more_valid_attributes <- map(categorical, ~ {
     attr_grp <- unique(.x$Attribute_group)
     if (attr_grp %in% binaries) {
@@ -93,7 +100,6 @@ more_valid_attributes <- map(categorical, ~ {
 }) |>
     discard(is.null) |>
     unlist(recursive = TRUE, use.names = FALSE)
-
 valid_attributes <- unique(c(valid_attributes, more_valid_attributes))
 
 data <- map(categorical, ~ {
@@ -113,7 +119,17 @@ data <- map(categorical, ~ {
     return(output)
 }) |>
     discard(~ !nrow(.x))
+data_discarded <- names(categorical)[which(!names(categorical) %in% names(data))]
+if (length(data_discarded) > 0) {
+    data_discarded <- paste0(', paste0(data_discarded, collapse = ', '), ')
+    msg <- paste0(
+        "The following physiologies were discarded because they didn't have",
+        " any valid Attribute: ", data_discarded, '.'
+    )
+log_print(msg, blank_after = TRUE)
+}
 
+## This chunk is to make sure that al NCBI_IDs have valid taxon names
 data <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
     set1 <- filter(x, !is.na(NCBI_ID))
     set2 <- filter(x, is.na(NCBI_ID))
@@ -122,6 +138,8 @@ data <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = func
     bind_rows(set1, set2)
 })
 
+## For those numeric attributes converted to categorical attributes,
+## propagate them with their ranges and units.
 data <- map(data, ~ {
     if ('Attribute_range' %in% colnames(.x)) {
         .x$Attribute <- paste0(.x$Attribute, ' ', .x$Attribute_range)
@@ -131,6 +149,7 @@ data <- map(data, ~ {
     }
     return(.x)
 })
+
 
 data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
     tryCatch(
@@ -143,24 +162,26 @@ data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN 
                 mutate(Score = Score / sum(Score)) |>
                 ungroup() |>
                 distinct()
-            # if ('Unit' %in% colnames(x)) {
-            #     unit <- x$Unit
-            #     unit <- unique(unit[!is.na(unit)])
-            #     if (length(unit) > 1) {
-            #         attr_grp <- unique(x$Attribute_group)
-            #         warning('More than 1 unit for', attr_grp, call. = FALSE)
-            #     }
-            #     output$Unit <- unit
-            # }
             return(output)
         }
     )
 })
-data_ready <- discard(data_ready, is_error)
 
+lgl <- map_lgl(data_ready, is_error)
+if (any(lgl)) {
+    discard_names <- names(data_ready)[which(lgl)]
+    msg <- paste0(
+        "The following physiologies will be discared for some error during",
+        " propagation: ",
+        paste0("'", paste0(discard_names, collapse = ', '), ".'")
+    )
+    log_print(msg, blank_after = TRUE)
+    data_ready <- discard(data_ready, is_error)
+}
+
+## Propagation with taxPPro
 data('tree_list')
 tree <- as.Node(tree_list)
-
 propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
     msg <- unique(x$Attribute_group)
     msg <- paste0('Propagating ', msg, '...')
@@ -186,13 +207,13 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
         dplyr::filter(Evidence %in% c('', 'asr', 'inh') | is.na(Evidence))
 
     ## Combine data from propagation and original annotations
+    ## >>Taxon name, etc are missing here<<
     data_with_values <- bind_rows(data_tree_tbl, x)
 
     ## Add missing values for the tree (this is maybe just necessary for
     ## displaying stats
     all_node_names <- tree$Get(function(node) node$name, simplify = TRUE)
     missing_node_names <- all_node_names[which(!all_node_names %in% unique(data_with_values$NCBI_ID))]
-
     if (length(missing_node_names > 0)) {
         attrs <- unique(x$Attribute)
         empty_df <- data.frame(
@@ -209,12 +230,12 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
     attr_grp <- unique(x$Attribute_group)
     attr_type <- unique(x$Attribute_type)
 
-    check_id <- function(id) {
-        tryCatch(
-            error = function(e) NA,
-            taxizedb::taxid2name(id, db = 'ncbi')
-        )
-    }
+    # check_id <- function(id) {
+    #     tryCatch(
+    #         error = function(e) NA,
+    #         taxizedb::taxid2name(id, db = 'ncbi')
+    #     )
+    # }
 
     final_table <- final_table |>
         filter(NCBI_ID != 'ArcBac') |>
@@ -231,7 +252,7 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
             )
         ) |>
         mutate(NCBI_ID = sub('^[dpcofgst]__', '', NCBI_ID)) |>
-        mutate(Taxon_name = ifelse(is.na(Taxon_name), check_id(NCBI_ID), Taxon_name)) |>
+        mutate(Taxon_name = ifelse(is.na(Taxon_name), checkTaxonName(NCBI_ID), Taxon_name)) |>
         filter(!is.na(NCBI_ID) & !is.na(Taxon_name)) |>
         mutate(Frequency = taxPPro:::scores2Freq(Score)) |>
         mutate(Attribute_value = TRUE) |>
@@ -247,6 +268,16 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
 
 full_dump_with_0 <- bind_rows(propagated)
 full_dump_with_0$Attribute_value <- NULL
+full_dump_with_0$Parent_name <- NULL
+full_dump_with_0$Parent_rank <- NULL
+full_dump_with_0$Parent_NCBI_ID <- NULL
+full_dump_with_0$Strain <- NULL
+full_dump_with_0$Genome_ID <- NULL
+full_dump_with_0$Accession_ID <- NULL
+full_dump_with_0 <- unique(full_dump_with_0)
+
+## Some code for dividing the Attribute column into
+## Attribute range
 full_dump_with_0 <- full_dump_with_0 |>
     dplyr::mutate(
         Attribute_range = ifelse(
@@ -279,6 +310,15 @@ propagated <- map(propagated, ~ {
 
 full_dump <- bind_rows(propagated)
 full_dump$Attribute_value <- NULL
+full_dump_with_0$Parent_name <- NULL
+full_dump_with_0$Parent_rank <- NULL
+full_dump_with_0$Parent_NCBI_ID <- NULL
+full_dump$Strain <- NULL
+full_dump$Genome_ID <- NULL
+full_dump$Accession_ID <- NULL
+full_dump <- unique(full_dump)
+
+## Same than above for fixint the Attribute column
 full_dump <- full_dump |>
     dplyr::mutate(
         Attribute_range = ifelse(
