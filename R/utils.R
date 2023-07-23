@@ -51,7 +51,7 @@ checkRank <- function(taxid) {
 #' @return A character string. NA if error.
 #' @export
 #'
-checkTaxonName <- function(taxids) {
+checkTaxonName <- function(taxid) {
     tryCatch(
         error = function(e) NA,
         {

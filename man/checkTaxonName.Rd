@@ -4,7 +4,7 @@
 \alias{checkTaxonName}
 \title{Check taxon name}
 \usage{
-checkTaxonName(taxids)
+checkTaxonName(taxid)
 }
 \arguments{
 \item{taxid}{A character string with a taxid.}

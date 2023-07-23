@@ -293,7 +293,9 @@ data.table::fwrite(
     x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
     na = NA, row.names = FALSE, nThread = n_threads
 )
-system2('pbzip2', args = list('-p60', '-f', 'full_dump_with_0.csv'))
+
+pthreads <- paste0('-p', as.character(n_threads))
+system2('pbzip2', args = list(pthreads, '-f', 'full_dump_with_0.csv'))
 
 propagated <- map(propagated, ~ {
     total_scores <- .x |>
@@ -334,6 +336,6 @@ data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
     na = NA, row.names = FALSE, nThread = n_threads
 )
-system2('pbzip2', args = list('-p60', '-f', 'full_dump.csv'))
+system2('pbzip2', args = list(pthreads, '-f', 'full_dump.csv'))
 
 log_close()
