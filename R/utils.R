@@ -22,28 +22,6 @@ removeAccessionAndGenomeID <- function(df) {
     dplyr::distinct(df)
 }
 
-#' Homogenize attribute names of aerophilicity
-#'
-#' \code{homogenizeAerophilicityAttribbuteNames} makes all levels in the
-#' aerophilicity dataset at the same level in the GO tree.
-#'
-#' @param df A data.frame.
-#'
-#' @return A data.frame.
-#' @export
-#'
-homogenizeAerophilicityAttributeNames <- function(df) {
-    df |> dplyr::mutate(
-        Attribute = dplyr::case_when(
-            Attribute == 'obligately anaerobic' ~ 'anaerobic',
-            Attribute == 'microaerophilic' ~ 'aerobic',
-            Attribute == 'obligately aerobic' ~ 'aerobic',
-            TRUE ~ Attribute
-        )
-    )
-}
-
-
 #' Check rank
 #'
 #' \code{checkRank} checks that the rank matches the NCBI ID (taxids).
@@ -65,7 +43,7 @@ checkRank <- function(taxid) {
 
 #' Check taxon name
 #'
-#' \code{checkTaxonName} checks that the taxon_name matches the NCBI ID (taxids).
+#' \code{checkTaxonName} checks that the taxon_name corresponds to the NCBI ID (taxids).
 #' If not, NA is returned.
 #'
 #' @param taxid A character string with a taxid.

@@ -13,6 +13,6 @@ checkTaxonName(taxids)
 A character string. NA if error.
 }
 \description{
-\code{checkTaxonName} checks that the taxon_name matches the NCBI ID (taxids).
+\code{checkTaxonName} checks that the taxon_name corresponds to the NCBI ID (taxids).
 If not, NA is returned.
 }

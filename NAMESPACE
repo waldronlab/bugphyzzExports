@@ -3,7 +3,6 @@
 export(THRESHOLDS)
 export(checkRank)
 export(checkTaxonName)
-export(homogenizeAerophilicityAttributeNames)
 export(rangeToLogicalThr)
 export(removeAccessionAndGenomeID)
 export(subsetByThreshold)
