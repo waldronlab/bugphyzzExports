@@ -171,7 +171,7 @@ if (any(lgl)) {
     discard_names <- names(data_ready)[which(lgl)]
     msg <- paste0(
         "The following physiologies will be discared for some error during",
-        " propagation: ",
+        " preparation for propagation: ",
         paste0("'", paste0(discard_names, collapse = ', '), ".'")
     )
     log_print(msg, blank_after = TRUE)
