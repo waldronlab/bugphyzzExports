@@ -355,7 +355,7 @@ for (i in seq_along(ranks)) {
     for (j in seq_along(tax_id_types)) {
         names(sigs)[counter] <- paste0(ranks[i], '--', tax_id_types[j])
         gmt_file <- paste0(
-            'bugphyzz-', ranks[i], '-', tax_id_types[j], '-', '.gmt'
+            'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
         )
         sig <- getBugphyzzSignatures(
             df = full_dump, tax.level = ranks[i], tax.id.type = tax_id_types[j]
