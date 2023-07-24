@@ -150,7 +150,6 @@ data <- map(data, ~ {
     return(.x)
 })
 
-
 data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
     tryCatch(
         error = function(e) e,
@@ -259,20 +258,6 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
     return(final_table)
 })
 
-## Create a header for both the dump files and the gmt files.
-header <- paste0("# bugphyzz ", Sys.Date(),
-                 ", License: Creative Commons Attribution 4.0 International",
-                 ", URL: https://waldronlab.io/bugphyzz")
-
-# helper function to add a header line to an already written dump or GMT file
-addHeader <- function(header, out.file)
-{
-    fconn <- file(out.file, "r+")
-    lines <- readLines(fconn)
-    header <- sub("\n$", "", header)
-    writeLines(c(header, lines), con = fconn)
-    close(fconn)
-}
 full_dump_with_0 <- bind_rows(propagated)
 full_dump_with_0$Attribute_value <- NULL
 full_dump_with_0$Parent_name <- NULL
@@ -299,7 +284,6 @@ data.table::fwrite(
     x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
     na = NA, row.names = FALSE, nThread = n_threads
 )
-addHeader(header, 'full_dump_with_0.csv')
 pthreads <- paste0('-p', as.character(n_threads))
 system2('pbzip2', args = list(pthreads, '-f', 'full_dump_with_0.csv'))
 
@@ -342,14 +326,27 @@ data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
     na = NA, row.names = FALSE, nThread = n_threads
 )
-addHeader(header, 'full_dump.csv')
 system2('pbzip2', args = list(pthreads, '-f', 'full_dump.csv'))
-addHeader(header, 'full_dump_with_0.csv')
 
 ## Export gmt files
 log_print('Writing GMT files...')
 ranks <- c('genus', 'strain', 'species', 'mixed')
 tax_id_types <- c('Taxon_name', 'NCBI_ID')
+
+## Create a header for both the dump files and the gmt files.
+header <- paste0("# bugphyzz ", Sys.Date(),
+                 ", License: Creative Commons Attribution 4.0 International",
+                 ", URL: https://waldronlab.io/bugphyzz")
+
+# helper function to add a header line to an already written dump or GMT file
+addHeader <- function(header, out.file)
+{
+    fconn <- file(out.file, "r+")
+    lines <- readLines(fconn)
+    header <- sub("\n$", "", header)
+    writeLines(c(header, lines), con = fconn)
+    close(fconn)
+}
 
 l <- length(ranks) * length(tax_id_types)
 sigs <- vector('list', l)
