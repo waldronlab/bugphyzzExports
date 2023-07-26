@@ -331,7 +331,8 @@ full_dump <- full_dump |>
     ) |>
     dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute)) |>
     dplyr::mutate(Attribute = stringr::str_squish(Attribute))
-cat(header, 'full_dump.csv')
+
+cat(header, file = 'full_dump.csv')
 data.table::fwrite(
     x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
     na = NA, row.names = FALSE, nThread = n_threads,
