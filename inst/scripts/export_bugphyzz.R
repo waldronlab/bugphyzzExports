@@ -263,7 +263,7 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
 ## Create a header for both the dump files and the gmt files.
 header <- paste0("# bugphyzz ", Sys.Date(),
                  ", License: Creative Commons Attribution 4.0 International",
-                 ", URL: https://waldronlab.io/bugphyzz")
+                 ", URL: https://waldronlab.io/bugphyzz\n")
 
 
 full_dump_with_0 <- bind_rows(propagated)
