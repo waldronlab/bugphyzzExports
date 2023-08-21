@@ -10,42 +10,32 @@ jobs:
     runs-on: ubuntu-latest
     container: bioconductor/bioconductor_docker:devel
     env:
-      GITHUB_PAT: ${{ secrets.wl_pat }}
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
 
-      - name: Checkout bugphyzzExports 
+      - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          path: bugphyzzExports
-
-      - name: Checkout bugphyzz
-        uses: actions/checkout@v3
-        with:
-          repository: waldronlab/bugphyzz
-          path: bugphyzz
 
       - name: Install dependencies
         run: |
-          cd $GITHUB_WORKSPACE/bugphyzz
-          Rscript -e "devtools::install(); BiocManager::install(c('bugsigdbr', 'readr'))"
+          BiocManager::install(c("bugsigdbr", "readr", "BiocFileCache", "waldronlab/bugphyzz", "waldronlab/bugphyzzExports"))
+        shell: Rscript {0}
 
       - name: Setup git config
         run: |
-          cd $GITHUB_WORKSPACE/bugphyzzExports
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
       - name: Export bugphyzz
         run: |
-          cd $GITHUB_WORKSPACE/bugphyzzExports
           rm *.gmt
-          Rscript $GITHUB_WORKSPACE/bugphyzzExports/inst/scripts/export_bugphyzz.R
+          Rscript bugphyzzExports/inst/scripts/export_bugphyzz.R
         timeout-minutes: 20
 
       - name: Commit Exports
         run: |
-          cd $GITHUB_WORKSPACE/bugphyzzExports
+          cd bugphyzzExports
           git add . 
           git commit -m "Weekly export update"
           git push origin main
