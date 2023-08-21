@@ -16,18 +16,11 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - name: Install dependencies
         run: |
           BiocManager::install(c("bugsigdbr", "readr", "BiocFileCache", "waldronlab/bugphyzz", "waldronlab/bugphyzzExports"))
         shell: Rscript {0}
-
-      - name: Setup git config
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
 
       - name: Export bugphyzz
         run: |
@@ -37,7 +30,8 @@ jobs:
 
       - name: Commit Exports
         run: |
-          cd $GITHUB_WORKSPACE/bugphyzzExports
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
           git add . 
           git commit -m "Weekly export update"
           git push origin main
