@@ -16,6 +16,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Install dependencies
         run: |
@@ -24,8 +26,6 @@ jobs:
 
       - name: Setup git config
         run: |
-          pwd
-          ls -Rla
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
