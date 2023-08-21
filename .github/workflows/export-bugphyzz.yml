@@ -19,7 +19,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          BiocManager::install(c("bugsigdbr", "readr", "BiocFileCache", "waldronlab/bugphyzz", "waldronlab/bugphyzzExports"))
+         pkgs <- c("bugsigdbr", "logr", "BiocFileCache", "tidy", "BiocParallel",
+                   "sdgamboa/taxPPro", "waldronlab/bugphyzz",
+                   "waldronlab/bugphyzzExports",)
+         BiocManager::install(pkgs, dependencies = TRUE)
         shell: Rscript {0}
 
       - name: Export bugphyzz
