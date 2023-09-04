@@ -298,7 +298,7 @@ for (i in seq_along(propagated)) {
     propagated[[i]]$Attribute = sub('\\(.*$', '', propagated[[i]]$Attribute)
     propagated[[i]]$Attribute = stringr::str_squish(propagated[[i]]$Attribute)
     data.table::fwrite(
-        x = full_dump_with_0,
+        x = propagated[[i]],
         file = 'full_dump_with_0.csv',
         quote = TRUE,
         sep = ",",
