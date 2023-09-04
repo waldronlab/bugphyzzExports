@@ -14,14 +14,7 @@ library(tidyr)
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
-n_threads <- parallel::detectCores()
-if (n_threads > 16) {
-    n_threads <- round(n_threads * 0.6)
-}
-msg <- paste0('Using ', n_threads, ' cores.')
-log_print(msg, blank_after = TRUE)
-
-## For now, do not inlcude these physiologies/Attribute groups.
+## For now, do not include these physiologies/Attribute groups.
 ## They need more curation.
 exlclude_phys <- c(
     'country', 'geographic location',
@@ -58,7 +51,7 @@ msg_len <- length(phys_names)
 msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys.time())
 log_print(msg, blank_after = TRUE)
 
-phys <- physiologies(phys_names, full_source = FALSE)
+system.time(phys <- physiologies(phys_names, full_source = FALSE))
 phys <- map(phys, ~ {
     attr_grp <- unique(.x$Attribute_group)
     if (attr_grp %in% binaries) {
@@ -77,7 +70,7 @@ phys <- map(phys, ~ {
 })
 
 ## Convert all attributes to categorical before propagation
-## This would allow to use the same AUR-ROC method for comparison
+## This would allow to use the same AUC-ROC method for comparison
 categorical <- keep(phys, ~ unique(.x$Attribute_type) == 'logical')
 range <- keep(phys, ~ unique(.x$Attribute_type == 'range'))
 range <- range[which(names(range) %in% names(THRESHOLDS()))]
@@ -102,7 +95,7 @@ more_valid_attributes <- map(categorical, ~ {
     unlist(recursive = TRUE, use.names = FALSE)
 valid_attributes <- unique(c(valid_attributes, more_valid_attributes))
 
-data <- map(categorical, ~ {
+data_ready <- map(categorical, ~ {
     attr_names <- unique(.x$Attribute)
     attr_grp <- unique(.x$Attribute_group)
     lgl <- sum(!attr_names %in% valid_attributes)
@@ -119,7 +112,7 @@ data <- map(categorical, ~ {
     return(output)
 }) |>
     discard(~ !nrow(.x))
-data_discarded <- names(categorical)[which(!names(categorical) %in% names(data))]
+data_discarded <- names(categorical)[which(!names(categorical) %in% names(data_ready))]
 if (length(data_discarded) > 0) {
     data_discarded <- paste0(', paste0(data_discarded, collapse = ', '), ')
     msg <- paste0(
@@ -129,18 +122,22 @@ if (length(data_discarded) > 0) {
 log_print(msg, blank_after = TRUE)
 }
 
-## This chunk is to make sure that al NCBI_IDs have valid taxon names
-data <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
-    set1 <- filter(x, !is.na(NCBI_ID))
+
+## This chunk is to make sure that all NCBI_IDs have valid taxon names
+for (i in seq_along(data_ready)) {
+    x <- data_ready[[i]]
+    set1 <- filter(x,!is.na(NCBI_ID))
     set2 <- filter(x, is.na(NCBI_ID))
     set1$Rank <- checkRank(set1$NCBI_ID)
     set1$Taxon_name <- checkTaxonName(set1$NCBI_ID)
-    bind_rows(set1, set2)
-})
+    data_ready[[i]] <- bind_rows(set1, set2)
+    log_print(paste0("Finished checking valid taxon names for: ", names(data_ready)[i]),
+              blank_after = TRUE)
+}
 
 ## For those numeric attributes converted to categorical attributes,
 ## propagate them with their ranges and units.
-data <- map(data, ~ {
+data_ready <- map(data_ready, ~ {
     if ('Attribute_range' %in% colnames(.x)) {
         .x$Attribute <- paste0(.x$Attribute, ' ', .x$Attribute_range)
         .x$Attribute <- sub('\\)$', '', .x$Attribute)
@@ -150,21 +147,28 @@ data <- map(data, ~ {
     return(.x)
 })
 
-data_ready <- bplapply(data, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
-    tryCatch(
-        error = function(e) e,
-        {
-            output <- x |>
-                prepareDataForPropagation() |>
-                mergeOriginalAndEarlyASR() |>
-                group_by(NCBI_ID) |>
-                mutate(Score = Score / sum(Score)) |>
-                ungroup() |>
-                distinct()
-            return(output)
-        }
+# Following code chunk produces the following warning 21 times - is this harmless?
+# There were 21 warnings (use warnings() to see them)
+# > warnings()
+# Warning messages:
+#     1: There was 1 warning in `dplyr::mutate()`.
+# ℹ In argument: `Evidence = forcats::fct_relevel(Evidence, "asr")`.
+for (i in seq_along(data_ready)) {
+    data_ready[[i]] <- tryCatch(
+        output <- data_ready[[i]] |>
+            prepareDataForPropagation() |>
+            mergeOriginalAndEarlyASR() |>
+            group_by(NCBI_ID) |>
+            mutate(Score = Score / sum(Score)) |>
+            ungroup() |>
+            distinct()
     )
-})
+    log_print(paste0(
+        "Finished preparing data for propagation: ",
+        names(data_ready)[i]
+    ),
+    blank_after = TRUE)
+}
 
 lgl <- map_lgl(data_ready, is_error)
 if (any(lgl)) {
@@ -181,9 +185,17 @@ if (any(lgl)) {
 ## Propagation with taxPPro
 data('tree_list')
 tree <- as.Node(tree_list)
-propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_threads), FUN = function(x) {
+propagated <- as.list(character(length(data_ready)))
+names(propagated) = names(data_ready)
+
+#library(profmem)
+#options(profmem.threshold = 1024^2 * 10) #10 megabytes
+
+for (i in seq_along(data_ready)){
+    p <- system.time({
+    x <- data_ready[[i]]
     msg <- unique(x$Attribute_group)
-    msg <- paste0('Propagating ', msg, '...')
+    msg <- paste('Propagating', msg, 'at', Sys.time())
     log_print(msg)
     input_tbl <- x |>
         select(NCBI_ID, Attribute, Score, Evidence) |>
@@ -255,8 +267,10 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
         node[['table']] <- NULL
     })
 
-    return(final_table)
-})
+    propagated[[i]] <- final_table
+    })
+    print(p)
+}
 
 
 ## Create header
@@ -264,81 +278,60 @@ propagated <- bplapply(X = data_ready, BPPARAM = MulticoreParam(workers = n_thre
 header <- paste0("# bugphyzz ", Sys.Date(),
                  ", License: Creative Commons Attribution 4.0 International",
                  ", URL: https://waldronlab.io/bugphyzz\n")
-
-
-full_dump_with_0 <- bind_rows(propagated)
-full_dump_with_0$Attribute_value <- NULL
-full_dump_with_0$Parent_name <- NULL
-full_dump_with_0$Parent_rank <- NULL
-full_dump_with_0$Parent_NCBI_ID <- NULL
-full_dump_with_0$Strain <- NULL
-full_dump_with_0$Genome_ID <- NULL
-full_dump_with_0$Accession_ID <- NULL
-full_dump_with_0 <- unique(full_dump_with_0)
-
-## Some code for dividing the Attribute column into
-## Attribute range
-full_dump_with_0 <- full_dump_with_0 |>
-    dplyr::mutate(
-        Attribute_range = ifelse(
-            test = grepl('\\(', Attribute),
-            yes = sub('^.*(\\(.*)$', '\\1', Attribute),
-            no = NA
-        )
-    ) |>
-    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute)) |>
-    dplyr::mutate(Attribute = stringr::str_squish(Attribute))
 cat(header, file = 'full_dump_with_0.csv')
-data.table::fwrite(
-    x = full_dump_with_0, file = 'full_dump_with_0.csv', quote = TRUE, sep = ",",
-    na = NA, row.names = FALSE, nThread = n_threads,
-    append = TRUE, col.names = TRUE
-)
-pthreads <- paste0('-p', as.character(n_threads))
-system2('pbzip2', args = list(pthreads, '-f', 'full_dump_with_0.csv'))
 
-propagated <- map(propagated, ~ {
-    total_scores <- .x |>
-        group_by(Attribute_group, NCBI_ID) |>
-        reframe(Total_score = sum(Score))
+dropcols <- c("Attribute_value", "Parent_name", "Parent_rank", "Parent_NCBI_ID",
+    "Strain", "Genome_ID", "Accession_ID")
+
+for (i in seq_along(propagated)) {
+    log_print(paste("Dumping", names(propagated)[i], "to file with zeros"), blank_after = TRUE)
+    propagated[[i]] <-
+        propagated[[i]][, !colnames(propagated[[i]]) %in% dropcols]
+    propagated[[i]] <- unique(propagated[[i]])
+    ## Some code for dividing the Attribute column into
+    ## Attribute range
+    propagated[[i]]$Attribute_range = ifelse(
+        test = grepl('\\(', propagated[[i]]$Attribute),
+        yes = sub('^.*(\\(.*)$', '\\1', propagated[[i]]$Attribute),
+        no = NA
+    )
+    propagated[[i]]$Attribute = sub('\\(.*$', '', propagated[[i]]$Attribute)
+    propagated[[i]]$Attribute = stringr::str_squish(propagated[[i]]$Attribute)
+    data.table::fwrite(
+        x = full_dump_with_0,
+        file = 'full_dump_with_0.csv',
+        quote = TRUE,
+        sep = ",",
+        na = NA,
+        row.names = FALSE,
+        append = TRUE,
+        col.names = identical(i, 1L)
+    )
+}
+
+system2('pbzip2', args = list('-f', 'full_dump_with_0.csv'))
+
+cat(header, file = 'full_dump.csv')
+for (i in seq_along(propagated)) {
+    log_print(paste("Dumping", names(propagated)[i], "to file without zeros"), blank_after = TRUE)
+
+    total_scores <- propagated[[i]] |> group_by(Attribute_group, NCBI_ID) |>
+            reframe(Total_score = sum(Score))
     taxids_above_0 <- total_scores |>
         filter(Total_score > 0) |>
         pull(NCBI_ID) |>
         unique()
-    output <- .x |>
+    propagated[[i]] <- propagated[[i]] |>
         filter(NCBI_ID %in% taxids_above_0)
-    return(output)
-})
+    rm(taxids_above_0, total_scores)
+    data.table::fwrite(
+        x = propagated[[i]], file = 'full_dump.csv', quote = TRUE, sep = ",",
+        na = NA, row.names = FALSE, nThread = n_threads,
+        append = TRUE, col.names = identical(i, 1L)
+    )
+}
 
-full_dump <- bind_rows(propagated)
-full_dump$Attribute_value <- NULL
-full_dump$Parent_name <- NULL
-full_dump$Parent_rank <- NULL
-full_dump$Parent_NCBI_ID <- NULL
-full_dump$Strain <- NULL
-full_dump$Genome_ID <- NULL
-full_dump$Accession_ID <- NULL
-full_dump <- unique(full_dump)
-
-## Same than above for fixint the Attribute column
-full_dump <- full_dump |>
-    dplyr::mutate(
-        Attribute_range = ifelse(
-            test = grepl('\\(', Attribute),
-            yes = sub('^.*(\\(.*)$', '\\1', Attribute),
-            no = NA
-        )
-    ) |>
-    dplyr::mutate(Attribute = sub('\\(.*$', '', Attribute)) |>
-    dplyr::mutate(Attribute = stringr::str_squish(Attribute))
-
-cat(header, file = 'full_dump.csv')
-data.table::fwrite(
-    x = full_dump, file = 'full_dump.csv', quote = TRUE, sep = ",",
-    na = NA, row.names = FALSE, nThread = n_threads,
-    append = TRUE, col.names = TRUE
-)
-system2('pbzip2', args = list(pthreads, '-f', 'full_dump.csv'))
+system2('pbzip2', args = list('full_dump.csv'))
 
 ## Export gmt files
 log_print('Writing GMT files...')
@@ -365,10 +358,13 @@ for (i in seq_along(ranks)) {
         gmt_file <- paste0(
             'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
         )
-        sig <- getBugphyzzSignatures(
-            df = full_dump, tax.level = ranks[i], tax.id.type = tax_id_types[j]
-        )
-        bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file)
+        for (k in seq_along(propagated)){
+            log_print(paste("rank:", ranks[i], "/ tax_id_type:", tax_id_types[j], "/ physiology:", names(propagated)[k]), blank_after = TRUE)
+            sig <- getBugphyzzSignatures(
+                df = propagated[[k]], tax.level = ranks[i], tax.id.type = tax_id_types[j]
+            )
+            writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
+        }
         addHeader(header, gmt_file)
         counter <- counter + 1
     }
