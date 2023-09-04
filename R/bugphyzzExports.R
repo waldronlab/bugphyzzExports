@@ -127,9 +127,11 @@ THRESHOLDS <- function() {
 #' @return boolean
 #'
 #' @examples
-#' .hasSpecialThreshold()
-.hasSpecialThresholds <- function(physiology) {
-    physiology %in% names(.THRESHOLDS)
+#' names(THRESHOLDS())
+#' bugphyzzExports:::.hasSpecialThreshold(physiology = "coding genes")
+#' bugphyzzExports:::.hasSpecialThreshold(physiology = "aerophilicity")
+.hasSpecialThreshold <- function(physiology) {
+    physiology %in% names(THRESHOLDS())
 }
 
 #' Header for bugphyzz files
@@ -137,7 +139,7 @@ THRESHOLDS <- function() {
 #' @param identifier any character vector. Defaults to today.
 #'
 #' @examples
-#' .getHeader("3.17")
+#' bugphyzzExports:::.getHeader("3.17")
 .getHeader <- function(identifier = format(Sys.time(), "%Y-%m-%d")) {
     paste0("# bugphyzz ", identifier,
            ", License: Creative Commons Attribution 4.0 International",
@@ -152,7 +154,7 @@ THRESHOLDS <- function() {
 #' @importFrom readr read_lines write_lines
 #'
 #' @examples
-#' writeHeader(file.path(tempdir(), "test.txt"))
+#' # bugphyzzExports:::.writeHeader(file.path(tempdir(), "test.txt"))
 .writeHeader <- function(file_path, header = header) {
     lines <- read_lines(file_path)
     write_lines(c(header, lines), file_path)
@@ -168,8 +170,12 @@ THRESHOLDS <- function() {
 #' @importFrom readr write_csv
 #'
 #' @examples
-#' writeFileWithHeader(signatures, "mysigs.gmt", .getHeader())
+#' ## Replace with a working example!
+#'
+#' ## cg <- physiologies("coding genes")
+#' ## signatures <- bugsigdbr::getSignatures(cg[[1]], tax.id.type="taxname")
+#' ## bugphyzzExports:::.writeFileWithHeader(signatures, "mysigs.gmt", .getHeader())
 .writeFileWithHeader <- function(signatures, file_path, header = header) {
-    writeGMT(signatures, file_path)
+    bugsigdbr::writeGMT(signatures, file_path)
     .writeHeader(file_path, header)
 }

@@ -13,5 +13,5 @@
 Header for bugphyzz files
 }
 \examples{
-.getHeader("3.17")
+bugphyzzExports:::.getHeader("3.17")
 }

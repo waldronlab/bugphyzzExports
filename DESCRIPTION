@@ -1,6 +1,6 @@
 Package: bugphyzzExports
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
@@ -15,12 +15,15 @@ Remotes:
     waldronlab/bugphyzz,
     ropensci/taxize@1.0-rc
 Suggests: 
-    bugphyzz (>=0.0.1.4),
+    bugphyzz (>= 0.0.1.4),
     data.tree,
     purrr,
     rlang,
     taxize,
     taxPPro
 Imports: 
-    dplyr
+    dplyr,
+    bugsigdbr,
+    readr,
+    taxizedb
 Config/Needs/website: rmarkdown
