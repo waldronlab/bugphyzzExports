@@ -27,7 +27,6 @@ jobs:
         run: |
           rm *.gmt
           Rscript inst/scripts/export_bugphyzz.R
-        timeout-minutes: 20
 
       - name: Commit Exports
         run: |
