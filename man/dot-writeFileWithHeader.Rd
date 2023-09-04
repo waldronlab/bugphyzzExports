@@ -17,5 +17,9 @@
 Write file given a signature with header
 }
 \examples{
-writeFileWithHeader(signatures, "mysigs.gmt", .getHeader())
+## Replace with a working example!
+
+## cg <- physiologies("coding genes")
+## signatures <- bugsigdbr::getSignatures(cg[[1]], tax.id.type="taxname")
+## bugphyzzExports:::.writeFileWithHeader(signatures, "mysigs.gmt", .getHeader())
 }

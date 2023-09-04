@@ -15,5 +15,5 @@
 Write a header for a file given its path
 }
 \examples{
-writeHeader(file.path(tempdir(), "test.txt"))
+# bugphyzzExports:::.writeHeader(file.path(tempdir(), "test.txt"))
 }
