@@ -270,15 +270,12 @@ for (i in seq_along(data_ready)){
     print(p)
 }
 
-print(pryr::mem_used())
 
 rm(categorical, data_ready, data_tree_tbl, data_with_values, empty_df,
    final_table, input_tbl, l, output, phys, range, range_cat, set1, set2,
    tree_list, x, all_node_names, attr_grp, attr_type, attrs, binaries,
    data_discarded, exclude_phys, i, lf, lgl, missing_node_names,
    more_valid_attributes, msg, msg_len, p, phys_names, tree, valid_attributes)
-
-print(pryr::mem_used())
 
 ## Create header
 ## Create a header for both the dump files and the gmt files.
@@ -289,8 +286,6 @@ cat(header, file = 'full_dump_with_0.csv')
 
 dropcols <- c("Attribute_value", "Parent_name", "Parent_rank", "Parent_NCBI_ID",
     "Strain", "Genome_ID", "Accession_ID")
-
-print(pryr::mem_used())
 
 for (i in seq_along(propagated)) {
     log_print(paste("Dumping", names(propagated)[i], "to file with zeros"), blank_after = TRUE)
