@@ -270,11 +270,15 @@ for (i in seq_along(data_ready)){
     print(p)
 }
 
+print(pryr::mem_used())
+
 rm(categorical, data_ready, data_tree_tbl, data_with_values, empty_df,
    final_table, input_tbl, l, output, phys, range, range_cat, set1, set2,
    tree_list, x, all_node_names, attr_grp, attr_type, attrs, binaries,
    data_discarded, exclude_phys, i, lf, lgl, missing_node_names,
    more_valid_attributes, msg, msg_len, p, phys_names, tree, valid_attributes)
+
+print(pryr::mem_used())
 
 ## Create header
 ## Create a header for both the dump files and the gmt files.
@@ -286,8 +290,11 @@ cat(header, file = 'full_dump_with_0.csv')
 dropcols <- c("Attribute_value", "Parent_name", "Parent_rank", "Parent_NCBI_ID",
     "Strain", "Genome_ID", "Accession_ID")
 
+print(pryr::mem_used())
+
 for (i in seq_along(propagated)) {
     log_print(paste("Dumping", names(propagated)[i], "to file with zeros"), blank_after = TRUE)
+    print(pryr::mem_used())
     propagated[[i]] <-
         propagated[[i]][, !colnames(propagated[[i]]) %in% dropcols]
     propagated[[i]] <- unique(propagated[[i]])
@@ -305,7 +312,6 @@ for (i in seq_along(propagated)) {
         file = 'full_dump_with_0.csv',
         quote = TRUE,
         sep = ",",
-        na = NA,
         row.names = FALSE,
         append = TRUE,
         col.names = identical(i, 1L)
@@ -329,7 +335,7 @@ for (i in seq_along(propagated)) {
     rm(taxids_above_0, total_scores)
     write.table(
         x = propagated[[i]], file = 'full_dump.csv', quote = TRUE, sep = ",",
-        na = NA, row.names = FALSE,
+        row.names = FALSE,
         append = TRUE, col.names = identical(i, 1L)
     )
 }
