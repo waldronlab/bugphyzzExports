@@ -300,7 +300,7 @@ for (i in seq_along(propagated)) {
     )
     propagated[[i]]$Attribute = sub('\\(.*$', '', propagated[[i]]$Attribute)
     propagated[[i]]$Attribute = stringr::str_squish(propagated[[i]]$Attribute)
-    data.table::fwrite(
+    write.table(
         x = propagated[[i]],
         file = 'full_dump_with_0.csv',
         quote = TRUE,
@@ -327,7 +327,7 @@ for (i in seq_along(propagated)) {
     propagated[[i]] <- propagated[[i]] |>
         filter(NCBI_ID %in% taxids_above_0)
     rm(taxids_above_0, total_scores)
-    data.table::fwrite(
+    write.table(
         x = propagated[[i]], file = 'full_dump.csv', quote = TRUE, sep = ",",
         na = NA, row.names = FALSE,
         append = TRUE, col.names = identical(i, 1L)
