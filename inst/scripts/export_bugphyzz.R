@@ -16,7 +16,7 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 ## For now, do not include these physiologies/Attribute groups.
 ## They need more curation.
-exlclude_phys <- c(
+exclude_phys <- c(
     'country', 'geographic location',
     'habitat', 'isolation site',
     'metabolite production', 'metabolite utilization',
@@ -44,7 +44,7 @@ binaries <- c(
 )
 
 phys_names <- showPhys()
-phys_names <- phys_names[which(!phys_names %in% exlclude_phys)]
+phys_names <- phys_names[which(!phys_names %in% exclude_phys)]
 
 msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
 msg_len <- length(phys_names)
@@ -188,8 +188,6 @@ tree <- as.Node(tree_list)
 propagated <- as.list(character(length(data_ready)))
 names(propagated) = names(data_ready)
 
-#library(profmem)
-#options(profmem.threshold = 1024^2 * 10) #10 megabytes
 
 for (i in seq_along(data_ready)){
     p <- system.time({
@@ -272,6 +270,11 @@ for (i in seq_along(data_ready)){
     print(p)
 }
 
+rm(categorical, data_ready, data_tree_tbl, data_with_values, empty_df,
+   final_table, input_tbl, l, output, phys, range, range_cat, set1, set2,
+   tree_list, x, all_node_names, attr_grp, attr_type, attrs, binaries,
+   data_discarded, exclude_phys, i, lf, lgl, missing_node_names,
+   more_valid_attributes, msg, msg_len, p, phys_names, tree, valid_attributes)
 
 ## Create header
 ## Create a header for both the dump files and the gmt files.
@@ -326,7 +329,7 @@ for (i in seq_along(propagated)) {
     rm(taxids_above_0, total_scores)
     data.table::fwrite(
         x = propagated[[i]], file = 'full_dump.csv', quote = TRUE, sep = ",",
-        na = NA, row.names = FALSE, nThread = n_threads,
+        na = NA, row.names = FALSE,
         append = TRUE, col.names = identical(i, 1L)
     )
 }
@@ -363,7 +366,7 @@ for (i in seq_along(ranks)) {
             sig <- getBugphyzzSignatures(
                 df = propagated[[k]], tax.level = ranks[i], tax.id.type = tax_id_types[j]
             )
-            writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
+            bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
         }
         addHeader(header, gmt_file)
         counter <- counter + 1
