@@ -289,7 +289,6 @@ dropcols <- c("Attribute_value", "Parent_name", "Parent_rank", "Parent_NCBI_ID",
 
 for (i in seq_along(propagated)) {
     log_print(paste("Dumping", names(propagated)[i], "to file with zeros"), blank_after = TRUE)
-    print(pryr::mem_used())
     propagated[[i]] <-
         propagated[[i]][, !colnames(propagated[[i]]) %in% dropcols]
     propagated[[i]] <- unique(propagated[[i]])
