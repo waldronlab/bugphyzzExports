@@ -291,7 +291,6 @@ for (i in seq_along(propagated)) {
     log_print(paste("Dumping", names(propagated)[i], "to file with zeros"), blank_after = TRUE)
     propagated[[i]] <-
         propagated[[i]][, !colnames(propagated[[i]]) %in% dropcols]
-    propagated[[i]] <- unique(propagated[[i]])
     ## Some code for dividing the Attribute column into
     ## Attribute range
     propagated[[i]]$Attribute_range = ifelse(
