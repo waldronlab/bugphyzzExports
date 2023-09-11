@@ -30,7 +30,7 @@ jobs:
 
       - name: Commit Exports
         run: |
-          git config --global --add safe.directory $(realpath .)
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add . 
