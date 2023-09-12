@@ -36,6 +36,6 @@ jobs:
           cd $GITHUB_WORKSPACE/bugphyzzExports
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add . 
+          git add *.gmt *.bz2 *.log *.msg
           git commit -m "Weekly export update"
           git push
