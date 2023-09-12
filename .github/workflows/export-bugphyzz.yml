@@ -27,11 +27,13 @@ jobs:
 
       - name: Export bugphyzz
         run: |
+          cd $GITHUB_WORKSPACE/bugphyzzExports
           rm *.gmt
           Rscript inst/scripts/export_bugphyzz.R
 
       - name: Commit Exports
         run: |
+          cd $GITHUB_WORKSPACE/bugphyzzExports
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add . 
