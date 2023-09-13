@@ -19,11 +19,14 @@ jobs:
         with:
           path: bugphyzzExports
 
-      - name: Install dependencies
+      - name: Install R dependencies
         run: |
           pkgs <- c("waldronlab/bugsigdbr", "logr", "BiocFileCache", "tidyverse", "BiocParallel", "sdgamboa/taxPPro", "waldronlab/bugphyzz", "waldronlab/bugphyzzExports")
           BiocManager::install(pkgs, dependencies = TRUE)
         shell: Rscript {0}
+
+      - name: Install apt dependencies
+        run: apt-get install -y pbzip2
 
       - name: Export bugphyzz
         run: |
@@ -34,7 +37,6 @@ jobs:
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/bugphyzzExports
-          ls -la
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add *.gmt *.bz2 *.log *.msg
