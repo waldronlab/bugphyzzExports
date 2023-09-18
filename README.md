@@ -1,3 +1,5 @@
+Hourly export status: ![hourly export](https://github.com/waldronlab/bugphyzzExports/actions/workflows/export-bugphyzz.yml/badge.svg)
+
 # bugphyzzExports
 
 This repository contains the devel
