@@ -3,142 +3,14 @@ Log Path: log_file.log
 Working Directory: /__w/bugphyzzExports/bugphyzzExports/bugphyzzExports 
 User Name: root 
 R Version: 4.3.1 (2023-06-16) 
-Machine: 0e85b503cba5 x86_64 
-Operating System: Linux 6.2.0-1011-azure #11~22.04.1-Ubuntu SMP Wed Aug 23 19:26:19 UTC 2023 
+Machine: 83c93c7a09af x86_64 
+Operating System: Linux 6.2.0-1012-azure #12~22.04.1-Ubuntu SMP Thu Sep 7 14:07:14 UTC 2023 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: tidyr_1.3.0 BiocParallel_1.35.4 bugphyzzExports_0.0.0.9004 data.tree_1.0.0 dplyr_1.1.3 rlang_1.1.1 purrr_1.0.2 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.4 
-Log Start Time: 2023-09-17 22:09:10.244879 
+Log Start Time: 2023-10-08 22:11:05.213452 
 ========================================================================= 
-Importing 33 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, coding genes, COGEM pathogenicity rating, disease association, extreme environment, genome size, gram stain, growth medium, growth temperature, health associated, hemolysis, hydrogen gas producing, lactate producing, length, motility, mutation rate per site per generation, mutation rate per site per year, optimal ph, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, width" -- 2023-09-17 22:09:10.248248 
+Importing 33 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, coding genes, COGEM pathogenicity rating, disease association, extreme environment, genome size, gram stain, growth medium, growth temperature, health associated, hemolysis, hydrogen gas producing, lactate producing, length, motility, mutation rate per site per generation, mutation rate per site per year, optimal ph, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, width" -- 2023-10-08 22:11:05.216434 
 
 Check that all attributes are valid. Invalid values will be printed and dropped from the full dump file: 
-
-Invalid values for aerophilicity: 
-# A tibble: 3 × 2
-  Attribute_group Attribute         
-  <chr>           <chr>             
-1 aerophilicity   facultative aerobe
-2 aerophilicity   microaerotolerant 
-3 aerophilicity   positive          
-
-Invalid values for biosafety level: 
-# A tibble: 6 × 2
-  Attribute_group Attribute                                           
-  <chr>           <chr>                                               
-1 biosafety level "biosafety level Risk group (German classification)"
-2 biosafety level "biosafety level 11o58'14.4\\\""                    
-3 biosafety level "biosafety level Germany"                           
-4 biosafety level "biosafety level 1+"                                
-5 biosafety level "biosafety level 3**"                               
-6 biosafety level "biosafety level L1"                                
-
-Invalid values for disease association: 
-# A tibble: 13 × 2
-   Attribute_group     Attribute                                      
-   <chr>               <chr>                                          
- 1 disease association caries                                         
- 2 disease association periodontal disorder                           
- 3 disease association Infection caused by Escherichia coli (disorder)
- 4 disease association Endocarditis                                   
- 5 disease association Meningitis                                     
- 6 disease association Periodontal Disorder                           
- 7 disease association Infection                                      
- 8 disease association arthritis                                      
- 9 disease association meningitis septicemia                          
-10 disease association septicemia arthritis                           
-11 disease association Fever                                          
-12 disease association urlnary tract infection                        
-13 disease association Tetnus                                         
-
-Invalid values for growth medium: 
-# A tibble: 2,191 × 2
-   Attribute_group Attribute                                                    
-   <chr>           <chr>                                                        
- 1 growth medium   NUTRIENT AGAR (DSMZ Medium 1)                                
- 2 growth medium   Marine agar (MA)                                             
- 3 growth medium   R2A MEDIUM (DSMZ Medium 830)                                 
- 4 growth medium   ACETIVIBRIO MEDIUM (DSMZ Medium 122)                         
- 5 growth medium   Zobell marine agar (ZMA)                                     
- 6 growth medium   MEDIUM 1 - for Acetobacter, Azotobacter, Gluconobacter, Gluc…
- 7 growth medium   MEDIUM 85 - for Abiotrophia                                  
- 8 growth medium   GS2 agar plates                                              
- 9 growth medium   TRYPTICASE SOY YEAST EXTRACT MEDIUM (DSMZ Medium 92)         
-10 growth medium   MLO agar                                                     
-# ℹ 2,181 more rows
-
-Invalid values for shape: 
-# A tibble: 20 × 2
-   Attribute_group Attribute         
-   <chr>           <chr>             
- 1 shape           square            
- 2 shape           vibriod cell      
- 3 shape           rod-shaped        
- 4 shape           coccus-shaped     
- 5 shape           filament-shaped   
- 6 shape           ellipsoidal       
- 7 shape           pleomorphic-shaped
- 8 shape           ovoid-shaped      
- 9 shape           oval-shaped       
-10 shape           other             
-11 shape           sphere-shaped     
-12 shape           spiral-shaped     
-13 shape           curved-shaped     
-14 shape           helical-shaped    
-15 shape           vibrio-shaped     
-16 shape           ring-shaped       
-17 shape           spore-shaped      
-18 shape           crescent-shaped   
-19 shape           star-shaped       
-20 shape           diplococcus-shaped
-
-Finished checking valid taxon names for: acetate producing 
-
-Finished checking valid taxon names for: aerophilicity 
-
-Finished checking valid taxon names for: animal pathogen 
-
-Finished checking valid taxon names for: antimicrobial resistance 
-
-Finished checking valid taxon names for: antimicrobial sensitivity 
-
-Finished checking valid taxon names for: arrangement 
-
-Finished checking valid taxon names for: biofilm forming 
-
-Finished checking valid taxon names for: biosafety level 
-
-Finished checking valid taxon names for: butyrate producing 
-
-Finished checking valid taxon names for: COGEM pathogenicity rating 
-
-Finished checking valid taxon names for: disease association 
-
-Finished checking valid taxon names for: extreme environment 
-
-Finished checking valid taxon names for: gram stain 
-
-Finished checking valid taxon names for: growth medium 
-
-Finished checking valid taxon names for: health associated 
-
-Finished checking valid taxon names for: hemolysis 
-
-Finished checking valid taxon names for: hydrogen gas producing 
-
-Finished checking valid taxon names for: lactate producing 
-
-Finished checking valid taxon names for: motility 
-
-Finished checking valid taxon names for: pathogenicity human 
-
-Finished checking valid taxon names for: plant pathogenicity 
-
-Finished checking valid taxon names for: shape 
-
-Finished checking valid taxon names for: sphingolipid producing 
-
-Finished checking valid taxon names for: spore formation 
-
-Finished checking valid taxon names for: spore shape 
 
 Finished checking valid taxon names for: coding genes 
 
@@ -156,56 +28,6 @@ Finished checking valid taxon names for: optimal ph
 
 Finished checking valid taxon names for: width 
 
-Finished preparing data for propagation: acetate producing 
-
-Finished preparing data for propagation: aerophilicity 
-
-Finished preparing data for propagation: animal pathogen 
-
-Finished preparing data for propagation: antimicrobial resistance 
-
-Finished preparing data for propagation: antimicrobial sensitivity 
-
-Finished preparing data for propagation: arrangement 
-
-Finished preparing data for propagation: biofilm forming 
-
-Finished preparing data for propagation: biosafety level 
-
-Finished preparing data for propagation: butyrate producing 
-
-Finished preparing data for propagation: COGEM pathogenicity rating 
-
-Finished preparing data for propagation: disease association 
-
-Finished preparing data for propagation: extreme environment 
-
-Finished preparing data for propagation: gram stain 
-
-Finished preparing data for propagation: growth medium 
-
-Finished preparing data for propagation: health associated 
-
-Finished preparing data for propagation: hemolysis 
-
-Finished preparing data for propagation: hydrogen gas producing 
-
-Finished preparing data for propagation: lactate producing 
-
-Finished preparing data for propagation: motility 
-
-Finished preparing data for propagation: pathogenicity human 
-
-Finished preparing data for propagation: plant pathogenicity 
-
-Finished preparing data for propagation: shape 
-
-Finished preparing data for propagation: sphingolipid producing 
-
-Finished preparing data for propagation: spore formation 
-
-Finished preparing data for propagation: spore shape 
-
 Finished preparing data for propagation: coding genes 
 
 Finished preparing data for propagation: genome size 
@@ -222,89 +44,14 @@ Finished preparing data for propagation: optimal ph
 
 Finished preparing data for propagation: width 
 
-Propagating acetate producing at 2023-09-17 22:16:21.265023 
-Propagating aerophilicity at 2023-09-17 22:17:12.131955 
-Propagating animal pathogen at 2023-09-17 22:20:49.416251 
-Propagating antimicrobial resistance at 2023-09-17 22:23:06.208581 
-Propagating antimicrobial sensitivity at 2023-09-17 22:25:16.337431 
-Propagating arrangement at 2023-09-17 22:26:53.093144 
-Propagating biofilm forming at 2023-09-17 22:29:02.751403 
-Propagating biosafety level at 2023-09-17 22:30:30.767706 
-Propagating butyrate producing at 2023-09-17 22:34:43.342484 
-Propagating COGEM pathogenicity rating at 2023-09-17 22:35:31.690777 
-Propagating disease association at 2023-09-17 22:37:26.492526 
-Propagating extreme environment at 2023-09-17 22:40:39.460864 
-Propagating gram stain at 2023-09-17 22:42:55.603564 
-Propagating growth medium at 2023-09-17 22:46:23.472979 
-Propagating health associated at 2023-09-17 22:48:03.604878 
-Propagating hemolysis at 2023-09-17 22:48:58.010771 
-Propagating hydrogen gas producing at 2023-09-17 22:50:22.73919 
-Propagating lactate producing at 2023-09-17 22:51:11.930727 
-Propagating motility at 2023-09-17 22:52:00.643492 
-Propagating pathogenicity human at 2023-09-17 22:55:22.270522 
-Propagating plant pathogenicity at 2023-09-17 22:57:06.22317 
-Propagating shape at 2023-09-17 22:59:21.602899 
-Propagating sphingolipid producing at 2023-09-17 23:02:04.157713 
-Propagating spore formation at 2023-09-17 23:02:55.682649 
-Propagating spore shape at 2023-09-17 23:05:42.00067 
-Propagating coding genes at 2023-09-17 23:06:48.712288 
-Propagating genome size at 2023-09-17 23:09:47.257701 
-Propagating growth temperature at 2023-09-17 23:12:44.851468 
-Propagating length at 2023-09-17 23:16:48.458484 
-Propagating mutation rate per site per generation at 2023-09-17 23:18:18.274444 
-Propagating mutation rate per site per year at 2023-09-17 23:19:23.513033 
-Propagating optimal ph at 2023-09-17 23:20:43.403221 
-Propagating width at 2023-09-17 23:22:33.830709 
-Dumping acetate producing to file with zeros 
-
-Dumping aerophilicity to file with zeros 
-
-Dumping animal pathogen to file with zeros 
-
-Dumping antimicrobial resistance to file with zeros 
-
-Dumping antimicrobial sensitivity to file with zeros 
-
-Dumping arrangement to file with zeros 
-
-Dumping biofilm forming to file with zeros 
-
-Dumping biosafety level to file with zeros 
-
-Dumping butyrate producing to file with zeros 
-
-Dumping COGEM pathogenicity rating to file with zeros 
-
-Dumping disease association to file with zeros 
-
-Dumping extreme environment to file with zeros 
-
-Dumping gram stain to file with zeros 
-
-Dumping growth medium to file with zeros 
-
-Dumping health associated to file with zeros 
-
-Dumping hemolysis to file with zeros 
-
-Dumping hydrogen gas producing to file with zeros 
-
-Dumping lactate producing to file with zeros 
-
-Dumping motility to file with zeros 
-
-Dumping pathogenicity human to file with zeros 
-
-Dumping plant pathogenicity to file with zeros 
-
-Dumping shape to file with zeros 
-
-Dumping sphingolipid producing to file with zeros 
-
-Dumping spore formation to file with zeros 
-
-Dumping spore shape to file with zeros 
-
+Propagating coding genes at 2023-10-08 22:16:04.849085 
+Propagating genome size at 2023-10-08 22:18:30.528551 
+Propagating growth temperature at 2023-10-08 22:20:52.366171 
+Propagating length at 2023-10-08 22:22:50.743244 
+Propagating mutation rate per site per generation at 2023-10-08 22:24:02.031298 
+Propagating mutation rate per site per year at 2023-10-08 22:24:53.977035 
+Propagating optimal ph at 2023-10-08 22:25:58.329058 
+Propagating width at 2023-10-08 22:27:25.352196 
 Dumping coding genes to file with zeros 
 
 Dumping genome size to file with zeros 
@@ -320,56 +67,6 @@ Dumping mutation rate per site per year to file with zeros
 Dumping optimal ph to file with zeros 
 
 Dumping width to file with zeros 
-
-Dumping acetate producing to file without zeros 
-
-Dumping aerophilicity to file without zeros 
-
-Dumping animal pathogen to file without zeros 
-
-Dumping antimicrobial resistance to file without zeros 
-
-Dumping antimicrobial sensitivity to file without zeros 
-
-Dumping arrangement to file without zeros 
-
-Dumping biofilm forming to file without zeros 
-
-Dumping biosafety level to file without zeros 
-
-Dumping butyrate producing to file without zeros 
-
-Dumping COGEM pathogenicity rating to file without zeros 
-
-Dumping disease association to file without zeros 
-
-Dumping extreme environment to file without zeros 
-
-Dumping gram stain to file without zeros 
-
-Dumping growth medium to file without zeros 
-
-Dumping health associated to file without zeros 
-
-Dumping hemolysis to file without zeros 
-
-Dumping hydrogen gas producing to file without zeros 
-
-Dumping lactate producing to file without zeros 
-
-Dumping motility to file without zeros 
-
-Dumping pathogenicity human to file without zeros 
-
-Dumping plant pathogenicity to file without zeros 
-
-Dumping shape to file without zeros 
-
-Dumping sphingolipid producing to file without zeros 
-
-Dumping spore formation to file without zeros 
-
-Dumping spore shape to file without zeros 
 
 Dumping coding genes to file without zeros 
 
@@ -388,56 +85,6 @@ Dumping optimal ph to file without zeros
 Dumping width to file without zeros 
 
 Writing GMT files... 
-rank: genus / tax_id_type: Taxon_name / physiology: acetate producing 
-
-rank: genus / tax_id_type: Taxon_name / physiology: aerophilicity 
-
-rank: genus / tax_id_type: Taxon_name / physiology: animal pathogen 
-
-rank: genus / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
-
-rank: genus / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
-
-rank: genus / tax_id_type: Taxon_name / physiology: arrangement 
-
-rank: genus / tax_id_type: Taxon_name / physiology: biofilm forming 
-
-rank: genus / tax_id_type: Taxon_name / physiology: biosafety level 
-
-rank: genus / tax_id_type: Taxon_name / physiology: butyrate producing 
-
-rank: genus / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
-
-rank: genus / tax_id_type: Taxon_name / physiology: disease association 
-
-rank: genus / tax_id_type: Taxon_name / physiology: extreme environment 
-
-rank: genus / tax_id_type: Taxon_name / physiology: gram stain 
-
-rank: genus / tax_id_type: Taxon_name / physiology: growth medium 
-
-rank: genus / tax_id_type: Taxon_name / physiology: health associated 
-
-rank: genus / tax_id_type: Taxon_name / physiology: hemolysis 
-
-rank: genus / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
-
-rank: genus / tax_id_type: Taxon_name / physiology: lactate producing 
-
-rank: genus / tax_id_type: Taxon_name / physiology: motility 
-
-rank: genus / tax_id_type: Taxon_name / physiology: pathogenicity human 
-
-rank: genus / tax_id_type: Taxon_name / physiology: plant pathogenicity 
-
-rank: genus / tax_id_type: Taxon_name / physiology: shape 
-
-rank: genus / tax_id_type: Taxon_name / physiology: sphingolipid producing 
-
-rank: genus / tax_id_type: Taxon_name / physiology: spore formation 
-
-rank: genus / tax_id_type: Taxon_name / physiology: spore shape 
-
 rank: genus / tax_id_type: Taxon_name / physiology: coding genes 
 
 rank: genus / tax_id_type: Taxon_name / physiology: genome size 
@@ -453,56 +100,6 @@ rank: genus / tax_id_type: Taxon_name / physiology: mutation rate per site per y
 rank: genus / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: genus / tax_id_type: Taxon_name / physiology: width 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: acetate producing 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: aerophilicity 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: animal pathogen 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: arrangement 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: biofilm forming 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: biosafety level 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: butyrate producing 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: disease association 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: extreme environment 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: gram stain 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: growth medium 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: health associated 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: hemolysis 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: lactate producing 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: motility 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: pathogenicity human 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: shape 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: spore formation 
-
-rank: genus / tax_id_type: NCBI_ID / physiology: spore shape 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -520,56 +117,6 @@ rank: genus / tax_id_type: NCBI_ID / physiology: optimal ph
 
 rank: genus / tax_id_type: NCBI_ID / physiology: width 
 
-rank: strain / tax_id_type: Taxon_name / physiology: acetate producing 
-
-rank: strain / tax_id_type: Taxon_name / physiology: aerophilicity 
-
-rank: strain / tax_id_type: Taxon_name / physiology: animal pathogen 
-
-rank: strain / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
-
-rank: strain / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
-
-rank: strain / tax_id_type: Taxon_name / physiology: arrangement 
-
-rank: strain / tax_id_type: Taxon_name / physiology: biofilm forming 
-
-rank: strain / tax_id_type: Taxon_name / physiology: biosafety level 
-
-rank: strain / tax_id_type: Taxon_name / physiology: butyrate producing 
-
-rank: strain / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
-
-rank: strain / tax_id_type: Taxon_name / physiology: disease association 
-
-rank: strain / tax_id_type: Taxon_name / physiology: extreme environment 
-
-rank: strain / tax_id_type: Taxon_name / physiology: gram stain 
-
-rank: strain / tax_id_type: Taxon_name / physiology: growth medium 
-
-rank: strain / tax_id_type: Taxon_name / physiology: health associated 
-
-rank: strain / tax_id_type: Taxon_name / physiology: hemolysis 
-
-rank: strain / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
-
-rank: strain / tax_id_type: Taxon_name / physiology: lactate producing 
-
-rank: strain / tax_id_type: Taxon_name / physiology: motility 
-
-rank: strain / tax_id_type: Taxon_name / physiology: pathogenicity human 
-
-rank: strain / tax_id_type: Taxon_name / physiology: plant pathogenicity 
-
-rank: strain / tax_id_type: Taxon_name / physiology: shape 
-
-rank: strain / tax_id_type: Taxon_name / physiology: sphingolipid producing 
-
-rank: strain / tax_id_type: Taxon_name / physiology: spore formation 
-
-rank: strain / tax_id_type: Taxon_name / physiology: spore shape 
-
 rank: strain / tax_id_type: Taxon_name / physiology: coding genes 
 
 rank: strain / tax_id_type: Taxon_name / physiology: genome size 
@@ -585,56 +132,6 @@ rank: strain / tax_id_type: Taxon_name / physiology: mutation rate per site per 
 rank: strain / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: strain / tax_id_type: Taxon_name / physiology: width 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: acetate producing 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: aerophilicity 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: animal pathogen 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: arrangement 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: biofilm forming 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: biosafety level 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: butyrate producing 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: disease association 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: extreme environment 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: gram stain 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: growth medium 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: health associated 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: hemolysis 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: lactate producing 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: motility 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: pathogenicity human 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: shape 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: spore formation 
-
-rank: strain / tax_id_type: NCBI_ID / physiology: spore shape 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -652,56 +149,6 @@ rank: strain / tax_id_type: NCBI_ID / physiology: optimal ph
 
 rank: strain / tax_id_type: NCBI_ID / physiology: width 
 
-rank: species / tax_id_type: Taxon_name / physiology: acetate producing 
-
-rank: species / tax_id_type: Taxon_name / physiology: aerophilicity 
-
-rank: species / tax_id_type: Taxon_name / physiology: animal pathogen 
-
-rank: species / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
-
-rank: species / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
-
-rank: species / tax_id_type: Taxon_name / physiology: arrangement 
-
-rank: species / tax_id_type: Taxon_name / physiology: biofilm forming 
-
-rank: species / tax_id_type: Taxon_name / physiology: biosafety level 
-
-rank: species / tax_id_type: Taxon_name / physiology: butyrate producing 
-
-rank: species / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
-
-rank: species / tax_id_type: Taxon_name / physiology: disease association 
-
-rank: species / tax_id_type: Taxon_name / physiology: extreme environment 
-
-rank: species / tax_id_type: Taxon_name / physiology: gram stain 
-
-rank: species / tax_id_type: Taxon_name / physiology: growth medium 
-
-rank: species / tax_id_type: Taxon_name / physiology: health associated 
-
-rank: species / tax_id_type: Taxon_name / physiology: hemolysis 
-
-rank: species / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
-
-rank: species / tax_id_type: Taxon_name / physiology: lactate producing 
-
-rank: species / tax_id_type: Taxon_name / physiology: motility 
-
-rank: species / tax_id_type: Taxon_name / physiology: pathogenicity human 
-
-rank: species / tax_id_type: Taxon_name / physiology: plant pathogenicity 
-
-rank: species / tax_id_type: Taxon_name / physiology: shape 
-
-rank: species / tax_id_type: Taxon_name / physiology: sphingolipid producing 
-
-rank: species / tax_id_type: Taxon_name / physiology: spore formation 
-
-rank: species / tax_id_type: Taxon_name / physiology: spore shape 
-
 rank: species / tax_id_type: Taxon_name / physiology: coding genes 
 
 rank: species / tax_id_type: Taxon_name / physiology: genome size 
@@ -717,56 +164,6 @@ rank: species / tax_id_type: Taxon_name / physiology: mutation rate per site per
 rank: species / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: species / tax_id_type: Taxon_name / physiology: width 
-
-rank: species / tax_id_type: NCBI_ID / physiology: acetate producing 
-
-rank: species / tax_id_type: NCBI_ID / physiology: aerophilicity 
-
-rank: species / tax_id_type: NCBI_ID / physiology: animal pathogen 
-
-rank: species / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
-
-rank: species / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
-
-rank: species / tax_id_type: NCBI_ID / physiology: arrangement 
-
-rank: species / tax_id_type: NCBI_ID / physiology: biofilm forming 
-
-rank: species / tax_id_type: NCBI_ID / physiology: biosafety level 
-
-rank: species / tax_id_type: NCBI_ID / physiology: butyrate producing 
-
-rank: species / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
-
-rank: species / tax_id_type: NCBI_ID / physiology: disease association 
-
-rank: species / tax_id_type: NCBI_ID / physiology: extreme environment 
-
-rank: species / tax_id_type: NCBI_ID / physiology: gram stain 
-
-rank: species / tax_id_type: NCBI_ID / physiology: growth medium 
-
-rank: species / tax_id_type: NCBI_ID / physiology: health associated 
-
-rank: species / tax_id_type: NCBI_ID / physiology: hemolysis 
-
-rank: species / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
-
-rank: species / tax_id_type: NCBI_ID / physiology: lactate producing 
-
-rank: species / tax_id_type: NCBI_ID / physiology: motility 
-
-rank: species / tax_id_type: NCBI_ID / physiology: pathogenicity human 
-
-rank: species / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
-
-rank: species / tax_id_type: NCBI_ID / physiology: shape 
-
-rank: species / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
-
-rank: species / tax_id_type: NCBI_ID / physiology: spore formation 
-
-rank: species / tax_id_type: NCBI_ID / physiology: spore shape 
 
 rank: species / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -784,56 +181,6 @@ rank: species / tax_id_type: NCBI_ID / physiology: optimal ph
 
 rank: species / tax_id_type: NCBI_ID / physiology: width 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: acetate producing 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: aerophilicity 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: animal pathogen 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: arrangement 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: biofilm forming 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: biosafety level 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: butyrate producing 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: disease association 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: extreme environment 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: gram stain 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: growth medium 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: health associated 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: hemolysis 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: lactate producing 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: motility 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: pathogenicity human 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: plant pathogenicity 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: shape 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: sphingolipid producing 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: spore formation 
-
-rank: mixed / tax_id_type: Taxon_name / physiology: spore shape 
-
 rank: mixed / tax_id_type: Taxon_name / physiology: coding genes 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: genome size 
@@ -849,56 +196,6 @@ rank: mixed / tax_id_type: Taxon_name / physiology: mutation rate per site per y
 rank: mixed / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: width 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: acetate producing 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: aerophilicity 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: animal pathogen 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: arrangement 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: biofilm forming 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: biosafety level 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: butyrate producing 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: disease association 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: extreme environment 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: gram stain 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: growth medium 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: health associated 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: hemolysis 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: lactate producing 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: motility 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: pathogenicity human 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: shape 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: spore formation 
-
-rank: mixed / tax_id_type: NCBI_ID / physiology: spore shape 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -926,7 +223,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: width
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       Etc/UTC
- date     2023-09-17
+ date     2023-10-08
  pandoc   3.1.1 @ /usr/local/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -936,24 +233,24 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: width
  bit64             4.0.5      2020-08-30 [1] CRAN (R 4.3.1)
  blob              1.2.4      2023-03-17 [1] CRAN (R 4.3.1)
  bold              1.3.0      2023-05-02 [1] CRAN (R 4.3.1)
- bugphyzz        * 0.0.1.4    2023-09-17 [1] Github (waldronlab/bugphyzz@12b671e)
- bugphyzzExports * 0.0.0.9004 2023-09-17 [1] Github (waldronlab/bugphyzzExports@6a236ff)
- bugsigdbr         1.7.7      2023-09-17 [1] Github (waldronlab/bugsigdbr@3dd3eb6)
+ bugphyzz        * 0.0.1.4    2023-10-08 [1] Github (waldronlab/bugphyzz@9384f56)
+ bugphyzzExports * 0.0.0.9004 2023-10-08 [1] Github (waldronlab/bugphyzzExports@2ad5d37)
+ bugsigdbr         1.7.7      2023-10-08 [1] Github (waldronlab/bugsigdbr@3dd3eb6)
  cachem            1.0.8      2023-05-01 [1] CRAN (R 4.3.1)
  cli               3.6.1      2023-03-23 [1] CRAN (R 4.3.1)
  codetools         0.2-19     2023-02-01 [2] CRAN (R 4.3.1)
- common            1.0.8      2023-08-07 [1] CRAN (R 4.3.1)
+ common            1.0.9      2023-09-18 [1] CRAN (R 4.3.1)
  conditionz        0.1.0      2019-04-24 [1] CRAN (R 4.3.1)
  crayon            1.5.2      2022-09-29 [1] CRAN (R 4.3.1)
  crul              1.4.0      2023-05-17 [1] CRAN (R 4.3.1)
- curl              5.0.2      2023-08-14 [1] CRAN (R 4.3.1)
+ curl              5.1.0      2023-10-02 [1] CRAN (R 4.3.1)
  data.table        1.14.8     2023-02-17 [1] CRAN (R 4.3.1)
  data.tree       * 1.0.0      2020-08-03 [1] CRAN (R 4.3.1)
  DBI               1.1.3      2022-06-18 [1] CRAN (R 4.3.1)
- dbplyr            2.3.3      2023-07-07 [1] CRAN (R 4.3.1)
+ dbplyr            2.3.4      2023-09-26 [1] CRAN (R 4.3.1)
  digest            0.6.33     2023-07-07 [1] CRAN (R 4.3.1)
  dplyr           * 1.1.3      2023-09-03 [1] CRAN (R 4.3.1)
- fansi             1.0.4      2023-01-22 [1] CRAN (R 4.3.1)
+ fansi             1.0.5      2023-10-08 [1] CRAN (R 4.3.1)
  fastmap           1.1.1      2023-02-24 [1] CRAN (R 4.3.1)
  forcats           1.0.0      2023-01-29 [1] CRAN (R 4.3.1)
  generics          0.1.3      2022-07-05 [1] CRAN (R 4.3.1)
@@ -979,9 +276,9 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: width
  stringi           1.7.12     2023-01-11 [1] CRAN (R 4.3.1)
  stringr           1.5.0      2022-12-02 [1] CRAN (R 4.3.1)
  taxa              0.4.2      2022-04-12 [1] CRAN (R 4.3.1)
- taxize            1.0        2023-09-17 [1] Github (ropensci/taxize@bcff2a6)
+ taxize            1.0        2023-10-08 [1] Github (ropensci/taxize@bcff2a6)
  taxizedb          0.3.1      2023-04-03 [1] CRAN (R 4.3.1)
- taxPPro         * 0.1.0      2023-09-17 [1] Github (sdgamboa/taxPPro@486a89a)
+ taxPPro         * 0.1.0      2023-10-08 [1] Github (sdgamboa/taxPPro@64341fa)
  tibble            3.2.1      2023-03-20 [1] CRAN (R 4.3.1)
  tidyr           * 1.3.0      2023-01-24 [1] CRAN (R 4.3.1)
  tidyselect        1.2.0      2022-10-10 [1] CRAN (R 4.3.1)
@@ -989,8 +286,8 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: width
  utf8              1.2.3      2023-01-31 [1] CRAN (R 4.3.1)
  uuid              1.1-1      2023-08-17 [1] CRAN (R 4.3.1)
  vctrs             0.6.3      2023-06-14 [1] CRAN (R 4.3.1)
- vroom             1.6.3      2023-04-28 [1] CRAN (R 4.3.1)
- withr             2.5.0      2022-03-03 [1] CRAN (R 4.3.1)
+ vroom             1.6.4      2023-10-02 [1] CRAN (R 4.3.1)
+ withr             2.5.1      2023-09-26 [1] CRAN (R 4.3.1)
  xml2              1.3.5      2023-07-06 [1] CRAN (R 4.3.1)
 
  [1] /usr/local/lib/R/site-library
@@ -1002,6 +299,6 @@ Warning message:
 In write.table(x = propagated[[i]], file = "full_dump.csv",  ... :
   appending column names to file
 ========================================================================= 
-Log End Time: 2023-09-17 23:31:38.942299 
-Log Elapsed Time: 0 01:22:28 
+Log End Time: 2023-10-08 22:28:53.434494 
+Log Elapsed Time: 0 00:17:48 
 ========================================================================= 
