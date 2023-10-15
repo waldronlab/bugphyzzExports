@@ -3,12 +3,12 @@ Log Path: log_file.log
 Working Directory: /__w/bugphyzzExports/bugphyzzExports/bugphyzzExports 
 User Name: root 
 R Version: 4.3.1 (2023-06-16) 
-Machine: 83c93c7a09af x86_64 
+Machine: 60f55ef2b065 x86_64 
 Operating System: Linux 6.2.0-1012-azure #12~22.04.1-Ubuntu SMP Thu Sep 7 14:07:14 UTC 2023 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: tidyr_1.3.0 BiocParallel_1.35.4 bugphyzzExports_0.0.0.9004 data.tree_1.0.0 dplyr_1.1.3 rlang_1.1.1 purrr_1.0.2 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.4 
-Log Start Time: 2023-10-08 22:11:05.213452 
+Log Start Time: 2023-10-15 22:13:00.663219 
 ========================================================================= 
-Importing 33 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, coding genes, COGEM pathogenicity rating, disease association, extreme environment, genome size, gram stain, growth medium, growth temperature, health associated, hemolysis, hydrogen gas producing, lactate producing, length, motility, mutation rate per site per generation, mutation rate per site per year, optimal ph, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, width" -- 2023-10-08 22:11:05.216434 
+Importing 33 physiologies from bugphyzz: "acetate producing, aerophilicity, animal pathogen, antimicrobial resistance, antimicrobial sensitivity, arrangement, biofilm forming, biosafety level, butyrate producing, coding genes, COGEM pathogenicity rating, disease association, extreme environment, genome size, gram stain, growth medium, growth temperature, health associated, hemolysis, hydrogen gas producing, lactate producing, length, motility, mutation rate per site per generation, mutation rate per site per year, optimal ph, pathogenicity human, plant pathogenicity, shape, sphingolipid producing, spore formation, spore shape, width" -- 2023-10-15 22:13:00.666979 
 
 Check that all attributes are valid. Invalid values will be printed and dropped from the full dump file: 
 
@@ -44,14 +44,14 @@ Finished preparing data for propagation: optimal ph
 
 Finished preparing data for propagation: width 
 
-Propagating coding genes at 2023-10-08 22:16:04.849085 
-Propagating genome size at 2023-10-08 22:18:30.528551 
-Propagating growth temperature at 2023-10-08 22:20:52.366171 
-Propagating length at 2023-10-08 22:22:50.743244 
-Propagating mutation rate per site per generation at 2023-10-08 22:24:02.031298 
-Propagating mutation rate per site per year at 2023-10-08 22:24:53.977035 
-Propagating optimal ph at 2023-10-08 22:25:58.329058 
-Propagating width at 2023-10-08 22:27:25.352196 
+Propagating coding genes at 2023-10-15 22:19:16.305756 
+Propagating genome size at 2023-10-15 22:22:28.961991 
+Propagating growth temperature at 2023-10-15 22:25:37.305462 
+Propagating length at 2023-10-15 22:28:17.942215 
+Propagating mutation rate per site per generation at 2023-10-15 22:29:57.377923 
+Propagating mutation rate per site per year at 2023-10-15 22:31:11.443085 
+Propagating optimal ph at 2023-10-15 22:32:41.520893 
+Propagating width at 2023-10-15 22:34:41.571807 
 Dumping coding genes to file with zeros 
 
 Dumping genome size to file with zeros 
@@ -223,7 +223,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: width
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       Etc/UTC
- date     2023-10-08
+ date     2023-10-15
  pandoc   3.1.1 @ /usr/local/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -233,9 +233,9 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: width
  bit64             4.0.5      2020-08-30 [1] CRAN (R 4.3.1)
  blob              1.2.4      2023-03-17 [1] CRAN (R 4.3.1)
  bold              1.3.0      2023-05-02 [1] CRAN (R 4.3.1)
- bugphyzz        * 0.0.1.4    2023-10-08 [1] Github (waldronlab/bugphyzz@9384f56)
- bugphyzzExports * 0.0.0.9004 2023-10-08 [1] Github (waldronlab/bugphyzzExports@2ad5d37)
- bugsigdbr         1.7.7      2023-10-08 [1] Github (waldronlab/bugsigdbr@3dd3eb6)
+ bugphyzz        * 0.0.1.4    2023-10-15 [1] Github (waldronlab/bugphyzz@9384f56)
+ bugphyzzExports * 0.0.0.9004 2023-10-15 [1] Github (waldronlab/bugphyzzExports@c7629e2)
+ bugsigdbr         1.7.7      2023-10-15 [1] Github (waldronlab/bugsigdbr@3dd3eb6)
  cachem            1.0.8      2023-05-01 [1] CRAN (R 4.3.1)
  cli               3.6.1      2023-03-23 [1] CRAN (R 4.3.1)
  codetools         0.2-19     2023-02-01 [2] CRAN (R 4.3.1)
@@ -276,16 +276,16 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: width
  stringi           1.7.12     2023-01-11 [1] CRAN (R 4.3.1)
  stringr           1.5.0      2022-12-02 [1] CRAN (R 4.3.1)
  taxa              0.4.2      2022-04-12 [1] CRAN (R 4.3.1)
- taxize            1.0        2023-10-08 [1] Github (ropensci/taxize@bcff2a6)
+ taxize            1.0        2023-10-15 [1] Github (ropensci/taxize@bcff2a6)
  taxizedb          0.3.1      2023-04-03 [1] CRAN (R 4.3.1)
- taxPPro         * 0.1.0      2023-10-08 [1] Github (sdgamboa/taxPPro@64341fa)
+ taxPPro         * 0.1.0      2023-10-15 [1] Github (sdgamboa/taxPPro@06d2d73)
  tibble            3.2.1      2023-03-20 [1] CRAN (R 4.3.1)
  tidyr           * 1.3.0      2023-01-24 [1] CRAN (R 4.3.1)
  tidyselect        1.2.0      2022-10-10 [1] CRAN (R 4.3.1)
  tzdb              0.4.0      2023-05-12 [1] CRAN (R 4.3.1)
  utf8              1.2.3      2023-01-31 [1] CRAN (R 4.3.1)
  uuid              1.1-1      2023-08-17 [1] CRAN (R 4.3.1)
- vctrs             0.6.3      2023-06-14 [1] CRAN (R 4.3.1)
+ vctrs             0.6.4      2023-10-12 [1] CRAN (R 4.3.1)
  vroom             1.6.4      2023-10-02 [1] CRAN (R 4.3.1)
  withr             2.5.1      2023-09-26 [1] CRAN (R 4.3.1)
  xml2              1.3.5      2023-07-06 [1] CRAN (R 4.3.1)
@@ -299,6 +299,6 @@ Warning message:
 In write.table(x = propagated[[i]], file = "full_dump.csv",  ... :
   appending column names to file
 ========================================================================= 
-Log End Time: 2023-10-08 22:28:53.434494 
-Log Elapsed Time: 0 00:17:48 
+Log End Time: 2023-10-15 22:36:44.069783 
+Log Elapsed Time: 0 00:23:43 
 ========================================================================= 
