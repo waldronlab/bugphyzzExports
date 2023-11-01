@@ -1,378 +1,577 @@
-## Script to create bugphyzz exports dump files and signature files
+## Script for bugphyzz exports
 
+## Setup ####
 library(logr)
-library(bugphyzz) # BiocManager::install('waldronlab/bugphyzz', force = TRUE)
-library(taxPPro) # BiocManager::install('sdgamboa/taxPPro', force = TRUE)
-library(purrr)
-library(rlang)
-library(dplyr)
+library(bugphyzz)
+library(taxPPro)
 library(data.tree)
-library(bugphyzzExports) # Install locally
-library(BiocParallel)
+library(phytools)
+library(dplyr)
+library(purrr)
 library(tidyr)
+library(ggplot2)
+library(ape)
+library(bugphyzzExports)
 
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
-## For now, do not include these physiologies/Attribute groups.
-## They need more curation.
-exclude_phys <- c(
-    'country', 'geographic location',
-    'habitat', 'isolation site',
-    'metabolite production', 'metabolite utilization',
-    'halophily'
+## Import physiology data from bugphyzz ####
+phys_names <- c(
+    ## multistate-intersection
+    'aerophilicity',
+
+    ## multistate-union
+    'antimicrobial resistance',
+
+    ## binary
+    'acetate producing',
+
+    ## numeric/range
+    'growth temperature'
 )
 
-## These are true binary attributes.
-## We need to keep TRUE and FALSE values and merge them with the
-## attribute name
-binaries <- c(
-    "acetate producing",
-    "animal pathogen",
-    "antimicrobial sensitivity",
-    "biofilm forming",
-    "butyrate producing",
-    "extreme environment",
-    "health associated",
-    "hydrogen gas producing",
-    "lactate producing",
-    "motility",
-    "pathogenicity human",
-    "plant pathogenicity",
-    "sphingolipid producing",
-    "spore formation"
+msg <- paste0(
+    'Importing ', length(phys_names), ' physiologies for propagation: ',
+    paste0(phys_names, collapse = ', '), '.'
 )
+log_print(msg, blank_after = TRUE)
+bugphyzz_data <- physiologies(phys_names)
+v <- sort(map_int(bugphyzz_data, nrow))
+bugphyz_data <- bugphyzz_data[names(v)]
 
-phys_names <- showPhys()
-phys_names <- phys_names[which(!phys_names %in% exclude_phys)]
-
-msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
-msg_len <- length(phys_names)
-msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys.time())
+msg <- paste0(
+    'Seaching for attributes of type range. They will be converted to type ',
+    'multistate-intersection based on thresholds.'
+)
 log_print(msg, blank_after = TRUE)
 
-system.time(phys <- physiologies(phys_names, full_source = FALSE))
-phys <- map(phys, ~ {
-    attr_grp <- unique(.x$Attribute_group)
-    if (attr_grp %in% binaries) {
-        .x$Attribute <- paste0(.x$Attribute, '--', .x$Attribute_value)
-        .x$Attribute_value <- TRUE
-    }
-    if (unique(.x$Attribute_type) == 'logical') {
-        .x <- filter(.x, Attribute_value == TRUE)
-    }
-    if ('Unit' %in% colnames(.x)) {
-        unit <- .x$Unit
-        unit <- unique(unit[!is.na(unit)])
-        .x$Unit <- unit
-    }
-    return(.x)
-})
+phys <- vector('list', length(bugphyzz_data))
+for (i in seq_along(phys)) {
+    at <- unique(bugphyzz_data[[i]]$Attribute_type)
+    dat_name <- names(bugphyzz_data)[i]
+    names(phys)[i] <- dat_name
+    if (at == 'range' && dat_name %in% names(THRESHOLDS())) {
+        msg <- paste0(
+            dat_name, " is of type range and we have a threshold for it.",
+            ' Converting ', dat_name, ' to multistate-intersection.'
+        )
+        log_print(msg)
+        res <- rangeToLogicalThr(bugphyzz_data[[i]], THRESHOLDS()[[dat_name]])
+        res$Attribute_type <- 'multistate-intersection'
+        phys[[i]] <- res
 
-## Convert all attributes to categorical before propagation
-## This would allow to use the same AUC-ROC method for comparison
-categorical <- keep(phys, ~ unique(.x$Attribute_type) == 'logical')
-range <- keep(phys, ~ unique(.x$Attribute_type == 'range'))
-range <- range[which(names(range) %in% names(THRESHOLDS()))]
-range_cat <- map2(range, names(range), ~ rangeToLogicalThr(.x, THRESHOLDS()[[.y]]))
-categorical <- c(categorical, range_cat)
+    } else if (at == 'range' && !dat_name %in% names(THRESHOLDS())) {
+        msg <- paste0(
+            dat_name, " is of type range, but we don't have a threshold for it.",
+            " Skipping ", dat_name, '.'
+        )
+        log_print(msg)
+        next
 
+    } else {
+        phys[[i]] <- bugphyzz_data[[i]]
 
-## The next chunk checks that only attributes with valid values are included.
-## Those attributes with invalid values are reported in the log file.
-## <Attribute>--TRUE and <Attribute>--FALSE are added for binary attributes.
-log_print('Check that all attributes are valid. Invalid values will be printed and dropped from the full dump file:', blank_after = TRUE)
-fname <- system.file('extdata/attributes.tsv', package = 'bugphyzz')
-valid_attributes <- unique(read.table(fname, header = TRUE, sep = '\t')$attribute)
-more_valid_attributes <- map(categorical, ~ {
-    attr_grp <- unique(.x$Attribute_group)
-    if (attr_grp %in% binaries) {
-        binary_attr <- unique(.x$Attribute)
-        return(binary_attr)
     }
-}) |>
-    discard(is.null) |>
-    unlist(recursive = TRUE, use.names = FALSE)
-valid_attributes <- unique(c(valid_attributes, more_valid_attributes))
+}
+phys <- discard(phys, is.null)
 
-data_ready <- map(categorical, ~ {
-    attr_names <- unique(.x$Attribute)
-    attr_grp <- unique(.x$Attribute_group)
-    lgl <- sum(!attr_names %in% valid_attributes)
-    if (lgl > 0) {
-        invalid_values <- filter(.x, !Attribute %in% valid_attributes)
-        invalid_values <- invalid_values |>
-            select(Attribute_group, Attribute) |>
-            unique() |>
-            as_tibble()
-        log_print(paste0('Invalid values for ', attr_grp, ': '))
-        log_print(invalid_values, blank_after = TRUE)
-    }
-    output <- filter(.x, Attribute %in% valid_attributes)
-    return(output)
-}) |>
-    discard(~ !nrow(.x))
-data_discarded <- names(categorical)[which(!names(categorical) %in% names(data_ready))]
-if (length(data_discarded) > 0) {
-    data_discarded <- paste0(', paste0(data_discarded, collapse = ', '), ')
-    msg <- paste0(
-        "The following physiologies were discarded because they didn't have",
-        " any valid Attribute: ", data_discarded, '.'
-    )
+## Preparing data for propagation ####
+msg <- ('Preparing data for propagation...')
+log_print('', blank_after = TRUE)
 log_print(msg, blank_after = TRUE)
-}
-
-
-## This chunk is to make sure that all NCBI_IDs have valid taxon names
-for (i in seq_along(data_ready)) {
-    x <- data_ready[[i]]
-    set1 <- filter(x,!is.na(NCBI_ID))
-    set2 <- filter(x, is.na(NCBI_ID))
-    set1$Rank <- checkRank(set1$NCBI_ID)
-    set1$Taxon_name <- checkTaxonName(set1$NCBI_ID)
-    data_ready[[i]] <- bind_rows(set1, set2)
-    log_print(paste0("Finished checking valid taxon names for: ", names(data_ready)[i]),
-              blank_after = TRUE)
-}
-
-## For those numeric attributes converted to categorical attributes,
-## propagate them with their ranges and units.
-data_ready <- map(data_ready, ~ {
-    if ('Attribute_range' %in% colnames(.x)) {
-        .x$Attribute <- paste0(.x$Attribute, ' ', .x$Attribute_range)
-        .x$Attribute <- sub('\\)$', '', .x$Attribute)
-        .x$Attribute <- paste0(.x$Attribute, ' ', .x$Unit, ')')
-        .x$Attribute <- sub(' \\)', ')', .x$Attribute)
+tim <- system.time({
+    phys_data_ready <- vector('list', length(phys))
+    taxidWarnings <- vector('list', length(phys))
+    for (i in seq_along(phys_data_ready)) {
+        name <- names(phys)[i]
+        msg <- paste0('Preparing ', name, '.')
+        log_print(msg)
+        names(phys_data_ready)[i] <- name
+        names(taxidWarnings)[i] <- name
+        wngs <- list()
+        suppressWarnings({
+            withCallingHandlers({
+                dat <- getDataReady(filterData(phys[[i]]))
+                if (length(dat) > 0)
+                    phys_data_ready[[i]] <- dat
+            },
+            warning = function(w) {
+                if (grepl('taxizedb', w$message)) {
+                    msg <- sub('.*unrank.*: (\\d+.*)$', '\\1', w$message)
+                    wngs <<- c(wngs, list(msg))
+                }
+            })
+        })
+        if (length(wngs) > 0)
+            taxidWarnings[[i]] <- wngs
     }
-    return(.x)
+    phys_data_ready <- list_flatten(phys_data_ready)
 })
+log_print('', blank_after = TRUE)
+log_print('Total time preparing data for propagation was: ')
+log_print(tim, blank_after = TRUE)
 
-# Following code chunk produces the following warning 21 times - is this harmless?
-# There were 21 warnings (use warnings() to see them)
-# > warnings()
-# Warning messages:
-#     1: There was 1 warning in `dplyr::mutate()`.
-# ℹ In argument: `Evidence = forcats::fct_relevel(Evidence, "asr")`.
-for (i in seq_along(data_ready)) {
-    data_ready[[i]] <- tryCatch(
-        output <- data_ready[[i]] |>
-            prepareDataForPropagation() |>
-            mergeOriginalAndEarlyASR() |>
-            group_by(NCBI_ID) |>
-            mutate(Score = Score / sum(Score)) |>
-            ungroup() |>
-            distinct()
-    )
-    log_print(paste0(
-        "Finished preparing data for propagation: ",
-        names(data_ready)[i]
-    ),
-    blank_after = TRUE)
+taxidWarnings <- discard(taxidWarnings, is.null)
+if (!is.null(taxidWarnings)) {
+    msg <- 'Some NCBI IDs (taxids) need to be updated:'
+    log_print(msg, blank_after = TRUE)
+    log_print(taxidWarnings, blank_after = TRUE)
 }
 
-lgl <- map_lgl(data_ready, is_error)
-if (any(lgl)) {
-    discard_names <- names(data_ready)[which(lgl)]
+## Prepare tree data ####
+msg <- paste0('Preparing tree data (NCBI and LTP).')
+log_print(msg)
+tim <- system.time({
+    data('tree_list')
+    ncbi_tree <- as.Node(tree_list)
+
+    ltp <- ltp()
+    tree <- reorder(ltp$tree, 'postorder')
+    tip_data <- ltp$tip_data
+
+    tx <- grep('_taxid$', colnames(tip_data), value = TRUE)
+    nodes <- flatten(map(tx, ~ split(tip_data, factor(tip_data[[.x]]))))
+    nodes <- map(nodes, ~ .x[['tip_label']])
+    node_names <- map_int(nodes, ~ getMRCATaxPPro(tree, .x))
+    node_names <- node_names[!is.na(node_names)]
+    nodes_df <- data.frame(
+        node = unname(node_names),
+        node_label = names(node_names)
+    ) |>
+        group_by(node) |>
+        mutate(node_label = paste0(unique(node_label), collapse = '+')) |>
+        ungroup() |>
+        distinct()
+})
+log_print(tim, blank_after = TRUE)
+
+## Propagation step ###
+start_time <- Sys.time()
+msg <- paste0('Performing propagation. It started at ', start_time, '.')
+log_print(msg, blank_after = TRUE)
+
+output <- vector('list', length(phys_data_ready))
+for (i in seq_along(phys_data_ready)) {
+    time1 <- Sys.time()
+
+    ## Define variables for current physiology
+    current_phys <- names(phys_data_ready)[i]
+    current_type <- unique(phys_data_ready[[i]]$Attribute_type) |>
+        {\(y) y[!is.na(y)]}()
+    dat <- phys_data_ready[[i]]
+    Attribute_group_var <- unique(dat$Attribute_group) |>
+        {\(y) y[!is.na(y)]}()
+    Attribute_type_var <- unique(dat$Attribute_type) |>
+        {\(y) y[!is.na(y)]}()
+    current_attribute_nms <- unique(dat$Attribute) |>
+        {\(y) y[!is.na(y)]}()
+
+    names(output)[i] <- current_phys
+
+    dat_n_tax <- length(unique(dat$NCBI_ID))
     msg <- paste0(
-        "The following physiologies will be discared for some error during",
-        " preparation for propagation: ",
-        paste0("'", paste0(discard_names, collapse = ', '), ".'")
+        current_phys, ' has ', format(dat_n_tax, big.mark = ','), ' taxa.'
     )
     log_print(msg, blank_after = TRUE)
-    data_ready <- discard(data_ready, is_error)
-}
 
-## Propagation with taxPPro
-data('tree_list')
-tree <- as.Node(tree_list)
-propagated <- as.list(character(length(data_ready)))
-names(propagated) = names(data_ready)
-
-
-for (i in seq_along(data_ready)){
-    p <- system.time({
-    x <- data_ready[[i]]
-    msg <- unique(x$Attribute_group)
-    msg <- paste('Propagating', msg, 'at', Sys.time())
+    ##  Mapping annotations to NCBI tree ####
+    msg <- paste0(
+        'Mapping source annotations to the NCBI tree for ', current_phys, '.'
+    )
     log_print(msg)
-    input_tbl <- x |>
-        select(NCBI_ID, Attribute, Score, Evidence) |>
-        distinct() |>
-        complete(NCBI_ID, Attribute, fill = list(Score = 0, Evidence = ''))
-    l <- split(input_tbl, factor(input_tbl$NCBI_ID))
-    tree$Do(function(node) {
-        if (!is.null(l[[node$name]])) {
-            node[['table']] <- l[[node$name]]
-        }
+    node_list <- split(
+        x = dat, f = factor(dat$NCBI_ID)
+    )
+
+    tim <- system.time({
+        ncbi_tree$Do(function(node) {
+            if (node$name %in% names(node_list))
+                node$attribute_tbl <- node_list[[node$name]]
+        })
     })
-    tree$Do(asr, traversal = 'post-order')
-    tree$Do(inh, traversal = 'pre-order')
+    log_print(tim, blank_after = TRUE)
 
-    ## Get NCBI_IDs with propagation results
-    data_tree_tbl <- tree$Get(function(node) node[['table']], simplify = FALSE) |>
-        purrr::discard(~ all(is.na(.x))) |>
-        dplyr::bind_rows() |>
-        dplyr::relocate(NCBI_ID) |>
-        dplyr::filter(Evidence %in% c('', 'asr', 'inh') | is.na(Evidence))
-
-    ## Combine data from propagation and original annotations
-    ## >>Taxon name, etc are missing here<<
-    data_with_values <- bind_rows(data_tree_tbl, x)
-
-    ## Add missing values for the tree (this is maybe just necessary for
-    ## displaying stats
-    all_node_names <- tree$Get(function(node) node$name, simplify = TRUE)
-    missing_node_names <- all_node_names[which(!all_node_names %in% unique(data_with_values$NCBI_ID))]
-    if (length(missing_node_names > 0)) {
-        attrs <- unique(x$Attribute)
-        empty_df <- data.frame(
-            NCBI_ID = sort(rep(missing_node_names, length(attrs))),
-            Attribute = rep(attrs, length(missing_node_names)),
-            Score = 0,
-            Evidence = NA
+    ## Taxonomic pooling (round 1 of propagation) ####
+    msg <- paste0(
+        'Performing taxonomic pooling (round 1 of propagation) for ',
+        current_phys, '.'
+    )
+    log_print(msg)
+    tim <- system.time({
+        ncbi_tree$Do(
+           function(node) {
+                taxPool(
+                    node = node,
+                    grp = Attribute_group_var,
+                    typ = Attribute_type_var)
+            },
+            traversal = 'post-order'
         )
-        final_table <- bind_rows(data_with_values, empty_df)
-    } else {
-        final_table <- data_with_values
+    })
+    log_print(tim, blank_after = TRUE)
+
+    ## Inheritance (round 1 of propagation) ####
+    msg <- paste0(
+        'Performing inhertiance1 (round 1 of propagation) for ',
+        current_phys, '.'
+    )
+    log_print(msg)
+    tim <- system.time({
+        ncbi_tree$Do(inh1, traversal = 'pre-order')
+    })
+    log_print(tim, blank_after = TRUE)
+
+    new_dat <- ncbi_tree$Get(
+        'attribute_tbl', filterFun = function(node) {
+            grepl('^[gst]__', node$name)
+        }
+    ) |>
+        discard(~ all(is.na(.x))) |>
+        bind_rows() |>
+        arrange(NCBI_ID, Attribute) |>
+        filter(!NCBI_ID %in% dat$NCBI_ID) |>
+        bind_rows(dat) # After this chunk is run, new_data also includes annotations in dat
+
+    if (all(!new_dat$taxid %in% tip_data$taxid)) {
+        msg <- paste0(
+            'Not enough data for ASR. Skipping ASR for ', current_phys,
+            '. Stopped after the first round of propagation.'
+        )
+        log_print(msg, blank_after = TRUE)
+        output[[i]] <- new_dat ## get the filtered data in the output
+        next
     }
 
-    attr_grp <- unique(x$Attribute_group)
-    attr_type <- unique(x$Attribute_type)
+    ## Annotate pruned tree ####
+    tip_data_annotated <- left_join(
+        tip_data,
+        select(new_dat, taxid, Attribute, Score),
+        by = 'taxid'
+    )
 
-    final_table <- final_table |>
-        filter(NCBI_ID != 'ArcBac') |>
+    annotated_tips <- tip_data_annotated |>
+        select(tip_label, Attribute, Score) |>
+        filter(!is.na(Attribute)) |>
+        pivot_wider(
+            names_from = 'Attribute', values_from = 'Score', values_fill = 0
+        ) |>
+        tibble::column_to_rownames(var = 'tip_label') |>
+        as.matrix()
+
+    ## tips that are not annotated will become negative (FALSE) if they're of type binary or multistate-union
+    ## tips that are not annotated will become negative (FALSE) if they're of type multistate-intersection
+    if (Attribute_type_var %in% c('binary', 'multistate-union')) {
+        no_annotated_tips <- tip_data |>
+            filter(!tip_label %in% rownames(annotated_tips)) |>
+            select(tip_label) |>
+            mutate(
+                Attribute = factor(
+                    current_attribute_nms[[1]], levels = current_attribute_nms
+                )
+            ) |>
+            complete(tip_label, Attribute) |>
+            mutate(Score = ifelse(grepl('--FALSE$', Attribute), 1, 0)) |>
+            pivot_wider(names_from = 'Attribute', values_from = 'Score') |>
+            tibble::column_to_rownames(var = 'tip_label') |>
+            as.matrix() |>
+            {\(y) y[,colnames(annotated_tips)]}()
+    } else if (Attribute_type_var == 'multistate-intersection') {
+        no_annotated_tip_names <- tip_data |>
+            filter(!tip_label %in% rownames(annotated_tips)) |>
+            pull(tip_label)
+        fill_value <- 1 / length(current_attribute_nms)
+        vct <- rep(
+            fill_value,
+            length(no_annotated_tip_names) * length(current_attribute_nms)
+        )
+        no_annotated_tips <- matrix(
+            data = vct,
+            nrow = length(no_annotated_tip_names),
+            ncol = length(current_attribute_nms),
+            dimnames = list(no_annotated_tip_names, current_attribute_nms)
+        )
+    }
+
+    input_matrix <- rbind(annotated_tips, no_annotated_tips)
+    input_matrix <- input_matrix[tree$tip.label,]
+
+    # pruned_tree <- ape::keep.tip(tree, tip = rownames(annotated_tips))
+    # pruned_tree <- reorder(pruned_tree, 'postorder')
+    # pruned_tip_data <- tip_data |>
+    #     filter(tip_label %in% pruned_tree$tip.label)
+    # pruned_node_data <- data.frame(
+    #     node = length(pruned_tree$tip.label) + 1:pruned_tree$Nnode
+    # )
+
+    # tx <- grep('_taxid$', colnames(pruned_tip_data), value = TRUE)
+    # nodes <- tx |>
+    #     map(~ split(pruned_tip_data, factor(pruned_tip_data[[.x]]))) |>
+    #     flatten() |>
+    #     map(~ .x[['tip_label']])
+    # node_names <- map_int(nodes, ~ getMRCATaxPPro(pruned_tree, .x))
+    # node_names <- node_names[!is.na(node_names)]
+    # nodes_df <- data.frame(
+    #     node = unname(node_names),
+    #     node_label = names(node_names)
+    # ) |>
+    #     group_by(node) |>
+    #     mutate(node_label = paste0(unique(node_label), collapse = '+')) |>
+    #     ungroup() |>
+    #     distinct() |>
+    #     arrange(node)
+    # pruned_node_data <- left_join(pruned_node_data, nodes_df, by = 'node') |>
+    #     mutate(
+    #         node_label = ifelse(
+    #             is.na(node_label), paste0('n', as.character(node)), node_label
+    #         )
+    #     )
+    # pruned_tree$node.label <- pruned_node_data$node_label
+
+    msg <- paste0(
+        'Performing ASR for (round 2 of propagation) ', current_phys, '.'
+    )
+    log_print(msg)
+    tim <- system.time({
+        fit <- fitMk(
+            tree = tree, x = input_matrix, model = 'ER',
+            pi = 'fitzjohn', lik.func = 'pruning', logscale = TRUE
+        )
+        asr <- ancr(object = fit, tips = TRUE)
+    })
+    log_print(tim, blank_after = TRUE)
+
+    res <- asr$ace
+    node_rows <- length(tree$tip.label) + 1:tree$Nnode
+    rownames(res)[node_rows] <- tree$node.label
+    res <- res[tree$node.label,]
+    res_df <- res |>
+        as.data.frame() |>
+        tibble::rownames_to_column(var = 'node_label') |>
+        filter(!grepl('^n\\d+', node_label))
+
+    ## Get annotations for nodes
+    # nodes_annotated <- res[which(grepl('^\\d+(\\+\\d+)*', rownames(res))),]
+    node_data_annotated <- ltp$node_data |>
+        filter(node_label %in% unique(res_df$node_label)) |>
+        select(node_label, taxid, Taxon_name, Rank)
+
+    nodes_annotated <- node_data_annotated |>
+        left_join(res_df, by = 'node_label') |>
+        # select(taxid, Taxon_name, Rank) |>
+        mutate(Rank = ifelse(Rank == 'superkingdom', 'kingdom', Rank)) |>
+        # new_taxa_from_nodes <- nodes_annotated |>
+        # mutate(Rank = taxizedb::taxid2rank(taxid)) |>
+        # mutate(Rank = ifelse(Rank == 'superkingdom', 'kingdom', Rank)) |>
         mutate(
-            Rank = case_when(
-                grepl('^d__', NCBI_ID) ~ 'domain',
-                grepl('^p__', NCBI_ID) ~ 'phylum',
-                grepl('^c__', NCBI_ID) ~ 'class',
-                grepl('^o__', NCBI_ID) ~ 'order',
-                grepl('^f__', NCBI_ID) ~ 'family',
-                grepl('^g__', NCBI_ID) ~ 'genus',
-                grepl('^s__', NCBI_ID) ~ 'species',
-                grepl('^t__', NCBI_ID) ~ 'strain'
+            NCBI_ID = case_when(
+                Rank == 'kingdom' ~ paste0('k__', taxid),
+                Rank == 'phylum' ~ paste0('p__', taxid),
+                Rank == 'class' ~ paste0('c__', taxid),
+                Rank == 'order' ~ paste0('o__', taxid),
+                Rank == 'family' ~ paste0('f__', taxid),
+                Rank == 'genus' ~ paste0('g__', taxid),
+                Rank == 'species' ~ paste0('s__', taxid),
+                Rank == 'strain' ~ paste0('t__', taxid)
             )
         ) |>
-        mutate(NCBI_ID = sub('^[dpcofgst]__', '', NCBI_ID)) |>
-        mutate(Taxon_name = ifelse(is.na(Taxon_name), checkTaxonName(NCBI_ID), Taxon_name)) |>
-        filter(!is.na(NCBI_ID) & !is.na(Taxon_name)) |>
-        mutate(Frequency = taxPPro:::scores2Freq(Score)) |>
-        mutate(Attribute_value = TRUE) |>
-        mutate(Attribute_group = attr_grp) |>
-        mutate(Attribute_type = attr_type)
-
-    tree$Do(function(node) {
-        node[['table']] <- NULL
-    })
-
-    propagated[[i]] <- final_table
-    })
-    print(p)
-}
-
-
-rm(categorical, data_ready, data_tree_tbl, data_with_values, empty_df,
-   final_table, input_tbl, l, output, phys, range, range_cat, set1, set2,
-   tree_list, x, all_node_names, attr_grp, attr_type, attrs, binaries,
-   data_discarded, exclude_phys, i, lf, lgl, missing_node_names,
-   more_valid_attributes, msg, msg_len, p, phys_names, tree, valid_attributes)
-
-## Create header
-## Create a header for both the dump files and the gmt files.
-header <- paste0("# bugphyzz ", Sys.Date(),
-                 ", License: Creative Commons Attribution 4.0 International",
-                 ", URL: https://waldronlab.io/bugphyzz\n")
-cat(header, file = 'full_dump_with_0.csv')
-
-dropcols <- c("Attribute_value", "Parent_name", "Parent_rank", "Parent_NCBI_ID",
-    "Strain", "Genome_ID", "Accession_ID")
-
-for (i in seq_along(propagated)) {
-    log_print(paste("Dumping", names(propagated)[i], "to file with zeros"), blank_after = TRUE)
-    propagated[[i]] <-
-        propagated[[i]][, !colnames(propagated[[i]]) %in% dropcols]
-    ## Some code for dividing the Attribute column into
-    ## Attribute range
-    propagated[[i]]$Attribute_range = ifelse(
-        test = grepl('\\(', propagated[[i]]$Attribute),
-        yes = sub('^.*(\\(.*)$', '\\1', propagated[[i]]$Attribute),
-        no = NA
-    )
-    propagated[[i]]$Attribute = sub('\\(.*$', '', propagated[[i]]$Attribute)
-    propagated[[i]]$Attribute = stringr::str_squish(propagated[[i]]$Attribute)
-    write.table(
-        x = propagated[[i]],
-        file = 'full_dump_with_0.csv',
-        quote = TRUE,
-        sep = ",",
-        row.names = FALSE,
-        append = TRUE,
-        col.names = identical(i, 1L)
-    )
-}
-
-system2('pbzip2', args = list('-f', 'full_dump_with_0.csv'))
-
-cat(header, file = 'full_dump.csv')
-for (i in seq_along(propagated)) {
-    log_print(paste("Dumping", names(propagated)[i], "to file without zeros"), blank_after = TRUE)
-
-    total_scores <- propagated[[i]] |> group_by(Attribute_group, NCBI_ID) |>
-            reframe(Total_score = sum(Score))
-    taxids_above_0 <- total_scores |>
-        filter(Total_score > 0) |>
-        pull(NCBI_ID) |>
-        unique()
-    propagated[[i]] <- propagated[[i]] |>
-        filter(NCBI_ID %in% taxids_above_0)
-    rm(taxids_above_0, total_scores)
-    write.table(
-        x = propagated[[i]], file = 'full_dump.csv', quote = TRUE, sep = ",",
-        row.names = FALSE,
-        append = TRUE, col.names = identical(i, 1L)
-    )
-}
-
-system2('pbzip2', args = list('full_dump.csv'))
-
-## Export gmt files
-log_print('Writing GMT files...')
-ranks <- c('genus', 'strain', 'species', 'mixed')
-tax_id_types <- c('Taxon_name', 'NCBI_ID')
-
-
-# helper function to add a header line to an already written dump or GMT file
-addHeader <- function(header, out.file)
-{
-    fconn <- file(out.file, "r+")
-    lines <- readLines(fconn)
-    header <- sub("\n$", "", header)
-    writeLines(c(header, lines), con = fconn)
-    close(fconn)
-}
-
-l <- length(ranks) * length(tax_id_types)
-sigs <- vector('list', l)
-counter <- 1
-for (i in seq_along(ranks)) {
-    for (j in seq_along(tax_id_types)) {
-        names(sigs)[counter] <- paste0(ranks[i], '--', tax_id_types[j])
-        gmt_file <- paste0(
-            'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
-        )
-        for (k in seq_along(propagated)){
-            log_print(paste("rank:", ranks[i], "/ tax_id_type:", tax_id_types[j], "/ physiology:", names(propagated)[k]), blank_after = TRUE)
-            sig <- getBugphyzzSignatures(
-                df = propagated[[k]], tax.level = ranks[i], tax.id.type = tax_id_types[j]
+        filter(
+            Rank %in% c(
+                'kingdom', 'phylum', 'class', 'order', 'family', 'genus',
+                'species', 'strain'
             )
-            bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
+        ) |>
+        mutate(Evidence = 'asr') |>
+        relocate(NCBI_ID, taxid, Taxon_name, Rank, Evidence) |>
+        pivot_longer(
+            cols = 7:last_col(), names_to = 'Attribute', values_to = 'Score'
+        ) |>
+        mutate(
+            Attribute_source = NA,
+            Confidence_in_curation = NA,
+            Attribute_group = Attribute_group_var,
+            Attribute_type = Attribute_type_var,
+            # taxid = sub('\\w__', '', NCBI_ID),
+            # Taxon_name = taxizedb::taxid2name(taxid, db = 'ncbi'),
+            Frequency = case_when(
+                Score == 1 ~ 'always',
+                Score > 0.9 ~ 'usually',
+                Score >= 0.5 ~ 'sometimes',
+                Score > 0 & Score < 0.5 ~ 'rarely',
+                Score == 0 ~ 'never'
+            )
+        )
+
+
+
+    # new_taxa_from_nodes <- nodes_annotated |>
+    #     as.data.frame() |>
+    #     tibble::rownames_to_column(var = 'NCBI_ID') |>
+    #     filter(grepl('^\\d+(\\+\\d+)*', NCBI_ID)) |>
+    #     mutate(NCBI_ID = strsplit(NCBI_ID, '\\+')) |>
+    #     tidyr::unnest(NCBI_ID) |>
+    #     mutate(Rank = taxizedb::taxid2rank(NCBI_ID)) |>
+    #     mutate(Rank = ifelse(Rank == 'superkingdom', 'kingdom', Rank)) |>
+    #     mutate(
+    #         NCBI_ID = case_when(
+    #             Rank == 'kingdom' ~ paste0('k__', NCBI_ID),
+    #             Rank == 'phylum' ~ paste0('p__', NCBI_ID),
+    #             Rank == 'class' ~ paste0('c__', NCBI_ID),
+    #             Rank == 'order' ~ paste0('o__', NCBI_ID),
+    #             Rank == 'family' ~ paste0('f__', NCBI_ID),
+    #             Rank == 'genus' ~ paste0('g__', NCBI_ID),
+    #             Rank == 'species' ~ paste0('s__', NCBI_ID),
+    #             Rank == 'strain' ~ paste0('t__', NCBI_ID)
+    #         )
+    #     ) |>
+    #     filter(
+    #         Rank %in% c(
+    #             'kingdom', 'phylum', 'class', 'order', 'family', 'genus',
+    #             'species', 'strain'
+    #         )
+    #     ) |>
+    #     mutate(Evidence = 'asr') |>
+    #     relocate(NCBI_ID, Rank, Evidence) |>
+    #     pivot_longer(
+    #         cols = 4:last_col(), names_to = 'Attribute', values_to = 'Score'
+    #     ) |>
+    #     mutate(
+    #         Attribute_source = NA,
+    #         Confidence_in_curation = NA,
+    #         Attribute_group = Attribute_group_var,
+    #         Attribute_type = Attribute_type_var,
+    #         # taxid = sub('\\w__', '', NCBI_ID),
+    #         Taxon_name = taxizedb::taxid2name(taxid, db = 'ncbi'),
+    #         Frequency = case_when(
+    #             Score == 1 ~ 'always',
+    #             Score > 0.9 ~ 'usually',
+    #             Score >= 0.5 ~ 'sometimes',
+    #             Score > 0 & Score < 0.5 ~ 'rarely',
+    #             Score == 0 ~ 'never'
+    #         )
+    #     )
+    new_taxa_for_ncbi_tree <- nodes_annotated |>
+        relocate(NCBI_ID, Rank, Attribute, Score, Evidence)
+    new_taxa_for_ncbi_tree_list <- split(
+        new_taxa_for_ncbi_tree, factor(new_taxa_for_ncbi_tree$NCBI_ID)
+    )
+
+    ## Perform taxonomic pooling and inheritance (propagation round 3)
+    ## Mapping new internal nodes to the NCBI taxonomy tree ####
+    msg <- paste0(
+        'Mapping annotations for third round of propagation for ', current_phys,
+        '.'
+    )
+    log_print(msg)
+    tim <- system.time({
+        ncbi_tree$Do(function(node) {
+            cond1 <- node$name %in% names(new_taxa_for_ncbi_tree_list)
+            cond2 <- is.null(node$attribute_tbl) || all(is.na(node$attribute_tbl))
+            if (cond1 && cond2) {
+                node$attribute_tbl <- new_taxa_for_ncbi_tree_list[[node$name]]
+            }
+        })
+    })
+    log_print(tim, blank_after = TRUE)
+
+    msg <- paste0(
+        'Performing inheritance (round 3 of propagation) for ', current_phys
+    )
+    log_print(msg)
+    tim <- system.time({
+        ncbi_tree$Do(inh2, traversal = 'pre-order')
+    })
+    log_print(tim, blank_after = TRUE)
+
+    ## Extracting files ####
+    result <- ncbi_tree$Get(
+        attribute = 'attribute_tbl', simplify = FALSE,
+        filterFun = function(node) {
+            node$name != 'ArcBac' && !is.null(node$attribute_tbl)
         }
-        addHeader(header, gmt_file)
-        counter <- counter + 1
-    }
+    ) |>
+        bind_rows() |>
+        discard(~ all(is.na(.x)))
+    min_thr <- 1 / length(unique(dat$Attribute))
+
+    msg <- paste0(
+        'Minimum threshold for positives in ', current_phys, ' was ',
+        min_thr, '.'
+    )
+    log_print(msg, blank_after = TRUE)
+
+    add_taxa_1 <- dat |>
+        filter(!NCBI_ID %in% unique(result$NCBI_ID)) |>
+        discard(~ all(is.na(.x)))
+    add_taxa_2 <- new_taxa_for_ncbi_tree |>
+        filter(!NCBI_ID %in% unique(result$NCBI_ID)) |>
+        discard(~ all(is.na(.x)))
+    final_result <- bind_rows(list(result, add_taxa_1, add_taxa_2)) |>
+        filter(Score > min_thr)
+
+    final_result_size <- lobstr::obj_size(final_result)
+    msg <- paste0(
+        'Size of propagated data for ', current_phys, ' is ',
+        gdata::humanReadable(final_result_size, standard = 'SI'), '.'
+    )
+    log_print(msg, blank_after = TRUE)
+
+    output[[i]] <- final_result
+
+
+    msg <- paste0('Cleaning nodes for ', current_phys, '.')
+    log_print(msg)
+    tim <- system.time({
+        ncbi_tree$Do(cleanNode)
+    })
+    log_print(tim, blank_after = TRUE)
+
+    time2 <- Sys.time()
+    time3 <- round(difftime(time2, time1, units = 'min'))
+    nrow_fr <- nrow(final_result)
+    msg <- paste0(
+        'Number of rows for ', current_phys, ' were ' ,
+        format(nrow_fr, big.mark = ','), '.',
+        ' It took ', time3[[1]], ' mins.'
+    )
+    log_print(msg, blank_after = TRUE)
+    log_print('', blank_after = TRUE)
 }
+end_time <- Sys.time()
+elapsed_time <- round(difftime(end_time, start_time, units = 'min'))
+
+msg <- paste0(
+    'Propagation ended at ', en)
+log_print(msg, blank_after =d_time,
+    '. Total elapsed time for propagtion for ', length(phys_data_ready),
+    ' physiologies was ', elapsed_time[[1]], ' min.'
+)
+log_print(msg, blank_after = TRUE)
+
+## Exporting annotations as a single tsv file ####
+final_obj <- bind_rows(output)
+final_obj_size <- lobstr::obj_size(final_obj)
+
+msg <- paste0(
+    'Size of final object is ',
+    gdata::humanReadable(final_obj_size, standard = 'SI')
+)
+log_print(msg, blank_after = TRUE)
+
+msg <- paste0('Writing final output file.')
+log_print(msg, blank_after = TRUE)
+final_obj_fname <- paste0('bugphyzz_export_', Sys.Date(), '.tsv')
+write.table(
+    x = final_obj, file = final_obj_fname, sep = '\t', row.names = FALSE
+)
+
+fsize <- gdata::humanReadable(file.size(final_obj_fname), standard = "SI")
+msg <- paste0(
+    'The size of the tsv file is ', fsize, '.'
+)
+log_print(msg, blank_after = TRUE)
 
 si <- sessioninfo::session_info()
 log_print(si, blank_after = TRUE)
-
 log_close()
+
