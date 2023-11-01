@@ -21,7 +21,7 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          pkgs <- c("waldronlab/bugsigdbr", "logr", "BiocFileCache", "tidyverse", "BiocParallel", "sdgamboa/taxPPro", "waldronlab/bugphyzz", "waldronlab/bugphyzzExports")
+          pkgs <- c("waldronlab/bugsigdbr", "logr", "BiocFileCache", "tidyverse", "sdgamboa/taxPPro", "waldronlab/bugphyzz", "waldronlab/bugphyzzExports")
           BiocManager::install(pkgs, dependencies = TRUE)
         shell: Rscript {0}
 

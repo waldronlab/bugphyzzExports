@@ -8,7 +8,6 @@ library(rlang)
 library(dplyr)
 library(data.tree)
 library(bugphyzzExports) # Install locally
-library(BiocParallel)
 library(tidyr)
 
 logfile <- "log_file"
