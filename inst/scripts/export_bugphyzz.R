@@ -1,28 +1,27 @@
-## Script for bugphyzz exports
 
-## Setup ####
-library(logr)
-library(bugphyzz)
-library(taxPPro)
-library(data.tree)
-library(phytools)
-library(dplyr)
-library(purrr)
-library(tidyr)
-library(ggplot2)
-library(ape)
-library(bugphyzzExports)
+suppressMessages({
+    library(logr)
+    library(bugphyzz)
+    library(taxPPro)
+    library(data.tree)
+    library(phytools)
+    library(dplyr)
+    library(purrr)
+    library(tidyr)
+    library(ggplot2)
+    library(ape)
+    library(bugphyzzExports)
+})
 
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
-## Import physiology data from bugphyzz ####
 phys_names <- c(
     ## multistate-intersection
     'aerophilicity',
 
     ## multistate-union
-    'antimicrobial resistance',
+    # 'antimicrobial resistance',
 
     ## binary
     'acetate producing',
@@ -74,9 +73,9 @@ for (i in seq_along(phys)) {
 
     }
 }
+## TODO add message letting know when data is being eliminated
 phys <- discard(phys, is.null)
 
-## Preparing data for propagation ####
 msg <- ('Preparing data for propagation...')
 log_print('', blank_after = TRUE)
 log_print(msg, blank_after = TRUE)
@@ -108,6 +107,20 @@ tim <- system.time({
     }
     phys_data_ready <- list_flatten(phys_data_ready)
 })
+
+## TODO add tidyr::complete for binary data
+phys_data_ready <- map(phys_data_ready, ~ {
+    attribute_type <- .x |>
+        pull(Attribute_type) |>
+        {\(y) y[!is.na(y)]}() |>
+        unique()
+
+    if (attribute_type %in% c('binary', 'multistate-union')) {
+        return(completeBinaryData(.x))
+    }
+    return(.x)
+})
+
 log_print('', blank_after = TRUE)
 log_print('Total time preparing data for propagation was: ')
 log_print(tim, blank_after = TRUE)
@@ -119,7 +132,6 @@ if (!is.null(taxidWarnings)) {
     log_print(taxidWarnings, blank_after = TRUE)
 }
 
-## Prepare tree data ####
 msg <- paste0('Preparing tree data (NCBI and LTP).')
 log_print(msg)
 tim <- system.time({
@@ -129,24 +141,24 @@ tim <- system.time({
     ltp <- ltp()
     tree <- reorder(ltp$tree, 'postorder')
     tip_data <- ltp$tip_data
+    node_data <- ltp$node_data
 
-    tx <- grep('_taxid$', colnames(tip_data), value = TRUE)
-    nodes <- flatten(map(tx, ~ split(tip_data, factor(tip_data[[.x]]))))
-    nodes <- map(nodes, ~ .x[['tip_label']])
-    node_names <- map_int(nodes, ~ getMRCATaxPPro(tree, .x))
-    node_names <- node_names[!is.na(node_names)]
-    nodes_df <- data.frame(
-        node = unname(node_names),
-        node_label = names(node_names)
-    ) |>
-        group_by(node) |>
-        mutate(node_label = paste0(unique(node_label), collapse = '+')) |>
-        ungroup() |>
-        distinct()
+    # tx <- grep('_taxid$', colnames(tip_data), value = TRUE)
+    # nodes <- flatten(map(tx, ~ split(tip_data, factor(tip_data[[.x]]))))
+    # nodes <- map(nodes, ~ .x[['tip_label']])
+    # node_names <- map_int(nodes, ~ getMRCATaxPPro(tree, .x))
+    # node_names <- node_names[!is.na(node_names)]
+    # nodes_df <- data.frame(
+    #     node = unname(node_names),
+    #     node_label = names(node_names)
+    # ) |>
+    #     group_by(node) |>
+    #     mutate(node_label = paste0(unique(node_label), collapse = '+')) |>
+    #     ungroup() |>
+    #     distinct()
 })
 log_print(tim, blank_after = TRUE)
 
-## Propagation step ###
 start_time <- Sys.time()
 msg <- paste0('Performing propagation. It started at ', start_time, '.')
 log_print(msg, blank_after = TRUE)
@@ -154,36 +166,32 @@ log_print(msg, blank_after = TRUE)
 output <- vector('list', length(phys_data_ready))
 for (i in seq_along(phys_data_ready)) {
     time1 <- Sys.time()
-
-    ## Define variables for current physiology
-    current_phys <- names(phys_data_ready)[i]
-    current_type <- unique(phys_data_ready[[i]]$Attribute_type) |>
-        {\(y) y[!is.na(y)]}()
     dat <- phys_data_ready[[i]]
-    Attribute_group_var <- unique(dat$Attribute_group) |>
-        {\(y) y[!is.na(y)]}()
-    Attribute_type_var <- unique(dat$Attribute_type) |>
-        {\(y) y[!is.na(y)]}()
-    current_attribute_nms <- unique(dat$Attribute) |>
-        {\(y) y[!is.na(y)]}()
 
-    names(output)[i] <- current_phys
+    attribute_group <- dat$Attribute_group |>
+        {\(y) y[!is.na(y)]}() |>
+        unique()
+    attribute_type <- dat$Attribute_type |>
+        {\(y) y[!is.na(y)]}() |>
+        unique()
+    attribute_nms <- dat$Attribute |>
+        {\(y) y[!is.na(y)]}() |>
+        unique()
+
+    names(output)[i] <- attribute_group
 
     dat_n_tax <- length(unique(dat$NCBI_ID))
     msg <- paste0(
-        current_phys, ' has ', format(dat_n_tax, big.mark = ','), ' taxa.'
+        attribute_group, ' has ', format(dat_n_tax, big.mark = ','), ' taxa.'
     )
     log_print(msg, blank_after = TRUE)
 
-    ##  Mapping annotations to NCBI tree ####
     msg <- paste0(
-        'Mapping source annotations to the NCBI tree for ', current_phys, '.'
+        'Mapping source annotations to the NCBI tree for ', attribute_group, '.'
     )
     log_print(msg)
-    node_list <- split(
-        x = dat, f = factor(dat$NCBI_ID)
-    )
 
+    node_list <- split(dat, factor(dat$NCBI_ID))
     tim <- system.time({
         ncbi_tree$Do(function(node) {
             if (node$name %in% names(node_list))
@@ -192,10 +200,9 @@ for (i in seq_along(phys_data_ready)) {
     })
     log_print(tim, blank_after = TRUE)
 
-    ## Taxonomic pooling (round 1 of propagation) ####
     msg <- paste0(
         'Performing taxonomic pooling (round 1 of propagation) for ',
-        current_phys, '.'
+        attribute_type, '.'
     )
     log_print(msg)
     tim <- system.time({
@@ -203,20 +210,20 @@ for (i in seq_along(phys_data_ready)) {
            function(node) {
                 taxPool(
                     node = node,
-                    grp = Attribute_group_var,
-                    typ = Attribute_type_var)
+                    grp = attribute_group,
+                    typ = attribute_type)
             },
             traversal = 'post-order'
         )
     })
     log_print(tim, blank_after = TRUE)
 
-    ## Inheritance (round 1 of propagation) ####
     msg <- paste0(
         'Performing inhertiance1 (round 1 of propagation) for ',
-        current_phys, '.'
+        attribute_group, '.'
     )
     log_print(msg)
+
     tim <- system.time({
         ncbi_tree$Do(inh1, traversal = 'pre-order')
     })
@@ -231,19 +238,42 @@ for (i in seq_along(phys_data_ready)) {
         bind_rows() |>
         arrange(NCBI_ID, Attribute) |>
         filter(!NCBI_ID %in% dat$NCBI_ID) |>
-        bind_rows(dat) # After this chunk is run, new_data also includes annotations in dat
+        bind_rows(dat)
 
-    if (all(!new_dat$taxid %in% tip_data$taxid)) {
+    new_taxids <- new_dat |>
+        pull(taxid) |>
+        {\(y) y[!is.na(y)]}()
+    per <- mean(tip_data$taxid %in% new_taxids) * 100
+    if (per < 1) {
         msg <- paste0(
-            'Not enough data for ASR. Skipping ASR for ', current_phys,
+            'Not enough data for ASR. Skipping ASR for ', attribute_group,
             '. Stopped after the first round of propagation.'
         )
         log_print(msg, blank_after = TRUE)
-        output[[i]] <- new_dat ## get the filtered data in the output
+
+        output[[i]] <- new_dat
+
+        msg <- paste0('Cleaning nodes for ', attribute_type, '.')
+        log_print(msg)
+        tim <- system.time({
+            ncbi_tree$Do(cleanNode)
+        })
+        log_print(tim, blank_after = TRUE)
+
+        time2 <- Sys.time()
+        time3 <- round(difftime(time2, time1, units = 'min'))
+        nrow_fr <- nrow(new_dat)
+        msg <- paste0(
+            'Number of rows for ', attribute_type, ' were ' ,
+            format(nrow_fr, big.mark = ','), '.',
+            ' It took ', time3[[1]], ' mins.'
+        )
+        log_print(msg, blank_after = TRUE)
+        log_print('', blank_after = TRUE)
+
         next
     }
 
-    ## Annotate pruned tree ####
     tip_data_annotated <- left_join(
         tip_data,
         select(new_dat, taxid, Attribute, Score),
@@ -259,15 +289,13 @@ for (i in seq_along(phys_data_ready)) {
         tibble::column_to_rownames(var = 'tip_label') |>
         as.matrix()
 
-    ## tips that are not annotated will become negative (FALSE) if they're of type binary or multistate-union
-    ## tips that are not annotated will become negative (FALSE) if they're of type multistate-intersection
-    if (Attribute_type_var %in% c('binary', 'multistate-union')) {
+    if (attribute_type %in% c('binary', 'multistate-union')) {
         no_annotated_tips <- tip_data |>
             filter(!tip_label %in% rownames(annotated_tips)) |>
             select(tip_label) |>
             mutate(
                 Attribute = factor(
-                    current_attribute_nms[[1]], levels = current_attribute_nms
+                    attribute_nms[[1]], levels = attribute_nms
                 )
             ) |>
             complete(tip_label, Attribute) |>
@@ -276,20 +304,20 @@ for (i in seq_along(phys_data_ready)) {
             tibble::column_to_rownames(var = 'tip_label') |>
             as.matrix() |>
             {\(y) y[,colnames(annotated_tips)]}()
-    } else if (Attribute_type_var == 'multistate-intersection') {
+    } else if (attribute_type == 'multistate-intersection') {
         no_annotated_tip_names <- tip_data |>
             filter(!tip_label %in% rownames(annotated_tips)) |>
             pull(tip_label)
-        fill_value <- 1 / length(current_attribute_nms)
+        fill_value <- 1 / length(attribute_nms)
         vct <- rep(
             fill_value,
-            length(no_annotated_tip_names) * length(current_attribute_nms)
+            length(no_annotated_tip_names) * length(attribute_nms)
         )
         no_annotated_tips <- matrix(
             data = vct,
             nrow = length(no_annotated_tip_names),
-            ncol = length(current_attribute_nms),
-            dimnames = list(no_annotated_tip_names, current_attribute_nms)
+            ncol = length(attribute_nms),
+            dimnames = list(no_annotated_tip_names, attribute_nms)
         )
     }
 
@@ -329,7 +357,7 @@ for (i in seq_along(phys_data_ready)) {
     # pruned_tree$node.label <- pruned_node_data$node_label
 
     msg <- paste0(
-        'Performing ASR for (round 2 of propagation) ', current_phys, '.'
+        'Performing ASR for (round 2 of propagation) ', attribute_type, '.'
     )
     log_print(msg)
     tim <- system.time({
@@ -389,8 +417,8 @@ for (i in seq_along(phys_data_ready)) {
         mutate(
             Attribute_source = NA,
             Confidence_in_curation = NA,
-            Attribute_group = Attribute_group_var,
-            Attribute_type = Attribute_type_var,
+            Attribute_group = attribute_group,
+            Attribute_type = attribute_type,
             # taxid = sub('\\w__', '', NCBI_ID),
             # Taxon_name = taxizedb::taxid2name(taxid, db = 'ncbi'),
             Frequency = case_when(
@@ -459,7 +487,7 @@ for (i in seq_along(phys_data_ready)) {
     ## Perform taxonomic pooling and inheritance (propagation round 3)
     ## Mapping new internal nodes to the NCBI taxonomy tree ####
     msg <- paste0(
-        'Mapping annotations for third round of propagation for ', current_phys,
+        'Mapping annotations for third round of propagation for ', attribute_type,
         '.'
     )
     log_print(msg)
@@ -475,7 +503,7 @@ for (i in seq_along(phys_data_ready)) {
     log_print(tim, blank_after = TRUE)
 
     msg <- paste0(
-        'Performing inheritance (round 3 of propagation) for ', current_phys
+        'Performing inheritance (round 3 of propagation) for ', attribute_type
     )
     log_print(msg)
     tim <- system.time({
@@ -495,7 +523,7 @@ for (i in seq_along(phys_data_ready)) {
     min_thr <- 1 / length(unique(dat$Attribute))
 
     msg <- paste0(
-        'Minimum threshold for positives in ', current_phys, ' was ',
+        'Minimum threshold for positives in ', attribute_group, ' was ',
         min_thr, '.'
     )
     log_print(msg, blank_after = TRUE)
@@ -511,7 +539,7 @@ for (i in seq_along(phys_data_ready)) {
 
     final_result_size <- lobstr::obj_size(final_result)
     msg <- paste0(
-        'Size of propagated data for ', current_phys, ' is ',
+        'Size of propagated data for ', attribute_type, ' is ',
         gdata::humanReadable(final_result_size, standard = 'SI'), '.'
     )
     log_print(msg, blank_after = TRUE)
@@ -519,7 +547,7 @@ for (i in seq_along(phys_data_ready)) {
     output[[i]] <- final_result
 
 
-    msg <- paste0('Cleaning nodes for ', current_phys, '.')
+    msg <- paste0('Cleaning nodes for ', attribute_type, '.')
     log_print(msg)
     tim <- system.time({
         ncbi_tree$Do(cleanNode)
@@ -530,7 +558,7 @@ for (i in seq_along(phys_data_ready)) {
     time3 <- round(difftime(time2, time1, units = 'min'))
     nrow_fr <- nrow(final_result)
     msg <- paste0(
-        'Number of rows for ', current_phys, ' were ' ,
+        'Number of rows for ', attribute_type, ' were ' ,
         format(nrow_fr, big.mark = ','), '.',
         ' It took ', time3[[1]], ' mins.'
     )
@@ -541,8 +569,7 @@ end_time <- Sys.time()
 elapsed_time <- round(difftime(end_time, start_time, units = 'min'))
 
 msg <- paste0(
-    'Propagation ended at ', en)
-log_print(msg, blank_after =d_time,
+    'Propagation ended at ', elapsed_time,
     '. Total elapsed time for propagtion for ', length(phys_data_ready),
     ' physiologies was ', elapsed_time[[1]], ' min.'
 )
