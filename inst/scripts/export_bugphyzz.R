@@ -47,7 +47,9 @@ log_print(msg, blank_after = TRUE)
 
 phys <- vector('list', length(bugphyzz_data))
 for (i in seq_along(phys)) {
-    at <- unique(bugphyzz_data[[i]]$Attribute_type)
+    at <- bugphyzz_data[[i]]$Attribute_type |>
+        {\(y) y[!is.na(y)]}() |>
+        unique()
     dat_name <- names(bugphyzz_data)[i]
     names(phys)[i] <- dat_name
     if (at == 'range' && dat_name %in% names(THRESHOLDS())) {
@@ -73,7 +75,17 @@ for (i in seq_along(phys)) {
 
     }
 }
-## TODO add message letting know when data is being eliminated
+
+for (i in seq_along(phys)) {
+   physName <-  names(phys)[i]
+   if (is.null(phys[[i]])) {
+       msg <- paste0(
+           phyName, ' will be discarded now.'
+       )
+       log_print(msg)
+   }
+}
+log_print("", blank_after = TRUE)
 phys <- discard(phys, is.null)
 
 msg <- ('Preparing data for propagation...')
@@ -106,9 +118,10 @@ tim <- system.time({
             taxidWarnings[[i]] <- wngs
     }
     phys_data_ready <- list_flatten(phys_data_ready)
+    ## TODO add comment explaining why the use of list_flatten
 })
 
-## TODO add tidyr::complete for binary data
+## TODO add tidyr::complete for binary data. Explain why.
 phys_data_ready <- map(phys_data_ready, ~ {
     attribute_type <- .x |>
         pull(Attribute_type) |>
