@@ -21,7 +21,7 @@ phys_names <- c(
     'aerophilicity',
 
     ## multistate-union
-    'habitat'
+    'habitat',
 
     ## binary
     'plant pathogenicity',
