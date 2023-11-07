@@ -48,7 +48,7 @@ phys_names <- c(
      'animal pathongen',
 
     ## numeric/range
-    'growth temperature'
+     'growth temperature',
      'optimal ph',
      'width',
      'length',
