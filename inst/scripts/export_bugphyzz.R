@@ -41,11 +41,11 @@ phys_names <- c(
      'lactate producing',
      'butyrate producing',
      'hydrogen gas producing',
-     'human pathogen',
+     'pathogenicity human',
      'motility',
      'biofilm forming',
      'extreme environment',
-     'animal pathongen',
+     'animal pathogen',
 
     ## numeric/range
      'growth temperature',
