@@ -218,6 +218,13 @@ for (i in seq_along(phys_data_ready)) {
 
     names(output)[i] <- attribute_group
 
+    if (attribute_group == 'multistate-union') {
+        attrNMS <- unique(sub('--(TRUE|FALSE)$', '', attribute_nms))
+        attrGroupMsg <- paste0(attribute_group, '-', attributeNMS)
+    } else {
+        attrGroupMsg <- attribute_group
+    }
+
     dat_n_tax <- length(unique(dat$NCBI_ID))
     msg <- paste0(
         attribute_group, ' has ', format(dat_n_tax, big.mark = ','), ' taxa.'
@@ -225,7 +232,7 @@ for (i in seq_along(phys_data_ready)) {
     log_print(msg, blank_after = TRUE)
 
     msg <- paste0(
-        'Mapping source annotations to the NCBI tree for ', attribute_group, '.'
+        'Mapping source annotations to the NCBI tree for ', attrGroupMsg, '.'
     )
     log_print(msg)
 
@@ -240,7 +247,7 @@ for (i in seq_along(phys_data_ready)) {
 
     msg <- paste0(
         'Performing taxonomic pooling for ',
-        attribute_group, '.'
+        attrGroupMsg, '.'
     )
     log_print(msg)
     tim <- system.time({
@@ -258,7 +265,7 @@ for (i in seq_along(phys_data_ready)) {
 
     msg <- paste0(
         'Performing inheritance (1) for ',
-        attribute_group, '.'
+        attrGroupMsg, '.'
     )
     log_print(msg)
 
@@ -285,14 +292,14 @@ for (i in seq_along(phys_data_ready)) {
     per <- mean(tip_data$taxid %in% new_taxids) * 100
     if (per < 1) {
         msg <- paste0(
-            'Not enough data for ASR. Skipping ASR and inhetiance (2) for ', attribute_group,
+            'Not enough data for ASR. Skipping ASR and inhetiance (2) for ', attrGroupMsg,
             '. Stopped after the first round of propagation.'
         )
         log_print(msg, blank_after = TRUE)
 
         output[[i]] <- new_dat ## Here, I include data after taxpool and inhertiance 1, ASR and inheritance 2 are skipped
 
-        msg <- paste0('Cleaning nodes for ', attribute_group, '.')
+        msg <- paste0('Cleaning nodes for ', attrGroupMsg, '.')
         log_print(msg)
         tim <- system.time({
             ncbi_tree$Do(cleanNode)
@@ -303,7 +310,7 @@ for (i in seq_along(phys_data_ready)) {
         time3 <- round(difftime(time2, time1, units = 'min'))
         nrow_fr <- nrow(new_dat)
         msg <- paste0(
-            'Number of rows for ', attribute_group, ' were ' ,
+            'Number of rows for ', AttrGroupMsg, ' were ' ,
             format(nrow_fr, big.mark = ','), '.',
             ' It took ', time3[[1]], ' mins.'
         )
@@ -364,7 +371,7 @@ for (i in seq_along(phys_data_ready)) {
     input_matrix <- input_matrix[tree$tip.label,]
 
     msg <- paste0(
-        'Performing ASR for (round 2 of propagation) ', attribute_group, '.'
+        'Performing ASR for (round 2 of propagation) ', attrGroupMsg, '.'
     )
     log_print(msg)
     tim <- system.time({
@@ -439,7 +446,7 @@ for (i in seq_along(phys_data_ready)) {
     )
 
     msg <- paste0(
-        'Mapping annotations for inheritabce 2 for ', attribute_group,
+        'Mapping annotations for inheritabce 2 for ', attrGroupMsg,
         '.'
     )
     log_print(msg)
@@ -455,7 +462,7 @@ for (i in seq_along(phys_data_ready)) {
     log_print(tim, blank_after = TRUE)
 
     msg <- paste0(
-        'Performing inheritance (2)  for ', attribute_group
+        'Performing inheritance (2)  for ', attrGroupMsg
     )
     log_print(msg)
     tim <- system.time({
@@ -474,7 +481,7 @@ for (i in seq_along(phys_data_ready)) {
     min_thr <- 1 / length(unique(dat$Attribute))
 
     msg <- paste0(
-        'Minimum threshold for positives in ', attribute_group, ' was ',
+        'Minimum threshold for positives in ', attrGroupMsg, ' was ',
         min_thr, '.'
     )
     log_print(msg, blank_after = TRUE)
@@ -490,7 +497,7 @@ for (i in seq_along(phys_data_ready)) {
 
     final_result_size <- lobstr::obj_size(final_result)
     msg <- paste0(
-        'Size of propagated data for ', attribute_group, ' is ',
+        'Size of propagated data for ', attrGroupMsg, ' is ',
         gdata::humanReadable(final_result_size, standard = 'SI'), '.'
     )
     log_print(msg, blank_after = TRUE)
@@ -498,7 +505,7 @@ for (i in seq_along(phys_data_ready)) {
     output[[i]] <- final_result
 
 
-    msg <- paste0('Cleaning nodes for ', attribute_group, '.')
+    msg <- paste0('Cleaning nodes for ', attrGroupMsg, '.')
     log_print(msg)
     tim <- system.time({
         ncbi_tree$Do(cleanNode)
@@ -509,7 +516,7 @@ for (i in seq_along(phys_data_ready)) {
     time3 <- round(difftime(time2, time1, units = 'min'))
     nrow_fr <- nrow(final_result)
     msg <- paste0(
-        'Number of rows for ', attribute_group, ' were ' ,
+        'Number of rows for ', attrGroupMsg, ' were ' ,
         format(nrow_fr, big.mark = ','), '.',
         ' It took ', time3[[1]], ' mins.'
     )
