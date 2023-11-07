@@ -28,10 +28,10 @@ phys_names <- c(
 
     ## multistate-union
      'habitat',
-     'isolation site',
-     'disease association',
+#    'isolation site',
+#    'disease association',
      'antimicrobial resistance',
-     'antimicrobial sensitivity',
+
     # 'growth medium',
 
     ## binary
@@ -46,6 +46,7 @@ phys_names <- c(
      'biofilm forming',
      'extreme environment',
      'animal pathogen',
+     'antimicrobial sensitivity',
 
     ## numeric/range
      'growth temperature',
@@ -107,7 +108,7 @@ for (i in seq_along(phys)) {
 for (i in seq_along(phys)) {
    physName <-  names(phys)[i]
    if (is.null(phys[[i]])) {
-       msg <- paste0(phyName, ' will be discarded now. Not in thresholds.')
+       msg <- paste0(physName, ' will be discarded now. Not in thresholds.')
        log_print(msg)
    }
 }
