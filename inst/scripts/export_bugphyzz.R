@@ -18,16 +18,16 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 phys_names <- c(
     ## multistate-intersection
-    'aerophilicity',
+     'aerophilicity',
      'gram stain',
-     'biodsafety level',
+     'biosafety level',
      'COGEM pathogenicity rating',
      'shape',
      'spore shape',
      'arrangement',
 
     ## multistate-union
-    'habitat',
+     'habitat',
      'isolation site',
      'disease association',
      'antimicrobial resistance',
@@ -35,7 +35,7 @@ phys_names <- c(
     # 'growth medium',
 
     ## binary
-    'plant pathogenicity',
+     'plant pathogenicity',
      'acetate producing',
      'sphingolipid producing',
      'lactate producing',
@@ -55,7 +55,7 @@ phys_names <- c(
      'genome size',
      'coding genes',
      'mutation rate per site per generation',
-     'mutation rate per ste per year'
+     'mutation rate per site per year'
 )
 
 msg <- paste0(
