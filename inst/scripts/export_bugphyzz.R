@@ -18,45 +18,45 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 phys_names <- c(
     ## multistate-intersection
-     'aerophilicity',
-     'gram stain',
-     'biosafety level',
-     'COGEM pathogenicity rating',
-     'shape',
-     'spore shape',
-     'arrangement',
+     # 'aerophilicity',
+     # 'gram stain',
+     # 'biosafety level',
+     # 'COGEM pathogenicity rating',
+     # 'shape',
+     # 'spore shape',
+     # 'arrangement',
 
     ## multistate-union
-     'habitat',
+     'habitat'
 #    'isolation site',
 #    'disease association',
-     'antimicrobial resistance',
+     # 'antimicrobial resistance',
 
     # 'growth medium',
 
     ## binary
-     'plant pathogenicity',
-     'acetate producing',
-     'sphingolipid producing',
-     'lactate producing',
-     'butyrate producing',
-     'hydrogen gas producing',
-     'pathogenicity human',
-     'motility',
-     'biofilm forming',
-     'extreme environment',
-     'animal pathogen',
-     'antimicrobial sensitivity',
+     # 'plant pathogenicity',
+     # 'acetate producing',
+     # 'sphingolipid producing',
+     # 'lactate producing',
+     # 'butyrate producing',
+     # 'hydrogen gas producing',
+     # 'pathogenicity human',
+     # 'motility',
+     # 'biofilm forming',
+     # 'extreme environment',
+     # 'animal pathogen',
+     # 'antimicrobial sensitivity',
 
     ## numeric/range
-     'growth temperature',
-     'optimal ph',
-     'width',
-     'length',
-     'genome size',
-     'coding genes',
-     'mutation rate per site per generation',
-     'mutation rate per site per year'
+     # 'growth temperature',
+     # 'optimal ph',
+     # 'width',
+     # 'length',
+     # 'genome size',
+     # 'coding genes',
+     # 'mutation rate per site per generation',
+     # 'mutation rate per site per year'
 )
 
 msg <- paste0(
@@ -217,18 +217,18 @@ for (i in seq_along(phys_data_ready)) {
         {\(y) y[!is.na(y)]}() |>
         unique()
 
-    names(output)[i] <- attribute_group
+    names(output)[i] <- names(phys_data_ready)[i]
 
-    if (attribute_group == 'multistate-union') {
+    if (attribute_type == 'multistate-union') {
         attrNMS <- unique(sub('--(TRUE|FALSE)$', '', attribute_nms))
-        attrGroupMsg <- paste0(attribute_group, '-', attributeNMS)
+        attrGroupMsg <- paste0(attribute_group, '-', attrNMS)
     } else {
         attrGroupMsg <- attribute_group
     }
 
     dat_n_tax <- length(unique(dat$NCBI_ID))
     msg <- paste0(
-        attribute_group, ' has ', format(dat_n_tax, big.mark = ','), ' taxa.'
+        attrGroupMsg, ' has ', format(dat_n_tax, big.mark = ','), ' taxa.'
     )
     log_print(msg, blank_after = TRUE)
 

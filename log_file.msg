@@ -1,3 +1,3 @@
-Error: unexpected string constant in: " 'growth temperature' 'optimal ph'" 
+Error in UseMethod("count") : no applicable method for 'count' applied to an object of class "character" 
 Traceback: 
-No traceback available 
+1: count(x$Evidence) 

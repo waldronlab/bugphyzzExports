@@ -1,17 +1,399 @@
 ========================================================================= 
 Log Path: log_file.log 
-Working Directory: /mnt/STORE1/bighome/samuelgamboa/Projects/bugphyzzExports 
-User Name: samuelgamboa 
-R Version: 4.3.2 (2023-10-31) 
-Machine: supermicro x86_64 
-Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
-Base Packages: stats graphics grDevices utils datasets methods base Other Packages: bugphyzzExports_0.0.0.9000 ggplot2_3.4.4 tidyr_1.3.0 purrr_1.0.2 dplyr_1.1.3 phytools_1.9-16 maps_3.4.1 ape_5.7-1 data.tree_1.0.0 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.4 
-Log Start Time: 2023-11-07 14:51:57.005992 
+Program Path: /home/user/Projects/CUNY/bugphyzzExports/inst/scripts/export_bugphyzz.R 
+Working Directory: /home/user/Projects/CUNY/bugphyzzExports 
+User Name: user 
+R Version: 4.3.1 (2023-06-16) 
+Machine: pop-os x86_64 
+Operating System: Linux 6.5.6-76060506-generic #202310061235~1697396945~22.04~9283e32 SMP PREEMPT_DYNAMIC Sun O 
+Base Packages: stats graphics grDevices utils datasets methods base Other Packages: bugphyzzExports_0.0.0.9004 ggplot2_3.4.4 tidyr_1.3.0 purrr_1.0.2 dplyr_1.1.3 phytools_1.9-16 maps_3.4.1 ape_5.7-1 data.tree_1.0.0 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.4 
+Log Start Time: 2023-11-07 16:07:56.651765 
 ========================================================================= 
-Error: unexpected string constant in: " 'growth temperature' 'optimal ph'" 
+Importing 1 physiologies for propagation: habitat. 
+
+Searching for attributes of type range. They will be converted to type multistate-intersection based on thresholds. 
+
+ 
+
+ 
+
+Preparing data for propagation... 
+
+Preparing habitat. 
+ 
+
+ 
+
+Total time preparing data for propagation was: 
+   user  system elapsed 
+  5.481   0.147   5.625 
+
+Some NCBI IDs (taxids) might need to be updated: 
+
+$habitat
+$habitat[[1]]
+[1] "342610, 338187, 62153, 52765"
+
+$habitat[[2]]
+[1] "741091, 1050843, 262776"
+
+$habitat[[3]]
+[1] "665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139"
+
+$habitat[[4]]
+[1] "1345697, 52765"
+
+$habitat[[5]]
+[1] "665938, 665937, 469587, 469586, 469596, 469595, 469594, 699245, 97139"
+
+$habitat[[6]]
+[1] "327817, 82076, 332056, 86662, 62153, 992010, 140100, 684949, 1172, 931223, 62928, 1267535, 1345697, 2274, 420233, 1206751, 477693, 68202, 690871, 68570, 228748, 495036, 52765, 52766, 196180, 93930, 65497, 675810"
+
+$habitat[[7]]
+[1] "36876, 340044, 147710, 86662, 656024, 62153, 861208, 1217695, 1217712, 1217698, 1217697, 1217710, 861530, 640511, 697871, 563191, 366648, 546899, 1050843, 796940, 796939, 665945, 665938, 665937, 195041, 469587, 469586, 469596, 469595, 469594, 1166016, 903916, 699245, 97139, 658664, 741091, 335659"
+
+$habitat[[8]]
+[1] "52765, 52766"
+
+$habitat[[9]]
+[1] "665938, 195041, 469587, 469586, 469594"
+
+$habitat[[10]]
+[1] "469587, 469586, 97139"
+
+$habitat[[11]]
+[1] "992010"
+
+$habitat[[12]]
+[1] "196180, 52765, 52766, 420233, 332056, 68570, 68202, 93930, 366648, 90270"
+
+$habitat[[13]]
+[1] "195041"
+
+$habitat[[14]]
+[1] "861208, 697871, 546899, 1166016, 335659"
+
+$habitat[[15]]
+[1] "147710, 546899"
+
+$habitat[[16]]
+[1] "546899"
+
+$habitat[[17]]
+[1] "147710, 861208, 546899, 335659"
+
+$habitat[[18]]
+[1] "68202, 68570"
+
+$habitat[[19]]
+[1] "644968"
+
+$habitat[[20]]
+[1] "86662"
+
+$habitat[[21]]
+[1] "263820"
+
+
+
+Preparing tree data (NCBI and LTP). 
+   user  system elapsed 
+ 20.528   0.244  20.759 
+
+   user  system elapsed 
+188.871   0.012 188.864 
+
+Mapping annotations for inheritabce 2 for habitat-aquatic biome. 
+   user  system elapsed 
+  2.135   0.000   2.135 
+
+Performing inheritance (2) for habitat-aquatic biome 
+habitat-aquatic biome has 251 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-aquatic biome. 
+   user  system elapsed 
+  1.557   0.078   1.633 
+
+Performing taxonomic pooling for habitat-aquatic biome. 
+   user  system elapsed 
+  8.282   0.145   8.422 
+
+Performing inheritance (1) for habitat-aquatic biome. 
+   user  system elapsed 
+ 30.999   0.342  31.336 
+
+Performing ASR for (round 2 of propagation) habitat-aquatic biome. 
+   user  system elapsed 
+226.503   0.229 226.628 
+
+Mapping annotations for inheritabce 2 for habitat-aquatic biome. 
+   user  system elapsed 
+  2.525   0.176   2.699 
+
+Performing inheritance (2) for habitat-aquatic biome 
+   user  system elapsed 
+451.026   2.209 453.191 
+
+Minimum threshold for positives in habitat-aquatic biome was 0.5. 
+
+Size of propagated data for habitat-aquatic biome is 24.4 MB. 
+
+Cleaning nodes for habitat-aquatic biome. 
+   user  system elapsed 
+  0.958   0.000   0.957 
+
+Number of rows for habitat-aquatic biome were 75,736. It took 12 mins. 
+
+ 
+
+habitat-bioremediation has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-bioremediation. 
+   user  system elapsed 
+  1.271   0.000   1.271 
+
+Performing taxonomic pooling for habitat-bioremediation. 
+   user  system elapsed 
+  3.776   0.028   3.803 
+
+Performing inheritance (1) for habitat-bioremediation. 
+   user  system elapsed 
+  1.623   0.004   1.627 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-bioremediation. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-bioremediation. 
+   user  system elapsed 
+  0.976   0.000   0.977 
+
+Number of rows for habitat-bioremediation were 66. It took 0 mins. 
+
+ 
+
+habitat-blood has 52 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-blood. 
+   user  system elapsed 
+  1.319   0.004   1.323 
+
+Performing taxonomic pooling for habitat-blood. 
+   user  system elapsed 
+  3.881   0.004   3.885 
+
+Performing inheritance (1) for habitat-blood. 
+   user  system elapsed 
+  5.377   0.040   5.417 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-blood. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-blood. 
+   user  system elapsed 
+  0.951   0.000   0.950 
+
+Number of rows for habitat-blood were 2,098. It took 0 mins. 
+
+ 
+
+habitat-cerebral spinal fluid has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-cerebral spinal fluid. 
+   user  system elapsed 
+  1.284   0.000   1.284 
+
+Performing taxonomic pooling for habitat-cerebral spinal fluid. 
+   user  system elapsed 
+  3.787   0.000   3.786 
+
+Performing inheritance (1) for habitat-cerebral spinal fluid. 
+   user  system elapsed 
+  1.937   0.004   1.941 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-cerebral spinal fluid. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-cerebral spinal fluid. 
+   user  system elapsed 
+  0.954   0.000   0.955 
+
+Number of rows for habitat-cerebral spinal fluid were 240. It took 0 mins. 
+
+ 
+
+habitat-circulatory system has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-circulatory system. 
+   user  system elapsed 
+  1.278   0.000   1.278 
+
+Performing taxonomic pooling for habitat-circulatory system. 
+   user  system elapsed 
+  3.794   0.000   3.793 
+
+Performing inheritance (1) for habitat-circulatory system. 
+   user  system elapsed 
+  2.015   0.012   2.027 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-circulatory system. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-circulatory system. 
+   user  system elapsed 
+  0.957   0.000   0.957 
+
+Number of rows for habitat-circulatory system were 296. It took 0 mins. 
+
+ 
+
+habitat-colonization of host has 952 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-colonization of host. 
+   user  system elapsed 
+  1.529   0.000   1.529 
+
+Performing taxonomic pooling for habitat-colonization of host. 
+   user  system elapsed 
+ 13.544   0.052  13.595 
+
+Performing inheritance (1) for habitat-colonization of host. 
+   user  system elapsed 
+137.193   0.764 137.943 
+
+Performing ASR for (round 2 of propagation) habitat-colonization of host. 
+   user  system elapsed 
+454.388   7.001 461.164 
+
+Minimum threshold for positives in habitat-aquatic biome was 0.5. 
+
+Size of propagated data for habitat-aquatic biome is 24.4 MB. 
+
+Cleaning nodes for habitat-aquatic biome. 
+   user  system elapsed 
+  0.991   0.168   1.158 
+
+Number of rows for habitat-aquatic biome were 75,736. It took 13 mins. 
+
+ 
+
+   user  system elapsed 
+168.527   0.024 168.537 
+
+Mapping annotations for inheritabce 2 for habitat-colonization of host. 
+   user  system elapsed 
+  3.692   0.000   3.692 
+
+Performing inheritance (2) for habitat-colonization of host 
+   user  system elapsed 
+222.983   1.220 224.182 
+
+Minimum threshold for positives in habitat-colonization of host was 0.5. 
+
+Size of propagated data for habitat-colonization of host is 24.4 MB. 
+
+Cleaning nodes for habitat-colonization of host. 
+   user  system elapsed 
+  0.919   0.000   0.918 
+
+Number of rows for habitat-colonization of host were 75,753. It took 9 mins. 
+
+ 
+
+habitat-creosote contaminated soil has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-creosote contaminated soil. 
+   user  system elapsed 
+  1.211   0.000   1.211 
+
+Performing taxonomic pooling for habitat-creosote contaminated soil. 
+   user  system elapsed 
+  3.584   0.000   3.583 
+
+Performing inheritance (1) for habitat-creosote contaminated soil. 
+   user  system elapsed 
+ 13.076   0.032  13.107 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-creosote contaminated soil. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-creosote contaminated soil. 
+   user  system elapsed 
+    0.9     0.0     0.9 
+
+Number of rows for habitat-creosote contaminated soil were 6,310. It took 0 mins. 
+
+ 
+
+habitat-creosote-contaminated soil has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-creosote-contaminated soil. 
+   user  system elapsed 
+   1.22    0.00    1.22 
+
+Performing taxonomic pooling for habitat-creosote-contaminated soil. 
+Error in UseMethod("count") : no applicable method for 'count' applied to an object of class "character" 
 Traceback: 
-No traceback available 
+1: count(x$Evidence) 
 ========================================================================= 
-Log End Time: 2023-11-07 14:51:57.009475 
-Log Elapsed Time: 0 00:00:00 
+Log End Time: 2023-11-07 16:28:40.912595 
+Log Elapsed Time: 0 00:20:44 
 ========================================================================= 
+   user  system elapsed 
+  3.591   0.004   3.595 
+
+Performing inheritance (1) for habitat-creosote-contaminated soil. 
+   user  system elapsed 
+ 12.996   0.080  13.074 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-creosote-contaminated soil. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-creosote-contaminated soil. 
+   user  system elapsed 
+  0.889   0.000   0.889 
+
+Number of rows for habitat-creosote-contaminated soil were 6,310. It took 0 mins. 
+
+ 
+
+habitat-dairy has 5 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-dairy. 
+   user  system elapsed 
+  1.222   0.000   1.221 
+
+Performing taxonomic pooling for habitat-dairy. 
+   user  system elapsed 
+  3.574   0.000   3.574 
+
+Performing inheritance (1) for habitat-dairy. 
+   user  system elapsed 
+  2.992   0.012   3.003 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-dairy. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-dairy. 
+   user  system elapsed 
+  0.892   0.000   0.892 
+
+Number of rows for habitat-dairy were 924. It took 0 mins. 
+
+ 
+
+habitat-digestive system has 207 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-digestive system. 
+   user  system elapsed 
+  2.445   0.000   2.444 
+
+Performing taxonomic pooling for habitat-digestive system. 
+   user  system elapsed 
+  4.453   0.000   4.453 
+
+Performing inheritance (1) for habitat-digestive system. 
+   user  system elapsed 
+ 33.522   0.208  33.727 
+
+Performing ASR for (round 2 of propagation) habitat-digestive system. 
+   user  system elapsed 
+166.667   0.004 166.654 
+
+Mapping annotations for inheritabce 2 for habitat-digestive system. 
+   user  system elapsed 
+  2.004   0.000   2.004 
+
+Performing inheritance (2) for habitat-digestive system 
