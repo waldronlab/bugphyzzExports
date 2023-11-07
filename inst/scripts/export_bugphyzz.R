@@ -107,7 +107,7 @@ for (i in seq_along(phys)) {
 for (i in seq_along(phys)) {
    physName <-  names(phys)[i]
    if (is.null(phys[[i]])) {
-       msg <- paste0(phyName, ' will be discarded now. Not in threholds.')
+       msg <- paste0(phyName, ' will be discarded now. Not in thresholds.')
        log_print(msg)
    }
 }
@@ -148,6 +148,17 @@ tim <- system.time({
     ## multistate-union are separated into data.frames
 })
 
+
+for (i in seq_along(phys_data_ready)) {
+   physName <-  names(phys_data_ready)[i]
+   if (is.null(phys_data_ready[[i]])) {
+       msg <- paste0(phyName, ' will be discarded now. No taxids.')
+       log_print(msg)
+   }
+}
+log_print("", blank_after = TRUE)
+phys_data_ready <- discard(phys_data_ready, is.null)
+
 phys_data_ready <- map(phys_data_ready, ~ {
     attribute_type <- .x |>
         pull(Attribute_type) |>
@@ -156,6 +167,7 @@ phys_data_ready <- map(phys_data_ready, ~ {
     if (attribute_type %in% c('binary', 'multistate-union')) {
         ## This step is used to include FALSE values,
         ## which are necessary for the ASR step below
+        ## In the case of multistate-intersection, FALSE values are inferred because they're mutally exclusive (need to elaborate more here).
         return(completeBinaryData(.x))
     }
     return(.x)
@@ -227,8 +239,8 @@ for (i in seq_along(phys_data_ready)) {
     log_print(tim, blank_after = TRUE)
 
     msg <- paste0(
-        'Performing taxonomic pooling (round 1 of propagation) for ',
-        attribute_type, '.'
+        'Performing taxonomic pooling for ',
+        attribute_group, '.'
     )
     log_print(msg)
     tim <- system.time({
@@ -245,7 +257,7 @@ for (i in seq_along(phys_data_ready)) {
     log_print(tim, blank_after = TRUE)
 
     msg <- paste0(
-        'Performing inheritance1 (round 1 of propagation) for ',
+        'Performing inheritance (1) for ',
         attribute_group, '.'
     )
     log_print(msg)
@@ -269,17 +281,18 @@ for (i in seq_along(phys_data_ready)) {
     new_taxids <- new_dat |>
         pull(taxid) |>
         {\(y) y[!is.na(y)]}()
+
     per <- mean(tip_data$taxid %in% new_taxids) * 100
     if (per < 1) {
         msg <- paste0(
-            'Not enough data for ASR. Skipping ASR for ', attribute_group,
+            'Not enough data for ASR. Skipping ASR and inhetiance (2) for ', attribute_group,
             '. Stopped after the first round of propagation.'
         )
         log_print(msg, blank_after = TRUE)
 
-        output[[i]] <- new_dat
+        output[[i]] <- new_dat ## Here, I include data after taxpool and inhertiance 1, ASR and inheritance 2 are skipped
 
-        msg <- paste0('Cleaning nodes for ', attribute_type, '.')
+        msg <- paste0('Cleaning nodes for ', attribute_group, '.')
         log_print(msg)
         tim <- system.time({
             ncbi_tree$Do(cleanNode)
@@ -415,16 +428,18 @@ for (i in seq_along(phys_data_ready)) {
                 Score > 0 & Score < 0.5 ~ 'rarely',
                 Score == 0 ~ 'never'
             )
-        )
+        ) |>
+        slect(-node_label)
 
     new_taxa_for_ncbi_tree <- nodes_annotated |>
         relocate(NCBI_ID, Rank, Attribute, Score, Evidence)
+
     new_taxa_for_ncbi_tree_list <- split(
         new_taxa_for_ncbi_tree, factor(new_taxa_for_ncbi_tree$NCBI_ID)
     )
 
     msg <- paste0(
-        'Mapping annotations for third round of propagation for ', attribute_group,
+        'Mapping annotations for inheritabce 2 for ', attribute_group,
         '.'
     )
     log_print(msg)
@@ -440,7 +455,7 @@ for (i in seq_along(phys_data_ready)) {
     log_print(tim, blank_after = TRUE)
 
     msg <- paste0(
-        'Performing inheritance (round 3 of propagation) for ', attribute_group
+        'Performing inheritance (2)  for ', attribute_group
     )
     log_print(msg)
     tim <- system.time({
