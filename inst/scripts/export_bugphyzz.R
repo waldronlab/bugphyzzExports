@@ -21,10 +21,10 @@ phys_names <- c(
     'aerophilicity',
 
     ## multistate-union
-    # 'antimicrobial resistance',
+    'habitat'
 
     ## binary
-    'acetate producing',
+    'plant pathogenicity',
 
     ## numeric/range
     'growth temperature'
@@ -262,7 +262,7 @@ for (i in seq_along(phys_data_ready)) {
         time3 <- round(difftime(time2, time1, units = 'min'))
         nrow_fr <- nrow(new_dat)
         msg <- paste0(
-            'Number of rows for ', attribute_type, ' were ' ,
+            'Number of rows for ', attribute_group, ' were ' ,
             format(nrow_fr, big.mark = ','), '.',
             ' It took ', time3[[1]], ' mins.'
         )
@@ -323,7 +323,7 @@ for (i in seq_along(phys_data_ready)) {
     input_matrix <- input_matrix[tree$tip.label,]
 
     msg <- paste0(
-        'Performing ASR for (round 2 of propagation) ', attribute_type, '.'
+        'Performing ASR for (round 2 of propagation) ', attribute_group, '.'
     )
     log_print(msg)
     tim <- system.time({
@@ -396,7 +396,7 @@ for (i in seq_along(phys_data_ready)) {
     )
 
     msg <- paste0(
-        'Mapping annotations for third round of propagation for ', attribute_type,
+        'Mapping annotations for third round of propagation for ', attribute_group,
         '.'
     )
     log_print(msg)
@@ -412,7 +412,7 @@ for (i in seq_along(phys_data_ready)) {
     log_print(tim, blank_after = TRUE)
 
     msg <- paste0(
-        'Performing inheritance (round 3 of propagation) for ', attribute_type
+        'Performing inheritance (round 3 of propagation) for ', attribute_group
     )
     log_print(msg)
     tim <- system.time({
@@ -447,7 +447,7 @@ for (i in seq_along(phys_data_ready)) {
 
     final_result_size <- lobstr::obj_size(final_result)
     msg <- paste0(
-        'Size of propagated data for ', attribute_type, ' is ',
+        'Size of propagated data for ', attribute_group, ' is ',
         gdata::humanReadable(final_result_size, standard = 'SI'), '.'
     )
     log_print(msg, blank_after = TRUE)
@@ -455,7 +455,7 @@ for (i in seq_along(phys_data_ready)) {
     output[[i]] <- final_result
 
 
-    msg <- paste0('Cleaning nodes for ', attribute_type, '.')
+    msg <- paste0('Cleaning nodes for ', attribute_group, '.')
     log_print(msg)
     tim <- system.time({
         ncbi_tree$Do(cleanNode)
@@ -466,7 +466,7 @@ for (i in seq_along(phys_data_ready)) {
     time3 <- round(difftime(time2, time1, units = 'min'))
     nrow_fr <- nrow(final_result)
     msg <- paste0(
-        'Number of rows for ', attribute_type, ' were ' ,
+        'Number of rows for ', attribute_group, ' were ' ,
         format(nrow_fr, big.mark = ','), '.',
         ' It took ', time3[[1]], ' mins.'
     )
@@ -502,7 +502,8 @@ write.table(
 
 fsize <- gdata::humanReadable(file.size(final_obj_fname), standard = "SI")
 msg <- paste0(
-    'The size of the tsv file is ', fsize, '.'
+    'The size of the tsv file is ', fsize, '. Output file name is ',
+    final_obj_fname, '.'
 )
 log_print(msg, blank_after = TRUE)
 
