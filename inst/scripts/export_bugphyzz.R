@@ -311,7 +311,7 @@ for (i in seq_along(phys_data_ready)) {
         time3 <- round(difftime(time2, time1, units = 'min'))
         nrow_fr <- nrow(new_dat)
         msg <- paste0(
-            'Number of rows for ', AttrGroupMsg, ' were ' ,
+            'Number of rows for ', attrGroupMsg, ' were ' ,
             format(nrow_fr, big.mark = ','), '.',
             ' It took ', time3[[1]], ' mins.'
         )
