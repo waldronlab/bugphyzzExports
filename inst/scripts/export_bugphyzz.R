@@ -19,15 +19,43 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 phys_names <- c(
     ## multistate-intersection
     'aerophilicity',
+    'gram stain',
+    'biodsafety level',
+    'COGEM pathogenicity rating',
+    'shape',
+    'spore shape',
+    'arrangement',
 
     ## multistate-union
     'habitat',
+    'isolation site',
+    'disease association',
+    'antimicrobial resistance',
+    'antimicrobial sensitivity',
+    # 'growth medium',
 
     ## binary
     'plant pathogenicity',
+    'acetate producing',
+    'sphingolipid producing',
+    'lactate producing',
+    'butyrate producing',
+    'hydrogen gas producing',
+    'human pathogen',
+    'motility',
+    'biofilm forming',
+    'extreme environment',
+    'animal pathongen',
 
     ## numeric/range
-    'growth temperature'
+    'growth temperature',
+    'optimal ph',
+    'width',
+    'length',
+    'genome size',
+    'coding genes',
+    'mutation rate per site per generation',
+    'mutation rate per ste per year'
 )
 
 msg <- paste0(
@@ -510,4 +538,3 @@ log_print(msg, blank_after = TRUE)
 si <- sessioninfo::session_info()
 log_print(si, blank_after = TRUE)
 log_close()
-
