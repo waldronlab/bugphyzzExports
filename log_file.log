@@ -1,0 +1,781 @@
+========================================================================= 
+Log Path: log_file.log 
+Working Directory: /home/user/Projects/CUNY/bugphyzzExports 
+User Name: user 
+R Version: 4.3.1 (2023-06-16) 
+Machine: pop-os x86_64 
+Operating System: Linux 6.5.6-76060506-generic #202310061235~1697396945~22.04~9283e32 SMP PREEMPT_DYNAMIC Sun O 
+Base Packages: stats graphics grDevices utils datasets methods base Other Packages: bugphyzzExports_0.0.0.9004 ggplot2_3.4.4 tidyr_1.3.0 purrr_1.0.2 dplyr_1.1.3 phytools_1.9-16 maps_3.4.1 ape_5.7-1 data.tree_1.0.0 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.4 
+Log Start Time: 2023-11-07 12:45:59.52727 
+========================================================================= 
+Importing 4 physiologies for propagation: aerophilicity, habitat, plant pathogenicity, growth temperature. 
+
+Searching for attributes of type range. They will be converted to type multistate-intersection based on thresholds. 
+
+growth temperature is of type range and we have a threshold for it. Converting growth temperature to multistate-intersection. 
+ 
+
+ 
+
+Preparing data for propagation... 
+
+Preparing aerophilicity. 
+Preparing growth temperature. 
+Preparing habitat. 
+Preparing plant pathogenicity. 
+ 
+
+ 
+
+Total time preparing data for propagation was: 
+   user  system elapsed 
+ 18.462   0.076  18.535 
+
+Some NCBI IDs (taxids) might need to be updated: 
+
+$aerophilicity
+$aerophilicity[[1]]
+[1] "65497, 287094, 196083, 136160, 513651, 1606016, 1646339, 126790, 1830421, 165807, 134962, 48937, 263820, 1311788, 342610, 166934, 1398496, 307251, 262776, 45461, 211759, 244407, 332057, 332056, 46170, 46170, 68202, 84593, 62153, 109214, 1398560, 355929, 1551, 1560, 86662, 495036, 1345697, 1166016, 741091, 195041, 140100, 62153, 675810, 65497, 861208, 340044, 335659, 546899, 656024, 440512, 147710, 931223, 420233, 332056, 68570, 68202, 563191, 665937, 469586, 469587, 665938, 469594, 52765, 52766, 699245, 97139, 327817, 644968, 228748, 477693, 652712, 796939, 796940, 36876, 93930, 220622, 1796653"
+
+$aerophilicity[[2]]
+[1] "2751472, 2679994, 1704088, 648567"
+
+
+$`growth temperature`
+$`growth temperature`[[1]]
+[1] "2832, 265526, 67004, 338187, 5749, 2832, 48937, 220622, 29398, 2832, 68570, 1172, 1172, 262776, 1172, 35624, 330, 330, 330, 330, 330, 1050843, 1121384, 2970916, 1796653, 263820, 52766, 52765, 93930"
+
+$`growth temperature`[[2]]
+[1] "2751472, 1704088, 2850388, 2679994, 879618, 1441714, 1544738, 648567, 68570, 67334, 285567, 1176194, 1919277, 196180"
+
+
+$habitat
+$habitat[[1]]
+[1] "342610, 338187, 62153, 52765"
+
+$habitat[[2]]
+[1] "741091, 1050843, 262776"
+
+$habitat[[3]]
+[1] "665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139"
+
+$habitat[[4]]
+[1] "1345697, 52765"
+
+$habitat[[5]]
+[1] "665938, 665937, 469587, 469586, 469596, 469595, 469594, 699245, 97139"
+
+$habitat[[6]]
+[1] "327817, 82076, 332056, 86662, 62153, 992010, 140100, 684949, 1172, 931223, 62928, 1267535, 1345697, 2274, 420233, 1206751, 477693, 68202, 690871, 68570, 228748, 495036, 52765, 52766, 196180, 93930, 65497, 675810"
+
+$habitat[[7]]
+[1] "36876, 340044, 147710, 86662, 656024, 62153, 861208, 1217695, 1217712, 1217698, 1217697, 1217710, 861530, 640511, 697871, 563191, 366648, 546899, 1050843, 796940, 796939, 665945, 665938, 665937, 195041, 469587, 469586, 469596, 469595, 469594, 1166016, 903916, 699245, 97139, 658664, 741091, 335659"
+
+$habitat[[8]]
+[1] "52765, 52766"
+
+$habitat[[9]]
+[1] "665938, 195041, 469587, 469586, 469594"
+
+$habitat[[10]]
+[1] "469587, 469586, 97139"
+
+$habitat[[11]]
+[1] "992010"
+
+$habitat[[12]]
+[1] "196180, 52765, 52766, 420233, 332056, 68570, 68202, 93930, 366648, 90270"
+
+$habitat[[13]]
+[1] "195041"
+
+$habitat[[14]]
+[1] "861208, 697871, 546899, 1166016, 335659"
+
+$habitat[[15]]
+[1] "147710, 546899"
+
+$habitat[[16]]
+[1] "546899"
+
+$habitat[[17]]
+[1] "147710, 861208, 546899, 335659"
+
+$habitat[[18]]
+[1] "68202, 68570"
+
+$habitat[[19]]
+[1] "644968"
+
+$habitat[[20]]
+[1] "86662"
+
+$habitat[[21]]
+[1] "263820"
+
+
+$`plant pathogenicity`
+$`plant pathogenicity`[[1]]
+[1] "420233, 68202, 68570, 1050843, 262776, 93930, 90270, 366648"
+
+
+
+Preparing tree data (NCBI and LTP). 
+   user  system elapsed 
+ 19.436   0.128  19.561 
+
+Performing propagation. It started at 2023-11-07 12:46:58.532184. 
+
+aerophilicity has 15,874 taxa. 
+
+Mapping source annotations to the NCBI tree for aerophilicity. 
+   user  system elapsed 
+  5.377   0.028   5.405 
+
+Performing taxonomic pooling for aerophilicity. 
+   user  system elapsed 
+ 75.787   0.357  76.135 
+
+Performing inheritance (1) for aerophilicity. 
+   user  system elapsed 
+157.040   0.955 157.979 
+
+Performing ASR for (round 2 of propagation) aerophilicity. 
+   user  system elapsed 
+126.480   0.016 126.481 
+
+Mapping annotations for inheritabce 2 for aerophilicity. 
+   user  system elapsed 
+  2.769   0.000   2.768 
+
+Performing inheritance (2) for aerophilicity 
+   user  system elapsed 
+ 87.453   0.384  87.828 
+
+Minimum threshold for positives in aerophilicity was 0.25. 
+
+Size of propagated data for aerophilicity is 25.2 MB. 
+
+Cleaning nodes for aerophilicity. 
+   user  system elapsed 
+  0.908   0.000   0.907 
+
+Number of rows for aerophilicity were 88,372. It took 8 mins. 
+
+ 
+
+growth temperature has 20,767 taxa. 
+
+Mapping source annotations to the NCBI tree for growth temperature. 
+   user  system elapsed 
+  6.789   1.336   8.124 
+
+Performing taxonomic pooling for growth temperature. 
+   user  system elapsed 
+ 91.488   0.444  91.922 
+
+Performing inheritance (1) for growth temperature. 
+   user  system elapsed 
+154.840   0.908 155.734 
+
+Performing ASR for (round 2 of propagation) growth temperature. 
+   user  system elapsed 
+123.456   0.012 123.457 
+
+Mapping annotations for inheritabce 2 for growth temperature. 
+   user  system elapsed 
+  2.813   0.004   2.816 
+
+Performing inheritance (2) for growth temperature 
+   user  system elapsed 
+ 54.408   0.248  54.652 
+
+Minimum threshold for positives in growth temperature was 0.25. 
+
+Size of propagated data for growth temperature is 24.7 MB. 
+
+Cleaning nodes for growth temperature. 
+   user  system elapsed 
+  0.930   0.000   0.929 
+
+Number of rows for growth temperature were 82,696. It took 8 mins. 
+
+ 
+
+habitat has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.228   0.000   1.228 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.584   0.000   3.584 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  1.442   0.004   1.446 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.893   0.000   0.893 
+
+Number of rows for habitat were 34. It took 0 mins. 
+
+ 
+
+habitat has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.221   0.000   1.221 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.539   0.000   3.538 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  1.884   0.000   1.884 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.892   0.000   0.892 
+
+Number of rows for habitat were 282. It took 0 mins. 
+
+ 
+
+habitat has 251 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.293   0.000   1.293 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  7.364   0.004   7.368 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+ 28.714   0.120  28.831 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+147.342   0.008 147.337 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  1.992   0.000   1.991 
+
+Performing inheritance (2) for habitat 
+   user  system elapsed 
+408.714   1.917 410.589 
+
+Minimum threshold for positives in habitat was 0.5. 
+
+Size of propagated data for habitat is 24.4 MB. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.905   0.000   0.904 
+
+Number of rows for habitat were 75,736. It took 10 mins. 
+
+ 
+
+habitat has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.225   0.000   1.225 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.545   0.000   3.544 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  1.513   0.000   1.513 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+   0.89    0.00    0.89 
+
+Number of rows for habitat were 66. It took 0 mins. 
+
+ 
+
+habitat has 52 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.234   0.000   1.233 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  4.813   0.000   4.813 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  4.897   0.028   4.924 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.887   0.000   0.886 
+
+Number of rows for habitat were 2,098. It took 0 mins. 
+
+ 
+
+habitat has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+   1.22    0.00    1.22 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.536   0.000   3.535 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  1.802   0.004   1.806 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.887   0.000   0.887 
+
+Number of rows for habitat were 240. It took 0 mins. 
+
+ 
+
+habitat has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.228   0.000   1.229 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.541   0.000   3.541 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  1.907   0.008   1.915 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.908   0.000   0.908 
+
+Number of rows for habitat were 296. It took 0 mins. 
+
+ 
+
+habitat has 952 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.411   0.000   1.410 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+ 11.723   0.032  11.753 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+132.119   0.756 132.863 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+155.565   0.013 160.795 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  2.376   0.000   2.376 
+
+Performing inheritance (2) for habitat 
+   user  system elapsed 
+224.928   0.892 225.813 
+
+Minimum threshold for positives in habitat was 0.5. 
+
+Size of propagated data for habitat is 24.4 MB. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.905   0.000   0.905 
+
+Number of rows for habitat were 75,753. It took 9 mins. 
+
+ 
+
+habitat has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.226   0.000   1.226 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.576   0.000   3.576 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+ 12.619   0.060  12.678 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.891   0.000   0.890 
+
+Number of rows for habitat were 6,310. It took 0 mins. 
+
+ 
+
+habitat has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.214   0.000   1.214 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.554   0.000   3.554 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+ 12.631   0.056  12.685 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+   0.89    0.00    0.89 
+
+Number of rows for habitat were 6,310. It took 0 mins. 
+
+ 
+
+habitat has 5 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.228   0.000   1.228 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.617   0.000   3.618 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  3.033   0.008   3.041 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.896   0.000   0.896 
+
+Number of rows for habitat were 924. It took 0 mins. 
+
+ 
+
+habitat has 207 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.266   0.000   1.266 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  4.360   0.008   4.367 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+ 33.692   0.172  33.862 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+157.173   0.008 157.166 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  2.033   0.000   2.032 
+
+Performing inheritance (2) for habitat 
+   user  system elapsed 
+402.597   2.044 404.605 
+
+Minimum threshold for positives in habitat was 0.5. 
+
+Size of propagated data for habitat is 24.4 MB. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+    0.9     0.0     0.9 
+
+Number of rows for habitat were 75,752. It took 10 mins. 
+
+ 
+
+habitat has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.217   0.000   1.216 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.547   0.000   3.547 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  1.574   0.000   1.573 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.886   0.000   0.886 
+
+Number of rows for habitat were 98. It took 0 mins. 
+
+ 
+
+habitat has 90 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.232   0.000   1.232 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  4.240   0.004   4.244 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  4.728   0.020   4.748 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+146.261   0.008 146.255 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  3.048   0.004   3.051 
+
+Performing inheritance (2) for habitat 
+   user  system elapsed 
+451.797   2.004 453.759 
+
+Minimum threshold for positives in habitat was 0.5. 
+
+Size of propagated data for habitat is 24.4 MB. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.902   0.000   0.903 
+
+Number of rows for habitat were 75,732. It took 10 mins. 
+
+ 
+
+habitat has 296 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.292   0.000   1.291 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  4.850   0.000   4.849 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+ 55.155   0.264  55.414 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+144.043   0.020 144.049 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  2.102   0.000   2.102 
+
+Performing inheritance (2) for habitat 
+   user  system elapsed 
+362.149   1.684 368.870 
+
+Minimum threshold for positives in habitat was 0.5. 
+
+Size of propagated data for habitat is 24.4 MB. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.906   0.000   0.906 
+
+Number of rows for habitat were 75,760. It took 10 mins. 
+
+ 
+
+habitat has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.222   0.000   1.222 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  4.738   0.000   4.738 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+ 14.004   0.060  14.062 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+107.646   0.008 107.645 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  1.931   0.000   1.930 
+
+Performing inheritance (2) for habitat 
+   user  system elapsed 
+440.341   2.300 442.601 
+
+Minimum threshold for positives in habitat was 0.5. 
+
+Size of propagated data for habitat is 24.4 MB. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.902   0.012   0.914 
+
+Number of rows for habitat were 75,731. It took 10 mins. 
+
+ 
+
+habitat has 21 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.228   0.000   1.227 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.615   0.000   3.615 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  3.551   0.008   3.560 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.913   0.000   0.913 
+
+Number of rows for habitat were 1,270. It took 0 mins. 
+
+ 
+
+habitat has 6 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.222   0.000   1.221 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  3.624   0.000   3.623 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  2.069   0.004   2.072 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.886   0.000   0.885 
+
+Number of rows for habitat were 408. It took 0 mins. 
+
+ 
+
+habitat has 1,252 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.483   0.000   1.483 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+ 12.366   0.032  12.397 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+ 80.556   0.440  80.989 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+161.622   0.000 161.607 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  2.204   0.000   2.205 
+
+Performing inheritance (2) for habitat 
+   user  system elapsed 
+314.923   1.632 316.526 
+
+Minimum threshold for positives in habitat was 0.5. 
+
+Size of propagated data for habitat is 24.4 MB. 
+
+Cleaning nodes for habitat. 
+   user  system elapsed 
+  0.905   0.000   0.905 
+
+Number of rows for habitat were 75,775. It took 10 mins. 
+
+ 
+
+habitat has 55 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat. 
+   user  system elapsed 
+  1.235   0.000   1.235 
+
+Performing taxonomic pooling for habitat. 
+   user  system elapsed 
+  4.564   0.000   4.564 
+
+Performing inheritance (1) for habitat. 
+   user  system elapsed 
+  7.448   0.048   7.495 
+
+Performing ASR for (round 2 of propagation) habitat. 
+   user  system elapsed 
+155.406   0.008 155.401 
+
+Mapping annotations for inheritabce 2 for habitat. 
+   user  system elapsed 
+  1.887   0.000   1.888 
+
+Performing inheritance (2) for habitat 
