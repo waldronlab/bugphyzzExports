@@ -18,45 +18,45 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 phys_names <- c(
     ## multistate-intersection
-     # 'aerophilicity',
-     # 'gram stain',
-     # 'biosafety level',
-     # 'COGEM pathogenicity rating',
-     # 'shape',
-     # 'spore shape',
-     # 'arrangement',
+      'aerophilicity',
+      'gram stain',
+      'biosafety level',
+      'COGEM pathogenicity rating',
+      'shape',
+      'spore shape',
+      'arrangement',
 
     ## multistate-union
      'habitat'
 #    'isolation site',
 #    'disease association',
-     # 'antimicrobial resistance',
+      'antimicrobial resistance',
 
     # 'growth medium',
 
     ## binary
-     # 'plant pathogenicity',
-     # 'acetate producing',
-     # 'sphingolipid producing',
-     # 'lactate producing',
-     # 'butyrate producing',
-     # 'hydrogen gas producing',
-     # 'pathogenicity human',
-     # 'motility',
-     # 'biofilm forming',
-     # 'extreme environment',
-     # 'animal pathogen',
-     # 'antimicrobial sensitivity',
+      'plant pathogenicity',
+      'acetate producing',
+      'sphingolipid producing',
+      'lactate producing',
+      'butyrate producing',
+      'hydrogen gas producing',
+      'pathogenicity human',
+      'motility',
+      'biofilm forming',
+      'extreme environment',
+      'animal pathogen',
+      'antimicrobial sensitivity',
 
     ## numeric/range
-     # 'growth temperature',
-     # 'optimal ph',
-     # 'width',
-     # 'length',
-     # 'genome size',
-     # 'coding genes',
-     # 'mutation rate per site per generation',
-     # 'mutation rate per site per year'
+      'growth temperature',
+      'optimal ph',
+      'width',
+      'length',
+      'genome size',
+      'coding genes',
+      'mutation rate per site per generation',
+      'mutation rate per site per year'
 )
 
 msg <- paste0(
@@ -291,7 +291,7 @@ for (i in seq_along(phys_data_ready)) {
         {\(y) y[!is.na(y)]}()
 
     per <- mean(tip_data$taxid %in% new_taxids) * 100
-    if (per < 1) {
+    if (per < 10) {
         msg <- paste0(
             'Not enough data for ASR. Skipping ASR and inhetiance (2) for ', attrGroupMsg,
             '. Stopped after the first round of propagation.'
