@@ -1,41 +1,143 @@
 ========================================================================= 
 Log Path: log_file.log 
-Program Path: /home/user/Projects/CUNY/bugphyzzExports/inst/scripts/export_bugphyzz.R 
-Working Directory: /home/user/Projects/CUNY/bugphyzzExports 
-User Name: user 
-R Version: 4.3.1 (2023-06-16) 
-Machine: pop-os x86_64 
-Operating System: Linux 6.5.6-76060506-generic #202310061235~1697396945~22.04~9283e32 SMP PREEMPT_DYNAMIC Sun O 
-Base Packages: stats graphics grDevices utils datasets methods base Other Packages: bugphyzzExports_0.0.0.9004 ggplot2_3.4.4 tidyr_1.3.0 purrr_1.0.2 dplyr_1.1.3 phytools_1.9-16 maps_3.4.1 ape_5.7-1 data.tree_1.0.0 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.4 
-Log Start Time: 2023-11-07 16:07:56.651765 
+Working Directory: /mnt/STORE1/bighome/samuelgamboa/Projects/bugphyzzExports 
+User Name: samuelgamboa 
+R Version: 4.3.2 (2023-10-31) 
+Machine: supermicro x86_64 
+Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
+Base Packages: stats graphics grDevices utils datasets methods base Other Packages: bugphyzzExports_0.0.0.9000 ggplot2_3.4.4 tidyr_1.3.0 purrr_1.0.2 dplyr_1.1.3 phytools_1.9-16 maps_3.4.1.1 ape_5.7-1 data.tree_1.0.0 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.4 
+Log Start Time: 2023-11-08 12:57:29.745275 
 ========================================================================= 
-Importing 1 physiologies for propagation: habitat. 
+Importing 29 physiologies for propagation: aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, habitat, antimicrobial resistance, plant pathogenicity, acetate producing, sphingolipid producing, lactate producing, butyrate producing, hydrogen gas producing, pathogenicity human, motility, biofilm forming, extreme environment, animal pathogen, antimicrobial sensitivity, growth temperature, optimal ph, width, length, genome size, coding genes, mutation rate per site per generation, mutation rate per site per year. 
 
 Searching for attributes of type range. They will be converted to type multistate-intersection based on thresholds. 
 
+coding genes is of type range and we have a threshold for it. Converting coding genes to multistate-intersection. 
+genome size is of type range and we have a threshold for it. Converting genome size to multistate-intersection. 
+growth temperature is of type range and we have a threshold for it. Converting growth temperature to multistate-intersection. 
+length is of type range and we have a threshold for it. Converting length to multistate-intersection. 
+mutation rate per site per generation is of type range and we have a threshold for it. Converting mutation rate per site per generation to multistate-intersection. 
+mutation rate per site per year is of type range and we have a threshold for it. Converting mutation rate per site per year to multistate-intersection. 
+optimal ph is of type range and we have a threshold for it. Converting optimal ph to multistate-intersection. 
+width is of type range and we have a threshold for it. Converting width to multistate-intersection. 
  
 
  
 
 Preparing data for propagation... 
 
+Preparing acetate producing. 
+Preparing aerophilicity. 
+Preparing animal pathogen. 
+Preparing antimicrobial resistance. 
+Preparing antimicrobial sensitivity. 
+Preparing arrangement. 
+Preparing biofilm forming. 
+Preparing biosafety level. 
+Preparing butyrate producing. 
+Preparing coding genes. 
+Preparing COGEM pathogenicity rating. 
+Preparing extreme environment. 
+Preparing genome size. 
+Preparing gram stain. 
+Preparing growth temperature. 
 Preparing habitat. 
+Preparing hydrogen gas producing. 
+Preparing lactate producing. 
+Preparing length. 
+Preparing motility. 
+Preparing mutation rate per site per generation. 
+Preparing mutation rate per site per year. 
+Preparing optimal ph. 
+Preparing pathogenicity human. 
+Preparing plant pathogenicity. 
+Preparing shape. 
+Preparing sphingolipid producing. 
+Preparing spore shape. 
+Preparing width. 
  
 
  
 
 Total time preparing data for propagation was: 
    user  system elapsed 
-  5.481   0.147   5.625 
+ 63.508   0.623  64.124 
 
 Some NCBI IDs (taxids) might need to be updated: 
+
+$aerophilicity
+$aerophilicity[[1]]
+[1] "65497, 287094, 196083, 136160, 513651, 1606016, 1646339, 126790, 1830421, 1400058, 165807, 134962, 48937, 263820, 1311788, 342610, 166934, 1398496, 307251, 262776, 45461, 211759, 244407, 332057, 332056, 46170, 46170, 68202, 84593, 62153, 109214, 1398560, 355929, 1551, 1560, 86662, 168810, 495036, 1345697, 1166016, 741091, 195041, 140100, 62153, 675810, 65497, 861208, 340044, 335659, 546899, 656024, 440512, 147710, 931223, 420233, 332056, 68570, 68202, 563191, 665937, 469586, 469587, 665938, 469594, 52765, 52766, 699245, 97139, 327817, 644968, 228748, 477693, 652712, 796939, 796940, 36876, 93930, 220622, 1796653"
+
+$aerophilicity[[2]]
+[1] "2751472, 2679994, 1704088, 648567"
+
+
+$`animal pathogen`
+$`animal pathogen`[[1]]
+[1] "68570, 93930, 168810"
+
+
+$`antimicrobial sensitivity`
+$`antimicrobial sensitivity`[[1]]
+[1] "68202, 68570"
+
+
+$arrangement
+$arrangement[[1]]
+[1] "86662, 195041, 861530, 656024, 1172, 931223, 68202, 327817, 652712, 195041, 469595, 1166016, 52765, 52766, 684949"
+
+
+$`biosafety level`
+$`biosafety level`[[1]]
+[1] "1121384, 263820"
+
+$`biosafety level`[[2]]
+[1] "771855, 196180, 879618, 1441714, 1544738, 648567, 68570, 66898, 67334, 285567"
+
+
+$`coding genes`
+$`coding genes`[[1]]
+[1] "1476577, 471821, 263820, 1849491, 1156433, 657310, 671223, 319236, 1104325, 1834200, 1226298, 1182571, 1986224, 319938, 1546149, 1662456, 1902251, 1662457, 1606016, 595593, 287094, 62928, 1662458, 656024, 1126211, 342610, 1418110, 90270, 697046, 1166016, 1870930, 1570328, 1653479, 741091, 62153, 861208, 338187, 86662, 338187, 1740162, 134962, 595500, 640511, 335659, 1418105, 68570"
+
+
+$`COGEM pathogenicity rating`
+$`COGEM pathogenicity rating`[[1]]
+[1] "68202, 68570"
+
+
+$`extreme environment`
+$`extreme environment`[[1]]
+[1] "196180, 52765, 52766, 168810, 68570, 68202, 93930"
+
+
+$`genome size`
+$`genome size`[[1]]
+[1] "1476577, 471821, 263820, 1849491, 1156433, 671223, 319236, 1104325, 1986224, 1226298, 657310, 1834200, 1182571, 1902251, 1662456, 1546149, 1606016, 1126211, 319938, 62928, 595593, 1662457, 287094, 1662458, 697046, 1418110, 1166016, 342610, 1870930, 1653479, 656024, 1570328, 861208, 86662, 741091, 90270, 62153, 338187, 335659, 1740162, 134962, 1418105, 640511, 595500, 68570"
+
+
+$`gram stain`
+$`gram stain`[[1]]
+[1] "1830421, 1763447, 1400058, 1398560, 1331730, 355929, 84593, 741091, 342610, 338187, 420233, 366648, 332056, 262776, 196180, 168810, 93930, 90270, 68570, 68202, 52766, 52765, 327817, 86662, 656024, 168810, 861208, 861530, 931223, 1345697, 1050843, 796940, 665945, 665937, 195041, 469594, 68202, 690871, 68570, 495036, 52765, 196180, 65497"
+
+$`gram stain`[[2]]
+[1] "2751472, 2679994, 1704088, 648567"
+
+
+$`growth temperature`
+$`growth temperature`[[1]]
+[1] "2832, 35130, 265526, 67004, 338187, 5749, 2832, 48937, 220622, 29398, 2832, 68570, 1172, 1172, 262776, 1172, 35624, 330, 330, 330, 330, 330, 1050843, 1121384, 2970916, 1796653, 263820, 52766, 52765, 93930"
+
+$`growth temperature`[[2]]
+[1] "2751472, 1704088, 2850388, 2679994, 879618, 1441714, 1544738, 648567, 68570, 66898, 67334, 285567, 1176194, 1919277, 196180"
+
 
 $habitat
 $habitat[[1]]
 [1] "342610, 338187, 62153, 52765"
 
 $habitat[[2]]
-[1] "741091, 1050843, 262776"
+[1] "741091, 168810, 1050843, 262776"
 
 $habitat[[3]]
 [1] "665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139"
@@ -95,54 +197,1917 @@ $habitat[[21]]
 [1] "263820"
 
 
+$length
+$length[[1]]
+[1] "376164, 40136"
+
+
+$motility
+$motility[[1]]
+[1] "2751472, 2679994, 1704088"
+
+
+$`optimal ph`
+$`optimal ph`[[1]]
+[1] "262776, 52766, 52765, 332056, 420233"
+
+
+$`plant pathogenicity`
+$`plant pathogenicity`[[1]]
+[1] "420233, 68202, 68570, 1050843, 262776, 168810, 93930, 90270, 366648"
+
+
+$shape
+$shape[[1]]
+[1] "342610, 741091, 263820, 1331737, 355929, 376164, 1331730, 1763447, 1830421, 40136, 1400058, 1830421, 1763447, 1830421, 1763447, 1830421, 340044, 327817, 147710, 332056, 330, 520709, 86662, 62153, 992010, 140100, 168810, 861208, 1217695, 1217693, 1217712, 1217698, 1217696, 1217697, 1217702, 1217700, 1217706, 1217710, 1217709, 62928, 640511, 697871, 644968, 911239, 546899, 1345697, 440512, 981223, 665938, 420233, 469587, 469586, 469595, 469594, 690871, 1166016, 903916, 998429, 658664, 495036, 52765, 52766, 196180, 741091, 93930, 335659, 675810, 861530, 195041, 477693, 228748, 1172, 861530, 68202, 68570"
+
+
+$`spore shape`
+$`spore shape`[[1]]
+[1] "541003"
+
+
+$width
+$width[[1]]
+[1] "84593, 166974, 40136, 376164"
+
+
 
 Preparing tree data (NCBI and LTP). 
    user  system elapsed 
- 20.528   0.244  20.759 
+ 32.842   0.352  33.191 
 
+Performing propagation. It started at 2023-11-08 13:00:35.650627. 
+
+acetate producing has 24 taxa. 
+
+Mapping source annotations to the NCBI tree for acetate producing. 
    user  system elapsed 
-188.871   0.012 188.864 
+  1.827   0.032   1.859 
 
-Mapping annotations for inheritabce 2 for habitat-aquatic biome. 
+Performing taxonomic pooling for acetate producing. 
    user  system elapsed 
-  2.135   0.000   2.135 
+  6.628   0.004   6.631 
 
-Performing inheritance (2) for habitat-aquatic biome 
+Performing inheritance (1) for acetate producing. 
+   user  system elapsed 
+  3.072   0.032   3.104 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for acetate producing. Stopped after the first round of propagation. 
+
+Cleaning nodes for acetate producing. 
+   user  system elapsed 
+  1.694   0.020   1.713 
+
+Number of rows for acetate producing were 150. It took 0 mins. 
+
+ 
+
+aerophilicity has 15,872 taxa. 
+
+Mapping source annotations to the NCBI tree for aerophilicity. 
+   user  system elapsed 
+ 11.144   0.068  11.212 
+
+Performing taxonomic pooling for aerophilicity. 
+   user  system elapsed 
+106.536   0.432 106.960 
+
+Performing inheritance (1) for aerophilicity. 
+   user  system elapsed 
+217.921   0.824 218.728 
+
+Performing ASR for (round 2 of propagation) aerophilicity. 
+   user  system elapsed 
+222.148   0.815 222.943 
+
+Mapping annotations for inheritabce 2 for aerophilicity. 
+   user  system elapsed 
+  4.260   0.044   4.304 
+
+Performing inheritance (2) for aerophilicity 
+   user  system elapsed 
+123.879   0.408 124.277 
+
+Minimum threshold for positives in aerophilicity was 0.25. 
+
+Size of propagated data for aerophilicity is 25.2 MB. 
+
+Cleaning nodes for aerophilicity. 
+   user  system elapsed 
+  1.401   0.004   1.406 
+
+Number of rows for aerophilicity were 88,370. It took 12 mins. 
+
+ 
+
+animal pathogen has 2,071 taxa. 
+
+Mapping source annotations to the NCBI tree for animal pathogen. 
+   user  system elapsed 
+   2.48    0.00    2.48 
+
+Performing taxonomic pooling for animal pathogen. 
+   user  system elapsed 
+ 23.456   0.036  23.490 
+
+Performing inheritance (1) for animal pathogen. 
+   user  system elapsed 
+229.853   0.916 230.752 
+
+Performing ASR for (round 2 of propagation) animal pathogen. 
+   user  system elapsed 
+224.187   0.984 225.149 
+
+Mapping annotations for inheritabce 2 for animal pathogen. 
+   user  system elapsed 
+  3.851   0.004   3.854 
+
+Performing inheritance (2) for animal pathogen 
+   user  system elapsed 
+228.011   0.728 228.720 
+
+Minimum threshold for positives in animal pathogen was 0.5. 
+
+Size of propagated data for animal pathogen is 23.5 MB. 
+
+Cleaning nodes for animal pathogen. 
+   user  system elapsed 
+  1.388   0.044   1.432 
+
+Number of rows for animal pathogen were 74,747. It took 12 mins. 
+
+ 
+
+antimicrobial resistance-carbapenem-resistant Acinetobacter has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-carbapenem-resistant Acinetobacter. 
+   user  system elapsed 
+  1.792   0.000   1.791 
+
+Performing taxonomic pooling for antimicrobial resistance-carbapenem-resistant Acinetobacter. 
+   user  system elapsed 
+  6.258   0.012   6.270 
+
+Performing inheritance (1) for antimicrobial resistance-carbapenem-resistant Acinetobacter. 
+   user  system elapsed 
+  8.347   0.000   8.346 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-carbapenem-resistant Acinetobacter. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-carbapenem-resistant Acinetobacter. 
+   user  system elapsed 
+  1.372   0.000   1.371 
+
+Number of rows for antimicrobial resistance-carbapenem-resistant Acinetobacter were 2,492. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-not resistant to beta-lactam has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-not resistant to beta-lactam. 
+   user  system elapsed 
+  3.354   0.000   3.353 
+
+Performing taxonomic pooling for antimicrobial resistance-not resistant to beta-lactam. 
+   user  system elapsed 
+  6.261   0.024   6.283 
+
+Performing inheritance (1) for antimicrobial resistance-not resistant to beta-lactam. 
+   user  system elapsed 
+ 13.440   0.060  13.498 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-not resistant to beta-lactam. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-not resistant to beta-lactam. 
+   user  system elapsed 
+  1.367   0.000   1.367 
+
+Number of rows for antimicrobial resistance-not resistant to beta-lactam were 4,538. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to amikacin has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to amikacin. 
+   user  system elapsed 
+  1.797   0.000   1.796 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to amikacin. 
+   user  system elapsed 
+  6.290   0.036   6.326 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to amikacin. 
+   user  system elapsed 
+ 20.248   0.032  20.278 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to amikacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to amikacin. 
+   user  system elapsed 
+  1.364   0.000   1.364 
+
+Number of rows for antimicrobial resistance-resistance to amikacin were 7,274. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to aztreonam has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to aztreonam. 
+   user  system elapsed 
+  1.795   0.000   1.796 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to aztreonam. 
+   user  system elapsed 
+  6.233   0.004   6.237 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to aztreonam. 
+   user  system elapsed 
+  4.483   0.000   4.482 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to aztreonam. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to aztreonam. 
+   user  system elapsed 
+  1.364   0.000   1.364 
+
+Number of rows for antimicrobial resistance-resistance to aztreonam were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to capreomycin has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to capreomycin. 
+   user  system elapsed 
+  1.814   0.028   1.841 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to capreomycin. 
+   user  system elapsed 
+  6.251   0.000   6.250 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to capreomycin. 
+   user  system elapsed 
+ 17.860   0.016  17.874 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to capreomycin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to capreomycin. 
+   user  system elapsed 
+  1.367   0.000   1.366 
+
+Number of rows for antimicrobial resistance-resistance to capreomycin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to cefepime has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to cefepime. 
+   user  system elapsed 
+  1.797   0.000   1.797 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to cefepime. 
+   user  system elapsed 
+  6.238   0.004   6.242 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to cefepime. 
+   user  system elapsed 
+  4.488   0.000   4.487 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to cefepime. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to cefepime. 
+   user  system elapsed 
+  1.365   0.000   1.365 
+
+Number of rows for antimicrobial resistance-resistance to cefepime were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to cefoxitin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to cefoxitin. 
+   user  system elapsed 
+  1.802   0.036   1.837 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to cefoxitin. 
+   user  system elapsed 
+  6.252   0.008   6.260 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to cefoxitin. 
+   user  system elapsed 
+  4.476   0.028   4.504 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to cefoxitin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to cefoxitin. 
+   user  system elapsed 
+  1.364   0.000   1.363 
+
+Number of rows for antimicrobial resistance-resistance to cefoxitin were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to chloramphenicol has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to chloramphenicol. 
+   user  system elapsed 
+  1.790   0.004   1.792 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to chloramphenicol. 
+   user  system elapsed 
+  6.241   0.028   6.268 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to chloramphenicol. 
+   user  system elapsed 
+ 13.437   0.068  13.504 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to chloramphenicol. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to chloramphenicol. 
+   user  system elapsed 
+  1.387   0.024   1.410 
+
+Number of rows for antimicrobial resistance-resistance to chloramphenicol were 4,538. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to ciprofloxacin has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to ciprofloxacin. 
+   user  system elapsed 
+  1.792   0.000   1.792 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to ciprofloxacin. 
+   user  system elapsed 
+  7.883   0.032   7.915 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to ciprofloxacin. 
+   user  system elapsed 
+ 28.809   0.076  28.883 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to ciprofloxacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to ciprofloxacin. 
+   user  system elapsed 
+  1.363   0.008   1.371 
+
+Number of rows for antimicrobial resistance-resistance to ciprofloxacin were 10,722. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to clindamycin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to clindamycin. 
+   user  system elapsed 
+  1.802   0.028   1.830 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to clindamycin. 
+   user  system elapsed 
+  6.277   0.024   6.300 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to clindamycin. 
+   user  system elapsed 
+ 26.416   0.060  26.474 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to clindamycin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to clindamycin. 
+   user  system elapsed 
+  1.367   0.004   1.371 
+
+Number of rows for antimicrobial resistance-resistance to clindamycin were 9,760. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to ertapenem has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to ertapenem. 
+   user  system elapsed 
+  1.796   0.020   1.816 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to ertapenem. 
+   user  system elapsed 
+  6.251   0.036   6.287 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to ertapenem. 
+   user  system elapsed 
+  4.502   0.004   4.505 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to ertapenem. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to ertapenem. 
+   user  system elapsed 
+  1.362   0.000   1.362 
+
+Number of rows for antimicrobial resistance-resistance to ertapenem were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to erythromycin A has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to erythromycin A. 
+   user  system elapsed 
+  1.794   0.048   1.842 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to erythromycin A. 
+   user  system elapsed 
+  6.288   0.044   6.331 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to erythromycin A. 
+   user  system elapsed 
+ 37.758   0.060  37.814 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to erythromycin A. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to erythromycin A. 
+   user  system elapsed 
+   1.37    0.00    1.37 
+
+Number of rows for antimicrobial resistance-resistance to erythromycin A were 14,298. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to ethambutol has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to ethambutol. 
+   user  system elapsed 
+  1.793   0.000   1.794 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to ethambutol. 
+   user  system elapsed 
+  6.257   0.032   6.287 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to ethambutol. 
+   user  system elapsed 
+ 19.398   0.036  19.432 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to ethambutol. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to ethambutol. 
+   user  system elapsed 
+  1.360   0.000   1.361 
+
+Number of rows for antimicrobial resistance-resistance to ethambutol were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to gentamicin has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to gentamicin. 
+   user  system elapsed 
+  1.792   0.000   1.791 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to gentamicin. 
+   user  system elapsed 
+  6.252   0.000   6.252 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to gentamicin. 
+   user  system elapsed 
+ 28.771   0.148  28.917 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to gentamicin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to gentamicin. 
+   user  system elapsed 
+  1.355   0.020   1.375 
+
+Number of rows for antimicrobial resistance-resistance to gentamicin were 10,722. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to imipenem has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to imipenem. 
+   user  system elapsed 
+   1.79    0.00    1.79 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to imipenem. 
+   user  system elapsed 
+  6.241   0.004   6.244 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to imipenem. 
+   user  system elapsed 
+  4.498   0.008   4.506 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to imipenem. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to imipenem. 
+   user  system elapsed 
+  1.361   0.000   1.362 
+
+Number of rows for antimicrobial resistance-resistance to imipenem were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to isoniazid has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to isoniazid. 
+   user  system elapsed 
+  1.789   0.000   1.788 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to isoniazid. 
+   user  system elapsed 
+  6.285   0.020   6.304 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to isoniazid. 
+   user  system elapsed 
+ 20.251   0.076  20.325 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to isoniazid. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to isoniazid. 
+   user  system elapsed 
+  1.373   0.004   1.377 
+
+Number of rows for antimicrobial resistance-resistance to isoniazid were 7,274. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to kanamycin A has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to kanamycin A. 
+   user  system elapsed 
+  1.790   0.004   1.795 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to kanamycin A. 
+   user  system elapsed 
+  6.231   0.000   6.230 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to kanamycin A. 
+   user  system elapsed 
+ 17.842   0.092  17.932 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to kanamycin A. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to kanamycin A. 
+   user  system elapsed 
+  1.366   0.012   1.377 
+
+Number of rows for antimicrobial resistance-resistance to kanamycin A were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to levofloxacin has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to levofloxacin. 
+   user  system elapsed 
+  1.788   0.000   1.787 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to levofloxacin. 
+   user  system elapsed 
+  6.277   0.036   6.312 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to levofloxacin. 
+   user  system elapsed 
+ 10.515   0.008  10.521 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to levofloxacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to levofloxacin. 
+   user  system elapsed 
+  1.359   0.004   1.363 
+
+Number of rows for antimicrobial resistance-resistance to levofloxacin were 3,374. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to meropenem has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to meropenem. 
+   user  system elapsed 
+  1.785   0.000   1.784 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to meropenem. 
+   user  system elapsed 
+  6.251   0.020   6.270 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to meropenem. 
+   user  system elapsed 
+  4.495   0.036   4.531 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to meropenem. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to meropenem. 
+   user  system elapsed 
+  1.362   0.000   1.361 
+
+Number of rows for antimicrobial resistance-resistance to meropenem were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to methicillin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to methicillin. 
+   user  system elapsed 
+  1.785   0.000   1.785 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to methicillin. 
+   user  system elapsed 
+  6.288   0.020   6.307 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to methicillin. 
+   user  system elapsed 
+ 26.434   0.032  26.464 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to methicillin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to methicillin. 
+   user  system elapsed 
+  1.366   0.008   1.373 
+
+Number of rows for antimicrobial resistance-resistance to methicillin were 9,760. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to ofloxacin has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to ofloxacin. 
+   user  system elapsed 
+  1.791   0.000   1.790 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to ofloxacin. 
+   user  system elapsed 
+  6.258   0.024   6.282 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to ofloxacin. 
+   user  system elapsed 
+ 17.906   0.092  17.995 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to ofloxacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to ofloxacin. 
+   user  system elapsed 
+  1.377   0.020   1.396 
+
+Number of rows for antimicrobial resistance-resistance to ofloxacin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to penicillin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to penicillin. 
+   user  system elapsed 
+  1.786   0.000   1.786 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to penicillin. 
+   user  system elapsed 
+  6.242   0.000   6.242 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to penicillin. 
+   user  system elapsed 
+ 26.423   0.104  26.525 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to penicillin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to penicillin. 
+   user  system elapsed 
+  1.388   0.000   1.388 
+
+Number of rows for antimicrobial resistance-resistance to penicillin were 9,760. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to piperacillin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to piperacillin. 
+   user  system elapsed 
+  1.786   0.000   1.785 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to piperacillin. 
+   user  system elapsed 
+  6.252   0.044   6.296 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to piperacillin. 
+   user  system elapsed 
+   4.49    0.02    4.51 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to piperacillin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to piperacillin. 
+   user  system elapsed 
+  1.365   0.000   1.365 
+
+Number of rows for antimicrobial resistance-resistance to piperacillin were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to rifampicin has 7 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to rifampicin. 
+   user  system elapsed 
+  1.788   0.000   1.788 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to rifampicin. 
+   user  system elapsed 
+  6.257   0.000   6.257 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to rifampicin. 
+   user  system elapsed 
+ 17.858   0.076  17.932 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to rifampicin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to rifampicin. 
+   user  system elapsed 
+  1.356   0.004   1.360 
+
+Number of rows for antimicrobial resistance-resistance to rifampicin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to streptomycin has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to streptomycin. 
+   user  system elapsed 
+  1.790   0.000   1.789 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to streptomycin. 
+   user  system elapsed 
+  6.260   0.052   6.312 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to streptomycin. 
+   user  system elapsed 
+ 19.418   0.016  19.432 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to streptomycin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to streptomycin. 
+   user  system elapsed 
+  1.361   0.000   1.361 
+
+Number of rows for antimicrobial resistance-resistance to streptomycin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to tetracycline has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to tetracycline. 
+   user  system elapsed 
+  1.788   0.000   1.788 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to tetracycline. 
+   user  system elapsed 
+  6.289   0.044   6.333 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to tetracycline. 
+   user  system elapsed 
+ 40.103   0.120  40.219 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to tetracycline. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to tetracycline. 
+   user  system elapsed 
+  1.358   0.000   1.357 
+
+Number of rows for antimicrobial resistance-resistance to tetracycline were 15,260. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistance to tobramycin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to tobramycin. 
+   user  system elapsed 
+  1.786   0.000   1.786 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to tobramycin. 
+   user  system elapsed 
+  6.257   0.032   6.289 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to tobramycin. 
+   user  system elapsed 
+  4.503   0.032   4.535 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to tobramycin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to tobramycin. 
+   user  system elapsed 
+  1.367   0.004   1.371 
+
+Number of rows for antimicrobial resistance-resistance to tobramycin were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-resistance to trimethoprim has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistance to trimethoprim. 
+   user  system elapsed 
+  1.791   0.000   1.791 
+
+Performing taxonomic pooling for antimicrobial resistance-resistance to trimethoprim. 
+   user  system elapsed 
+  6.293   0.036   6.328 
+
+Performing inheritance (1) for antimicrobial resistance-resistance to trimethoprim. 
+   user  system elapsed 
+ 40.195   0.132  40.323 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistance to trimethoprim. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistance to trimethoprim. 
+   user  system elapsed 
+  1.362   0.004   1.366 
+
+Number of rows for antimicrobial resistance-resistance to trimethoprim were 15,260. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-resistant to beta-lactam has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-resistant to beta-lactam. 
+   user  system elapsed 
+  1.789   0.000   1.789 
+
+Performing taxonomic pooling for antimicrobial resistance-resistant to beta-lactam. 
+   user  system elapsed 
+  6.240   0.052   6.291 
+
+Performing inheritance (1) for antimicrobial resistance-resistant to beta-lactam. 
+   user  system elapsed 
+ 15.009   0.016  15.023 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-resistant to beta-lactam. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-resistant to beta-lactam. 
+   user  system elapsed 
+  1.365   0.003   1.369 
+
+Number of rows for antimicrobial resistance-resistant to beta-lactam were 4,538. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to amikacin has 16 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to amikacin. 
+   user  system elapsed 
+  1.800   0.024   1.824 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to amikacin. 
+   user  system elapsed 
+  6.298   0.037   6.334 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to amikacin. 
+   user  system elapsed 
+ 20.250   0.096  20.344 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to amikacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to amikacin. 
+   user  system elapsed 
+  1.360   0.004   1.363 
+
+Number of rows for antimicrobial resistance-sensitive to amikacin were 7,274. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to aztreonam has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to aztreonam. 
+   user  system elapsed 
+  1.785   0.020   1.804 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to aztreonam. 
+   user  system elapsed 
+   6.25    0.00    6.25 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to aztreonam. 
+   user  system elapsed 
+  4.498   0.004   4.502 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to aztreonam. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to aztreonam. 
+   user  system elapsed 
+  1.363   0.012   1.375 
+
+Number of rows for antimicrobial resistance-sensitive to aztreonam were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to capreomycin has 15 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to capreomycin. 
+   user  system elapsed 
+  1.792   0.000   1.791 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to capreomycin. 
+   user  system elapsed 
+  6.290   0.028   6.318 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to capreomycin. 
+   user  system elapsed 
+ 17.847   0.113  17.958 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to capreomycin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to capreomycin. 
+   user  system elapsed 
+   1.36    0.00    1.36 
+
+Number of rows for antimicrobial resistance-sensitive to capreomycin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to carbapenems has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to carbapenems. 
+   user  system elapsed 
+  1.784   0.023   1.809 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to carbapenems. 
+   user  system elapsed 
+  6.283   0.003   6.288 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to carbapenems. 
+   user  system elapsed 
+ 10.722   0.048  10.771 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to carbapenems. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to carbapenems. 
+   user  system elapsed 
+  1.377   0.004   1.381 
+
+Number of rows for antimicrobial resistance-sensitive to carbapenems were 3,454. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to cefoxitin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to cefoxitin. 
+   user  system elapsed 
+  1.781   0.000   1.781 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to cefoxitin. 
+   user  system elapsed 
+  6.267   0.024   6.291 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to cefoxitin. 
+   user  system elapsed 
+  4.504   0.036   4.541 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to cefoxitin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to cefoxitin. 
+   user  system elapsed 
+  1.360   0.032   1.392 
+
+Number of rows for antimicrobial resistance-sensitive to cefoxitin were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to chloramphenicol has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to chloramphenicol. 
+   user  system elapsed 
+  1.789   0.000   1.789 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to chloramphenicol. 
+   user  system elapsed 
+  6.255   0.008   6.263 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to chloramphenicol. 
+   user  system elapsed 
+ 13.462   0.021  13.481 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to chloramphenicol. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to chloramphenicol. 
+   user  system elapsed 
+  1.360   0.003   1.365 
+
+Number of rows for antimicrobial resistance-sensitive to chloramphenicol were 4,538. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to ciprofloxacin has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to ciprofloxacin. 
+   user  system elapsed 
+  1.788   0.000   1.788 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to ciprofloxacin. 
+   user  system elapsed 
+  6.254   0.051   6.306 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to ciprofloxacin. 
+   user  system elapsed 
+ 30.369   0.105  30.470 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to ciprofloxacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to ciprofloxacin. 
+   user  system elapsed 
+  1.367   0.004   1.370 
+
+Number of rows for antimicrobial resistance-sensitive to ciprofloxacin were 10,722. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to clindamycin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to clindamycin. 
+   user  system elapsed 
+  1.788   0.000   1.788 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to clindamycin. 
+   user  system elapsed 
+  6.241   0.020   6.260 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to clindamycin. 
+   user  system elapsed 
+ 26.412   0.183  26.594 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to clindamycin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to clindamycin. 
+   user  system elapsed 
+  1.359   0.000   1.359 
+
+Number of rows for antimicrobial resistance-sensitive to clindamycin were 9,760. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to ertapenem has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to ertapenem. 
+   user  system elapsed 
+  1.768   0.040   1.808 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to ertapenem. 
+   user  system elapsed 
+  6.232   0.000   6.232 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to ertapenem. 
+   user  system elapsed 
+  4.484   0.008   4.491 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to ertapenem. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to ertapenem. 
+   user  system elapsed 
+  1.353   0.020   1.372 
+
+Number of rows for antimicrobial resistance-sensitive to ertapenem were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to erythromycin A has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to erythromycin A. 
+   user  system elapsed 
+  1.788   0.000   1.787 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to erythromycin A. 
+   user  system elapsed 
+  6.255   0.060   6.315 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to erythromycin A. 
+   user  system elapsed 
+ 37.761   0.145  37.901 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to erythromycin A. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to erythromycin A. 
+   user  system elapsed 
+  1.362   0.000   1.362 
+
+Number of rows for antimicrobial resistance-sensitive to erythromycin A were 14,298. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to ethambutol has 15 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to ethambutol. 
+   user  system elapsed 
+  1.805   0.016   1.820 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to ethambutol. 
+   user  system elapsed 
+  6.264   0.008   6.272 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to ethambutol. 
+   user  system elapsed 
+ 17.785   0.080  17.863 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to ethambutol. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to ethambutol. 
+   user  system elapsed 
+  1.356   0.000   1.356 
+
+Number of rows for antimicrobial resistance-sensitive to ethambutol were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to gentamicin has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to gentamicin. 
+   user  system elapsed 
+  1.798   0.004   1.802 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to gentamicin. 
+   user  system elapsed 
+  6.259   0.016   6.276 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to gentamicin. 
+   user  system elapsed 
+ 28.767   0.144  28.909 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to gentamicin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to gentamicin. 
+   user  system elapsed 
+  1.374   0.020   1.394 
+
+Number of rows for antimicrobial resistance-sensitive to gentamicin were 10,722. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to imipenem has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to imipenem. 
+   user  system elapsed 
+  1.783   0.000   1.783 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to imipenem. 
+   user  system elapsed 
+  6.251   0.048   6.297 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to imipenem. 
+   user  system elapsed 
+  4.496   0.016   4.511 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to imipenem. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to imipenem. 
+   user  system elapsed 
+  1.354   0.016   1.370 
+
+Number of rows for antimicrobial resistance-sensitive to imipenem were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to isoniazid has 20 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to isoniazid. 
+   user  system elapsed 
+  1.797   0.000   1.797 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to isoniazid. 
+   user  system elapsed 
+  6.262   0.000   6.262 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to isoniazid. 
+   user  system elapsed 
+ 17.777   0.108  17.884 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to isoniazid. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to isoniazid. 
+   user  system elapsed 
+  1.365   0.032   1.397 
+
+Number of rows for antimicrobial resistance-sensitive to isoniazid were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to kanamycin A has 20 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to kanamycin A. 
+   user  system elapsed 
+  1.796   0.000   1.796 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to kanamycin A. 
+   user  system elapsed 
+  6.270   0.044   6.314 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to kanamycin A. 
+   user  system elapsed 
+ 17.804   0.004  17.805 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to kanamycin A. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to kanamycin A. 
+   user  system elapsed 
+  1.359   0.000   1.359 
+
+Number of rows for antimicrobial resistance-sensitive to kanamycin A were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to levofloxacin has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to levofloxacin. 
+   user  system elapsed 
+  1.789   0.000   1.789 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to levofloxacin. 
+   user  system elapsed 
+  6.308   0.020   6.327 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to levofloxacin. 
+   user  system elapsed 
+ 10.511   0.064  10.575 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to levofloxacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to levofloxacin. 
+   user  system elapsed 
+  1.359   0.000   1.360 
+
+Number of rows for antimicrobial resistance-sensitive to levofloxacin were 3,374. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to meropenem has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to meropenem. 
+   user  system elapsed 
+  1.777   0.003   1.782 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to meropenem. 
+   user  system elapsed 
+  6.249   0.001   6.248 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to meropenem. 
+   user  system elapsed 
+  4.492   0.020   4.512 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to meropenem. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to meropenem. 
+   user  system elapsed 
+   1.36    0.00    1.36 
+
+Number of rows for antimicrobial resistance-sensitive to meropenem were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to methicillin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to methicillin. 
+   user  system elapsed 
+  1.780   0.000   1.781 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to methicillin. 
+   user  system elapsed 
+  6.238   0.016   6.254 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to methicillin. 
+   user  system elapsed 
+ 28.027   0.132  28.158 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to methicillin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to methicillin. 
+   user  system elapsed 
+  1.372   0.016   1.388 
+
+Number of rows for antimicrobial resistance-sensitive to methicillin were 9,760. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to ofloxacin has 20 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to ofloxacin. 
+   user  system elapsed 
+  1.796   0.000   1.796 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to ofloxacin. 
+   user  system elapsed 
+   6.27    0.00    6.27 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to ofloxacin. 
+   user  system elapsed 
+ 17.813   0.056  17.867 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to ofloxacin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to ofloxacin. 
+   user  system elapsed 
+  1.375   0.028   1.404 
+
+Number of rows for antimicrobial resistance-sensitive to ofloxacin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to penicillin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to penicillin. 
+   user  system elapsed 
+  1.782   0.000   1.782 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to penicillin. 
+   user  system elapsed 
+  6.265   0.032   6.297 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to penicillin. 
+   user  system elapsed 
+ 26.439   0.044  26.481 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to penicillin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to penicillin. 
+   user  system elapsed 
+  1.360   0.008   1.367 
+
+Number of rows for antimicrobial resistance-sensitive to penicillin were 9,760. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to piperacillin has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to piperacillin. 
+   user  system elapsed 
+  1.782   0.000   1.782 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to piperacillin. 
+   user  system elapsed 
+  6.236   0.052   6.287 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to piperacillin. 
+   user  system elapsed 
+  4.500   0.032   4.532 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to piperacillin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to piperacillin. 
+   user  system elapsed 
+  1.357   0.000   1.357 
+
+Number of rows for antimicrobial resistance-sensitive to piperacillin were 962. It took 0 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to rifampicin has 15 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to rifampicin. 
+   user  system elapsed 
+  1.787   0.000   1.787 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to rifampicin. 
+   user  system elapsed 
+  6.286   0.032   6.318 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to rifampicin. 
+   user  system elapsed 
+ 17.791   0.032  17.822 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to rifampicin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to rifampicin. 
+   user  system elapsed 
+  1.356   0.004   1.360 
+
+Number of rows for antimicrobial resistance-sensitive to rifampicin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to streptomycin has 19 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to streptomycin. 
+   user  system elapsed 
+  1.796   0.000   1.796 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to streptomycin. 
+   user  system elapsed 
+  6.265   0.048   6.312 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to streptomycin. 
+   user  system elapsed 
+ 19.378   0.128  19.504 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to streptomycin. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to streptomycin. 
+   user  system elapsed 
+  1.349   0.033   1.381 
+
+Number of rows for antimicrobial resistance-sensitive to streptomycin were 6,312. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to tetracycline has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to tetracycline. 
+   user  system elapsed 
+  1.787   0.000   1.786 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to tetracycline. 
+   user  system elapsed 
+  6.275   0.011   6.287 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to tetracycline. 
+   user  system elapsed 
+ 40.169   0.163  40.330 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to tetracycline. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to tetracycline. 
+   user  system elapsed 
+  1.380   0.012   1.391 
+
+Number of rows for antimicrobial resistance-sensitive to tetracycline were 15,260. It took 1 mins. 
+
+ 
+
+antimicrobial resistance-sensitive to trimethoprim has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial resistance-sensitive to trimethoprim. 
+   user  system elapsed 
+  1.787   0.003   1.791 
+
+Performing taxonomic pooling for antimicrobial resistance-sensitive to trimethoprim. 
+   user  system elapsed 
+  6.288   0.000   6.288 
+
+Performing inheritance (1) for antimicrobial resistance-sensitive to trimethoprim. 
+   user  system elapsed 
+ 40.124   0.196  40.317 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for antimicrobial resistance-sensitive to trimethoprim. Stopped after the first round of propagation. 
+
+Cleaning nodes for antimicrobial resistance-sensitive to trimethoprim. 
+   user  system elapsed 
+  1.367   0.004   1.371 
+
+Number of rows for antimicrobial resistance-sensitive to trimethoprim were 15,260. It took 1 mins. 
+
+ 
+
+antimicrobial sensitivity has 825 taxa. 
+
+Mapping source annotations to the NCBI tree for antimicrobial sensitivity. 
+   user  system elapsed 
+  2.067   0.024   2.091 
+
+Performing taxonomic pooling for antimicrobial sensitivity. 
+   user  system elapsed 
+ 14.288   0.000  14.286 
+
+Performing inheritance (1) for antimicrobial sensitivity. 
+   user  system elapsed 
+135.902   0.428 136.320 
+
+Performing ASR for (round 2 of propagation) antimicrobial sensitivity. 
+   user  system elapsed 
+289.348   1.172 290.496 
+
+Mapping annotations for inheritabce 2 for antimicrobial sensitivity. 
+   user  system elapsed 
+  3.430   0.012   3.442 
+
+Performing inheritance (2) for antimicrobial sensitivity 
+   user  system elapsed 
+405.891   1.499 407.370 
+
+Minimum threshold for positives in antimicrobial sensitivity was 0.5. 
+
+Size of propagated data for antimicrobial sensitivity is 22.9 MB. 
+
+Cleaning nodes for antimicrobial sensitivity. 
+   user  system elapsed 
+  1.389   0.040   1.429 
+
+Number of rows for antimicrobial sensitivity were 73,060. It took 15 mins. 
+
+ 
+
+arrangement has 1,568 taxa. 
+
+Mapping source annotations to the NCBI tree for arrangement. 
+   user  system elapsed 
+  2.304   0.000   2.304 
+
+Performing taxonomic pooling for arrangement. 
+   user  system elapsed 
+ 18.814   0.112  18.925 
+
+Performing inheritance (1) for arrangement. 
+   user  system elapsed 
+214.107   0.732 214.829 
+
+Performing ASR for (round 2 of propagation) arrangement. 
+   user  system elapsed 
+347.318   2.152 349.443 
+
+Mapping annotations for inheritabce 2 for arrangement. 
+   user  system elapsed 
+  3.778   0.060   3.838 
+
+Performing inheritance (2) for arrangement 
+   user  system elapsed 
+263.295   0.948 264.226 
+
+Minimum threshold for positives in arrangement was 0.0833333333333333. 
+
+Size of propagated data for arrangement is 28.1 MB. 
+
+Cleaning nodes for arrangement. 
+   user  system elapsed 
+  1.375   0.004   1.379 
+
+Number of rows for arrangement were 116,078. It took 15 mins. 
+
+ 
+
+biofilm forming has 423 taxa. 
+
+Mapping source annotations to the NCBI tree for biofilm forming. 
+   user  system elapsed 
+  1.934   0.044   1.977 
+
+Performing taxonomic pooling for biofilm forming. 
+   user  system elapsed 
+ 10.141   0.004  10.144 
+
+Performing inheritance (1) for biofilm forming. 
+   user  system elapsed 
+125.324   0.396 125.714 
+
+Performing ASR for (round 2 of propagation) biofilm forming. 
+   user  system elapsed 
+235.932   1.352 237.266 
+
+Mapping annotations for inheritabce 2 for biofilm forming. 
+   user  system elapsed 
+  3.264   0.024   3.287 
+
+Performing inheritance (2) for biofilm forming 
+   user  system elapsed 
+428.803   1.636 430.403 
+
+Minimum threshold for positives in biofilm forming was 0.5. 
+
+Size of propagated data for biofilm forming is 23.6 MB. 
+
+Cleaning nodes for biofilm forming. 
+   user  system elapsed 
+  1.348   0.024   1.373 
+
+Number of rows for biofilm forming were 75,221. It took 14 mins. 
+
+ 
+
+biosafety level has 12,477 taxa. 
+
+Mapping source annotations to the NCBI tree for biosafety level. 
+   user  system elapsed 
+  6.919   0.780   7.699 
+
+Performing taxonomic pooling for biosafety level. 
+   user  system elapsed 
+114.097   0.468 114.557 
+
+Performing inheritance (1) for biosafety level. 
+   user  system elapsed 
+226.974   0.948 227.905 
+
+Performing ASR for (round 2 of propagation) biosafety level. 
+   user  system elapsed 
+119.490   0.768 120.252 
+
+Mapping annotations for inheritabce 2 for biosafety level. 
+   user  system elapsed 
+  4.077   0.036   4.112 
+
+Performing inheritance (2) for biosafety level 
+   user  system elapsed 
+116.421   0.464 116.875 
+
+Minimum threshold for positives in biosafety level was 0.333333333333333. 
+
+Size of propagated data for biosafety level is 24.6 MB. 
+
+Cleaning nodes for biosafety level. 
+   user  system elapsed 
+  1.346   0.008   1.355 
+
+Number of rows for biosafety level were 83,064. It took 10 mins. 
+
+ 
+
+butyrate producing has 28 taxa. 
+
+Mapping source annotations to the NCBI tree for butyrate producing. 
+   user  system elapsed 
+  1.788   0.000   1.787 
+
+Performing taxonomic pooling for butyrate producing. 
+   user  system elapsed 
+  6.402   0.024   6.426 
+
+Performing inheritance (1) for butyrate producing. 
+   user  system elapsed 
+  2.373   0.000   2.373 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for butyrate producing. Stopped after the first round of propagation. 
+
+Cleaning nodes for butyrate producing. 
+   user  system elapsed 
+  1.331   0.000   1.331 
+
+Number of rows for butyrate producing were 178. It took 0 mins. 
+
+ 
+
+coding genes has 4,303 taxa. 
+
+Mapping source annotations to the NCBI tree for coding genes. 
+   user  system elapsed 
+  3.161   0.024   3.186 
+
+Performing taxonomic pooling for coding genes. 
+   user  system elapsed 
+ 51.432   0.164  51.591 
+
+Performing inheritance (1) for coding genes. 
+   user  system elapsed 
+244.474   0.864 245.320 
+
+Performing ASR for (round 2 of propagation) coding genes. 
+   user  system elapsed 
+231.932   1.248 233.161 
+
+Mapping annotations for inheritabce 2 for coding genes. 
+   user  system elapsed 
+  3.910   0.052   3.962 
+
+Performing inheritance (2) for coding genes 
+   user  system elapsed 
+172.236   0.680 172.908 
+
+Minimum threshold for positives in coding genes was 0.25. 
+
+Size of propagated data for coding genes is 24.2 MB. 
+
+Cleaning nodes for coding genes. 
+   user  system elapsed 
+  1.340   0.036   1.376 
+
+Number of rows for coding genes were 79,372. It took 12 mins. 
+
+ 
+
+COGEM pathogenicity rating has 1,036 taxa. 
+
+Mapping source annotations to the NCBI tree for COGEM pathogenicity rating. 
+   user  system elapsed 
+  2.075   0.000   2.075 
+
+Performing taxonomic pooling for COGEM pathogenicity rating. 
+   user  system elapsed 
+ 14.718   0.008  14.726 
+
+Performing inheritance (1) for COGEM pathogenicity rating. 
+   user  system elapsed 
+187.435   0.636 188.061 
+
+Performing ASR for (round 2 of propagation) COGEM pathogenicity rating. 
+   user  system elapsed 
+168.597   0.728 169.314 
+
+Mapping annotations for inheritabce 2 for COGEM pathogenicity rating. 
+   user  system elapsed 
+  5.319   0.064   5.383 
+
+Performing inheritance (2) for COGEM pathogenicity rating 
+   user  system elapsed 
+311.332   1.208 312.519 
+
+Minimum threshold for positives in COGEM pathogenicity rating was 0.333333333333333. 
+
+Size of propagated data for COGEM pathogenicity rating is 23.8 MB. 
+
+Cleaning nodes for COGEM pathogenicity rating. 
+   user  system elapsed 
+  1.342   0.004   1.346 
+
+Number of rows for COGEM pathogenicity rating were 76,428. It took 12 mins. 
+
+ 
+
+extreme environment has 1,856 taxa. 
+
+Mapping source annotations to the NCBI tree for extreme environment. 
+   user  system elapsed 
+  2.350   0.036   2.386 
+
+Performing taxonomic pooling for extreme environment. 
+   user  system elapsed 
+ 20.910   0.024  20.931 
+
+Performing inheritance (1) for extreme environment. 
+   user  system elapsed 
+208.630   0.776 209.388 
+
+Performing ASR for (round 2 of propagation) extreme environment. 
+   user  system elapsed 
+185.617   0.944 186.549 
+
+Mapping annotations for inheritabce 2 for extreme environment. 
+   user  system elapsed 
+   3.74    0.06    3.80 
+
+Performing inheritance (2) for extreme environment 
+   user  system elapsed 
+267.577   1.012 268.571 
+
+Minimum threshold for positives in extreme environment was 0.5. 
+
+Size of propagated data for extreme environment is 23.7 MB. 
+
+Cleaning nodes for extreme environment. 
+   user  system elapsed 
+  1.337   0.008   1.344 
+
+Number of rows for extreme environment were 75,449. It took 12 mins. 
+
+ 
+
+genome size has 4,295 taxa. 
+
+Mapping source annotations to the NCBI tree for genome size. 
+   user  system elapsed 
+  3.203   0.236   3.439 
+
+Performing taxonomic pooling for genome size. 
+   user  system elapsed 
+ 51.365   0.172  51.533 
+
+Performing inheritance (1) for genome size. 
+   user  system elapsed 
+244.564   0.972 245.516 
+
+Performing ASR for (round 2 of propagation) genome size. 
+   user  system elapsed 
+233.818   1.488 235.286 
+
+Mapping annotations for inheritabce 2 for genome size. 
+   user  system elapsed 
+  3.924   0.004   3.928 
+
+Performing inheritance (2) for genome size 
+   user  system elapsed 
+172.511   0.616 173.111 
+
+Minimum threshold for positives in genome size was 0.25. 
+
+Size of propagated data for genome size is 24.1 MB. 
+
+Cleaning nodes for genome size. 
+   user  system elapsed 
+  1.323   0.068   1.391 
+
+Number of rows for genome size were 78,700. It took 12 mins. 
+
+ 
+
+gram stain has 12,116 taxa. 
+
+Mapping source annotations to the NCBI tree for gram stain. 
+   user  system elapsed 
+  7.066   0.060   7.125 
+
+Performing taxonomic pooling for gram stain. 
+   user  system elapsed 
+ 86.615   0.244  86.851 
+
+Performing inheritance (1) for gram stain. 
+   user  system elapsed 
+249.316   0.980 250.278 
+
+Performing ASR for (round 2 of propagation) gram stain. 
+   user  system elapsed 
+210.360   0.964 211.304 
+
+Mapping annotations for inheritabce 2 for gram stain. 
+   user  system elapsed 
+  4.120   0.036   4.156 
+
+Performing inheritance (2) for gram stain 
+   user  system elapsed 
+104.216   0.504 104.710 
+
+Minimum threshold for positives in gram stain was 0.333333333333333. 
+
+Size of propagated data for gram stain is 23.9 MB. 
+
+Cleaning nodes for gram stain. 
+   user  system elapsed 
+  1.357   0.020   1.378 
+
+Number of rows for gram stain were 76,408. It took 12 mins. 
+
+ 
+
+growth temperature has 20,765 taxa. 
+
+Mapping source annotations to the NCBI tree for growth temperature. 
+   user  system elapsed 
+ 11.289   1.192  12.479 
+
+Performing taxonomic pooling for growth temperature. 
+   user  system elapsed 
+129.730   0.512 130.230 
+
+Performing inheritance (1) for growth temperature. 
+   user  system elapsed 
+213.574   0.876 214.431 
+
+Performing ASR for (round 2 of propagation) growth temperature. 
+   user  system elapsed 
+194.581   1.524 196.092 
+
+Mapping annotations for inheritabce 2 for growth temperature. 
+   user  system elapsed 
+  4.199   0.044   4.244 
+
+Performing inheritance (2) for growth temperature 
+   user  system elapsed 
+ 75.270   0.280  75.544 
+
+Minimum threshold for positives in growth temperature was 0.25. 
+
+Size of propagated data for growth temperature is 24.7 MB. 
+
+Cleaning nodes for growth temperature. 
+   user  system elapsed 
+  1.347   0.028   1.374 
+
+Number of rows for growth temperature were 82,694. It took 11 mins. 
+
+ 
+
+habitat-air has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-air. 
+   user  system elapsed 
+   1.75    0.00    1.75 
+
+Performing taxonomic pooling for habitat-air. 
+   user  system elapsed 
+  6.296   0.004   6.300 
+
+Performing inheritance (1) for habitat-air. 
+   user  system elapsed 
+  2.151   0.008   2.159 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-air. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-air. 
+   user  system elapsed 
+  1.332   0.012   1.344 
+
+Number of rows for habitat-air were 34. It took 0 mins. 
+
+ 
+
+habitat-animal has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-animal. 
+   user  system elapsed 
+  1.749   0.000   1.750 
+
+Performing taxonomic pooling for habitat-animal. 
+   user  system elapsed 
+  7.878   0.104   7.981 
+
+Performing inheritance (1) for habitat-animal. 
+   user  system elapsed 
+  2.757   0.000   2.757 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-animal. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-animal. 
+   user  system elapsed 
+  1.330   0.000   1.331 
+
+Number of rows for habitat-animal were 282. It took 0 mins. 
+
+ 
+
 habitat-aquatic biome has 251 taxa. 
 
 Mapping source annotations to the NCBI tree for habitat-aquatic biome. 
    user  system elapsed 
-  1.557   0.078   1.633 
+  1.840   0.056   1.897 
 
 Performing taxonomic pooling for habitat-aquatic biome. 
    user  system elapsed 
-  8.282   0.145   8.422 
+ 11.640   0.012  11.652 
 
 Performing inheritance (1) for habitat-aquatic biome. 
    user  system elapsed 
- 30.999   0.342  31.336 
+ 38.847   0.172  39.015 
 
-Performing ASR for (round 2 of propagation) habitat-aquatic biome. 
-   user  system elapsed 
-226.503   0.229 226.628 
-
-Mapping annotations for inheritabce 2 for habitat-aquatic biome. 
-   user  system elapsed 
-  2.525   0.176   2.699 
-
-Performing inheritance (2) for habitat-aquatic biome 
-   user  system elapsed 
-451.026   2.209 453.191 
-
-Minimum threshold for positives in habitat-aquatic biome was 0.5. 
-
-Size of propagated data for habitat-aquatic biome is 24.4 MB. 
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-aquatic biome. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-aquatic biome. 
    user  system elapsed 
-  0.958   0.000   0.957 
+  1.352   0.040   1.393 
 
-Number of rows for habitat-aquatic biome were 75,736. It took 12 mins. 
+Number of rows for habitat-aquatic biome were 15,778. It took 1 mins. 
 
  
 
@@ -150,21 +2115,21 @@ habitat-bioremediation has 3 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-bioremediation. 
    user  system elapsed 
-  1.271   0.000   1.271 
+  1.755   0.000   1.755 
 
 Performing taxonomic pooling for habitat-bioremediation. 
    user  system elapsed 
-  3.776   0.028   3.803 
+  6.255   0.032   6.287 
 
 Performing inheritance (1) for habitat-bioremediation. 
    user  system elapsed 
-  1.623   0.004   1.627 
+  2.252   0.012   2.264 
 
 Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-bioremediation. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-bioremediation. 
    user  system elapsed 
-  0.976   0.000   0.977 
+  1.333   0.004   1.337 
 
 Number of rows for habitat-bioremediation were 66. It took 0 mins. 
 
@@ -174,21 +2139,21 @@ habitat-blood has 52 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-blood. 
    user  system elapsed 
-  1.319   0.004   1.323 
+  1.778   0.004   1.782 
 
 Performing taxonomic pooling for habitat-blood. 
    user  system elapsed 
-  3.881   0.004   3.885 
+  6.387   0.020   6.407 
 
 Performing inheritance (1) for habitat-blood. 
    user  system elapsed 
-  5.377   0.040   5.417 
+  7.066   0.048   7.114 
 
 Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-blood. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-blood. 
    user  system elapsed 
-  0.951   0.000   0.950 
+  1.341   0.000   1.341 
 
 Number of rows for habitat-blood were 2,098. It took 0 mins. 
 
@@ -198,21 +2163,21 @@ habitat-cerebral spinal fluid has 3 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-cerebral spinal fluid. 
    user  system elapsed 
-  1.284   0.000   1.284 
+  1.756   0.000   1.756 
 
 Performing taxonomic pooling for habitat-cerebral spinal fluid. 
    user  system elapsed 
-  3.787   0.000   3.786 
+  6.259   0.000   6.258 
 
 Performing inheritance (1) for habitat-cerebral spinal fluid. 
    user  system elapsed 
-  1.937   0.004   1.941 
+  2.658   0.004   2.662 
 
 Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-cerebral spinal fluid. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-cerebral spinal fluid. 
    user  system elapsed 
-  0.954   0.000   0.955 
+  1.331   0.028   1.359 
 
 Number of rows for habitat-cerebral spinal fluid were 240. It took 0 mins. 
 
@@ -222,66 +2187,51 @@ habitat-circulatory system has 3 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-circulatory system. 
    user  system elapsed 
-  1.278   0.000   1.278 
+  1.755   0.000   1.755 
 
 Performing taxonomic pooling for habitat-circulatory system. 
    user  system elapsed 
-  3.794   0.000   3.793 
+  6.239   0.028   6.266 
 
 Performing inheritance (1) for habitat-circulatory system. 
    user  system elapsed 
-  2.015   0.012   2.027 
+  2.800   0.004   2.804 
 
 Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-circulatory system. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-circulatory system. 
    user  system elapsed 
-  0.957   0.000   0.957 
+  1.333   0.000   1.333 
 
 Number of rows for habitat-circulatory system were 296. It took 0 mins. 
 
  
 
-habitat-colonization of host has 952 taxa. 
+habitat-colonization of host has 951 taxa. 
 
 Mapping source annotations to the NCBI tree for habitat-colonization of host. 
    user  system elapsed 
-  1.529   0.000   1.529 
+  2.038   0.032   2.070 
 
 Performing taxonomic pooling for habitat-colonization of host. 
    user  system elapsed 
- 13.544   0.052  13.595 
+ 17.863   0.100  17.962 
 
 Performing inheritance (1) for habitat-colonization of host. 
    user  system elapsed 
-137.193   0.764 137.943 
+186.107   0.676 186.767 
 
 Performing ASR for (round 2 of propagation) habitat-colonization of host. 
    user  system elapsed 
-454.388   7.001 461.164 
-
-Minimum threshold for positives in habitat-aquatic biome was 0.5. 
-
-Size of propagated data for habitat-aquatic biome is 24.4 MB. 
-
-Cleaning nodes for habitat-aquatic biome. 
-   user  system elapsed 
-  0.991   0.168   1.158 
-
-Number of rows for habitat-aquatic biome were 75,736. It took 13 mins. 
-
- 
-
-   user  system elapsed 
-168.527   0.024 168.537 
+256.176   1.416 257.574 
 
 Mapping annotations for inheritabce 2 for habitat-colonization of host. 
    user  system elapsed 
-  3.692   0.000   3.692 
+  3.546   0.028   3.575 
 
 Performing inheritance (2) for habitat-colonization of host 
    user  system elapsed 
-222.983   1.220 224.182 
+316.220   1.168 317.365 
 
 Minimum threshold for positives in habitat-colonization of host was 0.5. 
 
@@ -289,9 +2239,9 @@ Size of propagated data for habitat-colonization of host is 24.4 MB.
 
 Cleaning nodes for habitat-colonization of host. 
    user  system elapsed 
-  0.919   0.000   0.918 
+  1.345   0.040   1.385 
 
-Number of rows for habitat-colonization of host were 75,753. It took 9 mins. 
+Number of rows for habitat-colonization of host were 75,752. It took 14 mins. 
 
  
 
@@ -299,23 +2249,23 @@ habitat-creosote contaminated soil has 3 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-creosote contaminated soil. 
    user  system elapsed 
-  1.211   0.000   1.211 
+  1.748   0.000   1.748 
 
 Performing taxonomic pooling for habitat-creosote contaminated soil. 
    user  system elapsed 
-  3.584   0.000   3.583 
+  6.255   0.008   6.263 
 
 Performing inheritance (1) for habitat-creosote contaminated soil. 
    user  system elapsed 
- 13.076   0.032  13.107 
+ 17.843   0.024  17.866 
 
 Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-creosote contaminated soil. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-creosote contaminated soil. 
    user  system elapsed 
-    0.9     0.0     0.9 
+  1.337   0.004   1.340 
 
-Number of rows for habitat-creosote contaminated soil were 6,310. It took 0 mins. 
+Number of rows for habitat-creosote contaminated soil were 6,310. It took 1 mins. 
 
  
 
@@ -323,30 +2273,23 @@ habitat-creosote-contaminated soil has 1 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-creosote-contaminated soil. 
    user  system elapsed 
-   1.22    0.00    1.22 
+  1.758   0.000   1.758 
 
 Performing taxonomic pooling for habitat-creosote-contaminated soil. 
-Error in UseMethod("count") : no applicable method for 'count' applied to an object of class "character" 
-Traceback: 
-1: count(x$Evidence) 
-========================================================================= 
-Log End Time: 2023-11-07 16:28:40.912595 
-Log Elapsed Time: 0 00:20:44 
-========================================================================= 
    user  system elapsed 
-  3.591   0.004   3.595 
+  6.281   0.040   6.320 
 
 Performing inheritance (1) for habitat-creosote-contaminated soil. 
    user  system elapsed 
- 12.996   0.080  13.074 
+ 19.483   0.128  19.610 
 
 Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-creosote-contaminated soil. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-creosote-contaminated soil. 
    user  system elapsed 
-  0.889   0.000   0.889 
+  1.337   0.020   1.358 
 
-Number of rows for habitat-creosote-contaminated soil were 6,310. It took 0 mins. 
+Number of rows for habitat-creosote-contaminated soil were 6,310. It took 1 mins. 
 
  
 
@@ -354,21 +2297,21 @@ habitat-dairy has 5 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-dairy. 
    user  system elapsed 
-  1.222   0.000   1.221 
+  1.761   0.004   1.765 
 
 Performing taxonomic pooling for habitat-dairy. 
    user  system elapsed 
-  3.574   0.000   3.574 
+  6.335   0.004   6.338 
 
 Performing inheritance (1) for habitat-dairy. 
    user  system elapsed 
-  2.992   0.012   3.003 
+  4.376   0.004   4.379 
 
 Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-dairy. Stopped after the first round of propagation. 
 
 Cleaning nodes for habitat-dairy. 
    user  system elapsed 
-  0.892   0.000   0.892 
+  1.330   0.016   1.346 
 
 Number of rows for habitat-dairy were 924. It took 0 mins. 
 
@@ -378,22 +2321,2138 @@ habitat-digestive system has 207 taxa.
 
 Mapping source annotations to the NCBI tree for habitat-digestive system. 
    user  system elapsed 
-  2.445   0.000   2.444 
+  1.826   0.020   1.846 
 
 Performing taxonomic pooling for habitat-digestive system. 
    user  system elapsed 
-  4.453   0.000   4.453 
+  7.400   0.064   7.463 
 
 Performing inheritance (1) for habitat-digestive system. 
    user  system elapsed 
- 33.522   0.208  33.727 
+ 45.841   0.100  45.937 
 
-Performing ASR for (round 2 of propagation) habitat-digestive system. 
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-digestive system. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-digestive system. 
    user  system elapsed 
-166.667   0.004 166.654 
+  1.341   0.044   1.384 
 
-Mapping annotations for inheritabce 2 for habitat-digestive system. 
+Number of rows for habitat-digestive system were 18,018. It took 1 mins. 
+
+ 
+
+habitat-endosymbiont has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-endosymbiont. 
    user  system elapsed 
-  2.004   0.000   2.004 
+  1.751   0.000   1.751 
 
-Performing inheritance (2) for habitat-digestive system 
+Performing taxonomic pooling for habitat-endosymbiont. 
+   user  system elapsed 
+  6.297   0.020   6.317 
+
+Performing inheritance (1) for habitat-endosymbiont. 
+   user  system elapsed 
+   2.31    0.00    2.31 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-endosymbiont. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-endosymbiont. 
+   user  system elapsed 
+  1.326   0.004   1.330 
+
+Number of rows for habitat-endosymbiont were 98. It took 0 mins. 
+
+ 
+
+habitat-environmental system has 90 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-environmental system. 
+   user  system elapsed 
+  1.787   0.008   1.794 
+
+Performing taxonomic pooling for habitat-environmental system. 
+   user  system elapsed 
+  7.255   0.012   7.266 
+
+Performing inheritance (1) for habitat-environmental system. 
+   user  system elapsed 
+  6.785   0.008   6.793 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-environmental system. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-environmental system. 
+   user  system elapsed 
+  1.342   0.000   1.342 
+
+Number of rows for habitat-environmental system were 2,156. It took 0 mins. 
+
+ 
+
+habitat-feces has 296 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-feces. 
+   user  system elapsed 
+  1.893   0.020   1.913 
+
+Performing taxonomic pooling for habitat-feces. 
+   user  system elapsed 
+  8.013   0.056   8.068 
+
+Performing inheritance (1) for habitat-feces. 
+   user  system elapsed 
+ 78.784   0.368  79.143 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-feces. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-feces. 
+   user  system elapsed 
+  1.342   0.016   1.359 
+
+Number of rows for habitat-feces were 30,814. It took 2 mins. 
+
+ 
+
+habitat-fish has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-fish. 
+   user  system elapsed 
+  1.764   0.000   1.764 
+
+Performing taxonomic pooling for habitat-fish. 
+   user  system elapsed 
+  6.303   0.012   6.315 
+
+Performing inheritance (1) for habitat-fish. 
+   user  system elapsed 
+ 19.834   0.064  19.897 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-fish. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-fish. 
+   user  system elapsed 
+  1.331   0.000   1.330 
+
+Number of rows for habitat-fish were 7,092. It took 1 mins. 
+
+ 
+
+habitat-food product has 21 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-food product. 
+   user  system elapsed 
+  1.761   0.000   1.760 
+
+Performing taxonomic pooling for habitat-food product. 
+   user  system elapsed 
+  6.351   0.056   6.406 
+
+Performing inheritance (1) for habitat-food product. 
+   user  system elapsed 
+  5.121   0.000   5.120 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-food product. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-food product. 
+   user  system elapsed 
+  1.329   0.008   1.337 
+
+Number of rows for habitat-food product were 1,270. It took 0 mins. 
+
+ 
+
+habitat-foregut has 6 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-foregut. 
+   user  system elapsed 
+  1.748   0.012   1.760 
+
+Performing taxonomic pooling for habitat-foregut. 
+   user  system elapsed 
+  6.344   0.000   6.344 
+
+Performing inheritance (1) for habitat-foregut. 
+   user  system elapsed 
+  3.085   0.004   3.089 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-foregut. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-foregut. 
+   user  system elapsed 
+  1.339   0.004   1.342 
+
+Number of rows for habitat-foregut were 408. It took 0 mins. 
+
+ 
+
+habitat-free-living has 1,252 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-free-living. 
+   user  system elapsed 
+  2.144   0.032   2.177 
+
+Performing taxonomic pooling for habitat-free-living. 
+   user  system elapsed 
+ 18.690   0.072  18.761 
+
+Performing inheritance (1) for habitat-free-living. 
+   user  system elapsed 
+111.954   0.304 112.249 
+
+Performing ASR for (round 2 of propagation) habitat-free-living. 
+   user  system elapsed 
+255.853   1.156 256.985 
+
+Mapping annotations for inheritabce 2 for habitat-free-living. 
+   user  system elapsed 
+  3.247   0.048   3.295 
+
+Performing inheritance (2) for habitat-free-living 
+   user  system elapsed 
+443.417   1.532 444.913 
+
+Minimum threshold for positives in habitat-free-living was 0.5. 
+
+Size of propagated data for habitat-free-living is 24.4 MB. 
+
+Cleaning nodes for habitat-free-living. 
+   user  system elapsed 
+  1.342   0.040   1.382 
+
+Number of rows for habitat-free-living were 75,775. It took 14 mins. 
+
+ 
+
+habitat-fresh water has 55 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-fresh water. 
+   user  system elapsed 
+  1.773   0.000   1.773 
+
+Performing taxonomic pooling for habitat-fresh water. 
+   user  system elapsed 
+  7.653   0.076   7.728 
+
+Performing inheritance (1) for habitat-fresh water. 
+   user  system elapsed 
+ 10.544   0.016  10.559 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-fresh water. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-fresh water. 
+   user  system elapsed 
+  1.345   0.012   1.357 
+
+Number of rows for habitat-fresh water were 3,648. It took 1 mins. 
+
+ 
+
+habitat-gastrointestinal tract has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-gastrointestinal tract. 
+   user  system elapsed 
+  1.745   0.008   1.752 
+
+Performing taxonomic pooling for habitat-gastrointestinal tract. 
+   user  system elapsed 
+  7.856   0.052   7.908 
+
+Performing inheritance (1) for habitat-gastrointestinal tract. 
+   user  system elapsed 
+  2.127   0.000   2.127 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-gastrointestinal tract. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-gastrointestinal tract. 
+   user  system elapsed 
+  1.328   0.000   1.327 
+
+Number of rows for habitat-gastrointestinal tract were 18. It took 0 mins. 
+
+ 
+
+habitat-groundwater has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-groundwater. 
+   user  system elapsed 
+  1.755   0.028   1.782 
+
+Performing taxonomic pooling for habitat-groundwater. 
+   user  system elapsed 
+  6.301   0.032   6.331 
+
+Performing inheritance (1) for habitat-groundwater. 
+   user  system elapsed 
+  2.168   0.000   2.168 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-groundwater. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-groundwater. 
+   user  system elapsed 
+  1.328   0.000   1.328 
+
+Number of rows for habitat-groundwater were 32. It took 0 mins. 
+
+ 
+
+habitat-host-associated has 1,140 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-host-associated. 
+   user  system elapsed 
+  2.150   0.032   2.181 
+
+Performing taxonomic pooling for habitat-host-associated. 
+   user  system elapsed 
+ 11.779   0.020  11.799 
+
+Performing inheritance (1) for habitat-host-associated. 
+   user  system elapsed 
+194.249   0.704 194.937 
+
+Performing ASR for (round 2 of propagation) habitat-host-associated. 
+   user  system elapsed 
+237.080   1.164 238.223 
+
+Mapping annotations for inheritabce 2 for habitat-host-associated. 
+   user  system elapsed 
+  3.621   0.004   3.625 
+
+Performing inheritance (2) for habitat-host-associated 
+   user  system elapsed 
+299.400   0.952 300.324 
+
+Minimum threshold for positives in habitat-host-associated was 0.5. 
+
+Size of propagated data for habitat-host-associated is 24.4 MB. 
+
+Cleaning nodes for habitat-host-associated. 
+   user  system elapsed 
+  1.380   0.056   1.436 
+
+Number of rows for habitat-host-associated were 75,794. It took 13 mins. 
+
+ 
+
+habitat-hot spring has 23 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-hot spring. 
+   user  system elapsed 
+   1.76    0.00    1.76 
+
+Performing taxonomic pooling for habitat-hot spring. 
+   user  system elapsed 
+  6.727   0.068   6.794 
+
+Performing inheritance (1) for habitat-hot spring. 
+   user  system elapsed 
+  3.314   0.016   3.329 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-hot spring. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-hot spring. 
+   user  system elapsed 
+  1.328   0.016   1.344 
+
+Number of rows for habitat-hot spring were 584. It took 0 mins. 
+
+ 
+
+habitat-human gut microbiome has 80 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-human gut microbiome. 
+   user  system elapsed 
+  1.778   0.016   1.793 
+
+Performing taxonomic pooling for habitat-human gut microbiome. 
+   user  system elapsed 
+  7.009   0.004   7.012 
+
+Performing inheritance (1) for habitat-human gut microbiome. 
+   user  system elapsed 
+ 49.052   0.244  49.291 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-human gut microbiome. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-human gut microbiome. 
+   user  system elapsed 
+  1.329   0.000   1.329 
+
+Number of rows for habitat-human gut microbiome were 18,442. It took 1 mins. 
+
+ 
+
+habitat-human microbiome has 109 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-human microbiome. 
+   user  system elapsed 
+  1.797   0.012   1.809 
+
+Performing taxonomic pooling for habitat-human microbiome. 
+   user  system elapsed 
+  6.689   0.048   6.736 
+
+Performing inheritance (1) for habitat-human microbiome. 
+   user  system elapsed 
+ 67.905   0.260  68.159 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-human microbiome. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-human microbiome. 
+   user  system elapsed 
+  1.343   0.072   1.415 
+
+Number of rows for habitat-human microbiome were 26,618. It took 1 mins. 
+
+ 
+
+habitat-human microflora has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-human microflora. 
+   user  system elapsed 
+  1.752   0.000   1.751 
+
+Performing taxonomic pooling for habitat-human microflora. 
+   user  system elapsed 
+  6.300   0.032   6.331 
+
+Performing inheritance (1) for habitat-human microflora. 
+   user  system elapsed 
+  3.704   0.032   3.736 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-human microflora. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-human microflora. 
+   user  system elapsed 
+  1.326   0.016   1.342 
+
+Number of rows for habitat-human microflora were 656. It took 0 mins. 
+
+ 
+
+habitat-human urine has 9 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-human urine. 
+   user  system elapsed 
+  1.752   0.004   1.755 
+
+Performing taxonomic pooling for habitat-human urine. 
+   user  system elapsed 
+  6.246   0.000   6.246 
+
+Performing inheritance (1) for habitat-human urine. 
+   user  system elapsed 
+ 39.841   0.208  40.046 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-human urine. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-human urine. 
+   user  system elapsed 
+  1.347   0.000   1.347 
+
+Number of rows for habitat-human urine were 14,454. It took 1 mins. 
+
+ 
+
+habitat-hydrothermal vent has 5 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-hydrothermal vent. 
+   user  system elapsed 
+  1.749   0.000   1.749 
+
+Performing taxonomic pooling for habitat-hydrothermal vent. 
+   user  system elapsed 
+  6.371   0.000   6.370 
+
+Performing inheritance (1) for habitat-hydrothermal vent. 
+   user  system elapsed 
+  2.185   0.000   2.185 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-hydrothermal vent. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-hydrothermal vent. 
+   user  system elapsed 
+  1.329   0.000   1.330 
+
+Number of rows for habitat-hydrothermal vent were 64. It took 0 mins. 
+
+ 
+
+habitat-hydrothermal vents has 45 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-hydrothermal vents. 
+   user  system elapsed 
+  1.765   0.048   1.813 
+
+Performing taxonomic pooling for habitat-hydrothermal vents. 
+   user  system elapsed 
+  6.671   0.028   6.698 
+
+Performing inheritance (1) for habitat-hydrothermal vents. 
+   user  system elapsed 
+  2.953   0.000   2.952 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-hydrothermal vents. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-hydrothermal vents. 
+   user  system elapsed 
+  1.329   0.000   1.329 
+
+Number of rows for habitat-hydrothermal vents were 484. It took 0 mins. 
+
+ 
+
+habitat-hypersaline salinity has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-hypersaline salinity. 
+   user  system elapsed 
+  1.744   0.008   1.753 
+
+Performing taxonomic pooling for habitat-hypersaline salinity. 
+   user  system elapsed 
+  6.285   0.008   6.293 
+
+Performing inheritance (1) for habitat-hypersaline salinity. 
+   user  system elapsed 
+  2.157   0.028   2.184 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-hypersaline salinity. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-hypersaline salinity. 
+   user  system elapsed 
+  1.330   0.004   1.335 
+
+Number of rows for habitat-hypersaline salinity were 26. It took 0 mins. 
+
+ 
+
+habitat-insect has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-insect. 
+   user  system elapsed 
+  1.751   0.000   1.751 
+
+Performing taxonomic pooling for habitat-insect. 
+   user  system elapsed 
+  6.243   0.000   6.243 
+
+Performing inheritance (1) for habitat-insect. 
+   user  system elapsed 
+  2.107   0.000   2.107 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-insect. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-insect. 
+   user  system elapsed 
+  1.333   0.000   1.333 
+
+Number of rows for habitat-insect were 6. It took 0 mins. 
+
+ 
+
+habitat-insect endosymbiont has 4 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-insect endosymbiont. 
+   user  system elapsed 
+  1.754   0.000   1.753 
+
+Performing taxonomic pooling for habitat-insect endosymbiont. 
+   user  system elapsed 
+  6.255   0.008   6.262 
+
+Performing inheritance (1) for habitat-insect endosymbiont. 
+   user  system elapsed 
+  2.213   0.000   2.213 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-insect endosymbiont. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-insect endosymbiont. 
+   user  system elapsed 
+  1.325   0.000   1.324 
+
+Number of rows for habitat-insect endosymbiont were 54. It took 0 mins. 
+
+ 
+
+habitat-intertidal zone has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-intertidal zone. 
+   user  system elapsed 
+  1.755   0.000   1.755 
+
+Performing taxonomic pooling for habitat-intertidal zone. 
+   user  system elapsed 
+  6.256   0.016   6.272 
+
+Performing inheritance (1) for habitat-intertidal zone. 
+   user  system elapsed 
+  2.162   0.008   2.170 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-intertidal zone. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-intertidal zone. 
+   user  system elapsed 
+  1.335   0.000   1.334 
+
+Number of rows for habitat-intertidal zone were 32. It took 0 mins. 
+
+ 
+
+habitat-intestinal microflora has 5 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-intestinal microflora. 
+   user  system elapsed 
+  1.748   0.000   1.749 
+
+Performing taxonomic pooling for habitat-intestinal microflora. 
+   user  system elapsed 
+  6.364   0.036   6.400 
+
+Performing inheritance (1) for habitat-intestinal microflora. 
+   user  system elapsed 
+  4.775   0.040   4.815 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-intestinal microflora. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-intestinal microflora. 
+   user  system elapsed 
+  1.321   0.048   1.369 
+
+Number of rows for habitat-intestinal microflora were 1,098. It took 0 mins. 
+
+ 
+
+habitat-large intestine has 81 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-large intestine. 
+   user  system elapsed 
+  1.793   0.004   1.796 
+
+Performing taxonomic pooling for habitat-large intestine. 
+   user  system elapsed 
+  6.651   0.052   6.703 
+
+Performing inheritance (1) for habitat-large intestine. 
+   user  system elapsed 
+ 12.300   0.024  12.322 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-large intestine. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-large intestine. 
+   user  system elapsed 
+  1.329   0.000   1.329 
+
+Number of rows for habitat-large intestine were 4,306. It took 1 mins. 
+
+ 
+
+habitat-lentic water body has 6 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-lentic water body. 
+   user  system elapsed 
+  1.751   0.008   1.759 
+
+Performing taxonomic pooling for habitat-lentic water body. 
+   user  system elapsed 
+  6.295   0.000   6.294 
+
+Performing inheritance (1) for habitat-lentic water body. 
+   user  system elapsed 
+  2.434   0.012   2.446 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-lentic water body. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-lentic water body. 
+   user  system elapsed 
+  1.337   0.028   1.366 
+
+Number of rows for habitat-lentic water body were 150. It took 0 mins. 
+
+ 
+
+habitat-lotic water body has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-lotic water body. 
+   user  system elapsed 
+  1.755   0.000   1.755 
+
+Performing taxonomic pooling for habitat-lotic water body. 
+   user  system elapsed 
+  6.289   0.024   6.313 
+
+Performing inheritance (1) for habitat-lotic water body. 
+   user  system elapsed 
+  2.122   0.000   2.123 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-lotic water body. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-lotic water body. 
+   user  system elapsed 
+  1.328   0.004   1.332 
+
+Number of rows for habitat-lotic water body were 16. It took 0 mins. 
+
+ 
+
+habitat-mammal has 24 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-mammal. 
+   user  system elapsed 
+  1.760   0.000   1.759 
+
+Performing taxonomic pooling for habitat-mammal. 
+   user  system elapsed 
+  6.329   0.024   6.353 
+
+Performing inheritance (1) for habitat-mammal. 
+   user  system elapsed 
+  9.868   0.004   9.871 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-mammal. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-mammal. 
+   user  system elapsed 
+   1.34    0.00    1.34 
+
+Number of rows for habitat-mammal were 3,174. It took 0 mins. 
+
+ 
+
+habitat-marine water body has 88 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-marine water body. 
+   user  system elapsed 
+  1.788   0.020   1.808 
+
+Performing taxonomic pooling for habitat-marine water body. 
+   user  system elapsed 
+  7.232   0.032   7.263 
+
+Performing inheritance (1) for habitat-marine water body. 
+   user  system elapsed 
+ 10.781   0.036  10.816 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-marine water body. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-marine water body. 
+   user  system elapsed 
+  1.327   0.004   1.330 
+
+Number of rows for habitat-marine water body were 3,728. It took 1 mins. 
+
+ 
+
+habitat-metal has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-metal. 
+   user  system elapsed 
+   1.76    0.00    1.76 
+
+Performing taxonomic pooling for habitat-metal. 
+   user  system elapsed 
+  6.245   0.008   6.253 
+
+Performing inheritance (1) for habitat-metal. 
+   user  system elapsed 
+  2.237   0.020   2.257 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-metal. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-metal. 
+   user  system elapsed 
+  1.327   0.004   1.331 
+
+Number of rows for habitat-metal were 66. It took 0 mins. 
+
+ 
+
+habitat-mine has 7 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-mine. 
+   user  system elapsed 
+  1.755   0.000   1.754 
+
+Performing taxonomic pooling for habitat-mine. 
+   user  system elapsed 
+  7.896   0.048   7.944 
+
+Performing inheritance (1) for habitat-mine. 
+   user  system elapsed 
+  2.270   0.004   2.274 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-mine. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-mine. 
+   user  system elapsed 
+   1.33    0.00    1.33 
+
+Number of rows for habitat-mine were 86. It took 0 mins. 
+
+ 
+
+habitat-mud has 9 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-mud. 
+   user  system elapsed 
+  1.755   0.000   1.754 
+
+Performing taxonomic pooling for habitat-mud. 
+   user  system elapsed 
+  6.532   0.040   6.572 
+
+Performing inheritance (1) for habitat-mud. 
+   user  system elapsed 
+  2.815   0.048   2.863 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-mud. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-mud. 
+   user  system elapsed 
+  1.337   0.028   1.365 
+
+Number of rows for habitat-mud were 348. It took 0 mins. 
+
+ 
+
+habitat-multiple has 313 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-multiple. 
+   user  system elapsed 
+  1.878   0.028   1.906 
+
+Performing taxonomic pooling for habitat-multiple. 
+   user  system elapsed 
+ 12.373   0.024  12.396 
+
+Performing inheritance (1) for habitat-multiple. 
+   user  system elapsed 
+138.170   0.536 138.694 
+
+Performing ASR for (round 2 of propagation) habitat-multiple. 
+   user  system elapsed 
+206.852   1.052 207.884 
+
+Mapping annotations for inheritabce 2 for habitat-multiple. 
+   user  system elapsed 
+  3.356   0.028   3.384 
+
+Performing inheritance (2) for habitat-multiple 
+   user  system elapsed 
+404.906   1.540 406.413 
+
+Minimum threshold for positives in habitat-multiple was 0.5. 
+
+Size of propagated data for habitat-multiple is 24.4 MB. 
+
+Cleaning nodes for habitat-multiple. 
+   user  system elapsed 
+  1.333   0.052   1.385 
+
+Number of rows for habitat-multiple were 75,732. It took 13 mins. 
+
+ 
+
+habitat-nasopharyngeal cavity has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-nasopharyngeal cavity. 
+   user  system elapsed 
+  1.749   0.004   1.753 
+
+Performing taxonomic pooling for habitat-nasopharyngeal cavity. 
+   user  system elapsed 
+  6.288   0.000   6.288 
+
+Performing inheritance (1) for habitat-nasopharyngeal cavity. 
+   user  system elapsed 
+  5.614   0.028   5.642 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-nasopharyngeal cavity. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-nasopharyngeal cavity. 
+   user  system elapsed 
+  1.325   0.000   1.325 
+
+Number of rows for habitat-nasopharyngeal cavity were 1,408. It took 0 mins. 
+
+ 
+
+habitat-not host-associated has 1,877 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-not host-associated. 
+   user  system elapsed 
+  2.335   0.004   2.340 
+
+Performing taxonomic pooling for habitat-not host-associated. 
+   user  system elapsed 
+ 22.431   0.088  22.517 
+
+Performing inheritance (1) for habitat-not host-associated. 
+   user  system elapsed 
+215.335   0.772 216.089 
+
+Performing ASR for (round 2 of propagation) habitat-not host-associated. 
+   user  system elapsed 
+248.080   1.256 249.313 
+
+Mapping annotations for inheritabce 2 for habitat-not host-associated. 
+   user  system elapsed 
+  3.738   0.008   3.746 
+
+Performing inheritance (2) for habitat-not host-associated 
+   user  system elapsed 
+258.272   0.876 259.126 
+
+Minimum threshold for positives in habitat-not host-associated was 0.5. 
+
+Size of propagated data for habitat-not host-associated is 24.4 MB. 
+
+Cleaning nodes for habitat-not host-associated. 
+   user  system elapsed 
+  1.354   0.004   1.357 
+
+Number of rows for habitat-not host-associated were 75,793. It took 13 mins. 
+
+ 
+
+habitat-ocean trench has 4 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-ocean trench. 
+   user  system elapsed 
+  1.758   0.000   1.758 
+
+Performing taxonomic pooling for habitat-ocean trench. 
+   user  system elapsed 
+  6.365   0.044   6.408 
+
+Performing inheritance (1) for habitat-ocean trench. 
+   user  system elapsed 
+  2.202   0.000   2.202 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-ocean trench. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-ocean trench. 
+   user  system elapsed 
+  1.324   0.000   1.324 
+
+Number of rows for habitat-ocean trench were 64. It took 0 mins. 
+
+ 
+
+habitat-oil field production water has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-oil field production water. 
+   user  system elapsed 
+  1.763   0.000   1.762 
+
+Performing taxonomic pooling for habitat-oil field production water. 
+   user  system elapsed 
+  6.289   0.000   6.288 
+
+Performing inheritance (1) for habitat-oil field production water. 
+   user  system elapsed 
+  2.165   0.032   2.197 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-oil field production water. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-oil field production water. 
+   user  system elapsed 
+  1.327   0.012   1.339 
+
+Number of rows for habitat-oil field production water were 40. It took 0 mins. 
+
+ 
+
+habitat-oral has 44 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-oral. 
+   user  system elapsed 
+  1.772   0.012   1.785 
+
+Performing taxonomic pooling for habitat-oral. 
+   user  system elapsed 
+  8.065   0.008   8.072 
+
+Performing inheritance (1) for habitat-oral. 
+   user  system elapsed 
+ 16.295   0.088  16.382 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-oral. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-oral. 
+   user  system elapsed 
+  1.344   0.040   1.384 
+
+Number of rows for habitat-oral were 5,786. It took 1 mins. 
+
+ 
+
+habitat-other host associated has 5 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-other host associated. 
+   user  system elapsed 
+  1.748   0.000   1.747 
+
+Performing taxonomic pooling for habitat-other host associated. 
+   user  system elapsed 
+  6.314   0.036   6.350 
+
+Performing inheritance (1) for habitat-other host associated. 
+   user  system elapsed 
+ 26.852   0.028  26.878 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-other host associated. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-other host associated. 
+   user  system elapsed 
+  1.330   0.004   1.333 
+
+Number of rows for habitat-other host associated were 9,898. It took 1 mins. 
+
+ 
+
+habitat-phylloplane has 13 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-phylloplane. 
+   user  system elapsed 
+  1.754   0.000   1.754 
+
+Performing taxonomic pooling for habitat-phylloplane. 
+   user  system elapsed 
+  6.309   0.036   6.344 
+
+Performing inheritance (1) for habitat-phylloplane. 
+   user  system elapsed 
+  9.474   0.064   9.536 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-phylloplane. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-phylloplane. 
+   user  system elapsed 
+  1.332   0.024   1.356 
+
+Number of rows for habitat-phylloplane were 2,966. It took 0 mins. 
+
+ 
+
+habitat-plant matter has 83 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-plant matter. 
+   user  system elapsed 
+  1.788   0.000   1.787 
+
+Performing taxonomic pooling for habitat-plant matter. 
+   user  system elapsed 
+  6.562   0.024   6.585 
+
+Performing inheritance (1) for habitat-plant matter. 
+   user  system elapsed 
+ 15.733   0.036  15.768 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-plant matter. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-plant matter. 
+   user  system elapsed 
+   1.33    0.00    1.33 
+
+Number of rows for habitat-plant matter were 5,674. It took 1 mins. 
+
+ 
+
+habitat-pond has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-pond. 
+   user  system elapsed 
+  1.757   0.032   1.789 
+
+Performing taxonomic pooling for habitat-pond. 
+   user  system elapsed 
+  6.275   0.056   6.331 
+
+Performing inheritance (1) for habitat-pond. 
+   user  system elapsed 
+  2.164   0.000   2.164 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-pond. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-pond. 
+   user  system elapsed 
+  1.326   0.000   1.325 
+
+Number of rows for habitat-pond were 32. It took 0 mins. 
+
+ 
+
+habitat-respiratory system has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-respiratory system. 
+   user  system elapsed 
+  1.784   0.004   1.787 
+
+Performing taxonomic pooling for habitat-respiratory system. 
+   user  system elapsed 
+  6.262   0.008   6.269 
+
+Performing inheritance (1) for habitat-respiratory system. 
+   user  system elapsed 
+ 13.352   0.016  13.367 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-respiratory system. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-respiratory system. 
+   user  system elapsed 
+  1.332   0.000   1.333 
+
+Number of rows for habitat-respiratory system were 4,538. It took 1 mins. 
+
+ 
+
+habitat-rhizosphere has 44 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-rhizosphere. 
+   user  system elapsed 
+  1.767   0.048   1.814 
+
+Performing taxonomic pooling for habitat-rhizosphere. 
+   user  system elapsed 
+  6.487   0.028   6.515 
+
+Performing inheritance (1) for habitat-rhizosphere. 
+   user  system elapsed 
+ 15.169   0.076  15.244 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-rhizosphere. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-rhizosphere. 
+   user  system elapsed 
+  1.336   0.004   1.339 
+
+Number of rows for habitat-rhizosphere were 5,330. It took 1 mins. 
+
+ 
+
+habitat-rice paddies has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-rice paddies. 
+   user  system elapsed 
+  1.763   0.016   1.779 
+
+Performing taxonomic pooling for habitat-rice paddies. 
+   user  system elapsed 
+  6.278   0.000   6.277 
+
+Performing inheritance (1) for habitat-rice paddies. 
+   user  system elapsed 
+  2.127   0.008   2.135 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-rice paddies. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-rice paddies. 
+   user  system elapsed 
+  1.334   0.000   1.333 
+
+Number of rows for habitat-rice paddies were 16. It took 0 mins. 
+
+ 
+
+habitat-root has 4 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-root. 
+   user  system elapsed 
+  1.753   0.000   1.753 
+
+Performing taxonomic pooling for habitat-root. 
+   user  system elapsed 
+  7.907   0.008   7.914 
+
+Performing inheritance (1) for habitat-root. 
+   user  system elapsed 
+  3.912   0.000   3.912 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-root. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-root. 
+   user  system elapsed 
+  1.331   0.000   1.330 
+
+Number of rows for habitat-root were 748. It took 0 mins. 
+
+ 
+
+habitat-root nodule has 56 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-root nodule. 
+   user  system elapsed 
+  1.782   0.036   1.818 
+
+Performing taxonomic pooling for habitat-root nodule. 
+   user  system elapsed 
+  6.378   0.012   6.389 
+
+Performing inheritance (1) for habitat-root nodule. 
+   user  system elapsed 
+ 11.272   0.040  11.312 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-root nodule. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-root nodule. 
+   user  system elapsed 
+  1.328   0.000   1.328 
+
+Number of rows for habitat-root nodule were 3,800. It took 1 mins. 
+
+ 
+
+habitat-rumen has 9 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-rumen. 
+   user  system elapsed 
+  1.760   0.000   1.759 
+
+Performing taxonomic pooling for habitat-rumen. 
+   user  system elapsed 
+  6.357   0.036   6.392 
+
+Performing inheritance (1) for habitat-rumen. 
+   user  system elapsed 
+  3.430   0.000   3.429 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-rumen. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-rumen. 
+   user  system elapsed 
+  1.323   0.000   1.323 
+
+Number of rows for habitat-rumen were 568. It took 0 mins. 
+
+ 
+
+habitat-saline evaporation pond has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-saline evaporation pond. 
+   user  system elapsed 
+  1.785   0.024   1.809 
+
+Performing taxonomic pooling for habitat-saline evaporation pond. 
+   user  system elapsed 
+  6.275   0.052   6.327 
+
+Performing inheritance (1) for habitat-saline evaporation pond. 
+   user  system elapsed 
+   2.43    0.00    2.43 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-saline evaporation pond. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-saline evaporation pond. 
+   user  system elapsed 
+  1.317   0.016   1.333 
+
+Number of rows for habitat-saline evaporation pond were 150. It took 0 mins. 
+
+ 
+
+habitat-sea water has 7 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-sea water. 
+   user  system elapsed 
+  1.744   0.024   1.769 
+
+Performing taxonomic pooling for habitat-sea water. 
+   user  system elapsed 
+  6.419   0.000   6.418 
+
+Performing inheritance (1) for habitat-sea water. 
+   user  system elapsed 
+  2.523   0.000   2.523 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-sea water. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-sea water. 
+   user  system elapsed 
+  1.333   0.008   1.341 
+
+Number of rows for habitat-sea water were 214. It took 0 mins. 
+
+ 
+
+habitat-secondary has 55 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-secondary. 
+   user  system elapsed 
+  1.772   0.004   1.777 
+
+Performing taxonomic pooling for habitat-secondary. 
+   user  system elapsed 
+  6.538   0.040   6.577 
+
+Performing inheritance (1) for habitat-secondary. 
+   user  system elapsed 
+ 11.846   0.092  11.937 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-secondary. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-secondary. 
+   user  system elapsed 
+  1.335   0.000   1.335 
+
+Number of rows for habitat-secondary were 4,056. It took 1 mins. 
+
+ 
+
+habitat-sediment has 85 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-sediment. 
+   user  system elapsed 
+  1.797   0.008   1.805 
+
+Performing taxonomic pooling for habitat-sediment. 
+   user  system elapsed 
+  7.303   0.024   7.326 
+
+Performing inheritance (1) for habitat-sediment. 
+   user  system elapsed 
+ 14.749   0.016  14.763 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-sediment. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-sediment. 
+   user  system elapsed 
+  1.325   0.000   1.325 
+
+Number of rows for habitat-sediment were 5,356. It took 1 mins. 
+
+ 
+
+habitat-sludge has 9 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-sludge. 
+   user  system elapsed 
+  1.758   0.000   1.757 
+
+Performing taxonomic pooling for habitat-sludge. 
+   user  system elapsed 
+  6.492   0.040   6.532 
+
+Performing inheritance (1) for habitat-sludge. 
+   user  system elapsed 
+  2.801   0.036   2.836 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-sludge. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-sludge. 
+   user  system elapsed 
+  1.326   0.004   1.331 
+
+Number of rows for habitat-sludge were 322. It took 0 mins. 
+
+ 
+
+habitat-soil has 59 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-soil. 
+   user  system elapsed 
+  1.773   0.004   1.776 
+
+Performing taxonomic pooling for habitat-soil. 
+   user  system elapsed 
+  7.462   0.024   7.486 
+
+Performing inheritance (1) for habitat-soil. 
+   user  system elapsed 
+ 51.875   0.248  52.118 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-soil. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-soil. 
+   user  system elapsed 
+  1.328   0.016   1.344 
+
+Number of rows for habitat-soil were 19,484. It took 1 mins. 
+
+ 
+
+habitat-specialized has 140 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-specialized. 
+   user  system elapsed 
+  1.803   0.008   1.811 
+
+Performing taxonomic pooling for habitat-specialized. 
+   user  system elapsed 
+  9.989   0.004   9.992 
+
+Performing inheritance (1) for habitat-specialized. 
+   user  system elapsed 
+ 32.606   0.208  32.810 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-specialized. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-specialized. 
+   user  system elapsed 
+  1.348   0.008   1.356 
+
+Number of rows for habitat-specialized were 12,898. It took 1 mins. 
+
+ 
+
+habitat-sputum has 4 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-sputum. 
+   user  system elapsed 
+  1.747   0.000   1.747 
+
+Performing taxonomic pooling for habitat-sputum. 
+   user  system elapsed 
+  6.282   0.028   6.310 
+
+Performing inheritance (1) for habitat-sputum. 
+   user  system elapsed 
+ 15.715   0.044  15.757 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-sputum. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-sputum. 
+   user  system elapsed 
+  1.336   0.000   1.336 
+
+Number of rows for habitat-sputum were 5,466. It took 1 mins. 
+
+ 
+
+habitat-submarine has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-submarine. 
+   user  system elapsed 
+   1.75    0.04    1.79 
+
+Performing taxonomic pooling for habitat-submarine. 
+   user  system elapsed 
+  6.271   0.040   6.311 
+
+Performing inheritance (1) for habitat-submarine. 
+   user  system elapsed 
+   2.11    0.00    2.11 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-submarine. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-submarine. 
+   user  system elapsed 
+  1.317   0.008   1.326 
+
+Number of rows for habitat-submarine were 10. It took 0 mins. 
+
+ 
+
+habitat-sulfur spring has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-sulfur spring. 
+   user  system elapsed 
+  1.769   0.004   1.773 
+
+Performing taxonomic pooling for habitat-sulfur spring. 
+   user  system elapsed 
+  6.255   0.004   6.259 
+
+Performing inheritance (1) for habitat-sulfur spring. 
+   user  system elapsed 
+  2.140   0.008   2.149 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-sulfur spring. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-sulfur spring. 
+   user  system elapsed 
+  1.321   0.004   1.326 
+
+Number of rows for habitat-sulfur spring were 18. It took 0 mins. 
+
+ 
+
+habitat-terrestrial biome has 95 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-terrestrial biome. 
+   user  system elapsed 
+  1.792   0.008   1.800 
+
+Performing taxonomic pooling for habitat-terrestrial biome. 
+   user  system elapsed 
+  8.631   0.032   8.663 
+
+Performing inheritance (1) for habitat-terrestrial biome. 
+   user  system elapsed 
+ 49.673   0.172  49.840 
+
+Performing ASR for (round 2 of propagation) habitat-terrestrial biome. 
+   user  system elapsed 
+246.610   1.180 247.768 
+
+Mapping annotations for inheritabce 2 for habitat-terrestrial biome. 
+   user  system elapsed 
+  2.990   0.028   3.017 
+
+Performing inheritance (2) for habitat-terrestrial biome 
+   user  system elapsed 
+565.487   2.176 567.631 
+
+Minimum threshold for positives in habitat-terrestrial biome was 0.5. 
+
+Size of propagated data for habitat-terrestrial biome is 24.4 MB. 
+
+Cleaning nodes for habitat-terrestrial biome. 
+   user  system elapsed 
+  1.359   0.048   1.407 
+
+Number of rows for habitat-terrestrial biome were 75,732. It took 15 mins. 
+
+ 
+
+habitat-vagina has 3 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-vagina. 
+   user  system elapsed 
+   1.75    0.00    1.75 
+
+Performing taxonomic pooling for habitat-vagina. 
+   user  system elapsed 
+  6.281   0.000   6.281 
+
+Performing inheritance (1) for habitat-vagina. 
+   user  system elapsed 
+  3.353   0.000   3.353 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-vagina. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-vagina. 
+   user  system elapsed 
+  1.325   0.000   1.325 
+
+Number of rows for habitat-vagina were 512. It took 0 mins. 
+
+ 
+
+habitat-volcanic field has 1 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-volcanic field. 
+   user  system elapsed 
+  1.757   0.036   1.793 
+
+Performing taxonomic pooling for habitat-volcanic field. 
+   user  system elapsed 
+  6.259   0.060   6.319 
+
+Performing inheritance (1) for habitat-volcanic field. 
+   user  system elapsed 
+  2.097   0.000   2.098 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-volcanic field. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-volcanic field. 
+   user  system elapsed 
+  1.322   0.004   1.326 
+
+Number of rows for habitat-volcanic field were 6. It took 0 mins. 
+
+ 
+
+habitat-waste water has 7 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-waste water. 
+   user  system elapsed 
+  1.759   0.032   1.790 
+
+Performing taxonomic pooling for habitat-waste water. 
+   user  system elapsed 
+  6.359   0.008   6.367 
+
+Performing inheritance (1) for habitat-waste water. 
+   user  system elapsed 
+  8.430   0.016   8.445 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-waste water. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-waste water. 
+   user  system elapsed 
+  1.326   0.008   1.334 
+
+Number of rows for habitat-waste water were 2,560. It took 0 mins. 
+
+ 
+
+habitat-water surface has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-water surface. 
+   user  system elapsed 
+  1.746   0.004   1.750 
+
+Performing taxonomic pooling for habitat-water surface. 
+   user  system elapsed 
+  6.268   0.060   6.328 
+
+Performing inheritance (1) for habitat-water surface. 
+   user  system elapsed 
+  2.340   0.044   2.383 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-water surface. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-water surface. 
+   user  system elapsed 
+  1.346   0.024   1.370 
+
+Number of rows for habitat-water surface were 108. It took 0 mins. 
+
+ 
+
+habitat-wetland has 2 taxa. 
+
+Mapping source annotations to the NCBI tree for habitat-wetland. 
+   user  system elapsed 
+  1.745   0.004   1.749 
+
+Performing taxonomic pooling for habitat-wetland. 
+   user  system elapsed 
+  6.304   0.036   6.340 
+
+Performing inheritance (1) for habitat-wetland. 
+   user  system elapsed 
+  2.254   0.024   2.278 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for habitat-wetland. Stopped after the first round of propagation. 
+
+Cleaning nodes for habitat-wetland. 
+   user  system elapsed 
+  1.338   0.008   1.346 
+
+Number of rows for habitat-wetland were 70. It took 0 mins. 
+
+ 
+
+hydrogen gas producing has 14 taxa. 
+
+Mapping source annotations to the NCBI tree for hydrogen gas producing. 
+   user  system elapsed 
+  1.749   0.000   1.749 
+
+Performing taxonomic pooling for hydrogen gas producing. 
+   user  system elapsed 
+  7.997   0.012   8.008 
+
+Performing inheritance (1) for hydrogen gas producing. 
+   user  system elapsed 
+   2.29    0.00    2.29 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for hydrogen gas producing. Stopped after the first round of propagation. 
+
+Cleaning nodes for hydrogen gas producing. 
+   user  system elapsed 
+  1.323   0.000   1.322 
+
+Number of rows for hydrogen gas producing were 118. It took 0 mins. 
+
+ 
+
+lactate producing has 15 taxa. 
+
+Mapping source annotations to the NCBI tree for lactate producing. 
+   user  system elapsed 
+  1.776   0.024   1.800 
+
+Performing taxonomic pooling for lactate producing. 
+   user  system elapsed 
+  6.339   0.032   6.370 
+
+Performing inheritance (1) for lactate producing. 
+   user  system elapsed 
+    2.3     0.0     2.3 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for lactate producing. Stopped after the first round of propagation. 
+
+Cleaning nodes for lactate producing. 
+   user  system elapsed 
+  1.322   0.000   1.322 
+
+Number of rows for lactate producing were 120. It took 0 mins. 
+
+ 
+
+length has 634 taxa. 
+
+Mapping source annotations to the NCBI tree for length. 
+   user  system elapsed 
+  1.990   0.000   1.991 
+
+Performing taxonomic pooling for length. 
+   user  system elapsed 
+  6.243   0.012   6.254 
+
+Performing inheritance (1) for length. 
+   user  system elapsed 
+138.998   0.424 139.415 
+
+Performing ASR for (round 2 of propagation) length. 
+   user  system elapsed 
+183.966   0.896 184.849 
+
+Mapping annotations for inheritabce 2 for length. 
+   user  system elapsed 
+  3.401   0.000   3.401 
+
+Performing inheritance (2) for length 
+   user  system elapsed 
+407.067   1.500 408.550 
+
+Minimum threshold for positives in length was 0.25. 
+
+Size of propagated data for length is 23.9 MB. 
+
+Cleaning nodes for length. 
+   user  system elapsed 
+  1.352   0.016   1.368 
+
+Number of rows for length were 77,102. It took 13 mins. 
+
+ 
+
+motility has 6,529 taxa. 
+
+Mapping source annotations to the NCBI tree for motility. 
+   user  system elapsed 
+  3.979   0.016   3.994 
+
+Performing taxonomic pooling for motility. 
+   user  system elapsed 
+ 63.436   0.212  63.646 
+
+Performing inheritance (1) for motility. 
+   user  system elapsed 
+210.814   0.744 211.550 
+
+Performing ASR for (round 2 of propagation) motility. 
+   user  system elapsed 
+252.796   1.196 253.976 
+
+Mapping annotations for inheritabce 2 for motility. 
+   user  system elapsed 
+  5.652   0.048   5.700 
+
+Performing inheritance (2) for motility 
+   user  system elapsed 
+209.693   0.724 210.406 
+
+Minimum threshold for positives in motility was 0.5. 
+
+Size of propagated data for motility is 23.6 MB. 
+
+Cleaning nodes for motility. 
+   user  system elapsed 
+  1.335   0.044   1.380 
+
+Number of rows for motility were 75,313. It took 13 mins. 
+
+ 
+
+mutation rate per site per generation has 24 taxa. 
+
+Mapping source annotations to the NCBI tree for mutation rate per site per generation. 
+   user  system elapsed 
+  1.756   0.000   1.756 
+
+Performing taxonomic pooling for mutation rate per site per generation. 
+   user  system elapsed 
+  6.669   0.028   6.697 
+
+Performing inheritance (1) for mutation rate per site per generation. 
+   user  system elapsed 
+ 76.703   0.312  77.012 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for mutation rate per site per generation. Stopped after the first round of propagation. 
+
+Cleaning nodes for mutation rate per site per generation. 
+   user  system elapsed 
+  1.347   0.016   1.363 
+
+Number of rows for mutation rate per site per generation were 43,920. It took 2 mins. 
+
+ 
+
+mutation rate per site per year has 33 taxa. 
+
+Mapping source annotations to the NCBI tree for mutation rate per site per year. 
+   user  system elapsed 
+  1.767   0.012   1.779 
+
+Performing taxonomic pooling for mutation rate per site per year. 
+   user  system elapsed 
+  6.665   0.008   6.673 
+
+Performing inheritance (1) for mutation rate per site per year. 
+   user  system elapsed 
+122.032   0.464 122.488 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for mutation rate per site per year. Stopped after the first round of propagation. 
+
+Cleaning nodes for mutation rate per site per year. 
+   user  system elapsed 
+  1.330   0.004   1.334 
+
+Number of rows for mutation rate per site per year were 94,892. It took 2 mins. 
+
+ 
+
+optimal ph has 878 taxa. 
+
+Mapping source annotations to the NCBI tree for optimal ph. 
+   user  system elapsed 
+  2.060   0.012   2.072 
+
+Performing taxonomic pooling for optimal ph. 
+   user  system elapsed 
+ 16.141   0.084  16.224 
+
+Performing inheritance (1) for optimal ph. 
+   user  system elapsed 
+169.137   0.596 169.721 
+
+Performing ASR for (round 2 of propagation) optimal ph. 
+   user  system elapsed 
+207.006   0.900 207.888 
+
+Mapping annotations for inheritabce 2 for optimal ph. 
+   user  system elapsed 
+  3.565   0.020   3.586 
+
+Performing inheritance (2) for optimal ph 
+   user  system elapsed 
+346.467   1.320 347.763 
+
+Minimum threshold for positives in optimal ph was 0.25. 
+
+Size of propagated data for optimal ph is 25.7 MB. 
+
+Cleaning nodes for optimal ph. 
+   user  system elapsed 
+  1.381   0.008   1.388 
+
+Number of rows for optimal ph were 93,974. It took 13 mins. 
+
+ 
+
+pathogenicity human has 801 taxa. 
+
+Mapping source annotations to the NCBI tree for pathogenicity human. 
+   user  system elapsed 
+  2.032   0.012   2.043 
+
+Performing taxonomic pooling for pathogenicity human. 
+   user  system elapsed 
+ 15.633   0.016  15.648 
+
+Performing inheritance (1) for pathogenicity human. 
+   user  system elapsed 
+168.317   0.648 168.952 
+
+Performing ASR for (round 2 of propagation) pathogenicity human. 
+   user  system elapsed 
+245.074   1.112 246.163 
+
+Mapping annotations for inheritabce 2 for pathogenicity human. 
+   user  system elapsed 
+  3.533   0.016   3.549 
+
+Performing inheritance (2) for pathogenicity human 
+   user  system elapsed 
+346.169   1.268 347.413 
+
+Minimum threshold for positives in pathogenicity human was 0.5. 
+
+Size of propagated data for pathogenicity human is 23.8 MB. 
+
+Cleaning nodes for pathogenicity human. 
+   user  system elapsed 
+  1.352   0.028   1.380 
+
+Number of rows for pathogenicity human were 75,741. It took 13 mins. 
+
+ 
+
+plant pathogenicity has 1,476 taxa. 
+
+Mapping source annotations to the NCBI tree for plant pathogenicity. 
+   user  system elapsed 
+  2.221   0.000   2.220 
+
+Performing taxonomic pooling for plant pathogenicity. 
+   user  system elapsed 
+ 19.516   0.112  19.626 
+
+Performing inheritance (1) for plant pathogenicity. 
+   user  system elapsed 
+211.605   0.680 212.268 
+
+Performing ASR for (round 2 of propagation) plant pathogenicity. 
+   user  system elapsed 
+112.052   0.512 112.551 
+
+Mapping annotations for inheritabce 2 for plant pathogenicity. 
+   user  system elapsed 
+  3.711   0.036   3.748 
+
+Performing inheritance (2) for plant pathogenicity 
+   user  system elapsed 
+264.674   1.064 265.715 
+
+Minimum threshold for positives in plant pathogenicity was 0.5. 
+
+Size of propagated data for plant pathogenicity is 23.8 MB. 
+
+Cleaning nodes for plant pathogenicity. 
+   user  system elapsed 
+  1.366   0.008   1.375 
+
+Number of rows for plant pathogenicity were 75,716. It took 11 mins. 
+
+ 
+
+shape has 3,969 taxa. 
+
+Mapping source annotations to the NCBI tree for shape. 
+   user  system elapsed 
+  3.119   0.012   3.131 
+
+Performing taxonomic pooling for shape. 
+   user  system elapsed 
+ 34.516   0.108  34.620 
+
+Performing inheritance (1) for shape. 
+   user  system elapsed 
+260.027   1.004 261.008 
+
+Performing ASR for (round 2 of propagation) shape. 
+   user  system elapsed 
+418.176   2.352 420.491 
+
+Mapping annotations for inheritabce 2 for shape. 
+   user  system elapsed 
+  4.024   0.016   4.040 
+
+Performing inheritance (2) for shape 
+   user  system elapsed 
+163.268   0.700 163.954 
+
+Minimum threshold for positives in shape was 0.0476190476190476. 
+
+Size of propagated data for shape is 25.9 MB. 
+
+Cleaning nodes for shape. 
+   user  system elapsed 
+  1.334   0.004   1.338 
+
+Number of rows for shape were 95,799. It took 15 mins. 
+
+ 
+
+sphingolipid producing has 20 taxa. 
+
+Mapping source annotations to the NCBI tree for sphingolipid producing. 
+   user  system elapsed 
+  1.780   0.004   1.783 
+
+Performing taxonomic pooling for sphingolipid producing. 
+   user  system elapsed 
+  6.259   0.012   6.270 
+
+Performing inheritance (1) for sphingolipid producing. 
+   user  system elapsed 
+  9.151   0.000   9.151 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for sphingolipid producing. Stopped after the first round of propagation. 
+
+Cleaning nodes for sphingolipid producing. 
+   user  system elapsed 
+  1.327   0.000   1.327 
+
+Number of rows for sphingolipid producing were 2,852. It took 0 mins. 
+
+ 
+
+spore shape has 708 taxa. 
+
+Mapping source annotations to the NCBI tree for spore shape. 
+   user  system elapsed 
+  1.951   0.072   2.023 
+
+Performing taxonomic pooling for spore shape. 
+   user  system elapsed 
+ 15.384   0.120  15.502 
+
+Performing inheritance (1) for spore shape. 
+   user  system elapsed 
+ 22.784   0.088  22.871 
+
+Not enough data for ASR. Skipping ASR and inhetiance (2) for spore shape. Stopped after the first round of propagation. 
+
+Cleaning nodes for spore shape. 
+   user  system elapsed 
+  1.328   0.000   1.328 
+
+Number of rows for spore shape were 41,640. It took 1 mins. 
+
+ 
+
+width has 798 taxa. 
+
+Mapping source annotations to the NCBI tree for width. 
+   user  system elapsed 
+  2.039   0.068   2.106 
+
+Performing taxonomic pooling for width. 
+   user  system elapsed 
+  6.245   0.012   6.257 
+
+Performing inheritance (1) for width. 
+   user  system elapsed 
+202.446   0.768 203.196 
+
+Performing ASR for (round 2 of propagation) width. 
+   user  system elapsed 
+206.211   1.404 207.597 
+
+Mapping annotations for inheritabce 2 for width. 
+   user  system elapsed 
+  3.634   0.088   3.721 
+
+Performing inheritance (2) for width 
+   user  system elapsed 
+293.301   1.140 294.421 
+
+Minimum threshold for positives in width was 0.25. 
+
+Size of propagated data for width is 23.8 MB. 
+
+Cleaning nodes for width. 
+   user  system elapsed 
+  1.348   0.000   1.348 
+
+Number of rows for width were 76,417. It took 12 mins. 
+
+ 
+
+Propagation ended at 398. Total elapsed time for propagtion for 156 physiologies was 398 min. 
+
+Size of final object is 339.5 MB 
+
+Writing final output file. 
+
+The size of the tsv file is 440.5 MB. Output file name is bugphyzz_export_2023-11-08.tsv. 
+
+─ Session info ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.3.2 (2023-10-31)
+ os       Ubuntu 22.04.3 LTS
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       America/New_York
+ date     2023-11-08
+ pandoc   2.9.2.1 @ /usr/bin/pandoc
+
+─ Packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package           * version    date (UTC) lib source
+ ape               * 5.7-1      2023-03-13 [1] RSPM (R 4.3.1)
+ bit                 4.0.5      2022-11-15 [1] CRAN (R 4.2.2)
+ bit64               4.0.5      2020-08-30 [1] CRAN (R 4.1.2)
+ blob                1.2.4      2023-03-17 [1] CRAN (R 4.2.2)
+ bold                1.3.0      2023-05-02 [1] CRAN (R 4.2.2)
+ bugphyzz          * 0.0.1.4    2023-10-13 [1] Github (waldronlab/bugphyzz@9384f56)
+ bugphyzzExports   * 0.0.0.9000 2023-08-15 [1] Github (waldronlab/bugphyzzExports@0c1e1d3)
+ bugsigdbr           1.8.1      2023-10-29 [1] Bioconductor
+ cachem              1.0.8      2023-05-01 [1] CRAN (R 4.2.2)
+ cli                 3.6.1      2023-03-23 [1] CRAN (R 4.2.2)
+ clusterGeneration   1.3.8      2023-08-16 [1] RSPM (R 4.3.1)
+ coda                0.19-4     2020-09-30 [1] CRAN (R 4.1.2)
+ codetools           0.2-19     2023-02-01 [2] CRAN (R 4.3.2)
+ colorspace          2.1-0      2023-01-23 [1] CRAN (R 4.2.2)
+ combinat            0.0-8      2012-10-29 [1] CRAN (R 4.2.1)
+ common              1.1.0      2023-10-25 [1] CRAN (R 4.3.1)
+ conditionz          0.1.0      2019-04-24 [1] CRAN (R 4.1.2)
+ crayon              1.5.2      2022-09-29 [1] CRAN (R 4.2.1)
+ crul                1.4.0      2023-05-17 [1] CRAN (R 4.3.0)
+ curl                5.1.0      2023-10-02 [1] CRAN (R 4.3.1)
+ data.table          1.14.8     2023-02-17 [1] CRAN (R 4.2.2)
+ data.tree         * 1.0.0      2020-08-03 [1] CRAN (R 4.2.2)
+ DBI                 1.1.3      2022-06-18 [1] CRAN (R 4.2.2)
+ dbplyr              2.4.0      2023-10-26 [1] CRAN (R 4.3.1)
+ digest              0.6.33     2023-07-07 [1] CRAN (R 4.3.1)
+ doParallel          1.0.17     2022-02-07 [1] CRAN (R 4.1.2)
+ dplyr             * 1.1.3      2023-09-03 [1] CRAN (R 4.3.1)
+ expm                0.999-7    2023-01-09 [1] CRAN (R 4.2.2)
+ fansi               1.0.5      2023-10-08 [1] CRAN (R 4.3.1)
+ fastmap             1.1.1      2023-02-24 [1] CRAN (R 4.2.2)
+ fastmatch           1.1-4      2023-08-18 [1] CRAN (R 4.3.1)
+ foreach             1.5.2      2022-02-02 [1] CRAN (R 4.1.2)
+ gdata               3.0.0      2023-10-16 [1] CRAN (R 4.3.1)
+ generics            0.1.3      2022-07-05 [1] CRAN (R 4.2.1)
+ ggplot2           * 3.4.4      2023-10-12 [1] CRAN (R 4.3.1)
+ glue                1.6.2      2022-02-24 [1] CRAN (R 4.3.0)
+ gtable              0.3.4      2023-08-21 [1] CRAN (R 4.3.1)
+ gtools              3.9.4      2022-11-27 [1] CRAN (R 4.2.2)
+ hms                 1.1.3      2023-03-21 [1] CRAN (R 4.2.2)
+ hoardr              0.5.3      2023-01-26 [1] CRAN (R 4.2.2)
+ httpcode            0.3.0      2020-04-10 [1] CRAN (R 4.1.2)
+ igraph              1.5.1      2023-08-10 [1] CRAN (R 4.3.1)
+ iterators           1.0.14     2022-02-05 [1] CRAN (R 4.1.2)
+ jsonlite            1.8.7      2023-06-29 [1] CRAN (R 4.3.1)
+ lattice             0.22-5     2023-10-24 [1] RSPM (R 4.3.2)
+ lifecycle           1.0.4      2023-11-07 [1] CRAN (R 4.3.2)
+ lobstr              1.1.2      2022-06-22 [1] CRAN (R 4.2.0)
+ logr              * 1.3.4      2023-06-25 [1] CRAN (R 4.3.1)
+ magrittr            2.0.3      2022-03-30 [1] CRAN (R 4.1.3)
+ maps              * 3.4.1.1    2023-11-03 [1] CRAN (R 4.3.2)
+ MASS                7.3-60     2023-05-04 [2] CRAN (R 4.3.2)
+ Matrix              1.6-2      2023-11-08 [1] CRAN (R 4.3.2)
+ memoise             2.0.1      2021-11-26 [1] CRAN (R 4.1.2)
+ mgsub               1.7.3      2021-07-28 [1] CRAN (R 4.1.2)
+ mnormt              2.1.1      2022-09-26 [1] CRAN (R 4.2.1)
+ munsell             0.5.0      2018-06-12 [1] CRAN (R 4.1.2)
+ nlme                3.1-163    2023-08-09 [2] CRAN (R 4.3.2)
+ numDeriv            2016.8-1.1 2019-06-06 [1] CRAN (R 4.1.2)
+ optimParallel       1.0-2      2021-02-11 [1] RSPM (R 4.3.1)
+ phangorn            2.11.1     2023-01-23 [1] CRAN (R 4.2.2)
+ phytools          * 1.9-16     2023-07-14 [1] RSPM (R 4.3.1)
+ pillar              1.9.0      2023-03-22 [1] CRAN (R 4.2.2)
+ pkgconfig           2.0.3      2019-09-22 [1] CRAN (R 4.1.2)
+ plotrix             3.8-3      2023-11-02 [1] CRAN (R 4.3.1)
+ purrr             * 1.0.2      2023-08-10 [1] CRAN (R 4.3.1)
+ quadprog            1.5-8      2019-11-20 [1] CRAN (R 4.1.2)
+ R6                  2.5.1      2021-08-19 [1] CRAN (R 4.1.2)
+ rappdirs            0.3.3      2021-01-31 [1] CRAN (R 4.1.2)
+ Rcpp                1.0.11     2023-07-06 [1] CRAN (R 4.3.1)
+ readr               2.1.4      2023-02-10 [1] RSPM (R 4.3.1)
+ rlang               1.1.2      2023-11-04 [1] CRAN (R 4.3.2)
+ RSQLite             2.3.3      2023-11-04 [1] CRAN (R 4.3.2)
+ scales              1.2.1      2022-08-20 [1] CRAN (R 4.2.1)
+ scatterplot3d       0.3-44     2023-05-05 [1] CRAN (R 4.2.2)
+ sessioninfo         1.2.2      2021-12-06 [1] CRAN (R 4.1.2)
+ stringi             1.7.12     2023-01-11 [1] CRAN (R 4.2.2)
+ stringr             1.5.0      2022-12-02 [1] CRAN (R 4.2.2)
+ taxize              0.9.100    2022-04-22 [1] CRAN (R 4.2.2)
+ taxizedb            0.3.1      2023-04-03 [1] CRAN (R 4.2.2)
+ taxPPro           * 0.1.0      2023-11-07 [1] Github (waldronlab/taxPPro@09ed9bd)
+ tibble              3.2.1      2023-03-20 [1] CRAN (R 4.2.2)
+ tidyr             * 1.3.0      2023-01-24 [1] CRAN (R 4.2.2)
+ tidyselect          1.2.0      2022-10-10 [1] CRAN (R 4.2.1)
+ tzdb                0.4.0      2023-05-12 [1] CRAN (R 4.3.0)
+ utf8                1.2.4      2023-10-22 [1] CRAN (R 4.3.1)
+ uuid                1.1-1      2023-08-17 [1] CRAN (R 4.3.1)
+ vctrs               0.6.4      2023-10-12 [1] CRAN (R 4.3.1)
+ withr               2.5.2      2023-10-30 [1] CRAN (R 4.3.1)
+ xml2                1.3.5      2023-07-06 [1] CRAN (R 4.3.1)
+ zoo                 1.8-12     2023-04-13 [1] CRAN (R 4.2.2)
+
+ [1] /mnt/STORE1/lib/R/bioc-release
+ [2] /usr/local/lib/R/library
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+========================================================================= 
+Log End Time: 2023-11-08 19:38:47.90588 
+Log Elapsed Time: 0 06:41:18 
+========================================================================= 

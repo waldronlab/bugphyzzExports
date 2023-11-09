@@ -27,7 +27,7 @@ phys_names <- c(
       'arrangement',
 
     ## multistate-union
-     'habitat'
+     'habitat',
 #    'isolation site',
 #    'disease association',
       'antimicrobial resistance',
