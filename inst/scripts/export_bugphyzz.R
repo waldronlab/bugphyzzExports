@@ -558,9 +558,6 @@ msg <- paste0(
 )
 log_print(msg, blank_after = TRUE)
 
-log_print('Compressing ', final_obj_fname, blank_after = TRUE)
-system2('pbzip2', args = list(final_obj_fname))
-
 si <- sessioninfo::session_info()
 log_print(si, blank_after = TRUE)
 log_close()
