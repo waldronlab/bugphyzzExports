@@ -17,6 +17,7 @@ logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 phys_names <- c(
+        
     ## multistate-intersection
       'aerophilicity',
       'gram stain',
@@ -27,9 +28,9 @@ phys_names <- c(
       'arrangement',
 
     ## multistate-union
-     'habitat',
+      'habitat',
 #    'isolation site',
-#    'disease association',
+      'disease association',
       'antimicrobial resistance',
 
     # 'growth medium',
