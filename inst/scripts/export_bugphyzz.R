@@ -17,47 +17,57 @@ logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 phys_names <- c(
-        
+
     ## multistate-intersection
-      'aerophilicity',
-      'gram stain',
-      'biosafety level',
-      'COGEM pathogenicity rating',
-      'shape',
-      'spore shape',
-      'arrangement',
+    'aerophilicity',
+    'gram stain',
+    'biosafety level',
+    'COGEM pathogenicity rating',
+    'shape',
+    'spore shape',
+    'arrangement',
+    'hemolysis', # check didn't run for this (run independently)
 
     ## multistate-union
-      'habitat',
-#    'isolation site',
-      'disease association',
-      'antimicrobial resistance',
+    'habitat',
+    'disease association',
+    'antimicrobial resistance',
+    'halophily', ## didn't run for this (run independently)
 
+    ## multistate-uninion (but not propagation for these)
+    # 'isolation site',
     # 'growth medium',
+    # 'country',
+    # 'geographic location',
+
+    # 'metabolite production', (consider) I think we should review curation first
+    # 'metabolite utilization' (consider) I think we shoudl review curation first
 
     ## binary
-      'plant pathogenicity',
-      'acetate producing',
-      'sphingolipid producing',
-      'lactate producing',
-      'butyrate producing',
-      'hydrogen gas producing',
-      'pathogenicity human',
-      'motility',
-      'biofilm forming',
-      'extreme environment',
-      'animal pathogen',
-      'antimicrobial sensitivity',
+    'plant pathogenicity',
+    'acetate producing',
+    'sphingolipid producing',
+    'lactate producing',
+    'butyrate producing',
+    'hydrogen gas producing',
+    'pathogenicity human',
+    'motility',
+    'biofilm forming',
+    'extreme environment',
+    'animal pathogen',
+    'antimicrobial sensitivity',
+    'spore formation', # didn' run for this (run independently)
+    'health associated', # didn't run for this (run independently)
 
     ## numeric/range
-      'growth temperature',
-      'optimal ph',
-      'width',
-      'length',
-      'genome size',
-      'coding genes',
-      'mutation rate per site per generation',
-      'mutation rate per site per year'
+    'growth temperature',
+    'optimal ph',
+    'width',
+    'length',
+    'genome size',
+    'coding genes',
+    'mutation rate per site per generation',
+    'mutation rate per site per year'
 )
 
 msg <- paste0(
