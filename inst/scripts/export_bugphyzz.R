@@ -20,54 +20,54 @@ phys_names <- c(
 
     ## multistate-intersection
     'aerophilicity',
-    'gram stain',
-    'biosafety level',
-    'COGEM pathogenicity rating',
-    'shape',
-    'spore shape',
-    'arrangement',
-    'hemolysis', # check didn't run for this (run independently)
+    # 'gram stain',
+    # 'biosafety level',
+    # 'COGEM pathogenicity rating',
+    # 'shape',
+    # 'spore shape',
+    # 'arrangement',
+    # 'hemolysis', # didn't run for this (It must be run independently for cross-validation)
 
     ## multistate-union
     'habitat',
-    'disease association',
-    'antimicrobial resistance',
-    'halophily', ## didn't run for this (run independently)
+    # 'disease association',
+    # 'antimicrobial resistance',
+    # 'halophily', ## Curation must be reviewed
 
     ## multistate-uninion (but not propagation for these)
-    # 'isolation site',
-    # 'growth medium',
-    # 'country',
-    # 'geographic location',
+    # 'isolation site', Do not include. Curation must be reviewed. Compare with habitat.
+    # 'growth medium', Do not include. Curation must be reviewed.
+    # 'country', Do not include.
+    # 'geographic location', Do not include.
 
-    # 'metabolite production', (consider) I think we should review curation first
-    # 'metabolite utilization' (consider) I think we shoudl review curation first
+    # 'metabolite production', Curation must be reviewed before inclusion.
+    # 'metabolite utilization' Curation must be reviewed before inclusion.
 
     ## binary
     'plant pathogenicity',
-    'acetate producing',
-    'sphingolipid producing',
-    'lactate producing',
-    'butyrate producing',
-    'hydrogen gas producing',
-    'pathogenicity human',
-    'motility',
-    'biofilm forming',
-    'extreme environment',
-    'animal pathogen',
-    'antimicrobial sensitivity',
-    'spore formation', # didn' run for this (run independently)
-    'health associated', # didn't run for this (run independently)
+    # 'acetate producing',
+    # 'sphingolipid producing',
+    # 'lactate producing',
+    # 'butyrate producing',
+    # 'hydrogen gas producing',
+    # 'pathogenicity human',
+    # 'motility',
+    # 'biofilm forming',
+    # 'extreme environment',
+    # 'animal pathogen',
+    # 'antimicrobial sensitivity',
+    # 'spore formation', # didn' run for this (run independently for cross-validation)
+    # 'health associated', # didn't run for this (run independently for cross-validation)
 
     ## numeric/range
-    'growth temperature',
-    'optimal ph',
-    'width',
-    'length',
-    'genome size',
-    'coding genes',
-    'mutation rate per site per generation',
-    'mutation rate per site per year'
+    'growth temperature'
+    # 'optimal ph',
+    # 'width',
+    # 'length',
+    # 'genome size',
+    # 'coding genes',
+    # 'mutation rate per site per generation',
+    # 'mutation rate per site per year'
 )
 
 msg <- paste0(
@@ -77,7 +77,7 @@ msg <- paste0(
 log_print(msg, blank_after = TRUE)
 bugphyzz_data <- physiologies(phys_names)
 v_order <- sort(map_int(bugphyzz_data, nrow))
-bugphyz_data <- bugphyzz_data[names(v_order)]
+bugphyzz_data <- bugphyzz_data[names(v_order)]
 
 msg <- paste0(
     'Searching for attributes of type range. They will be converted to type ',
@@ -125,6 +125,109 @@ for (i in seq_along(phys)) {
 }
 log_print("", blank_after = TRUE)
 phys <- discard(phys, is.null)
+
+msg <- paste(
+    'Check that all attributes are valid.',
+    'Invalid values will not be exported.',
+    'Invalid values can be checked on the log file.'
+)
+log_print(msg, blank_after = TRUE)
+
+
+x <- phys$`plant pathogenicity`
+
+
+myFun <- function(dat) {
+    fpath <- file.path('extdata', 'attributes.tsv')
+    attributes_tsv <- system.file(fpath, package = 'bugphyzz')
+    attributes_data <- unique(read.table(fname, header = TRUE, sep = '\t'))
+    ag <- dat |>
+        pull(Attribute_group) |>
+        {\(y) y[!is.na(y)]}() |>
+        unique()
+    current_attrs <- dat |>
+        pull(Attribute) |>
+        {\(y) y[!is.na(y)]}() |>
+        unique()
+    rgx <- paste0('\\b', ag, '\\b')
+
+    valid_attributes <- attributes_data |>
+        filter(grepl(rgx, attribute_group)) |>
+        pull(attribute)
+
+    if (!length(valid_attributes)){
+        msg <- paste0(
+            ag, ' not in valid attribute groups. It needs to be added.'
+        )
+        log(msg)
+        return(NULL)
+    }
+
+    lgl_v <- !current_attrs %in% valid_attributes
+    if (any(lgl_v)) {
+        invalid_values <- current_attrs[which(lgl_v)]
+        msg <- paste0(
+            'These values are not valid for ', ag, ': ',
+            paste0(invalid_values, collapse = ', '), '.'
+        )
+        log_print(msg)
+    }
+    output <- dat |>
+        filter(Attribute %in% valid_attributes)
+    if (!length(output)) {
+        msg <- paste0('No valid attributes for ', ag, '. Dropping it.')
+        log_print(msg)
+        output <- NULL
+    }
+    return(output)
+}
+
+
+more_valid_attributes <- map(categorical, ~ {
+    attr_grp <- unique(.x$Attribute_group)
+    if (attr_grp %in% binaries) {
+        binary_attr <- unique(.x$Attribute)
+        return(binary_attr)
+    }
+}) |>
+    discard(is.null) |>
+    unlist(recursive = TRUE, use.names = FALSE)
+valid_attributes <- unique(c(valid_attributes, more_valid_attributes))
+
+data_ready <- map(categorical, ~ {
+    attr_names <- unique(.x$Attribute)
+    attr_grp <- unique(.x$Attribute_group)
+    lgl <- sum(!attr_names %in% valid_attributes)
+    if (lgl > 0) {
+        invalid_values <- filter(.x, !Attribute %in% valid_attributes)
+        invalid_values <- invalid_values |>
+            select(Attribute_group, Attribute) |>
+            unique() |>
+            as_tibble()
+        log_print(paste0('Invalid values for ', attr_grp, ': '))
+        log_print(invalid_values, blank_after = TRUE)
+    }
+    output <- filter(.x, Attribute %in% valid_attributes)
+    return(output)
+}) |>
+    discard(~ !nrow(.x))
+data_discarded <- names(categorical)[which(!names(categorical) %in% names(data_ready))]
+if (length(data_discarded) > 0) {
+    data_discarded <- paste0(', paste0(data_discarded, collapse = ', '), ')
+    msg <- paste0(
+        "The following physiologies were discarded because they didn't have",
+        " any valid Attribute: ", data_discarded, '.'
+    )
+    log_print(msg, blank_after = TRUE)
+}
+
+
+
+
+
+
+
+
 
 msg <- ('Preparing data for propagation...')
 log_print('', blank_after = TRUE)
