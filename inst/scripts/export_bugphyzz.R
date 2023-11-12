@@ -1,4 +1,10 @@
 
+## Script for importing attribute data from bugphyzz,
+## performing cleaning and propagation,
+## and exporting the data as a single tsv text file and
+## a set of .gmt text files.
+
+## Setup #######################################################################
 suppressMessages({
     library(logr)
     library(bugphyzz)
@@ -12,10 +18,10 @@ suppressMessages({
     library(ape)
     library(bugphyzzExports)
 })
-
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
+## Import data #################################################################
 phys_names <- c(
 
     ## multistate-intersection
@@ -69,7 +75,6 @@ phys_names <- c(
     # 'mutation rate per site per generation',
     # 'mutation rate per site per year'
 )
-
 msg <- paste0(
     'Importing ', length(phys_names), ' physiologies for propagation: ',
     paste0(phys_names, collapse = ', '), '.'
@@ -79,12 +84,12 @@ bugphyzz_data <- physiologies(phys_names)
 v_order <- sort(map_int(bugphyzz_data, nrow))
 bugphyzz_data <- bugphyzz_data[names(v_order)]
 
+## Convert range/numeric physiologies to categorical ###########################
 msg <- paste0(
     'Searching for attributes of type range. They will be converted to type ',
     'multistate-intersection based on thresholds.'
 )
 log_print(msg, blank_after = TRUE)
-
 phys <- vector('list', length(bugphyzz_data))
 for (i in seq_along(phys)) {
     attribute_type <- bugphyzz_data[[i]]$Attribute_type |>
@@ -115,7 +120,6 @@ for (i in seq_along(phys)) {
 
     }
 }
-
 for (i in seq_along(phys)) {
    physName <-  names(phys)[i]
    if (is.null(phys[[i]])) {
@@ -126,21 +130,19 @@ for (i in seq_along(phys)) {
 log_print("", blank_after = TRUE)
 phys <- discard(phys, is.null)
 
+## Check valid attributes ######################################################
 msg <- paste(
     'Check that all attributes are valid.',
     'Invalid values will not be exported.',
     'Invalid values can be checked on the log file.'
 )
 log_print(msg, blank_after = TRUE)
-
-
-x <- phys$`plant pathogenicity`
-
-
-myFun <- function(dat) {
+filterAttributes <- function(dat) {
+    ## This function is for filtering valid attributes based on the
+    ## attributes.tsv file in the bugphyzz R package.
     fpath <- file.path('extdata', 'attributes.tsv')
     attributes_tsv <- system.file(fpath, package = 'bugphyzz')
-    attributes_data <- unique(read.table(fname, header = TRUE, sep = '\t'))
+    attributes_data <- unique(read.table(attributes_tsv, header = TRUE, sep = '\t'))
     ag <- dat |>
         pull(Attribute_group) |>
         {\(y) y[!is.na(y)]}() |>
@@ -150,7 +152,6 @@ myFun <- function(dat) {
         {\(y) y[!is.na(y)]}() |>
         unique()
     rgx <- paste0('\\b', ag, '\\b')
-
     valid_attributes <- attributes_data |>
         filter(grepl(rgx, attribute_group)) |>
         pull(attribute)
@@ -181,54 +182,19 @@ myFun <- function(dat) {
     }
     return(output)
 }
-
-
-more_valid_attributes <- map(categorical, ~ {
-    attr_grp <- unique(.x$Attribute_group)
-    if (attr_grp %in% binaries) {
-        binary_attr <- unique(.x$Attribute)
-        return(binary_attr)
+phys <- map(phys, filterAttributes)
+for (i in seq_along(phys)) {
+    if (!nrow(phys[[i]])) {
+        msg <- paste0(
+            names(phys)[i], ' discarde due to the lack of valid attributes.',
+            ' Please check the log file.'
+        )
     }
-}) |>
-    discard(is.null) |>
-    unlist(recursive = TRUE, use.names = FALSE)
-valid_attributes <- unique(c(valid_attributes, more_valid_attributes))
-
-data_ready <- map(categorical, ~ {
-    attr_names <- unique(.x$Attribute)
-    attr_grp <- unique(.x$Attribute_group)
-    lgl <- sum(!attr_names %in% valid_attributes)
-    if (lgl > 0) {
-        invalid_values <- filter(.x, !Attribute %in% valid_attributes)
-        invalid_values <- invalid_values |>
-            select(Attribute_group, Attribute) |>
-            unique() |>
-            as_tibble()
-        log_print(paste0('Invalid values for ', attr_grp, ': '))
-        log_print(invalid_values, blank_after = TRUE)
-    }
-    output <- filter(.x, Attribute %in% valid_attributes)
-    return(output)
-}) |>
-    discard(~ !nrow(.x))
-data_discarded <- names(categorical)[which(!names(categorical) %in% names(data_ready))]
-if (length(data_discarded) > 0) {
-    data_discarded <- paste0(', paste0(data_discarded, collapse = ', '), ')
-    msg <- paste0(
-        "The following physiologies were discarded because they didn't have",
-        " any valid Attribute: ", data_discarded, '.'
-    )
-    log_print(msg, blank_after = TRUE)
 }
+log_print("", blank_after = TRUE)
+phys <- discard(phys, is.null)
 
-
-
-
-
-
-
-
-
+## Preparing data for propagation ##############################################
 msg <- ('Preparing data for propagation...')
 log_print('', blank_after = TRUE)
 log_print(msg, blank_after = TRUE)
@@ -259,8 +225,8 @@ tim <- system.time({
             taxidWarnings[[i]] <- wngs
     }
     phys_data_ready <- list_flatten(phys_data_ready)
-    ## list_flatten ensures that data from the attributes of type
-    ## multistate-union are separated into data.frames
+    ## list_flatten (line above) ensures that data from attributes of type
+    ## multistate-union are separated into individual data.frames per attribute
 })
 
 
