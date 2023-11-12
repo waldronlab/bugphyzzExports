@@ -186,7 +186,7 @@ phys <- map(phys, filterAttributes)
 for (i in seq_along(phys)) {
     if (!nrow(phys[[i]])) {
         msg <- paste0(
-            names(phys)[i], ' discarde due to the lack of valid attributes.',
+            names(phys)[i], ' discarded due to the lack of valid attributes.',
             ' Please check the log file.'
         )
     }
