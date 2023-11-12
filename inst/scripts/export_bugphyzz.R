@@ -228,8 +228,6 @@ tim <- system.time({
     ## list_flatten (line above) ensures that data from attributes of type
     ## multistate-union are separated into individual data.frames per attribute
 })
-
-
 for (i in seq_along(phys_data_ready)) {
    physName <-  names(phys_data_ready)[i]
    if (is.null(phys_data_ready[[i]])) {
@@ -265,6 +263,7 @@ if (!is.null(taxidWarnings)) {
     log_print(taxidWarnings, blank_after = TRUE)
 }
 
+## Loading tree data ###########################################################
 msg <- paste0('Preparing tree data (NCBI and LTP).')
 log_print(msg)
 tim <- system.time({
@@ -278,6 +277,7 @@ tim <- system.time({
 })
 log_print(tim, blank_after = TRUE)
 
+## Running propagation #########################################################
 start_time <- Sys.time()
 msg <- paste0('Performing propagation. It started at ', start_time, '.')
 log_print(msg, blank_after = TRUE)
@@ -614,7 +614,7 @@ msg <- paste0(
 )
 log_print(msg, blank_after = TRUE)
 
-## Exporting annotations as a single tsv file ####
+## Export tsv file #############################################################
 final_obj <- bind_rows(output)
 final_obj_size <- lobstr::obj_size(final_obj)
 
@@ -630,13 +630,14 @@ final_obj_fname <- paste0('bugphyzz_export_', Sys.Date(), '.tsv')
 write.table(
     x = final_obj, file = final_obj_fname, sep = '\t', row.names = FALSE
 )
-
 fsize <- gdata::humanReadable(file.size(final_obj_fname), standard = "SI")
 msg <- paste0(
     'The size of the tsv file is ', fsize, '. Output file name is ',
     final_obj_fname, '.'
 )
 log_print(msg, blank_after = TRUE)
+
+## Export GMT files ############################################################
 
 si <- sessioninfo::session_info()
 log_print(si, blank_after = TRUE)
