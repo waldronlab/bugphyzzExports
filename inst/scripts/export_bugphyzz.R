@@ -27,18 +27,18 @@ phys_names <- c(
 
     ## multistate-intersection
     'aerophilicity',
-    # 'gram stain',
-    # 'biosafety level',
-    # 'COGEM pathogenicity rating',
-    # 'shape',
-    # 'spore shape',
-    # 'arrangement',
-    # 'hemolysis', # didn't run for this (It must be run independently for cross-validation)
+    'gram stain',
+    'biosafety level',
+    'COGEM pathogenicity rating',
+    'shape',
+    'spore shape',
+    'arrangement',
+    'hemolysis', # didn't run for this (It must be run independently for cross-validation)
 
     ## multistate-union
     'habitat',
-    # 'disease association',
-    # 'antimicrobial resistance',
+    'disease association',
+    'antimicrobial resistance',
     # 'halophily', ## Curation must be reviewed
 
     ## multistate-uninion (but not propagation for these)
@@ -52,29 +52,29 @@ phys_names <- c(
 
     ## binary
     'plant pathogenicity',
-    # 'acetate producing',
-    # 'sphingolipid producing',
-    # 'lactate producing',
-    # 'butyrate producing',
-    # 'hydrogen gas producing',
-    # 'pathogenicity human',
-    # 'motility',
-    # 'biofilm forming',
-    # 'extreme environment',
-    # 'animal pathogen',
-    # 'antimicrobial sensitivity',
-    # 'spore formation', # didn' run for this (run independently for cross-validation)
-    # 'health associated', # didn't run for this (run independently for cross-validation)
+    'acetate producing',
+    'sphingolipid producing',
+    'lactate producing',
+    'butyrate producing',
+    'hydrogen gas producing',
+    'pathogenicity human',
+    'motility',
+    'biofilm forming',
+    'extreme environment',
+    'animal pathogen',
+    'antimicrobial sensitivity',
+    'spore formation', # didn' run for this (run independently for cross-validation)
+    'health associated', # didn't run for this (run independently for cross-validation)
 
     ## numeric/range
-    'growth temperature'
-    # 'optimal ph',
-    # 'width',
-    # 'length',
-    # 'genome size',
-    # 'coding genes',
-    # 'mutation rate per site per generation',
-    # 'mutation rate per site per year'
+    'growth temperature',
+    'optimal ph',
+    'width',
+    'length',
+    'genome size',
+    'coding genes',
+    'mutation rate per site per generation',
+    'mutation rate per site per year'
 )
 msg <- paste0(
     'Importing ', length(phys_names), ' physiologies for propagation: ',
@@ -232,7 +232,7 @@ tim <- system.time({
 for (i in seq_along(phys_data_ready)) {
    physName <-  names(phys_data_ready)[i]
    if (is.null(phys_data_ready[[i]])) {
-       msg <- paste0(phyName, ' will be discarded now. No taxids.')
+       msg <- paste0(physName, ' will be discarded now. No taxids.')
        log_print(msg)
    }
 }
