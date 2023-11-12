@@ -39,7 +39,7 @@ phys_names <- c(
     'habitat',
     'disease association',
     'antimicrobial resistance',
-    'halophily', ## Curation must be reviewed
+    # 'halophily', ## Curation must be reviewed
 
     ## multistate-uninion (but not propagation for these)
     # 'isolation site', Do not include. Curation must be reviewed. Compare with habitat.
