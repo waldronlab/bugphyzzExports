@@ -26,20 +26,20 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 phys_names <- c(
 
     ## multistate-intersection
-    # 'aerophilicity',
-    # 'gram stain',
-    # 'biosafety level',
-    # 'COGEM pathogenicity rating',
-    # 'shape',
-    # 'spore shape',
-    # 'arrangement',
-    # 'hemolysis', # didn't run for this (It must be run independently for cross-validation)
+    'aerophilicity',
+    'gram stain',
+    'biosafety level',
+    'COGEM pathogenicity rating',
+    'shape',
+    'spore shape',
+    'arrangement',
+    'hemolysis', # didn't run for this (It must be run independently for cross-validation)
 
     ## multistate-union
-    # 'habitat',
-    'disease association'
-    # 'antimicrobial resistance',
-    # 'halophily', ## Curation must be reviewed
+    'habitat',
+    'disease association',
+    'antimicrobial resistance',
+    'halophily', ## Curation must be reviewed
 
     ## multistate-uninion (but not propagation for these)
     # 'isolation site', Do not include. Curation must be reviewed. Compare with habitat.
@@ -51,30 +51,30 @@ phys_names <- c(
     # 'metabolite utilization' Curation must be reviewed before inclusion.
 
     ## binary
-    # 'plant pathogenicity',
-    # 'acetate producing',
-    # 'sphingolipid producing',
-    # 'lactate producing',
-    # 'butyrate producing',
-    # 'hydrogen gas producing',
-    # 'pathogenicity human',
-    # 'motility',
-    # 'biofilm forming',
-    # 'extreme environment',
-    # 'animal pathogen',
-    # 'antimicrobial sensitivity',
-    # 'spore formation', # didn' run for this (run independently for cross-validation)
-    # 'health associated', # didn't run for this (run independently for cross-validation)
+    'plant pathogenicity',
+    'acetate producing',
+    'sphingolipid producing',
+    'lactate producing',
+    'butyrate producing',
+    'hydrogen gas producing',
+    'pathogenicity human',
+    'motility',
+    'biofilm forming',
+    'extreme environment',
+    'animal pathogen',
+    'antimicrobial sensitivity',
+    'spore formation', # didn' run for this (run independently for cross-validation)
+    'health associated', # didn't run for this (run independently for cross-validation)
 
     ## numeric/range
-    # 'growth temperature',
-    # 'optimal ph',
-    # 'width',
-    # 'length',
-    # 'genome size',
-    # 'coding genes',
-    # 'mutation rate per site per generation',
-    # 'mutation rate per site per year'
+    'growth temperature',
+    'optimal ph',
+    'width',
+    'length',
+    'genome size',
+    'coding genes',
+    'mutation rate per site per generation',
+    'mutation rate per site per year'
 )
 msg <- paste0(
     'Importing ', length(phys_names), ' physiologies for propagation: ',
