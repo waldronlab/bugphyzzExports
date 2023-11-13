@@ -646,11 +646,11 @@ log_print(msg, blank_after = TRUE)
 
 ## Export tsv file #############################################################
 final_obj <- bind_rows(output) |>
-    select(-taxid, -Attribute_type, -Attribute_group_2, -Score) |>
+    select(-taxid, -Attribute_type, -Attribute_group_2) |>
     mutate(NCBI_ID = sub('^\\w__', '', NCBI_ID)) |>
     relocate(
         NCBI_ID, Taxon_name, Rank, Attribute_group, Attribute,
-        Evidence, Frequency, Attribute_source, Confidence_in_curation
+        Evidence, Frequency, Score, Attribute_source, Confidence_in_curation
     ) |>
     filter(!(grepl('--FALSE$', Attribute) & is.na(Attribute_source))) |>
     filter(Frequency != 'never')
