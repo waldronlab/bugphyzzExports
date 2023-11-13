@@ -677,45 +677,43 @@ msg <- paste0(
 log_print(msg, blank_after = TRUE)
 
 ## Create header for text files ################################################
-# header <- paste0("# bugphyzz ", Sys.Date(),
-#                  ", License: Creative Commons Attribution 4.0 International",
-#                  ", URL: https://waldronlab.io/bugphyzz\n")
-#
-# cat(header, file = final_obj_fname)
+header <- paste0("# bugphyzz ", Sys.Date(),
+                 ", License: Creative Commons Attribution 4.0 International",
+                 ", URL: https://waldronlab.io/bugphyzz\n")
+addHeader <- function(header, out.file) {
+    fconn <- file(out.file, "r+")
+    lines <- readLines(fconn)
+    header <- sub("\n$", "", header)
+    writeLines(c(header, lines), con = fconn)
+    close(fconn)
+}
+addHeader(header, final_obj_fname)
 
 ## Export GMT files ############################################################
-# log_print('Writing GMT files...')
-# ranks <- c('genus', 'strain', 'species', 'mixed')
-# tax_id_types <- c('Taxon_name', 'NCBI_ID')
-#
-# addHeader <- function(header, out.file) {
-#     fconn <- file(out.file, "r+")
-#     lines <- readLines(fconn)
-#     header <- sub("\n$", "", header)
-#     writeLines(c(header, lines), con = fconn)
-#     close(fconn)
-# }
-#
-# l <- length(ranks) * length(tax_id_types)
-# sigs <- vector('list', l)
-# counter <- 1
-# for (i in seq_along(ranks)) {
-#     for (j in seq_along(tax_id_types)) {
-#         names(sigs)[counter] <- paste0(ranks[i], '--', tax_id_types[j])
-#         gmt_file <- paste0(
-#             'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
-#         )
-#         for (k in seq_along(propagated)){
-#             log_print(paste("rank:", ranks[i], "/ tax_id_type:", tax_id_types[j], "/ physiology:", names(propagated)[k]), blank_after = TRUE)
-#             sig <- getBugphyzzSignatures(
-#                 df = propagated[[k]], tax.level = ranks[i], tax.id.type = tax_id_types[j]
-#             )
-#             bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
-#         }
-#         addHeader(header, gmt_file)
-#         counter <- counter + 1
-#     }
-# }
+log_print('Writing GMT files...', blank_after = TRUE)
+ranks <- c('genus', 'strain', 'species', 'mixed')
+tax_id_types <- c('Taxon_name', 'NCBI_ID')
+
+len <- length(ranks) * length(tax_id_types)
+sigs <- vector('list', len)
+counter <- 1
+for (i in seq_along(ranks)) {
+    for (j in seq_along(tax_id_types)) {
+        names(sigs)[counter] <- paste0(ranks[i], '--', tax_id_types[j])
+        gmt_file <- paste0(
+            'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
+        )
+        for (k in seq_along(propagated)){
+            # log_print(paste("rank:", ranks[i], "/ tax_id_type:", tax_id_types[j], "/ physiology:", names(propagated)[k]), blank_after = TRUE)
+            sig <- getBugphyzzSignatures(
+                df = propagated[[k]], tax.level = ranks[i], tax.id.type = tax_id_types[j]
+            )
+            bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
+        }
+        addHeader(header, gmt_file)
+        counter <- counter + 1
+    }
+}
 
 ## Print session information ###################################################
 si <- sessioninfo::session_info()
