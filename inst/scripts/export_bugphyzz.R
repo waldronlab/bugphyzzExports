@@ -646,6 +646,15 @@ log_print(msg, blank_after = TRUE)
 
 ## Export tsv file #############################################################
 final_obj <- bind_rows(output)
+final_obj <- final_obj |>
+    select(-taxid, -Attribute_type, -Attribute_group_2, -Score) |>
+    mutate(NCBI_ID = sub('^\\w__', '', NCBI_ID)) |>
+    relocate(
+        NCBI_ID, Taxon_name, Rank, Attribute_group, Attribute,
+        Evidence, Frequency, Attribute_source, Confidence_in_curation
+    ) |>
+    filter(!grepl('--FALSE$', Attribute) & is.na(Attribute_source)) |>
+    filter(Frequency != 'never')
 final_obj_size <- lobstr::obj_size(final_obj)
 
 msg <- paste0(
