@@ -14,6 +14,11 @@ jobs:
 
     steps:
 
+      - name: Install apt dependencies
+        run: |
+          apt-get update
+          apt-get install -y pbzip2
+
       - name: Free root space
         uses: almahmoud/free-root-space@main
         with:
@@ -29,11 +34,6 @@ jobs:
           pkgs <- c("waldronlab/bugsigdbr", "logr", "BiocFileCache", "tidyverse", "sdgamboa/taxPPro", "waldronlab/bugphyzz", "waldronlab/bugphyzzExports")
           BiocManager::install(pkgs, dependencies = TRUE)
         shell: Rscript {0}
-
-      - name: Install apt dependencies
-        run: |
-          apt-get update
-          apt-get install -y pbzip2
 
       - name: Export bugphyzz
         run: |
