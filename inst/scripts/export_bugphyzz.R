@@ -41,7 +41,7 @@ phys_names <- c(
     'antimicrobial resistance',
     # 'halophily', ## Curation must be reviewed
 
-    ## multistate-uninion (but not propagation for these)
+    ## multistate-uninion (but no propagation for these)
     # 'isolation site', Do not include. Curation must be reviewed. Compare with habitat.
     # 'growth medium', Do not include. Curation must be reviewed.
     # 'country', Do not include.
@@ -270,7 +270,7 @@ log_print(msg)
 tim <- system.time({
     data('tree_list')
     ncbi_tree <- as.Node(tree_list)
-    ltp <- ltp()
+    ltp <- ltp3()
     tree <- reorder(ltp$tree, 'postorder')
     tip_data <- ltp$tip_data
     node_data <- ltp$node_data
@@ -401,7 +401,7 @@ for (i in seq_along(phys_data_ready)) {
         {\(y) y[!is.na(y)]}()
 
     per <- mean(tip_data$taxid %in% new_taxids) * 100
-    if (per < 10) {
+    if (per < 1) {
         msg <- paste0(
             'Not enough data for ASR. Skipping ASR and inhetiance (2) for ', attrGroupMsg,
             '. Stopped after the first round of propagation.'
@@ -434,7 +434,8 @@ for (i in seq_along(phys_data_ready)) {
     tip_data_annotated <- left_join(
         tip_data,
         select(new_dat, taxid, Attribute, Score),
-        by = 'taxid'
+        by = 'taxid',
+        relationship = 'many-to-many'
     )
 
     annotated_tips <- tip_data_annotated |>
@@ -497,19 +498,58 @@ for (i in seq_along(phys_data_ready)) {
     res <- asr$ace
     node_rows <- length(tree$tip.label) + 1:tree$Nnode
     rownames(res)[node_rows] <- tree$node.label
-    res <- res[tree$node.label,]
-    res_df <- res |>
+    res <- res[!grepl('^n\\d+$', rownames(res)),]
+    res <- res[which(!rownames(res) %in% rownames(annotated_tips)),]
+
+    res_tips_df <- res |>
+        as.data.frame() |>
+        tibble::rownames_to_column(var = 'tip_label') |>
+        filter(!grepl('^\\d+(\\+\\d+)*$', tip_label))
+
+    res_nodes_df <- res |>
         as.data.frame() |>
         tibble::rownames_to_column(var = 'node_label') |>
-        filter(!grepl('^n\\d+', node_label))
+        filter(grepl('^\\d+(\\+\\d+)*$', node_label))
 
-    ## Get annotations for nodes
-    node_data_annotated <- ltp$node_data |>
-        filter(node_label %in% unique(res_df$node_label)) |>
-        select(node_label, taxid, Taxon_name, Rank)
+    ## Get annotations for tips and nodes
+    new_tips_data <- ltp$tip_data |>
+        filter(tip_label %in% unique(res_tips_df$tip_label)) |>
+        select(tip_label, taxid, Taxon_name, Rank) |>
+        group_by(taxid) |>
+        slice_max(order_by = tip_label, n = 1) |>
+        ungroup() |>
+        left_join(res_tips_df, by = 'tip_label') |>
+        mutate(
+            NCBI_ID = case_when(
+                Rank == 'species' ~ paste0('s__', taxid),
+                Rank == 'strain' ~ paste0('t__', taxid)
+            )
+        ) |>
+        filter(Rank %in% c('species', 'strain')) |>
+        mutate(Evidence = 'asr') |>
+        relocate(NCBI_ID, taxid, Taxon_name, Rank, Evidence) |>
+        pivot_longer(
+            cols = 7:last_col(), names_to = 'Attribute', values_to = 'Score'
+        ) |>
+        mutate(
+            Attribute_source = NA,
+            Confidence_in_curation = NA,
+            Attribute_group = attribute_group,
+            Attribute_type = attribute_type,
+            Frequency = case_when(
+                Score == 1 ~ 'always',
+                Score > 0.9 ~ 'usually',
+                Score >= 0.5 ~ 'sometimes',
+                Score > 0 & Score < 0.5 ~ 'rarely',
+                Score == 0 ~ 'never'
+            )
+        ) |>
+        select(-tip_label)
 
-    nodes_annotated <- node_data_annotated |>
-        left_join(res_df, by = 'node_label') |>
+    new_nodes_data <- ltp$node_data |>
+        filter(node_label %in% unique(res_nodes_df$node_label)) |>
+        select(node_label, taxid, Taxon_name, Rank) |>
+        left_join(res_nodes_df, by = 'node_label') |>
         mutate(Rank = ifelse(Rank == 'superkingdom', 'kingdom', Rank)) |>
         mutate(
             NCBI_ID = case_when(
@@ -549,7 +589,63 @@ for (i in seq_along(phys_data_ready)) {
         ) |>
         select(-node_label)
 
-    new_taxa_for_ncbi_tree <- nodes_annotated |>
+
+    # res <- res[tree$node.label,]
+    # res_df <- res |>
+    #     as.data.frame() |>
+    #     tibble::rownames_to_column(var = 'node_label') |>
+    #     filter(!grepl('^n\\d+', node_label))
+
+
+    ## Get annotations for nodes
+    # node_data_annotated <- ltp$node_data |>
+    #     filter(node_label %in% unique(res_df$node_label)) |>
+    #     select(node_label, taxid, Taxon_name, Rank)
+
+    # nodes_annotated <- node_data_annotated |>
+    #     left_join(res_df, by = 'node_label') |>
+    #     mutate(Rank = ifelse(Rank == 'superkingdom', 'kingdom', Rank)) |>
+    #     mutate(
+    #         NCBI_ID = case_when(
+    #             Rank == 'kingdom' ~ paste0('k__', taxid),
+    #             Rank == 'phylum' ~ paste0('p__', taxid),
+    #             Rank == 'class' ~ paste0('c__', taxid),
+    #             Rank == 'order' ~ paste0('o__', taxid),
+    #             Rank == 'family' ~ paste0('f__', taxid),
+    #             Rank == 'genus' ~ paste0('g__', taxid),
+    #             Rank == 'species' ~ paste0('s__', taxid),
+    #             Rank == 'strain' ~ paste0('t__', taxid)
+    #         )
+    #     ) |>
+    #     filter(
+    #         Rank %in% c(
+    #             'kingdom', 'phylum', 'class', 'order', 'family', 'genus',
+    #             'species', 'strain'
+    #         )
+    #     ) |>
+    #     mutate(Evidence = 'asr') |>
+    #     relocate(NCBI_ID, taxid, Taxon_name, Rank, Evidence) |>
+    #     pivot_longer(
+    #         cols = 7:last_col(), names_to = 'Attribute', values_to = 'Score'
+    #     ) |>
+    #     mutate(
+    #         Attribute_source = NA,
+    #         Confidence_in_curation = NA,
+    #         Attribute_group = attribute_group,
+    #         Attribute_type = attribute_type,
+    #         Frequency = case_when(
+    #             Score == 1 ~ 'always',
+    #             Score > 0.9 ~ 'usually',
+    #             Score >= 0.5 ~ 'sometimes',
+    #             Score > 0 & Score < 0.5 ~ 'rarely',
+    #             Score == 0 ~ 'never'
+    #         )
+    #     ) |>
+    #     select(-node_label)
+
+    new_taxa_for_ncbi_tree <- bind_rows(
+        list(new_tips_data, new_nodes_data)
+    ) |>
         relocate(NCBI_ID, Rank, Attribute, Score, Evidence)
 
     new_taxa_for_ncbi_tree_list <- split(
@@ -577,7 +673,7 @@ for (i in seq_along(phys_data_ready)) {
     )
     log_print(msg)
     tim <- system.time({
-        ncbi_tree$Do(inh2, traversal = 'pre-order')
+        ncbi_tree$Do(function(nd) inh1(node = nd, adjF = 0.1, evidence_label = 'inh2'), traversal = 'pre-order')
     })
     log_print(tim, blank_after = TRUE)
 
@@ -646,7 +742,7 @@ log_print(msg, blank_after = TRUE)
 
 ## Export tsv file #############################################################
 final_obj <- bind_rows(output) |>
-    select(-taxid, -Attribute_type, -Attribute_group_2) |>
+    select(-taxid, -Attribute_type, -any_of('Attribute_group_2')) |>
     mutate(NCBI_ID = sub('^\\w__', '', NCBI_ID)) |>
     relocate(
         NCBI_ID, Taxon_name, Rank, Attribute_group, Attribute,
@@ -690,9 +786,14 @@ addHeader <- function(header, out.file) {
 addHeader(header, final_obj_fname)
 
 ## Export GMT files ############################################################
+
+## Not ready
+
 log_print('Writing GMT files...', blank_after = TRUE)
 ranks <- c('genus', 'strain', 'species', 'mixed')
 tax_id_types <- c('Taxon_name', 'NCBI_ID')
+
+propagated <- split(final_obj, factor(final_obj$Attribute_group))
 
 len <- length(ranks) * length(tax_id_types)
 sigs <- vector('list', len)
@@ -719,3 +820,4 @@ for (i in seq_along(ranks)) {
 si <- sessioninfo::session_info()
 log_print(si, blank_after = TRUE)
 log_close()
+
