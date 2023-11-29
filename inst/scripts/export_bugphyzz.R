@@ -402,7 +402,7 @@ for (i in seq_along(phys_data_ready)) {
         {\(y) y[!is.na(y)]}()
 
     per <- mean(tip_data$taxid %in% new_taxids) * 100
-    if (per < 1) {
+    if (per < 5) {
         msg <- paste0(
             'Not enough data for ASR. Skipping ASR and inhetiance (2) for ', attrGroupMsg,
             '. Stopped after the first round of propagation.'
