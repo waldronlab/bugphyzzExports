@@ -398,6 +398,7 @@ for (i in seq_along(phys_data_ready)) {
 
     new_taxids <- new_dat |>
         pull(taxid) |>
+        unique() |>
         {\(y) y[!is.na(y)]}()
 
     per <- mean(tip_data$taxid %in% new_taxids) * 100
@@ -496,8 +497,8 @@ for (i in seq_along(phys_data_ready)) {
     log_print(tim, blank_after = TRUE)
 
     res <- asr$ace
-    node_rows <- length(tree$tip.label) + 1:tree$Nnode
-    rownames(res)[node_rows] <- tree$node.label
+    rows_with_nodes <- length(tree$tip.label) + 1:tree$Nnode
+    rownames(res)[rows_with_nodes] <- tree$node.label
     res <- res[!grepl('^n\\d+$', rownames(res)),]
     res <- res[which(!rownames(res) %in% rownames(annotated_tips)),]
 
@@ -587,8 +588,8 @@ for (i in seq_along(phys_data_ready)) {
                 Score == 0 ~ 'never'
             )
         ) |>
-        select(-node_label)
-
+        select(-node_label) |>
+        filter(!NCBI_ID %in% new_dat$NCBI_ID)
 
     # res <- res[tree$node.label,]
     # res_df <- res |>
@@ -693,14 +694,25 @@ for (i in seq_along(phys_data_ready)) {
     )
     log_print(msg, blank_after = TRUE)
 
-    add_taxa_1 <- dat |>
-        filter(!NCBI_ID %in% unique(result$NCBI_ID)) |>
-        discard(~ all(is.na(.x)))
-    add_taxa_2 <- new_taxa_for_ncbi_tree |>
-        filter(!NCBI_ID %in% unique(result$NCBI_ID)) |>
-        discard(~ all(is.na(.x)))
-    final_result <- bind_rows(list(result, add_taxa_1, add_taxa_2)) |>
+
+    ## Output of taxpool, inheritance, and
+    ##
+
+    final_result <- bind_rows(
+        new_dat, # contains source, tax, and inh,
+        new_taxa_for_ncbi_tree, # only contains asr (not in new_dat)
+        filter(result, Evidence == 'inh2')
+    ) |>
         filter(Score > min_thr)
+
+    # add_taxa_1 <- new_dat |>
+    #     filter(!NCBI_ID %in% unique(result$NCBI_ID)) |>
+    #     discard(~ all(is.na(.x)))
+    # add_taxa_2 <- new_taxa_for_ncbi_tree |>
+    #     filter(!NCBI_ID %in% unique(result$NCBI_ID)) |>
+    #     discard(~ all(is.na(.x)))
+    # final_result <- bind_rows(list(result, add_taxa_1, add_taxa_2)) |>
+    #     filter(Score > min_thr)
 
     final_result_size <- lobstr::obj_size(final_result)
     msg <- paste0(
