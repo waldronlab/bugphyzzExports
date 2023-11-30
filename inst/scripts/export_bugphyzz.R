@@ -775,7 +775,7 @@ log_print(msg, blank_after = TRUE)
 
 msg <- paste0('Writing final output file.')
 log_print(msg, blank_after = TRUE)
-final_obj_fname <- paste0('bugphyzz_export_', Sys.Date(), '.tsv')
+final_obj_fname <- paste0('bugphyzz_export', '.tsv')
 write.table(
     x = final_obj, file = final_obj_fname, sep = '\t', row.names = FALSE
 )
@@ -787,7 +787,7 @@ msg <- paste0(
 log_print(msg, blank_after = TRUE)
 
 ## Create header for text files ################################################
-header <- paste0("# bugphyzz ", Sys.Date(),
+header <- paste0("# bugphyzz ", Sys.time(),
                  ", License: Creative Commons Attribution 4.0 International",
                  ", URL: https://waldronlab.io/bugphyzz\n")
 addHeader <- function(header, out.file) {
