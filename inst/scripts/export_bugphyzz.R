@@ -289,16 +289,17 @@ write.table(
 )
 
 
+all_data <- list(multistate_data, binary_data, numeric_data)
+all_data_list <- purrr::map(all_data, ~ split(.x, .x$Attribute_group)) |>
+    purrr::list_flatten()
 
 ## Export gmt files
 log_print('Writing GMT files...')
 ranks <- c('genus', 'strain', 'species', 'mixed')
 tax_id_types <- c('Taxon_name', 'NCBI_ID')
 
-
 # helper function to add a header line to an already written dump or GMT file
-addHeader <- function(header, out.file)
-{
+addHeader <- function(header, out.file) {
     fconn <- file(out.file, "r+")
     lines <- readLines(fconn)
     header <- sub("\n$", "", header)
@@ -315,11 +316,15 @@ for (i in seq_along(ranks)) {
         gmt_file <- paste0(
             'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
         )
-        for (k in seq_along(propagated)){
+        for (k in seq_along(all_data_list)){
             log_print(paste("rank:", ranks[i], "/ tax_id_type:", tax_id_types[j], "/ physiology:", names(propagated)[k]), blank_after = TRUE)
-            sig <- getBugphyzzSignatures(
-                df = propagated[[k]], tax.level = ranks[i], tax.id.type = tax_id_types[j]
+            sig <- makeSignatures(
+                dat = all_data_list[[k]], tax_id_type = tax_id_types[j],
+                tax_level = ranks[i]
             )
+            if (!length(sig)) {
+                next
+            }
             bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
         }
         addHeader(header, gmt_file)
@@ -329,5 +334,4 @@ for (i in seq_along(ranks)) {
 
 si <- sessioninfo::session_info()
 log_print(si, blank_after = TRUE)
-
 log_close()
