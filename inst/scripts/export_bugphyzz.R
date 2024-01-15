@@ -39,7 +39,9 @@ attributes_by_type <- list(
         "motility",
         "plant pathogenicity",
         "spore formation",
-        "host-associated"
+        "host-associated",
+        'sphingolipid producing',
+        'butyrate producing'
     ),
     multistate = c( # Attribute_type is multistate-intersection
         "aerophilicity",
@@ -51,9 +53,6 @@ attributes_by_type <- list(
         "arrangement",
         "hemolysis"
     )
-    # do_not_propagate = c(
-    #     "habitat"
-    # )
 )
 
 
@@ -81,9 +80,12 @@ for (i in seq_along(dat_ready)) {
     names(dat_ready)[i] <- names(phys)[i]
 }
 
-# backup <- dat_ready
-# dat_ready <- dat_ready[c("aerophilicity", "growth temperature", "animal pathogen")]
-# dat_ready <- backup
+# h <- physiologies("habitat")[[1]]
+# hl <- split(h, h$Attribute) |>
+#     purrr::map(~ mutate(.x, Attribute_type = "binary")) |>
+#     purrr::map(~ getDataReady(filterData(.x))) |>
+#     purrr::map(~ mutate(.x, Attribute_type = "unary"))
+# dat_ready <- c(dat_ready, hl)
 
 propagated <- vector('list', length(dat_ready))
 for (i in seq_along(propagated)) {
@@ -100,169 +102,279 @@ for (i in seq_along(propagated)) {
     log_print(msg)
 
     fdat <- left_join(
-        tip_data, dat_ready[[i]], by = 'NCBI_ID',
+        tip_data, dat, by = 'NCBI_ID',
         relationship = "many-to-many"
     )
 
-    if (attr_type %in% c("multistate-intersection", "binary")) {
-        ## Propagation multistate ####
-        annotated_tips <- fdat |>
-            filter(!is.na(Attribute)) |> # NAs in the Attribute column correspond to unnanotated tips
-            select(tip_label, Attribute, Score) |>
-            pivot_wider(
-                names_from = "Attribute", values_from = "Score", values_fill = 0
-            ) |>
-            column_to_rownames(var = "tip_label") |>
-            as.data.frame() |>
-            as.matrix()
-        no_annotated_tips_names <- fdat |>
-            filter(is.na(Attribute)) |>
-            pull(tip_label)
-        no_annotated_tips <- matrix(
-            data = rep(1/ncol(annotated_tips), length(no_annotated_tips_names) * ncol(annotated_tips)),
-            ncol = ncol(annotated_tips),
-            dimnames = list(rownames = no_annotated_tips_names, colnames = colnames(annotated_tips))
-        )
-        input_mat <- rbind(annotated_tips, no_annotated_tips)
-        input_mat <- input_mat[tree$tip.label, ]
+    tim <- system.time({
+        if (attr_type %in% c("multistate-intersection", "binary")) {
+            ## Propagation multistate ####
+            annotated_tips <- fdat |>
+                filter(!is.na(Attribute)) |> # NAs in the Attribute column correspond to unnanotated tips
+                select(tip_label, Attribute, Score) |>
+                pivot_wider(
+                    names_from = "Attribute", values_from = "Score", values_fill = 0
+                ) |>
+                column_to_rownames(var = "tip_label") |>
+                as.data.frame() |>
+                as.matrix()
 
-        tim <- system.time({
+            ltp_per <- floor(nrow(annotated_tips) / Ntip(tree)  * 100)
+            if (ltp_per < 1) {
+                msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
+                log_print(msg)
+                propagated[[i]] <- dat
+                next
+            }
+
+            no_annotated_tips_names <- fdat |>
+                filter(is.na(Attribute)) |>
+                pull(tip_label)
+            no_annotated_tips <- matrix(
+                data = rep(1/ncol(annotated_tips), length(no_annotated_tips_names) * ncol(annotated_tips)),
+                ncol = ncol(annotated_tips),
+                dimnames = list(rownames = no_annotated_tips_names, colnames = colnames(annotated_tips))
+            )
+            input_mat <- rbind(annotated_tips, no_annotated_tips)
+            input_mat <- input_mat[tree$tip.label, ]
+
             fit <- fitMk(tree = tree, x = input_mat, model = "ER", pi = "equal")
             ace <- ancr(fit, tips = TRUE)
-        })
-        log_print(tim)
-        asr_df <- ace$ace |>
-            as.data.frame() |>
-            rownames_to_column(var = "label") |>
-            filter(label %in% tree_data$label) |>
-            filter(!label %in% rownames(annotated_tips)) |>
-            pivot_longer(
-                names_to = "Attribute", values_to = "Score", cols = 2:last_col()
-            ) |>
-            left_join(tree_data, by = "label") |>
-            filter(!is.na(NCBI_ID)) |>
-            filter(!NCBI_ID %in% unique(dat$NCBI_ID)) |>
-            mutate(
-                Evidence = 'asr',
-                Confidence_in_curation = NA,
-                Attribute_source = NA,
-                Frequency = scores2Freq(Score)
-            )
-        if (attr_type == "multistate-intersection") {
-            res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
+
+            asr_df <- ace$ace |>
+                as.data.frame() |>
+                rownames_to_column(var = "label") |>
+                filter(label %in% tree_data$label) |>
+                filter(!label %in% rownames(annotated_tips)) |>
+                pivot_longer(
+                    names_to = "Attribute", values_to = "Score", cols = 2:last_col()
+                ) |>
+                left_join(tree_data, by = "label") |>
+                filter(!is.na(NCBI_ID)) |>
+                filter(!NCBI_ID %in% unique(dat$NCBI_ID)) |>
                 mutate(
-                    Attribute_group = attr_grp,
-                    Attribute_type = attr_type
-                ) |>
-                rename(Attribute_value = Attribute) |>
-                mutate(Attribute = Attribute_group) |>
-                relocate(
-                    NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
-                    Frequency, Score,
-                    Attribute_source, Confidence_in_curation
-                ) |>
-                select(-label)
-        } else if (attr_type == "binary") {
-            res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
-                mutate(
-                    Attribute_group = attr_grp,
-                    Attribute_type = attr_type
-                ) |>
-                separate(
-                    col = "Attribute", into = c("Attribute", "Attribute_value"),
-                    sep = "--"
-                ) |>
-                relocate(
-                    NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
-                    Frequency, Score,
-                    Attribute_source, Confidence_in_curation
-                ) |>
-                select(-label)
-        }
-        propagated[[i]] <- res
-        names(propagated)[i] <- names(dat_ready)[i]
-    } else if (attr_type %in% c("range")) { # Provided as a range by physiologies in bugphyzz
-        ## Propagation numeric ####
-        annotated_tips <- fdat |>
-            filter(!is.na(Attribute_value)) |>
-            select(tip_label, Attribute_value) |>
-            column_to_rownames(var = "tip_label") |>
-            as.matrix()
-        no_annotated_tips <- fdat |>
-            filter(is.na(Attribute_value)) |>
-            select(tip_label, Attribute_value) |>
-            column_to_rownames(var = "tip_label") |>
-            as.matrix()
-        input_mat <- rbind(annotated_tips, no_annotated_tips)
-        input_vct <- input_mat[tree$tip.label,, drop = TRUE]
-        tim <- system.time({
+                    Evidence = 'asr',
+                    Confidence_in_curation = NA,
+                    Attribute_source = NA,
+                    Frequency = scores2Freq(Score)
+                )
+            if (attr_type == "multistate-intersection") {
+                res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
+                    mutate(
+                        Attribute_group = attr_grp,
+                        Attribute_type = attr_type
+                    ) |>
+                    rename(Attribute_value = Attribute) |>
+                    mutate(Attribute = Attribute_group) |>
+                    relocate(
+                        NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
+                        Frequency, Score,
+                        Attribute_source, Confidence_in_curation
+                    ) |>
+                    select(-label)
+            } else if (attr_type == "binary") {
+                res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
+                    mutate(
+                        Attribute_group = attr_grp,
+                        Attribute_type = attr_type
+                    ) |>
+                    separate(
+                        col = "Attribute", into = c("Attribute", "Attribute_value"),
+                        sep = "--"
+                    ) |>
+                    relocate(
+                        NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
+                        Frequency, Score,
+                        Attribute_source, Confidence_in_curation
+                    ) |>
+                    select(-label)
+            }
+            propagated[[i]] <- res
+            names(propagated)[i] <- names(dat_ready)[i]
+        # } else if (attr_type %in% c("multistate-union")) {
+            ## This didn't work as expected. Maybe it's better to not propagate
+            ## unary attributes
+        #     annotated_tips <- fdat |>
+        #         filter(!is.na(Attribute)) |> # NAs in the Attribute column correspond to unnanotated tips
+        #         select(tip_label, Attribute, Score) |>
+        #         pivot_wider(
+        #             names_from = "Attribute", values_from = "Score", values_fill = 0
+        #         ) |>
+        #         column_to_rownames(var = "tip_label") |>
+        #         as.data.frame() |>
+        #         as.matrix()
+        #
+        #     ltp_per <- floor(nrow(annotated_tips) / Ntip(tree)  * 100)
+        #     if (ltp_per < 1) {
+        #         msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
+        #         log_print(msg)
+        #         propagated[[i]] <- dat
+        #         next
+        #     }
+        #
+        #     no_annotated_tips_names <- fdat |>
+        #         filter(is.na(Attribute)) |>
+        #         pull(tip_label)
+        #     no_annotated_tips <- matrix(
+        #         data = rep(c(1,0), length(no_annotated_tips_names) * ncol(annotated_tips) / 2),
+        #         ncol = ncol(annotated_tips), byrow = TRUE,
+        #         dimnames = list(rownames = no_annotated_tips_names, colnames = colnames(annotated_tips))
+        #     )
+        #     input_mat <- rbind(annotated_tips, no_annotated_tips)
+        #     input_mat <- input_mat[tree$tip.label, ]
+        #
+        #     fit <- fitMk(tree = tree, x = input_mat, model = "ER", pi = "equal")
+        #     ace <- ancr(fit, tips = TRUE)
+        #
+        #     asr_df <- ace$ace |>
+        #         as.data.frame() |>
+        #         rownames_to_column(var = "label") |>
+        #         filter(label %in% tree_data$label) |>
+        #         filter(!label %in% rownames(annotated_tips)) |>
+        #         pivot_longer(
+        #             names_to = "Attribute", values_to = "Score", cols = 2:last_col()
+        #         ) |>
+        #         left_join(tree_data, by = "label") |>
+        #         filter(!is.na(NCBI_ID)) |>
+        #         filter(!NCBI_ID %in% unique(dat$NCBI_ID)) |>
+        #         mutate(
+        #             Evidence = 'asr',
+        #             Confidence_in_curation = NA,
+        #             Attribute_source = NA,
+        #             Frequency = scores2Freq(Score)
+        #         )
+        #     res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
+        #         mutate(
+        #             Attribute_group = attr_grp,
+        #             Attribute_type = attr_type
+        #         ) |>
+        #         separate(
+        #             col = "Attribute", into = c("Attribute", "Attribute_value"),
+        #             sep = "--"
+        #         ) |>
+        #         filter(Attribute_value == TRUE) |>
+        #         relocate(
+        #             NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
+        #             Frequency, Score,
+        #             Attribute_source, Confidence_in_curation
+        #         ) |>
+        #         select(-label)
+        # }
+        # propagated[[i]] <- res
+        # names(propagated)[i] <- names(dat_ready)[i]
+
+        } else if (attr_type %in% c("range")) { # Provided as a range by physiologies in bugphyzz
+            ## Propagation numeric ####
+            annotated_tips <- fdat |>
+                filter(!is.na(Attribute_value)) |>
+                select(tip_label, Attribute_value) |>
+                column_to_rownames(var = "tip_label") |>
+                as.matrix()
+
+            ltp_per <- round(nrow(annotated_tips) / Ntip(tree)  * 100)
+            if (ltp_per < 1) {
+                msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
+                log_print(msg)
+                propagated[[i]] <- dat
+                next
+            }
+
+            no_annotated_tips <- fdat |>
+                filter(is.na(Attribute_value)) |>
+                select(tip_label, Attribute_value) |>
+                column_to_rownames(var = "tip_label") |>
+                as.matrix()
+            input_mat <- rbind(annotated_tips, no_annotated_tips)
+            input_vct <- input_mat[tree$tip.label,, drop = TRUE]
             asr <- hsp_squared_change_parsimony(
                 tree = tree, tip_states = input_vct, weighted = TRUE,
                 check_input = TRUE
             )
-        })
-        log_print(tim)
-        asr_df <- data.frame(
-            label = c(tree$tip.label, tree$node.label),
-            Attribute_value = asr$states
-        ) |>
-            filter(!grepl("^n\\d+$", label)) |>
-            filter(!label %in% rownames(annotated_tips))
-        nsti <- getNsti(tree = tree, annotated_tip_labels = rownames(annotated_tips))
-        predicted_dat <- left_join(
-            asr_df, nsti, by = c("label" = "tip_label")) |>
-            left_join(tree_data, by = "label") |>
-            select(-label) |>
-            filter(!is.na(NCBI_ID)) |>
-            mutate(
-                Attribute_source = NA,
-                Confidence_in_curation = NA,
-                Frequency = "unknown",
-                Score = NA,
-                Evidence = "asr",
+            asr_df <- data.frame(
+                label = c(tree$tip.label, tree$node.label),
+                Attribute_value = asr$states
             ) |>
-            filter(!NCBI_ID %in% dat$NCBI_ID)
-        res <- bind_rows(dat, predicted_dat) |>
-            mutate(
-                Attribute_group = attr_grp,
-                Attribute = attr_grp,
-                Attribute_type = attr_type,
-            ) |>
-            relocate(NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value)
-        propagated[[i]] <- res
-        names(propagated)[i] <- names(dat_ready)[i]
-    }
-}
-
-h <- physiologies("habitat")[[1]]
-hl <- split(h, h$Attribute) |>
-    purrr::map(~ mutate(.x, Attribute_type = "binary")) |>
-    purrr::map(~ {
-        if (any(unique(.x$Attribute_source) == "MiDAS")) {
-            output <- mutate(.x, Frequency = 'always')
-        } else {
-            output <- .x
+                filter(!grepl("^n\\d+$", label)) |>
+                filter(!label %in% rownames(annotated_tips))
+            nsti <- getNsti(tree = tree, annotated_tip_labels = rownames(annotated_tips))
+            predicted_dat <- left_join(
+                asr_df, nsti, by = c("label" = "tip_label")) |>
+                left_join(tree_data, by = "label") |>
+                select(-label) |>
+                filter(!is.na(NCBI_ID)) |>
+                mutate(
+                    Attribute_source = NA,
+                    Confidence_in_curation = NA,
+                    Frequency = "unknown",
+                    Score = NA,
+                    Evidence = "asr",
+                ) |>
+                filter(!NCBI_ID %in% dat$NCBI_ID)
+            res <- bind_rows(dat, predicted_dat) |>
+                mutate(
+                    Attribute_group = attr_grp,
+                    Attribute = attr_grp,
+                    Attribute_type = attr_type,
+                ) |>
+                relocate(NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value)
+            propagated[[i]] <- res
+            names(propagated)[i] <- names(dat_ready)[i]
         }
-        return(output)
     })
 
-hready <- purrr::map(hl, ~ getDataReady(filterData(.x))) |>
-    purrr::map(~ filter(.x, !is.na(Evidence))) |>
-    bind_rows() |>
-    separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--")
+    log_print(tim)
+}
 
+
+## The following physiologies were not propagated. Some reasons:
+## Too few annotations (< 1%)
+## Some are not well defined (might need further review) or redundant (free-linvn and host-associated|FALSE)
+
+## TODO refactor the code below to reduce repetition
+# 'disease association',
+# 'antimicrobial resistance'
+
+## habitat
+h <- physiologies("habitat")[[1]]
+hl <- split(h, h$Attribute) |>
+    purrr::map(~ mutate(.x, Attribute_type = "binary"))
+hready <- purrr::map(hl, ~ getDataReady(filterData(.x))) |>
+    bind_rows() |>
+    separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
+    filter(!is.na(Evidence))
 propagated[["habitat"]] <- hready
+
+## disease association
+da <- physiologies("disease association")[[1]]
+dal <- split(da, da$Attribute) |>
+    purrr::map(~ mutate(.x, Attribute_type = "binary"))
+daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
+    bind_rows() |>
+    separate(col = "Attribute", into = c("Attribute", "Attribute_value", sep = "--")) |>
+    filter(!is.na(Evidence))
+propagated[["disease association"]] <- daready
+
+## antimicrobial resistance
+ar <- physiologies("antimicrobial resistance")[[1]]
+arl <- split(ar, ar$Attribute) |>
+    purrr::map(~ mutate(.x, Attribute_type = "binary"))
+arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
+    bind_rows() |>
+    separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
+    filter(!is.na(Evidence))
+propagated[["antimicrobial resistance"]] <- arready
 
 final_set <- propagated |>
     purrr::map(~ {
         .x |>
             select(-taxid) |>
-            mutate(NCBI_ID = sub("^\\w__", "", NCBI_ID))
+            mutate(NCBI_ID = sub("^\\w__", "", NCBI_ID)) |>
+            filter(!is.na(Evidence))
 
     })
 
 multistate_data <- bind_rows(final_set[attributes_by_type$multistate])
-binary_data <- bind_rows(final_set[c(attributes_by_type$binary, "habitat")])
+binary_data <- bind_rows(final_set[c(attributes_by_type$binary, "habitat", "antimicrobial resistance", "disease association")])
 numeric_data <- bind_rows(final_set[attributes_by_type$numeric])
 
 ## Create a header for both the dump files and the gmt files.
