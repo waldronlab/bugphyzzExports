@@ -29,29 +29,29 @@ attributes_by_type <- list(
         "mutation rate per site per year"
     ),
     binary = c( # Attribute_type is binary
-        "animal pathogen",
-        "antimicrobial sensitivity",
-        "biofilm forming",
-        "extreme environment",
-        "health associated",
-        "hydrogen gas producing",
-        "lactate producing",
-        "motility",
-        "plant pathogenicity",
-        "spore formation",
-        "host-associated",
-        'sphingolipid producing',
-        'butyrate producing'
+        # "animal pathogen",
+        # "antimicrobial sensitivity",
+        # "biofilm forming",
+        # "extreme environment",
+        # "health associated",
+        # "hydrogen gas producing",
+        # "lactate producing",
+        # "motility",
+        # "plant pathogenicity",
+        # "spore formation",
+        # "host-associated",
+        'sphingolipid producing'
+        # 'butyrate producing'
     ),
     multistate = c( # Attribute_type is multistate-intersection
-        "aerophilicity",
-        "gram stain",
-        "biosafety level",
-        "COGEM pathogenicity rating",
-        "shape",
-        "spore shape",
-        "arrangement",
-        "hemolysis"
+        "aerophilicity"
+        # "gram stain",
+        # "biosafety level",
+        # "COGEM pathogenicity rating",
+        # "shape",
+        # "spore shape",
+        # "arrangement",
+        # "hemolysis"
     )
 )
 
@@ -71,7 +71,9 @@ msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
 msg_len <- length(phys_names)
 msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys.time())
 log_print(msg, blank_after = TRUE)
-system.time(phys <- physiologies(phys_names, full_source = FALSE))
+system.time({
+    phys <- physiologies(phys_names, full_source = FALSE)
+})
 
 dat_ready <- vector("list", length(phys))
 for (i in seq_along(dat_ready)) {
@@ -79,13 +81,6 @@ for (i in seq_along(dat_ready)) {
     dat_ready[[i]] <- getDataReady(filterData(phys[[i]]))
     names(dat_ready)[i] <- names(phys)[i]
 }
-
-# h <- physiologies("habitat")[[1]]
-# hl <- split(h, h$Attribute) |>
-#     purrr::map(~ mutate(.x, Attribute_type = "binary")) |>
-#     purrr::map(~ getDataReady(filterData(.x))) |>
-#     purrr::map(~ mutate(.x, Attribute_type = "unary"))
-# dat_ready <- c(dat_ready, hl)
 
 propagated <- vector('list', length(dat_ready))
 for (i in seq_along(propagated)) {
@@ -124,6 +119,29 @@ for (i in seq_along(propagated)) {
             if (ltp_per < 1) {
                 msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
                 log_print(msg)
+
+                if (attr_type == "multistate-union") {
+                    dat <- dat |>
+                        rename(Attribute_value = Attribute) |>
+                        mutate(Attribute = Attribute_group) |>
+                        relocate(
+                            NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
+                            Frequency, Score,
+                            Attribute_source, Confidence_in_curation
+                        )
+                } else if (attr_type == "binary") {
+                    dat <- dat |>
+                        separate(
+                        col = "Attribute", into = c("Attribute", "Attribute_value"),
+                        sep = "--"
+                    ) |>
+                        relocate(
+                            NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
+                            Frequency, Score,
+                            Attribute_source, Confidence_in_curation
+                        )
+
+                }
                 propagated[[i]] <- dat
                 next
             }
@@ -192,8 +210,8 @@ for (i in seq_along(propagated)) {
             }
             propagated[[i]] <- res
             names(propagated)[i] <- names(dat_ready)[i]
-        } else if (attr_type %in% c("range")) { # Provided as a range by physiologies in bugphyzz
-            ## Propagation numeric ####
+
+        } else if (attr_type %in% c("range")) {
             annotated_tips <- fdat |>
                 filter(!is.na(Attribute_value)) |>
                 select(tip_label, Attribute_value) |>
@@ -204,7 +222,14 @@ for (i in seq_along(propagated)) {
             if (ltp_per < 1) {
                 msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
                 log_print(msg)
-                propagated[[i]] <- dat
+                propagated[[i]] <- dat |>
+                    mutate(Attribute = Attribute_group) |>
+                    relocate(
+                        NCBI_ID, Taxon_name, Rank,
+                        Attribute, Attribute_value,
+                        Evidence, Frequency,
+                        Attribute_source, Confidence_in_curation
+                    )
                 next
             }
 
@@ -213,6 +238,7 @@ for (i in seq_along(propagated)) {
                 select(tip_label, Attribute_value) |>
                 column_to_rownames(var = "tip_label") |>
                 as.matrix()
+
             input_mat <- rbind(annotated_tips, no_annotated_tips)
             input_vct <- input_mat[tree$tip.label,, drop = TRUE]
             asr <- hsp_squared_change_parsimony(
@@ -225,7 +251,9 @@ for (i in seq_along(propagated)) {
             ) |>
                 filter(!grepl("^n\\d+$", label)) |>
                 filter(!label %in% rownames(annotated_tips))
+
             nsti <- getNsti(tree = tree, annotated_tip_labels = rownames(annotated_tips))
+
             predicted_dat <- left_join(
                 asr_df, nsti, by = c("label" = "tip_label")) |>
                 left_join(tree_data, by = "label") |>
@@ -236,24 +264,29 @@ for (i in seq_along(propagated)) {
                     Confidence_in_curation = NA,
                     Frequency = "unknown",
                     Score = NA,
-                    Evidence = "asr",
+                    Evidence = "asr"
                 ) |>
                 filter(!NCBI_ID %in% dat$NCBI_ID)
+
             res <- bind_rows(dat, predicted_dat) |>
                 mutate(
                     Attribute_group = attr_grp,
                     Attribute = attr_grp,
                     Attribute_type = attr_type,
                 ) |>
-                relocate(NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value)
+                relocate(
+                    NCBI_ID, Taxon_name, Rank,
+                    Attribute, Attribute_value,
+                    Evidence, Frequency,
+                    Attribute_source, Confidence_in_curation
+                )
+
             propagated[[i]] <- res
-            names(propagated)[i] <- names(dat_ready)[i]
         }
     })
 
     log_print(tim)
 }
-
 
 ## The following physiologies were not propagated. Some reasons:
 ## Too few annotations (< 1%)
@@ -270,7 +303,19 @@ hl <- split(h, h$Attribute) |>
 hready <- purrr::map(hl, ~ getDataReady(filterData(.x))) |>
     bind_rows() |>
     separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
-    filter(!is.na(Evidence))
+    mutate(
+        Attribute_value = Attribute,
+        Attribute = Attribute_group,
+        Attribute_type = "multistate-union"
+    ) |>
+    filter(!is.na(Evidence)) |>
+    relocate(
+        NCBI_ID, Taxon_name, Rank,
+        Attribute, Attribute_value,
+        Evidence, Frequency, Score,
+        Attribute_source, Confidence_in_curation,
+        Attribute_type
+    )
 propagated[["habitat"]] <- hready
 
 ## disease association
@@ -279,8 +324,20 @@ dal <- split(da, da$Attribute) |>
     purrr::map(~ mutate(.x, Attribute_type = "binary"))
 daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
     bind_rows() |>
-    separate(col = "Attribute", into = c("Attribute", "Attribute_value", sep = "--")) |>
-    filter(!is.na(Evidence))
+    separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
+    mutate(
+        Attribute_value = Attribute,
+        Attribute = Attribute_group,
+        Attribute_type = "multistate-union"
+    ) |>
+    filter(!is.na(Evidence)) |>
+    relocate(
+        NCBI_ID, Taxon_name, Rank,
+        Attribute, Attribute_value,
+        Evidence, Frequency, Score,
+        Attribute_source, Confidence_in_curation,
+        Attribute_type
+    )
 propagated[["disease association"]] <- daready
 
 ## antimicrobial resistance
@@ -290,7 +347,20 @@ arl <- split(ar, ar$Attribute) |>
 arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
     bind_rows() |>
     separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
-    filter(!is.na(Evidence))
+    filter(!is.na(Evidence)) |>
+    mutate(
+        Attribute_value = Attribute,
+        Attribute = Attribute_group,
+        Attribute_type = "multistate-union"
+    ) |>
+    filter(!is.na(Evidence)) |>
+    relocate(
+        NCBI_ID, Taxon_name, Rank,
+        Attribute, Attribute_value,
+        Evidence, Frequency, Score,
+        Attribute_source, Confidence_in_curation,
+        Attribute_type
+    )
 propagated[["antimicrobial resistance"]] <- arready
 
 final_set <- propagated |>
@@ -298,13 +368,22 @@ final_set <- propagated |>
         .x |>
             select(-taxid) |>
             mutate(NCBI_ID = sub("^\\w__", "", NCBI_ID)) |>
-            filter(!is.na(Evidence))
-
+            filter(!is.na(Evidence)) |>
+            select(-Attribute_group) |>
+            relocate(
+                NCBI_ID, Taxon_name, Rank,
+                Attribute, Attribute_value,
+                Evidence, Frequency, Score,
+                Attribute_source, Confidence_in_curation,
+                Attribute_type
+            )
     })
 
-multistate_data <- bind_rows(final_set[attributes_by_type$multistate])
-binary_data <- bind_rows(final_set[c(attributes_by_type$binary, "habitat", "antimicrobial resistance", "disease association")])
+multistate_data <- bind_rows(final_set[c(attributes_by_type$multistate, "habitat", "antimicrobial resistance", "disease association")])
+binary_data <- bind_rows(final_set[attributes_by_type$binary])
 numeric_data <- bind_rows(final_set[attributes_by_type$numeric])
+numeric_data <- numeric_data |>
+    mutate(Attribute_type = "numeric")
 
 ## Create a header for both the dump files and the gmt files.
 header <- paste0("# bugphyzz ", Sys.Date(),
@@ -331,7 +410,7 @@ write.table(
 
 
 all_data <- list(multistate_data, binary_data, numeric_data)
-all_data_list <- purrr::map(all_data, ~ split(.x, .x$Attribute_group)) |>
+all_data_list <- purrr::map(all_data, ~ split(.x, .x$Attribute)) |>
     purrr::list_flatten()
 
 ## Export gmt files
