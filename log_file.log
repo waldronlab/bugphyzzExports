@@ -6,89 +6,89 @@ R Version: 4.3.2 (2023-10-31)
 Machine: supermicro x86_64 
 Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: purrr_1.0.2 castor_1.8.0 Rcpp_1.0.12 phytools_2.1-1 maps_3.4.2 ape_5.7-1 tibble_3.2.1 tidyr_1.3.0 bugphyzzExports_0.0.0.9004 dplyr_1.1.4 rlang_1.1.3 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.5 
-Log Start Time: 2024-01-15 17:19:55.855742 
+Log Start Time: 2024-01-16 02:09:22.346762 
 ========================================================================= 
-Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-15 17:19:56.328258 
+Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-16 02:09:22.664554 
 
 Propagating aerophilicity of type multistate-intersection. 
    user  system elapsed 
-339.363   0.591 339.955 
+258.736   0.560 259.266 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-611.149   0.868 612.109 
+464.841   0.704 465.494 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-557.108   0.812 558.129 
+424.390   0.636 424.984 
 Propagating arrangement of type multistate-intersection. 
    user  system elapsed 
-671.113   1.400 672.535 
+467.661   0.787 468.404 
 Propagating biofilm forming of type binary. 
 Not enough data for ASR for biofilm forming. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-468.339   0.684 468.965 
+356.459   0.448 356.870 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  0.125   0.000   0.126 
+  0.087   0.000   0.086 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-402.542   0.632 403.129 
+307.922   0.421 308.308 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-508.423   0.708 509.056 
+390.299   0.567 390.824 
 Propagating genome size of type range. 
    user  system elapsed 
-  0.117   0.000   0.116 
+  0.084   0.000   0.084 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-416.138   1.280 417.367 
+325.272   0.493 325.728 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  0.113   0.004   0.117 
+  0.084   0.000   0.084 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
    user  system elapsed 
-511.132   0.856 511.931 
+423.493   0.656 424.102 
 Propagating host-associated of type binary. 
    user  system elapsed 
-570.810   0.992 571.741 
+495.737   0.728 496.407 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  0.098   0.000   0.098 
+  0.082   0.000   0.082 
 Propagating motility of type binary. 
    user  system elapsed 
-545.493   0.764 546.205 
+481.498   0.640 482.094 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  0.086   0.008   0.095 
+  0.082   0.000   0.082 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-447.069   0.516 447.540 
+411.536   0.576 412.075 
 Propagating shape of type multistate-intersection. 
    user  system elapsed 
-603.291   1.024 604.274 
+590.356   0.888 591.183 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-287.077   1.196 288.255 
+283.593   1.016 284.582 
 Propagating spore shape of type multistate-intersection. 
    user  system elapsed 
-335.520   0.624 336.119 
+332.778   0.732 333.475 
 Propagating width of type range. 
    user  system elapsed 
-  0.086   0.000   0.086 
+  0.084   0.000   0.085 
 Writing GMT files... 
 rank: genus / tax_id_type: Taxon_name / physiology: aerophilicity 
 
@@ -98,11 +98,11 @@ rank: genus / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity
 
 rank: genus / tax_id_type: Taxon_name / physiology: arrangement 
 
-rank: genus / tax_id_type: Taxon_name / physiology: NA 
+rank: genus / tax_id_type: Taxon_name / physiology: biofilm forming 
 
 rank: genus / tax_id_type: Taxon_name / physiology: biosafety level 
 
-rank: genus / tax_id_type: Taxon_name / physiology: NA 
+rank: genus / tax_id_type: Taxon_name / physiology: butyrate producing 
 
 rank: genus / tax_id_type: Taxon_name / physiology: coding genes 
 
@@ -116,27 +116,43 @@ rank: genus / tax_id_type: Taxon_name / physiology: gram stain
 
 rank: genus / tax_id_type: Taxon_name / physiology: growth temperature 
 
-rank: genus / tax_id_type: Taxon_name / physiology: NA 
+rank: genus / tax_id_type: Taxon_name / physiology: health associated 
 
 rank: genus / tax_id_type: Taxon_name / physiology: hemolysis 
 
 rank: genus / tax_id_type: Taxon_name / physiology: host-associated 
 
-rank: genus / tax_id_type: Taxon_name / physiology: NA 
+rank: genus / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
 
-rank: genus / tax_id_type: Taxon_name / physiology: NA 
+rank: genus / tax_id_type: Taxon_name / physiology: lactate producing 
 
 rank: genus / tax_id_type: Taxon_name / physiology: length 
 
 rank: genus / tax_id_type: Taxon_name / physiology: motility 
 
-rank: genus / tax_id_type: Taxon_name / physiology: NA 
+rank: genus / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
 
-rank: genus / tax_id_type: Taxon_name / physiology: NA 
+rank: genus / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
 
 rank: genus / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: genus / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: genus / tax_id_type: Taxon_name / physiology: shape 
+
+rank: genus / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: genus / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: genus / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: genus / tax_id_type: Taxon_name / physiology: width 
+
+rank: genus / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: genus / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: genus / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: aerophilicity 
 
@@ -146,11 +162,11 @@ rank: genus / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity
 
 rank: genus / tax_id_type: NCBI_ID / physiology: arrangement 
 
-rank: genus / tax_id_type: NCBI_ID / physiology: NA 
+rank: genus / tax_id_type: NCBI_ID / physiology: biofilm forming 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: biosafety level 
 
-rank: genus / tax_id_type: NCBI_ID / physiology: NA 
+rank: genus / tax_id_type: NCBI_ID / physiology: butyrate producing 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -164,27 +180,43 @@ rank: genus / tax_id_type: NCBI_ID / physiology: gram stain
 
 rank: genus / tax_id_type: NCBI_ID / physiology: growth temperature 
 
-rank: genus / tax_id_type: NCBI_ID / physiology: NA 
+rank: genus / tax_id_type: NCBI_ID / physiology: health associated 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: hemolysis 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: host-associated 
 
-rank: genus / tax_id_type: NCBI_ID / physiology: NA 
+rank: genus / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
 
-rank: genus / tax_id_type: NCBI_ID / physiology: NA 
+rank: genus / tax_id_type: NCBI_ID / physiology: lactate producing 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: length 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: motility 
 
-rank: genus / tax_id_type: NCBI_ID / physiology: NA 
+rank: genus / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
 
-rank: genus / tax_id_type: NCBI_ID / physiology: NA 
+rank: genus / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: optimal ph 
 
 rank: genus / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: width 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
 
 rank: strain / tax_id_type: Taxon_name / physiology: aerophilicity 
 
@@ -194,11 +226,11 @@ rank: strain / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity
 
 rank: strain / tax_id_type: Taxon_name / physiology: arrangement 
 
-rank: strain / tax_id_type: Taxon_name / physiology: NA 
+rank: strain / tax_id_type: Taxon_name / physiology: biofilm forming 
 
 rank: strain / tax_id_type: Taxon_name / physiology: biosafety level 
 
-rank: strain / tax_id_type: Taxon_name / physiology: NA 
+rank: strain / tax_id_type: Taxon_name / physiology: butyrate producing 
 
 rank: strain / tax_id_type: Taxon_name / physiology: coding genes 
 
@@ -212,27 +244,43 @@ rank: strain / tax_id_type: Taxon_name / physiology: gram stain
 
 rank: strain / tax_id_type: Taxon_name / physiology: growth temperature 
 
-rank: strain / tax_id_type: Taxon_name / physiology: NA 
+rank: strain / tax_id_type: Taxon_name / physiology: health associated 
 
 rank: strain / tax_id_type: Taxon_name / physiology: hemolysis 
 
 rank: strain / tax_id_type: Taxon_name / physiology: host-associated 
 
-rank: strain / tax_id_type: Taxon_name / physiology: NA 
+rank: strain / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
 
-rank: strain / tax_id_type: Taxon_name / physiology: NA 
+rank: strain / tax_id_type: Taxon_name / physiology: lactate producing 
 
 rank: strain / tax_id_type: Taxon_name / physiology: length 
 
 rank: strain / tax_id_type: Taxon_name / physiology: motility 
 
-rank: strain / tax_id_type: Taxon_name / physiology: NA 
+rank: strain / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
 
-rank: strain / tax_id_type: Taxon_name / physiology: NA 
+rank: strain / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
 
 rank: strain / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: strain / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: strain / tax_id_type: Taxon_name / physiology: shape 
+
+rank: strain / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: strain / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: strain / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: strain / tax_id_type: Taxon_name / physiology: width 
+
+rank: strain / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: strain / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: strain / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: aerophilicity 
 
@@ -242,11 +290,11 @@ rank: strain / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity
 
 rank: strain / tax_id_type: NCBI_ID / physiology: arrangement 
 
-rank: strain / tax_id_type: NCBI_ID / physiology: NA 
+rank: strain / tax_id_type: NCBI_ID / physiology: biofilm forming 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: biosafety level 
 
-rank: strain / tax_id_type: NCBI_ID / physiology: NA 
+rank: strain / tax_id_type: NCBI_ID / physiology: butyrate producing 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -260,27 +308,43 @@ rank: strain / tax_id_type: NCBI_ID / physiology: gram stain
 
 rank: strain / tax_id_type: NCBI_ID / physiology: growth temperature 
 
-rank: strain / tax_id_type: NCBI_ID / physiology: NA 
+rank: strain / tax_id_type: NCBI_ID / physiology: health associated 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: hemolysis 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: host-associated 
 
-rank: strain / tax_id_type: NCBI_ID / physiology: NA 
+rank: strain / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
 
-rank: strain / tax_id_type: NCBI_ID / physiology: NA 
+rank: strain / tax_id_type: NCBI_ID / physiology: lactate producing 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: length 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: motility 
 
-rank: strain / tax_id_type: NCBI_ID / physiology: NA 
+rank: strain / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
 
-rank: strain / tax_id_type: NCBI_ID / physiology: NA 
+rank: strain / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: optimal ph 
 
 rank: strain / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: width 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
 
 rank: species / tax_id_type: Taxon_name / physiology: aerophilicity 
 
@@ -290,11 +354,11 @@ rank: species / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity
 
 rank: species / tax_id_type: Taxon_name / physiology: arrangement 
 
-rank: species / tax_id_type: Taxon_name / physiology: NA 
+rank: species / tax_id_type: Taxon_name / physiology: biofilm forming 
 
 rank: species / tax_id_type: Taxon_name / physiology: biosafety level 
 
-rank: species / tax_id_type: Taxon_name / physiology: NA 
+rank: species / tax_id_type: Taxon_name / physiology: butyrate producing 
 
 rank: species / tax_id_type: Taxon_name / physiology: coding genes 
 
@@ -308,27 +372,43 @@ rank: species / tax_id_type: Taxon_name / physiology: gram stain
 
 rank: species / tax_id_type: Taxon_name / physiology: growth temperature 
 
-rank: species / tax_id_type: Taxon_name / physiology: NA 
+rank: species / tax_id_type: Taxon_name / physiology: health associated 
 
 rank: species / tax_id_type: Taxon_name / physiology: hemolysis 
 
 rank: species / tax_id_type: Taxon_name / physiology: host-associated 
 
-rank: species / tax_id_type: Taxon_name / physiology: NA 
+rank: species / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
 
-rank: species / tax_id_type: Taxon_name / physiology: NA 
+rank: species / tax_id_type: Taxon_name / physiology: lactate producing 
 
 rank: species / tax_id_type: Taxon_name / physiology: length 
 
 rank: species / tax_id_type: Taxon_name / physiology: motility 
 
-rank: species / tax_id_type: Taxon_name / physiology: NA 
+rank: species / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
 
-rank: species / tax_id_type: Taxon_name / physiology: NA 
+rank: species / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
 
 rank: species / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: species / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: species / tax_id_type: Taxon_name / physiology: shape 
+
+rank: species / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: species / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: species / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: species / tax_id_type: Taxon_name / physiology: width 
+
+rank: species / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: species / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: species / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
 
 rank: species / tax_id_type: NCBI_ID / physiology: aerophilicity 
 
@@ -338,11 +418,11 @@ rank: species / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity
 
 rank: species / tax_id_type: NCBI_ID / physiology: arrangement 
 
-rank: species / tax_id_type: NCBI_ID / physiology: NA 
+rank: species / tax_id_type: NCBI_ID / physiology: biofilm forming 
 
 rank: species / tax_id_type: NCBI_ID / physiology: biosafety level 
 
-rank: species / tax_id_type: NCBI_ID / physiology: NA 
+rank: species / tax_id_type: NCBI_ID / physiology: butyrate producing 
 
 rank: species / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -356,27 +436,43 @@ rank: species / tax_id_type: NCBI_ID / physiology: gram stain
 
 rank: species / tax_id_type: NCBI_ID / physiology: growth temperature 
 
-rank: species / tax_id_type: NCBI_ID / physiology: NA 
+rank: species / tax_id_type: NCBI_ID / physiology: health associated 
 
 rank: species / tax_id_type: NCBI_ID / physiology: hemolysis 
 
 rank: species / tax_id_type: NCBI_ID / physiology: host-associated 
 
-rank: species / tax_id_type: NCBI_ID / physiology: NA 
+rank: species / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
 
-rank: species / tax_id_type: NCBI_ID / physiology: NA 
+rank: species / tax_id_type: NCBI_ID / physiology: lactate producing 
 
 rank: species / tax_id_type: NCBI_ID / physiology: length 
 
 rank: species / tax_id_type: NCBI_ID / physiology: motility 
 
-rank: species / tax_id_type: NCBI_ID / physiology: NA 
+rank: species / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
 
-rank: species / tax_id_type: NCBI_ID / physiology: NA 
+rank: species / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
 
 rank: species / tax_id_type: NCBI_ID / physiology: optimal ph 
 
 rank: species / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
+
+rank: species / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: species / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: species / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: species / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: species / tax_id_type: NCBI_ID / physiology: width 
+
+rank: species / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: species / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: species / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: aerophilicity 
 
@@ -386,11 +482,11 @@ rank: mixed / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity
 
 rank: mixed / tax_id_type: Taxon_name / physiology: arrangement 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: NA 
+rank: mixed / tax_id_type: Taxon_name / physiology: biofilm forming 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: biosafety level 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: NA 
+rank: mixed / tax_id_type: Taxon_name / physiology: butyrate producing 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: coding genes 
 
@@ -404,27 +500,43 @@ rank: mixed / tax_id_type: Taxon_name / physiology: gram stain
 
 rank: mixed / tax_id_type: Taxon_name / physiology: growth temperature 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: NA 
+rank: mixed / tax_id_type: Taxon_name / physiology: health associated 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: hemolysis 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: host-associated 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: NA 
+rank: mixed / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: NA 
+rank: mixed / tax_id_type: Taxon_name / physiology: lactate producing 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: length 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: motility 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: NA 
+rank: mixed / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
 
-rank: mixed / tax_id_type: Taxon_name / physiology: NA 
+rank: mixed / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: optimal ph 
 
 rank: mixed / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: shape 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: width 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: aerophilicity 
 
@@ -434,11 +546,11 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: arrangement 
 
-rank: mixed / tax_id_type: NCBI_ID / physiology: NA 
+rank: mixed / tax_id_type: NCBI_ID / physiology: biofilm forming 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: biosafety level 
 
-rank: mixed / tax_id_type: NCBI_ID / physiology: NA 
+rank: mixed / tax_id_type: NCBI_ID / physiology: butyrate producing 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: coding genes 
 
@@ -452,29 +564,45 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: gram stain
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: growth temperature 
 
-rank: mixed / tax_id_type: NCBI_ID / physiology: NA 
+rank: mixed / tax_id_type: NCBI_ID / physiology: health associated 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: hemolysis 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: host-associated 
 
-rank: mixed / tax_id_type: NCBI_ID / physiology: NA 
+rank: mixed / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
 
-rank: mixed / tax_id_type: NCBI_ID / physiology: NA 
+rank: mixed / tax_id_type: NCBI_ID / physiology: lactate producing 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: length 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: motility 
 
-rank: mixed / tax_id_type: NCBI_ID / physiology: NA 
+rank: mixed / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
 
-rank: mixed / tax_id_type: NCBI_ID / physiology: NA 
+rank: mixed / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: optimal ph 
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
 
-─ Session info ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+rank: mixed / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: width 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
+
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.3.2 (2023-10-31)
  os       Ubuntu 22.04.3 LTS
@@ -484,10 +612,10 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: plant pathogenicity
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       America/New_York
- date     2024-01-15
+ date     2024-01-16
  pandoc   3.1.11 @ /usr/bin/pandoc
 
-─ Packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
  package           * version    date (UTC) lib source
  ape               * 5.7-1      2023-03-13 [1] RSPM (R 4.3.1)
  bit                 4.0.5      2022-11-15 [1] CRAN (R 4.2.2)
@@ -575,7 +703,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: plant pathogenicity
  [1] /mnt/STORE1/lib/R/bioc-release
  [2] /usr/local/lib/R/library
 
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 Warning messages:
 1: Not enough data for creating signatures. Try different filtering options
@@ -586,7 +714,39 @@ Warning messages:
 6: Not enough data for creating signatures. Try different filtering options
 7: Not enough data for creating signatures. Try different filtering options
 8: Not enough data for creating signatures. Try different filtering options
+9: Not enough data for creating signatures. Try different filtering options
+10: Not enough data for creating signatures. Try different filtering options
+11: Not enough data for creating signatures. Try different filtering options
+12: Not enough data for creating signatures. Try different filtering options
+13: Not enough data for creating signatures. Try different filtering options
+14: Not enough data for creating signatures. Try different filtering options
+15: Not enough data for creating signatures. Try different filtering options
+16: Not enough data for creating signatures. Try different filtering options
+17: Not enough data for creating signatures. Try different filtering options
+18: Not enough data for creating signatures. Try different filtering options
+19: Not enough data for creating signatures. Try different filtering options
+20: Not enough data for creating signatures. Try different filtering options
+21: Not enough data for creating signatures. Try different filtering options
+22: Not enough data for creating signatures. Try different filtering options
+23: Not enough data for creating signatures. Try different filtering options
+24: Not enough data for creating signatures. Try different filtering options
+25: Not enough data for creating signatures. Try different filtering options
+26: Not enough data for creating signatures. Try different filtering options
+27: Not enough data for creating signatures. Try different filtering options
+28: Not enough data for creating signatures. Try different filtering options
+29: Not enough data for creating signatures. Try different filtering options
+30: Not enough data for creating signatures. Try different filtering options
+31: Not enough data for creating signatures. Try different filtering options
+32: Not enough data for creating signatures. Try different filtering options
+33: Not enough data for creating signatures. Try different filtering options
+34: Not enough data for creating signatures. Try different filtering options
+35: Not enough data for creating signatures. Try different filtering options
+36: Not enough data for creating signatures. Try different filtering options
+37: Not enough data for creating signatures. Try different filtering options
+38: Not enough data for creating signatures. Try different filtering options
+39: Not enough data for creating signatures. Try different filtering options
+40: Not enough data for creating signatures. Try different filtering options
 ========================================================================= 
-Log End Time: 2024-01-15 19:24:24.730505 
-Log Elapsed Time: 0 02:04:28 
+Log End Time: 2024-01-16 03:53:34.851935 
+Log Elapsed Time: 0 01:44:12 
 ========================================================================= 

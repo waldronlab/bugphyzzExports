@@ -89,6 +89,7 @@ for (i in seq_along(dat_ready)) {
 
 propagated <- vector('list', length(dat_ready))
 for (i in seq_along(propagated)) {
+    names(propagated)[i] <- names(dat_ready)[i]
     dat <- dat_ready[[i]]
     attr_grp <- dat |>
         pull(Attribute_group) |>
@@ -191,78 +192,6 @@ for (i in seq_along(propagated)) {
             }
             propagated[[i]] <- res
             names(propagated)[i] <- names(dat_ready)[i]
-        # } else if (attr_type %in% c("multistate-union")) {
-            ## This didn't work as expected. Maybe it's better to not propagate
-            ## unary attributes
-        #     annotated_tips <- fdat |>
-        #         filter(!is.na(Attribute)) |> # NAs in the Attribute column correspond to unnanotated tips
-        #         select(tip_label, Attribute, Score) |>
-        #         pivot_wider(
-        #             names_from = "Attribute", values_from = "Score", values_fill = 0
-        #         ) |>
-        #         column_to_rownames(var = "tip_label") |>
-        #         as.data.frame() |>
-        #         as.matrix()
-        #
-        #     ltp_per <- floor(nrow(annotated_tips) / Ntip(tree)  * 100)
-        #     if (ltp_per < 1) {
-        #         msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
-        #         log_print(msg)
-        #         propagated[[i]] <- dat
-        #         next
-        #     }
-        #
-        #     no_annotated_tips_names <- fdat |>
-        #         filter(is.na(Attribute)) |>
-        #         pull(tip_label)
-        #     no_annotated_tips <- matrix(
-        #         data = rep(c(1,0), length(no_annotated_tips_names) * ncol(annotated_tips) / 2),
-        #         ncol = ncol(annotated_tips), byrow = TRUE,
-        #         dimnames = list(rownames = no_annotated_tips_names, colnames = colnames(annotated_tips))
-        #     )
-        #     input_mat <- rbind(annotated_tips, no_annotated_tips)
-        #     input_mat <- input_mat[tree$tip.label, ]
-        #
-        #     fit <- fitMk(tree = tree, x = input_mat, model = "ER", pi = "equal")
-        #     ace <- ancr(fit, tips = TRUE)
-        #
-        #     asr_df <- ace$ace |>
-        #         as.data.frame() |>
-        #         rownames_to_column(var = "label") |>
-        #         filter(label %in% tree_data$label) |>
-        #         filter(!label %in% rownames(annotated_tips)) |>
-        #         pivot_longer(
-        #             names_to = "Attribute", values_to = "Score", cols = 2:last_col()
-        #         ) |>
-        #         left_join(tree_data, by = "label") |>
-        #         filter(!is.na(NCBI_ID)) |>
-        #         filter(!NCBI_ID %in% unique(dat$NCBI_ID)) |>
-        #         mutate(
-        #             Evidence = 'asr',
-        #             Confidence_in_curation = NA,
-        #             Attribute_source = NA,
-        #             Frequency = scores2Freq(Score)
-        #         )
-        #     res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
-        #         mutate(
-        #             Attribute_group = attr_grp,
-        #             Attribute_type = attr_type
-        #         ) |>
-        #         separate(
-        #             col = "Attribute", into = c("Attribute", "Attribute_value"),
-        #             sep = "--"
-        #         ) |>
-        #         filter(Attribute_value == TRUE) |>
-        #         relocate(
-        #             NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
-        #             Frequency, Score,
-        #             Attribute_source, Confidence_in_curation
-        #         ) |>
-        #         select(-label)
-        # }
-        # propagated[[i]] <- res
-        # names(propagated)[i] <- names(dat_ready)[i]
-
         } else if (attr_type %in% c("range")) { # Provided as a range by physiologies in bugphyzz
             ## Propagation numeric ####
             annotated_tips <- fdat |>
