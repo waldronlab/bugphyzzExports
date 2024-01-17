@@ -6,55 +6,55 @@ R Version: 4.3.2 (2023-10-31)
 Machine: supermicro x86_64 
 Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: purrr_1.0.2 castor_1.8.0 Rcpp_1.0.12 phytools_2.1-1 maps_3.4.2 ape_5.7-1 tibble_3.2.1 tidyr_1.3.0 bugphyzzExports_0.0.0.9004 dplyr_1.1.4 rlang_1.1.3 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.5 
-Log Start Time: 2024-01-16 17:31:08.966206 
+Log Start Time: 2024-01-16 22:08:01.126597 
 ========================================================================= 
-Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-16 17:31:09.284112 
+Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-16 22:08:01.447012 
 
 Propagating aerophilicity of type multistate-intersection. 
    user  system elapsed 
-259.064   0.468 259.506 
+260.228   0.532 260.734 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-464.132   0.528 464.611 
+468.265   0.752 468.975 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-424.686   0.484 425.129 
+427.017   0.748 427.722 
 Propagating arrangement of type multistate-intersection. 
    user  system elapsed 
-467.565   0.604 468.125 
+470.305   0.608 470.878 
 Propagating biofilm forming of type binary. 
 Not enough data for ASR for biofilm forming. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-355.709   0.444 356.119 
+357.778   0.496 358.240 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  0.088   0.000   0.087 
+  0.089   0.000   0.088 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-307.869   0.364 308.213 
+309.090   0.536 309.606 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-389.723   0.464 390.160 
+391.200   0.548 391.718 
 Propagating genome size of type range. 
    user  system elapsed 
-  0.085   0.000   0.086 
+  0.086   0.000   0.086 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-325.085   0.400 325.455 
+326.479   0.468 326.916 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  0.082   0.004   0.086 
+  0.079   0.008   0.087 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
    user  system elapsed 
-424.004   0.500 424.468 
+427.341   0.636 427.936 
 Propagating host-associated of type binary. 
    user  system elapsed 
-495.436   0.612 496.011 
+501.413   0.784 502.152 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
@@ -64,136 +64,689 @@ Propagating length of type range.
   0.084   0.000   0.084 
 Propagating motility of type binary. 
    user  system elapsed 
-482.585   1.144 483.687 
+487.138   0.696 487.785 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  0.084   0.000   0.084 
+  0.085   0.000   0.085 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-413.479   0.472 413.909 
+416.410   0.659 417.030 
 Propagating shape of type multistate-intersection. 
    user  system elapsed 
-593.890   0.768 594.602 
+597.756   1.000 598.697 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-285.203   0.836 286.010 
+286.383   0.844 287.199 
 Propagating spore shape of type multistate-intersection. 
    user  system elapsed 
-334.335   0.504 334.806 
+335.985   0.655 336.611 
 Propagating width of type range. 
    user  system elapsed 
   0.087   0.000   0.087 
 Writing GMT files... 
 rank: genus / tax_id_type: Taxon_name / physiology: aerophilicity 
 
-Error in dplyr::mutate(dat, Attribute = paste0("bugphyzz:", .data$Attribute_group, :  [1mCaused by error in `.data$Attribute_group`:[22m [1m[22m[33m![39m Column `Attribute_group` not found in `.data`. Calls: makeSignatures ... signalCondition -> <Anonymous> -> abort -> signal_abort 
-Traceback: 
- [1] "25: stop(fallback)"                                                                                                   
- [2] "24: signal_abort(cnd, .file)"                                                                                         
- [3] "23: abort(message, class = error_class, parent = parent, call = error_call)"                                          
- [4] "22: (function (cnd) "                                                                                                 
- [5] "    {"                                                                                                                
- [6] "        local_error_context(dots, i = frame[[i_sym]], mask = mask)"                                                   
- [7] "        if (inherits(cnd, \"dplyr:::internal_error\")) {"                                                             
- [8] "            parent <- error_cnd(message = bullets(cnd))"                                                              
- [9] "        }"                                                                                                            
-[10] "        else {"                                                                                                       
-[11] "            parent <- cnd"                                                                                            
-[12] "        }"                                                                                                            
-[13] "        message <- c(cnd_bullet_header(action), i = if (has_active_group_context(mask)) cnd_bullet_cur_group_label())"
-[14] "        abort(message, class = error_class, parent = parent, call = error_call)"                                      
-[15] "    })(list(message = \"Column `Attribute_group` not found in `.data`.\", "                                           
-[16] "        trace = list(call = list(makeSignatures(dat = all_data_list[[k]], "                                           
-[17] "            tax_id_type = tax_id_types[j], tax_level = ranks[i]), "                                                   
-[18] "            .makeSignaturesDiscrete(dat = dat, tax_id_type = tax_id_type), "                                          
-[19] "            lapply({"                                                                                                 
-[20] "                function(y) split(y, y$Attribute)"                                                                    
-[21] "            }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", "                                                  
-[22] "                .data$Attribute_group, \"|\", .data$Attribute, \"|\", "                                               
-[23] "                .data$Attribute_value))), function(x) unique(x[[tax_id_type]])), "                                    
-[24] "            {"                                                                                                        
-[25] "                function(y) split(y, y$Attribute)"                                                                    
-[26] "            }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", "                                                  
-[27] "                .data$Attribute_group, \"|\", .data$Attribute, \"|\", "                                               
-[28] "                .data$Attribute_value))), split(y, y$Attribute), "                                                    
-[29] "            dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                             
-[30] "                \"|\", .data$Attribute, \"|\", .data$Attribute_value)), "                                             
-[31] "            mutate.data.frame(dat, Attribute = paste0(\"bugphyzz:\", "                                                
-[32] "                .data$Attribute_group, \"|\", .data$Attribute, \"|\", "                                               
-[33] "                .data$Attribute_value)), mutate_cols(.data, dplyr_quosures(...), "                                    
-[34] "                by), withCallingHandlers(for (i in seq_along(dots)) {"                                                
-[35] "                poke_error_context(dots, i, mask = mask)"                                                             
-[36] "                context_poke(\"column\", old_current_column)"                                                         
-[37] "                new_columns <- mutate_col(dots[[i]], data, mask, "                                                    
-[38] "                    new_columns)"                                                                                     
-[39] "            }, error = dplyr_error_handler(dots = dots, mask = mask, "                                                
-[40] "                bullets = mutate_bullets, error_call = error_call, "                                                  
-[41] "                error_class = \"dplyr:::mutate_error\"), warning = dplyr_warning_handler(state = warnings_state, "    
-[42] "                mask = mask, error_call = error_call)), mutate_col(dots[[i]], "                                       
-[43] "                data, mask, new_columns), mask$eval_all_mutate(quo), "                                                
-[44] "            eval(), paste0(\"bugphyzz:\", .data$Attribute_group, \"|\", "                                             
-[45] "                .data$Attribute, \"|\", .data$Attribute_value), .data$Attribute_group, "                              
-[46] "            `$.rlang_data_pronoun`(.data, Attribute_group), data_pronoun_get(x, "                                     
-[47] "                nm, call = I(call(\"$\", quote(.data), sym(nm)))), "                                                  
-[48] "            abort_data_pronoun(x, call = y), abort(msg, \"rlang_error_data_pronoun_not_found\", "                     
-[49] "                call = call)), parent = c(0L, 1L, 2L, 2L, 4L, 2L, "                                                   
-[50] "        2L, 7L, 8L, 8L, 10L, 11L, 0L, 0L, 0L, 15L, 0L, 17L), visible = c(TRUE, "                                      
-[51] "        TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, "                                                 
-[52] "        TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE), namespace = c(\"bugphyzz\", "                                     
-[53] "        \"bugphyzz\", \"base\", NA, \"base\", \"dplyr\", \"dplyr\", \"dplyr\", "                                      
-[54] "        \"base\", \"dplyr\", NA, \"dplyr\", \"base\", NA, \"rlang\", \"rlang\", "                                     
-[55] "        \"rlang\", \"rlang\"), scope = c(\"::\", \":::\", \"::\", NA, \"::\", "                                       
-[56] "        \"::\", \":::\", \":::\", \"::\", \":::\", NA, \"local\", \"::\", NA, \":::\", "                              
-[57] "        \":::\", \":::\", \"::\")), parent = NULL, rlang = list(inherit = TRUE), "                                    
-[58] "        call = .data$Attribute_group, use_cli_format = TRUE))"                                                        
-[59] "21: signalCondition(cnd)"                                                                                             
-[60] "20: signal_abort(cnd, .file)"                                                                                         
-[61] "19: abort(msg, \"rlang_error_data_pronoun_not_found\", call = call)"                                                  
-[62] "18: abort_data_pronoun(x, call = y)"                                                                                  
-[63] "17: data_pronoun_get(x, nm, call = I(call(\"$\", quote(.data), sym(nm))))"                                            
-[64] "16: `$.rlang_data_pronoun`(.data, Attribute_group)"                                                                   
-[65] "15: .data$Attribute_group"                                                                                            
-[66] "14: paste0(\"bugphyzz:\", .data$Attribute_group, \"|\", .data$Attribute, "                                            
-[67] "        \"|\", .data$Attribute_value)"                                                                                
-[68] "13: .Call(dplyr_mask_eval_all_mutate, quo, private)"                                                                  
-[69] "12: eval()"                                                                                                           
-[70] "11: mask$eval_all_mutate(quo)"                                                                                        
-[71] "10: mutate_col(dots[[i]], data, mask, new_columns)"                                                                   
-[72] "9: withCallingHandlers(for (i in seq_along(dots)) {"                                                                  
-[73] "       poke_error_context(dots, i, mask = mask)"                                                                      
-[74] "       context_poke(\"column\", old_current_column)"                                                                  
-[75] "       new_columns <- mutate_col(dots[[i]], data, mask, new_columns)"                                                 
-[76] "   }, error = dplyr_error_handler(dots = dots, mask = mask, bullets = mutate_bullets, "                               
-[77] "       error_call = error_call, error_class = \"dplyr:::mutate_error\"), "                                            
-[78] "       warning = dplyr_warning_handler(state = warnings_state, mask = mask, "                                         
-[79] "           error_call = error_call))"                                                                                 
-[80] "8: mutate_cols(.data, dplyr_quosures(...), by)"                                                                       
-[81] "7: mutate.data.frame(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                  
-[82] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value))"                                                        
-[83] "6: dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                      
-[84] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value))"                                                        
-[85] "5: split(y, y$Attribute)"                                                                                             
-[86] "4: {"                                                                                                                 
-[87] "       function(y) split(y, y$Attribute)"                                                                             
-[88] "   }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                    
-[89] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value)))"                                                       
-[90] "3: lapply({"                                                                                                          
-[91] "       function(y) split(y, y$Attribute)"                                                                             
-[92] "   }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                    
-[93] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value))), function(x) unique(x[[tax_id_type]]))"                
-[94] "2: .makeSignaturesDiscrete(dat = dat, tax_id_type = tax_id_type)"                                                     
-[95] "1: makeSignatures(dat = all_data_list[[k]], tax_id_type = tax_id_types[j], "                                          
-[96] "       tax_level = ranks[i])"                                                                                         
-Warning message:
-In write.table(x = numeric_data, file = "bugphyzz_numeric.csv",  ... :
-  appending column names to file
+rank: genus / tax_id_type: Taxon_name / physiology: animal pathogen 
+
+rank: genus / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
+
+rank: genus / tax_id_type: Taxon_name / physiology: arrangement 
+
+rank: genus / tax_id_type: Taxon_name / physiology: biofilm forming 
+
+rank: genus / tax_id_type: Taxon_name / physiology: biosafety level 
+
+rank: genus / tax_id_type: Taxon_name / physiology: butyrate producing 
+
+rank: genus / tax_id_type: Taxon_name / physiology: coding genes 
+
+rank: genus / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
+
+rank: genus / tax_id_type: Taxon_name / physiology: extreme environment 
+
+rank: genus / tax_id_type: Taxon_name / physiology: genome size 
+
+rank: genus / tax_id_type: Taxon_name / physiology: gram stain 
+
+rank: genus / tax_id_type: Taxon_name / physiology: growth temperature 
+
+rank: genus / tax_id_type: Taxon_name / physiology: health associated 
+
+rank: genus / tax_id_type: Taxon_name / physiology: hemolysis 
+
+rank: genus / tax_id_type: Taxon_name / physiology: host-associated 
+
+rank: genus / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
+
+rank: genus / tax_id_type: Taxon_name / physiology: lactate producing 
+
+rank: genus / tax_id_type: Taxon_name / physiology: length 
+
+rank: genus / tax_id_type: Taxon_name / physiology: motility 
+
+rank: genus / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
+
+rank: genus / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
+
+rank: genus / tax_id_type: Taxon_name / physiology: optimal ph 
+
+rank: genus / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: genus / tax_id_type: Taxon_name / physiology: shape 
+
+rank: genus / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: genus / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: genus / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: genus / tax_id_type: Taxon_name / physiology: width 
+
+rank: genus / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: genus / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: genus / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: aerophilicity 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: animal pathogen 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: arrangement 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: biofilm forming 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: biosafety level 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: butyrate producing 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: coding genes 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: extreme environment 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: genome size 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: gram stain 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: growth temperature 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: health associated 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: hemolysis 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: host-associated 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: lactate producing 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: length 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: motility 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: optimal ph 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: width 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: genus / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
+
+rank: strain / tax_id_type: Taxon_name / physiology: aerophilicity 
+
+rank: strain / tax_id_type: Taxon_name / physiology: animal pathogen 
+
+rank: strain / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
+
+rank: strain / tax_id_type: Taxon_name / physiology: arrangement 
+
+rank: strain / tax_id_type: Taxon_name / physiology: biofilm forming 
+
+rank: strain / tax_id_type: Taxon_name / physiology: biosafety level 
+
+rank: strain / tax_id_type: Taxon_name / physiology: butyrate producing 
+
+rank: strain / tax_id_type: Taxon_name / physiology: coding genes 
+
+rank: strain / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
+
+rank: strain / tax_id_type: Taxon_name / physiology: extreme environment 
+
+rank: strain / tax_id_type: Taxon_name / physiology: genome size 
+
+rank: strain / tax_id_type: Taxon_name / physiology: gram stain 
+
+rank: strain / tax_id_type: Taxon_name / physiology: growth temperature 
+
+rank: strain / tax_id_type: Taxon_name / physiology: health associated 
+
+rank: strain / tax_id_type: Taxon_name / physiology: hemolysis 
+
+rank: strain / tax_id_type: Taxon_name / physiology: host-associated 
+
+rank: strain / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
+
+rank: strain / tax_id_type: Taxon_name / physiology: lactate producing 
+
+rank: strain / tax_id_type: Taxon_name / physiology: length 
+
+rank: strain / tax_id_type: Taxon_name / physiology: motility 
+
+rank: strain / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
+
+rank: strain / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
+
+rank: strain / tax_id_type: Taxon_name / physiology: optimal ph 
+
+rank: strain / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: strain / tax_id_type: Taxon_name / physiology: shape 
+
+rank: strain / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: strain / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: strain / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: strain / tax_id_type: Taxon_name / physiology: width 
+
+rank: strain / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: strain / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: strain / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: aerophilicity 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: animal pathogen 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: arrangement 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: biofilm forming 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: biosafety level 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: butyrate producing 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: coding genes 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: extreme environment 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: genome size 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: gram stain 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: growth temperature 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: health associated 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: hemolysis 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: host-associated 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: lactate producing 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: length 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: motility 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: optimal ph 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: width 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: strain / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
+
+rank: species / tax_id_type: Taxon_name / physiology: aerophilicity 
+
+rank: species / tax_id_type: Taxon_name / physiology: animal pathogen 
+
+rank: species / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
+
+rank: species / tax_id_type: Taxon_name / physiology: arrangement 
+
+rank: species / tax_id_type: Taxon_name / physiology: biofilm forming 
+
+rank: species / tax_id_type: Taxon_name / physiology: biosafety level 
+
+rank: species / tax_id_type: Taxon_name / physiology: butyrate producing 
+
+rank: species / tax_id_type: Taxon_name / physiology: coding genes 
+
+rank: species / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
+
+rank: species / tax_id_type: Taxon_name / physiology: extreme environment 
+
+rank: species / tax_id_type: Taxon_name / physiology: genome size 
+
+rank: species / tax_id_type: Taxon_name / physiology: gram stain 
+
+rank: species / tax_id_type: Taxon_name / physiology: growth temperature 
+
+rank: species / tax_id_type: Taxon_name / physiology: health associated 
+
+rank: species / tax_id_type: Taxon_name / physiology: hemolysis 
+
+rank: species / tax_id_type: Taxon_name / physiology: host-associated 
+
+rank: species / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
+
+rank: species / tax_id_type: Taxon_name / physiology: lactate producing 
+
+rank: species / tax_id_type: Taxon_name / physiology: length 
+
+rank: species / tax_id_type: Taxon_name / physiology: motility 
+
+rank: species / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
+
+rank: species / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
+
+rank: species / tax_id_type: Taxon_name / physiology: optimal ph 
+
+rank: species / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: species / tax_id_type: Taxon_name / physiology: shape 
+
+rank: species / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: species / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: species / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: species / tax_id_type: Taxon_name / physiology: width 
+
+rank: species / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: species / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: species / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
+
+rank: species / tax_id_type: NCBI_ID / physiology: aerophilicity 
+
+rank: species / tax_id_type: NCBI_ID / physiology: animal pathogen 
+
+rank: species / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
+
+rank: species / tax_id_type: NCBI_ID / physiology: arrangement 
+
+rank: species / tax_id_type: NCBI_ID / physiology: biofilm forming 
+
+rank: species / tax_id_type: NCBI_ID / physiology: biosafety level 
+
+rank: species / tax_id_type: NCBI_ID / physiology: butyrate producing 
+
+rank: species / tax_id_type: NCBI_ID / physiology: coding genes 
+
+rank: species / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
+
+rank: species / tax_id_type: NCBI_ID / physiology: extreme environment 
+
+rank: species / tax_id_type: NCBI_ID / physiology: genome size 
+
+rank: species / tax_id_type: NCBI_ID / physiology: gram stain 
+
+rank: species / tax_id_type: NCBI_ID / physiology: growth temperature 
+
+rank: species / tax_id_type: NCBI_ID / physiology: health associated 
+
+rank: species / tax_id_type: NCBI_ID / physiology: hemolysis 
+
+rank: species / tax_id_type: NCBI_ID / physiology: host-associated 
+
+rank: species / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
+
+rank: species / tax_id_type: NCBI_ID / physiology: lactate producing 
+
+rank: species / tax_id_type: NCBI_ID / physiology: length 
+
+rank: species / tax_id_type: NCBI_ID / physiology: motility 
+
+rank: species / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
+
+rank: species / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
+
+rank: species / tax_id_type: NCBI_ID / physiology: optimal ph 
+
+rank: species / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
+
+rank: species / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: species / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: species / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: species / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: species / tax_id_type: NCBI_ID / physiology: width 
+
+rank: species / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: species / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: species / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: aerophilicity 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: animal pathogen 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: antimicrobial sensitivity 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: arrangement 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: biofilm forming 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: biosafety level 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: butyrate producing 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: coding genes 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: COGEM pathogenicity rating 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: extreme environment 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: genome size 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: gram stain 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: growth temperature 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: health associated 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: hemolysis 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: host-associated 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: hydrogen gas producing 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: lactate producing 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: length 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: motility 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: mutation rate per site per generation 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: mutation rate per site per year 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: optimal ph 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: plant pathogenicity 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: shape 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: sphingolipid producing 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: spore formation 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: spore shape 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: width 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: habitat 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: disease association 
+
+rank: mixed / tax_id_type: Taxon_name / physiology: antimicrobial resistance 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: aerophilicity 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: animal pathogen 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial sensitivity 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: arrangement 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: biofilm forming 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: biosafety level 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: butyrate producing 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: coding genes 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: COGEM pathogenicity rating 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: extreme environment 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: genome size 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: gram stain 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: growth temperature 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: health associated 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: hemolysis 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: host-associated 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: hydrogen gas producing 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: lactate producing 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: length 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: motility 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: mutation rate per site per generation 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: mutation rate per site per year 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: optimal ph 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: plant pathogenicity 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: shape 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: sphingolipid producing 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: spore formation 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: spore shape 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: width 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: habitat 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: disease association 
+
+rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
+
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.3.2 (2023-10-31)
+ os       Ubuntu 22.04.3 LTS
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       America/New_York
+ date     2024-01-16
+ pandoc   3.1.11 @ /usr/bin/pandoc
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package           * version    date (UTC) lib source
+ ape               * 5.7-1      2023-03-13 [1] RSPM (R 4.3.1)
+ bit                 4.0.5      2022-11-15 [1] CRAN (R 4.2.2)
+ bit64               4.0.5      2020-08-30 [1] CRAN (R 4.1.2)
+ blob                1.2.4      2023-03-17 [1] CRAN (R 4.2.2)
+ bold                1.3.0      2023-05-02 [1] CRAN (R 4.2.2)
+ bugphyzz          * 0.0.1.4    2024-01-17 [1] Github (waldronlab/bugphyzz@5ac8adc)
+ bugphyzzExports   * 0.0.0.9004 2024-01-09 [1] local
+ bugsigdbr           1.8.1      2023-10-29 [1] Bioconductor
+ cachem              1.0.8      2023-05-01 [1] CRAN (R 4.2.2)
+ castor            * 1.8.0      2024-01-09 [1] CRAN (R 4.3.2)
+ cli                 3.6.2      2023-12-11 [1] CRAN (R 4.3.2)
+ clusterGeneration   1.3.8      2023-08-16 [1] RSPM (R 4.3.1)
+ coda                0.19-4     2020-09-30 [1] CRAN (R 4.1.2)
+ codetools           0.2-19     2023-02-01 [2] CRAN (R 4.3.2)
+ combinat            0.0-8      2012-10-29 [1] CRAN (R 4.2.1)
+ common              1.1.1      2023-12-19 [1] CRAN (R 4.3.2)
+ conditionz          0.1.0      2019-04-24 [1] CRAN (R 4.1.2)
+ crayon              1.5.2      2022-09-29 [1] CRAN (R 4.2.1)
+ crul                1.4.0      2023-05-17 [1] CRAN (R 4.3.0)
+ curl                5.2.0      2023-12-08 [1] CRAN (R 4.3.2)
+ data.table          1.14.10    2023-12-08 [1] CRAN (R 4.3.2)
+ DBI                 1.2.1      2024-01-12 [1] CRAN (R 4.3.2)
+ dbplyr              2.4.0      2023-10-26 [1] CRAN (R 4.3.1)
+ digest              0.6.34     2024-01-11 [1] CRAN (R 4.3.2)
+ doParallel          1.0.17     2022-02-07 [1] CRAN (R 4.1.2)
+ dplyr             * 1.1.4      2023-11-17 [1] CRAN (R 4.3.2)
+ expm                0.999-9    2024-01-11 [1] CRAN (R 4.3.2)
+ fansi               1.0.6      2023-12-08 [1] CRAN (R 4.3.2)
+ fastmap             1.1.1      2023-02-24 [1] CRAN (R 4.2.2)
+ fastmatch           1.1-4      2023-08-18 [1] CRAN (R 4.3.1)
+ foreach             1.5.2      2022-02-02 [1] CRAN (R 4.1.2)
+ generics            0.1.3      2022-07-05 [1] CRAN (R 4.2.1)
+ glue                1.7.0      2024-01-09 [1] CRAN (R 4.3.2)
+ hms                 1.1.3      2023-03-21 [1] CRAN (R 4.2.2)
+ hoardr              0.5.3      2023-01-26 [1] CRAN (R 4.2.2)
+ httpcode            0.3.0      2020-04-10 [1] CRAN (R 4.1.2)
+ igraph              1.6.0      2023-12-11 [1] CRAN (R 4.3.2)
+ iterators           1.0.14     2022-02-05 [1] CRAN (R 4.1.2)
+ jsonlite            1.8.8      2023-12-04 [1] CRAN (R 4.3.2)
+ lattice             0.22-5     2023-10-24 [1] RSPM (R 4.3.2)
+ lifecycle           1.0.4      2023-11-07 [1] CRAN (R 4.3.2)
+ logr              * 1.3.5      2023-11-09 [1] CRAN (R 4.3.2)
+ magrittr            2.0.3      2022-03-30 [1] CRAN (R 4.1.3)
+ maps              * 3.4.2      2023-12-15 [1] CRAN (R 4.3.2)
+ MASS                7.3-60     2023-05-04 [2] CRAN (R 4.3.2)
+ Matrix              1.6-5      2024-01-11 [1] CRAN (R 4.3.2)
+ memoise             2.0.1      2021-11-26 [1] CRAN (R 4.1.2)
+ mnormt              2.1.1      2022-09-26 [1] CRAN (R 4.2.1)
+ naturalsort         0.1.3      2016-08-30 [1] RSPM (R 4.3.0)
+ nlme                3.1-163    2023-08-09 [2] CRAN (R 4.3.2)
+ numDeriv            2016.8-1.1 2019-06-06 [1] CRAN (R 4.1.2)
+ optimParallel       1.0-2      2021-02-11 [1] RSPM (R 4.3.1)
+ phangorn            2.11.1     2023-01-23 [1] CRAN (R 4.2.2)
+ phytools          * 2.1-1      2024-01-09 [1] CRAN (R 4.3.2)
+ pillar              1.9.0      2023-03-22 [1] CRAN (R 4.2.2)
+ pkgconfig           2.0.3      2019-09-22 [1] CRAN (R 4.1.2)
+ purrr             * 1.0.2      2023-08-10 [1] CRAN (R 4.3.1)
+ quadprog            1.5-8      2019-11-20 [1] CRAN (R 4.1.2)
+ R6                  2.5.1      2021-08-19 [1] CRAN (R 4.1.2)
+ rappdirs            0.3.3      2021-01-31 [1] CRAN (R 4.1.2)
+ Rcpp              * 1.0.12     2024-01-09 [1] CRAN (R 4.3.2)
+ readr               2.1.5      2024-01-10 [1] CRAN (R 4.3.2)
+ rlang             * 1.1.3      2024-01-10 [1] CRAN (R 4.3.2)
+ RSpectra            0.16-1     2022-04-24 [1] CRAN (R 4.1.3)
+ RSQLite             2.3.4      2023-12-08 [1] CRAN (R 4.3.2)
+ scatterplot3d       0.3-44     2023-05-05 [1] CRAN (R 4.2.2)
+ sessioninfo         1.2.2      2021-12-06 [1] CRAN (R 4.1.2)
+ stringi             1.8.3      2023-12-11 [1] CRAN (R 4.3.2)
+ stringr             1.5.1      2023-11-14 [1] RSPM (R 4.3.0)
+ taxize              0.9.100    2022-04-22 [1] CRAN (R 4.2.2)
+ taxizedb            0.3.1      2023-04-03 [1] CRAN (R 4.2.2)
+ taxPPro           * 0.1.0      2024-01-17 [1] Github (waldronlab/taxPPro@b20514b)
+ tibble            * 3.2.1      2023-03-20 [1] CRAN (R 4.2.2)
+ tidyr             * 1.3.0      2023-01-24 [1] CRAN (R 4.2.2)
+ tidyselect          1.2.0      2022-10-10 [1] CRAN (R 4.2.1)
+ tzdb                0.4.0      2023-05-12 [1] CRAN (R 4.3.0)
+ utf8                1.2.4      2023-10-22 [1] CRAN (R 4.3.1)
+ uuid                1.2-0      2024-01-14 [1] CRAN (R 4.3.2)
+ vctrs               0.6.5      2023-12-01 [1] CRAN (R 4.3.2)
+ withr               2.5.2      2023-10-30 [1] CRAN (R 4.3.1)
+ xml2                1.3.6      2023-12-04 [1] CRAN (R 4.3.2)
+ zoo                 1.8-12     2023-04-13 [1] CRAN (R 4.2.2)
+
+ [1] /mnt/STORE1/lib/R/bioc-release
+ [2] /usr/local/lib/R/library
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Warning messages:
+1: Not enough data for creating signatures. Try different filtering options
+2: Not enough data for creating signatures. Try different filtering options
+3: Not enough data for creating signatures. Try different filtering options
+4: Not enough data for creating signatures. Try different filtering options
+5: Not enough data for creating signatures. Try different filtering options
+6: Not enough data for creating signatures. Try different filtering options
+7: Not enough data for creating signatures. Try different filtering options
+8: Not enough data for creating signatures. Try different filtering options
+9: Not enough data for creating signatures. Try different filtering options
+10: Not enough data for creating signatures. Try different filtering options
+11: Not enough data for creating signatures. Try different filtering options
+12: Not enough data for creating signatures. Try different filtering options
+13: Not enough data for creating signatures. Try different filtering options
+14: Not enough data for creating signatures. Try different filtering options
+15: Not enough data for creating signatures. Try different filtering options
+16: Not enough data for creating signatures. Try different filtering options
+17: Not enough data for creating signatures. Try different filtering options
+18: Not enough data for creating signatures. Try different filtering options
+19: Not enough data for creating signatures. Try different filtering options
+20: Not enough data for creating signatures. Try different filtering options
+21: Not enough data for creating signatures. Try different filtering options
+22: Not enough data for creating signatures. Try different filtering options
+23: Not enough data for creating signatures. Try different filtering options
+24: Not enough data for creating signatures. Try different filtering options
+25: Not enough data for creating signatures. Try different filtering options
+26: Not enough data for creating signatures. Try different filtering options
+27: Not enough data for creating signatures. Try different filtering options
+28: Not enough data for creating signatures. Try different filtering options
+29: Not enough data for creating signatures. Try different filtering options
+30: Not enough data for creating signatures. Try different filtering options
+31: Not enough data for creating signatures. Try different filtering options
+32: Not enough data for creating signatures. Try different filtering options
+33: Not enough data for creating signatures. Try different filtering options
+34: Not enough data for creating signatures. Try different filtering options
+35: Not enough data for creating signatures. Try different filtering options
+36: Not enough data for creating signatures. Try different filtering options
+37: Not enough data for creating signatures. Try different filtering options
+38: Not enough data for creating signatures. Try different filtering options
+39: Not enough data for creating signatures. Try different filtering options
+40: Not enough data for creating signatures. Try different filtering options
 ========================================================================= 
-Log End Time: 2024-01-16 19:14:37.497816 
-Log Elapsed Time: 0 01:43:28 
+Log End Time: 2024-01-16 23:52:31.008911 
+Log Elapsed Time: 0 01:44:29 
 ========================================================================= 
