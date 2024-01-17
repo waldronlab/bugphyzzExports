@@ -1,41 +1,101 @@
-Warning messages:
-1: Not enough data for creating signatures. Try different filtering options
-2: Not enough data for creating signatures. Try different filtering options
-3: Not enough data for creating signatures. Try different filtering options
-4: Not enough data for creating signatures. Try different filtering options
-5: Not enough data for creating signatures. Try different filtering options
-6: Not enough data for creating signatures. Try different filtering options
-7: Not enough data for creating signatures. Try different filtering options
-8: Not enough data for creating signatures. Try different filtering options
-9: Not enough data for creating signatures. Try different filtering options
-10: Not enough data for creating signatures. Try different filtering options
-11: Not enough data for creating signatures. Try different filtering options
-12: Not enough data for creating signatures. Try different filtering options
-13: Not enough data for creating signatures. Try different filtering options
-14: Not enough data for creating signatures. Try different filtering options
-15: Not enough data for creating signatures. Try different filtering options
-16: Not enough data for creating signatures. Try different filtering options
-17: Not enough data for creating signatures. Try different filtering options
-18: Not enough data for creating signatures. Try different filtering options
-19: Not enough data for creating signatures. Try different filtering options
-20: Not enough data for creating signatures. Try different filtering options
-21: Not enough data for creating signatures. Try different filtering options
-22: Not enough data for creating signatures. Try different filtering options
-23: Not enough data for creating signatures. Try different filtering options
-24: Not enough data for creating signatures. Try different filtering options
-25: Not enough data for creating signatures. Try different filtering options
-26: Not enough data for creating signatures. Try different filtering options
-27: Not enough data for creating signatures. Try different filtering options
-28: Not enough data for creating signatures. Try different filtering options
-29: Not enough data for creating signatures. Try different filtering options
-30: Not enough data for creating signatures. Try different filtering options
-31: Not enough data for creating signatures. Try different filtering options
-32: Not enough data for creating signatures. Try different filtering options
-33: Not enough data for creating signatures. Try different filtering options
-34: Not enough data for creating signatures. Try different filtering options
-35: Not enough data for creating signatures. Try different filtering options
-36: Not enough data for creating signatures. Try different filtering options
-37: Not enough data for creating signatures. Try different filtering options
-38: Not enough data for creating signatures. Try different filtering options
-39: Not enough data for creating signatures. Try different filtering options
-40: Not enough data for creating signatures. Try different filtering options
+Error in dplyr::mutate(dat, Attribute = paste0("bugphyzz:", .data$Attribute_group, :  [1mCaused by error in `.data$Attribute_group`:[22m [1m[22m[33m![39m Column `Attribute_group` not found in `.data`. Calls: makeSignatures ... signalCondition -> <Anonymous> -> abort -> signal_abort 
+Traceback: 
+ [1] "25: stop(fallback)"                                                                                                   
+ [2] "24: signal_abort(cnd, .file)"                                                                                         
+ [3] "23: abort(message, class = error_class, parent = parent, call = error_call)"                                          
+ [4] "22: (function (cnd) "                                                                                                 
+ [5] "    {"                                                                                                                
+ [6] "        local_error_context(dots, i = frame[[i_sym]], mask = mask)"                                                   
+ [7] "        if (inherits(cnd, \"dplyr:::internal_error\")) {"                                                             
+ [8] "            parent <- error_cnd(message = bullets(cnd))"                                                              
+ [9] "        }"                                                                                                            
+[10] "        else {"                                                                                                       
+[11] "            parent <- cnd"                                                                                            
+[12] "        }"                                                                                                            
+[13] "        message <- c(cnd_bullet_header(action), i = if (has_active_group_context(mask)) cnd_bullet_cur_group_label())"
+[14] "        abort(message, class = error_class, parent = parent, call = error_call)"                                      
+[15] "    })(list(message = \"Column `Attribute_group` not found in `.data`.\", "                                           
+[16] "        trace = list(call = list(makeSignatures(dat = all_data_list[[k]], "                                           
+[17] "            tax_id_type = tax_id_types[j], tax_level = ranks[i]), "                                                   
+[18] "            .makeSignaturesDiscrete(dat = dat, tax_id_type = tax_id_type), "                                          
+[19] "            lapply({"                                                                                                 
+[20] "                function(y) split(y, y$Attribute)"                                                                    
+[21] "            }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", "                                                  
+[22] "                .data$Attribute_group, \"|\", .data$Attribute, \"|\", "                                               
+[23] "                .data$Attribute_value))), function(x) unique(x[[tax_id_type]])), "                                    
+[24] "            {"                                                                                                        
+[25] "                function(y) split(y, y$Attribute)"                                                                    
+[26] "            }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", "                                                  
+[27] "                .data$Attribute_group, \"|\", .data$Attribute, \"|\", "                                               
+[28] "                .data$Attribute_value))), split(y, y$Attribute), "                                                    
+[29] "            dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                             
+[30] "                \"|\", .data$Attribute, \"|\", .data$Attribute_value)), "                                             
+[31] "            mutate.data.frame(dat, Attribute = paste0(\"bugphyzz:\", "                                                
+[32] "                .data$Attribute_group, \"|\", .data$Attribute, \"|\", "                                               
+[33] "                .data$Attribute_value)), mutate_cols(.data, dplyr_quosures(...), "                                    
+[34] "                by), withCallingHandlers(for (i in seq_along(dots)) {"                                                
+[35] "                poke_error_context(dots, i, mask = mask)"                                                             
+[36] "                context_poke(\"column\", old_current_column)"                                                         
+[37] "                new_columns <- mutate_col(dots[[i]], data, mask, "                                                    
+[38] "                    new_columns)"                                                                                     
+[39] "            }, error = dplyr_error_handler(dots = dots, mask = mask, "                                                
+[40] "                bullets = mutate_bullets, error_call = error_call, "                                                  
+[41] "                error_class = \"dplyr:::mutate_error\"), warning = dplyr_warning_handler(state = warnings_state, "    
+[42] "                mask = mask, error_call = error_call)), mutate_col(dots[[i]], "                                       
+[43] "                data, mask, new_columns), mask$eval_all_mutate(quo), "                                                
+[44] "            eval(), paste0(\"bugphyzz:\", .data$Attribute_group, \"|\", "                                             
+[45] "                .data$Attribute, \"|\", .data$Attribute_value), .data$Attribute_group, "                              
+[46] "            `$.rlang_data_pronoun`(.data, Attribute_group), data_pronoun_get(x, "                                     
+[47] "                nm, call = I(call(\"$\", quote(.data), sym(nm)))), "                                                  
+[48] "            abort_data_pronoun(x, call = y), abort(msg, \"rlang_error_data_pronoun_not_found\", "                     
+[49] "                call = call)), parent = c(0L, 1L, 2L, 2L, 4L, 2L, "                                                   
+[50] "        2L, 7L, 8L, 8L, 10L, 11L, 0L, 0L, 0L, 15L, 0L, 17L), visible = c(TRUE, "                                      
+[51] "        TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, "                                                 
+[52] "        TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE), namespace = c(\"bugphyzz\", "                                     
+[53] "        \"bugphyzz\", \"base\", NA, \"base\", \"dplyr\", \"dplyr\", \"dplyr\", "                                      
+[54] "        \"base\", \"dplyr\", NA, \"dplyr\", \"base\", NA, \"rlang\", \"rlang\", "                                     
+[55] "        \"rlang\", \"rlang\"), scope = c(\"::\", \":::\", \"::\", NA, \"::\", "                                       
+[56] "        \"::\", \":::\", \":::\", \"::\", \":::\", NA, \"local\", \"::\", NA, \":::\", "                              
+[57] "        \":::\", \":::\", \"::\")), parent = NULL, rlang = list(inherit = TRUE), "                                    
+[58] "        call = .data$Attribute_group, use_cli_format = TRUE))"                                                        
+[59] "21: signalCondition(cnd)"                                                                                             
+[60] "20: signal_abort(cnd, .file)"                                                                                         
+[61] "19: abort(msg, \"rlang_error_data_pronoun_not_found\", call = call)"                                                  
+[62] "18: abort_data_pronoun(x, call = y)"                                                                                  
+[63] "17: data_pronoun_get(x, nm, call = I(call(\"$\", quote(.data), sym(nm))))"                                            
+[64] "16: `$.rlang_data_pronoun`(.data, Attribute_group)"                                                                   
+[65] "15: .data$Attribute_group"                                                                                            
+[66] "14: paste0(\"bugphyzz:\", .data$Attribute_group, \"|\", .data$Attribute, "                                            
+[67] "        \"|\", .data$Attribute_value)"                                                                                
+[68] "13: .Call(dplyr_mask_eval_all_mutate, quo, private)"                                                                  
+[69] "12: eval()"                                                                                                           
+[70] "11: mask$eval_all_mutate(quo)"                                                                                        
+[71] "10: mutate_col(dots[[i]], data, mask, new_columns)"                                                                   
+[72] "9: withCallingHandlers(for (i in seq_along(dots)) {"                                                                  
+[73] "       poke_error_context(dots, i, mask = mask)"                                                                      
+[74] "       context_poke(\"column\", old_current_column)"                                                                  
+[75] "       new_columns <- mutate_col(dots[[i]], data, mask, new_columns)"                                                 
+[76] "   }, error = dplyr_error_handler(dots = dots, mask = mask, bullets = mutate_bullets, "                               
+[77] "       error_call = error_call, error_class = \"dplyr:::mutate_error\"), "                                            
+[78] "       warning = dplyr_warning_handler(state = warnings_state, mask = mask, "                                         
+[79] "           error_call = error_call))"                                                                                 
+[80] "8: mutate_cols(.data, dplyr_quosures(...), by)"                                                                       
+[81] "7: mutate.data.frame(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                  
+[82] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value))"                                                        
+[83] "6: dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                      
+[84] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value))"                                                        
+[85] "5: split(y, y$Attribute)"                                                                                             
+[86] "4: {"                                                                                                                 
+[87] "       function(y) split(y, y$Attribute)"                                                                             
+[88] "   }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                    
+[89] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value)))"                                                       
+[90] "3: lapply({"                                                                                                          
+[91] "       function(y) split(y, y$Attribute)"                                                                             
+[92] "   }(dplyr::mutate(dat, Attribute = paste0(\"bugphyzz:\", .data$Attribute_group, "                                    
+[93] "       \"|\", .data$Attribute, \"|\", .data$Attribute_value))), function(x) unique(x[[tax_id_type]]))"                
+[94] "2: .makeSignaturesDiscrete(dat = dat, tax_id_type = tax_id_type)"                                                     
+[95] "1: makeSignatures(dat = all_data_list[[k]], tax_id_type = tax_id_types[j], "                                          
+[96] "       tax_level = ranks[i])"                                                                                         
+Warning message:
+In write.table(x = numeric_data, file = "bugphyzz_numeric.csv",  ... :
+  appending column names to file

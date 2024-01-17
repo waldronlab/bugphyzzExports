@@ -29,32 +29,31 @@ attributes_by_type <- list(
         "mutation rate per site per year"
     ),
     binary = c( # Attribute_type is binary
-        # "animal pathogen",
-        # "antimicrobial sensitivity",
-        # "biofilm forming",
-        # "extreme environment",
-        # "health associated",
-        # "hydrogen gas producing",
-        # "lactate producing",
-        # "motility",
-        # "plant pathogenicity",
-        # "spore formation",
-        # "host-associated",
-        'sphingolipid producing'
-        # 'butyrate producing'
+        "animal pathogen",
+        "antimicrobial sensitivity",
+        "biofilm forming",
+        "extreme environment",
+        "health associated",
+        "hydrogen gas producing",
+        "lactate producing",
+        "motility",
+        "plant pathogenicity",
+        "spore formation",
+        "host-associated",
+        'sphingolipid producing',
+        'butyrate producing'
     ),
     multistate = c( # Attribute_type is multistate-intersection
-        "aerophilicity"
-        # "gram stain",
-        # "biosafety level",
-        # "COGEM pathogenicity rating",
-        # "shape",
-        # "spore shape",
-        # "arrangement",
-        # "hemolysis"
+        "aerophilicity",
+        "gram stain",
+        "biosafety level",
+        "COGEM pathogenicity rating",
+        "shape",
+        "spore shape",
+        "arrangement",
+        "hemolysis"
     )
 )
-
 
 ltp <- ltp()
 tree <- ltp$tree
