@@ -6,89 +6,89 @@ R Version: 4.3.2 (2023-10-31)
 Machine: supermicro x86_64 
 Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: purrr_1.0.2 castor_1.8.0 Rcpp_1.0.12 phytools_2.1-1 maps_3.4.2 ape_5.7-1 tibble_3.2.1 tidyr_1.3.0 bugphyzzExports_0.0.0.9004 dplyr_1.1.4 rlang_1.1.3 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.5 
-Log Start Time: 2024-01-16 22:08:01.126597 
+Log Start Time: 2024-01-19 22:38:38.172487 
 ========================================================================= 
-Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-16 22:08:01.447012 
+Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-19 22:38:38.520406 
 
 Propagating aerophilicity of type multistate-intersection. 
    user  system elapsed 
-260.228   0.532 260.734 
+259.496   0.332 259.796 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-468.265   0.752 468.975 
+467.122   0.632 467.699 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-427.017   0.748 427.722 
+426.202   0.592 426.745 
 Propagating arrangement of type multistate-intersection. 
    user  system elapsed 
-470.305   0.608 470.878 
+472.547   0.528 473.019 
 Propagating biofilm forming of type binary. 
 Not enough data for ASR for biofilm forming. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-357.778   0.496 358.240 
+360.000   0.480 360.436 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  0.089   0.000   0.088 
+  0.073   0.004   0.077 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-309.090   0.536 309.606 
+310.016   0.436 310.414 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-391.200   0.548 391.718 
+393.653   0.496 394.106 
 Propagating genome size of type range. 
    user  system elapsed 
-  0.086   0.000   0.086 
+  0.074   0.000   0.074 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-326.479   0.468 326.916 
+326.460   0.612 327.055 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  0.079   0.008   0.087 
+  0.073   0.000   0.073 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
    user  system elapsed 
-427.341   0.636 427.936 
+423.503   0.544 424.029 
 Propagating host-associated of type binary. 
    user  system elapsed 
-501.413   0.784 502.152 
+497.442   0.620 498.029 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  0.084   0.000   0.084 
+  0.073   0.000   0.074 
 Propagating motility of type binary. 
    user  system elapsed 
-487.138   0.696 487.785 
+482.116   0.676 482.752 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  0.085   0.000   0.085 
+  0.072   0.000   0.071 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-416.410   0.659 417.030 
+398.620   0.652 399.241 
 Propagating shape of type multistate-intersection. 
    user  system elapsed 
-597.756   1.000 598.697 
+592.070   0.728 592.762 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-286.383   0.844 287.199 
+283.101   0.924 284.005 
 Propagating spore shape of type multistate-intersection. 
    user  system elapsed 
-335.985   0.655 336.611 
+331.797   0.536 332.311 
 Propagating width of type range. 
    user  system elapsed 
-  0.087   0.000   0.087 
+  0.074   0.000   0.074 
 Writing GMT files... 
 rank: genus / tax_id_type: Taxon_name / physiology: aerophilicity 
 
@@ -612,7 +612,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       America/New_York
- date     2024-01-16
+ date     2024-01-20
  pandoc   3.1.11 @ /usr/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -622,7 +622,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  bit64               4.0.5      2020-08-30 [1] CRAN (R 4.1.2)
  blob                1.2.4      2023-03-17 [1] CRAN (R 4.2.2)
  bold                1.3.0      2023-05-02 [1] CRAN (R 4.2.2)
- bugphyzz          * 0.0.1.4    2024-01-17 [1] Github (waldronlab/bugphyzz@5ac8adc)
+ bugphyzz          * 0.0.1.4    2024-01-19 [1] Github (waldronlab/bugphyzz@3185c45)
  bugphyzzExports   * 0.0.0.9004 2024-01-09 [1] local
  bugsigdbr           1.8.1      2023-10-29 [1] Bioconductor
  cachem              1.0.8      2023-05-01 [1] CRAN (R 4.2.2)
@@ -696,7 +696,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  utf8                1.2.4      2023-10-22 [1] CRAN (R 4.3.1)
  uuid                1.2-0      2024-01-14 [1] CRAN (R 4.3.2)
  vctrs               0.6.5      2023-12-01 [1] CRAN (R 4.3.2)
- withr               2.5.2      2023-10-30 [1] CRAN (R 4.3.1)
+ withr               3.0.0      2024-01-16 [1] CRAN (R 4.3.2)
  xml2                1.3.6      2023-12-04 [1] CRAN (R 4.3.2)
  zoo                 1.8-12     2023-04-13 [1] CRAN (R 4.2.2)
 
@@ -747,6 +747,6 @@ Warning messages:
 39: Not enough data for creating signatures. Try different filtering options
 40: Not enough data for creating signatures. Try different filtering options
 ========================================================================= 
-Log End Time: 2024-01-16 23:52:31.008911 
-Log Elapsed Time: 0 01:44:29 
+Log End Time: 2024-01-20 00:23:04.217592 
+Log Elapsed Time: 0 01:44:26 
 ========================================================================= 

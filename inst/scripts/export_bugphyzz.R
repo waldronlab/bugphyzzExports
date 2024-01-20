@@ -158,8 +158,10 @@ for (i in seq_along(propagated)) {
 
             fit <- fitMk(tree = tree, x = input_mat, model = "ER", pi = "equal")
             ace <- ancr(fit, tips = TRUE)
+            output_mat <- ace$ace
+            rownames(output_mat) <- c(tree$tip.label, tree$node.label)
 
-            asr_df <- ace$ace |>
+            asr_df <- output_mat |>
                 as.data.frame() |>
                 rownames_to_column(var = "label") |>
                 filter(label %in% tree_data$label) |>
@@ -167,7 +169,7 @@ for (i in seq_along(propagated)) {
                 pivot_longer(
                     names_to = "Attribute", values_to = "Score", cols = 2:last_col()
                 ) |>
-                left_join(tree_data, by = "label") |>
+                left_join(tree_data, by = "label", relationship = "many-to-many") |>
                 filter(!is.na(NCBI_ID)) |>
                 filter(!NCBI_ID %in% unique(dat$NCBI_ID)) |>
                 mutate(
@@ -248,14 +250,15 @@ for (i in seq_along(propagated)) {
                 label = c(tree$tip.label, tree$node.label),
                 Attribute_value = asr$states
             ) |>
-                filter(!grepl("^n\\d+$", label)) |>
+                # filter(!grepl("^n\\d+$", label)) |>
+                filter(label %in% tree_data$label) |>
                 filter(!label %in% rownames(annotated_tips))
 
             nsti <- getNsti(tree = tree, annotated_tip_labels = rownames(annotated_tips))
 
             predicted_dat <- left_join(
                 asr_df, nsti, by = c("label" = "tip_label")) |>
-                left_join(tree_data, by = "label") |>
+                left_join(tree_data, by = "label", relationship = "many-to-many") |>
                 select(-label) |>
                 filter(!is.na(NCBI_ID)) |>
                 mutate(
