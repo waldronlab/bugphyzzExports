@@ -166,10 +166,13 @@ for (i in seq_along(propagated)) {
                 rownames_to_column(var = "label") |>
                 filter(label %in% tree_data$label) |>
                 filter(!label %in% rownames(annotated_tips)) |>
-                pivot_longer(
-                    names_to = "Attribute", values_to = "Score", cols = 2:last_col()
-                ) |>
                 left_join(tree_data, by = "label", relationship = "many-to-many") |>
+                group_by(NCBI_ID) |>
+                slice_max(order_by = label, n = 1, with_ties = FALSE) |>
+                ungroup() |>
+                pivot_longer(
+                    names_to = "Attribute", values_to = "Score", cols = colnames(output_mat)
+                ) |>
                 filter(!is.na(NCBI_ID)) |>
                 filter(!NCBI_ID %in% unique(dat$NCBI_ID)) |>
                 mutate(
@@ -178,6 +181,9 @@ for (i in seq_along(propagated)) {
                     Attribute_source = NA,
                     Frequency = scores2Freq(Score)
                 )
+
+                # left_join(tree_data, by = "label", relationship = "many-to-many") |>
+
             if (attr_type == "multistate-intersection") {
                 res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
                     mutate(
@@ -268,7 +274,10 @@ for (i in seq_along(propagated)) {
                     Score = NA,
                     Evidence = "asr"
                 ) |>
-                filter(!NCBI_ID %in% dat$NCBI_ID)
+                filter(!NCBI_ID %in% dat$NCBI_ID) |>
+                group_by(NCBI_ID) |>
+                slice_max(order_by = Attribute_value, n = 1, with_ties = FALSE) |>
+                ungroup()
 
             res <- bind_rows(dat, predicted_dat) |>
                 mutate(
