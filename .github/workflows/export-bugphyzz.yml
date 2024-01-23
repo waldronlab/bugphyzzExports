@@ -14,10 +14,12 @@ jobs:
 
     steps:
 
+      - name: Install git-lfs
+        run: apt update && apt install git-lfs
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          path: bugphyzzExports
           lfs: true
 
       - name: Install R dependencies
