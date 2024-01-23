@@ -38,7 +38,7 @@ jobs:
       # Copied and adapted from https://github.com/waldronlab/BugSigDBExports/blob/5cb9151b8bea35f1cd104df5879a9d405cce1574/.github/workflows/export-bugsigdb.yml#L41C1-L57C15
       - name: Commit Exports
         run: |
-          cd $GITHUB_WORKSPACE/bugphyzzExports
+          cd $GITHUB_WORKSPACE
           for export in `find . -type f -iname \*.gmt -o -iname \*.csv`
           do
             export=$(echo $export | sed 's/\.\///g')
