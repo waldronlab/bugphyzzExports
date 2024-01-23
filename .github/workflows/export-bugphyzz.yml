@@ -14,10 +14,14 @@ jobs:
 
     steps:
 
+      - name: Install git lfs
+        run: git lfs install
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           path: bugphyzzExports
+          lfs: true
 
       - name: Install R dependencies
         run: |
@@ -32,17 +36,21 @@ jobs:
           BiocManager::install(pkgs, dependencies = TRUE)
         shell: Rscript {0}
 
-      - name: Export bugphyzz
-        run: |
-          cd $GITHUB_WORKSPACE/bugphyzzExports
-          rm *.gmt *.csv
-          Rscript inst/scripts/export_bugphyzz.R
-
+      # Copied and adapted from https://github.com/waldronlab/BugSigDBExports/blob/5cb9151b8bea35f1cd104df5879a9d405cce1574/.github/workflows/export-bugsigdb.yml#L41C1-L57C15
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/bugphyzzExports
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git add *.csv *.gmt *.log
-          git commit -m "Weekly export update"
-          git push
+          for export in `find . -type f -iname \*.gmt -o -iname \*.csv`
+          do
+            export=$(echo $export | sed 's/\.\///g')
+            git_diff=$(git diff --numstat $export | sed -e 's/\t//g')
+            if [ "$git_diff" = "11$export" -o "$git_diff" = "" ]; then
+                echo "No changes to commit for $export"
+            else
+                echo "Commit changes for $export"
+                git add *.csv *.gmt *.log
+                git commit -m "Hourly export update"
+                git push origin devel
+                break
+            fi
+          done
