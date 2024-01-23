@@ -352,12 +352,22 @@ daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
 propagated[["disease association"]] <- daready
 
 ## antimicrobial resistance
-ar <- physiologies("antimicrobial resistance")[[1]]
-arl <- split(ar, ar$Attribute) |>
-    purrr::map(~ mutate(.x, Attribute_type = "binary"))
+## TODO The changes below most be done on the bugphyzzWrangling and
+## upload directly to the spreadsheet curation
+ar <- physiologies("antimicrobial resistance")[[1]] |>
+    mutate(Attribute = stringr::str_squish(tolower(Attribute))) |>
+    mutate(Attribute = sub("not resistant", "sensitive", Attribute)) |>
+    mutate(Attribute = sub("carbapenem-resistan", "resistance to", Attribute)) |>
+    mutate(Attribute = sub("resistant", "resistance", Attribute)) |>
+    mutate(Attribute = sub("tot", "to", Attribute)) |>
+    mutate(Attribute_value = ifelse(grepl("sensitive", Attribute), FALSE, Attribute_value)) |>
+    mutate(Attribute = sub("sensitive", "resistance", Attribute)) |>
+    mutate(Attribute_type = "binary")
+
+arl <- split(ar, ar$Attribute)
 arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
     bind_rows() |>
-    separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
+    # separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
     filter(!is.na(Evidence)) |>
     mutate(
         Attribute_value = Attribute,
@@ -371,9 +381,16 @@ arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
         Evidence, Frequency, Score,
         Attribute_source, Confidence_in_curation,
         Attribute_type
+    ) |>
+    mutate(
+        Attribute_value = case_when(
+            grepl("--TRUE$", Attribute_value) ~ sub("--TRUE$", "", Attribute_value),
+            grepl("--FALSE$", Attribute_value) ~ sub("\\w+ to (.*)--FALSE$", "sensitive to \\1", Attribute_value)
+        )
     )
-propagated[["antimicrobial resistance"]] <- arready
 
+
+propagated[["antimicrobial resistance"]] <- arready
 final_set <- propagated |>
     purrr::map(~ {
         .x |>
@@ -389,7 +406,6 @@ final_set <- propagated |>
                 Attribute_type
             )
     })
-
 multistate_data <- bind_rows(final_set[c(attributes_by_type$multistate, "habitat", "antimicrobial resistance", "disease association")])
 binary_data <- bind_rows(final_set[attributes_by_type$binary])
 numeric_data <- bind_rows(final_set[attributes_by_type$numeric])
