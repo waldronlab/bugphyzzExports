@@ -14,9 +14,6 @@ jobs:
 
     steps:
 
-      - name: Install git lfs
-        run: git lfs install
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
