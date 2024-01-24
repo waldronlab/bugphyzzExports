@@ -14,19 +14,34 @@ If desired, you can generate the signatures and full dump file.
 
 ### Requirements
 
-You will need to install
+In addition to installing this repository, you will need to install
 
+* [BiocFileCache](https://www.bioconductor.org/packages/BiocFileCache)
 * [bugphyzz](https://github.com/waldronlab/bugphyzz)
-* [bugsigdbr](https://www.bioconductor.org/packages/bugsigdbr/)
+* [castor](https://cran.r-project.org/web/packages/castor/)
+* [logr](https://cran.r-project.org/web/packages/logr/)
+* [phytools](https://cran.r-project.org/web/packages/phytools/)
+* [purrr](https://cran.r-project.org/web/packages/purrr)
 * [readr](https://readr.tidyverse.org/)
+* [tibble](https://cran.r-project.org/web/packages/tibble/)
+* [tidyr](https://cran.r-project.org/web/packages/tidyr/)
 
 Install using `BiocManager`:
 
 ```
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-
-BiocManager::install(c("waldronlab/bugphyzz", "bugsigdbr", "readr"))
+dependencies <- c("BiocFileCache",
+                  "waldronlab/bugphyzz",
+                  "castor",
+                  "logr",
+                  "phytools",
+                  "purrr",
+                  "readr",
+                  "tibble",
+                  "tidyr",
+                  "waldronlab/bugphyzzExports")
+BiocManager::install(dependencies)
 ```
 ### Run export_bugphyzz.R
 
@@ -36,11 +51,10 @@ is run.
 ```
 Rscript bugphyzzExports\inst\script\export_bugphyzz.R
 ```
+#### For Internal Use
+
 When on supermicro
 
 ```
 /usr/bin/Rscript --vanilla inst/scripts/export_bugphyzz.R
 ```
-
-
-
