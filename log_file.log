@@ -1,94 +1,94 @@
 ========================================================================= 
 Log Path: log_file.log 
-Working Directory: /mnt/STORE1/bighome/samuelgamboa/Projects/bugphyzzExports 
-User Name: samuelgamboa 
-R Version: 4.3.2 (2023-10-31) 
-Machine: supermicro x86_64 
-Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
-Base Packages: stats graphics grDevices utils datasets methods base Other Packages: purrr_1.0.2 castor_1.8.0 Rcpp_1.0.12 phytools_2.1-1 maps_3.4.2 ape_5.7-1 tibble_3.2.1 tidyr_1.3.0 bugphyzzExports_0.0.0.9004 dplyr_1.1.4 rlang_1.1.3 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.5 
-Log Start Time: 2024-01-22 19:22:51.63888 
+Working Directory: /__w/bugphyzzExports/bugphyzzExports 
+User Name: root 
+R Version: R Under development (unstable) (2024-01-17 r85813) 
+Machine: fce6e7980b15 x86_64 
+Operating System: Linux 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 
+Base Packages: stats graphics grDevices utils datasets methods base Other Packages: purrr_1.0.2 castor_1.8.0 Rcpp_1.0.12 phytools_2.1-1 maps_3.4.2 ape_5.7-1 tibble_3.2.1 tidyr_1.3.1 bugphyzzExports_0.0.0.9004 dplyr_1.1.4 rlang_1.1.3 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.5 
+Log Start Time: 2024-01-25 16:21:07.076104 
 ========================================================================= 
-Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-22 19:22:51.961345 
+Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-01-25 16:21:07.346646 
 
 Propagating aerophilicity of type multistate-intersection. 
-   user  system elapsed 
-341.766   0.672 342.416 
+    user   system  elapsed 
+ 698.517 1204.324  481.804 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-472.277   0.688 472.950 
+469.174 332.285 402.700 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-430.507   0.580 431.070 
+451.511 321.118 388.647 
 Propagating arrangement of type multistate-intersection. 
-   user  system elapsed 
-475.439   0.780 476.203 
+    user   system  elapsed 
+ 969.619 1643.661  660.026 
 Propagating biofilm forming of type binary. 
 Not enough data for ASR for biofilm forming. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-331.406   0.504 331.900 
+611.918 768.483 462.257 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  2.695   0.000   2.696 
+  2.591   0.001   2.593 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-313.499   0.444 313.926 
+581.080 725.915 438.222 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-394.957   0.624 395.541 
+408.222 288.188 350.400 
 Propagating genome size of type range. 
    user  system elapsed 
-  2.503   0.004   2.507 
+  2.588   0.001   2.589 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-328.597   0.404 328.969 
+384.449 486.169 292.255 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  1.111   0.004   1.115 
+  1.124   0.001   1.126 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
-   user  system elapsed 
-396.931   0.532 397.419 
+    user   system  elapsed 
+ 833.804 1408.424  565.994 
 Propagating host-associated of type binary. 
    user  system elapsed 
-503.158   0.676 503.779 
+515.322 365.553 442.910 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  2.590   0.000   2.589 
+  2.678   0.000   2.677 
 Propagating motility of type binary. 
    user  system elapsed 
-488.123   0.696 488.771 
+499.439 355.335 429.519 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  2.621   0.000   2.620 
+  2.707   0.000   2.707 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-404.779   0.724 405.459 
+427.903 303.132 367.882 
 Propagating shape of type multistate-intersection. 
-   user  system elapsed 
-598.499   1.048 599.490 
+    user   system  elapsed 
+1207.329 2020.533  813.939 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-289.248   1.124 290.346 
+308.001 218.524 265.238 
 Propagating spore shape of type multistate-intersection. 
-   user  system elapsed 
-338.193   0.672 338.832 
+    user   system  elapsed 
+ 712.440 1202.808  483.565 
 Propagating width of type range. 
    user  system elapsed 
-  2.591   0.024   2.615 
+  2.655   0.001   2.656 
 Writing GMT files... 
 rank: genus / tax_id_type: Taxon_name / physiology: aerophilicity 
 
@@ -602,108 +602,109 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: disease association
 
 rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance 
 
-─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+─ Session info ───────────────────────────────────────────────────────────────
  setting  value
- version  R version 4.3.2 (2023-10-31)
+ version  R Under development (unstable) (2024-01-17 r85813)
  os       Ubuntu 22.04.3 LTS
  system   x86_64, linux-gnu
  ui       X11
  language (EN)
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
- tz       America/New_York
- date     2024-01-22
- pandoc   3.1.11 @ /usr/bin/pandoc
+ tz       Etc/UTC
+ date     2024-01-25
+ pandoc   3.1.1 @ /usr/local/bin/pandoc
 
-─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+─ Packages ───────────────────────────────────────────────────────────────────
  package           * version    date (UTC) lib source
- ape               * 5.7-1      2023-03-13 [1] RSPM (R 4.3.1)
- bit                 4.0.5      2022-11-15 [1] CRAN (R 4.2.2)
- bit64               4.0.5      2020-08-30 [1] CRAN (R 4.1.2)
- blob                1.2.4      2023-03-17 [1] CRAN (R 4.2.2)
- bold                1.3.0      2023-05-02 [1] CRAN (R 4.2.2)
- bugphyzz          * 0.0.1.4    2024-01-23 [1] Github (waldronlab/bugphyzz@3185c45)
- bugphyzzExports   * 0.0.0.9004 2024-01-09 [1] local
- bugsigdbr           1.8.1      2023-10-29 [1] Bioconductor
- cachem              1.0.8      2023-05-01 [1] CRAN (R 4.2.2)
- castor            * 1.8.0      2024-01-09 [1] CRAN (R 4.3.2)
- cli                 3.6.2      2023-12-11 [1] CRAN (R 4.3.2)
- clusterGeneration   1.3.8      2023-08-16 [1] RSPM (R 4.3.1)
- coda                0.19-4     2020-09-30 [1] CRAN (R 4.1.2)
- codetools           0.2-19     2023-02-01 [2] CRAN (R 4.3.2)
- combinat            0.0-8      2012-10-29 [1] CRAN (R 4.2.1)
- common              1.1.1      2023-12-19 [1] CRAN (R 4.3.2)
- conditionz          0.1.0      2019-04-24 [1] CRAN (R 4.1.2)
- crayon              1.5.2      2022-09-29 [1] CRAN (R 4.2.1)
- crul                1.4.0      2023-05-17 [1] CRAN (R 4.3.0)
- curl                5.2.0      2023-12-08 [1] CRAN (R 4.3.2)
- data.table          1.14.10    2023-12-08 [1] CRAN (R 4.3.2)
- DBI                 1.2.1      2024-01-12 [1] RSPM (R 4.3.0)
- dbplyr              2.4.0      2023-10-26 [1] CRAN (R 4.3.1)
- digest              0.6.34     2024-01-11 [1] CRAN (R 4.3.2)
- doParallel          1.0.17     2022-02-07 [1] CRAN (R 4.1.2)
- dplyr             * 1.1.4      2023-11-17 [1] CRAN (R 4.3.2)
- expm                0.999-9    2024-01-11 [1] CRAN (R 4.3.2)
- fansi               1.0.6      2023-12-08 [1] CRAN (R 4.3.2)
- fastmap             1.1.1      2023-02-24 [1] CRAN (R 4.2.2)
- fastmatch           1.1-4      2023-08-18 [1] CRAN (R 4.3.1)
- foreach             1.5.2      2022-02-02 [1] CRAN (R 4.1.2)
- generics            0.1.3      2022-07-05 [1] CRAN (R 4.2.1)
- glue                1.7.0      2024-01-09 [1] CRAN (R 4.3.2)
- hms                 1.1.3      2023-03-21 [1] CRAN (R 4.2.2)
- hoardr              0.5.3      2023-01-26 [1] CRAN (R 4.2.2)
- httpcode            0.3.0      2020-04-10 [1] CRAN (R 4.1.2)
- igraph              1.6.0      2023-12-11 [1] CRAN (R 4.3.2)
- iterators           1.0.14     2022-02-05 [1] CRAN (R 4.1.2)
- jsonlite            1.8.8      2023-12-04 [1] CRAN (R 4.3.2)
- lattice             0.22-5     2023-10-24 [1] RSPM (R 4.3.2)
- lifecycle           1.0.4      2023-11-07 [1] CRAN (R 4.3.2)
- logr              * 1.3.5      2023-11-09 [1] CRAN (R 4.3.2)
- magrittr            2.0.3      2022-03-30 [1] CRAN (R 4.1.3)
- maps              * 3.4.2      2023-12-15 [1] CRAN (R 4.3.2)
- MASS                7.3-60     2023-05-04 [2] CRAN (R 4.3.2)
- Matrix              1.6-5      2024-01-11 [1] CRAN (R 4.3.2)
- memoise             2.0.1      2021-11-26 [1] CRAN (R 4.1.2)
- mnormt              2.1.1      2022-09-26 [1] CRAN (R 4.2.1)
- naturalsort         0.1.3      2016-08-30 [1] RSPM (R 4.3.0)
- nlme                3.1-163    2023-08-09 [2] CRAN (R 4.3.2)
- numDeriv            2016.8-1.1 2019-06-06 [1] CRAN (R 4.1.2)
- optimParallel       1.0-2      2021-02-11 [1] RSPM (R 4.3.1)
- phangorn            2.11.1     2023-01-23 [1] CRAN (R 4.2.2)
- phytools          * 2.1-1      2024-01-09 [1] CRAN (R 4.3.2)
- pillar              1.9.0      2023-03-22 [1] CRAN (R 4.2.2)
- pkgconfig           2.0.3      2019-09-22 [1] CRAN (R 4.1.2)
- purrr             * 1.0.2      2023-08-10 [1] CRAN (R 4.3.1)
- quadprog            1.5-8      2019-11-20 [1] CRAN (R 4.1.2)
- R6                  2.5.1      2021-08-19 [1] CRAN (R 4.1.2)
- rappdirs            0.3.3      2021-01-31 [1] CRAN (R 4.1.2)
- Rcpp              * 1.0.12     2024-01-09 [1] CRAN (R 4.3.2)
- readr               2.1.5      2024-01-10 [1] CRAN (R 4.3.2)
- rlang             * 1.1.3      2024-01-10 [1] CRAN (R 4.3.2)
- RSpectra            0.16-1     2022-04-24 [1] CRAN (R 4.1.3)
- RSQLite             2.3.5      2024-01-21 [1] CRAN (R 4.3.2)
- scatterplot3d       0.3-44     2023-05-05 [1] CRAN (R 4.2.2)
- sessioninfo         1.2.2      2021-12-06 [1] CRAN (R 4.1.2)
- stringi             1.8.3      2023-12-11 [1] CRAN (R 4.3.2)
- stringr             1.5.1      2023-11-14 [1] RSPM (R 4.3.0)
- taxize              0.9.100    2022-04-22 [1] CRAN (R 4.2.2)
- taxizedb            0.3.1      2023-04-03 [1] CRAN (R 4.2.2)
- taxPPro           * 0.1.0      2024-01-23 [1] Github (waldronlab/taxPPro@02436a0)
- tibble            * 3.2.1      2023-03-20 [1] CRAN (R 4.2.2)
- tidyr             * 1.3.0      2023-01-24 [1] CRAN (R 4.2.2)
- tidyselect          1.2.0      2022-10-10 [1] CRAN (R 4.2.1)
- tzdb                0.4.0      2023-05-12 [1] CRAN (R 4.3.0)
- utf8                1.2.4      2023-10-22 [1] CRAN (R 4.3.1)
- uuid                1.2-0      2024-01-14 [1] CRAN (R 4.3.2)
- vctrs               0.6.5      2023-12-01 [1] CRAN (R 4.3.2)
- withr               3.0.0      2024-01-16 [1] CRAN (R 4.3.2)
- xml2                1.3.6      2023-12-04 [1] CRAN (R 4.3.2)
- zoo                 1.8-12     2023-04-13 [1] CRAN (R 4.2.2)
+ ape               * 5.7-1      2023-03-13 [1] CRAN (R 4.4.0)
+ bit                 4.0.5      2022-11-15 [1] CRAN (R 4.4.0)
+ bit64               4.0.5      2020-08-30 [1] CRAN (R 4.4.0)
+ blob                1.2.4      2023-03-17 [1] CRAN (R 4.4.0)
+ bold                1.3.0      2023-05-02 [1] CRAN (R 4.4.0)
+ bugphyzz          * 0.0.1.4    2024-01-25 [1] Github (waldronlab/bugphyzz@3185c45)
+ bugphyzzExports   * 0.0.0.9004 2024-01-25 [1] Github (waldronlab/bugphyzzExports@48e7e95)
+ bugsigdbr           1.9.0      2023-10-24 [1] Bioconductor
+ cachem              1.0.8      2023-05-01 [1] CRAN (R 4.4.0)
+ castor            * 1.8.0      2024-01-09 [1] CRAN (R 4.4.0)
+ cli                 3.6.2      2023-12-11 [1] CRAN (R 4.4.0)
+ clusterGeneration   1.3.8      2023-08-16 [1] CRAN (R 4.4.0)
+ coda                0.19-4     2020-09-30 [1] CRAN (R 4.4.0)
+ codetools           0.2-19     2023-02-01 [2] CRAN (R 4.4.0)
+ combinat            0.0-8      2012-10-29 [1] CRAN (R 4.4.0)
+ common              1.1.1      2023-12-19 [1] CRAN (R 4.4.0)
+ conditionz          0.1.0      2019-04-24 [1] CRAN (R 4.4.0)
+ crayon              1.5.2      2022-09-29 [1] CRAN (R 4.4.0)
+ crul                1.4.0      2023-05-17 [1] CRAN (R 4.4.0)
+ curl                5.2.0      2023-12-08 [1] CRAN (R 4.4.0)
+ data.table          1.14.10    2023-12-08 [1] CRAN (R 4.4.0)
+ DBI                 1.2.1      2024-01-12 [1] CRAN (R 4.4.0)
+ dbplyr              2.4.0      2023-10-26 [1] CRAN (R 4.4.0)
+ digest              0.6.34     2024-01-11 [1] CRAN (R 4.4.0)
+ doParallel          1.0.17     2022-02-07 [1] CRAN (R 4.4.0)
+ dplyr             * 1.1.4      2023-11-17 [1] CRAN (R 4.4.0)
+ expm                0.999-9    2024-01-11 [1] CRAN (R 4.4.0)
+ fansi               1.0.6      2023-12-08 [1] CRAN (R 4.4.0)
+ fastmap             1.1.1      2023-02-24 [1] CRAN (R 4.4.0)
+ fastmatch           1.1-4      2023-08-18 [1] CRAN (R 4.4.0)
+ foreach             1.5.2      2022-02-02 [1] CRAN (R 4.4.0)
+ generics            0.1.3      2022-07-05 [1] CRAN (R 4.4.0)
+ glue                1.7.0      2024-01-09 [1] CRAN (R 4.4.0)
+ hms                 1.1.3      2023-03-21 [1] CRAN (R 4.4.0)
+ hoardr              0.5.4      2024-01-23 [1] CRAN (R 4.4.0)
+ httpcode            0.3.0      2020-04-10 [1] CRAN (R 4.4.0)
+ igraph              1.6.0      2023-12-11 [1] CRAN (R 4.4.0)
+ iterators           1.0.14     2022-02-05 [1] CRAN (R 4.4.0)
+ jsonlite            1.8.8      2023-12-04 [1] CRAN (R 4.4.0)
+ lattice             0.22-5     2023-10-24 [2] CRAN (R 4.4.0)
+ lifecycle           1.0.4      2023-11-07 [1] CRAN (R 4.4.0)
+ logr              * 1.3.5      2023-11-09 [1] CRAN (R 4.4.0)
+ magrittr            2.0.3      2022-03-30 [1] CRAN (R 4.4.0)
+ maps              * 3.4.2      2023-12-15 [1] CRAN (R 4.4.0)
+ MASS                7.3-60.2   2024-01-18 [2] local
+ Matrix              1.6-5      2024-01-11 [2] CRAN (R 4.4.0)
+ memoise             2.0.1      2021-11-26 [1] CRAN (R 4.4.0)
+ mnormt              2.1.1      2022-09-26 [1] CRAN (R 4.4.0)
+ naturalsort         0.1.3      2016-08-30 [1] CRAN (R 4.4.0)
+ nlme                3.1-164    2023-11-27 [2] CRAN (R 4.4.0)
+ numDeriv            2016.8-1.1 2019-06-06 [1] CRAN (R 4.4.0)
+ optimParallel       1.0-2      2021-02-11 [1] CRAN (R 4.4.0)
+ phangorn            2.11.1     2023-01-23 [1] CRAN (R 4.4.0)
+ phytools          * 2.1-1      2024-01-09 [1] CRAN (R 4.4.0)
+ pillar              1.9.0      2023-03-22 [1] CRAN (R 4.4.0)
+ pkgconfig           2.0.3      2019-09-22 [1] CRAN (R 4.4.0)
+ purrr             * 1.0.2      2023-08-10 [1] CRAN (R 4.4.0)
+ quadprog            1.5-8      2019-11-20 [1] CRAN (R 4.4.0)
+ R6                  2.5.1      2021-08-19 [1] CRAN (R 4.4.0)
+ rappdirs            0.3.3      2021-01-31 [1] CRAN (R 4.4.0)
+ Rcpp              * 1.0.12     2024-01-09 [1] CRAN (R 4.4.0)
+ readr               2.1.5      2024-01-10 [1] CRAN (R 4.4.0)
+ rlang             * 1.1.3      2024-01-10 [1] CRAN (R 4.4.0)
+ RSpectra            0.16-1     2022-04-24 [1] CRAN (R 4.4.0)
+ RSQLite             2.3.5      2024-01-21 [1] CRAN (R 4.4.0)
+ scatterplot3d       0.3-44     2023-05-05 [1] CRAN (R 4.4.0)
+ sessioninfo         1.2.2      2021-12-06 [1] CRAN (R 4.4.0)
+ stringi             1.8.3      2023-12-11 [1] CRAN (R 4.4.0)
+ stringr             1.5.1      2023-11-14 [1] CRAN (R 4.4.0)
+ taxa                0.4.2      2022-04-12 [1] CRAN (R 4.4.0)
+ taxize              1.0        2024-01-25 [1] Github (ropensci/taxize@bcff2a6)
+ taxizedb            0.3.1      2023-04-03 [1] CRAN (R 4.4.0)
+ taxPPro           * 0.1.0      2024-01-25 [1] Github (sdgamboa/taxPPro@461396b)
+ tibble            * 3.2.1      2023-03-20 [1] CRAN (R 4.4.0)
+ tidyr             * 1.3.1      2024-01-24 [1] CRAN (R 4.4.0)
+ tidyselect          1.2.0      2022-10-10 [1] CRAN (R 4.4.0)
+ tzdb                0.4.0      2023-05-12 [1] CRAN (R 4.4.0)
+ utf8                1.2.4      2023-10-22 [1] CRAN (R 4.4.0)
+ uuid                1.2-0      2024-01-14 [1] CRAN (R 4.4.0)
+ vctrs               0.6.5      2023-12-01 [1] CRAN (R 4.4.0)
+ vroom               1.6.5      2023-12-05 [1] CRAN (R 4.4.0)
+ withr               3.0.0      2024-01-16 [1] CRAN (R 4.4.0)
+ xml2                1.3.6      2023-12-04 [1] CRAN (R 4.4.0)
 
- [1] /mnt/STORE1/lib/R/bioc-release
+ [1] /usr/local/lib/R/site-library
  [2] /usr/local/lib/R/library
 
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────────
 
 Warning messages:
 1: Not enough data for creating signatures. Try different filtering options
@@ -747,6 +748,6 @@ Warning messages:
 39: Not enough data for creating signatures. Try different filtering options
 40: Not enough data for creating signatures. Try different filtering options
 ========================================================================= 
-Log End Time: 2024-01-22 21:07:34.658471 
-Log Elapsed Time: 0 01:44:43 
+Log End Time: 2024-01-25 18:19:55.418521 
+Log Elapsed Time: 0 01:58:48 
 ========================================================================= 
