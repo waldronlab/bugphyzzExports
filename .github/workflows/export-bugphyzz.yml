@@ -46,6 +46,8 @@ jobs:
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           for export in `find . -type f -iname \*.gmt -o -iname \*.csv`
           do
             export=$(echo $export | sed 's/\.\///g')
