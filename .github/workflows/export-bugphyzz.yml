@@ -59,7 +59,7 @@ jobs:
             else
                 echo "Commit changes for $export"
                 git add *.csv *.gmt *.log
-                git commit -m "Hourly export update"
+                git commit -m "Daily export update"
                 git push origin main 
                 break
             fi
