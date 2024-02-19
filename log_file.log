@@ -2,93 +2,93 @@
 Log Path: log_file.log 
 Working Directory: /__w/bugphyzzExports/bugphyzzExports 
 User Name: root 
-R Version: R Under development (unstable) (2024-02-07 r85873) 
-Machine: e056e582083d x86_64 
+R Version: R Under development (unstable) (2024-02-14 r85901) 
+Machine: d888206758e8 x86_64 
 Operating System: Linux 6.2.0-1019-azure #19~22.04.1-Ubuntu SMP Wed Jan 10 22:57:03 UTC 2024 
 Base Packages: stats graphics grDevices utils datasets methods base Other Packages: purrr_1.0.2 castor_1.8.0 Rcpp_1.0.12 phytools_2.1-1 maps_3.4.2 ape_5.7-1 tibble_3.2.1 tidyr_1.3.1 bugphyzzExports_0.0.0.9004 dplyr_1.1.4 rlang_1.1.3 taxPPro_0.1.0 bugphyzz_0.0.1.4 logr_1.3.5 
-Log Start Time: 2024-02-11 22:07:30.435356 
+Log Start Time: 2024-02-18 22:11:40.706955 
 ========================================================================= 
-Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-02-11 22:07:30.730697 
+Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" -- 2024-02-18 22:11:41.009934 
 
 Propagating aerophilicity of type multistate-intersection. 
     user   system  elapsed 
- 704.331 1215.902  485.886 
+ 700.968 1201.767  480.952 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-463.189 330.588 398.748 
+458.584 325.749 394.005 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-445.837 317.306 383.745 
+445.114 315.341 382.387 
 Propagating arrangement of type multistate-intersection. 
     user   system  elapsed 
- 980.506 1652.105  664.431 
+ 982.020 1657.489  665.987 
 Propagating biofilm forming of type binary. 
 Not enough data for ASR for biofilm forming. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-526.332 661.162 397.792 
+557.334 699.004 420.644 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  2.607   0.000   2.608 
+  2.620   0.002   2.621 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-583.167 727.578 439.530 
+591.389 739.146 446.076 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-410.951 290.585 352.920 
+407.566 288.206 350.065 
 Propagating genome size of type range. 
    user  system elapsed 
-  2.587   0.002   2.589 
+  2.604   0.001   2.606 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-387.701 487.956 293.899 
+419.878 531.549 319.200 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  1.131   0.003   1.135 
+  1.095   0.001   1.096 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
     user   system  elapsed 
- 836.753 1412.748  567.471 
+ 840.330 1422.120  570.589 
 Propagating host-associated of type binary. 
    user  system elapsed 
-515.639 368.250 444.343 
+512.773 364.326 440.928 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  2.742   0.000   2.743 
+  2.656   0.001   2.657 
 Propagating motility of type binary. 
    user  system elapsed 
-500.747 357.567 431.193 
+498.929 353.026 428.007 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  2.759   0.001   2.761 
+  2.690   0.000   2.691 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-428.103 302.818 367.786 
+426.181 302.292 366.519 
 Propagating shape of type multistate-intersection. 
     user   system  elapsed 
-1220.823 2053.933  825.475 
+1231.441 2068.384  831.613 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-315.409 222.487 270.996 
+313.576 220.558 269.049 
 Propagating spore shape of type multistate-intersection. 
     user   system  elapsed 
- 722.565 1224.959  491.708 
+ 735.534 1240.458  498.927 
 Propagating width of type range. 
    user  system elapsed 
-  2.642   0.001   2.643 
+  2.698   0.000   2.699 
 Writing GMT files... 
 rank: genus / tax_id_type: Taxon_name / physiology: aerophilicity 
 
@@ -604,7 +604,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
 
 ─ Session info ───────────────────────────────────────────────────────────────
  setting  value
- version  R Under development (unstable) (2024-02-07 r85873)
+ version  R Under development (unstable) (2024-02-14 r85901)
  os       Ubuntu 22.04.3 LTS
  system   x86_64, linux-gnu
  ui       X11
@@ -612,7 +612,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       Etc/UTC
- date     2024-02-12
+ date     2024-02-19
  pandoc   3.1.1 @ /usr/local/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -622,8 +622,8 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  bit64               4.0.5      2020-08-30 [1] CRAN (R 4.4.0)
  blob                1.2.4      2023-03-17 [1] CRAN (R 4.4.0)
  bold                1.3.0      2023-05-02 [1] CRAN (R 4.4.0)
- bugphyzz          * 0.0.1.4    2024-02-11 [1] Github (waldronlab/bugphyzz@1339325)
- bugphyzzExports   * 0.0.0.9004 2024-02-11 [1] Github (waldronlab/bugphyzzExports@f20e3cd)
+ bugphyzz          * 0.0.1.4    2024-02-18 [1] Github (waldronlab/bugphyzz@1339325)
+ bugphyzzExports   * 0.0.0.9004 2024-02-18 [1] Github (waldronlab/bugphyzzExports@4154afc)
  bugsigdbr           1.9.2      2024-02-07 [1] Bioconductor 3.19 (R 4.4.0)
  cachem              1.0.8      2023-05-01 [1] CRAN (R 4.4.0)
  castor            * 1.8.0      2024-01-09 [1] CRAN (R 4.4.0)
@@ -638,7 +638,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  crul                1.4.0      2023-05-17 [1] CRAN (R 4.4.0)
  curl                5.2.0      2023-12-08 [1] CRAN (R 4.4.0)
  data.table          1.15.0     2024-01-30 [1] CRAN (R 4.4.0)
- DBI                 1.2.1      2024-01-12 [1] CRAN (R 4.4.0)
+ DBI                 1.2.2      2024-02-16 [1] CRAN (R 4.4.0)
  dbplyr              2.4.0      2023-10-26 [1] CRAN (R 4.4.0)
  digest              0.6.34     2024-01-11 [1] CRAN (R 4.4.0)
  doParallel          1.0.17     2022-02-07 [1] CRAN (R 4.4.0)
@@ -653,7 +653,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  hms                 1.1.3      2023-03-21 [1] CRAN (R 4.4.0)
  hoardr              0.5.4      2024-01-23 [1] CRAN (R 4.4.0)
  httpcode            0.3.0      2020-04-10 [1] CRAN (R 4.4.0)
- igraph              2.0.1.1    2024-01-30 [1] CRAN (R 4.4.0)
+ igraph              2.0.2      2024-02-17 [1] CRAN (R 4.4.0)
  iterators           1.0.14     2022-02-05 [1] CRAN (R 4.4.0)
  jsonlite            1.8.8      2023-12-04 [1] CRAN (R 4.4.0)
  lattice             0.22-5     2023-10-24 [2] CRAN (R 4.4.0)
@@ -661,7 +661,7 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  logr              * 1.3.5      2023-11-09 [1] CRAN (R 4.4.0)
  magrittr            2.0.3      2022-03-30 [1] CRAN (R 4.4.0)
  maps              * 3.4.2      2023-12-15 [1] CRAN (R 4.4.0)
- MASS                7.3-60.2   2024-02-08 [2] local
+ MASS                7.3-60.2   2024-02-15 [2] local
  Matrix              1.6-5      2024-01-11 [2] CRAN (R 4.4.0)
  memoise             2.0.1      2021-11-26 [1] CRAN (R 4.4.0)
  mnormt              2.1.1      2022-09-26 [1] CRAN (R 4.4.0)
@@ -687,9 +687,9 @@ rank: mixed / tax_id_type: NCBI_ID / physiology: antimicrobial resistance
  stringi             1.8.3      2023-12-11 [1] CRAN (R 4.4.0)
  stringr             1.5.1      2023-11-14 [1] CRAN (R 4.4.0)
  taxa                0.4.2      2022-04-12 [1] CRAN (R 4.4.0)
- taxize              1.0        2024-02-11 [1] Github (ropensci/taxize@bcff2a6)
+ taxize              1.0        2024-02-18 [1] Github (ropensci/taxize@bcff2a6)
  taxizedb            0.3.1      2023-04-03 [1] CRAN (R 4.4.0)
- taxPPro           * 0.1.0      2024-02-11 [1] Github (sdgamboa/taxPPro@461396b)
+ taxPPro           * 0.1.0      2024-02-18 [1] Github (sdgamboa/taxPPro@461396b)
  tibble            * 3.2.1      2023-03-20 [1] CRAN (R 4.4.0)
  tidyr             * 1.3.1      2024-01-24 [1] CRAN (R 4.4.0)
  tidyselect          1.2.0      2022-10-10 [1] CRAN (R 4.4.0)
@@ -748,6 +748,6 @@ Warning messages:
 39: Not enough data for creating signatures. Try different filtering options
 40: Not enough data for creating signatures. Try different filtering options
 ========================================================================= 
-Log End Time: 2024-02-12 00:05:54.98665 
-Log Elapsed Time: 0 01:58:24 
+Log End Time: 2024-02-19 00:10:53.025816 
+Log Elapsed Time: 0 01:59:12 
 ========================================================================= 
