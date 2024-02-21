@@ -61,7 +61,7 @@ jobs:
               git add $export
             fi
           done
-          # Check if branch would be ahead because exhanges exist
+          # Check if branch would be ahead because changes exist
           has_updates=$(git status --porcelain --branch | head -n 1 | awk '{print $3}')
           if [ ${has_updates:1}  == "ahead" ]; then
             git add *.log *.msg
