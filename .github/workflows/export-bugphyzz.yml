@@ -66,5 +66,8 @@ jobs:
           if [ ${has_updates:1}  == "ahead" ]; then
             git add *.log *.msg
             git commit -m "Daily export update"
-            git push origin main
+            #git push origin main
+            echo "Push changes"
+          else
+            echo "No changes to push"
           fi
