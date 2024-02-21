@@ -55,12 +55,19 @@ jobs:
             export=$(echo $export | sed 's/\.\///g')
             git_diff=$(git diff --numstat $export | sed -e 's/\t//g')
             if [ "$git_diff" = "11$export" -o "$git_diff" = "" ]; then
-                echo "No changes to commit for $export"
+              echo "No changes to commit for $export"
             else
-                echo "Commit changes for $export"
-                git add *.csv *.gmt *.log
-                git commit -m "Daily export update"
-                git push origin main 
-                break
+              echo "Add changes for $export"
+              git add $export
             fi
           done
+          echo "Check if branch would be 'ahead' because changes exist"
+          has_updates=$(git status --porcelain --branch | head -n 1 | awk '{print $3}')
+          if [ "$has_updates"  = "[ahead" ]; then
+            git add *.log *.msg
+            git commit -m "Export update"
+            echo "Push changes"
+            git push origin main
+          else
+            echo "No changes to push"
+          fi
