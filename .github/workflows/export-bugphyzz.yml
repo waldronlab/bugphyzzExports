@@ -61,11 +61,11 @@ jobs:
               git add $export
             fi
           done
-          echo "Check if branch would be 'ahead' because changes exist"
-          has_updates=$(git status --porcelain --branch | head -n 1 | awk '{print $3}')
-          if [ "$has_updates"  = "[ahead" ]; then
+          echo "Check if any file contents have been added to index"
+          has_updates=$(git diff --cached --shortstat)
+          if [ -n "$has_updates" ]; then
             git add *.log *.msg
-            git commit -m "Export update"
+            git commit -m "Update exports"
             echo "Push changes"
             git push origin main
           else
