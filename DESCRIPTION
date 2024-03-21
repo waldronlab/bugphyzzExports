@@ -4,16 +4,16 @@ Version: 0.0.0.9004
 Authors@R: 
     c(
         person(
+            given = "Jennifer",
+            family = "Wokaty",
+            role = c("aut")
+        ),
+        person(
             given = "Samuel",
             family = "Gamboa",
             role = c("aut", "cre"),
             email = "Samuel.Gamboa.Tuz@gmail.com",
             comment = c(ORCID = "0000-0002-6863-7943")
-        ),
-        person(
-            given = "Jennifer",
-            family = "Wokaty",
-            role = c("aut", "cre")
         ),
         person(
             given = "Levi",
@@ -26,7 +26,6 @@ Authors@R:
 Description: Create text files in CSV and GMT formats for bugphyzz
 License: Artistic-2.0
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Remotes:
     sdgamboa/taxPPro,
@@ -40,7 +39,7 @@ Suggests:
     taxize,
     taxPPro,
     qusage,
-    testthat (>= 3.0.0)
+    testthat
 Imports: 
     dplyr,
     bugsigdbr,
