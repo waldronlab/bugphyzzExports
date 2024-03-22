@@ -1,0 +1,30 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0003-2725-0694",
+            "affiliation": "CUNY Graduate School of Public Health and Health Policy",
+            "name": "Waldron, Levi"
+        },
+        {
+            "orcid": "0000-0002-6863-7943",
+            "affiliation": "CUNY Graduate School of Public Health and Health Policy",
+            "name": "Gamboa, Samuel"
+        },
+        {
+            "orcid": "",
+            "affiliation": "",
+            "name": "Wokaty, Jennifer"
+    ], 
+
+    "license": [
+      {
+      "title" : "Creative Commons Attribution 4.0 International",
+      "string" : "cc-by-4.0",
+      "url" : "https://creativecommons.org/licenses/by/4.0/"
+      }
+  ],
+  
+    "title": "Bugphyzz: A harmonized data resource and software for enrichment analysis of microbial physiologies",
+
+    "keywords": ["microbe signatures", "bacterial annotations", "microbe set enrichment analysis"]
+}
