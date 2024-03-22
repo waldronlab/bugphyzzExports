@@ -1,4 +1,3 @@
-## Script to create bugphyzz exports dump files and signature files in gmt format
 
 suppressMessages({
     library(logr)
@@ -6,19 +5,19 @@ suppressMessages({
     library(taxPPro)
     library(rlang)
     library(dplyr)
-    library(bugphyzzExports)
     library(tidyr)
     library(tibble)
     library(phytools)
     library(castor)
     library(purrr)
+    library(bugphyzzExports)
 })
 
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 attributes_by_type <- list(
-    numeric = c( # Attribute_type is range
+    numeric = c(
         "growth temperature",
         "coding genes",
         "genome size",
@@ -28,7 +27,7 @@ attributes_by_type <- list(
         "mutation rate per site per generation",
         "mutation rate per site per year"
     ),
-    binary = c( # Attribute_type is binary
+    binary = c(
         "animal pathogen",
         "antimicrobial sensitivity",
         "biofilm forming",
@@ -43,7 +42,7 @@ attributes_by_type <- list(
         'sphingolipid producing',
         'butyrate producing'
     ),
-    multistate = c( # Attribute_type is multistate-intersection
+    multistate = c(
         "aerophilicity",
         "gram stain",
         "biosafety level",
@@ -61,24 +60,66 @@ tip_data <- ltp$tip_data
 node_data <- ltp$node_data
 
 tree_data <- bind_rows(
-    select(as_tibble(tip_data), label = tip_label, NCBI_ID, Taxon_name, Rank, taxid),
-    select(as_tibble(node_data), label = node_label, NCBI_ID, Taxon_name, Rank, taxid)
+    select(
+        as_tibble(tip_data), label = tip_label, NCBI_ID, Taxon_name, Rank,
+        taxid
+    ),
+    select(
+        as_tibble(node_data), label = node_label, NCBI_ID, Taxon_name, Rank,
+        taxid
+    )
 )
 
 phys_names <- unlist(attributes_by_type, use.names = FALSE)
 msg <- paste0('"', paste0(phys_names, collapse = ', '), '"')
 msg_len <- length(phys_names)
-msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg, '--', Sys.time())
+msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg)
 log_print(msg, blank_after = TRUE)
-system.time({
+tim <- system.time({
     phys <- physiologies(phys_names, full_source = FALSE)
 })
+log_print(tim, blank_after = TRUE)
 
 dat_ready <- vector("list", length(phys))
+dat_ready_w <- vector("list", length(phys))
+
 for (i in seq_along(dat_ready)) {
-    message(names(phys)[i])
-    dat_ready[[i]] <- getDataReady(filterData(phys[[i]]))
+    ws <- list()
+    withCallingHandlers(
+       warning = function(w) ws[[length(ws) + 1]] <<- w$message,
+       expr = dat_ready[[i]] <-  getDataReady(filterData(phys[[i]]))
+    )
+    dat_ready_w[[i]] <- ws
+    names(dat_ready_w)[i] <- names(phys)[i]
     names(dat_ready)[i] <- names(phys)[i]
+}
+wng_msgs <- as.character(list_flatten(dat_ready_w))
+
+if (length(wng_msgs) > 0) {
+    need_update_ids <- grep("taxon IDs", wng_msgs, value = TRUE) |>
+        sub("^.*d: ", "", x = _) |>
+        paste0(collapse = ", ") |>
+        strsplit(", ") |>
+        flatten_chr() |>
+        unique() |>
+        sort()
+    invalid_attrs <- grep("^Invalid attributes", wng_msgs, value = TRUE)
+
+    log_print("The following NCBI IDs might need to be updated:")
+    for (i in seq_along(need_update_ids)) {
+        log_print(need_update_ids[i])
+    }
+
+    log_print("")
+    log_print("The following attributes are not valid and have been dropped:")
+    for (i in seq_along(invalid_attrs)) {
+        log_print(sub(": .*", ":", invalid_attrs[i]))
+        ias <- strsplit(sub("^.*: ", "", invalid_attrs[i]),"---")[[1]]
+        for (j in seq_along(ias)) {
+            log_print(ias[j])
+        }
+        log_print("")
+    }
 }
 
 propagated <- vector('list', length(dat_ready))
@@ -301,9 +342,10 @@ for (i in seq_along(propagated)) {
 
 ## The following physiologies were not propagated. Some reasons:
 ## Too few annotations (< 1%)
-## Some are not well defined (might need further review) or redundant (free-linvn and host-associated|FALSE)
+## Some are not well defined (might need further review)
+## or redundant (free-living and host-associated|FALSE)
 
-## TODO refactor the code below to reduce repetition
+## TODO re-factor the code below to reduce repetition
 # 'disease association',
 # 'antimicrobial resistance'
 
@@ -352,7 +394,7 @@ daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
 propagated[["disease association"]] <- daready
 
 ## antimicrobial resistance
-## TODO The changes below most be done on the bugphyzzWrangling and
+## TODO The changes below should be done on the bugphyzzWrangling repo and
 ## upload directly to the spreadsheet curation
 ar <- physiologies("antimicrobial resistance")[[1]] |>
     mutate(Attribute = stringr::str_squish(tolower(Attribute))) |>
