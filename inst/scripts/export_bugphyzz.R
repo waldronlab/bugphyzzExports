@@ -311,8 +311,8 @@ for (i in seq_along(propagated)) {
                 mutate(
                     Attribute_source = NA,
                     Confidence_in_curation = NA,
-                    Frequency = "unknown",
-                    Score = NA,
+                    Frequency = "always",
+                    Score = 1,
                     Evidence = "asr"
                 ) |>
                 filter(!NCBI_ID %in% dat$NCBI_ID) |>
