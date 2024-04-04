@@ -122,6 +122,8 @@ if (length(wng_msgs) > 0) {
     }
 }
 
+nodes_with_taxid <- grep("^n", tree$node.label, value = TRUE, invert = TRUE)
+
 propagated <- vector('list', length(dat_ready))
 for (i in seq_along(propagated)) {
     names(propagated)[i] <- names(dat_ready)[i]
@@ -301,18 +303,20 @@ for (i in seq_along(propagated)) {
                 filter(label %in% tree_data$label) |>
                 filter(!label %in% rownames(annotated_tips))
 
-            nsti <- getNsti(tree = tree, annotated_tip_labels = rownames(annotated_tips))
+            nsti <- getNsti(tree = tree, annotated_tip_labels = rownames(annotated_tips), nodes = nodes_with_taxid)
 
             predicted_dat <- left_join(
-                asr_df, nsti, by = c("label" = "tip_label")) |>
+                asr_df, nsti, by = c("label" = "label")) |>
                 left_join(tree_data, by = "label", relationship = "many-to-many") |>
                 select(-label) |>
                 filter(!is.na(NCBI_ID)) |>
                 mutate(
                     Attribute_source = NA,
                     Confidence_in_curation = NA,
-                    Frequency = "always",
-                    Score = 1,
+                    Frequency = nsti2Freq(nsti),
+                    Score = freq2Scores2(Frequency),
+                    # Frequency = "always",
+                    # Score = 1,
                     Evidence = "asr"
                 ) |>
                 filter(!NCBI_ID %in% dat$NCBI_ID) |>
@@ -506,7 +510,7 @@ for (i in seq_along(ranks)) {
             'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
         )
         for (k in seq_along(all_data_list)){
-            log_print(paste("rank:", ranks[i], "/ tax_id_type:", tax_id_types[j], "/ physiology:", names(propagated)[k]), blank_after = TRUE)
+            log_print(paste0("rank: ", ranks[i], "; tax_id_type: ", tax_id_types[j], "; physiology: ", names(propagated)[k]), blank_after = FALSE)
             sig <- makeSignatures(
                 dat = all_data_list[[k]], tax_id_type = tax_id_types[j],
                 tax_level = ranks[i]
