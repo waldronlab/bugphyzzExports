@@ -1,4 +1,4 @@
-Weekly export status: ![hourly export](https://github.com/waldronlab/bugphyzzExports/actions/workflows/export-bugphyzz.yml/badge.svg)
+Weekly export status: ![weekly export](https://github.com/waldronlab/bugphyzzExports/actions/workflows/export-bugphyzz.yml/badge.svg)
 
 # bugphyzzExports
 
@@ -14,15 +14,17 @@ If desired, you can generate the signatures and full dump file.
 
 ### Requirements
 
-In addition to installing this repository, you will need to install
-
-* [BiocFileCache](https://www.bioconductor.org/packages/BiocFileCache)
 * [bugphyzz](https://github.com/waldronlab/bugphyzz)
+* [bugsigdbr](https://bioconductor.org/packages/release/bioc/html/bugsigdbr.html)
 * [castor](https://cran.r-project.org/web/packages/castor/)
+* [dplyr](https://cran.r-project.org/web/packages/dplyr)
 * [logr](https://cran.r-project.org/web/packages/logr/)
 * [phytools](https://cran.r-project.org/web/packages/phytools/)
 * [purrr](https://cran.r-project.org/web/packages/purrr)
-* [readr](https://readr.tidyverse.org/)
+* [rlang](https://cran.r-project.org/web/packages/rlang)
+* [sessioninfo](https://cran.r-project.org/web/packages/sessioninfo)
+* [stringr](https://cran.r-project.org/web/packages/stringr)
+* [taxPPro](https://github.com/waldronlab/taxPPro)
 * [tibble](https://cran.r-project.org/web/packages/tibble/)
 * [tidyr](https://cran.r-project.org/web/packages/tidyr/)
 
@@ -31,30 +33,38 @@ Install using `BiocManager`:
 ```
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-dependencies <- c("BiocFileCache",
-                  "waldronlab/bugphyzz",
-                  "castor",
-                  "logr",
-                  "phytools",
-                  "purrr",
-                  "readr",
-                  "tibble",
-                  "tidyr",
-                  "waldronlab/bugphyzzExports")
+dependencies <- c(
+    "waldronlab/bugphyzz",
+    "bugsigdbr",
+    "castor",
+    "dplyr",
+    "logr",
+    "phytools"
+    "purrr",
+    "rlang",
+    "sessioninfo",
+    "stringr",
+    "waldronlab/taxPPro",
+    "tibble",
+    "tidyr"
+)
 BiocManager::install(dependencies)
 ```
 ### Run export_bugphyzz.R
 
 Run the script, which will produce the files in the directory where the script
-is run.
+is run. Preferably run inside the project main directory.
+
+On a linux-like terminal:
 
 ```
-Rscript bugphyzzExports\inst\script\export_bugphyzz.R
+Rscript inst/script/export_bugphyzz.R
 ```
 #### For Internal Use
 
-When on supermicro
+When on supermicro:
 
 ```
 /usr/bin/Rscript --vanilla inst/scripts/export_bugphyzz.R
 ```
+

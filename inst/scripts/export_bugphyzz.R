@@ -1,4 +1,8 @@
 
+## This script contains the code for generating
+## the text files imported by the `bugphyzz::importBugphyzz` function.
+## Check the bugphyzz package on waldronlab/bugphyzz or Bioconductor.
+
 suppressMessages({
     library(logr)
     library(bugphyzz)
@@ -10,7 +14,6 @@ suppressMessages({
     library(phytools)
     library(castor)
     library(purrr)
-    library(bugphyzzExports)
 })
 
 logfile <- "log_file"
@@ -18,39 +21,39 @@ lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
 attributes_by_type <- list(
     numeric = c(
-        "growth temperature",
-        "coding genes",
-        "genome size",
-        "length",
-        "width",
-        "optimal ph",
-        "mutation rate per site per generation",
-        "mutation rate per site per year"
+        "growth temperature"
+        # "coding genes",
+        # "genome size",
+        # "length",
+        # "width",
+        # "optimal ph",
+        # "mutation rate per site per generation",
+        # "mutation rate per site per year"
     ),
     binary = c(
-        "animal pathogen",
-        "antimicrobial sensitivity",
-        "biofilm forming",
-        "extreme environment",
-        "health associated",
-        "hydrogen gas producing",
-        "lactate producing",
-        "motility",
-        "plant pathogenicity",
-        "spore formation",
-        "host-associated",
-        'sphingolipid producing',
-        'butyrate producing'
+        # "animal pathogen",
+        # "antimicrobial sensitivity",
+        # "biofilm forming",
+        # "extreme environment",
+        # "health associated",
+        # "hydrogen gas producing",
+        # "lactate producing",
+        "motility"
+        # "plant pathogenicity",
+        # "spore formation",
+        # "host-associated",
+        # 'sphingolipid producing',
+        # 'butyrate producing'
     ),
     multistate = c(
-        "aerophilicity",
-        "gram stain",
-        "biosafety level",
-        "COGEM pathogenicity rating",
-        "shape",
-        "spore shape",
-        "arrangement",
-        "hemolysis"
+        "aerophilicity"
+        # "gram stain",
+        # "biosafety level",
+        # "COGEM pathogenicity rating",
+        # "shape",
+        # "spore shape",
+        # "arrangement",
+        # "hemolysis"
     )
 )
 

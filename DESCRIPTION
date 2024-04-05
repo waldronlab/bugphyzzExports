@@ -1,6 +1,6 @@
 Package: bugphyzzExports
 Title: Create export files for bugphyzz
-Version: 0.0.0.9004
+Version: 0.0.0.9005
 Authors@R: 
     c(
         person(
@@ -11,7 +11,7 @@ Authors@R:
         person(
             given = "Samuel",
             family = "Gamboa",
-            role = c("aut", "cre"),
+            role = c("aut"),
             email = "Samuel.Gamboa.Tuz@gmail.com",
             comment = c(ORCID = "0000-0002-6863-7943")
         ),
@@ -23,27 +23,31 @@ Authors@R:
             comment = c(ORCID = "0000-0003-2725-0694")
         )
     )
-Description: Create text files in CSV and GMT formats for bugphyzz
+Description: Create text files in CSV and GMT formats for bugphyzz.
+    Not a package.
 License: Artistic-2.0
 Encoding: UTF-8
 RoxygenNote: 7.3.1
 Remotes:
-    sdgamboa/taxPPro,
+    waldronlab/taxPPro,
     waldronlab/bugphyzz,
     ropensci/taxize@1.0-rc
+Depends:
+    R (>= 4.3)
 Suggests: 
-    bugphyzz (>= 0.0.1.4),
-    data.tree,
+    bugphyzz (>= 0.99.0),
+    bugsigdbr,
+    castor,
+    dplyr,
+    logr,
+    phytools,
     purrr,
     rlang,
-    taxize,
+    sessioninfo,
+    stringr,
     taxPPro,
-    qusage,
-    testthat
+    tibble,
+    tidyr
 Imports: 
-    dplyr,
-    bugsigdbr,
-    readr,
-    taxizedb
 Config/Needs/website: rmarkdown
 Config/testthat/edition: 3
