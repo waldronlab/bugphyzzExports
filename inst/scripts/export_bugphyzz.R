@@ -1,6 +1,10 @@
 
 ## This script contains the code for generating
 ## the text files imported by the `bugphyzz::importBugphyzz` function.
+## This script 1) performs filtering and harmonization of the data curated
+## in bugphyzz, 2) performs data imputations with ancestral state
+## reconstruction, and 3) exports CSV and GMT files to be imported by the
+## bugphyzz package.
 ## Check the bugphyzz package on waldronlab/bugphyzz or Bioconductor.
 
 suppressMessages({
@@ -19,42 +23,46 @@ suppressMessages({
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
+## Selected physiologies/attributes
 attributes_by_type <- list(
     numeric = c(
-        "growth temperature"
-        # "coding genes",
-        # "genome size",
-        # "length",
-        # "width",
-        # "optimal ph",
-        # "mutation rate per site per generation",
-        # "mutation rate per site per year"
+        "growth temperature",
+        "coding genes",
+        "genome size",
+        "length",
+        "width",
+        "optimal ph",
+        "mutation rate per site per generation",
+        "mutation rate per site per year"
     ),
     binary = c(
-        # "animal pathogen",
-        # "antimicrobial sensitivity",
-        # "biofilm forming",
-        # "extreme environment",
-        # "health associated",
-        # "hydrogen gas producing",
-        # "lactate producing",
-        "motility"
-        # "plant pathogenicity",
-        # "spore formation",
-        # "host-associated",
-        # 'sphingolipid producing',
-        # 'butyrate producing'
+        "animal pathogen",
+        "antimicrobial sensitivity",
+        "biofilm forming",
+        "extreme environment",
+        "health associated",
+        "hydrogen gas producing",
+        "lactate producing",
+        "motility",
+        "plant pathogenicity",
+        "spore formation",
+        "host-associated",
+        'sphingolipid producing',
+        'butyrate producing'
     ),
     multistate = c(
-        "aerophilicity"
-        # "gram stain",
-        # "biosafety level",
-        # "COGEM pathogenicity rating",
-        # "shape",
-        # "spore shape",
-        # "arrangement",
-        # "hemolysis"
+        "aerophilicity",
+        "gram stain",
+        "biosafety level",
+        "COGEM pathogenicity rating",
+        "shape",
+        "spore shape",
+        "arrangement",
+        "hemolysis"
     )
+    ## habitat
+    ## disease association
+    ## antimicrobial resistance
 )
 
 ltp <- ltp()
@@ -151,10 +159,12 @@ for (i in seq_along(propagated)) {
         if (attr_type %in% c("multistate-intersection", "binary")) {
             ## Propagation multistate ####
             annotated_tips <- fdat |>
-                filter(!is.na(Attribute)) |> # NAs in the Attribute column correspond to unnanotated tips
+                # NAs in the Attribute column correspond to no annotated tips
+                filter(!is.na(Attribute)) |> 
                 select(tip_label, Attribute, Score) |>
                 pivot_wider(
-                    names_from = "Attribute", values_from = "Score", values_fill = 0
+                    names_from = "Attribute",
+                    values_from = "Score", values_fill = 0
                 ) |>
                 column_to_rownames(var = "tip_label") |>
                 as.data.frame() |>
@@ -162,7 +172,9 @@ for (i in seq_along(propagated)) {
 
             ltp_per <- floor(nrow(annotated_tips) / Ntip(tree)  * 100)
             if (ltp_per < 1) {
-                msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
+                msg <- paste0(
+                    "Not enough data for ASR for ", attr_grp, ". Skipping ASR."
+                )
                 log_print(msg)
 
                 if (attr_type == "multistate-union") {
@@ -170,19 +182,20 @@ for (i in seq_along(propagated)) {
                         rename(Attribute_value = Attribute) |>
                         mutate(Attribute = Attribute_group) |>
                         relocate(
-                            NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
-                            Frequency, Score,
+                            NCBI_ID, Taxon_name, Rank, Attribute,
+                            Attribute_value, Frequency, Score,
                             Attribute_source, Confidence_in_curation
                         )
                 } else if (attr_type == "binary") {
                     dat <- dat |>
                         separate(
-                        col = "Attribute", into = c("Attribute", "Attribute_value"),
+                        col = "Attribute",
+                        into = c("Attribute", "Attribute_value"),
                         sep = "--"
                     ) |>
                         relocate(
-                            NCBI_ID, Taxon_name, Rank, Attribute, Attribute_value,
-                            Frequency, Score,
+                            NCBI_ID, Taxon_name, Rank, Attribute,
+                            Attribute_value, Frequency, Score,
                             Attribute_source, Confidence_in_curation
                         )
 
@@ -195,14 +208,22 @@ for (i in seq_along(propagated)) {
                 filter(is.na(Attribute)) |>
                 pull(tip_label)
             no_annotated_tips <- matrix(
-                data = rep(1/ncol(annotated_tips), length(no_annotated_tips_names) * ncol(annotated_tips)),
+                data = rep(
+                    1/ncol(annotated_tips),
+                    length(no_annotated_tips_names) * ncol(annotated_tips)
+                ),
                 ncol = ncol(annotated_tips),
-                dimnames = list(rownames = no_annotated_tips_names, colnames = colnames(annotated_tips))
+                dimnames = list(
+                    rownames = no_annotated_tips_names,
+                    colnames = colnames(annotated_tips)
+                )
             )
             input_mat <- rbind(annotated_tips, no_annotated_tips)
             input_mat <- input_mat[tree$tip.label, ]
 
-            fit <- fitMk(tree = tree, x = input_mat, model = "ER", pi = "equal")
+            fit <- fitMk(
+                tree = tree, x = input_mat, model = "ER", pi = "equal"
+            )
             ace <- ancr(fit, tips = TRUE)
             output_mat <- ace$ace
             rownames(output_mat) <- c(tree$tip.label, tree$node.label)
@@ -212,12 +233,15 @@ for (i in seq_along(propagated)) {
                 rownames_to_column(var = "label") |>
                 filter(label %in% tree_data$label) |>
                 filter(!label %in% rownames(annotated_tips)) |>
-                left_join(tree_data, by = "label", relationship = "many-to-many") |>
+                left_join(
+                    tree_data, by = "label", relationship = "many-to-many"
+                ) |>
                 group_by(NCBI_ID) |>
                 slice_max(order_by = label, n = 1, with_ties = FALSE) |>
                 ungroup() |>
                 pivot_longer(
-                    names_to = "Attribute", values_to = "Score", cols = colnames(output_mat)
+                    names_to = "Attribute",
+                    values_to = "Score", cols = colnames(output_mat)
                 ) |>
                 filter(!is.na(NCBI_ID)) |>
                 filter(!NCBI_ID %in% unique(dat$NCBI_ID)) |>
@@ -227,8 +251,6 @@ for (i in seq_along(propagated)) {
                     Attribute_source = NA,
                     Frequency = scores2Freq(Score)
                 )
-
-                # left_join(tree_data, by = "label", relationship = "many-to-many") |>
 
             if (attr_type == "multistate-intersection") {
                 res <- bind_rows(asr_df, filter(dat, !is.na(Evidence))) |>
@@ -251,7 +273,8 @@ for (i in seq_along(propagated)) {
                         Attribute_type = attr_type
                     ) |>
                     separate(
-                        col = "Attribute", into = c("Attribute", "Attribute_value"),
+                        col = "Attribute",
+                        into = c("Attribute", "Attribute_value"),
                         sep = "--"
                     ) |>
                     relocate(
@@ -273,7 +296,9 @@ for (i in seq_along(propagated)) {
 
             ltp_per <- round(nrow(annotated_tips) / Ntip(tree)  * 100)
             if (ltp_per < 1) {
-                msg <- paste0("Not enough data for ASR for ", attr_grp, ". Skipping ASR.")
+                msg <- paste0(
+                    "Not enough data for ASR for ", attr_grp, ". Skipping ASR."
+                )
                 log_print(msg)
                 propagated[[i]] <- dat |>
                     mutate(Attribute = Attribute_group) |>
@@ -302,15 +327,19 @@ for (i in seq_along(propagated)) {
                 label = c(tree$tip.label, tree$node.label),
                 Attribute_value = asr$states
             ) |>
-                # filter(!grepl("^n\\d+$", label)) |>
                 filter(label %in% tree_data$label) |>
                 filter(!label %in% rownames(annotated_tips))
 
-            nsti <- getNsti(tree = tree, annotated_tip_labels = rownames(annotated_tips), nodes = nodes_with_taxid)
+            nsti <- getNsti(
+                tree = tree, annotated_tip_labels = rownames(annotated_tips),
+                nodes = nodes_with_taxid
+            )
 
             predicted_dat <- left_join(
                 asr_df, nsti, by = c("label" = "label")) |>
-                left_join(tree_data, by = "label", relationship = "many-to-many") |>
+                left_join(
+                    tree_data, by = "label", relationship = "many-to-many"
+                ) |>
                 select(-label) |>
                 filter(!is.na(NCBI_ID)) |>
                 mutate(
@@ -318,13 +347,13 @@ for (i in seq_along(propagated)) {
                     Confidence_in_curation = NA,
                     Frequency = nsti2Freq(nsti),
                     Score = freq2Scores2(Frequency),
-                    # Frequency = "always",
-                    # Score = 1,
                     Evidence = "asr"
                 ) |>
                 filter(!NCBI_ID %in% dat$NCBI_ID) |>
                 group_by(NCBI_ID) |>
-                slice_max(order_by = Attribute_value, n = 1, with_ties = FALSE) |>
+                slice_max(
+                    order_by = Attribute_value, n = 1, with_ties = FALSE
+                ) |>
                 ungroup()
 
             res <- bind_rows(dat, predicted_dat) |>
@@ -347,22 +376,15 @@ for (i in seq_along(propagated)) {
     log_print(tim)
 }
 
-## The following physiologies were not propagated. Some reasons:
-## Too few annotations (< 1%)
-## Some are not well defined (might need further review)
-## or redundant (free-living and host-associated|FALSE)
-
-## TODO re-factor the code below to reduce repetition
-# 'disease association',
-# 'antimicrobial resistance'
-
 ## habitat
 h <- physiologies("habitat")[[1]]
 hl <- split(h, h$Attribute) |>
     purrr::map(~ mutate(.x, Attribute_type = "binary"))
 hready <- purrr::map(hl, ~ getDataReady(filterData(.x))) |>
     bind_rows() |>
-    separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
+    separate(
+        col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--"
+    ) |>
     mutate(
         Attribute_value = Attribute,
         Attribute = Attribute_group,
@@ -384,7 +406,9 @@ dal <- split(da, da$Attribute) |>
     purrr::map(~ mutate(.x, Attribute_type = "binary"))
 daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
     bind_rows() |>
-    separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
+    separate(
+        col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--"
+    ) |>
     mutate(
         Attribute_value = Attribute,
         Attribute = Attribute_group,
@@ -401,22 +425,25 @@ daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
 propagated[["disease association"]] <- daready
 
 ## antimicrobial resistance
-## TODO The changes below should be done on the bugphyzzWrangling repo and
-## upload directly to the spreadsheet curation
 ar <- physiologies("antimicrobial resistance")[[1]] |>
     mutate(Attribute = stringr::str_squish(tolower(Attribute))) |>
     mutate(Attribute = sub("not resistant", "sensitive", Attribute)) |>
-    mutate(Attribute = sub("carbapenem-resistan", "resistance to", Attribute)) |>
+    mutate(
+        Attribute = sub("carbapenem-resistan", "resistance to", Attribute)
+    ) |>
     mutate(Attribute = sub("resistant", "resistance", Attribute)) |>
     mutate(Attribute = sub("tot", "to", Attribute)) |>
-    mutate(Attribute_value = ifelse(grepl("sensitive", Attribute), FALSE, Attribute_value)) |>
+    mutate(
+        Attribute_value = ifelse(
+            grepl("sensitive", Attribute), FALSE, Attribute_value
+        )
+    ) |>
     mutate(Attribute = sub("sensitive", "resistance", Attribute)) |>
     mutate(Attribute_type = "binary")
 
 arl <- split(ar, ar$Attribute)
 arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
     bind_rows() |>
-    # separate(col = "Attribute", into = c("Attribute", "Attribute_value"), sep = "--") |>
     filter(!is.na(Evidence)) |>
     mutate(
         Attribute_value = Attribute,
@@ -433,11 +460,12 @@ arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
     ) |>
     mutate(
         Attribute_value = case_when(
-            grepl("--TRUE$", Attribute_value) ~ sub("--TRUE$", "", Attribute_value),
-            grepl("--FALSE$", Attribute_value) ~ sub("\\w+ to (.*)--FALSE$", "sensitive to \\1", Attribute_value)
+            grepl("--TRUE$", Attribute_value) ~
+                sub("--TRUE$", "", Attribute_value),
+            grepl("--FALSE$", Attribute_value) ~
+                sub("\\w+ to (.*)--FALSE$", "sensitive to \\1", Attribute_value)
         )
     )
-
 
 propagated[["antimicrobial resistance"]] <- arready
 final_set <- propagated |>
@@ -455,13 +483,16 @@ final_set <- propagated |>
                 Attribute_type
             )
     })
-multistate_data <- bind_rows(final_set[c(attributes_by_type$multistate, "habitat", "antimicrobial resistance", "disease association")])
+multistate_data <- bind_rows(final_set[c(
+        attributes_by_type$multistate,
+        "habitat", "antimicrobial resistance", "disease association"
+    )])
 binary_data <- bind_rows(final_set[attributes_by_type$binary])
 numeric_data <- bind_rows(final_set[attributes_by_type$numeric])
 numeric_data <- numeric_data |>
     mutate(Attribute_type = "numeric")
 
-## Create a header for both the dump files and the gmt files.
+# Export CSV --------------------------------------------------------------
 header <- paste0("# bugphyzz ", Sys.Date(),
                  ", License: Creative Commons Attribution 4.0 International",
                  ", URL: https://waldronlab.io/bugphyzz\n")
@@ -484,17 +515,15 @@ write.table(
     sep = ",", row.names = FALSE, append = TRUE, col.names = TRUE
 )
 
-
 all_data <- list(multistate_data, binary_data, numeric_data)
 all_data_list <- purrr::map(all_data, ~ split(.x, .x$Attribute)) |>
     purrr::list_flatten()
 
-## Export gmt files
+# Export GMT --------------------------------------------------------------
 log_print('Writing GMT files...')
 ranks <- c('genus', 'strain', 'species', 'mixed')
 tax_id_types <- c('Taxon_name', 'NCBI_ID')
 
-# helper function to add a header line to an already written dump or GMT file
 addHeader <- function(header, out.file) {
     fconn <- file(out.file, "r+")
     lines <- readLines(fconn)
@@ -513,7 +542,12 @@ for (i in seq_along(ranks)) {
             'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
         )
         for (k in seq_along(all_data_list)){
-            log_print(paste0("rank: ", ranks[i], "; tax_id_type: ", tax_id_types[j], "; physiology: ", names(propagated)[k]), blank_after = FALSE)
+            log_print(paste0(
+                "rank: ", ranks[i],
+                "; tax_id_type: ", tax_id_types[j],
+                "; physiology: ", names(propagated)[k]),
+                blank_after = FALSE
+            )
             sig <- makeSignatures(
                 dat = all_data_list[[k]], tax_id_type = tax_id_types[j],
                 tax_level = ranks[i]
