@@ -8,12 +8,12 @@ Machine: supermicro x86_64
 Operating System: Linux 5.4.0-150-generic #167-Ubuntu SMP Mon May 15 17:35:05 UTC 2023 
 Base Packages: stats graphics grDevices utils datasets methods base 
 Other Packages: purrr_1.0.2 castor_1.8.0 Rcpp_1.0.12 phytools_2.1-1 maps_3.4.2 ape_5.7-1 tibble_3.2.1 tidyr_1.3.1 dplyr_1.1.4 rlang_1.1.3 taxPPro_0.99.2 bugphyzz_0.99.0 logr_1.3.7 common_1.1.3 
-Log Start Time: 2024-04-08 12:04:59.701364 
+Log Start Time: 2024-04-08 21:10:01.037502 
 ========================================================================= 
 Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm forming, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" 
 
    user  system elapsed 
- 13.513   0.583 118.181 
+ 13.534   0.664 116.620 
 
 Warning: Invalid attributes in aerophilicity: facultative aerobe---microaerotolerant 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 79 of 10425 taxon IDs. The followings are left unrankd: 65497, 287094, 196083, 136160, 513651, 1606016, 1646339, 126790, 1830421, 1400058, 165807, 134962, 48937, 263820, 1311788, 342610, 166934, 1398496, 307251, 262776, 45461, 211759, 244407, 332057, 332056, 46170, 46170, 68202, 84593, 62153, 109214, 1398560, 355929, 1551, 1560, 86662, 168810, 495036, 1345697, 1166016, 741091, 195041, 140100, 62153, 675810, 65497, 861208, 340044, 335659, 546899, 656024, 440512, 147710, 931223, 420233, 332056, 68570, 68202, 563191, 665937, 469586, 469587, 665938, 469594, 52765, 52766, 699245, 97139, 327817, 644968, 228748, 477693, 652712, 796939, 796940, 36876, 93930, 220622, 1796653 
@@ -246,83 +246,83 @@ diplococcus-shaped
  
 Propagating aerophilicity of type multistate-intersection. 
    user  system elapsed 
-342.367   0.631 342.965 
+341.010   0.723 341.696 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-472.686   0.656 473.301 
+470.654   0.621 471.221 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-430.705   0.556 431.222 
+429.459   0.564 429.977 
 Propagating arrangement of type multistate-intersection. 
    user  system elapsed 
-476.085   0.644 476.698 
+473.703   0.655 474.308 
 Propagating biofilm forming of type binary. 
 Not enough data for ASR for biofilm forming. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-333.422   0.432 333.823 
+331.547   0.432 331.940 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  2.561   0.000   2.561 
+  2.518   0.000   2.517 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-313.929   0.424 314.324 
+312.271   0.400 312.637 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-397.391   0.508 397.861 
+395.049   0.588 395.597 
 Propagating genome size of type range. 
    user  system elapsed 
-  2.569   0.000   2.568 
+  2.519   0.000   2.519 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-330.497   0.468 330.939 
+329.304   0.480 329.756 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  1.099   0.000   1.098 
+  1.113   0.004   1.116 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
    user  system elapsed 
-399.858   0.556 400.397 
+398.417   0.480 398.854 
 Propagating host-associated of type binary. 
    user  system elapsed 
-505.661   0.700 506.339 
+503.954   0.637 504.534 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  2.633   0.000   2.633 
+  2.599   0.004   2.603 
 Propagating motility of type binary. 
    user  system elapsed 
-489.733   0.664 490.377 
+488.803   0.716 489.475 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  2.662   0.000   2.661 
+  2.634   0.000   2.634 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-404.337   0.600 404.901 
+404.442   0.503 404.910 
 Propagating shape of type multistate-intersection. 
    user  system elapsed 
-591.088   2.088 593.127 
+589.133   1.960 591.048 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-289.022   0.584 289.587 
+288.854   1.203 290.051 
 Propagating spore shape of type multistate-intersection. 
    user  system elapsed 
-337.641   0.584 338.204 
+336.679   0.564 337.234 
 Propagating width of type range. 
    user  system elapsed 
-  2.619   0.004   2.623 
+  2.585   0.007   2.593 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 4 of 269 taxon IDs. The followings are left unrankd: 342610, 338187, 62153, 52765 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 4 of 971 taxon IDs. The followings are left unrankd: 741091, 168810, 1050843, 262776 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 8 of 215 taxon IDs. The followings are left unrankd: 665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139 
@@ -662,7 +662,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: width
 rank: mixed; tax_id_type: NCBI_ID; physiology: habitat 
 rank: mixed; tax_id_type: NCBI_ID; physiology: disease association 
 rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance 
-─ Session info ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+─ Session info ───────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.3.2 (2023-10-31)
  os       Ubuntu 22.04.4 LTS
@@ -675,7 +675,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  date     2024-04-08
  pandoc   3.1.11 @ /usr/bin/pandoc
 
-─ Packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+─ Packages ───────────────────────────────────────────────────────────────────
  package           * version    date (UTC) lib source
  ape               * 5.7-1      2023-03-13 [1] RSPM (R 4.3.1)
  bit                 4.0.5      2022-11-15 [1] CRAN (R 4.2.2)
@@ -750,9 +750,9 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  [1] /mnt/STORE1/lib/R/bioc-release
  [2] /usr/local/lib/R/library
 
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────────
 
 ========================================================================= 
-Log End Time: 2024-04-08 13:50:58.451815 
-Log Elapsed Time: 0 01:45:58 
+Log End Time: 2024-04-08 22:55:37.360984 
+Log Elapsed Time: 0 01:45:36 
 ========================================================================= 

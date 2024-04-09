@@ -515,7 +515,8 @@ write.table(
     sep = ",", row.names = FALSE, append = TRUE, col.names = TRUE
 )
 
-all_data <- list(multistate_data, binary_data, numeric_data)
+all_data <- list(multistate_data, binary_data, numeric_data) |> 
+    discard(~ !nrow(.x))
 all_data_list <- purrr::map(all_data, ~ split(.x, .x$Attribute)) |>
     purrr::list_flatten()
 
@@ -541,6 +542,11 @@ for (i in seq_along(ranks)) {
         gmt_file <- paste0(
             'bugphyzz-', ranks[i], '-', tax_id_types[j], '.gmt'
         )
+        if (file.exists(gmt_file)) {
+            ## This if statement will prevent appending signatures to an
+            ## existing file
+            file.remove(gmt_file)
+        }
         for (k in seq_along(all_data_list)){
             log_print(paste0(
                 "rank: ", ranks[i],
@@ -556,6 +562,7 @@ for (i in seq_along(ranks)) {
                 next
             }
             bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file, append = TRUE)
+            # bugsigdbr::writeGMT(sigs = sig, gmt.file = gmt_file)
         }
         addHeader(header, gmt_file)
         counter <- counter + 1

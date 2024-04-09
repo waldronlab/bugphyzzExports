@@ -6,8 +6,6 @@ This repository contains the devel
 [bugphyzz](https://github.com/waldronlab/bugphyzz) signature files and a full
 data dump. The devel files are generated weekly.
 
-The release version of these files will soon be available on Zenodo.
-
 ## File creation
 
 If desired, you can generate the signatures and full dump file.
