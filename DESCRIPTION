@@ -1,6 +1,6 @@
 Package: bugphyzzExports
 Title: Create export files for bugphyzz
-Version: 0.0.0.90013
+Version: 0.0.0.90014
 Authors@R: 
     c(
         person(
@@ -45,7 +45,7 @@ Suggests:
     rlang,
     sessioninfo,
     stringr,
-    taxPPro,
+    taxPPro (>= 1.0.0),
     tibble,
     tidyr
 Imports: 
