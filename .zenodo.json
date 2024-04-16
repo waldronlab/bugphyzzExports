@@ -53,13 +53,8 @@
             "name": "Waldron, Levi"
         }
     ], 
-    "license": [
-      {
-      "title" : "Creative Commons Attribution 4.0 International",
-      "string" : "cc-by-4.0",
-      "url" : "https://creativecommons.org/licenses/by/4.0/"
-      }
-  ],
+
+    "license": "CC-by-4.0",
   
     "title": "Bugphyzz: A harmonized data resource and software for enrichment analysis of microbial physiologies",
 

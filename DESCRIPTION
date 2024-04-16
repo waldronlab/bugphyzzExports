@@ -1,6 +1,6 @@
 Package: bugphyzzExports
 Title: Create export files for bugphyzz
-Version: 0.0.0.90014
+Version: 1.0.1
 Authors@R: 
     c(
         person(
