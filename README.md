@@ -2,15 +2,38 @@ Weekly export status: ![weekly export](https://github.com/waldronlab/bugphyzzExp
 
 # bugphyzzExports
 
-This repository contains the devel
-[bugphyzz](https://github.com/waldronlab/bugphyzz) signature files and a full
-data dump. The devel files are generated weekly.
+bugphyzz is a database that harmonizes physiological and other microbial
+trait annotations from different sources using a controlled vocabulary and
+ontology terms. Furthermore, these annotations are propagated to
+uncharacterized microbes through Ancestral State Reconstruction (ASR).
+
+You can learn more about this project [here](https://github.com/waldronlab/bugphyzz).
+
+This repository contains the code for resolving conflicting annotations
+and run the ASR step. It also contains the devel version of the annotations
+(before being released on Zenodo) distributed across different text files.
+The *.csv files contain the data in tabular format and are imported through
+the `bugphyzz::importBugphyzz`function in [R](https://github.com/waldronlab/bugphyzz).
+The *gmt files contain lists of microbial signatures in GMT format
+created with the `bugphyz::makeSignatures` function.
+
+The data schema is described [here](https://github.com/waldronlab/bugphyzz)
+
+The devel files are generated weekly.
 
 ## File creation
 
-If desired, you can generate the signatures and full dump file.
+If desired, anyone can generate the *.csv and *.gmt files.
 
-### Requirements
+### 1. Install required R packages
+
+The first step is downloading the repo:
+
+```bash
+git clone https://github.com/waldronlab/bugphyzzExports.git
+cd bugphyzzExports
+```
+The following packages need to be installed in the R environment:
 
 * [bugphyzz](https://github.com/waldronlab/bugphyzz)
 * [bugsigdbr](https://bioconductor.org/packages/release/bioc/html/bugsigdbr.html)
@@ -26,9 +49,10 @@ If desired, you can generate the signatures and full dump file.
 * [tibble](https://cran.r-project.org/web/packages/tibble/)
 * [tidyr](https://cran.r-project.org/web/packages/tidyr/)
 
-Install using `BiocManager`:
+This could be accomplished for example with:
 
-```
+```r
+## Inside an R session
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 dependencies <- c(
@@ -48,25 +72,27 @@ dependencies <- c(
 )
 BiocManager::install(dependencies)
 ```
-### Run export_bugphyzz.R
+Or running `devtools::install_deps(dependencies=TRUE)` in an R session within
+the main directory.
+
+### 2 Run the inst/export_bugphyzz.R script
 
 Run the script, which will produce the files in the directory where the script
-is run. Preferably run inside the project main directory.
+is run. Preferably run inside the main directory of the project.
 
 On a linux-like terminal:
 
 ```
 Rscript inst/script/export_bugphyzz.R
 ```
-#### For Internal Use
 
-When on supermicro:
+On supermicro (for internal use):
 
 ```
 /usr/bin/Rscript --vanilla inst/scripts/export_bugphyzz.R
 ```
 
-### LICENSE
+## LICENSE
 
 The files are available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode).
 
