@@ -75,7 +75,7 @@ BiocManager::install(dependencies)
 Or running `devtools::install_deps(dependencies=TRUE)` in an R session within
 the main directory.
 
-### 2. Run the inst/export_bugphyzz.R script
+### 2. Run the inst/scripts/export_bugphyzz.R script
 
 Run the script, which will produce the files in the directory where the script
 is run. Preferably run inside the main directory of the project.
@@ -83,7 +83,7 @@ is run. Preferably run inside the main directory of the project.
 On a linux-like terminal:
 
 ```
-Rscript inst/script/export_bugphyzz.R
+Rscript inst/scripts/export_bugphyzz.R
 ```
 
 On supermicro (for internal use):
@@ -104,7 +104,7 @@ Find this dataset on Zenodo (latest realease version): https://zenodo.org/doi/10
 
 Some recommendations about versioning for relase.
 
-Format: x.y.z
+Format: x.y.z  
 Example: 1.0.2
 
 The third digit (z) should be used to fix typos or any other minor
