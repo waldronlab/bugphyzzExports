@@ -120,3 +120,13 @@ The first digit (x) should be reserved for major changes, such as adding
 new datasets or using a completely different approach for propagating
 annotations, etc.
 
+## Validation of the ASR method
+
+A 10-fold cross-validation approach was used to estimate how good our
+ASR method did with each attribute/physiology in the dataset.
+These validation results are not really part of the annotations, so they're not
+provided here. You can find these results on: https://github.com/waldronlab/taxPProValidation/.
+to select the attributes with the best results. The validation values are also
+attached when importing the files with the [bugphyzz](https://github.com/waldronlab/bugphyzz)
+package in R.
+
