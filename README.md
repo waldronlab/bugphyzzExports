@@ -100,3 +100,23 @@ The files are available under [Creative Commons Attribution 4.0 International](h
 
 Find this dataset on Zenodo (latest realease version): https://zenodo.org/doi/10.5281/zenodo.10980653 
 
+## Versioning (recommended)
+
+Some recommendations about versioning for relase.
+
+Format: x.y.z
+Example: 1.0.2
+
+The third digit (z) should be used to fix typos or any other minor
+trouble with the annotations. Essentially these are the same annotations,
+but with minor adjustments.
+
+The second digit (y) should be used for major adjustments such as fixing the
+way conflicting annotations are handled or
+adjusting ASR methods/parameters, say choosing a different phylogenetic tree
+or using a different package for running ASR.
+
+The first digit (x) should be reserved for major changes, such as adding
+new datasets or using a completely different approach for propagating
+annotations, etc.
+
