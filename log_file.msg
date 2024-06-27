@@ -15,7 +15,8 @@ Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[3
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 4 of 6027 taxon IDs. The followings are left unrankd: 2751472, 2679994, 1704088, 648567 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 31 of 7899 taxon IDs. The followings are left unrankd: 2832, 35130, 265526, 67004, 338187, 5749, 2832, 48937, 29398, 2832, 68570, 1172, 1172, 262776, 1172, 35624, 330, 330, 330, 330, 330, 1050843, 263820, 52766, 52765, 93930, 1121384, 2970916, 263820, 220622, 1796653 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 18 of 17189 taxon IDs. The followings are left unrankd: 1919277, 771855, 196180, 2850388, 2751472, 2679994, 1704088, 879618, 1441714, 1544738, 648567, 68570, 68570, 66898, 67334, 285567, 2582907, 1176194 
-Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 1 of 856 taxon IDs. The followings are left unrankd: 2679994 
+Warning: Invalid attributes in hemolysis: CAMP test 
+Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 1 of 854 taxon IDs. The followings are left unrankd: 2679994 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 47 of 3088 taxon IDs. The followings are left unrankd: 36876, 340044, 147710, 86662, 656024, 62153, 861208, 1217695, 1217712, 1217698, 1217697, 1217710, 861530, 640511, 697871, 563191, 366648, 546899, 1050843, 796940, 796939, 665945, 665938, 665937, 195041, 469587, 469586, 469596, 469595, 469594, 1166016, 903916, 699245, 97139, 658664, 741091, 335659, 196180, 52765, 52766, 420233, 332056, 68570, 68202, 93930, 366648, 90270 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 2 of 658 taxon IDs. The followings are left unrankd: 376164, 40136 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 3 of 5387 taxon IDs. The followings are left unrankd: 2751472, 2679994, 1704088 
@@ -45,6 +46,7 @@ Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[3
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 1 of 86 taxon IDs. The followings are left unrankd: 644968 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 1 of 61 taxon IDs. The followings are left unrankd: 86662 
 Warning: [1m[22mThere was 1 warning in `dplyr::mutate()`. [1m[22m[36mℹ[39m In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: [33m![39m No rank found for 1 of 144 taxon IDs. The followings are left unrankd: 263820 
+Warning: Invalid attributes in habitat: Waste and sludge water 
 Warning: Invalid attributes in disease association: arthritis 
 Warning: Invalid attributes in disease association: caries 
 Warning: Invalid attributes in disease association: Endocarditis 
@@ -68,6 +70,8 @@ Warning: Invalid attributes in antimicrobial resistance: resistance to kanamycin
 Warning: appending column names to file 
 Warning: appending column names to file 
 Warning: appending column names to file 
+Warning: Not enough data for creating signatures. Try different filtering options 
+Warning: Not enough data for creating signatures. Try different filtering options 
 Warning: Not enough data for creating signatures. Try different filtering options 
 Warning: Not enough data for creating signatures. Try different filtering options 
 Warning: Not enough data for creating signatures. Try different filtering options 

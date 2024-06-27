@@ -38,7 +38,7 @@ attributes_by_type <- list(
     binary = c(
         "animal pathogen",
         "antimicrobial sensitivity",
-        "biofilm forming",
+        "biofilm formation",
         "extreme environment",
         "health associated",
         "hydrogen gas producing",
@@ -87,7 +87,7 @@ msg_len <- length(phys_names)
 msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg)
 log_print(msg, blank_after = TRUE)
 tim <- system.time({
-    phys <- physiologies(phys_names, full_source = FALSE)
+    phys <- physiologies(phys_names, fullSource = FALSE)
 })
 log_print(tim, blank_after = TRUE)
 
@@ -555,8 +555,8 @@ for (i in seq_along(ranks)) {
                 blank_after = FALSE
             )
             sig <- makeSignatures(
-                dat = all_data_list[[k]], tax_id_type = tax_id_types[j],
-                tax_level = ranks[i]
+                dat = all_data_list[[k]], taxIdType = tax_id_types[j],
+                taxLevel = ranks[i]
             )
             if (!length(sig)) {
                 next
