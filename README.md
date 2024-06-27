@@ -92,7 +92,7 @@ On supermicro (for internal use):
 /usr/bin/Rscript --vanilla inst/scripts/export_bugphyzz.R
 ```
 
-## LICENSE
+## License
 
 The files are available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode).
 
