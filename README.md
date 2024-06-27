@@ -13,7 +13,7 @@ This repository contains the code for resolving conflicting annotations
 and run the ASR step. It also contains the devel version of the annotations
 (before being released on Zenodo) distributed across different text files.
 The *.csv files contain the data in tabular format and are imported through
-the `bugphyzz::importBugphyzz`function in [R](https://github.com/waldronlab/bugphyzz).
+the `bugphyzz::importBugphyzz` function in [R](https://github.com/waldronlab/bugphyzz).
 The *gmt files contain lists of microbial signatures in GMT format
 created with the `bugphyz::makeSignatures` function.
 
@@ -75,7 +75,7 @@ BiocManager::install(dependencies)
 Or running `devtools::install_deps(dependencies=TRUE)` in an R session within
 the main directory.
 
-### 2 Run the inst/export_bugphyzz.R script
+### 2. Run the inst/export_bugphyzz.R script
 
 Run the script, which will produce the files in the directory where the script
 is run. Preferably run inside the main directory of the project.
@@ -95,4 +95,8 @@ On supermicro (for internal use):
 ## LICENSE
 
 The files are available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+## Zenodo
+
+Find this dataset on Zenodo (latest realease version): https://zenodo.org/doi/10.5281/zenodo.10980653 
 
