@@ -25,15 +25,8 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          pkgs <- c("BiocFileCache",
-                    "castor",
-                    "logr",
-                    "phytools",
-                    "purrr",
-                    "tibble",
-                    "tidyr",
-                    "waldronlab/bugphyzzExports")
-          BiocManager::install(pkgs, dependencies = TRUE)
+          BiocManager::install("waldronlab/bugphyzz", dependencies = TRUE)
+          BiocManager::install("waldronlab/bugphyzzExports", dependencies = TRUE)
         shell: Rscript {0}
 
       - name: Generate exports
