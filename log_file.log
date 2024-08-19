@@ -4,37 +4,42 @@ Program Path: /__w/bugphyzzExports/bugphyzzExports/inst/scripts/export_bugphyzz.
 Working Directory: /__w/bugphyzzExports/bugphyzzExports 
 User Name: root 
 R Version: 4.4.1 (2024-06-14) 
-Machine: 1fc95c148bc6 x86_64 
+Machine: 2ed46c79d4f8 x86_64 
 Operating System: Linux 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 
 Base Packages: stats graphics grDevices utils datasets methods base 
-Other Packages: purrr_1.0.2 castor_1.8.2 Rcpp_1.0.13 phytools_2.3-0 maps_3.4.2 ape_5.8 tibble_3.2.1 tidyr_1.3.1 dplyr_1.1.4 rlang_1.1.4 taxPPro_1.0.0 bugphyzz_0.99.3 logr_1.3.8 common_1.1.3 
-Log Start Time: 2024-08-11 22:19:51.387854 
+Other Packages: purrr_1.0.2 castor_1.8.2 Rcpp_1.0.13 phytools_2.3-0 maps_3.4.2 ape_5.8 tibble_3.2.1 tidyr_1.3.1 dplyr_1.1.4 rlang_1.1.4 taxPPro_1.0.0 bugphyzz_0.99.7 logr_1.3.8 common_1.1.3 
+Log Start Time: 2024-08-18 22:19:03.648581 
 ========================================================================= 
 Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm formation, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" 
 
    user  system elapsed 
- 14.347   0.316  48.080 
+ 14.181   0.371  50.578 
 
 Warning: Invalid attributes in aerophilicity: facultative aerobe---microaerotolerant 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 101 of 10901 taxon IDs. The followings are left unrankd: 65497, 287094, 305698, 196083, 136160, 513651, 1606016, 1646339, 126790, 1017277, 332410, 114529, 2254, 1830421, 1400058, 683756, 88075, 61655, 92835, 76884, 300020, 165807, 134962, 48937, 263820, 1311788, 342610, 166934, 1398496, 307251, 237610, 219742, 154109, 1462563, 219741, 119541, 262776, 45461, 211759, 244407, 332057, 332056, 46170, 46170, 68202, 84593, 62153, 109214, 1398560, 228972, 355929, 866775, 1551, 1560, 289244, 86662, 168810, 495036, 1345697, 1166016, 741091, 195041, 85643, 140100, 62153, 675810, 228972, 65497, 861208, 340044, 335659, 546899, 656024, 440512, 147710, 931223, 420233, 332056, 68570, 68202, 81424, 563191, 665937, 469586, 469587, 665938, 469594, 52765, 52766, 699245, 97139, 327817, 644968, 228748, 477693, 652712, 699192, 796939, 796940, 36876, 93930 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 5 of 1727 taxon IDs. The followings are left unrankd: 114529, 300020, 68570, 93930, 168810 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 5 of 833 taxon IDs. The followings are left unrankd: 114529, 300020, 68202, 68570, 237610 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 104 of 10901 taxon IDs. The followings are left unrankd: 65497, 287094, 305698, 196083, 136160, 513651, 158080, 1606016, 1646339, 126790, 1017277, 332410, 114529, 2254, 1830421, 1400058, 683756, 88075, 61655, 92835, 76884, 300020, 165807, 134962, 48937, 263820, 1311788, 342610, 81037, 166934, 1398496, 307251, 237610, 219742, 154109, 1462563, 219741, 119541, 262776, 45461, 211759, 244407, 332057, 332056, 46170, 46170, 68202, 84593, 62153, 322609, 109214, 1398560, 228972, 355929, 866775, 1551, 1560, 289244, 86662, 168810, 495036, 1345697, 1166016, 741091, 195041, 85643, 140100, 62153, 675810, 228972, 65497, 861208, 340044, 335659, 546899, 656024, 440512, 147710, 931223, 420233, 332056, 68570, 68202, 81424, 563191, 665937, 469586, 469587, 665938, 469594, 52765, 52766, 699245, 97139, 327817, 644968, 228748, 477693, 652712, 699192, 796939, 796940, 36876, 93930 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 3 of 19738 taxon IDs. The followings are left unrankd: 1774956, 81037, 322609 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 6 of 1727 taxon IDs. The followings are left unrankd: 114529, 300020, 68570, 93930, 158080, 168810 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 6 of 833 taxon IDs. The followings are left unrankd: 114529, 300020, 68202, 68570, 237610, 137779 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 19 of 2443 taxon IDs. The followings are left unrankd: 866775, 289244, 289244, 86662, 195041, 861530, 656024, 1172, 931223, 68202, 327817, 652712, 195041, 469595, 1166016, 81424, 52765, 52766, 684949 
 Warning: Invalid attributes in biosafety level: biosafety level 1+---biosafety level 3**---biosafety level L1 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 2 of 26443 taxon IDs. The followings are left unrankd: 81037, 322609 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 50 of 4669 taxon IDs. The followings are left unrankd: 1476577, 471821, 263820, 1849491, 866775, 1547445, 1156433, 657310, 671223, 319236, 1104325, 1834200, 1226298, 1182571, 1986224, 319938, 1546149, 1662456, 1902251, 1662457, 1606016, 595593, 287094, 85643, 62928, 1662458, 656024, 1126211, 342610, 1418110, 90270, 697046, 1166016, 1870930, 237610, 1570328, 1653479, 741091, 62153, 861208, 338187, 86662, 338187, 1740162, 134962, 595500, 640511, 335659, 1418105, 68570 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 3 of 1042 taxon IDs. The followings are left unrankd: 68202, 68570, 237610 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 9 of 1874 taxon IDs. The followings are left unrankd: 196180, 52765, 52766, 168810, 114529, 300020, 68570, 68202, 93930 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 4 of 1042 taxon IDs. The followings are left unrankd: 68202, 68570, 158080, 237610 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 11 of 1874 taxon IDs. The followings are left unrankd: 196180, 52765, 52766, 158080, 168810, 114529, 300020, 137779, 68570, 68202, 93930 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 50 of 4665 taxon IDs. The followings are left unrankd: 1476577, 471821, 263820, 1849491, 1547445, 1156433, 866775, 671223, 319236, 1104325, 1986224, 1226298, 657310, 1834200, 1182571, 1902251, 1662456, 1546149, 1606016, 1126211, 319938, 62928, 595593, 1662457, 85643, 287094, 1662458, 697046, 1418110, 1166016, 342610, 1870930, 1653479, 656024, 237610, 1570328, 861208, 86662, 741091, 90270, 62153, 338187, 338187, 335659, 1740162, 134962, 1418105, 640511, 595500, 68570 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 56 of 8200 taxon IDs. The followings are left unrankd: 1830421, 1763447, 1427149, 1400058, 1398560, 1331730, 683756, 355929, 289244, 228972, 119541, 84593, 61655, 1183401, 866775, 741091, 342610, 338187, 85643, 420233, 366648, 332056, 300020, 262776, 237610, 196180, 168810, 114529, 93930, 90270, 68570, 68202, 52766, 52765, 327817, 332410, 86662, 656024, 168810, 861208, 861530, 931223, 1345697, 1050843, 796940, 665945, 665937, 195041, 469594, 68202, 690871, 68570, 495036, 52765, 196180, 65497 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 31 of 7978 taxon IDs. The followings are left unrankd: 2832, 35130, 265526, 67004, 300020, 338187, 184592, 5749, 2832, 48937, 29398, 2832, 68570, 1172, 1172, 262776, 1172, 35624, 866775, 330, 330, 330, 330, 330, 114529, 1050843, 263820, 52766, 52765, 93930, 1295133 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 1 of 17559 taxon IDs. The followings are left unrankd: 759821 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 58 of 8200 taxon IDs. The followings are left unrankd: 1830421, 1763447, 1427149, 1400058, 1398560, 1331730, 683756, 355929, 289244, 228972, 119541, 84593, 61655, 1183401, 866775, 741091, 342610, 338187, 85643, 420233, 366648, 332056, 300020, 262776, 237610, 196180, 168810, 158080, 137779, 114529, 93930, 90270, 68570, 68202, 52766, 52765, 327817, 332410, 86662, 656024, 168810, 861208, 861530, 931223, 1345697, 1050843, 796940, 665945, 665937, 195041, 469594, 68202, 690871, 68570, 495036, 52765, 196180, 65497 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 3 of 12684 taxon IDs. The followings are left unrankd: 1774956, 81037, 322609 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 32 of 7978 taxon IDs. The followings are left unrankd: 2832, 35130, 265526, 67004, 300020, 338187, 184592, 5749, 2832, 48937, 29398, 2832, 68570, 137779, 1172, 1172, 262776, 1172, 35624, 866775, 330, 330, 330, 330, 330, 114529, 1050843, 263820, 52766, 52765, 93930, 1295133 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 5 of 17559 taxon IDs. The followings are left unrankd: 158080, 759821, 81037, 1774956, 322609 
 Warning: Invalid attributes in hemolysis: CAMP test 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 54 of 3088 taxon IDs. The followings are left unrankd: 36876, 340044, 147710, 1298859, 86662, 656024, 62153, 861208, 1217695, 1217712, 1217698, 1217697, 1217710, 861530, 640511, 697871, 563191, 366648, 546899, 1050843, 796940, 796939, 665945, 665938, 665937, 195041, 469587, 469586, 469596, 469595, 469594, 1166016, 903916, 699192, 699245, 97139, 658664, 81424, 741091, 335659, 196180, 52765, 52766, 114529, 300020, 237610, 420233, 332056, 68570, 68202, 93930, 366648, 90270, 332410 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 56 of 3088 taxon IDs. The followings are left unrankd: 36876, 340044, 147710, 1298859, 86662, 656024, 62153, 861208, 1217695, 1217712, 1217698, 1217697, 1217710, 861530, 640511, 697871, 563191, 366648, 546899, 1050843, 796940, 796939, 665945, 665938, 665937, 195041, 469587, 469586, 469596, 469595, 469594, 1166016, 903916, 699192, 699245, 97139, 658664, 81424, 741091, 335659, 196180, 52765, 52766, 158080, 114529, 300020, 137779, 237610, 420233, 332056, 68570, 68202, 93930, 366648, 90270, 332410 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 4 of 658 taxon IDs. The followings are left unrankd: 683756, 376164, 40136, 61655 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 6 of 886 taxon IDs. The followings are left unrankd: 262776, 52766, 52765, 332056, 114529, 420233 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 11 of 1493 taxon IDs. The followings are left unrankd: 420233, 68202, 68570, 1050843, 262776, 114529, 300020, 168810, 93930, 90270, 366648 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 3 of 11234 taxon IDs. The followings are left unrankd: 1774956, 81037, 322609 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 7 of 886 taxon IDs. The followings are left unrankd: 137779, 262776, 52766, 52765, 332056, 114529, 420233 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 12 of 1493 taxon IDs. The followings are left unrankd: 420233, 68202, 68570, 158080, 1050843, 262776, 114529, 300020, 168810, 93930, 90270, 366648 
 Warning: Invalid attributes in shape: square---vibriod cell---rod-shaped---coccus-shaped---filament-shaped---oval-shaped---ellipsoidal---ovoid-shaped---pleomorphic-shaped---other---sphere-shaped---spiral-shaped---curved-shaped---helical-shaped---vibrio-shaped---flask-shaped---ring-shaped---spore-shaped---crescent-shaped---star-shaped---diplococcus-shaped 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 89 of 4560 taxon IDs. The followings are left unrankd: 85643, 342610, 741091, 866775, 263820, 1331737, 355929, 289244, 228972, 376164, 1331730, 119541, 1763447, 1830421, 40136, 683756, 61655, 204473, 1400058, 1830421, 119541, 1763447, 1830421, 204473, 1763447, 1830421, 340044, 327817, 147710, 332056, 330, 1298859, 520709, 332410, 86662, 62153, 287484, 992010, 140100, 168810, 861208, 1217695, 1217693, 1217712, 1217698, 1217696, 1217697, 1217702, 1217700, 1217706, 1217710, 1217709, 62928, 640511, 697871, 644968, 911239, 546899, 1345697, 440512, 981223, 665938, 420233, 469587, 469586, 469595, 469594, 690871, 1166016, 903916, 998429, 658664, 495036, 52765, 52766, 196180, 85643, 741091, 93930, 335659, 675810, 861530, 195041, 477693, 228748, 1172, 861530, 68202, 68570 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 90 of 4560 taxon IDs. The followings are left unrankd: 85643, 342610, 741091, 866775, 263820, 1331737, 355929, 289244, 228972, 376164, 1331730, 119541, 1763447, 1830421, 40136, 683756, 61655, 204473, 1400058, 1830421, 119541, 1763447, 1830421, 204473, 1763447, 1830421, 340044, 327817, 147710, 332056, 330, 1298859, 520709, 332410, 86662, 62153, 287484, 992010, 140100, 168810, 861208, 1217695, 1217693, 1217712, 1217698, 1217696, 1217697, 1217702, 1217700, 1217706, 1217710, 1217709, 62928, 640511, 697871, 644968, 911239, 546899, 1345697, 440512, 981223, 665938, 158080, 420233, 469587, 469586, 469595, 469594, 690871, 1166016, 903916, 998429, 658664, 495036, 52765, 52766, 196180, 85643, 741091, 93930, 335659, 675810, 861530, 195041, 477693, 228748, 1172, 861530, 68202, 68570 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 1 of 4413 taxon IDs. The followings are left unrankd: 322609 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 2 of 763 taxon IDs. The followings are left unrankd: 332410, 541003 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 5 of 838 taxon IDs. The followings are left unrankd: 84593, 166974, 61655, 40136, 376164 
 The following NCBI IDs might need to be updated: 
@@ -71,6 +76,7 @@ The following NCBI IDs might need to be updated:
 1345697 
 134962 
 136160 
+137779 
 1398496 
 1398560 
 1400058 
@@ -87,6 +93,7 @@ The following NCBI IDs might need to be updated:
 1551 
 1560 
 1570328 
+158080 
 1606016 
 1646339 
 1653479 
@@ -99,6 +106,7 @@ The following NCBI IDs might need to be updated:
 168810 
 1740162 
 1763447 
+1774956 
 1830421 
 1834200 
 184592 
@@ -131,6 +139,7 @@ The following NCBI IDs might need to be updated:
 307251 
 319236 
 319938 
+322609 
 327817 
 330 
 332056 
@@ -200,6 +209,7 @@ The following NCBI IDs might need to be updated:
 76884 
 796939 
 796940 
+81037 
 81424 
 84593 
 85643 
@@ -257,89 +267,89 @@ diplococcus-shaped
  
 Propagating aerophilicity of type multistate-intersection. 
     user   system  elapsed 
- 681.899 1170.347  467.311 
+ 687.744 1162.104  466.929 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-455.859 326.773 393.259 
+457.773 327.666 394.616 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-422.959 301.938 364.459 
+423.399 302.001 364.741 
 Propagating arrangement of type multistate-intersection. 
     user   system  elapsed 
- 775.655 1310.884  526.169 
+ 795.078 1325.932  535.303 
 Propagating biofilm formation of type binary. 
 Not enough data for ASR for biofilm formation. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
-   user  system elapsed 
-725.134 914.126 548.217 
+    user   system  elapsed 
+ 812.027 1017.266  611.666 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  2.639   0.000   2.638 
+  2.624   0.001   2.625 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-563.386 707.589 426.012 
+561.751 705.603 424.803 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-383.647 275.430 331.506 
+385.807 275.601 332.705 
 Propagating genome size of type range. 
    user  system elapsed 
-  2.555   0.001   2.557 
+  2.629   0.000   2.630 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-504.270 631.951 380.310 
+504.656 632.735 380.776 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  1.106   0.000   1.106 
+  1.116   0.000   1.116 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
     user   system  elapsed 
- 801.902 1007.844  605.826 
+ 812.510 1019.964  613.435 
 Propagating host-associated of type binary. 
    user  system elapsed 
-483.444 345.053 416.423 
+486.374 348.669 419.665 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  2.693   0.000   2.694 
+  2.737   0.000   2.737 
 Propagating motility of type binary. 
    user  system elapsed 
-414.285 296.857 357.230 
+403.363 289.253 347.939 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  2.724   0.000   2.724 
+  2.749   0.000   2.749 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-400.823 287.491 346.187 
+405.454 288.328 348.968 
 Propagating shape of type multistate-intersection. 
     user   system  elapsed 
-1142.402 1932.336  774.532 
+1159.713 1916.908  775.054 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-161.459 114.002 139.374 
+160.624 113.360 138.622 
 Propagating spore shape of type multistate-intersection. 
     user   system  elapsed 
- 696.384 1187.373  475.362 
+ 713.834 1188.945  480.431 
 Propagating width of type range. 
    user  system elapsed 
-  2.620   0.002   2.622 
+  2.644   0.001   2.645 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 5 of 269 taxon IDs. The followings are left unrankd: 342610, 85643, 338187, 62153, 52765 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 6 of 971 taxon IDs. The followings are left unrankd: 866775, 1183401, 741091, 168810, 1050843, 262776 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 8 of 215 taxon IDs. The followings are left unrankd: 665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 2 of 92 taxon IDs. The followings are left unrankd: 1345697, 52765 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 10 of 305 taxon IDs. The followings are left unrankd: 665938, 665937, 469587, 469586, 469596, 469595, 469594, 699245, 97139, 81424 
-Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 31 of 1280 taxon IDs. The followings are left unrankd: 327817, 82076, 332056, 332410, 86662, 62153, 992010, 140100, 684949, 1172, 931223, 62928, 1267535, 1345697, 2274, 420233, 1206751, 477693, 68202, 690871, 68570, 228748, 495036, 52765, 52766, 196180, 85643, 93930, 114529, 65497, 675810 
+Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 32 of 1280 taxon IDs. The followings are left unrankd: 327817, 82076, 332056, 332410, 86662, 62153, 992010, 140100, 684949, 1172, 931223, 62928, 1267535, 1345697, 2274, 158080, 420233, 1206751, 477693, 68202, 690871, 68570, 228748, 495036, 52765, 52766, 196180, 85643, 93930, 114529, 65497, 675810 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 2 of 25 taxon IDs. The followings are left unrankd: 52765, 52766 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 5 of 115 taxon IDs. The followings are left unrankd: 665938, 195041, 469587, 469586, 469594 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 4 of 84 taxon IDs. The followings are left unrankd: 469587, 469586, 97139, 81424 
@@ -686,7 +696,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       Etc/UTC
- date     2024-08-12
+ date     2024-08-19
  pandoc   3.3 @ /usr/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -696,7 +706,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  bit                 4.0.5      2022-11-15 [1] RSPM (R 4.4.0)
  bit64               4.0.5      2020-08-30 [1] RSPM (R 4.4.0)
  blob                1.2.4      2023-03-17 [1] RSPM (R 4.4.0)
- bugphyzz          * 0.99.3     2024-08-11 [1] Github (waldronlab/bugphyzz@f709f1d)
+ bugphyzz          * 0.99.7     2024-08-18 [1] Github (waldronlab/bugphyzz@12b69a7)
  bugsigdbr           1.11.0     2024-05-01 [1] Bioconductor 3.20 (R 4.4.0)
  cachem              1.1.0      2024-05-16 [1] RSPM (R 4.4.0)
  castor            * 1.8.2      2024-06-29 [1] RSPM (R 4.4.0)
@@ -736,7 +746,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  memoise             2.0.1      2021-11-26 [1] RSPM (R 4.4.0)
  mnormt              2.1.1      2022-09-26 [1] RSPM (R 4.4.0)
  naturalsort         0.1.3      2016-08-30 [1] RSPM (R 4.4.0)
- nlme                3.1-165    2024-06-06 [1] RSPM (R 4.4.0)
+ nlme                3.1-166    2024-08-14 [1] RSPM (R 4.4.0)
  numDeriv            2016.8-1.1 2019-06-06 [1] RSPM (R 4.4.0)
  optimParallel       1.0-2      2021-02-11 [1] RSPM (R 4.4.0)
  phangorn            2.11.1     2023-01-23 [1] RSPM (R 4.4.0)
@@ -759,7 +769,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  stringi             1.8.4      2024-05-06 [1] RSPM (R 4.4.0)
  stringr             1.5.1      2023-11-14 [1] RSPM (R 4.4.0)
  taxizedb            0.3.1      2023-04-03 [1] RSPM (R 4.4.0)
- taxPPro           * 1.0.0      2024-08-11 [1] Github (waldronlab/taxPPro@7a9b74c)
+ taxPPro           * 1.0.0      2024-08-18 [1] Github (waldronlab/taxPPro@7a9b74c)
  tibble            * 3.2.1      2023-03-20 [1] RSPM (R 4.4.0)
  tidyr             * 1.3.1      2024-01-24 [1] RSPM (R 4.4.0)
  tidyselect          1.2.1      2024-03-11 [1] RSPM (R 4.4.0)
@@ -775,6 +785,6 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
 ──────────────────────────────────────────────────────────────────────────────
 
 ========================================================================= 
-Log End Time: 2024-08-12 00:13:47.258132 
-Log Elapsed Time: 0 01:53:55 
+Log End Time: 2024-08-19 00:14:22.19553 
+Log Elapsed Time: 0 01:55:18 
 ========================================================================= 
