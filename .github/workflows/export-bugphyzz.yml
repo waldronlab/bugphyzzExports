@@ -25,7 +25,9 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          BiocManager::install("waldronlab/bugphyzz", dependencies = TRUE)
+          BiocManager::install("waldronlab/bugphyzz",
+                               dependencies = c("Depends", "Imports",
+                                                "LinkingTo", "Enhances"))
           BiocManager::install("waldronlab/bugphyzzExports", dependencies = TRUE)
         shell: Rscript {0}
 
