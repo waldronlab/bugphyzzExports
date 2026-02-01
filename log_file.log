@@ -3,17 +3,17 @@ Log Path: log_file.log
 Program Path: /__w/bugphyzzExports/bugphyzzExports/inst/scripts/export_bugphyzz.R 
 Working Directory: /__w/bugphyzzExports/bugphyzzExports 
 User Name: root 
-R Version: R Under development (unstable) (2026-01-22 r89323) 
-Machine: 6a54d166790c x86_64 
+R Version: R Under development (unstable) (2026-01-29 r89354) 
+Machine: 538e7a245b4f x86_64 
 Operating System: Linux 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 
 Base Packages: stats graphics grDevices utils datasets methods base 
 Other Packages: purrr_1.2.1 castor_1.8.5 Rcpp_1.1.1 phytools_2.5-2 maps_3.4.3 ape_5.8-1 tibble_3.3.1 tidyr_1.3.2 dplyr_1.1.4 rlang_1.1.7 taxPPro_1.0.1 bugphyzz_1.5.0 logr_1.3.9 common_1.1.4 
-Log Start Time: 2026-01-25 22:13:31.458759 
+Log Start Time: 2026-02-01 22:14:23.640672 
 ========================================================================= 
 Importing 29 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, animal pathogen, antimicrobial sensitivity, biofilm formation, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" 
 
    user  system elapsed 
- 13.887   0.322  48.546 
+ 13.773   0.316  50.099 
 
 Warning: Invalid attributes in aerophilicity: facultative aerobe---microaerotolerant 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 124 of 10901 taxon IDs. The followings are left unrankd: 65497, 95160, 96101, 182080, 287094, 305698, 369930, 196083, 136160, 513651, 158080, 50728, 1632778, 1606016, 1646339, 126790, 1017277, 332410, 114529, 2254, 115555, 115561, 29570, 267368, 1830421, 1400058, 81030, 683756, 88075, 61655, 84292, 92835, 76884, 300020, 165807, 134962, 48937, 263820, 1311788, 342610, 81037, 166934, 1398496, 50340, 307251, 237610, 237656, 219742, 154109, 1462563, 219741, 119541, 262776, 45461, 211759, 244407, 332057, 332056, 46170, 46170, 68202, 84593, 62153, 322609, 109214, 1398560, 228972, 355929, 866775, 209879, 156454, 1551, 1560, 289244, 86662, 168810, 495036, 1345697, 1166016, 741091, 195041, 85643, 140100, 62153, 675810, 228972, 65497, 861208, 340044, 335659, 546899, 656024, 395568, 693851, 50340, 440512, 147710, 931223, 420233, 332056, 68570, 68202, 1203592, 81424, 563191, 665937, 469586, 469587, 665938, 469594, 52765, 52766, 699245, 97139, 327817, 644968, 228748, 477693, 652712, 699192, 796939, 796940, 36876, 93930 
@@ -367,83 +367,83 @@ diplococcus-shaped
  
 Propagating aerophilicity of type multistate-intersection. 
    user  system elapsed 
-278.248   0.019 278.303 
+268.192   0.017 268.247 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-385.995   0.013 386.051 
+372.653   0.016 372.706 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-373.280   0.015 373.334 
+360.065   0.014 360.111 
 Propagating arrangement of type multistate-intersection. 
    user  system elapsed 
-346.179   0.026 346.254 
+352.457   0.012 352.501 
 Propagating biofilm formation of type binary. 
 Not enough data for ASR for biofilm formation. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-317.962   0.016 318.029 
+340.593   0.013 340.652 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  2.826   0.000   2.826 
+  2.237   0.000   2.236 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-275.046   0.009 275.089 
+261.865   0.012 261.905 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-346.296   0.022 346.362 
+328.146   0.012 328.190 
 Propagating genome size of type range. 
    user  system elapsed 
-  2.811   0.000   2.812 
+  2.230   0.000   2.229 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-251.113   0.016 251.160 
+236.793   0.010 236.830 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  1.247   0.000   1.248 
+  0.995   0.000   0.995 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
    user  system elapsed 
-399.342   0.020 399.410 
+376.310   0.016 376.363 
 Propagating host-associated of type binary. 
    user  system elapsed 
-438.195   0.020 438.266 
+413.538   0.017 413.592 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  2.936   0.000   2.936 
+  2.375   0.000   2.376 
 Propagating motility of type binary. 
    user  system elapsed 
-364.068   0.013 364.123 
+343.967   0.012 344.011 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  3.002   0.000   3.003 
+  2.357   0.001   2.358 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-365.743   0.032 365.829 
+344.430   0.017 344.483 
 Propagating shape of type multistate-intersection. 
    user  system elapsed 
-514.028   0.022 514.110 
+528.399   0.025 528.473 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-253.975   0.020 254.030 
+238.176   0.010 238.209 
 Propagating spore shape of type multistate-intersection. 
    user  system elapsed 
-306.489   0.019 306.552 
+287.462   0.008 287.494 
 Propagating width of type range. 
    user  system elapsed 
-  2.902   0.000   2.902 
+  2.307   0.000   2.308 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 6 of 269 taxon IDs. The followings are left unrankd: 342610, 85643, 338187, 62153, 395568, 52765 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 6 of 971 taxon IDs. The followings are left unrankd: 866775, 1183401, 741091, 168810, 1050843, 262776 
 Warning: There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 8 of 215 taxon IDs. The followings are left unrankd: 665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139 
@@ -788,7 +788,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: disease association
 rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance 
 ─ Session info ───────────────────────────────────────────────────────────────
  setting  value
- version  R Under development (unstable) (2026-01-22 r89323)
+ version  R Under development (unstable) (2026-01-29 r89354)
  os       Ubuntu 24.04.3 LTS
  system   x86_64, linux-gnu
  ui       X11
@@ -796,7 +796,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       Etc/UTC
- date     2026-01-25
+ date     2026-02-01
  pandoc   3.8.3 @ /usr/bin/pandoc
  quarto   1.8.25 @ /usr/local/bin/quarto
 
@@ -807,7 +807,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  bit                 4.6.0      2025-03-06 [1] CRAN (R 4.6.0)
  bit64               4.6.0-1    2025-01-16 [1] CRAN (R 4.6.0)
  blob                1.3.0      2026-01-14 [1] CRAN (R 4.6.0)
- bugphyzz          * 1.5.0      2026-01-25 [1] Github (waldronlab/bugphyzz@b658011)
+ bugphyzz          * 1.5.0      2026-02-01 [1] Github (waldronlab/bugphyzz@b658011)
  bugsigdbr           1.17.2     2025-12-29 [1] Bioconductor 3.23 (R 4.6.0)
  cachem              1.1.0      2024-05-16 [1] CRAN (R 4.6.0)
  castor            * 1.8.5      2026-01-21 [1] CRAN (R 4.6.0)
@@ -844,7 +844,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  MASS                7.3-65     2025-02-28 [2] CRAN (R 4.6.0)
  Matrix              1.7-4      2025-08-28 [2] CRAN (R 4.6.0)
  memoise             2.0.1      2021-11-26 [1] CRAN (R 4.6.0)
- mnormt              2.1.1      2022-09-26 [1] CRAN (R 4.6.0)
+ mnormt              2.1.2      2026-01-27 [1] CRAN (R 4.6.0)
  naturalsort         0.1.3      2016-08-30 [1] CRAN (R 4.6.0)
  nlme                3.1-168    2025-03-31 [2] CRAN (R 4.6.0)
  numDeriv            2016.8-1.1 2019-06-06 [1] CRAN (R 4.6.0)
@@ -869,13 +869,13 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  stringi             1.8.7      2025-03-27 [1] CRAN (R 4.6.0)
  stringr             1.6.0      2025-11-04 [1] CRAN (R 4.6.0)
  taxizedb            0.3.2      2025-06-18 [1] CRAN (R 4.6.0)
- taxPPro           * 1.0.1      2026-01-25 [1] Github (waldronlab/taxPPro@c6d1fa5)
+ taxPPro           * 1.0.1      2026-02-01 [1] Github (waldronlab/taxPPro@c6d1fa5)
  tibble            * 3.3.1      2026-01-11 [1] CRAN (R 4.6.0)
  tidyr             * 1.3.2      2025-12-19 [1] CRAN (R 4.6.0)
  tidyselect          1.2.1      2024-03-11 [1] CRAN (R 4.6.0)
  tzdb                0.5.0      2025-03-15 [1] CRAN (R 4.6.0)
  vctrs               0.7.1      2026-01-23 [1] CRAN (R 4.6.0)
- vroom               1.6.7      2025-11-28 [1] CRAN (R 4.6.0)
+ vroom               1.7.0      2026-01-27 [1] CRAN (R 4.6.0)
  withr               3.0.2      2024-10-28 [1] CRAN (R 4.6.0)
 
  [1] /usr/local/lib/R/site-library
@@ -885,6 +885,6 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
 ──────────────────────────────────────────────────────────────────────────────
 
 ========================================================================= 
-Log End Time: 2026-01-25 23:45:30.050985 
-Log Elapsed Time: 0 01:31:58 
+Log End Time: 2026-02-01 23:43:15.301707 
+Log Elapsed Time: 0 01:28:51 
 ========================================================================= 
