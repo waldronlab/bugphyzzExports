@@ -483,6 +483,88 @@ final_set <- propagated |>
                 Attribute_type
             )
     })
+## Keep only imputed (ASR) annotations whose attribute value passed the
+## 10-fold cross-validation (MCC >= 0.7 for discrete, R2 >= 0.5 for numeric;
+## waldronlab/taxPProValidation), and drop imputed states with Frequency
+## "rarely" or "never". These are the thresholds used in the bugphyzz
+## manuscript and the defaults of bugphyzz::importBugphyzz(). Curated
+## annotations are never filtered here.
+mcc_threshold <- 0.7
+r2_threshold <- 0.5
+validation_file <- system.file(
+    "extdata", "validation_summary.tsv", package = "bugphyzz"
+)
+if (!nzchar(validation_file)) {
+    stop("The installed bugphyzz has no extdata/validation_summary.tsv.")
+}
+validation <- read.delim(validation_file)
+stopifnot(all(
+    c("rank", "physiology", "attribute", "mcc_mean", "r2_mean") %in%
+        names(validation)
+))
+## One row per attribute value over all ranks. Discrete values have an MCC,
+## numeric attributes an R2; a row never has both.
+validation <- validation |>
+    filter(rank == "all") |>
+    mutate(
+        physiology = tolower(physiology),
+        attribute = tolower(attribute),
+        value = ifelse(is.na(mcc_mean), r2_mean, mcc_mean)
+    ) |>
+    select(physiology, attribute, value)
+stopifnot(!anyDuplicated(validation[c("physiology", "attribute")]))
+## Binary and numeric attributes are validated as a whole, so their row has
+## physiology == attribute. Keep those apart so a multistate value with the
+## same name (e.g. "coccus" under shape and spore shape) can't match.
+validation_whole <- filter(validation, physiology == attribute)
+stopifnot(!anyDuplicated(validation_whole$attribute))
+## Attributes with no validation entry (habitat, disease association,
+## antimicrobial resistance, and any discrete value that was not validated)
+## keep their curated rows and lose all ASR rows.
+filterAsr <- function(df) {
+    attr_name <- unique(df$Attribute)[1]
+    attr_type <- unique(df$Attribute_type)
+    attr_type <- attr_type[!is.na(attr_type)]
+    df <- mutate(df, .attr_key = tolower(Attribute))
+    if (any(attr_type %in% c("numeric", "range", "binary"))) {
+        thr <- if (any(attr_type == "binary")) mcc_threshold else r2_threshold
+        df <- left_join(
+            df, select(validation_whole, .attr_key = attribute, value),
+            by = ".attr_key"
+        )
+    } else {
+        thr <- mcc_threshold
+        df <- df |>
+            mutate(.value_key = tolower(Attribute_value)) |>
+            left_join(
+                select(
+                    validation, .attr_key = physiology,
+                    .value_key = attribute, value
+                ),
+                by = c(".attr_key", ".value_key")
+            ) |>
+            select(-.value_key)
+    }
+    df <- select(df, -.attr_key)
+    n_before <- sum(df$Evidence == "asr", na.rm = TRUE)
+    df <- df |>
+        filter(
+            Evidence != "asr" |
+                (
+                    !is.na(value) & value >= thr &
+                        !Frequency %in% c("rarely", "never")
+                )
+        ) |>
+        select(-value)
+    n_after <- sum(df$Evidence == "asr", na.rm = TRUE)
+    log_print(paste0(
+        attr_name, ": kept ", n_after, " of ", n_before,
+        " ASR annotations after validation and frequency filters."
+    ))
+    df
+}
+final_set <- map(final_set, filterAsr)
+
 multistate_data <- bind_rows(final_set[c(
         attributes_by_type$multistate,
         "habitat", "antimicrobial resistance", "disease association"
