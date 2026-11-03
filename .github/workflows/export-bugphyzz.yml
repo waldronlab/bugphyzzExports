@@ -15,7 +15,7 @@ jobs:
     steps:
 
       - name: Install git-lfs
-        run: apt update && apt install git-lfs
+        run: apt-get update && apt-get install -y git-lfs
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,14 +24,18 @@ jobs:
           ref: "devel"
 
       - name: Install R dependencies
+        # The Bioconductor devel image no longer ships `remotes`, which
+        # BiocManager::install() needs for GitHub packages.
         run: |
-          BiocManager::install("waldronlab/bugphyzz", dependencies = TRUE)
-          BiocManager::install("waldronlab/bugphyzzExports", dependencies = TRUE)
+          BiocManager::install("remotes", update = FALSE, ask = FALSE)
+          BiocManager::install("waldronlab/bugphyzz", dependencies = TRUE, update = FALSE, ask = FALSE)
+          BiocManager::install("waldronlab/bugphyzzExports", dependencies = TRUE, update = FALSE, ask = FALSE)
+          stopifnot(requireNamespace("bugphyzz", quietly = TRUE), requireNamespace("bugphyzzExports", quietly = TRUE))
         shell: Rscript {0}
 
       - name: Generate exports
         run: |
-          rm *.gmt *.csv
+          rm -f ./*.gmt ./*.csv
           Rscript inst/scripts/export_bugphyzz.R
 
       - name: Configure git
