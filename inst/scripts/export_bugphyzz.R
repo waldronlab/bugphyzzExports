@@ -483,6 +483,67 @@ final_set <- propagated |>
                 Attribute_type
             )
     })
+## Keep only imputed (ASR) annotations whose attribute value passed the
+## 10-fold cross-validation (MCC >= 0.7 for discrete, R2 >= 0.5 for numeric;
+## waldronlab/taxPProValidation), and drop imputed states with Frequency
+## "rarely" or "never". These are the thresholds used in the bugphyzz
+## manuscript and the defaults of bugphyzz::importBugphyzz(). Curated
+## annotations are never filtered here.
+mcc_threshold <- 0.7
+r2_threshold <- 0.5
+validation <- read.delim(
+    system.file("extdata", "validation_summary.tsv", package = "bugphyzz")
+) |>
+    filter(rank == "all") |>
+    mutate(
+        physiology = tolower(physiology),
+        attribute = tolower(attribute),
+        value = ifelse(is.na(mcc_mean), r2_mean, mcc_mean)
+    ) |>
+    select(physiology, attribute, value)
+filterAsr <- function(df) {
+    attr_type <- unique(df$Attribute_type)
+    attr_type <- attr_type[!is.na(attr_type)]
+    df <- mutate(df, .attr_key = tolower(Attribute))
+    if (any(attr_type %in% c("numeric", "range", "binary"))) {
+        thr <- if (any(attr_type == "binary")) mcc_threshold else r2_threshold
+        df <- left_join(
+            df, select(validation, .attr_key = attribute, value),
+            by = ".attr_key"
+        )
+    } else {
+        thr <- mcc_threshold
+        df <- df |>
+            mutate(.value_key = tolower(Attribute_value)) |>
+            left_join(
+                select(
+                    validation, .attr_key = physiology,
+                    .value_key = attribute, value
+                ),
+                by = c(".attr_key", ".value_key")
+            ) |>
+            select(-.value_key)
+    }
+    df <- select(df, -.attr_key)
+    n_before <- sum(df$Evidence == "asr", na.rm = TRUE)
+    df <- df |>
+        filter(
+            Evidence != "asr" |
+                (
+                    !is.na(value) & value >= thr &
+                        !Frequency %in% c("rarely", "never")
+                )
+        ) |>
+        select(-value)
+    n_after <- sum(df$Evidence == "asr", na.rm = TRUE)
+    log_print(paste0(
+        unique(df$Attribute)[1], ": kept ", n_after, " of ", n_before,
+        " ASR annotations after validation and frequency filters."
+    ))
+    df
+}
+final_set <- map(final_set, filterAsr)
+
 multistate_data <- bind_rows(final_set[c(
         attributes_by_type$multistate,
         "habitat", "antimicrobial resistance", "disease association"
