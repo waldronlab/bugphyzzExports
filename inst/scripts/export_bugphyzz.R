@@ -491,9 +491,20 @@ final_set <- propagated |>
 ## annotations are never filtered here.
 mcc_threshold <- 0.7
 r2_threshold <- 0.5
-validation <- read.delim(
-    system.file("extdata", "validation_summary.tsv", package = "bugphyzz")
-) |>
+validation_file <- system.file(
+    "extdata", "validation_summary.tsv", package = "bugphyzz"
+)
+if (!nzchar(validation_file)) {
+    stop("The installed bugphyzz has no extdata/validation_summary.tsv.")
+}
+validation <- read.delim(validation_file)
+stopifnot(all(
+    c("rank", "physiology", "attribute", "mcc_mean", "r2_mean") %in%
+        names(validation)
+))
+## One row per attribute value over all ranks. Discrete values have an MCC,
+## numeric attributes an R2; a row never has both.
+validation <- validation |>
     filter(rank == "all") |>
     mutate(
         physiology = tolower(physiology),
@@ -501,7 +512,15 @@ validation <- read.delim(
         value = ifelse(is.na(mcc_mean), r2_mean, mcc_mean)
     ) |>
     select(physiology, attribute, value)
+stopifnot(
+    !anyDuplicated(validation[c("physiology", "attribute")]),
+    !anyDuplicated(validation$attribute)
+)
+## Attributes with no validation entry (habitat, disease association,
+## antimicrobial resistance, and any discrete value that was not validated)
+## keep their curated rows and lose all ASR rows.
 filterAsr <- function(df) {
+    attr_name <- unique(df$Attribute)[1]
     attr_type <- unique(df$Attribute_type)
     attr_type <- attr_type[!is.na(attr_type)]
     df <- mutate(df, .attr_key = tolower(Attribute))
@@ -537,7 +556,7 @@ filterAsr <- function(df) {
         select(-value)
     n_after <- sum(df$Evidence == "asr", na.rm = TRUE)
     log_print(paste0(
-        unique(df$Attribute)[1], ": kept ", n_after, " of ", n_before,
+        attr_name, ": kept ", n_after, " of ", n_before,
         " ASR annotations after validation and frequency filters."
     ))
     df
