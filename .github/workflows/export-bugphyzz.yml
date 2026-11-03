@@ -24,9 +24,12 @@ jobs:
           ref: "devel"
 
       - name: Install R dependencies
+        # The Bioconductor devel image no longer ships `remotes`, which
+        # BiocManager::install() needs for GitHub packages.
         run: |
-          BiocManager::install("waldronlab/bugphyzz", dependencies = TRUE)
-          BiocManager::install("waldronlab/bugphyzzExports", dependencies = TRUE)
+          BiocManager::install("remotes", update = FALSE, ask = FALSE)
+          BiocManager::install("waldronlab/bugphyzz", dependencies = TRUE, update = FALSE, ask = FALSE)
+          BiocManager::install("waldronlab/bugphyzzExports", dependencies = TRUE, update = FALSE, ask = FALSE)
         shell: Rscript {0}
 
       - name: Generate exports
