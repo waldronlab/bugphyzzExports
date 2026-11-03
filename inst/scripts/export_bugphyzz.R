@@ -512,10 +512,12 @@ validation <- validation |>
         value = ifelse(is.na(mcc_mean), r2_mean, mcc_mean)
     ) |>
     select(physiology, attribute, value)
-stopifnot(
-    !anyDuplicated(validation[c("physiology", "attribute")]),
-    !anyDuplicated(validation$attribute)
-)
+stopifnot(!anyDuplicated(validation[c("physiology", "attribute")]))
+## Binary and numeric attributes are validated as a whole, so their row has
+## physiology == attribute. Keep those apart so a multistate value with the
+## same name (e.g. "coccus" under shape and spore shape) can't match.
+validation_whole <- filter(validation, physiology == attribute)
+stopifnot(!anyDuplicated(validation_whole$attribute))
 ## Attributes with no validation entry (habitat, disease association,
 ## antimicrobial resistance, and any discrete value that was not validated)
 ## keep their curated rows and lose all ASR rows.
@@ -527,7 +529,7 @@ filterAsr <- function(df) {
     if (any(attr_type %in% c("numeric", "range", "binary"))) {
         thr <- if (any(attr_type == "binary")) mcc_threshold else r2_threshold
         df <- left_join(
-            df, select(validation, .attr_key = attribute, value),
+            df, select(validation_whole, .attr_key = attribute, value),
             by = ".attr_key"
         )
     } else {
