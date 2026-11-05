@@ -1,0 +1,1941 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+6			Azorhizobium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00814
+10			Cellvibrio	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01208
+13			Dictyoglomus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00478
+16			Methylophilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00971.pub2
+18			Pelobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01042
+20			Phenylobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00793
+22			Shewanella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01100
+59			Vitreoscilla	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00984
+59			Vitreoscilla	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00984
+68			Lysobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01232
+71			Simonsiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00983
+85			Hyphomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00855.pub2
+93			Stella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00889
+96			Gallionella	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00988
+99			Ancylobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00811
+99			Methylorhabdus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00822
+101			Flectobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00265
+105			Runella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00273
+107			Spirosoma	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00274
+113			Gemmata	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00783.pub2
+118			Planctomyces	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00786
+118			Planctomyces	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00786
+123			Pirellula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00785.pub2
+127			Isosphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00784.pub2
+133			Methylocystis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00832
+138			Borrelia	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01246
+138			Borrelia	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01246.pub2
+146			Spirochaeta	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01248
+146			Spirochaeta	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01248
+157			Treponema	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01249
+157			Treponema	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01249
+171			Leptospira	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244
+171			Leptospira	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244.pub2
+171			Leptospira	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244
+171			Leptospira	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244.pub2
+179			Leptospirillum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00779
+187			Aquaspirillum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00974
+187			Aquaspirillum	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00974
+187			Aquaspirillum	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00974
+191			Azospirillum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00891
+191			Azospirillum	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00891
+222			Achromobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00926
+226			Alteromonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01089
+234			Brucella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00807
+234			Brucella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00807.pub2
+237			Flavobacterium	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00312
+237			Flavobacterium	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00312
+237			Flavobacterium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00312
+262			Francisella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01215
+262			Francisella	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01215
+265			Paracoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00860
+270			Thermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00477
+270			Thermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00477.pub2
+270			Thermus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00477
+270			Thermus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00477.pub2
+279			Xanthobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00829
+283			Comamonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00945
+286			Pseudomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01210
+286			Serpens	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01213
+286			Pseudomonas	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01210
+286			Serpens	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01213
+338			Xanthomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01239
+349			Zoogloea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01005
+352			Azotobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01207
+352			Azotobacter	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
+357			Agrobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00842
+374			Agromonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00799
+374			Bradyrhizobium	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00802.pub2
+374			Bradyrhizobium	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00802.pub2
+374			Agromonas	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00799
+379			Rhizobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00847
+404			Methylobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00970.pub2
+407			Methylobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00830.pub2
+413			Methylococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01181
+416			Methylomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01183
+416			Methylomonas	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01183.pub2
+425			Methylosinus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00833
+429			Methylobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01179
+429			Methylobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01179.pub2
+434			Acetobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00876
+441			Gluconobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00884
+445			Legionella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01178
+469			Acinetobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01203.pub2
+475			Moraxella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01204.pub2
+482			Neisseria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00981
+497			Psychrobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01205.pub2
+499			Thermomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01268
+507			Alcaligenes	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00927
+517			Bordetella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00928
+522			Acidiphilium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00877
+528			Ochrobactrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00809.pub2
+532			Beijerinckia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00795.pub2
+535			Chromobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00975
+538			Eikenella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00976
+541			Zymomonas	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00925
+541			Zymomonas	facultatively anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00925
+544			Citrobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01143
+547			Enterobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01145.pub2
+551			Erwinia	facultatively anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01146.pub2
+561			Escherichia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01147
+561			Escherichia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01147
+568			Hafnia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01149
+570			Klebsiella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01150.pub2
+579			Kluyvera	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01151
+581			Morganella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01155
+583			Proteus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01162
+586			Providencia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01163
+590			Salmonella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01166
+613			Serratia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01167
+620			Shigella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01168
+626			Xenorhabdus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01173
+629			Yersinia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01174
+635			Edwardsiella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01144
+642			Aeromonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01081
+657			Photobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01076.pub2
+662			Vibrio	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01078
+702			Plesiomonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01160
+713			Actinobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01197.pub2
+724			Haemophilus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01198.pub2
+745			Pasteurella	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01201.pub2
+745			Pasteurella	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01201.pub2
+745			Pasteurella	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01201.pub2
+816			Bacteroides	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00238
+830			Butyrivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00640
+832			Fibrobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00525
+836			Porphyromonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00246
+838			Prevotella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00249
+841			Roseburia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00652
+846			Oxalobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00966
+848			Fusobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00768
+862			Syntrophomonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00682
+862			Syntrophospora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00683
+864			Pectinatus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00699
+866			Ruminobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01085
+869			Dichelobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01102
+872			Desulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01035
+872			Desulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01035.pub2
+890			Desulfuromonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01039
+893			Desulfobulbus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01023.pub2
+896			Desulfococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01016
+896			Desulfococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01016.pub2
+898			Desulfomicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01032
+898			Desulfomicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01032.pub2
+904			Acidaminococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00687
+906			Anaeroglobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00690
+906			Megasphaera	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00697
+911			Nitrobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00803
+911			Nitrobacter	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00803
+919			Thiobacillus	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00969
+919			Thiobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00969.pub2
+919			Thiobacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00969.pub2
+919			Thiobacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00969
+933			Thioalkalimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01220
+933			Thiomicrospira	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01221
+939			Hydrogenobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00231
+958			Bdellovibrio	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01007
+963			Herbaspirillum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00963
+963			Herbaspirillum	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00963
+965			Oceanospirillum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01196
+967			Spirillum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00993
+967			Spirillum	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00993
+970			Selenomonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00705
+973			Sporohalobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00743
+978			Cytophaga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00261
+992			Flexibacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00266
+992			Flexibacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00266
+1007			Saprospira	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00359
+1011			Sporocytophaga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00275
+1013			Weeksella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00349
+1016			Capnocytophaga	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00299
+1021			Beggiatoa	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01223
+1021			Beggiatoa	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01223
+1023			Microscilla	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00271
+1030			Thiothrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01229.pub2
+1030			Thiothrix	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01229.pub2
+1033			Oligotropha	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00804
+1041			Erythrobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00919.pub2
+1060			Rhodobacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00862
+1070			Rhodopila	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00886.pub2
+1070			Rhodopila	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00886.pub2
+1081			Rhodospirillum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00897.pub2
+1081			Rhodospirillum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00897.pub2
+1081			Rhodospirillum	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00897.pub2
+1111			Porphyrobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00922
+1205			Trichodesmium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00448.pub2
+1234			Nitrospira	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00780
+1237			Piscirickettsia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01219
+1253			Pediococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00606.pub2
+1257			Peptostreptococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00668
+1263			Ruminococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00678
+1266			Sarcina	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00622
+1269			Micrococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00121
+1298			Deinococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00475
+1301			Streptococcus	facultatively anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00612
+1350			Enterococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00600.pub2
+1357			Lactococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00610
+1370			Marinococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00538
+1372			Planococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00561
+1375			Aerococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00581
+1378			Gemella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00578
+1380			Atopobium	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00214
+1380			Atopobium	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00214
+1386			Bacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00530.pub2
+1386			Bacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
+1485			Anaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00614
+1562			Desulfotomaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00661
+1562			Desulfotomaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00661.pub2
+1569			Sporosarcina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00563
+1573			Clavibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00094
+1578			Paralactobacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00605.pub2
+1637			Listeria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00547
+1637			Listeria	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00547
+1647			Erysipelothrix	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00763
+1651			Alloiococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00589
+1678			Bifidobacterium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00019
+1678			Bifidobacterium	anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00019
+1696			Brevibacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00062
+1707			Cellulomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00063
+1707			Cellulomonas	facultatively anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00063
+1716			Corynebacterium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00026
+1716			Turicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00027
+1716			Corynebacterium	facultatively anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00026
+1730			Eubacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00629
+1740			Thermodesulfobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01267
+1743			Propionibacterium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1754			Thermoanaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00751
+1763			Mycobacterium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00029
+1763			Mycobacterium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00029
+1813			Amycolatopsis	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00176
+1813			Amycolatopsis	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00176
+1817			Nocardia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00032
+1827			Rhodococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00033
+1835			Saccharopolyspora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00186
+1839			Nocardioides	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00159
+1847			Pseudonocardia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00184
+1849			Actinopolyspora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00016
+1851			Saccharomonospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00185
+1854			Frankia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00042.pub2
+1860			Geodermatophilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00044.pub2
+1862			Dermatophilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00073
+1862			Dermatophilus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00073
+1873			Micromonospora	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00148
+1873			Verrucosispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00153
+1873			Xiangella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01321
+1873			Micromonospora	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00148
+1883			Streptomyces	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00191
+1988			Actinomadura	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00210
+1995			Microtetraspora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00201
+1998			Planomonospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00204
+2000			Streptosporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00207
+2005			Microbispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00200
+2013			Nocardiopsis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00195
+2016			Streptoalloteichus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00188
+2019			Thermomonospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00212
+2023			Thermoactinomyces	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00575
+2029			Kibdelosporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00179.pub2
+2034			Curtobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00096.pub2
+2040			Aeromicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00156
+2050			Mobiluncus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00014
+2053			Gordonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00030
+2060			Tsukamurella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00038
+2071			Saccharothrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00187
+2077			Sporolactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00565
+2077			Sporolactobacillus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00565
+2086			Anaeroplasma	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01257
+2132			Spiroplasma	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01262.pub2
+2147			Acholeplasma	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01256.pub2
+2152			Asteroleplasma	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01258
+2160			Methanobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00495
+2179			Methanothermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00499.pub2
+2184			Methanococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00502
+2184			Methanococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00502.pub2
+2192			Methanocorpusculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00504.pub2
+2195			Methanogenium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00507
+2195			Methanogenium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00507.pub2
+2202			Methanospirillum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00511
+2204			Methanomicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00509
+2204			Methanomicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00509.pub2
+2207			Methanosarcina	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00519.pub2
+2220			Methanolobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00517
+2220			Methanolobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00517.pub2
+2222			Methanosaeta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00513
+2222			Methanothrix	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00513.pub2
+2225			Methanococcoides	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00514.pub2
+2233			Archaeoglobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00479
+2237			Haloarcula	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00481
+2237			Haloarcula	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00481
+2239			Halobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00482.pub2
+2239			Halobacterium	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00482.pub2
+2249			Halococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00484
+2249			Halococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00484.pub2
+2251			Haloferax	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00485
+2256			Natronobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00491.pub2
+2260			Pyrococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00521
+2263			Thermococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00522
+2268			Thermofilum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02136
+2270			Thermoproteus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02138
+2273			Desulfurococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00387.pub2
+2276			Pyrobaculum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00408.pub2
+2276			Pyrobaculum	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00408.pub2
+2279			Staphylothermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00389.pub2
+2284			Sulfolobus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00400
+2289			Desulfobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01011
+2289			Desulfobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01011.pub2
+2295			Desulfobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01012
+2295			Desulfobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01012.pub2
+2299			Desulfosarcina	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01020
+2299			Desulfosarcina	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01020.pub2
+2302			Thermoplasma	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00524
+2308			Pyrodictium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00395.pub2
+2314			Methanoplanus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00510
+2314			Methanoplanus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00510.pub2
+2316			Methanosphaera	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00497.pub2
+2319			Methanopyrus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00520.pub2
+2321			Methanohalobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00515
+2321			Methanohalobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00515.pub2
+2330			Halanaerobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00733
+2332			Propionigenium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00770
+2335			Thermotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01273
+2335			Thermotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01273.pub2
+2349			Haliscomenobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00357
+2351			Flexistipes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00473
+2357			Desulfomonile	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01062
+2357			Desulfomonile	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01062.pub2
+2370			Xylella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01240
+2373			Acetonema	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00686
+2375			Sporomusa	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00706
+2420			Thermosipho	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01272.pub2
+2422			Fervidobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01269
+2701			Gardnerella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00020
+2713			Aquifex	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00229
+2713			Aquifex	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00229
+2717			Cardiobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01101
+2723			Hirschia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00854
+2733			Symbiobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00731
+2735			Verrucomicrobium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01285
+2737			Vagococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00603
+2740			Peptococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00663
+2742			Marinobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01094
+2742			Marinobacter	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01094
+2745			Halomonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01190.pub2
+2745			Halomonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01190.pub2
+2747			Carnobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00593
+2753			Synergistes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01250
+2755			Brochothrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00546
+2755			Brochothrix	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00546
+12914			Acidianus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00397
+12916			Acidovorax	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00943
+12960			Azoarcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00994
+12960			Azoarcus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00994
+12960			Azoarcus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00994
+13075			Globicatella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00585
+13134			Magnetospirillum	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00893
+13159			Mycoplana	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00808.pub2
+13242			Rarobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00134
+13275			Suttonella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01103
+13334			Anaerobiospirillum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01084
+13687			Sphingomonas	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00924.pub2
+13687			Sphingomonas	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00924.pub2
+28033			Sulfobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00729
+28033			Sulfobacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00729
+28050			Lachnospira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00647
+28100			Phyllobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00840
+28105			Sinorhizobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00848
+28138			Rikenella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00252
+28186			Acetohalobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00736
+28194			Thermonema	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00284
+28209			Chelatococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00796
+28222			Desulfobacula	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01013
+28222			Desulfobacula	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01013.pub2
+28228			Colwellia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01090
+28231			Geobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01043
+28233			Geotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01270.pub2
+28236			Petrotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01271.pub2
+28250			Ornithobacterium	microaerophilic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00331
+28253			Marinomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01193
+28261			Thermodesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00781
+28263			Arcanobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00013.pub2
+28443			Herbidospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00199
+28453			Sphingobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00361
+28884			Hydrogenovibrio	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01217
+28895			Thermoanaerobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00755
+29287			Natronococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00492.pub2
+29298			Planobispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00203
+29330			Alicyclobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00526
+29331			Amphibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00528
+29331			Amphibacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00528
+29393			Dolosigranulum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00595
+29395			Saccharococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00542
+29404			Microlunatus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00165
+29407			Rhodoplanes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00826.pub2
+29465			Veillonella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00710
+29487			Photorhabdus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01159
+29521			Brachyspira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01241
+29521			Brachyspira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01241.pub2
+29526			Syntrophobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01068
+29526			Syntrophobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01068.pub2
+29548			Rhodothermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00282
+29580			Janthinobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00964
+31980			Acetitomaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00637
+31983			Helcococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00715
+31988			Aminobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00835
+31988			Carbophilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00844
+31988			Chelatobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00845
+32008			Burkholderia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00935
+32012			Thiomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00960
+32014			Iodobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00978
+32067			Leptotrichia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00771
+32067			Leptotrichia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00771.pub2
+32067			Leptotrichia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00771
+32067			Leptotrichia	anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00771.pub2
+32068			Sebaldella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00772
+32068			Sebaldella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00772.pub2
+32199			Buchnera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01137
+32205			Leptonema	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01243
+32205			Leptonema	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01243.pub2
+32257			Kingella	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00979
+32257			Kingella	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00979
+32636			Halothermothrix	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00735
+33001			Desulfurella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01037
+33024			Phascolarctobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00700
+33042			Coprococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00642
+33057			Thauera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01004
+33073			Zymobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01191
+33870			Coriobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00216
+33874			Catenuloplanes	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00142
+33877			Agromyces	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00093
+33877			Agromyces	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00093.pub2
+33877			Agromyces	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00093
+33877			Agromyces	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00093.pub2
+33882			Microbacterium	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00104
+33886			Rathayibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00112
+33951			Acetobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00626
+33969			Melissococcus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00601
+33969			Melissococcus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00601
+33973			Acidobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00001
+33976			Caryophanon	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00556
+33981			Kineococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00053
+33983			Luteococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00164
+33986			Exiguobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00579
+34000			Acidomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00880
+34008			Rhodovulum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00863
+34023			Rhodocista	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00895.pub2
+34023			Rhodocista	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00895.pub2
+34037			Rahnella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01164.pub2
+34067			Cycloclasticus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01216
+34069			Telluria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00967
+34072			Variovorax	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00952
+34084			Riemerella	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00336
+34084			Riemerella	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00336
+34084			Riemerella	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00336
+34096			Brevinema	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01242
+34098			Blattabacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00286
+34100			Filibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00557
+34102			Sphaerotilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00958
+34104			Streptobacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00774
+34104			Streptobacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00774.pub2
+34104			Streptobacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00774
+34104			Streptobacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00774.pub2
+35750			Sporichthya	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00048.pub2
+35750			Sporichthya	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00048.pub2
+35753			Dactylosporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00144
+35796			Nitrococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01130
+35800			Nitrospina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01028
+35812			Roseococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00887
+35829			Acetivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00671
+35832			Bilophila	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01034
+35832			Bilophila	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01034.pub2
+35836			Desulfacinum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01065
+35836			Desulfacinum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01065.pub2
+35838			Holophaga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00006
+36739			Dermabacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00069
+36853			Desulfitobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00658
+36853			Desulfitobacterium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00658
+36862			Ideonella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00954
+37817			Desulfuromusa	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01040
+37914			Dietzia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00028
+37924			Thermocrispum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00189
+38501			Blastococcus	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00043.pub2
+38501			Blastococcus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00043.pub2
+39773			Methylomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01182.pub2
+39840			Desulforhabdus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01066
+39840			Desulforhabdus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01066.pub2
+39845			Actinokineospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00174
+39948			Dialister	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00696
+39948			Allisonella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00688
+39948			Dialister	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00696
+40222			Methylophaga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01218
+40222			Methylophaga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01218.pub2
+40323			Stenotrophomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01237
+40413			Desulforhopalus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01026
+40413			Desulforhopalus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01026.pub2
+40544			Sutterella	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00933
+40544			Sutterella	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00933
+40566			Actinosynnema	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00175
+40840			Succiniclasticum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00707
+41201			Ewingella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01148
+41273			Tissierella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00721
+41273			Tissierella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00721.pub2
+41674			Stygiolobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00399
+41707			Lawsonia	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01036
+41707			Lawsonia	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01036.pub2
+41980			Metallosphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00398
+42054			Chromohalobacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01189.pub2
+42054			Chromohalobacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01189.pub2
+42232			Spirilliplanes	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00152
+42255			Rubrobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00224
+42417			Halobacteroides	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00738
+42418			Halanaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00737
+42447			Anaerobranca	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00727
+42837			Ammonifex	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00744
+43356			Kutzneria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00180
+43676			Promicromonospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00130
+43773			Syntrophus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01064
+43773			Syntrophus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01064.pub2
+43927			Halobaculum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00483.pub2
+43994			Johnsonella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00645
+43996			Catonella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00641
+44000			Caldicellulosiruptor	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00754
+44011			Ferrimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01091
+44013			Polynucleobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00940.pub2
+44249			Paenibacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00553
+44249			Paenibacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00553
+44259			Filifactor	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00667
+44261			Oxobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00621
+44262			Oxalophagus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00552
+44675			Geothrix	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00005.pub2
+44675			Geothrix	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00005.pub2
+44748			Sporobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00679
+45247			Leucothrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01224
+45654			Desulfonema	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01019
+45654			Desulfonema	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01019.pub2
+45662			Desulfohalobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01029
+45662			Desulfohalobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01029.pub2
+45669			Salinicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00568
+45989			Methanoculleus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00505
+45989			Methanoculleus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00505.pub2
+46123			Abiotrophia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00580
+46200			Geovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00474
+46205			Pseudobutyrivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00651
+46254			Oenococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00608
+46255			Weissella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00609.pub2
+46352			Agrococcus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
+46352			Agrococcus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
+46466			Halocella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00734
+46468			Orenia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00741
+46631			Picrophilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00523
+46913			Devosia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00816
+47054			Dethiosulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01255
+47420			Hydrogenophaga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00947
+47494			Pedomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00823
+47670			Lautropia	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00937
+47670			Lautropia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00937
+48001			Desulfobotulus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01014
+48001			Desulfobotulus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01014.pub2
+48073			Microbulbifer	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01096
+48075			Marinobacterium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01095.pub2
+48075			Marinobacterium	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01095.pub2
+48381			Thermothrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00942
+48463			Prosthecobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01284
+48463			Brevifollis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01545
+48736			Ralstonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00941
+49184			Kineosporia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00054
+49277			Psychroserpens	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00335
+49279			Gelidibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00315
+49894			Acetomicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00235
+49894			Anaerobaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01254
+50709			Acidocella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00879
+50714			Acidisphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00878
+51194			Desulfofustis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01025
+51194			Desulfofustis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01025.pub2
+51196			Syntrophobotulus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00665
+51668			Tetragenococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00602
+52003			Natroniella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00740
+52225			Mitsuokella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00698
+52784			Anaerofilum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00672
+52959			Polaribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00333
+52959			Polaribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00333.pub2
+52972			Polaromonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00950
+53244			Desulfonatronovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01030
+53244			Desulfonatronovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01030.pub2
+53246			Pseudoalteromonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01098
+53318			Desulfocapsa	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01024
+53318			Desulfocapsa	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01024.pub2
+53328			Desulfospira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01021
+53328			Desulfospira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01021.pub2
+53335			Pantoea	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01157.pub2
+53355			Terrabacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00087
+53357			Humihabitans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00076
+53357			Intrasporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00077
+53365			Catellatospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00141
+53370			Pilimelia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00149
+53387			Friedmanniella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00162
+53416			Lonepinella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01199.pub2
+53425			Sulfophobococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00391
+53452			Pfennigia	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01112
+53452			Pfennigia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01112
+53456			Propioniferax	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00170
+53457			Janibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00078
+53460			Humicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00046
+53460			Nakamurella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00047.pub2
+53572			Deferribacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00472
+53634			Acidimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00007
+53945			Octadecabacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00859
+53945			Octadecabacter	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00859
+54066			Xylophilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00961
+54115			Methylosphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01185
+54247			Hyperthermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00394
+54249			Thermodiscus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00392
+54249			Thermodiscus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00392.pub2
+54251			Pyrolobus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00396
+54251			Pyrolobus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00396
+54251			Pyrolobus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00396
+54253			Thermosphaera	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
+54258			Ignicoccus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00388
+54260			Ferroglobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00480
+54293			Thermosyntropha	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00685
+55079			Aneurinibacillus	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00549
+55079			Aneurinibacillus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00549
+55080			Brevibacillus	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00550
+55080			Brevibacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00550
+55080			Brevibacillus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00550
+55506			Schwartzia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00704
+56112			Dehalobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00657
+56433			Couchioplanes	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00143
+56635			Aeropyrum	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00386.pub2
+56635			Aeropyrum	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00386.pub2
+56688			Halorubrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00487
+56688			Halorubrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00487.pub2
+56688			Halorubrum	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00487.pub2
+56999			Amaricoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00851
+57039			Malonomonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01041
+57479			Microvirgula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00980
+57493			Kocuria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00120.pub2
+57494			Nesterenkonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00122
+57495			Dermacoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00071
+57495			Dermacoccus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00071
+57499			Kytococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00072
+57665			Sulfurospirillum	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01072
+57739			Vogesella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00985
+58050			Moritella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01097
+58108			Actinocorallia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00209
+58113			Glycomyces	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00049
+58120			Planotetraspora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00205
+58122			Spirillospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00211
+58842			Sagittula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00871
+59613			Skermania	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00034
+59732			Chryseobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00301
+59732			Chryseobacterium	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00301.pub2
+59734			Empedobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00309
+59735			Bergeyella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00297
+59738			Marinilabilia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00241
+59739			Flammeovirga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00277
+59740			Persicobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00279
+59753			Alcanivorax	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01186
+59753			Alcanivorax	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01186
+60136			Staleya	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00872
+60136			Sulfitobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00874
+60846			Halogeometricum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00486
+60846			Halogeometricum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00486.pub2
+60846			Halosarcina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01353
+60846			Halogeometricum	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00486
+60892			Desulfobacca	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01061
+60892			Desulfobacca	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01061.pub2
+61170			Holdemania	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00764
+61653			Methylopila	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00834.pub2
+62608			Thermocladium	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00407
+62608			Thermocladium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00407
+63742			Natrialba	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00489.pub2
+63743			Natronomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00493.pub2
+63958			Demetria	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
+63958			Demetria	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
+64001			Nevskia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01233
+64322			Carnimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01188
+64895			Borreliella	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01525
+64968			Marinospirillum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01194
+65402			Acidaminobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00722
+65496			Actinoalloteichus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00173
+65502			Cryptosporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00040.pub2
+65504			Virgisporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00154
+65551			Meiothermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00476
+65551			Meiothermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00476.pub2
+65551			Meiothermus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00476.pub2
+66831			Facklamia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00584
+66848			Desulfonatronum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01033
+66848			Desulfonatronum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01033.pub2
+66862			Ammoniphilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00548
+67572			Psychromonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01099
+68034			Sporotomaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00664
+68287			Mesorhizobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00839
+68288			Cyclobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00256
+68335			Coprothermobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00752
+68335			Coprothermobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00752.pub2
+68903			Terracoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00088
+69278			Aquamicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00836
+69278			Defluvibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00837
+69278			Aquamicrobium	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00836
+69578			Cryobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00095.pub2
+69655			Sulfurisphaera	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00401
+69894			Tindallia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00625
+69961			Azomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01206
+69961			Azomonas	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01206
+69965			Macrococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00567
+69965			Macrococcus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00567
+70411			Frateuria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01230
+70774			Hydrogenophilus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00968
+70774			Hydrogenophilus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00968.pub2
+70774			Hydrogenophilus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00968
+70774			Hydrogenophilus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00968.pub2
+70992			Flexithrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00278
+70994			Lewinella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00358
+71151			Methanocalculus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00512
+71151			Methanocalculus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00512.pub2
+71655			Brenneria	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01136.pub2
+72021			Methylarcula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00858
+72173			Citromicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00917
+72763			Tessaracoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00172
+73029			Dechloromonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00998
+73918			Thermaerobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00730
+74030			Roseovarius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00868
+74032			Antarctobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00852
+74317			Maricaulis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00857.pub2
+74968			Ferroplasma	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01373
+74968			Ferroplasma	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01373
+75309			Rhodanobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01235
+75654			Duganella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00962
+75683			Balneatrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01192
+75687			Neptunomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01195
+75905			Thermocrinis	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00232
+75984			Mannheimia	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01200.pub2
+75984			Mannheimia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01200.pub2
+76008			Fusibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00723
+76632			Thermobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00554
+76634			Mycetocola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00107
+76831			Myroides	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00328
+76833			Actinobaculum	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00011
+76833			Actinobaculum	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00011
+76886			Caldivirga	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00405
+76886			Caldivirga	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00405
+77583			Craurococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00882
+77674			Paracraurococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00885
+78119			Succinispira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00708
+78526			Allorhizobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00843
+78553			Alterococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01274
+79206			Desulfosporosinus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00660
+79328			Chitinophaga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00354
+79603			Denitrobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00218
+80865			Delftia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00946
+81411			Aminomonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01251
+81416			Methanofollis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00506
+81416			Methanofollis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00506.pub2
+81461			Thermanaerovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01252
+81463			Anaeroarcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00689
+81463			Anaeromusa	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00691
+81466			Aminobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01253
+81682			Methylovorus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00972.pub2
+81894			Prosthecomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00824
+82202			Centipeda	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00694
+82345			Ornithinicoccus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00082
+82345			Ornithinicoccus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00082
+82373			Anaerovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00693
+82800			Desemzia	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00594
+82802			Trichococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00599
+82976			Buttiauxella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01139
+82978			Budvicia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01138.pub2
+82980			Leminorella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01153
+82982			Obesumbacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01156
+82984			Pragia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01161
+82986			Tatumella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01170.pub2
+83612			Psychroflexus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00334
+83614			Luteimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01231
+83618			Pseudoxanthomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01234
+83654			Leclercia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01152
+83660			Desulfonispora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00659
+83677			Thermobifida	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00197
+83681			Nonomuraea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00202
+83766			Propionibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01001
+83766			Propionivibrio	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01002
+83770			Succinivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01087
+83867			Palaeococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01371
+84034			Propionispira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00701
+84034			Zymophilus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00711
+84036			Syntrophococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00655
+84108			Slackia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00221
+84111			Eggerthella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00219
+84162			Cryptobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00217
+84404			Hippea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01038
+84404			Hippea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01038.pub2
+84406			Virgibacillus	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00545
+84406			Virgibacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00545
+84565			Sodalis	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01169
+84567			Pedobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00360
+84756			Beutenbergia	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00056.pub2
+84756			Beutenbergia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00056.pub2
+85043			Williamsia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00036
+85265			Phaeospirillum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00894.pub2
+85265			Phaeospirillum	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00894.pub2
+85273			Rhodothalassium	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00875.pub2
+85273			Rhodothalassium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00875.pub2
+86331			Mogibacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00726
+86671			Roseospira	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00899.pub2
+86671			Roseospira	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00899.pub2
+86671			Roseospira	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00899.pub2
+86795			Marmoricola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00158
+88138			Modestobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00045.pub2
+88358			Thermodesulforhabdus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01069
+88358			Thermodesulforhabdus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01069.pub2
+88723			Natrinema	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00490.pub2
+88723			Natrinema	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00490.pub2
+88875			Ferribacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01000
+89092			Ignavigranum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00586
+89342			Desulfocella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01015
+89342			Desulfocella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01015.pub2
+89404			Glaciecola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01092
+89523			Rubrimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00869
+89583			Gluconacetobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00883
+89958			Natronincola	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00620
+89966			Hymenobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00267
+90243			Oligella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00930
+90372			Thiomargarita	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01226
+91914			Asaia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00881
+92793			Aquabacterium	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00953
+92944			Ketogulonicigenium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00856
+93368			Pseudaminobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00841
+93681			Kinneretia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01700
+93682			Roseivivax	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00866
+94008			Thermicanus	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00577
+97050			Ruegeria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00870
+97050			Ruegeria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00870.pub2
+98443			Richelia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01520
+99479			Tetrasphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00089
+99593			Thermohalobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00624
+99906			Alkalibacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00587
+100132			Sporobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00654
+100175			Papillibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00677
+100883			Coprobacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00762
+101191			Methanomethylovorans	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01602
+102106			Collinsella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00215
+104175			Oscillochloris	anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00383
+104175			Oscillochloris	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00383
+104204			Streptomonospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00196
+104264			Cellulophaga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00300.pub2
+104267			Tenacibaculum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00345.pub2
+105850			Acidilobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01322
+106146			Pelistega	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00931
+106146			Pelistega	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00931
+106589			Cupriavidus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00936
+106591			Ensifer	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00846
+109166			Desulfofrigus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01018
+109166			Desulfofrigus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01018.pub2
+109168			Desulfotalea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01027
+109168			Desulfotalea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01027.pub2
+109169			Desulfofaba	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01017
+109169			Desulfofaba	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01017.pub2
+109324			Pelospora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00681
+109326			Anaerovorax	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00725
+109471			Bisgaardia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01860
+110932			Leifsonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00102
+110932			Diaminobutyricibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01301
+110934			Agreia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00091
+111142			Alishewanella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01088
+111500			Muricauda	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00327.pub2
+111500			Muricauda	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00327.pub2
+112008			Schineria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01236
+112040			Zobellia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00353
+112902			Propionispora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00702
+113286			Pseudoramibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00631
+114248			Tepidimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00959
+114248			Tepidimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00959.pub2
+114627			Alkaliphilus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00613
+115543			Parasporobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00650
+115780			Desulfotignum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01022
+115780			Desulfotignum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01022.pub2
+117156			Actinopolymorpha	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00155
+117563			Granulicatella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00596
+118004			Chrysiogenes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00385
+118747			Bulleidia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00760
+118966			Anaerorhabdus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00237
+119044			Filomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00818
+119977			Acidithiobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01079
+119977			Acidithiobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01079.pub2
+119979			Thermithiobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01080
+119979			Thermithiobacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01080.pub2
+120212			Subtercola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00115.pub2
+120376			Salana	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00058.pub2
+120652			Methylocella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00797.pub2
+120831			Dyadobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00262
+120961			Roseiflexus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01762
+120961			Roseiflexus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01762
+121820			Rhodobaca	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00861
+121820			Roseinatronobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01968
+121871			Haloterrigena	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00488
+122277			Pectobacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01158.pub2
+123375			Solobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00765
+125216			Roseomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00888
+125287			Ornithinimicrobium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
+125287			Ornithinimicrobium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
+129001			Syntrophothermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00684
+129337			Geobacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00533
+129337			Geobacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00533
+129577			Oceanimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01082
+129957			Carboxydothermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00746
+130795			Crossiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00177
+133925			Olsenella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00220
+134813			Natronorubrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00494.pub2
+135575			Idiomarina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01093
+135858			Catenibacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00761
+136099			Knoellia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00079
+136099			Knoellia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00079
+136491			Atopobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00590
+140458			Thermacetogenium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00749
+140625			Lachnobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00646
+141948			Thermomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01238
+142577			Prauserella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00183
+142587			Isobaculum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00597
+142841			Selenihalanaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00742
+143222			Salegentibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00338.pub2
+145260			Methanothermobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00498
+146805			Phocoenobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01202.pub2
+146813			Dendrosporobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00695
+146825			Halorhabdus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01349
+146825			Halorhabdus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01349
+146918			Salinibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00283
+146935			Azovibrio	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00997
+146936			Azonexus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00995
+146936			Azonexus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00995
+146937			Azospira	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00996
+146937			Dechlorosoma	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00999
+146937			Azospira	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00996
+147067			Thermobispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00213
+149698			Massilia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00965
+149711			Desulfovirga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01067
+149711			Desulfovirga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01067.pub2
+150022			Finegoldia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00713
+150059			Halonatronum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00739
+150203			Blastomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00918
+150203			Erythromonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00921
+150247			Anoxybacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00529
+150247			Anoxybacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00529
+150830			Roseibium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00864
+151037			Anaerosinus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00692
+152053			Starkeya	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00828
+152161			Stappia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00873
+152180			Ahrensia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00850
+153027			Desulforegula	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01590
+153265			Aequorivita	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00293.pub2
+153265			Vitellibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00347
+154116			Georgenia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00061.pub2
+154116			Georgenia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00061.pub2
+155862			Methanothermococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00503
+155862			Methanothermococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00503.pub2
+156972			Thioalkalicoccus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01115
+156973			Dysgonomonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00243
+156993			Reichenbachiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00280
+157226			Marinibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00560
+157226			Jeotgalibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00558
+157920			Cellulosimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00127
+157920			Cellulosimicrobium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00127
+157932			Paucimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00939
+158481			Hahella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01187
+158483			Cedecea	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01142
+158848			Moellerella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01154
+158851			Trabulsiella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01171
+158876			Yokenella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01175
+159730			Thermovenabulum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00757
+160700			Albibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00831
+160795			Ureibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00564
+160798			Marinitoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01866
+160800			Methylosarcina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01184.pub2
+162289			Peptoniphilus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00717
+162290			Gallicola	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00714
+162291			Planomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00562
+162491			Oerskovia	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00064
+162491			Oerskovia	facultatively anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00064
+164450			Vulcanisaeta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01326
+165301			Lechevalieria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00181
+165301			Lentzea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00182
+165696			Novosphingobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01408
+165697			Sphingopyxis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01409
+165779			Anaerococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00712
+165812			Sporanaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00720
+166484			Caminicella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00618
+167639			Ilyobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00769
+168694			Salinispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00151
+168808			Sneathia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00773
+168808			Sneathia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00773.pub2
+169133			Citricoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00119
+169215			Bosea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00801
+171003			Caloranaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00617
+171163			Halosimplex	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01354
+171412			Eremococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00583
+171413			Dolosicoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00582
+172900			Victivallis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00777
+173479			Gemmatimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00775
+174708			Allobaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00759
+177399			Anaerophaga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00240
+177971			Shuttleworthia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00653
+178440			Opitutus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01275
+178469			Arenibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00296.pub2
+178898			Carboxydocella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00728
+180162			Cetobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00767
+180541			Salinisphaera	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01423
+180541			Salinisphaera	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01423
+182402			Rubritepida	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01457
+182623			Smithella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01063
+182623			Smithella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01063.pub2
+182709			Oceanobacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00539
+182709			Oceanobacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00539
+183669			Macromonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00949
+183669			Macromonas	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00949
+184869			Varibaculum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00015
+184923			Methylocapsa	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01402
+186188			Xylanibacterium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00131
+186188			Xylanimonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00133
+186188			Xylanibacterium	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00131
+186188			Xylanimicrobium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00132
+186188			Xylanimonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00133
+186191			Marinithermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01564
+186831			Acetoanaerobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00732
+187144			Caldithrix	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01898
+188143			Enterovibrio	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01951
+189326			Gelria	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00747
+189330			Dorea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00643
+190323			Plantibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00110
+190818			Geoglobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01329
+190972			Sedimentibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00718
+191303			Turicibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00766
+191373			Pelotomaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00662
+191494			Conexibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00225
+191769			Marinilactibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00598
+192987			Allofustis	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00588
+192992			Thermoleophilum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00228
+193383			Rhodoglobus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00113
+194195			Alysiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00973
+195950			Tannerella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00248
+195964			Asanoa	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00140
+196013			Schlegelella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01829
+196081			Scardovia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00023
+196082			Parascardovia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00022
+196084			Okibacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00108
+196118			Methanocaldococcus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00500.pub2
+196119			Methanotorris	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00501
+196119			Methanotorris	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00501.pub2
+196136			Methanosalsum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00518.pub2
+198705			Lampropedia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00948
+200414			Caldisphaera	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01323
+200473			Brumimicrobium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00287
+200677			Meniscus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00270
+200683			Toxothrix	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00285
+200903			Paraliobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00540
+201096			Alicycliphilus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01825
+202949			Thermanaeromonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00750
+203133			Propionimicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00171
+203135			Halosiccatus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01494
+203193			Halobiforma	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01336
+203470			Tepidiphilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01831
+203470			Tepidiphilus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01831
+203522			Longispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00146
+203697			Derxia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00929
+203697			Derxia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00929
+204037			Dickeya	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02014
+204286			Cobetia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01713
+204447			Skermanella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00901
+204474			Dichotomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00817
+204477			Seliberia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00827
+205889			Albidovulum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01456
+206375			Prolinoborus	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00982
+206664			Desulfonauticus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01577
+207244			Anaerostipes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00638
+207599			Solirubrobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00227
+210622			Anoxynatronum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00615
+211469			Kineosphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00074
+212741			Mesophilobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01209
+212742			Morococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00987
+212743			Rhizobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01211
+212743			Rhizobacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01211.pub2
+212743			Rhizobacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01211.pub2
+212744			Rugamonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01212
+212791			Enhydrobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01214
+213028			Saccharobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01165
+214904			Tepidibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00669
+216400			Moorella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00748
+216431			Croceibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00305
+216851			Faecalibacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00674.pub2
+217140			Arcicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00260
+218204			Garciella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00630
+218207			Desulfatibacillum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01583
+221065			Kordia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00319
+224474			Desulfothermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01031
+224474			Desulfothermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01031.pub2
+225447			Yaniella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00125
+225842			Formosa	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00313
+225842			Formosa	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00313
+227388			Thermodesulfobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00753
+227864			Cerasibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00531
+227979			Jeotgalicoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00566
+228923			Guggenheimella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00724
+230188			Sulfurococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00402
+230355			Methanolacinia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00508.pub2
+232115			Mesonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00326
+232244			Belliella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00255
+233189			Anaerolinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01478
+233191			Caldilinea	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01761
+235888			Salinibacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00114
+236052			Propionicimonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00169
+236752			Fastidiosipila	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00675
+236752			Fastidiosipila	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00675
+237444			Ulvibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00346
+238749			Diaphorobacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01826
+238749			Diaphorobacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01826
+239759			Alistipes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00251
+239934			Akkermansia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01282
+240233			Aeriscardovia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00017.pub2
+240233			Aeriscardovia	anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00017.pub2
+240236			Woodsholea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01804
+241189			Hespellia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00644
+241192			Thermodesulfatator	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01765
+244127			Anaerotruncus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00673
+244364			Methylohalobius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01418
+244698			Gillisia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00316
+245186			Loktanella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01670
+246861			Grimontia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01952
+246873			Crocinitomix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00288
+246875			Algoriphagus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00253
+246876			Cryomorpha	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00289
+248744			Bryantella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00639
+248744			Marvinbryantia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01644
+249529			Caldanaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00745
+252306			Robiginitalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00337
+252356			Maribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00324
+252965			Mahella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00758
+253106			Natronolimnobius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01360
+253183			Myceligenerans	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00129
+253183			Myceligenerans	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00129
+253255			Soehngenia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00719
+254245			Aquicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01465
+254250			Isoptericola	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00128
+255204			Pseudoclavibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00111
+256730			Volucribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01859
+256818			Gulosibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00099
+256846			Lentisphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00776
+258514			Acetanaerobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00670
+261684			Thermosinus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00709
+261827			Algibacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00294.pub2
+263377			Salipiger	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01671
+263377			Salipiger	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01671
+263510			Crocosphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01517
+264147			Millisia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00031
+264995			Anaerofustis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00628
+265487			Blastopirellula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00782
+265488			Rhodopirellula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00787
+265975			Oribacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00649
+265976			Serinicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00086
+267408			Arsenicicoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00075
+267986			Owenweeksia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00292
+269773			Atopococcus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00591
+274470			Alkalibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00627
+278993			Thermincola	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00666
+280472			Aquiflexum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00254
+281472			Jiangella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00052
+283735			Leeuwenhoekiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00322
+283785			Bizionia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00298.pub2
+283810			Stackebrandtia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00050
+285105			Tepidimicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01399
+286104			Winogradskyella	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00350.pub2
+286104			Winogradskyella	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00350.pub2
+286729			Alkaliflexus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00239
+286800			Tenuibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00543
+286801			Segniliparus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00037
+288018			Yeosuana	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00351
+288021			Kordiimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01916
+289201			Pontibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00541
+290174			Aquimarina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00295
+290180			Fabibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00276
+290180			Roseivirga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00281
+290184			Cryptanaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00656
+291178			Subsaximicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00344
+291181			Subsaxibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00343
+291183			Lacinutrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00321
+291967			Acaricomes	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00117
+291988			Thermosediminibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00756
+292480			Atopostipes	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00592
+292632			Subdoligranulum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00680
+292635			Laceyella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00570
+292636			Thermoflavimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00576
+292637			Seinonella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00573
+292691			Gramella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00317
+294702			Proteiniphilum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00247
+295577			Chthoniobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01281
+296051			Terrimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00355
+299566			Adhaeribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00259
+303226			Lactovum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00611
+303379			Herminiimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01463
+305899			Endozoicomonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01941
+305899			Endozoicomonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01941
+305976			Pusillimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01824
+306539			Halolactibacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
+306539			Halolactibacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
+307628			Petrimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00245
+308865			Elizabethkingia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00308.pub2
+311207			Gaetbulibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00314
+311207			Gaetbulibacter	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00314
+315422			Hwanghaeicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01689
+315422			Palleronia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02131
+315422			Palleronia	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02131
+317574			Methylothermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01420
+319458			Leadbetterella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00269
+321315			Sphaerisporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00206
+323449			Effluviibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00263
+323449			Pontibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00272
+326319			Dokdonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00306
+326319			Krokinobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00320
+329857			Cohnella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00551
+331525			Kribbia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00080
+331654			Alkalibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00527
+332100			Planifilum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00572
+332102			Fluviicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00290
+332157			Larkinella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00268
+332246			Halalkalicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01331
+332248			Truepera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01328
+332951			Halovivax	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01357
+334857			Goodfellowiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00178
+336276			Olleya	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00330
+336827			Rhodonellum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00258
+337004			Microcella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00105
+337004			Yonghaparkia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00116
+338191			Nitrosopumilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01290
+338321			Turneriella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01245
+338321			Turneriella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01245.pub2
+338583			Polymorphospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00150
+339721			Desulfovermiculus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01578
+342658			Gracilibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00632
+343334			Costertonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00304
+343873			Wautersiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00348
+344063			Oryzihumus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00084
+346096			Paludibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00244
+348581			Propionicicella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00168
+349312			Krasilnikovia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00145
+349314			Luedemannella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00147
+353799			Halostagnicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01355
+354349			Pseudochrobactrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01407
+358023			Lutibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00323
+359169			Thermopolyspora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00208
+360239			Tepidicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01464
+360541			Sporacetigenium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01446
+361050			Rubritalea	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01283
+361050			Rubritalea	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01283
+361106			Desulfoglaeba	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01581
+361607			Patulibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00226
+363276			Ktedonobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01558
+363276			Ktedonobacter	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01558
+363408			Donghaeana	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00307
+363408			Nonlabens	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00329
+363408			Persicivirga	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00332
+363408			Sandarakinotalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00339
+363408			Stenothermobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00342
+365032			Aureispira	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00356
+367298			Phycicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00085
+369400			Flaviramulus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00311
+369926			Brooklawnia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00161
+370735			Zhihengliuella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00126
+376170			Haloplanus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01347
+376170			Haloplanus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01347
+376488			Halotalea	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01714
+377149			Desulfosalsimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01591
+387342			Halopiger	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01346
+388463			Edaphobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00002
+388745			Puniceicoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01279
+389486			Sediminicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00340
+390250			Labedella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00101
+390846			Echinicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00257
+390988			Actinocatenispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00138
+392332			Geoalkalibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02083
+392710			Methylosoma	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01415
+392733			Terriglobus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00003.pub2
+393029			Desulfurispirillum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01698
+394505			Salirhabdus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01444
+395331			Methanoregula	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01368
+396320			Desulfatiferula	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01584
+396388			Aestuariimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00160
+397268			Thiohalomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01695
+397268			Thiohalomonas	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01695
+397456			Gulbenkiania	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01832
+397456			Gulbenkiania	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01832
+397864			Barnesiella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00242
+398772			Methylohalomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01961
+399320			Sphaerochaeta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02038
+400060			Paludibacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01833
+400634			Lysinibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01570
+402170			Lapillicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00081
+402649			Actinomycetospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01751
+404432			Salinicola	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01719
+404432			Salinicola	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01719
+405552			Haloactinospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00194
+413963			Rapidithrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01911
+414045			Natronocella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01962
+414715			Actinospica	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00024.pub2
+414878			Catenulispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00025
+415014			Proteiniborus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01395
+418453			Desulfovirgula	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01596
+419014			Alloscardovia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00018.pub2
+419014			Alloscardovia	anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00018.pub2
+419014			Metascardovia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00021
+419014			Alloscardovia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00018.pub2
+420644			Piscibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01790
+423604			Elusimicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01490
+427077			Salsuginibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01794
+427753			Humibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00100.pub2
+427922			Desulfurivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01697
+427925			Dethiobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01696
+429014			Desulfopila	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01592
+435913			Fodinicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00041
+435913			Fodinicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00041.pub2
+437755			Moryella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00648
+442430			Coraliomargarita	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01277
+442432			Perexilibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01910
+442869			Acanthopleuribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00004
+444090			Caldimicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01764
+444599			Hansschlegelia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02082
+445670			Thiohalophilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01693
+445670			Thiohalophilus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01693
+447020			Adlercreutzia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01946
+447237			Frondihabitans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00098.pub2
+448176			Granulicoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00163
+449972			Chelativorans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01709
+451512			Mangrovibacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01701
+453229			Desulfarculus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01010
+453229			Desulfarculus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01010.pub2
+453849			Henriciella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01801
+453849			Henriciella	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01801
+455252			Methylonatrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01960
+455433			Pelagicoccus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01278
+455433			Pelagicoccus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01278
+457933			Elioraea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01458
+458032			Chloracidobacterium	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01534
+466152			Singulisphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00789.pub2
+466152			Singulisphaera	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00789.pub2
+467975			Iamia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00010
+468938			Cerasicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01276
+469655			Thioalkalibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01692
+471798			Shimazuella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00574
+471824			Haloplasma	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01422
+472058			Schumannella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01440
+472568			Devriesea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01539
+472568			Devriesea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01539
+472568			Devriesea	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01539
+472977			Natronobacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01966
+475230			Pullulanibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01445
+475960			Bellilinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01479
+475961			Longilinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01482
+475965			Levilinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01481
+475966			Leptolinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01480
+476278			Thiohalospira	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01694
+476528			Bibersteinia	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01842
+476528			Bibersteinia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01842
+482135			Thermogymnomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01374
+482136			Fangia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01810
+482144			Mechercharimyces	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00571
+482460			Sediminibacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01795
+482460			Sediminibacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01795
+484508			Ornithinibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01684
+485576			Aquisalibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01799
+488937			Desulfonatronospira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01576
+492233			Thiohalorhabdus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01940
+492233			Thiohalorhabdus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01940
+497721			Desulfoluna	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01588
+497726			Nitrososphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01294
+497742			Desulfatirhabdium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01585
+498374			Nitrosocaldus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01287
+499228			Tepidanaerobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01504
+499551			Methanolinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01367
+501022			Glaciibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01304
+501783			Cloacibacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00302
+504090			Kushneria	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01715
+504090			Kushneria	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01715
+507753			Acidiplasma	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01372
+510701			Desulfurispora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01782
+511678			Aliivibrio	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01950
+512381			Acidisoma	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02033
+518733			Microterricola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00106
+518746			Limibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01909
+529883			Rhodoluna	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01312
+543311			Parvimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00716
+558418			Acetofilamentum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00234
+558421			Acetothermus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00236
+558436			Xylanibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00250
+559293			Lishizhenia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00291
+561555			Zhouia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00352
+568214			Marihabitans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01948
+568394			Pseudogulbenkiania	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01834
+570266			Methanocella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01366
+573139			Shimia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02098
+574347			Modicisalibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01717
+580374			Klugiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01433
+583360			Umezawaea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00190
+588605			Robinsoniella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01449
+596495			Sciscionella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01757
+596499			Nitriliruptor	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00223
+596767			Hydrogenoanaerobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01735
+600332			Zavarzinella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01970
+626119			Haloactinobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00135.pub2
+626119			Ruania	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00136
+626119			Haloactinobacterium	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00135.pub2
+630723			Halarsenatibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01726
+644353			Halanaerobaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01725
+644652			Gordonibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01989
+647960			Marinactinospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01755
+651456			Kosmotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01863
+651553			Haloglycomyces	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01756
+656899			Schlesneria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00788.pub2
+658623			Chelonobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01844
+665568			Paraoerskovia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02018
+665874			Limnohabitans	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01537
+665874			Limnohabitans	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01537
+666508			Phycisphaera	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01507
+667112			Lutispora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01393
+670486			Dehalogenimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01556
+673534			Plantactinospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01318
+685950			Fervidicoccus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01325
+689697			Salisaeta	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01720
+689760			Planosporangium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01956
+690086			Salinarimonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01702
+690565			Serinibacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00059.pub2
+690565			Serinibacter	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00059.pub2
+693074			Caldisericum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01477
+695982			Halogranum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01337
+697025			Hoyosella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02019
+698776			Cellulosilyticum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01382
+700595			Desulfocurvus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01572
+704093			Anaerobacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01785
+704093			Anaerobacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01785
+715222			Caldicoprobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01380
+744724			Halarchaeum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01333
+745153			Umboniibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01706
+747074			Tepidamorphus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01455
+754249			Luteimicrobium	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02040
+754249			Luteimicrobium	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02040
+758601			Deinobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01327
+762296			Methylovulum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01416
+768650			Thermosporothrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01561
+768669			Thermogemmatispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01562
+795750			Ignavibacterium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01505
+863253			Marinicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01707
+869896			Halonotius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01343
+875170			Celeribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01708
+875170			Celeribacter	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01708
+881616			Herbiconiux	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01307
+904708			Arenicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01705
+907364			Phytohabitans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01316
+908623			Euzebya	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00222
+908626			Angustibacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01753
+908626			Angustibacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01753
+908935			Yimella	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01760
+908935			Yimella	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01760
+911113			Bryobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01667
+926359			Natronoarchaeum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01358
+929812			Gibbsiella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02015
+935200			Sulfuricella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01704
+940557			Granulicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01424
+946234			Flavonifractor	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01733
+947525			Miniimonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00057.pub2
+984996			Mobilicoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02031
+985001			Piscicoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02041
+999488			Paenochrobactrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01406
+999506			Pseudofulvimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01710
+1000999			Acidipila	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01666
+1004300			Hydrotalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01442
+1005038			Fimbriimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01569
+1006482			Desulfitispora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01965
+1007342			Desulfurispira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01699
+1008195			Halopelagius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01344
+1017280			Pseudoflavonifractor	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01739
+1029631			Amnibacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01296
+1036132			Kistimonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01541
+1036132			Kistimonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01541
+1042323			Pacificibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01815
+1051666			Nanosalina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01993
+1051667			Nanosalinicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01994
+1069494			Trueperella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01515
+1069494			Trueperella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01515
+1070314			Halorussus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01351
+1073986			Halobellus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01335
+1073987			Halorientalis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01352
+1074468			Candidimonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01821
+1074468			Candidimonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01821
+1075397			Halolamina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01339
+1075398			Salarchaeum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01361
+1077265			Chthonomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01476
+1078829			Telmatobacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01426
+1078830			Acidicapsa	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01471
+1078860			Bryocella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01472
+1078904			Nitrosotalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01292
+1080709			Methanomassiliicoccus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01365
+1082702			Lonsdalea	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02016
+1100891			Paenalcaligenes	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01711
+1121253			Catelliglobosispora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01957
+1121254			Hamadaea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01958
+1123967			Porticoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01688
+1132766			Alpinimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01295
+1132766			Alpinimonas	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01295
+1134403			Melioribacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01506
+1137960			Allokutzneria	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01953
+1143004			Methyloferula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01403
+1145345			Bauldia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01510
+1148150			Desulfosoma	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01582
+1148783			Geminisphaera	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01542
+1148783			Geminisphaera	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01542
+1154586			Gaiella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01469
+1156568			Methylovirgula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01405
+1159909			Bombiscardovia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02119
+1159909			Bombiscardovia	anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02119
+1164882			Lachnoanaerobaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02007
+1167830			Litorimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01896
+1172428			Thermotomaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01669
+1176327			Aureitalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01907
+1185408			Defluviitalea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01386
+1187078			Cecembia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01443
+1195526			Gryllotalpicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01306
+1198243			Rugosimonospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01320
+1200657			Saccharofermentans	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01450
+1217101			Haloactinopolyspora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00051
+1221209			Methylomarinum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01411
+1233054			Oceanicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01899
+1241326			Rhizomicrobium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01536
+1242734			Fuchsiella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01451
+1246884			Algimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01897
+1249016			Otariodibacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01854
+1255275			Oceanotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01865
+1259734			Compostimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01299
+1263959			Caloribacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01453
+1269031			Haloarchaeobius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01334
+1269048			Halorubellus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01350
+1269201			Salinarchaeum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01362
+1273155			Thiohalobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01939
+1277353			Methylorosula	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01404
+1278221			Auraticoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01754
+1281902			Blastocatella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01428
+1295327			Croceicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01915
+1295378			Methylogaea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01410
+1303912			Desulfatitalea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01586
+1321364			Tistlia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01691
+1326739			Calderihabitans	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01651
+1329200			Fictibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01620
+1330545			Lelliottia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02044
+1330546			Pluralibacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02045
+1330547			Kosakonia	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02043
+1333716			Schleiferia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01901
+1335745			Spiribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01729
+1347386			Anaerosalibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01397
+1348508			Roseimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01550
+1348611			Vallitalea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01637
+1377992			Halovenus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01356
+1382931			Ardenticatena	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01554
+1382931			Ardenticatena	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01554
+1392389			Intestinimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01736
+1395977			Aidingimonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01712
+1400134			Streptohalobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01796
+1400135			Sporosalibacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01447
+1403714			Parapusillimonas	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01823
+1407607			Fusicatenibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01639
+1408194			Endomicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01492
+1410680			Methyloglobulus	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01412
+1417297			Desulfonatronobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01589
+1425377			Haloechinothrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01759
+1427172			Aminivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01660
+1427378			Acetatifactor	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01448
+1433300			Alteribacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01784
+1433402			Glycocaulis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01803
+1433996			Desulfobaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01571
+1433996			Paradesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01890
+1433997			Diaminobutyricimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01302
+1434004			Fonticella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01633
+1434009			Homoserinimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01432
+1434010			Jatrophihabitans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01959
+1434018			Lysinimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01309
+1434023			Natranaerovirga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01964
+1434024			Natronoflexus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01963
+1434026			Oceanirhabdus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01632
+1434030			Phytomonospora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01317
+1434032			Pontimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01311
+1434039			Rudaibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01313
+1434040			Salimesophilobacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01378
+1434043			Saliterribacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01793
+1434048			Thermoanaerobaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01687
+1450140			Halohasta	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01338
+1470540			Jeotgalibaca	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01621
+1470577			Sinirhodobacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02066
+1470577			Sinirhodobacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02066
+1473205			Senegalimassilia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01990
+1484107			Galbitalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01303
+1486720			Methylomarinovum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01419
+1486725			Anaerobacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01653
+1486726			Pseudobacteroides	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01654
+1491776			Proteinivorax	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02112
+1494427			Tepidibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01797
+1494427			Tepidibacillus	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01797
+1494561			Agaribacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01987
+1494958			Pseudogracilibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01606
+1495649			Thermoflexus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01488
+1495649			Thermoflexus	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01488
+1500514			Thermolongibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01604
+1501224			Hydrogenispora	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01680
+1502725			Effusibacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01603
+1502725			Effusibacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01603
+1505231			Chitinivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01979
+1508657			Ruminiclostridium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01924
+1511635			Aquisphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01920
+1511648			Defluviitoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01864
+1520333			Vespertiliibacter	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01858
+1522431			Thermosulfurimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01566
+1535192			Desulfocarbo	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01579
+1538466			Rhizocola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01319
+1542963			Halapricum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01332
+1543703			Desulfuribacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01967
+1549126			Desulfatiglans	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01679
+1549129			Temperatibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01917
+1562564			Aridibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01427
+1562565			Pyrinomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01533
+1565313			Methyloprofundus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01414
+1579506			Roseimaritima	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02026
+1593364			Nitrosopelagicus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01969
+1612157			Pararhodospirillum	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02003
+1612157			Pararhodospirillum	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02003
+1616789			Salinispira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01983
+1634037			Desulfoplanes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01575
+1637257			Mageeibacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01737
+1640153			Caldisalinibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01982
+1643951			Pseudothermotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01861
+1644057			Salinigranum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01363
+1644062			Salinirubrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01364
+1647190			Aquibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01616
+1648500			Brockia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01681
+1648503			Canibacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01297
+1648520			Conyzicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01300
+1649264			Desulfoconvexum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01587
+1649279			Epibacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01672
+1649284			Ercella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01655
+1649292			Falsochrobactrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01538
+1649452			Geothermomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01625
+1649454			Glaciihabitans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01305
+1649456			Heliimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01903
+1649457			Homoserinibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01308
+1649459			Hungatella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01640
+1649468			Melaminivora	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01827
+1649469			Methyloparacoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01413
+1649471			Mobilitalea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01650
+1649475			Paludibaculum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01668
+1649478			Pelolinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01484
+1649492			Salinithrix	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01626
+1649496			Sinibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01605
+1649503			Terrimicrobium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01514
+1649504			Texcoconibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01619
+1649506			Thermoflavifilum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01805
+1649507			Thermomarinilinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01552
+1654934			Desulfoprunum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01593
+1656823			Halanaeroarchaeum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01496
+1663717			Herbinix	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01741
+1676125			Thermogutta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01972
+1676125			Thermogutta	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01972
+1679449			Pseudooceanicola	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02065
+1679449			Pseudooceanicola	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02065
+1697027			Convivina	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02127
+1699375			Natribaculum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01359
+1699375			Halovarius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01498
+1730861			Neoscardovia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02121
+1738642			Pelagirhabdus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01610
+1738645			Caproiciproducens	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01731
+1739105			Halopeptonella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01981
+1742983			Terracidiphilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01474
+1742990			Paeniglutamicibacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01437
+1742990			Paeniglutamicibacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01437
+1748764			Tellurimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01430
+1748767			Stenotrophobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01429
+1755820			Thermostilla	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01973
+1755820			Thermostilla	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01973
+1755832			Haloimpatiens	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01634
+1759371			Inmirania	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02052
+1760987			Methylomagnum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01975
+1763521			Paludisphaera	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01919
+1763521			Paludisphaera	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01919
+1763552			Baia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01629
+1765964			Acidihalobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02071
+1769713			Flexilinea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01551
+1769718			Athalassotoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01868
+1769738			Compostibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01607
+1771356			Tepidisphaera	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01509
+1775121			Larsenimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01716
+1775468			Silvibacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01473
+1775574			Dethiosulfatarculus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01580
+1775697			Melghiribacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01617
+1779002			Halocalculus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01495
+1779141			Planctomicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02036
+1792239			Caviibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01523
+1794910			Anaerosporomusa	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01659
+1795633			Terrilactibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01611
+1804994			Longimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01567
+1804994			Longimicrobium	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01567
+1817571			Fermentibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01612
+1820337			Haloparvum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01497
+1829937			Longimonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01723
+1829937			Longimonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01723
+1843185			Halostella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01499
+1843206			Anaerotaenia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01645
+1843210			Anaerocolumna	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01646
+1847386			Vicinamibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01685
+1848399			Crassaminicella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01636
+1849551			Cephaloticoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01513
+1849822			Paraclostridium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01635
+1849828			Paeniclostridium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01631
+1855405			Longibacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01722
+1855416			Qipengyuania	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02062
+1855416			Qipengyuania	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02062
+1855714			Anaerobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01642
+1860139			Chitinispirillum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01978
+1869285			Allofrancisella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01806
+1884449			Salipaludibacillus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01618
+1884449			Salipaludibacillus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01618
+1890059			Serpentinicella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01817
+1890224			Polygonibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01613
+1890291			Falcatimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01647
+1890407			Nanopusillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02047
+1897649			Pistricoccus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01718
+1905344			Ruthenibacterium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01656
+1905726			Paludifilum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01628
+1910924			Hydromonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01830
+1911565			Marispirochaeta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01938
+1911573			Haloprofundus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01527
+1912771			Halodesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01573
+1914234			Fimbriiglobus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01971
+1914252			Thermodesulfitimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01661
+1918385			Acutalibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01730
+1918450			Cuneatibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01747
+1918452			Extibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01749
+1918454			Flintibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01734
+1918536			Longicatena	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01768
+1918540			Muribaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01750
+1918542			Muricomes	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01746
+1918598			Turicimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01748
+1920247			Ampullimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01905
+1921569			Micropepsis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01535
+1921784			Kiritimatiella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02077
+1929135			Halofilum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01936
+1929901			Bogoriella	aerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00060.pub2
+1929901			Bogoriella	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00060.pub2
+1930791			Aureibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01608
+1930795			Croceifilum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01627
+1930856			Cavicella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01904
+1930932			Thioflexithrix	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02034
+1930932			Thioflexithrix	microaerophilic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02034
+1938335			Sulfuritortus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01835
+1940255			Fournierella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01664
+1940395			Caenibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01623
+1943561			Marinicrinis	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01622
+1943561			Marinicrinis	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01622
+1970191			Salinivirga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02009
+1974209			Rhodohalobacter	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01923
+1974209			Rhodohalobacter	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01923
+1980514			Halodesulfurarchaeum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01528
+1986268			Caenimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01820
+2004661			Hyphobacterium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01927
+2004797			Luteitalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01686
+2005375			Alkalicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01614
+2005380			Mariniblastus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02027
+2008781			Annwoodia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01601
+2014233			Thaumasiovibrio	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01949
+2017546			Paracandidimonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01822
+2017546			Paracandidimonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01822
+2018671			Imhoffiella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01932
+2022711			Methanonatronarchaeum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01682
+2022712			Methanohalarchaeum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01683
+2023242			Galliscardovia	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02120
+2023242			Galliscardovia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02120
+2023242			Galliscardovia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02120
+2024965			Dictyobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01559
+2024969			Natronospira	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01977
+2024982			Notoacmeibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01926
+2026179			Desulfocucumis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01595
+2033601			Thermosulfuriphilus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01565
+2033608			Halobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01526
+2036001			Salinirussus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01529
+2036021			Agarilytica	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01931
+2038635			Marinicaulis	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01925
+2038635			Marinicaulis	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01925
+2039236			Saliphagus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01530
+2039302			Monoglobus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01738
+2039709			Desertibacillus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01788
+2040476			Rhabdanaerobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01743
+2045060			Methyloterricola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01974
+2047735			Mangrovitalea	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01930
+2047740			Rhodosalinus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01929
+2047745			Oceaniglobus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01928
+2048137			Agathobaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01657
+2048907			Arenimicrobium	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01532
+2048911			Brevitalea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01531
+2054427			Aestuariicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01813
+2055850			Aquicoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01812
+2056689			Fastidiosibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01807
+2066475			Parendozoicomonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01540
+2066475			Parendozoicomonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01540
+2070447			Conservatibacter	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01845
+2071614			Raineya	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01902
+2100741			Oleiharenicola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02023
+2100764			Mixta	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02012
+2126002			Rubneribacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01986
+2126006			Enteroscipio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01985
+2137577			Ellagibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01988
+2162630			Salinirubellus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01837
+2172100			Limnobaculum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01933
+2172823			Sansalvadorimonas	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01521
+2172823			Sansalvadorimonas	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01521
+2201383			Mangrovicoccus	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01935
+2201383			Mangrovicoccus	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01935
+2211635			Cognatishimia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01677
+2211636			Cognatiyoonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01675
+2211637			Flavimaricola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01674
+2211638			Limimaricola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01673
+2211639			Pseudaestuariivita	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01678
+2211641			Yoonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01676
+2282523			Methylorubrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02024
+2282740			Desulfallas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01771
+2282741			Desulfofundulus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01780
+2282742			Desulfofarcimen	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01774
+2282743			Desulfohalotomaculum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01776
+2303493			Zestosphaera	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02042
+2303498			Nanoclepta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02046
+2483368			Sedimentisphaera	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01836
+2489367			Cyclonatronum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02088
+2490204			Mancarchaeum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02118
+2490204			Mancarchaeum	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02118
+2493629			Minwuia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01918
+2501796			Natrarchaeobius	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01945
+2547964			Parashewanella	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02069
+2547964			Parashewanella	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02069
+2571160			Trinickia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02068
+2582836			Desulfohalovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01882
+2582840			Desulfocurvibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01881
+2607661			Methanofervidicoccus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02050
+2608728			Acidisarcina	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02081
+2608728			Acidisarcina	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
+2614447			Halomicrococcus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02056
+2663399			Halegenticoccus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01942
+2678343			Halalkaliarchaeum	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01943
+2680020			Tautonia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01921
+2691417			Lacipirellula	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02035
+2691417			Lacipirellula	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02035
+2691417			Lacipirellula	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02035
+2692382			Gudongella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02149
+2713642			Methylicorpusculum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02022
+2732368			Salinibaculum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02010
+2742598			Limosilactobacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02116
+2742598			Limosilactobacillus	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02116
+2747271			Calidithermus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02076
+2759736			Lacticaseibacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02113
+2760873			Tenuifilum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02155
+2765402			Natrarchaeobaculum	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02086
+2765402			Natrarchaeobaculum	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02086
+2765403			Natronolimnohabitans	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02055
+2767877			Apilactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02125
+2767878			Bombilactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02126
+2767880			Dellaglioa	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02141
+2767886			Levilactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02115
+2767887			Ligilactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02124
+2767888			Liquorilactobacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02130
+2767889			Loigolactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02152
+2767890			Paucilactobacillus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02142
+2767892			Secundilactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02140
+2767893			Lentilactobacillus	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02114
+2773294			Desulfolutivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02029
+2778400			Tepiditoga	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02061
+2782229			Epilithonimonas	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00310
+2782231			Kaistella	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00318
+2782231			Sejongia	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00341
+2782231			Sejongia	anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00341
+2782231			Sejongia	microaerophilic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00341
+2792075			Pontixanthobacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02135
+2792240			Thiospirochaeta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02051
+2794998			Maridesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01877
+2795013			Fermentimicrarchaeum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02117
+2798309			Salinadaptatus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02059
+2800681			Aurantiacibacter	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02133
+2800686			Tsuneonella	aerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02063
+2800686			Tsuneonella	facultatively anaerobic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02063
+2802295			Nitratidesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01888
+2806252			Haloglomus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02008
+2806916			Halalkalirubrum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02058
+2807414			Anatilimnocola	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02080
+2807497			Natranaerofaba	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02057
+2815315			Pelomicrobium	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02037
+2841540			Halosegnis	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02053
+2843200			Miltoncostaea	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02075
+2847777			Atribacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02144
+2856573			Infirmifilum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02137
+2866216			Perlabentimonas	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02156
+2867376			Desulfoscipio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01772
+2867377			Desulfotruncus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01773
+2904316			Desulfocicer	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01869
+2904687			Desulforapulum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01870
+2904716			Desulfosudis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01872
+2905136			Fundidesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01886
+2905949			Thermodesulfomicrobium	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01876
+2907187			Tichowtungia	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02078
+2907493			Halocatena	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02054
+2907507			Halococcoides	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01944
+2909705			Oleidesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01884
+2910978			Megalodesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01887
+2910983			Humidesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01878
+2910984			Solidesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01885
+2910985			Paucidesulfovibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01880
+2916674			Desulfocastanea	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01594
+2916690			Desulfofalx	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01777
+2916691			Desulfolucanica	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01775
+2916692			Desulforadius	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01779
+2916693			Desulforamulus	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01770.pub2
+2916959			Desulfovectis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01778
+2917705			Natranaeroarchaeum	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02091
+2917705			Natranaeroarchaeum	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02091
+2919362			Saliniramus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01984
+2930105			Deferrivibrio	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02160
+2930384			Periweissella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02097
+2945980			Natronocalculus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02092
+2974824			Nanobdella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01370.pub2
+2978367			Nicoliella	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02128
+2992720			Acidilutibacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02148
+3035923			Halorutilus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02096
+3050007			Fontisphaera	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02129
+3051499			Aceticella	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02154
+3062336			Parasphaerochaeta	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02039
+3074468			Mesoterricola	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02161
+3088728			Pyrofollis	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00406.pub2
+3108009			Microcaldus	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02110
+3159553			Anaerobaca	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02159
+3161151			Eupransor	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02143
+3240450			Thermatribacter	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02146
+3366853			Carboxydichorda	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02168
+3382645			Methyloraptor	aerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02169
+3409820			Rarispira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02158
+3457169			Winmispira	anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02157
+3811964			Geochorda	facultatively anaerobic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02167
