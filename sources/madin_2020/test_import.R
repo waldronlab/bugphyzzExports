@@ -4,7 +4,7 @@ suppressPackageStartupMessages(library(dplyr))
 fx <- tempfile(fileext = ".csv")
 write.csv(data.frame(
     tax_id = c(1, 1, 1, 2, 2, 3, 3), species_tax_id = c(1, 1, 1, 2, 2, 3, 3), species = c("A", "A", "A", "B", "B", "C", "C"),
-    genus = "G", data_source = c("s1", "s2", "s3", "s1", "s2", "s1", "s2"),
+    genus = "G", data_source = c("s1", "s2", "s3", "s1", "s2", "s1", "protraits"),
     gram_stain = c("positive", "positive", "negative", "positive", NA, NA, NA),
     metabolism = c("aerobic", "aerobic", "aerobic", "facultative", "aerobic", NA, NA),
     sporulation = c("yes", "no", NA, NA, NA, NA, NA), motility = c("yes", "yes", "no", NA, NA, NA, NA),
@@ -26,4 +26,6 @@ stopifnot(out$shape$Attribute[out$shape$NCBI_ID == "1"] == "vibrio")
 stopifnot(out[["genome size"]]$Attribute_value[out[["genome size"]]$NCBI_ID == "1"] == 150) # median
 stopifnot(!"3" %in% out[["gc content"]]$NCBI_ID, out[["gc content"]]$Attribute_value[out[["gc content"]]$NCBI_ID == "1"] == "50-52")
 stopifnot(out[["gc content"]]$Attribute_value[out[["gc content"]]$NCBI_ID == "2"] %in% c(character(0)) || TRUE)
+stopifnot(all(!grepl("protraits", unlist(lapply(out, function(x) x$Data_source)))))   # direct-source records excluded
+stopifnot(out[["gram stain"]]$Data_source[out[["gram stain"]]$NCBI_ID == "1" & out[["gram stain"]]$Attribute == "gram stain positive"] == "s1;s2")
 cat("import.R fixture test: OK\n")

@@ -18,6 +18,11 @@ out_dir <- if (length(commandArgs(TRUE))) commandArgs(TRUE)[1] else dirname(sub(
 local <- Sys.getenv("MADIN_CSV", unset = "")
 m <- read_csv(if (nzchar(local)) local else url, show_col_types = FALSE, guess_max = 2e5)
 SOURCE <- "Madin_2020"
+## Madin pools ~25 upstream resources. Records that come from resources bugphyzz
+## imports directly are excluded here so they are not counted twice; the
+## upstream name of every kept record goes in the Data_source column.
+direct_sources <- c("protraits", "microbe-directory", "kegg", "patric", "bacdive-microa")
+m <- m |> filter(!data_source %in% direct_sources)
 cols <- c("NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value", "Attribute_source", "Frequency", "Note")
 freq_of <- function(frac) ifelse(frac >= 0.9, "always", ifelse(frac >= 0.5, "usually", "sometimes"))
 species <- m |> filter(!is.na(species_tax_id)) |> mutate(NCBI_ID = as.character(species_tax_id), Taxon_name = species)
@@ -30,13 +35,14 @@ species <- m |> filter(!is.na(species_tax_id)) |> mutate(NCBI_ID = as.character(
 discrete <- function(col, phys, map) {
     binary <- phys %in% c("motility", "spore formation")
     d <- species |> filter(!is.na(.data[[col]])) |> mutate(val = unname(map[.data[[col]]])) |> filter(!is.na(val)) |>
-        distinct(NCBI_ID, Taxon_name, data_source, val) |> count(NCBI_ID, Taxon_name, val) |>
+        distinct(NCBI_ID, Taxon_name, data_source, val) |>
+        group_by(NCBI_ID, Taxon_name, val) |> summarise(n = n(), srcs = paste(sort(unique(data_source)), collapse = ";"), .groups = "drop") |>
         group_by(NCBI_ID) |> mutate(frac = n / sum(n), total = sum(n)) |> ungroup()
     d <- if (binary) d |> filter(frac > 0.5) else d |> filter(frac >= 0.2)
     tibble(NCBI_ID = d$NCBI_ID, Genome_ID = "", Accession_ID = "", Taxon_name = d$Taxon_name,
            Attribute = if (phys %in% c("motility", "spore formation")) phys else d$val,
            Attribute_value = if (phys %in% c("motility", "spore formation")) d$val else "TRUE",
-           Attribute_source = SOURCE, Frequency = freq_of(d$frac), Note = sprintf("%d of %d records", d$n, d$total))
+           Attribute_source = SOURCE, Frequency = freq_of(d$frac), Data_source = d$srcs, Note = sprintf("%d of %d records", d$n, d$total))
 }
 out <- list(
     "aerophilicity" = discrete("metabolism", "aerophilicity", c(aerobic = "aerobic", `obligate aerobic` = "aerobic", anaerobic = "anaerobic", `obligate anaerobic` = "anaerobic", `strictly anaerobic` = "anaerobic", facultative = "facultatively anaerobic", microaerophilic = "microaerophilic")),
@@ -49,18 +55,18 @@ out <- list(
 ## convention for a measured value (Kegg rows use "usually"); the record count
 ## is in Note.
 numeric <- function(col, phys, attr, unit) {
-    d <- species |> filter(!is.na(.data[[col]])) |> group_by(NCBI_ID, Taxon_name) |> summarise(v = median(.data[[col]]), n = n(), .groups = "drop")
+    d <- species |> filter(!is.na(.data[[col]])) |> group_by(NCBI_ID, Taxon_name) |> summarise(v = median(.data[[col]]), n = n(), srcs = paste(sort(unique(data_source)), collapse = ";"), .groups = "drop")
     tibble(NCBI_ID = d$NCBI_ID, Genome_ID = "", Accession_ID = "", Taxon_name = d$Taxon_name, Attribute = attr, Attribute_value = d$v,
-           Attribute_source = SOURCE, Frequency = "always", Unit = unit, Note = sprintf("median of %d records", d$n))
+           Attribute_source = SOURCE, Frequency = "always", Unit = unit, Data_source = d$srcs, Note = sprintf("median of %d records", d$n))
 }
 out[["genome size"]] <- numeric("genome_size", "genome size", "Genome size", "base pair")
 out[["coding genes"]] <- numeric("coding_genes", "coding genes", "genes", "genes")
 out[["growth temperature"]] <- numeric("optimum_tmp", "growth temperature", "growth temperature", "Celcius")
 out[["optimal ph"]] <- numeric("optimum_ph", "optimal ph", "optimal ph", "pH")
 ## G+C content: bugphyzz range attribute; Madin gives one value per record, so the per-species range is min-max over records.
-gcd <- species |> filter(!is.na(gc_content), gc_content >= 20, gc_content <= 80) |> group_by(NCBI_ID, Taxon_name) |> summarise(lo = round(min(gc_content), 1), hi = round(max(gc_content), 1), n = n(), .groups = "drop")
+gcd <- species |> filter(!is.na(gc_content), gc_content >= 20, gc_content <= 80) |> group_by(NCBI_ID, Taxon_name) |> summarise(lo = round(min(gc_content), 1), hi = round(max(gc_content), 1), n = n(), srcs = paste(sort(unique(data_source)), collapse = ";"), .groups = "drop")
 ## bugphyzz range attributes take a single "lo-hi" string (see .modifyRange)
-out[["gc content"]] <- tibble(NCBI_ID = gcd$NCBI_ID, Genome_ID = "", Accession_ID = "", Taxon_name = gcd$Taxon_name, Attribute = "gc content", Attribute_value = ifelse(gcd$lo == gcd$hi, as.character(gcd$lo), paste0(gcd$lo, "-", gcd$hi)), Attribute_source = SOURCE, Frequency = "always", Unit = "mol%", Note = sprintf("range of %d records", gcd$n))
+out[["gc content"]] <- tibble(NCBI_ID = gcd$NCBI_ID, Genome_ID = "", Accession_ID = "", Taxon_name = gcd$Taxon_name, Attribute = "gc content", Attribute_value = ifelse(gcd$lo == gcd$hi, as.character(gcd$lo), paste0(gcd$lo, "-", gcd$hi)), Attribute_source = SOURCE, Frequency = "always", Unit = "mol%", Data_source = gcd$srcs, Note = sprintf("range of %d records", gcd$n))
 if (nzchar(Sys.getenv("MADIN_TEST"))) {
     saveRDS(out, Sys.getenv("MADIN_TEST"))   # test_import.R reads this instead of writing TSVs
 } else {
