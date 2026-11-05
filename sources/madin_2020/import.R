@@ -8,7 +8,7 @@
 ## Everything with a bugphyzz attribute is imported, including aerophilicity
 ## (`metabolism`), which duplicates the Madin_2020 rows pasted into the
 ## aerophilicity Google Sheet in 2022; those sheet rows should be removed
-## once this file is in use. Keep all data; decide at conflict resolution.
+## once this file is in use.
 ##
 ## Usage: Rscript import.R [out_dir]
 suppressPackageStartupMessages({library(dplyr); library(readr); library(tidyr)})
@@ -22,7 +22,12 @@ SOURCE <- "Madin_2020"
 ## imports directly are excluded here so they are not counted twice; the
 ## upstream name of every kept record goes in the Data_source column.
 direct_sources <- c("protraits", "microbe-directory", "kegg", "patric", "bacdive-microa")
+missing_sources <- setdiff(direct_sources, unique(m$data_source))
+if (length(missing_sources) && !nzchar(Sys.getenv("MADIN_TEST")))
+    stop("direct_sources not found in data_source: ", paste(missing_sources, collapse = ", "))
+n_before <- nrow(m)
 m <- m |> filter(!data_source %in% direct_sources)
+message(sprintf("Excluded %d of %d records from directly imported resources", n_before - nrow(m), n_before))
 cols <- c("NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value", "Attribute_source", "Frequency", "Note")
 freq_of <- function(frac) ifelse(frac >= 0.9, "always", ifelse(frac >= 0.5, "usually", "sometimes"))
 species <- m |> filter(!is.na(species_tax_id)) |> mutate(NCBI_ID = as.character(species_tax_id), Taxon_name = species)
