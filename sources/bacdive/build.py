@@ -1,7 +1,8 @@
-#!/usr/bin/env python3 -I
+#!/usr/bin/env python3
 """Build the BacDive source files from raw API records.
 
-Usage: build_bacdive.py <raw_dir> <taxdump_dir> <out_dir>
+Usage: python3 -I build.py <raw_dir> <taxdump_dir> <out_dir> [max_id] [chunk]
+Refuses to run if any chunk file in 1..max_id is missing.
 
 Writes:
   bacdive.csv.gz   one row per strain in the layout of the former BacDive
@@ -11,7 +12,13 @@ Writes:
 """
 import sys, os, json, gzip, glob, csv, re, collections
 raw_dir, taxdump, out_dir = sys.argv[1:4]
+max_id = int(sys.argv[4]) if len(sys.argv) > 4 else 180000
+chunk = int(sys.argv[5]) if len(sys.argv) > 5 else 50
 os.makedirs(out_dir, exist_ok=True)
+expected = [f"{a:06d}-{min(a + chunk - 1, max_id):06d}.json.gz" for a in range(1, max_id + 1, chunk)]
+missing = [f for f in expected if not os.path.exists(os.path.join(raw_dir, f))]
+if missing:
+    sys.exit(f"{len(missing)} of {len(expected)} chunk files missing (first: {missing[0]}); re-run fetch.py before building")
 
 # NCBI taxdump: rank per taxid, scientific name per taxid, species name -> taxid
 rank, sci = {}, {}
@@ -130,7 +137,9 @@ for f in sorted(glob.glob(os.path.join(raw_dir, "*.json.gz"))):
             m = re.fullmatch(r"\s*(\d+(?:\.\d+)?)(?:\s*-\s*(\d+(?:\.\d+)?))?\s*(?:µm|um|μm)?\s*", v or "")
             if m: store.append({**base, "Attribute": attr, "Attribute_value": m.group(1) + (f"-{m.group(2)}" if m.group(2) else ""), "Unit": "um"})
 rows.sort(key=lambda r: int(r["BacDive_ID"]))
-with gzip.open(os.path.join(out_dir, "bacdive.csv.gz"), "wt", newline="") as fh:
+# mtime=0 so an unchanged table produces identical bytes and no spurious git diff
+import io
+with open(os.path.join(out_dir, "bacdive.csv.gz"), "wb") as raw_fh, gzip.GzipFile(fileobj=raw_fh, mode="wb", mtime=0) as gz, io.TextIOWrapper(gz, encoding="utf-8", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=COLS, lineterminator="\n"); w.writeheader(); w.writerows(rows)
 ncols = ["NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value", "Attribute_source", "Frequency", "Unit", "Note"]
 for name, store in (("gc_content", gc_rows), ("length", len_rows), ("width", wid_rows)):
