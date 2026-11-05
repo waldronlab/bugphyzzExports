@@ -19,3 +19,6 @@ Madin_2020	gc content	range	madin_2020/gc_content.tsv
 BacDive	gc content	range	bacdive/gc_content.tsv
 BacDive	length	range	bacdive/length.tsv
 BacDive	width	range	bacdive/width.tsv
+NCBI_RefSeq	genome size	numeric	ncbi_assemblies/genome_size.tsv
+NCBI_RefSeq	gc content	range	ncbi_assemblies/gc_content.tsv
+NCBI_RefSeq	coding genes	numeric	ncbi_assemblies/coding_genes.tsv
