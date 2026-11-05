@@ -16,3 +16,6 @@ Madin_2020	growth temperature	numeric	madin_2020/growth_temperature.tsv
 Madin_2020	optimal ph	numeric	madin_2020/optimal_ph.tsv
 Bergeys_2026	gc content	range	bergeys_2026/gc_content.tsv
 Madin_2020	gc content	range	madin_2020/gc_content.tsv
+BacDive	gc content	range	bacdive/gc_content.tsv
+BacDive	length	range	bacdive/length.tsv
+BacDive	width	range	bacdive/width.tsv
