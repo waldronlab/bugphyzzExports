@@ -465,12 +465,17 @@ daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
 propagated[["disease association"]] <- daready
 
 ## antimicrobial resistance
+## Pair "resistance to X" / "sensitive to X" into one binary attribute named
+## "resistance to X". Case is kept: the vocabulary has "kanamycin A" (#83).
 ar <- phys_union[["antimicrobial resistance"]] |>
-    mutate(Attribute = stringr::str_squish(tolower(Attribute))) |>
-    mutate(Attribute = sub("not resistant", "sensitive", Attribute)) |>
+    mutate(Attribute = stringr::str_squish(Attribute)) |>
     mutate(
-        Attribute = sub("carbapenem-resistan", "resistance to", Attribute)
+        Attribute = sub(
+            "^carbapenem-resistant Acinetobacter$", "resistance to carbapenems",
+            Attribute
+        )
     ) |>
+    mutate(Attribute = sub("not resistant", "sensitive", Attribute)) |>
     mutate(Attribute = sub("resistant", "resistance", Attribute)) |>
     mutate(Attribute = sub("tot", "to", Attribute)) |>
     mutate(
@@ -480,6 +485,8 @@ ar <- phys_union[["antimicrobial resistance"]] |>
     ) |>
     mutate(Attribute = sub("sensitive", "resistance", Attribute)) |>
     mutate(Attribute_type = "binary")
+## the rewritten names must be in the vocabulary too, or filterData() drops them
+stop_on_unmapped(list(`antimicrobial resistance` = ar))
 
 arl <- split(ar, ar$Attribute)
 arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
