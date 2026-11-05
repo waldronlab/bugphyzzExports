@@ -37,8 +37,11 @@ for start in range(start_id, max_id + 1, chunk):
         print(f"{start}-{end}: FAILED", flush=True); failed += 1; continue
     res = data.get("results") or {}
     n = len(res); total += n
-    with gzip.open(out, "wt") as fh:
+    with gzip.open(out + ".tmp", "wt") as fh:   # write then rename, so a killed run never leaves a truncated chunk
         json.dump(res, fh)
+    os.replace(out + ".tmp", out)
+    if end >= max_id and n > 0:
+        print(f"the last block {start}-{end} still has records: raise max_id", flush=True); failed += 1
     ## BacDive ids have long gaps, so empty chunks are normal; stop only at max_id.
     if start % 5000 == 1:
         print(f"{start}-{end}: {n} records (total {total})", flush=True)

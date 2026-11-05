@@ -23,7 +23,7 @@ rec = {
         "Isolation, sampling and environmental information": {"isolation": {"@ref": 1, "sample type": "soil", "country": "Germany"}}},
   "2": {"General": {"BacDive-ID": 2, "NCBI tax id": {"NCBI tax id": 1423, "Matching level": "species"}},
         "Name and taxonomic classification": {"species": "Bacillus subtilis", "type strain": "no"},
-        "Sequence information": {"GC content": {"@ref": 1, "GC-content": "95"}}}}
+        "Sequence information": {"GC content": [{"@ref": 1, "GC-content": "60-95"}]}}}
 with gzip.open(os.path.join(raw, "000001-000050.json.gz"), "wt") as fh: json.dump(rec, fh)
 # missing chunks must abort
 r = subprocess.run([sys.executable, "-I", os.path.join(here, "build.py"), raw, tax, out, "100", "50"], capture_output=True, text=True)
@@ -40,7 +40,7 @@ assert a["Halophily"] == "NaCl positive growth 0-7 %" and a["Metabolite_utiiliza
 assert a["Hemolysis"] == "beta" and a["Biosafety_level"] == "1" and a["Country"] == "Germany" and a["Genome_ID"] == "GCA_000009045", a
 assert rows["2"]["NCBI_ID"] == "" and rows["2"]["Parent_NCBI_ID"] == "1423", rows["2"]
 gc = list(csv.DictReader(open(os.path.join(out, "gc_content.tsv")), delimiter="\t"))
-assert [(g["NCBI_ID"], g["Attribute_value"]) for g in gc] == [("224308", "43.5")], gc      # 95 mol% dropped
+assert [(g["NCBI_ID"], g["Attribute_value"]) for g in gc] == [("224308", "43.5")], gc      # 60-95 mol% dropped on its upper bound
 ln = list(csv.DictReader(open(os.path.join(out, "length.tsv")), delimiter="\t"))
 assert ln[0]["Attribute_value"] == "2-3" and ln[0]["Unit"] == "um", ln
 print("build.py fixture test: OK")

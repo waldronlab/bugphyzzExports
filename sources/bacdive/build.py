@@ -130,7 +130,7 @@ for f in sorted(glob.glob(os.path.join(raw_dir, "*.json.gz"))):
         base = {"NCBI_ID": tid, "Genome_ID": "", "Accession_ID": "", "Taxon_name": tname, "Attribute_source": "BacDive", "Frequency": "always", "Note": f"BacDive-ID {sid}"}
         gc = first(seq.get("GC content"), "GC-content")
         m = re.fullmatch(r"\s*(\d+(?:\.\d+)?)(?:\s*-\s*(\d+(?:\.\d+)?))?\s*", gc or "")
-        if m and 20 <= float(m.group(1)) <= 80:
+        if m and 20 <= float(m.group(1)) <= 80 and 20 <= float(m.group(2) or m.group(1)) <= 80:
             gc_rows.append({**base, "Attribute": "gc content", "Attribute_value": m.group(1) + (f"-{m.group(2)}" if m.group(2) else ""), "Unit": "mol%"})
         for key, store, attr in (("cell length", len_rows, "length"), ("cell width", wid_rows, "width")):
             v = joined(cm, key, sep="|").split("|")[0]
