@@ -55,7 +55,10 @@ for doi in sorted(keep):
     lo, hi = gc.get("min"), gc.get("max")
     if lo is None: lo = hi
     if hi is None: hi = lo
+    if lo is not None and hi is not None and lo > hi:
+        lo, hi = hi, lo
     if lo is not None and 20 <= lo <= 80 and 20 <= hi <= 80:
+        lo, hi = round(lo, 1), round(hi, 1)
         rows["gc content"].append({**base, "Attribute": "gc content", "Attribute_value": (f"{lo}-{hi}" if lo != hi else f"{lo}"), "Frequency": "always", "Unit": "mol%", "Note": doi})
     else:
         if lo is not None: dropped["gc content outside 20-80"] += 1

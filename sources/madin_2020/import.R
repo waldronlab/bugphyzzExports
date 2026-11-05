@@ -58,7 +58,7 @@ out[["coding genes"]] <- numeric("coding_genes", "coding genes", "genes", "genes
 out[["growth temperature"]] <- numeric("optimum_tmp", "growth temperature", "growth temperature", "Celcius")
 out[["optimal ph"]] <- numeric("optimum_ph", "optimal ph", "optimal ph", "pH")
 ## G+C content: bugphyzz range attribute; Madin gives one value per record, so the per-species range is min-max over records.
-gcd <- species |> filter(!is.na(gc_content), gc_content >= 20, gc_content <= 80) |> group_by(NCBI_ID, Taxon_name) |> summarise(lo = min(gc_content), hi = max(gc_content), n = n(), .groups = "drop")
+gcd <- species |> filter(!is.na(gc_content), gc_content >= 20, gc_content <= 80) |> group_by(NCBI_ID, Taxon_name) |> summarise(lo = round(min(gc_content), 1), hi = round(max(gc_content), 1), n = n(), .groups = "drop")
 ## bugphyzz range attributes take a single "lo-hi" string (see .modifyRange)
 out[["gc content"]] <- tibble(NCBI_ID = gcd$NCBI_ID, Genome_ID = "", Accession_ID = "", Taxon_name = gcd$Taxon_name, Attribute = "gc content", Attribute_value = ifelse(gcd$lo == gcd$hi, as.character(gcd$lo), paste0(gcd$lo, "-", gcd$hi)), Attribute_source = SOURCE, Frequency = "always", Unit = "mol%", Note = sprintf("range of %d records", gcd$n))
 if (nzchar(Sys.getenv("MADIN_TEST"))) {
