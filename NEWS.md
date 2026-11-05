@@ -1,0 +1,17 @@
+# bugphyzzExports news
+
+Changes to the data pipeline and the exported files, newest first. Released data versions are on Zenodo (concept DOI 10.5281/zenodo.10980653); the `devel` branch holds the weekly export.
+
+## 2026-11 (unreleased, on `devel`)
+
+- **Programmatic sources under version control** (`sources/`, #69, #70): a manifest plus one TSV per physiology for each scripted source, with the script and pinned upstream version, read by `bugphyzz::physiologies()` from bugphyzz 1.7.4. Hand curation stays in the Google Sheets.
+  - `bergeys_2026`: sentence-level LLM extraction of all 2,249 Bergey's Manual genus-chapter abstracts (aerophilicity, Gram stain, shape, motility, spore formation, growth temperature optimum, G+C content), source name `Bergeys_2026`; the 2020 keyword scrape stays in the sheets for now (waldronlab/bugphyzz#274).
+  - `madin_2020`: Madin et al. 2020 species traits in full (ten traits), excluding records Madin took from resources bugphyzz imports directly (#73, #77); upstream resource kept per row in `Data_source`.
+  - `bacdive`: every BacDive strain from the public API (99,393 strains; #76, #78), in the layout of the former sheet, plus G+C content, cell length and width. Needs bugphyzz 1.7.5, which splits multi-valued fields.
+- **New attribute `gc content`** (range, mol%) from Bergey's, Madin and BacDive (#71).
+- **Validation thresholds applied at export** (#63, #67): imputed (ASR) annotations are kept only for attribute values with MCC >= 0.7 (discrete) or R2 >= 0.5 (numeric), and `rarely`/`never` states are dropped, so the exported files match the manuscript and `importBugphyzz()` defaults. The multistate file went from 172 MB to about 15 MB.
+- **Weekly export restored** (#62, #68): the action had failed since 2026-03-29 because the Bioconductor devel image stopped shipping `remotes`; first clean run 2026-11-04.
+
+## 2024-06-27, v1.0.3 (Zenodo 10.5281/zenodo.12574596)
+
+- Last release before the changes above; the version used by `importBugphyzz()` by default.
