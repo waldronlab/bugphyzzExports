@@ -24,5 +24,5 @@ stopifnot(nrow(out[["spore formation"]][out[["spore formation"]]$NCBI_ID == "1",
 stopifnot(out$motility$Attribute_value[out$motility$NCBI_ID == "1"] == "TRUE")             # binary majority
 stopifnot(out$shape$Attribute[out$shape$NCBI_ID == "1"] == "vibrio")
 stopifnot(out[["genome size"]]$Attribute_value[out[["genome size"]]$NCBI_ID == "1"] == 150) # median
-stopifnot(!"3" %in% out[["gc content"]]$NCBI_ID, out[["gc content"]]$Attribute_value_max[out[["gc content"]]$NCBI_ID == "1"] == 52)
+stopifnot(!"3" %in% out[["gc content"]]$NCBI_ID, out[["gc content"]]$Attribute_value[out[["gc content"]]$NCBI_ID == "1"] == "50-52")
 cat("import.R fixture test: OK\n")
