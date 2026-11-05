@@ -16,7 +16,7 @@ taxid appears twice; the current scientific name is the Taxon_name.
 Writes genome_size.tsv, gc_content.tsv and coding_genes.tsv in the
 curation-sheet layout; the assembly accession, level and flags go in Note.
 """
-import sys, os, csv, collections, importlib.metadata
+import sys, os, csv, collections, importlib.metadata, math
 import taxoniq
 
 DB_VERSION = "2026.11.1"   # https://github.com/lwaldron/taxoniq/releases/tag/ncbi-taxon-db-2026.11.1
@@ -49,9 +49,10 @@ def species(sp):
 
 def positive(x):
     try:
-        return float(x) > 0
+        v = float(x)
     except ValueError:
         return False
+    return math.isfinite(v) and v > 0
 
 best = {}
 with open(summary) as fh:
