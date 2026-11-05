@@ -14596,9 +14596,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1389932			Achromobacter pulmonis	gc content	67	NCBI_RefSeq	always	mol%	GCF_021733725.1; Contig; reference genome
 1389935			Achromobacter animicus	gc content	65.5	NCBI_RefSeq	always	mol%	GCF_902859585.1; Contig; assembly from type material
 1390116			Bradyrhizobium sp. WBAH10	gc content	64	NCBI_RefSeq	always	mol%	GCF_005156885.1; Complete Genome
-1390119			Bradyrhizobium sp. WBAH23	gc content	0	NCBI_RefSeq	always	mol%	GCF_005157045.1; Chromosome
 1390124			Bradyrhizobium sp. WBAH30	gc content	64	NCBI_RefSeq	always	mol%	GCF_028680175.1; Contig
-1390131			Bradyrhizobium sp. WBAH41	gc content	0	NCBI_RefSeq	always	mol%	GCF_005165845.1; Chromosome
 1390132			Bradyrhizobium sp. WBAH42	gc content	64	NCBI_RefSeq	always	mol%	GCF_024585265.1; Chromosome
 1390141			Bradyrhizobium sp. WBOS16	gc content	65	NCBI_RefSeq	always	mol%	GCF_028680385.1; Contig
 1390143			Bradyrhizobium sp. WBOS4	gc content	65	NCBI_RefSeq	always	mol%	GCF_028680285.1; Contig
@@ -14854,7 +14852,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1419723			Fodinicurvata halophila	gc content	62.5	NCBI_RefSeq	always	mol%	GCF_042651425.1; Scaffold; reference genome; assembly from type material
 1419739			Shewanella sp. TC10	gc content	40.5	NCBI_RefSeq	always	mol%	GCF_009663145.1; Contig
 1420591			Novosphingobium barchaimii	gc content	64	NCBI_RefSeq	always	mol%	GCF_001046635.1; Scaffold; reference genome; assembly from type material
-1420727			Bradyrhizobium sp. WBAH33	gc content	0	NCBI_RefSeq	always	mol%	GCF_005156645.1; Chromosome
 1420730			Bradyrhizobium sp. WBOS2	gc content	65	NCBI_RefSeq	always	mol%	GCF_028680245.1; Contig
 1420851			Methyloprofundus sedimenti	gc content	41	NCBI_RefSeq	always	mol%	GCF_002072955.1; Contig; reference genome; assembly from type material
 1420889			Micromonospora profundi	gc content	71	NCBI_RefSeq	always	mol%	GCF_011927785.1; Contig; reference genome; assembly from type material

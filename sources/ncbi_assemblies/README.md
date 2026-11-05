@@ -8,8 +8,8 @@ Citation: Goldfarb T, Kodali VK, Pujar S, et al. NCBI RefSeq: reference sequence
 
 - Upstream: https://ftp.ncbi.nlm.nih.gov/genomes/refseq/assembly_summary_refseq.txt (columns described in https://ftp.ncbi.nlm.nih.gov/genomes/README_assembly_summary.txt). Downloaded 5 November 2026; 569,714 assemblies, 551,414 of them bacterial or archaeal.
 - Selection (`build.py`): bacterial and archaeal assemblies with `excluded_from_refseq` empty (drops 50,007 flagged assemblies, mostly derived from metagenomes), full genome representation and the latest version; 501,407 candidates. One per `species_taxid`: the RefSeq reference genome first, then an assembly from type material (or a designated neotype or reftype), then the most complete assembly level (Complete Genome, Chromosome, Scaffold, Contig), then the newest release date. No filter on genome size.
-- Taxids: each `species_taxid` is checked with taxoniq against ncbi-taxon-db 2026.11.1 (https://github.com/lwaldron/taxoniq/releases/tag/ncbi-taxon-db-2026.11.1, built from the NCBI new_taxdump of 1 November 2026); its current scientific name is the `Taxon_name`. 319 species taxids newer than that release were dropped, and one no longer at species rank.
-- Values are copied from the summary: `genome_size` (total length, base pairs), `gc_percent` (mol%, one decimal), `protein_coding_gene_count` (genes). `Note` holds the assembly accession, its level and its reference or type-material flags.
+- Taxids: each `species_taxid` is resolved with taxoniq against ncbi-taxon-db 2026.11.1 (https://github.com/lwaldron/taxoniq/releases/tag/ncbi-taxon-db-2026.11.1, built from the NCBI new_taxdump of 1 November 2026) before the assembly is chosen, so the choice is per current species taxid and no taxid appears twice; the current scientific name is the `Taxon_name`. 319 species taxids newer than that release were dropped, and one with no species in its lineage.
+- Values are copied from the summary: `genome_size` (total length, base pairs), `gc_percent` (mol%, one decimal), `protein_coding_gene_count` (genes). A value that is missing or not positive drops that row only (three assemblies report a G+C of 0). `Note` holds the assembly accession, its level and its reference or type-material flags.
 - Nothing is edited by hand.
 
 ## Output
@@ -17,7 +17,7 @@ Citation: Goldfarb T, Kodali VK, Pujar S, et al. NCBI RefSeq: reference sequence
 | File | Species | Notes |
 |---|---|---|
 | `genome_size.tsv` | 77,673 | `Genome size`, base pair |
-| `gc_content.tsv` | 77,673 | `gc content`, mol%; one value, not a range |
+| `gc_content.tsv` | 77,670 | `gc content`, mol%; one value, not a range |
 | `coding_genes.tsv` | 77,673 | `genes`, protein-coding genes |
 
 Of the 77,673 assemblies chosen, 23,617 are reference genomes and 19,851 are from type material; 15,601 are complete genomes, 1,110 chromosome level, 26,392 scaffolds and 34,570 contigs. 53,551 species are NCBI placeholder species (`Pseudomonas sp. XYZ`); they are kept because bugphyzz keys on the taxid.

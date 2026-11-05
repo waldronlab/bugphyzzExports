@@ -19,9 +19,13 @@ rows = [
     # E. coli: the reference genome wins over a newer, complete, type-material assembly; strain taxid maps to species 562
     row("GCF_000005845.2", "511145", "562", "Escherichia coli str. K-12 substr. MG1655", "Complete Genome", "4641652", "50.800000", "4298", cat="reference genome"),
     row("GCF_000008865.2", "386585", "562", "Escherichia coli O157:H7 str. Sakai", "Complete Genome", "5594477", "50.500000", "5155", date="2024/01/01", typ="assembly from type material"),
+    # a species_taxid below species rank (strain 511145) resolves to 562 and competes with the rows above, so no duplicate NCBI_ID
+    row("GCF_000000562.1", "511145", "511145", "Escherichia coli str. K-12 substr. MG1655", "Complete Genome", "4600000", "50.000000", "4200", date="2025/01/01", typ="assembly from type material"),
     # B. subtilis: type material beats a complete non-type assembly; the "na" gene count drops only the coding_genes row
     row("GCF_000009045.1", "224308", "1423", "Bacillus subtilis subsp. subtilis str. 168", "Scaffold", "4215606", "43.500000", "na", typ="assembly from type material"),
     row("GCF_000227465.1", "1423", "1423", "Bacillus subtilis", "Complete Genome", "4100000", "43.000000", "4000", date="2024/01/01"),
+    # C. difficile: "na" G+C and a zero gene count drop those two rows, the genome size row stays
+    row("GCF_000000003.1", "1496", "1496", "Clostridioides difficile", "Contig", "4100000", "na", "0"),
     # skipped: metagenome-derived, partial, a virus, and a species taxid absent from ncbi-taxon-db (merged id 12)
     row("GCF_900000001.1", "1496", "1496", "Clostridioides difficile", "Contig", "4000000", "28.000000", "3500", excl="derived from metagenome"),
     row("GCF_900000002.1", "1496", "1496", "Clostridioides difficile", "Contig", "4000000", "28.000000", "3500", rep="Partial"),
@@ -37,13 +41,17 @@ assert r.returncode == 0, r.stderr
 def read(name): return list(csv.DictReader(open(os.path.join(out, name + ".tsv")), delimiter="\t"))
 gs = read("genome_size"); gc = read("gc_content"); cg = read("coding_genes")
 assert [(x["NCBI_ID"], x["Taxon_name"], x["Attribute_value"], x["Unit"]) for x in gs] == [
-    ("562", "Escherichia coli", "4641652", "base pair"), ("1423", "Bacillus subtilis", "4215606", "base pair")], gs
+    ("562", "Escherichia coli", "4641652", "base pair"), ("1423", "Bacillus subtilis", "4215606", "base pair"),
+    ("1496", "Clostridioides difficile", "4100000", "base pair")], gs
 assert gs[0]["Note"] == "GCF_000005845.2; Complete Genome; reference genome" and gs[0]["Attribute"] == "Genome size", gs[0]
 assert gs[1]["Note"] == "GCF_000009045.1; Scaffold; assembly from type material", gs[1]
 assert [(x["NCBI_ID"], x["Attribute_value"], x["Unit"]) for x in gc] == [("562", "50.8", "mol%"), ("1423", "43.5", "mol%")], gc
 assert [(x["NCBI_ID"], x["Attribute"], x["Attribute_value"], x["Unit"]) for x in cg] == [("562", "genes", "4298", "genes")], cg
 assert all(x["Attribute_source"] == "NCBI_RefSeq" and x["Frequency"] == "always" for x in gs + gc + cg)
 assert "species taxid not in ncbi-taxon-db, dropped: 1" in r.stdout, r.stdout
+assert "species taxid re-ranked, moved to its species: 1" in r.stdout, r.stdout
+assert "no gc_percent, gc_content row skipped: 1" in r.stdout and "no protein_coding_gene_count, coding_genes row skipped: 2" in r.stdout, r.stdout
+assert "species: 3" in r.stdout, r.stdout
 # a file without the NCBI comment line is refused
 open(summary, "w").write("x\n")
 r = subprocess.run([sys.executable, "-I", os.path.join(here, "build.py"), summary, out], capture_output=True, text=True)
