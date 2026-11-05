@@ -55,8 +55,11 @@ for doi in sorted(keep):
     lo, hi = gc.get("min"), gc.get("max")
     if lo is None: lo = hi
     if hi is None: hi = lo
+    if lo is not None and hi is not None and lo > hi:
+        lo, hi = hi, lo
     if lo is not None and 20 <= lo <= 80 and 20 <= hi <= 80:
-        rows["gc content"].append({**base, "Attribute": "gc content", "Attribute_value_min": lo, "Attribute_value_max": hi, "Frequency": "always", "Unit": "mol%", "Note": doi})
+        lo, hi = round(lo, 1), round(hi, 1)
+        rows["gc content"].append({**base, "Attribute": "gc content", "Attribute_value": (f"{lo}-{hi}" if lo != hi else f"{lo}"), "Frequency": "always", "Unit": "mol%", "Note": doi})
     else:
         if lo is not None: dropped["gc content outside 20-80"] += 1
 # overrides: hand corrections that survive re-extraction
@@ -68,10 +71,7 @@ if os.path.exists(ov_path):
         elif o["action"] == "add":
             rows[o["physiology"]].append({"NCBI_ID": o["NCBI_ID"], "Genome_ID": "", "Accession_ID": "", "Taxon_name": o["Taxon_name"], "Attribute": o["Attribute"], "Attribute_value": o["Attribute_value"], "Attribute_source": SOURCE, "Frequency": o["Frequency"], "Note": "override: " + o["reason"]})
 for phys, rr in rows.items():
-    if phys == "gc content":
-        cols = ["NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value_min", "Attribute_value_max", "Attribute_source", "Frequency", "Unit", "Note"]
-    else:
-        cols = ["NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value", "Attribute_source", "Frequency"] + (["Unit"] if phys == "growth temperature" else []) + ["Note"]
+    cols = ["NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value", "Attribute_source", "Frequency"] + (["Unit"] if phys in ("growth temperature", "gc content") else []) + ["Note"]
     rr.sort(key=lambda r: (int(r["NCBI_ID"]), r["Attribute"]))
     with open(os.path.join(out_dir, phys.replace(" ", "_") + ".tsv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=cols, delimiter="\t", lineterminator="\n"); w.writeheader(); w.writerows(rr)

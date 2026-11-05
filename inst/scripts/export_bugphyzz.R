@@ -33,7 +33,8 @@ attributes_by_type <- list(
         "width",
         "optimal ph",
         "mutation rate per site per generation",
-        "mutation rate per site per year"
+        "mutation rate per site per year",
+        "gc content"
     ),
     binary = c(
         "animal pathogen",
