@@ -20,6 +20,35 @@ suppressMessages({
     library(purrr)
 })
 
+## Stop on discrete attribute values that are not in bugphyzz's vocabulary
+## (attributes.tsv). physiologies() has already mapped source terms with
+## bugphyzz's attribute_synonyms.tsv; anything left would be dropped by
+## taxPPro::filterData() with only a line in the log (#65).
+stop_on_unmapped <- function(phys) {
+    vocab <- utils::read.table(
+        system.file("extdata", "attributes.tsv", package = "bugphyzz"),
+        sep = "\t", header = TRUE
+    )
+    discrete <- c("binary", "multistate-intersection", "multistate-union")
+    bad <- character(0)
+    for (g in names(phys)) {
+        df <- phys[[g]]
+        if (!unique(df$Attribute_type)[1] %in% discrete) next
+        rgx <- paste0("\\b", g, "\\b")
+        valid <- vocab$attribute[grepl(rgx, vocab$attribute_group)]
+        x <- setdiff(unique(df$Attribute), c(valid, NA))
+        if (length(x))
+            bad <- c(bad, paste0(g, ": ", paste0(x, collapse = " | ")))
+    }
+    if (length(bad))
+        stop(
+            "Attribute values not in bugphyzz's vocabulary; map them in ",
+            "bugphyzz's inst/extdata/attribute_synonyms.tsv:\n",
+            paste0(bad, collapse = "\n"), call. = FALSE
+        )
+    invisible(phys)
+}
+
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
 
@@ -89,7 +118,13 @@ msg <- paste('Importing', msg_len, 'physiologies from bugphyzz:', msg)
 log_print(msg, blank_after = TRUE)
 tim <- system.time({
     phys <- physiologies(phys_names, fullSource = FALSE)
+    ## propagated separately below, but checked here so a bad value stops the
+    ## run before ASR rather than hours into it
+    phys_union <- physiologies(
+        c("habitat", "disease association", "antimicrobial resistance")
+    )
 })
+stop_on_unmapped(c(phys, phys_union))
 log_print(tim, blank_after = TRUE)
 
 dat_ready <- vector("list", length(phys))
@@ -378,7 +413,7 @@ for (i in seq_along(propagated)) {
 }
 
 ## habitat
-h <- physiologies("habitat")[[1]]
+h <- phys_union[["habitat"]]
 hl <- split(h, h$Attribute) |>
     purrr::map(~ mutate(.x, Attribute_type = "binary"))
 hready <- purrr::map(hl, ~ getDataReady(filterData(.x))) |>
@@ -402,7 +437,7 @@ hready <- purrr::map(hl, ~ getDataReady(filterData(.x))) |>
 propagated[["habitat"]] <- hready
 
 ## disease association
-da <- physiologies("disease association")[[1]]
+da <- phys_union[["disease association"]]
 dal <- split(da, da$Attribute) |>
     purrr::map(~ mutate(.x, Attribute_type = "binary"))
 daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
@@ -426,7 +461,7 @@ daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
 propagated[["disease association"]] <- daready
 
 ## antimicrobial resistance
-ar <- physiologies("antimicrobial resistance")[[1]] |>
+ar <- phys_union[["antimicrobial resistance"]] |>
     mutate(Attribute = stringr::str_squish(tolower(Attribute))) |>
     mutate(Attribute = sub("not resistant", "sensitive", Attribute)) |>
     mutate(
