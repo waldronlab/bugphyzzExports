@@ -7,6 +7,7 @@ Rules:
 - Pin upstream versions (commit, record, model) in the script and the README.
 - Add a row to `manifest.tsv` for each new file; `attribute_type` must match `bugphyzz/inst/extdata/spreadsheet_links.tsv` for that physiology.
 - Attribute values must be in `bugphyzz/inst/extdata/attributes.tsv`; the export drops anything else.
+- Taxonomy lookups (rank, name, merged ids) use taxoniq with a pinned `ncbi-taxon-db` release from https://github.com/lwaldron/taxoniq/releases; record the release tag in the source's README. (The Bergey's and BacDive builders predate this rule and parse a raw taxdump; switch them when next touched.)
 
 | Source | What | Script |
 |---|---|---|
