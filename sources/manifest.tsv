@@ -1,0 +1,16 @@
+source	physiology	attribute_type	file
+Bergeys_2026	aerophilicity	multistate-intersection	bergeys_2026/aerophilicity.tsv
+Bergeys_2026	gram stain	multistate-intersection	bergeys_2026/gram_stain.tsv
+Bergeys_2026	shape	multistate-intersection	bergeys_2026/shape.tsv
+Bergeys_2026	motility	binary	bergeys_2026/motility.tsv
+Bergeys_2026	spore formation	binary	bergeys_2026/spore_formation.tsv
+Bergeys_2026	growth temperature	numeric	bergeys_2026/growth_temperature.tsv
+Madin_2020	aerophilicity	multistate-intersection	madin_2020/aerophilicity.tsv
+Madin_2020	gram stain	multistate-intersection	madin_2020/gram_stain.tsv
+Madin_2020	shape	multistate-intersection	madin_2020/shape.tsv
+Madin_2020	motility	binary	madin_2020/motility.tsv
+Madin_2020	spore formation	binary	madin_2020/spore_formation.tsv
+Madin_2020	genome size	numeric	madin_2020/genome_size.tsv
+Madin_2020	coding genes	numeric	madin_2020/coding_genes.tsv
+Madin_2020	growth temperature	numeric	madin_2020/growth_temperature.tsv
+Madin_2020	optimal ph	numeric	madin_2020/optimal_ph.tsv
