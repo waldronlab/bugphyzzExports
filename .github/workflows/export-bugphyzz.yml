@@ -64,6 +64,9 @@ jobs:
             git add *.log *.msg
             git commit -m "Update exports"
             echo "Push changes"
+            # devel may have moved during the multi-hour run; replay the
+            # export commit on top of it rather than losing the run
+            git pull --rebase origin devel
             git push origin devel
           else
             echo "No changes to push"
