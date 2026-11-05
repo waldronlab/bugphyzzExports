@@ -6,21 +6,21 @@ Madin JS, Nielsen DA, Brbic M, et al. A synthesis of bacterial and archaeal phen
 - `import.R` keeps, for multistate traits, every value held by at least 20% of a species' records (Frequency `always` if at least 90% agree, `usually` if at least 50%, else `sometimes`), so disagreement between Madin's upstream sources stays visible; for binary traits the majority only, ties dropped; for numeric traits the median per species with the record count in `Note`.
 - Everything with a bugphyzz attribute is imported. `metabolism` (aerophilicity) duplicates the Madin_2020 rows pasted into the aerophilicity Google Sheet in 2022; remove those sheet rows once this file is in use. Not imported, no bugphyzz attribute yet: `doubling_h`, `range_tmp`, `isolation_source`, `pathways`, `carbon_substrates`.
 - Vocabulary: gram positive/negative only (Madin has no "variable"); shape `vibrio` kept as `vibrio` (added to `attributes.tsv` in bugphyzz 1.7.4); `spiral` and `spirochete` as `spirillum`; `filament` as `filamentous`; `pleomorphic` as `pleiomorphic cell`; other shapes dropped.
-- About half of Madin's records come from GOLD and PATRIC, which overlap other bugphyzz sources; conflict resolution in the export handles the overlap.
+- Madin pools about 25 upstream resources. Records from the five that bugphyzz imports directly (ProTraits, The Microbe Directory, KEGG, PATRIC, BacDive) are excluded so they are not counted twice; they are older snapshots of the same tables and add nothing. That removes 29,500 of 172,324 records. The upstream resource(s) behind each kept row are in the `Data_source` column (GOLD, Engqvist, GenBank, FAPROTAX, Pasteur, IJSEM/Fierer, ...), so conflict resolution can weigh them separately.
 
-## Output (2026-11-04)
+## Output (2026-11-05, after excluding directly imported resources)
 
 | Physiology | Species |
 |---|---|
-| aerophilicity | 10,886 |
-| gram stain | 12,246 |
-| spore formation | 6,884 |
-| motility | 7,524 |
-| shape | 8,023 |
-| genome size | 14,861 |
-| coding genes | 3,608 |
-| growth temperature (optimum) | 7,023 |
-| optimal ph | 3,928 |
-| gc content | 6,604 |
+| aerophilicity | 9,658 |
+| gram stain | 11,545 |
+| spore formation | 5,173 |
+| motility | 6,554 |
+| shape | 6,992 |
+| genome size | 14,149 |
+| coding genes | 3,539 |
+| growth temperature (optimum) | 5,639 |
+| optimal ph | 3,228 |
+| gc content | 3,537 |
 
 Refresh: `Rscript import.R` (reads the pinned upstream CSV; set `MADIN_CSV=<local file>` to use a local copy).
