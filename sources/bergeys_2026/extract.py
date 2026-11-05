@@ -2,17 +2,19 @@
 """Extract traits from Bergey's genus abstracts with the Gemini API.
 
 Reads the API key from pi's auth.json inside this process only; never prints it.
-Usage: bergeys_extract.py <system.txt> <batches_dir> <out_dir> [concurrency]
+Usage: extract.py <system.txt> <batches_dir> <out_dir> [concurrency] [model]
+The model defaults to the pinned version recorded in README.md.
 """
 import json, sys, os, glob, time, re, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 system_txt, batches_dir, out_dir = sys.argv[1:4]
 conc = int(sys.argv[4]) if len(sys.argv) > 4 else 4
+MODEL = sys.argv[5] if len(sys.argv) > 5 else "gemini-3.8-flash"
 os.makedirs(out_dir, exist_ok=True)
 key = json.load(open(os.path.expanduser("~/.pi/agent/auth.json")))["google"]["key"]
 system = open(system_txt).read()
-URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent"
+URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
 def call(batch_path):
     name = os.path.basename(batch_path)[:-5]

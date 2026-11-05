@@ -55,6 +55,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1014			Weeksella virosa	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 101489			Xylanimicrobium pachnodae	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1015			Bergeyella zoohelcum	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+1015			Bergeyella zoohelcum	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 101534			Candidatus Blochmannia pennsylvanicus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 101564			Pseudomonas alcaliphila	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 101571			Burkholderia ubonensis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -63,6 +64,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1017273			Domibacillus enclensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1018			Capnocytophaga ochracea	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 1019			Capnocytophaga sputigena	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+1019			Capnocytophaga sputigena	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 102			Polaribacter glomeratus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 102109			Desulfovibrio inopinatus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 102116			Stanieria cyanosphaera	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -106,6 +108,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1032527			Pedosphaera parvula	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 1032851			Corynebacterium nuruki	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1033734			Bacillus timonensis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1033734			Bacillus timonensis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1033736			Brevibacterium senegalense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1033738			Kurthia sp. Dielmo	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1033739			Kurthia massiliensis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -115,11 +118,13 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1033993			Pseudomonas sp. MOIL14HWK12:I1	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1033994			Pseudomonas sp. MOIL14HWK12:I2	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1034			Afipia clevelandensis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+1034			Afipia clevelandensis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 1034346			Dielma fastidiosa	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 103441			Pseudonocardia spinosispora	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1034943			Legionella massiliensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1034944			Legionella tunisiensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1035			Afipia felis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+1035			Afipia felis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 1035120			Deferrisoma camini	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1035308			Dehalobacter sp. FTH1	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 103618			Actinomyces coleocanis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -246,6 +251,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1064514			Lamprobacter modestohalophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 106578			Thermoanaerobacter siderophilus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 106588			Pseudoflavonifractor capillosus	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+106588			Pseudoflavonifractor capillosus	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 106590			Cupriavidus necator	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 106592			Ensifer adhaerens	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1066			Rhodocyclus tenuis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -259,6 +265,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1069073			Amycolatopsis halophila	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 1069530			Candidatus Paraburkholderia schumannianae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1069631			Alcaligenes sp. HPC1271	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+1069827			Listeria fleischmannii	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 1069827			Listeria fleischmannii	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 1071			Rhodopila globiformis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1071054			Domibacillus robiginosus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -299,6 +306,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1078085			Paenisporosarcina sp. HGH0030	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 1078086			Streptomyces sp. HGB0020	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 1078087			Parabacteroides sp. HGS0025	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1078087			Parabacteroides sp. HGS0025	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1078088			Plesiomonas sp. HPP0020	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1078089			Bacteroides sp. HPS0048	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 1078090			Coprococcus sp. HPP0074	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -323,7 +331,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1080187			Cupriavidus sp. UYPR2.512	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1080221			Aquimarina longa	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 108028			Arcanobacterium pluranimalium	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1080712			Methanomassiliicoccus luminyensis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 1080712			Methanomassiliicoccus luminyensis	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
+108150			Thermoanaerobacter italicus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 108150			Thermoanaerobacter italicus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 1081644			Candidatus Aquiluna sp. IMCC13023	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1082			Phaeospirillum fulvum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -342,6 +352,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1087449			Aquimarina agarilytica	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 1088			Rhodovibrio sodomensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 108819			Coprothermobacter platensis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+108819			Coprothermobacter platensis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1088740			Candidatus Nitrosoarchaeum koreensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1089444			Dickeya solani	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 108980			Acinetobacter ursingii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -364,6 +375,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1094342			Alcanivorax xenomutans	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 109465			Nocardioides pyridinolyticus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 109472			Bisgaardia hudsonensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+1094755			Bartonella sp. DB5-6	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 1094755			Bartonella sp. DB5-6	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 1094930			Caulobacter sp. JGI 0001002-P11	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1094951			Burkholderiales bacterium JGI 0001003-A5	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -388,6 +400,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 109790			Lactobacillus jensenii	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 1098			Prosthecochloris vibrioformis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1099853			Coprobacter fastidiosus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
+11			Cellulomonas gilvus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 11			Cellulomonas gilvus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 110			Xanthobacter viscosus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1100			Pelodictyon luteolum	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -402,6 +415,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1101195			Methylophilaceae bacterium 11	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 110163			Thermococcus aggregans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 110164			Thermococcus guaymasensis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+110164			Thermococcus guaymasensis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1102			Prosthecochloris aestuarii	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 110319			Nocardioides sp. CF8	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 110321			Sinorhizobium medicae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -465,6 +479,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1114980			Spiroplasma atrichopogonis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 111501			Muricauda ruestringensis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 111504			Bartonella birtlesii	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+111504			Bartonella birtlesii	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 1115632			Arthrobacter sp. 31Y	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 111564			Kineosphaera limosa	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 1115834			Methylophilus sp. 42	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -487,6 +502,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1118054			Brevibacillus massiliensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1118058			Actinomyces sp. ph3	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 111806			Actinomadura umbrina	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1118061			Alistipes obesi	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 1118061			Alistipes obesi	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 111807			Actinomadura yumaensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1118153			Halomonas sp. GFAJ-1	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -880,6 +896,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 116598			Wolbachia endosymbiont of Diaphorina citri	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1166016			Pectobacterium sp. SCC3193	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1166130			Enterobacter sp. R4-368	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1166130			Enterobacter sp. R4-368	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1166158			Methylobacterium sp. L2-4	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1166948			Halomonas xinjiangensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1166950			Candidatus Thiodictyon syntrophicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -955,6 +972,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1172566			Natrinema sp. J7-1	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1173021			cyanobacterium PCC 7702	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1173023			Fischerella sp. PCC 9431	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1173023			Fischerella sp. PCC 9431	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1173024			Fischerella sp. PCC 9605	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1173025			Geitlerinema sp. PCC 7407	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 1173026			Gloeocapsa sp. PCC 7428	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -1020,6 +1038,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 118000			Denitrovibrio acetiphilus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 118060			Enterococcus rotai	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 118062			Methanobacterium congolense	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+118062			Methanobacterium congolense	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1181233			Bacillus sp. BS1(2012)	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 118126			Methanoculleus chikugoensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 118161			Pleurocapsa sp. PCC 7319	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -1078,6 +1097,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 119484			Syntrophobacter fumaroxidans	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 119485			Syntrophobacter pfennigii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 119495			Actinomyces catuli	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+119532			Microcoleus vaginatus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 119532			Microcoleus vaginatus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 119542			Rhodobaca bogoriensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1195457			Streptomyces sp. SM8	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -1213,6 +1233,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1208583			Commensalibacter sp. MX01	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1209355			Acinetobacter sp. MDS7A	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1209359			Staphylococcus sp. MDS7B	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1209359			Staphylococcus sp. MDS7B	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1209364			Bacillus sp. WBUNB004	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1209372			Bacillus sp. WBUNB009	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 120956			Facklamia miroungae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -1242,6 +1263,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1216008			Amphibacillus jilinensis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 1216040			Vibrio marisflavi	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 121608			Paenibacillus koleovorans	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+121608			Paenibacillus koleovorans	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 121616			Micromonospora matsumotoense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 121620			Catellatospora methionotrophica	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1216932			Clostridium bornimense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -1396,6 +1418,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1234606			Gayadomonas joobiniege	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1235457			Ralstonia sp. AU12-08	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1235479			Pelosinus sp. HCF1	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1235479			Pelosinus sp. HCF1	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1235803			Parabacteroides sp. ASF519	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1235835			Anaerotruncus sp. G3(2012)	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1235980			Flavobacterium sp. JGI 0001001-D01	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -1491,6 +1514,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1259806			Pseudomonas sp. LAIL14HWK12:I6	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1259809			Proteobacteria bacterium JGI 0000113-D06	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1259844			Pseudomonas sp. FGI182	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+1260			Finegoldia magna	gram stain negative	TRUE	Madin_2020	sometimes	2 of 5 records
 1260			Finegoldia magna	gram stain positive	TRUE	Madin_2020	usually	3 of 5 records
 1260624			Idiomarina sp. 28-8	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1261			Peptostreptococcus anaerobius	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -1565,6 +1589,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1267973			Arthrobacter sp. H5	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1267981			Arthrobacter sp. H20	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1268254			Peptoniphilus timonensis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1268254			Peptoniphilus timonensis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1268298			beta proteobacterium JGI 0001001-A11	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1268301			delta proteobacterium JGI 0002000-E07	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1268303			Rhodococcus sp. AW25M09	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -1635,6 +1660,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1280948			Hyphomonas atlantica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1281			Staphylococcus carnosus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 128104			Lentzea violacea	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1282			Staphylococcus epidermidis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1282			Staphylococcus epidermidis	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 1282876			alpha proteobacterium Mf 1.05b.01	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1282886			Aeromonas sp. MDS8	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -1712,6 +1738,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1295392			Photobacterium gaetbulicola	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1295609			Thermodesulfobacterium geofontis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 1295642			Parageobacillus genomosp. 1	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1295642			Parageobacillus genomosp. 1	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 129578			Oceanimonas baumannii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1296			Staphylococcus sciuri	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1296537			Enterococcus xiangfangensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -1738,6 +1765,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1298913			Comamonadaceae bacterium URHA0028	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1298959			Phenylobacterium conjunctum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1299			Deinococcus radiodurans	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+1299			Deinococcus radiodurans	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 129910			Arthrospira maxima	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 129921			Amycolatopsis keratiniphila	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 129922			Saccharomonospora halophila	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -1774,6 +1802,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 130796			Crossiella equi	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1308			Streptococcus thermophilus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 1309			Streptococcus mutans	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
+1310			Streptococcus sobrinus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 1310			Streptococcus sobrinus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 131080			Limnobacter thiooxidans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 131081			Corynebacterium capitovis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -1786,8 +1815,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1312954			Arthrobacter sp. Br18	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1312959			Arthrobacter sp. H14	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1312978			Arthrobacter sp. H41	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
+1313			Streptococcus pneumoniae	gram stain negative	TRUE	Madin_2020	sometimes	2 of 5 records
 1313			Streptococcus pneumoniae	gram stain positive	TRUE	Madin_2020	usually	3 of 5 records
 131318			Corynebacterium felinum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1314			Streptococcus pyogenes	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 1314			Streptococcus pyogenes	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 131540			Thiomicrorhabdus arctica	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 131568			Kineococcus radiotolerans	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -1892,6 +1923,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1347369			Bacillus dielmoensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1348			Streptococcus parauberis	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 134821			Ureaplasma parvum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+134821			Ureaplasma parvum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 1348249			Methanobrevibacter boviskoreani	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1348429			Effusibacillus lacus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 134849			Cryptosporangium aurantiacum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -1904,11 +1936,17 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1350461			Synechococcus sp. UTEX 2973	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 135069			Microbacterium sp. oral strain C24KA	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 135079			Selenomonas dianae	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+135079			Selenomonas dianae	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 135080			Selenomonas flueggei	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+135080			Selenomonas flueggei	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 135082			Selenomonas infelix	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+135082			Selenomonas infelix	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 135083			Selenomonas noxia	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+135083			Selenomonas noxia	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
+1351			Enterococcus faecalis	gram stain negative	TRUE	Madin_2020	sometimes	2 of 6 records
 1351			Enterococcus faecalis	gram stain positive	TRUE	Madin_2020	usually	4 of 6 records
 135193			Paenibacillus daejeonensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
+1352			Enterococcus faecium	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1352			Enterococcus faecium	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 1352929			Frankia sp. CcI6	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1353			Enterococcus gallinarum	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
@@ -1938,6 +1976,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 135739			Marinobacter lutaoensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 135740			Paracoccus kondratievae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 135742			Paracoccus methylutens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+1358			Lactococcus lactis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1358			Lactococcus lactis	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 1358104			Brachyspira sp. G79	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 135826			Jeotgalibacillus alimentarius	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -1964,6 +2003,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 13688			Novosphingobium capsulatum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 13689			Sphingomonas paucimobilis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 13690			Sphingobium yanoikuyae	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+13690			Sphingobium yanoikuyae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 136992			Methylosarcina lacus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 136993			Methylosinus sp. LW4	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 136994			Methylosinus sp. LW8	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -2063,6 +2103,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1399			Bacillus firmus	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1399115			Exiguobacterium sp. MH3	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 14			Dictyoglomus thermophilum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+14			Dictyoglomus thermophilum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 140			Borrelia hermsii	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 140057			Roseospira marina	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 140058			Roseospira navarrensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -2120,6 +2161,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1420917			Marinobacter salarius	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1421			Lysinibacillus sphaericus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 1422			Geobacillus stearothermophilus	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
+1423			Bacillus subtilis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1423			Bacillus subtilis	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 1423321			Bacillus sp. SJS	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 142461			Vibrio ichthyoenteri	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -2135,6 +2177,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 142834			Gluconacetobacter azotocaptans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 142864			Cylindrospermum stagnale	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 142877			Desulfitobacterium metallireducens	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+142877			Desulfitobacterium metallireducens	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1429438			Candidatus Entotheonella sp. TSY1	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1429439			Candidatus Entotheonella sp. TSY2	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 143			Borrelia anserina	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -2145,6 +2188,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 143224			Zobellia uliginosa	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1432792			Methylocaldum marinum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 143361			Filifactor alocis	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+143361			Filifactor alocis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 1433843			Siccationidurans metalli	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 143393			[Eubacterium] sulci	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 143495			Aneurinibacillus thermoaerophilus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -2184,7 +2228,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1451261			Microbacterium sp. MRS-1	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1452			Bacillus atrophaeus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 145261			Methanothermobacter wolfeii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+145262			Methanothermobacter thermautotrophicus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 145262			Methanothermobacter thermautotrophicus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
+145263			Methanothermobacter marburgensis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 145263			Methanothermobacter marburgensis	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 145285			Nocardia ignorata	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 145287			Novosphingobium lentum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -2203,6 +2249,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1457219			Lactobacillus modestisalitolerans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1457250			Halapricum salinum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1458			Bacillus fastidiosus	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1458			Bacillus fastidiosus	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1458425			Comamonadaceae bacterium A1	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1458426			Comamonadaceae bacterium B1	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1458463			Butyrivibrio sp. AE2032	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -2348,6 +2395,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1495336			Methanobacterium sp. SMA-27	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1495650			Thermoflexus hugenholtzii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1495853			Paenibacillus sp. VT-400	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+1496			Clostridioides difficile	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 1496			Clostridioides difficile	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 1496689			Arthrobacter sp. L77	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1496721			Butyrivibrio sp. AE3003	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -2387,6 +2435,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1502723			Frankia sp. CpI1-S	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1502734			Frankia sp. CpI1-P	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1502943			Veillonella seminalis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+1502943			Veillonella seminalis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1503			Gottschalkia purinilyticum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 150336			Clostridium thiosulfatireducens	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 150340			Vibrio antiquarius	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -2426,6 +2475,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 151416			Bosea vestrisii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 151419			Bosea massiliensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 151454			Bosea eneae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+1515			Ruminiclostridium thermocellum	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 1515			Ruminiclostridium thermocellum	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 1515610			Prauserella sp. Am3	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1515612			Sphingopyxis fribergensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -2608,9 +2658,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1563			Desulfosporosinus orientis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1563157			Pseudomonas endophytica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1564			Desulfotomaculum ruminis	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+1564			Desulfotomaculum ruminis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 1564138			Arcobacter faecis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 156453			Streptomyces yunnanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 156456			Anaeroglobus geminatus	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+156456			Anaeroglobus geminatus	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 156457			Methanocalculus chunghsingensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 1565			Desulfotomaculum nigrificans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1565415			Streptomyces xiaopingdaonensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -2655,6 +2707,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1574624			[Propionibacterium] namnetense	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 157463			Fructobacillus ficulneus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 157465			Nocardiopsis composta	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1575			Leifsonia xyli	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 1575			Leifsonia xyli	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 157592			Sterolibacterium denitrificans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1576596			Pseudovibrio sp. POLY-S9	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -2669,6 +2722,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 157782			Pseudomonas parafulva	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 157783			Pseudomonas cremoricolorata	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 157784			Pseudomonas thermotolerans	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+157784			Pseudomonas thermotolerans	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 1577895			Leisingera sp. ANG-M1	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1577896			Leisingera sp. ANG-Vp	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1577897			Leisingera sp. ANG-DT	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -2689,6 +2743,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 157910			Paraburkholderia tuberum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1579316			Halocynthiibacter arcticus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 158			Treponema denticola	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+158			Treponema denticola	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 1580			Lactobacillus brevis	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 158080			Chromohalobacter salexigens	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 1581			Lactobacillus buchneri	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
@@ -2712,6 +2767,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 158836			Enterobacter hormaechei	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 158841			Leminorella richardii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 158847			Megamonas hypermegale	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+158847			Megamonas hypermegale	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 158849			Moellerella wisconsensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 158850			Providencia rustigianii	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 158852			Trabulsiella guamensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -2836,6 +2892,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 162209			Paenibacillus naphthalenovorans	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1623			Lactobacillus ruminis	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 162393			Microbacterium aurantiacum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1624			Lactobacillus salivarius	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1624			Lactobacillus salivarius	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 162426			Microbacterium hominis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 162496			Glutamicibacter creatinolyticus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -2851,6 +2908,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1630406			Tamlana sp. s12	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1631			Fructobacillus fructosus	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 163164			Wolbachia endosymbiont of Drosophila melanogaster	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
+1632			Lactobacillus oris	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 1632			Lactobacillus oris	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 163202			Corynebacterium appendicis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1633			Lactobacillus vaginalis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -2873,6 +2931,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 163875			Arthrobacter monumenti	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 163877			Virgibacillus necropolis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 163879			Bacillus decolorationis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1639			Listeria monocytogenes	gram stain negative	TRUE	Madin_2020	sometimes	2 of 5 records
 1639			Listeria monocytogenes	gram stain positive	TRUE	Madin_2020	usually	3 of 5 records
 163908			Anabaena sp. PCC 7108	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 164			Treponema pectinovorum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -2982,16 +3041,19 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 167965			uncultured Termite group 1 bacterium	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1679753			Streptomyces sp. NBRC 110468	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1680			Bifidobacterium adolescentis	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
+1681			Bifidobacterium bifidum	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1681			Bifidobacterium bifidum	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 168169			Candidatus Ishikawaella capsulata	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 168275			Psychromonas arctica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 168276			Rhodococcus tukisamuensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1683			Bifidobacterium angulatum	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
+168384			Marvinbryantia formatexigens	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 168384			Marvinbryantia formatexigens	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 1684			Bifidobacterium asteroides	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 168469			Pseudomonas costantinii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 168471			Laribacter hongkongensis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 168480			Gordonia namibiensis	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
+1685			Bifidobacterium breve	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1685			Bifidobacterium breve	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 1686			Bifidobacterium catenulatum	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 168695			Salinispora tropica	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
@@ -3028,6 +3090,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1698			Brevibacterium epidermidis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 169960			Arthrobacter gandavensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 17			Methylophilus methylotrophus	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+17			Methylophilus methylotrophus	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1702169			Pseudoalteromonas sp. SW0106-04	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1703			Brevibacterium linens	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 170367			Paenibacillus anaericanus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -3043,7 +3106,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 170674			Vibrio pacinii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 170679			Vibrio chagasii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1708			Cellulomonas fimi	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+1708			Cellulomonas fimi	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 170861			Methanosarcina lacustris	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+170861			Methanosarcina lacustris	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 1708715			Ensifer aridi	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1709			Cellulomonas biazotea	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 170994			Brevibacterium paucivorans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -3080,6 +3145,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 171692			Virgibacillus carmonensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 171693			Oceanobacillus picturae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 171695			Thermodesulfatator indicus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
+1717			Corynebacterium diphtheriae	gram stain negative	TRUE	Madin_2020	sometimes	2 of 6 records
 1717			Corynebacterium diphtheriae	gram stain positive	TRUE	Madin_2020	usually	4 of 6 records
 1718			Corynebacterium glutamicum	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 171869			Thermovibrio ruber	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -3203,6 +3269,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 178001			Leuconostoc inhae	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1781			Mycobacterium marinum	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 1782			Mycobacterium nonchromogenicum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+178214			Facklamia hominis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 178214			Facklamia hominis	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 1783			Mycobacterium scrofulaceum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 178337			Cohnella hongkongensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -3235,6 +3302,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1795			Mycobacterium neoaurum	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 1796			Mycobacterium senegalense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 179628			Clostridium colicanis	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+179628			Clostridium colicanis	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 179636			Alicycliphilus denitrificans	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 179637			Halococcus dombrowskii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1797			Mycobacterium thermoresistibile	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -3318,6 +3386,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 182900			Persephonella guaymasensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 183			Leptonema illini	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 1830			Rhodococcus ruber	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
+1833			Rhodococcus erythropolis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 1833			Rhodococcus erythropolis	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 183417			Proteus hauseri	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1835254			Polynucleobacter duraquae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -3331,6 +3400,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1839780			Streptomyces sp. MnatMP-M17	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1839781			Streptomyces sp. OspMP-M43	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 184064			Thermodesulfobium narugense	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+184064			Thermodesulfobium narugense	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 184065			Salinicola halophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 184067			Kushneria indalinina	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 184072			Cosenzaea myxofaciens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -3351,10 +3421,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 184924			Pseudoalteromonas maricaloris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1850			Actinopolyspora halophila	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 185007			Pseudobutyrivibrio xylanivorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+185008			Butyrivibrio hungatei	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 185008			Butyrivibrio hungatei	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 185139			Rubrobacter taiwanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1851395			Actinomyces sp. Chiba101	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1852			Saccharomonospora viridis	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+1852			Saccharomonospora viridis	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 185243			Propionicimonas paludicola	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1852522			Paenibacillus aquistagni	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 185293			Prevotella oryzae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -3372,6 +3444,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 185949			Sphingomonas aurantiaca	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 185950			Sphingomonas faeni	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 185951			Sphingomonas aerolata	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+1861			Geodermatophilus obscurus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 1861			Geodermatophilus obscurus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 186116			Parageobacillus thermantarcticus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 186189			Xylanimonas cellulosilytica	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
@@ -3380,12 +3453,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 186280			Xanthobacter aminoxidans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1863			Dermatophilus congolensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 186490			Candidatus Baumannia cicadellinicola	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+186490			Candidatus Baumannia cicadellinicola	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 186571			Tenacibaculum skagerrakense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1866			Actinoplanes missouriensis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 186651			Microvirga subterranea	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1867			Actinoplanes teichomyceticus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 186733			Anaplasma bovis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 186739			Bartonella washoensis	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+186739			Bartonella washoensis	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 1868			Actinoplanes digitatis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1869			Actinoplanes utahensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 186931			Thioalkalivibrio nitratireducens	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -3397,6 +3472,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 187303			Methylocystis sp. SC2	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 187304			Labrenzia aggregata	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 187326			Megasphaera micronuciformis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+187326			Megasphaera micronuciformis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 187327			Acidaminococcus intestini	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 187328			Veillonella montpellierensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1874			Micromonospora chalcea	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -3541,9 +3617,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1922			Streptomyces plicatus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1923			Streptomyces phaeochromogenes	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 192387			Alicyclobacillus sendaiensis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+192387			Alicyclobacillus sendaiensis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 192389			Chryseobacterium daecheongense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1924			Streptomyces purpurascens	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 192421			Planococcus maritimus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+1927			Streptomyces rimosus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 1927			Streptomyces rimosus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 1928			Streptomyces rochei	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 192812			Erythrobacter flavus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -3554,6 +3632,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 192904			Kriegella aquimaris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 192994			Thermoleophilum minutum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 193			Azospirillum lipoferum	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+193			Azospirillum lipoferum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 1930			Streptomyces scabiei	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 1930071			Sporomusaceae bacterium MMFC1	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 1931			Streptomyces sp.	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -3588,6 +3667,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 194867			Sphingomonas sp. ATCC 31555	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 194963			Sinorhizobium americanum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 195			Campylobacter coli	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+195			Campylobacter coli	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 1950			Streptomyces peucetius	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 195064			Ectothiorhodospira mobilis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 195088			Halobacillus karajensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -3624,6 +3704,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1969			Streptomyces chartreusis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 196914			Actinoplanes friuliensis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 197			Campylobacter jejuni	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+197			Campylobacter jejuni	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 1970			Streptomyces morookaense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 1971			Streptomyces noursei	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 197162			Deferribacter desulfuricans	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -3752,6 +3833,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2039			Tropheryma whipplei	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 203907			Candidatus Blochmannia floridanus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 204			Campylobacter showae	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+204			Campylobacter showae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 204038			Dickeya dadantii	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 204039			Dickeya dianthicola	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 204042			Dickeya zeae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -3834,27 +3916,36 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2094			Mycoplasma arginini	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 209446			Candidatus Mycoplasma haemominutum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2095			Mycoplasma capricolum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+2095			Mycoplasma capricolum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 2096			Mycoplasma gallisepticum	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+2096			Mycoplasma gallisepticum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 209639			Marinobacter lipolyticus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 209649			Ferrithrix thermotolerans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2097			Mycoplasma genitalium	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+2097			Mycoplasma genitalium	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 2098			Mycoplasma hominis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 209878			Psychrobacter muriicola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 209897			Afifella pfennigii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2099			Mycoplasma hyopneumoniae	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+2099			Mycoplasma hyopneumoniae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 21			Phenylobacterium immobile	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 210			Helicobacter pylori	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 2100			Mycoplasma hyorhinis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2102			Mycoplasma mycoides	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+2102			Mycoplasma mycoides	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 2104			Mycoplasma pneumoniae	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+2104			Mycoplasma pneumoniae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 210408			Thiorhodococcus drewsii	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 2105			Mycoplasma leachii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 210512			Sandarakinorhabdus limnophila	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 2106			Mycoplasma corogypsi	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 210623			Anoxynatronum sibiricum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 2107			Mycoplasma pulmonis	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+2107			Mycoplasma pulmonis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 2109			Mycoplasma synoviae	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+2109			Mycoplasma synoviae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 2110			Mycoplasma agalactiae	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+2110			Mycoplasma agalactiae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 2111			Mycoplasma arthritidis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 211113			Kibdelosporangium philippinense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 211114			Allokutzneria albata	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -3864,6 +3955,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2114			Entomoplasma ellychniae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 211460			Afipia massiliensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2115			Mycoplasma fermentans	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+2115			Mycoplasma fermentans	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 211502			Conchiformibius kuhniae	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 211589			Herbaspirillum chlorophenolicum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 2116			Mycoplasma iowae	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -3871,6 +3963,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 211669			Psychromonas hadalis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 2117			Mycoplasma lipophilum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2118			Mycoplasma mobile	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+2118			Mycoplasma mobile	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 2119			Mycoplasma muris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 212			Helicobacter acinonychis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 2120			Mycoplasma neurolyticum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -3879,6 +3972,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2121			Mycoplasma orale	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 2122			Mycoplasma pirum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2123			Mycoplasma putrefaciens	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+2123			Mycoplasma putrefaciens	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 2124			Mycoplasma salivarium	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 212403			Psychrobacter okhotskensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2125			Mycoplasma sualvi	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -3889,8 +3983,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 212765			Mycobacterium madagascariense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 212767			Mycobacterium sp. JS623	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 2128			Mycoplasma flocculare	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+2128			Mycoplasma flocculare	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 213			Helicobacter cinaedi	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 2130			Ureaplasma urealyticum	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+2130			Ureaplasma urealyticum	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 213185			Methanotorris formicicus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 213224			Geothermobacter ehrlichii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 213231			Methanocaldococcus indicus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -3926,6 +4022,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 215			Helicobacter fennelliae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 2150			Acholeplasma modicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2151			Mesoplasma florum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+2151			Mesoplasma florum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 215200			Peptostreptococcus russellii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 215220			Komagataeibacter swingsii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 215221			Komagataeibacter rhaeticus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -3942,13 +4039,16 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 215813			Dinoroseobacter shibae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 216			Helicobacter muridarum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2161			Methanobacterium bryantii	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+2161			Methanobacterium bryantii	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 216142			Pseudomonas rhizosphaerae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+2162			Methanobacterium formicicum	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 2162			Methanobacterium formicicum	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 2163			Methanobacterium ivanovii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 216427			Mesoplasma chauliocola	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 216463			Lactobacillus spicheri	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 216465			Polaromonas naphthalenivorans	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 216778			Stenotrophomonas rhizophila	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
+216816			Bifidobacterium longum	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 216816			Bifidobacterium longum	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 216874			Mesoplasma corruscae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 216903			Chryseobacterium molle	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -3978,6 +4078,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 217070			Stella vacuolata	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 217090			Paenibacillus pasadenensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 2171			Methanobacterium palustre	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+2171			Methanobacterium palustre	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 217141			Arcicella aquatica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 217158			Clostridium ragsdalei	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 217159			Clostridium carboxidivorans	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -3988,6 +4089,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 217204			Achromobacter insolitus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 217215			Mesoplasma grammopterae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 217219			Neomegalonema perideroedes	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
+2173			Methanobrevibacter smithii	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 2173			Methanobrevibacter smithii	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 217495			Bacillus ruris	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 217511			Fulvimarina pelagi	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -4004,6 +4106,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 218208			Desulfatibacillum aliphaticivorans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 218284			Bacillus vietnamensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 218490			Polaribacter butkevichii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+218538			Dialister invisus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 218538			Dialister invisus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 2186			Methanothermococcus thermolithotrophicus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 218670			Marinobacter excellens	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -4052,12 +4155,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 220752			Shewanella gaetbuli	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 220753			Halobacillus locisalis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 220754			Jeotgalibacillus campisalis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+2208			Methanosarcina barkeri	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 2208			Methanosarcina barkeri	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 2209			Methanosarcina mazei	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 220926			Mycoplasma coccoides	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 220927			Mycobacterium saskatchewanense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 220990			Asaia krungthepensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2210			Methanosarcina thermophila	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+2210			Methanosarcina thermophila	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 221027			Treponema putidum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 221028			Paenibacillus favisporus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 221066			Kordia algicida	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -4070,6 +4175,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2214			Methanosarcina acetivorans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 221404			Actinobacillus anseriformium	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2215			Methanosarcina vacuolata	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+2215			Methanosarcina vacuolata	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 221725			Kitasatospora putterlickiae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 221799			Planococcus maitriensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 221822			Phaeobacter inhibens	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -4105,6 +4211,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 224436			Tepidiphilus succinatimandens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 224438			Marichromatium indicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2246			Haloferax volcanii	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+2246			Haloferax volcanii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 2247			Halorubrum lacusprofundi	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 224719			Methanobrevibacter sp. AbM4	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 2248			Halorubrum saccharovorum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -4257,6 +4364,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 231455			Dyella japonica	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 2315			Methanoplanus limicola	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 2317			Methanosphaera stadtmanae	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+2317			Methanosphaera stadtmanae	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
+2320			Methanopyrus kandleri	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 2320			Methanopyrus kandleri	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 2322			Methanohalobium evestigatum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 232216			Chryseobacterium koreense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -4269,6 +4378,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2325			Thermoanaerobacter kivui	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 232721			Acidovorax sp. JS42	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 233055			Desulfitobacterium dichloroeliminans	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+233055			Desulfitobacterium dichloroeliminans	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 2331			Halanaerobium praevalens	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 233100			Ectothiorhodosinus mongolicus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 233101			Methylobacillus pratensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -4320,6 +4430,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2374			Acetonema longum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 237446			Lactobacillus kitasatonis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 237530			Paenibacillus cineris	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+237576			Oribacterium sinus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 237576			Oribacterium sinus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 237609			Pseudomonas alkylphenolica	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 237610			Pseudomonas psychrotolerans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -4526,6 +4637,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 255723			Slackia faecicanis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 255984			Erythrobacter aquimaris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 256			Myroides odoratus	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+256			Myroides odoratus	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 256034			Glycomyces lechevalierae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 256035			Glycomyces arizonensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 256037			Glycomyces algeriensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -4540,6 +4652,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 256731			Volucribacter amazonae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 256821			Gulosibacter molinativorax	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 256826			Methanobacterium aarhusense	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+256826			Methanobacterium aarhusense	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 256839			Shewanella decolorationis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 256847			Lentisphaera araneosa	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 257003			Sphingomonas phyllosphaerae	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -4599,6 +4712,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 261524			Mycobacterium liflandii	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 261654			Micromonospora auratinigra	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 261685			Thermosinus carboxydivorans	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+261685			Thermosinus carboxydivorans	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 261934			Pleomorphomonas oryzae	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 261964			Kangiella koreensis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 261965			Kangiella aquimarina	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -4714,6 +4828,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 267854			Actinomadura napierensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 267990			Lebetimonas acidiphila	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 268407			Paenibacillus wynnii	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+268407			Paenibacillus wynnii	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 268410			Rhodovarius lipocyclicus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 268735			Halonotius pteroides	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 269069			Methylobacterium aminovorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -4732,8 +4847,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 269774			Atopococcus tabaci	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 2698			Heliobacterium chlorum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2699			Heliobacterium gestii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+2702			Gardnerella vaginalis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 2702			Gardnerella vaginalis	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 270250			Bartonella rattimassiliensis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+270250			Bartonella rattimassiliensis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 270343			Azomonas insignis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 270344			Azotobacter nigricans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 270345			Azotobacter armeniacus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -4764,6 +4881,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 271160			Nicoletella semolina	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 2714			Aquifex pyrophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 271417			Aeromonas molluscorum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+271417			Aeromonas molluscorum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 271420			Pseudomonas xanthomarina	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 271431			Arthrobacter castelli	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 271432			Arthrobacter pigmenti	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -4772,6 +4890,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2718			Cardiobacterium hominis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 272129			[Oscillatoria] sp. PCC 6506	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 272131			Nostoc punctiforme	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+272131			Nostoc punctiforme	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 272161			Arthrobacter stackebrandtii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 272164			Olleya marilimosa	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 272210			Leucobacter albus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -4792,6 +4911,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 273251			Paraburkholderia sabiae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 273376			Sphaerochaeta coccoides	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 273384			Brevibacterium aurantiacum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+2734			Symbiobacterium thermophilum	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 2734			Symbiobacterium thermophilum	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 273527			Exiguobacterium aestuarii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 273528			Exiguobacterium marinum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -4804,6 +4924,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2739			Vagococcus salmoninarum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 274			Thermus thermophilus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 2741			Peptococcus niger	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+2741			Peptococcus niger	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 2743			Marinobacter hydrocarbonoclasticus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 274537			Chlorobaculum limnaeum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 274539			Chlorobaculum parvum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -4838,6 +4959,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 279208			Paenibacillus hodogayensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 279215			Bacillus alveayuensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 279262			Nocardia mexicana	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+279262			Nocardia mexicana	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 279356			Aquimarina muelleri	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 279359			Gramella echinicola	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 279360			Roseivirga ehrenbergii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -4860,6 +4982,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 280238			Nocardiopsis rhodophaea	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 280239			Nocardiopsis chromatogenes	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 280240			Nocardiopsis baichengensis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
+28025			Bifidobacterium animalis	gram stain negative	TRUE	Madin_2020	sometimes	2 of 6 records
 28025			Bifidobacterium animalis	gram stain positive	TRUE	Madin_2020	usually	4 of 6 records
 28026			Bifidobacterium pseudocatenulatum	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 28028			Corynebacterium flavescens	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -4878,6 +5001,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28047			Mycobacterium confluentis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 280473			Aquiflexum balticum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 280483			Thalassotalea loyana	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+28049			Acidothermus cellulolyticus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 28049			Acidothermus cellulolyticus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 28051			Lachnospira multipara	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 28052			Lachnospira pectinoschiza	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -4936,7 +5060,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28131			Prevotella intermedia	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 28132			Prevotella melaninogenica	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 28133			Prevotella nigrescens	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+28133			Prevotella nigrescens	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 28134			Prevotella oralis	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+28134			Prevotella oralis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 28135			Prevotella oris	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 28136			Prevotella oulorum	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 281361			Flavobacterium denitrificans	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -4984,6 +5110,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28223			Desulfobacula toluolica	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 28224			Mesoplasma seiffertii	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 28227			Mycoplasma penetrans	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+28227			Mycoplasma penetrans	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 28229			Colwellia psychrerythraea	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 28230			Carnobacterium alterfunditum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 282305			Dietzia papillomatosis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -5045,6 +5172,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28448			Komagataeibacter xylinus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 28449			Neisseria subflava	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 28450			Burkholderia pseudomallei	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+28450			Burkholderia pseudomallei	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 28452			Leptospira alstonii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 28454			Sphingobacterium multivorum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 284570			Microbacterium natoriense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -5139,6 +5267,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 288995			Devosia limi	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 289003			Pseudomonas borbori	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 28901			Salmonella enterica	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+28901			Salmonella enterica	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 28903			Mycoplasma bovis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 28906			Caedibacter caryophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 28907			Caedibacter taeniospiralis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5166,6 +5295,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 291045			Arthrobacter psychrochitiniphilus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 291048			Caminibacter mediatlanticus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 291112			Photorhabdus asymbiotica	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
+291176			Bartonella melophagi	gram stain negative	TRUE	Madin_2020	sometimes	2 of 5 records
 291176			Bartonella melophagi	gram stain positive	TRUE	Madin_2020	usually	3 of 5 records
 291179			Subsaximicrobium wynnwilliamsii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 291180			Subsaximicrobium saxinquilinus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5199,6 +5329,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 292566			Dactylococcopsis salina	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 292733			Psychrobacter aquimaris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 292734			Psychrobacter namhaensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+292800			Flavonifractor plautii	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 292800			Flavonifractor plautii	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 292806			Lysinibacillus massiliensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 292807			Desulfonatronum cooperativum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5208,6 +5339,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29288			Natronococcus occultus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 29291			Methanococcoides burtonii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 29292			Pyrococcus abyssi	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+29292			Pyrococcus abyssi	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 29299			Nocardioides plantarum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 293			Brevundimonas diminuta	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 29301			Streptomyces arenae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -5232,6 +5364,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29323			Thermoanaerobacter brockii	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 293256			Desulfovibrio alkalitolerans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 29329			Thermoanaerobacterium xylanolyticum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+29329			Thermoanaerobacterium xylanolyticum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 293371			Lactobacillus oligofermentans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 293386			Bacillus stratosphericus	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 293387			Bacillus altitudinis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -5253,8 +5386,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29357			Clostridium collagenovorans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 29359			Asaccharospora irregularis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 29360			Cellulosilyticum lentocellum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+29360			Cellulosilyticum lentocellum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 29361			Tyzzerella nexilis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 29362			[Clostridium] papyrosolvens	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+29362			[Clostridium] papyrosolvens	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 29363			Clostridium paraputrificum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 29364			[Clostridium] polysaccharolyticum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 293647			Byssovorax cruenta	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5284,7 +5419,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29396			Saccharococcus thermophilus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 29398			Lactobacillus heterohiochii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 294			Pseudomonas fluorescens	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+294			Pseudomonas fluorescens	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 29401			Pseudonocardia halophobica	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+29405			Microlunatus phosphovorus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 29405			Microlunatus phosphovorus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 29408			Rhodoplanes elegans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 29409			Rhodoplanes roseus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5330,6 +5467,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29497			Vibrio splendidus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 29498			Vibrio tubiashii	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 29501			Mycoplasma haemofelis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+29501			Mycoplasma haemofelis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 29503			Desulfomicrobium escambiense	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 29505			Desulfovibrio longreachensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 29506			Leptospira inadai	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -5358,6 +5496,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29534			Flavobacterium saccharophilum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 295352			Streptomyces bangladeshensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 29536			Flavobacterium succinicans	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+29536			Flavobacterium succinicans	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 29539			Thermoleophilum album	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 29541			Methylophilus sp.	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 295419			Rubellimicrobium thermophilum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -5379,6 +5518,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29560			Mycoplasma imitans	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 29561			Mycoplasma meleagridis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 29562			Mycoplasma ovipneumoniae	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+29562			Mycoplasma ovipneumoniae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 29563			Halanaerobium salsuginis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 29570			Halomonas meridiana	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 29571			Halomonas subglaciescola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5439,8 +5579,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 301092			Marinococcus halotolerans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 301141			Petrotoga halophila	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 301148			Caldibacillus debilis	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+301148			Caldibacillus debilis	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 301154			Sphingomonas oligophenolica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 301301			Roseburia hominis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+301301			Roseburia hominis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 301302			Roseburia faecis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 301375			Methanosaeta harundinacea	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 301388			Cellulomonas bogoriensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -5517,6 +5659,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 308892			Bacillus boroniphilus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 308994			Dialister propionicifaciens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 309120			Dialister micraerophilus	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+309120			Dialister micraerophilus	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 309483			Exiguobacterium soli	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 309788			Lysinibacillus boronitolerans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 309797			Chrysiogenes arsenatis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -5549,6 +5692,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 310781			Streptomyces guanduensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 310782			Streptomyces paucisporeus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 310783			Deinococcus deserti	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+310783			Deinococcus deserti	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 311180			Yangia pacifica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 311182			Denitratisoma oestradiolicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 311194			Halobacillus yeomjeoni	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -5623,6 +5767,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 314344			Mariprofundus ferrooxydans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 314607			beta proteobacterium KB13	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 314722			Pseudoxanthomonas suwonensis	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+314722			Pseudoxanthomonas suwonensis	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
+315358			Spiroplasma eriocheiris	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 315358			Spiroplasma eriocheiris	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 315405			Streptococcus gallolyticus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 315421			Alteromonas hispanica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5674,6 +5820,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 319706			Mycobacterium phocaicum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 319707			Mycobacterium aubagnense	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 31971			[Eubacterium] dolichum	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
+31973			Eggerthia catenaformis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 31973			Eggerthia catenaformis	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 319939			Pseudomonas otitidis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 319947			Streptomyces durmitorensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -5747,6 +5894,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 324617			Aeromonas tecta	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 324679			Spirochaeta dissipatitropha	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 324767			Bacillus infantis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+324767			Bacillus infantis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 324768			Bacillus idriensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 324851			Kribbella karoonensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 324852			Kribbella swartbergensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -5779,6 +5927,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 328515			Nonlabens dokdonensis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 328517			Dokdonella fugitiva	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 328692			Deinococcus aquaticus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+328812			Parabacteroides goldsteinii	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 328812			Parabacteroides goldsteinii	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 328813			Alistipes onderdonkii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 328814			Alistipes shahii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -5797,6 +5946,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 329993			Colwellia aestuarii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 33			Myxococcus fulvus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 330			Pseudomonas pseudoalcaligenes	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+330			Pseudomonas pseudoalcaligenes	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 33002			Desulfurella acetivorans	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 33007			Actinomyces neuii	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 33008			Rhodococcus globerulus	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -5823,9 +5973,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 33040			Streptococcus milleri	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 33043			Coprococcus eutactus	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 33044			Bartonella doshiae	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+33044			Bartonella doshiae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 33045			Bartonella grahamii	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 33046			Bartonella taylorii	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+33046			Bartonella taylorii	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 33047			Bartonella vinsonii	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+33047			Bartonella vinsonii	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 33049			Rhodobacter veldkampii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 33050			Sphingopyxis macrogoltabida	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 33051			Sphingomonas sanguinis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -5909,6 +6062,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 334736			Sporosarcina soli	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 334771			Ignisphaera aggregans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 334852			Methylobacterium oryzae	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+334852			Methylobacterium oryzae	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 334858			Goodfellowiella coeruleoviolacea	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 335017			Rhizobium mesosinicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 335020			Mesorhizobium albiziae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -5952,6 +6106,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 337895			Actinomadura hallensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 338077			Nocardioides lentus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 338188			Bacteroides finegoldii	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+338188			Bacteroides finegoldii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 338192			Nitrosopumilus maritimus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 338565			Erwinia tasmaniensis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 338584			Polymorphospora rubra	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -6080,6 +6235,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 34073			Variovorax paradoxus	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 34078			Scytonema hofmannii	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 34085			Riemerella anatipestifer	gram stain negative	TRUE	Madin_2020	usually	4 of 6 records
+34085			Riemerella anatipestifer	gram stain positive	TRUE	Madin_2020	sometimes	2 of 6 records
 34086			Pedobacter antarcticus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 34087			Sphingobacterium faecium	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 34090			Pelodictyon phaeoclathratiforme	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -6235,6 +6391,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 354356			Niastella koreensis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 354426			Herbidospora yilanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 35517			[Eubacterium] brachy	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+35517			[Eubacterium] brachy	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 35518			[Eubacterium] nodatum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 35519			Mogibacterium timidum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 355243			Amphritea atlantica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -6266,6 +6423,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 356901			Bacillus sp. L1	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 35700			Heliophilum fasciatum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 35701			Heliobacterium modesticaldum	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+35701			Heliobacterium modesticaldum	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 35703			Citrobacter amalonaticus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 357233			Siccibacter turicensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 357240			Franconibacter helveticus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -6297,6 +6455,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 357808			Roseiflexus sp. RS-1	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 35783			Enterococcus sp.	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 35785			Clostridium maximum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+35786			Coprothermobacter proteolyticus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 35786			Coprothermobacter proteolyticus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 35787			Lactobacillus pontis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 35788			Rickettsia africae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -6326,6 +6485,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 358220			Acidovorax sp. KKS102	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 35825			Pseudobacteroides cellulosolvens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 35830			Acetivibrio cellulolyticus	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+35830			Acetivibrio cellulolyticus	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 35833			Bilophila wadsworthia	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 35835			Hydrogenobacter hydrogenophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 35837			Desulfacinum infernum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -6335,6 +6495,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 358687			Chryseobacterium hispanicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 358707			Nocardia harenae	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 358742			[Clostridium] aldenense	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+358742			[Clostridium] aldenense	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 358743			[Clostridium] citroniae	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 358766			Methanoregula boonei	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 358823			Streptomyces olindensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -6388,6 +6549,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 362837			Spiroplasma cantharicola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 363259			Kaistia granuli	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 363265			Prevotella stercorea	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
+363277			Ktedonobacter racemifer	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 363277			Ktedonobacter racemifer	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 363331			Chryseobacterium taiwanense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 363630			Nakamurella flavida	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -6474,6 +6636,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 367336			Rhodobacterales bacterium HTCC2255	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 36738			Halococcus salifodinae	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 36740			Dermabacter hominis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+36740			Dermabacter hominis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 36741			Mycoplasma feliminutum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 36742			Mycoplasma leonicaptivi	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 36743			Mycoplasma leopharyngis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -6481,6 +6644,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 36745			Clostridium saccharoperbutylacetonicum	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 367456			Treponema isoptericolens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 36746			Pseudomonas cichorii	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+36746			Pseudomonas cichorii	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 367474			Caenimonas koreensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 367488			Blattabacterium sp. (Periplaneta americana)	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 367742			Ureibacillus composti	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -6493,6 +6657,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 36806			Microbacterium dextranolyticum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 36807			Microbacterium laevaniformans	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 36808			Corynebacterium bovis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
+36809			Mycobacterium abscessus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 36809			Mycobacterium abscessus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 36811			Mycobacterium agri	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 36812			Mycobacterium genavense	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -6523,6 +6688,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 36850			Clostridium quinii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 36851			[Clostridium] rectum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 36854			Desulfitobacterium dehalogenans	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+36854			Desulfitobacterium dehalogenans	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 36855			Brucella canis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 36856			Sinorhizobium saheli	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 368603			Morganella psychrotolerans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -6590,6 +6756,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 37327			Nocardia brevicatena	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 37328			Nocardia carnea	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 37329			Nocardia farcinica	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
+37330			Nocardia nova	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 37330			Nocardia nova	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 37331			Pseudonocardia petroleophila	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 37332			Nocardia seriolae	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -6597,6 +6764,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 373386			Natrinema ejinorense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 373391			Hydrogenovibrio halophilus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 373638			Bartonella tamiae	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+373638			Bartonella tamiae	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 373668			Chryseobacterium ureilyticum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 373671			Chryseobacterium pallidum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 373672			Chryseobacterium gambrini	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -6640,6 +6808,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 375761			Pseudooceanicola nanhaiensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 375926			Helicobacter anseris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 375927			Helicobacter brantae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+375929			Natranaerobius thermophilus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 375929			Natranaerobius thermophilus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 376			Bradyrhizobium sp.	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 376165			Carbophilus carboxidus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -6671,6 +6840,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 376807			Lactobacillus amylotrophicus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 376815			Variovorax soli	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 37692			Candidatus Phytoplasma mali	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+37692			Candidatus Phytoplasma mali	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 37694			Beet leafhopper transmitted virescence phytoplasma	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 37734			Enterococcus casseliflavus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 37752			Flavobacterium hibernum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -6712,11 +6882,13 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 379900			Niabella aurantiaca	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 38			Archangium disciforme	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 380			Sinorhizobium fredii	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+380			Sinorhizobium fredii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 380021			Pseudomonas protegens	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 380084			Pelosinus propionicus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 380174			Cohnella laeviribosi	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 38023			Methanolobus bombayensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 38024			Methanolobus oregonensis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+38024			Methanolobus oregonensis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 380244			Glycomyces sambucus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 38025			Methanolobus taylorii	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 38026			Methanolobus vulcani	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -6819,6 +6991,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 387638			Persicobacter psychrovividus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 387659			Marixanthomonas ophiurae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 387661			Parabacteroides johnsonii	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+387661			Parabacteroides johnsonii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 387846			Streptomyces ahygroscopicus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 387889			Prauserella salsuginis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 387890			Prauserella aidingensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -6854,6 +7027,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 390806			Geosporobacter subterraneus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 390807			Jannaschia pohangensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 390841			Lactobacillus farraginis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+390842			Lactobacillus parafarraginis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 390842			Lactobacillus parafarraginis	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 390877			Nisaea denitrificans	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 390878			Imhoffiella bheemlica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -6893,6 +7067,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 392010			Alicyclobacillus sacchari	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 392011			Alicyclobacillus fastidiosus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 392012			Alicyclobacillus kakegawensis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+392012			Alicyclobacillus kakegawensis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 392014			Alicyclobacillus shizuokensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 392015			Alicyclobacillus macrosporangiidus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 392016			Alicyclobacillus contaminans	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -6974,6 +7149,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 39483			Faecalitalea cylindroides	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 39484			Agathobaculum desmolans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 39485			[Eubacterium] eligens	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+39485			[Eubacterium] eligens	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 39486			Dorea formicigenerans	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 39487			Atopobium fossor	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 39488			[Eubacterium] hallii	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -7085,6 +7261,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 399370			Lactobacillus ghanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 399497			Tessaracoccus flavescens	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 39950			Dialister pneumosintes	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+39950			Dialister pneumosintes	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 399548			Desulfocurvus vexinensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 39956			Methylobacterium mesophilicum	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 399579			Thermogymnomonas acidicola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -7261,6 +7438,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 409322			Treponema pedis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 409436			Gramella marina	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 40983			Geobacter hydrogenophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+40988			Saccharomonospora azurea	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 40988			Saccharomonospora azurea	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 40989			Saccharomonospora cyanea	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 40990			Saccharomonospora glauca	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -7313,7 +7491,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 412690			Microterricola viridarii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 41276			Brevundimonas vesicularis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 412861			Paenibacillus humicus	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+412861			Paenibacillus humicus	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 412895			Desulfotomaculum hydrothermale	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+412895			Desulfotomaculum hydrothermale	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 412896			Thermodesulfovibrio hydrogeniphilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 412963			Paraburkholderia rhizoxinica	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 413232			Alcanivorax balearicus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -7332,6 +7512,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 413811			Haloterrigena jeotgali	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 413812			Natronococcus jeotgali	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 413815			Halorubrum cibi	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+413888			Caldicellulosiruptor hydrothermalis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 413888			Caldicellulosiruptor hydrothermalis	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 413889			Caldicellulosiruptor kronotskyensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 413964			Rapidithrix thailandica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -7507,6 +7688,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 423605			Elusimicrobium minutum	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 424188			Streptomyces deccanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 42419			Halanaerobacter chitinivorans	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+42419			Halanaerobacter chitinivorans	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 42421			Halanaerobium acetethylicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 424218			Georgfuchsia toluolica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 42422			Halobacteroides halobius	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -7639,6 +7821,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 432607			Bacillus isabeliae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 43263			Pseudomonas alcaligenes	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 43304			Mycobacterium peregrinum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+43305			Butyrivibrio proteoclasticus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 43305			Butyrivibrio proteoclasticus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 43306			Pseudomonas denitrificans (nomen rejiciendum)	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 433330			Propioniciclava tarda	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -7765,6 +7948,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 43992			Bradyrhizobium liaoningense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 43995			Johnsonella ignava	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 43997			Catonella morbi	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+43997			Catonella morbi	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
+44001			Caldicellulosiruptor saccharolyticus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 44001			Caldicellulosiruptor saccharolyticus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 44007			Enterococcus pseudoavium	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 440079			Aeromonas bivalvium	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -7970,6 +8155,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 453584			Rhodovulum kholense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 45361			Mycoplasma conjunctivae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 45362			Mycoplasma bovoculi	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+45362			Mycoplasma bovoculi	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 45363			Mycoplasma alkalescens	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 453783			Lysobacter soli	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 453816			Bdellovibrio exovorus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -8031,6 +8217,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 456299			Chryseobacterium gregarium	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 456327			Xanthomonas euvesicatoria	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 456330			Caldanaerobius fijiensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+45634			Streptococcus cristatus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 45634			Streptococcus cristatus	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 456455			Bizionia argentinensis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 456490			Cohnella phaseoli	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -8043,6 +8230,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 45668			Halobacillus litoralis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 45670			Salinicoccus roseus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 45677			Azohydromonas lata	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+45677			Azohydromonas lata	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 456827			Candidatus Cloacimonas acidaminovorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 456876			Streptococcus plurextorum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 457173			Phenylobacterium composti	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8083,6 +8271,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 458204			Rubritalea sabuli	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 458208			Mycoplasma mucosicanis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 45851			Butyrivibrio crossotus	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+45851			Butyrivibrio crossotus	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 458711			Halodesulfovibrio marinisediminis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 458836			Paraburkholderia sediminicola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 459347			Bacillus cecembensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -8160,6 +8349,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 46351			Mycobacterium hassiacum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 46353			Agrococcus jenensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 46354			Thermoanaerobacter wiegelii	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+46354			Thermoanaerobacter wiegelii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 46355			Spirochaeta africana	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 46356			Alkalispirochaeta alkalica	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 46357			Spirochaeta asiatica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8172,8 +8362,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 46469			Orenia marismortui	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 46470			Halanaerobacter lacunarum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 464995			Nocardiopsis quinghaiensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+46503			Parabacteroides merdae	gram stain negative	TRUE	Madin_2020	sometimes	2 of 5 records
 46503			Parabacteroides merdae	gram stain positive	TRUE	Madin_2020	usually	3 of 5 records
 46506			Bacteroides stercoris	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+46506			Bacteroides stercoris	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 46507			[Bacteroides] coagulans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 46539			Thermococcus hydrothermalis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 46540			Thermococcus fumicolans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8275,8 +8467,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 472183			Shewanella basaltis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 472186			Vibrio areninigrae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 47229			Massilia timonae	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+47229			Massilia timonae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 47246			[Clostridium] viride	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 472569			Devriesea agamarum	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+472569			Devriesea agamarum	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 472582			Ignatzschineria ureiclastica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 472583			Ignatzschineria indica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 472693			Pantoea eucrina	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -8338,6 +8532,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 47679			Sporomusa sphaeroides	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 47687			Mycoplasma alligatoris	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 477			Moraxella lacunata	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
+47715			Lactobacillus rhamnosus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 47715			Lactobacillus rhamnosus	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 47716			Streptomyces olivaceus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 47735			Bibersteinia trehalosi	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -8367,6 +8562,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 478115			Actinoallomurus caesius	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 478174			Borreliella carolinensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 47834			Spiroplasma kunkelii	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+47834			Spiroplasma kunkelii	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 47835			Spiroplasma phoeniceum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 47839			Mycobacterium triplex	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 478441			Halorubrum kocurii	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -8423,6 +8619,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 479978			Micromonospora tulbaghiae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 48			Archangium gephyra	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 480			Moraxella catarrhalis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+480			Moraxella catarrhalis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 48003			Mycoplasma pullorum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 480035			Nocardia wallacei	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 480036			Nocardia blacklockiae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -8452,6 +8649,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 481520			Lysobacter ximonensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 481719			Lactobacillus sunkii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 481720			Lactobacillus otakiensis	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
+481722			Lactobacillus kisonensis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 481722			Lactobacillus kisonensis	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 481723			Lactobacillus rapi	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 481743			Paenibacillus sp. Y412MC10	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -8504,6 +8702,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 487172			Planotetraspora thailandica	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 487173			Dialister succinatiphilus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 487174			Barnesiella intestinihominis	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+487174			Barnesiella intestinihominis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 487175			Parasutterella excrementihominis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 487184			Pseudomonas xinjiangensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 48727			Halomonas pantelleriensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8557,6 +8756,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 490095			Haloferula helveola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 490096			Haloferula sargassicola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 490098			Methanobacterium flexile	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+490098			Methanobacterium flexile	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 490179			Rickettsiella popilliae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 490185			Gemmobacter aquaticus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 490186			Algoriphagus aquatilis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8599,11 +8799,13 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 493375			Chryseobacterium humi	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 493376			Chryseobacterium palustre	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 49338			Desulfitobacterium hafniense	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+49338			Desulfitobacterium hafniense	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 493381			Psychromonas agarivorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 49339			Methanothermobacter defluvii	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 49340			Methanothermobacter thermoflexus	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 49341			Methanothermobacter thermophilus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 493461			Methanobacterium movens	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+493461			Methanobacterium movens	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 493780			Sphingobacterium anhuiense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 493781			Falsibacillus pallidus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 493915			Pseudoalteromonas sp. NJ631	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -8676,6 +8878,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 502682			Erythrobacter gangjinensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 502683			Tenacibaculum crassostreae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 502790			Aeromonas diversa	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+502790			Aeromonas diversa	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 502821			Halomonas stevensii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 502829			Halomonas hamiltonii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 502832			Halomonas johnsoniae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8745,10 +8948,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 51161			Actinobacillus delphinicola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 511662			Sphingomonas japonica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 51173			Ureibacillus thermosphaericus	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+51173			Ureibacillus thermosphaericus	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 511746			Methylacidiphilum infernorum	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 511811			Streptomyces plumbiresistens	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 51195			Desulfofustis glycolicus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 51197			Syntrophobotulus glycolicus	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+51197			Syntrophobotulus glycolicus	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 511998			Aliivibrio finisterrensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 512			Alcaligenes sp.	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 51201			Streptomyces griseocarneus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -8766,6 +8971,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 512762			Kineococcus xinjiangensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 512763			Rufibacter tibetensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 51288			Kluyvera ascorbata	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+513050			Dictyoglomus turgidum	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 513050			Dictyoglomus turgidum	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 513160			Ideonella azotifigens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 51353			Methylosphaera hansonii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8773,6 +8979,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 51363			Mycoplasma auris	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 51364			Mycoplasma cottewii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 51365			Mycoplasma yeatsii	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+51365			Mycoplasma yeatsii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 513651			Beijerinckia fluminensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 51367			Salinivibrio costicola	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 515256			Bartonella sp. 1-1C	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8882,6 +9089,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 52561			Desulfomicrobium norvegicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 525640			Paracoccus chinensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 52584			Brachyspira pilosicoli	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+52584			Brachyspira pilosicoli	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 525917			Thiothrix lacustris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 525918			Thiothrix caldifontis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 525924			Phaselicystis flava	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -8909,7 +9117,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 52762			Skermanella parooensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 52763			Pullulanibacillus naganoensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 52764			Bartonella alsatica	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+52764			Bartonella alsatica	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 52765			Caldicellulosiruptor kristjanssonii	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+52765			Caldicellulosiruptor kristjanssonii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 52766			Caldicellulosiruptor lactoaceticus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 52767			Actinomyces denticolens	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 52768			Actinomyces georgiae	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -9049,6 +9259,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 538379			Sphingobium quisquiliarum	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 538381			Stappia indica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 539			Eikenella corrodens	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+539			Eikenella corrodens	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 539262			Paenibacillus hunanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 53946			Octadecabacter arcticus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 53952			Thermococcus peptonophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -9187,6 +9398,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 54915			Brevibacillus reuszeri	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 549169			Pseudogulbenkiania ferrooxidans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 549295			Flavihumibacter petaseus	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+549295			Flavihumibacter petaseus	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 549298			Francisella halioticida	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 549386			Microvirga guangxiensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 549685			Bavariicoccus seileri	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
@@ -9205,6 +9417,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 551546			Rhodoplanes pokkaliisoli	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 551760			Aromatoleum aromaticum	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 551788			Caldicoprobacter oshimai	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+551788			Caldicoprobacter oshimai	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 551936			Bradyrhizobium sp. STM 3809	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 551947			Bradyrhizobium sp. STM 3843	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 55197			Flavobacterium branchiophilum	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -9214,6 +9427,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 551996			Mucilaginibacter gossypii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 552			Erwinia amylovora	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 55205			Caldicellulosiruptor owensensis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+55205			Caldicellulosiruptor owensensis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 55206			Sediminispirochaeta smaragdinae	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 552061			Sediminimonas qiaohouensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 552063			Salinarimonas rosea	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -9265,6 +9479,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 555059			Streptomyces sedi	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 55507			Schwartzia succinivorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 55508			Janthinobacterium agaricidamnosum	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+55508			Janthinobacterium agaricidamnosum	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 55518			Magnetospirillum gryphiswaldense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 555313			Phocaeicola abscessus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 555371			Agromyces tropicus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -9314,6 +9529,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 55802			Thermococcus barophilus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 558021			Chryseobacterium aquifrigidense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 558152			Chryseobacterium piperi	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
+558169			Lentibacillus jeotgali	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 558169			Lentibacillus jeotgali	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 558170			Salinicoccus carnicancri	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 558172			Pseudochrobactrum lubricantis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -9351,6 +9567,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 561965			Aliagarivorans marinus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 561966			Aliagarivorans taiwanensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 562			Escherichia coli	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+562			Escherichia coli	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 562959			Paenibacillus cellulositrophicus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 562980			Bacteroidales bacterium C941	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 563			Shimwellia blattae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -9441,12 +9658,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 568898			Roseomonas aestuarii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 568899			Alteribacillus persepolensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 569			Hafnia alvei	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+569			Hafnia alvei	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 569127			Deinococcus caeni	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 569152			Prochlorococcus sp. W3	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 569153			Prochlorococcus sp. W4	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 569154			Prochlorococcus sp. W5	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 569155			Prochlorococcus sp. W6	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 56946			Afipia broomeae	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+56946			Afipia broomeae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 56956			Thermus brockianus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 56957			Thermus oshimai	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 569599			Umboniibacter marinipuniceus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -9478,6 +9697,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 570945			Virgibacillus byunsanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 570947			Salimicrobium flavidum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 571			Klebsiella oxytoca	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+571			Klebsiella oxytoca	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 571115			Meridianimaribacter flavus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 571177			Desulfosarcina alkanivorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 571254			Ochrobactrum rhizosphaerae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -9506,6 +9726,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 573570			Francisella sp. TX077310	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 573658			Candidatus Hodgkinia cicadicola	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 57372			Mycoplasma suis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+57372			Mycoplasma suis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 573737			Pandoraea oxalativorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 573739			Oxalicibacterium horti	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 573741			Oxalicibacterium faecigallinarum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -9586,6 +9807,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 58135			Desulfotomaculum kuznetsovii	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 58136			Desulfotomaculum thermoacetoxidans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 58137			Desulfotomaculum thermosapovorans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+58138			Desulfotomaculum acetoxidans	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 58138			Desulfotomaculum acetoxidans	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 58180			Desulfovibrio alaskensis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 582			Morganella morganii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
@@ -9771,6 +9993,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 60847			Halogeometricum borinquense	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 608505			Sporolituus thermophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 60890			Phaeobacter gallaeciensis	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+60890			Phaeobacter gallaeciensis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 60893			Desulfobacca acetoxidans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 60894			Saccharopolyspora spinosa	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 60895			Saccharopolyspora taberi	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -9803,6 +10026,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 614070			Shewanella algidipiscicola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 614212			Paraburkholderia oxyphila	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 61435			Dehalococcoides mccartyi	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+61435			Dehalococcoides mccartyi	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 614671			Sphingosinicella vermicomposti	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 615			Serratia marcescens	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 61592			Corynebacterium durum	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -9986,6 +10210,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 643674			Paenalcaligenes hominis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 643747			Marinobacter oulmenensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 644			Aeromonas hydrophila	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+644			Aeromonas hydrophila	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 644076			Silicibacter sp. TrichCH4B	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 644220			Marinicella litoralis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 644221			Arenicella xantha	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -10020,6 +10245,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 647720			Shimia isoporae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 647910			Listeria rocourtiae	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 648			Aeromonas caviae	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+648			Aeromonas caviae	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 648567			Streptococcus ursoris	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 648751			Flindersiella endophytica	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 648752			Actinopolymorpha pittospori	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -10061,6 +10287,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 650201			Pseudoalteromonas sp. 2ta6	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 65048			Mitsuaria chitosanitabida	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 650508			Caldithrix palaeochoryensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+65058			Corynebacterium ulcerans	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 65058			Corynebacterium ulcerans	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 650850			Halomonas daqiaonensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 650891			Marinobacter daqiaonensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -10081,6 +10308,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 651866			Anoxybacillus eryuanensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 652			Aeromonas schubertii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 652017			Nesterenkonia sp. AN1	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
+652706			Oribacterium sp. oral taxon 078	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 652706			Oribacterium sp. oral taxon 078	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 652708			Bacteroidetes oral taxon 274	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 652713			Peptoniphilus sp. oral taxon 386	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -10096,6 +10324,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 653940			Basfia succiniciproducens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 653954			Sphingomonas haloaromaticamans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 654			Aeromonas veronii	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+654			Aeromonas veronii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 65401			Propionivibrio pelophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 65403			Acidaminobacter hydrogenoformans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 654421			Anoxybacillus sp. SK3-4	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -10142,6 +10371,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 658057			Pacificibacter marinus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 658062			Candidatus Koribacter versatilis	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 658080			Ralstonia sp. 5_2_56FAA	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+658080			Ralstonia sp. 5_2_56FAA	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 658081			Lachnospiraceae bacterium 1_1_57FAA	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 658082			Lachnospiraceae bacterium 2_1_58FAA	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 658083			Lachnospiraceae bacterium 6_1_63FAA	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -10203,6 +10433,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 661493			Nocardioides ginsengagri	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 661979			Brachybacterium squillarum	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 66199			Syntrophomonas sapovorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+66219			Lachnoclostridium phytofermentans	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 66219			Lachnoclostridium phytofermentans	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 66228			Actinomyces europaeus	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 66229			Komagataeibacter intermedius	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -10363,6 +10594,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 671222			Propionibacterium sp. oral taxon 192	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 671223			Propionibacterium sp. oral taxon 193	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 671224			Selenomonas artemidis	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+671224			Selenomonas artemidis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 671225			Selenomonas sp. oral taxon 140	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 671228			Veillonella sp. oral taxon 158	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 671229			Veillonella sp. oral taxon 780	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -10516,6 +10748,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 679663			Corynebacterium canis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 679732			Catenuloplanes castaneus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 680			Vibrio campbellii	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+680			Vibrio campbellii	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 680026			Photobacterium swingsii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 680118			Methanothermobacter tenebrarum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 680127			Chryseobacterium culicis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -10764,6 +10997,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 69962			Azomonas macrocytogenes	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 69963			Azorhizophilus paspali	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 69964			Azotobacter salinestris	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+69966			Macrococcus caseolyticus	gram stain negative	TRUE	Madin_2020	sometimes	2 of 5 records
 69966			Macrococcus caseolyticus	gram stain positive	TRUE	Madin_2020	usually	3 of 5 records
 69967			Macrococcus equipercicus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 69968			Macrococcus bovicus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -10885,6 +11119,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 71281			Nitrosospira tenuis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 712888			Actinobaculum sp. oral taxon 183	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 712976			Lachnospiraceae bacterium oral taxon 082	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+712976			Lachnospiraceae bacterium oral taxon 082	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
+712991			Lachnospiraceae bacterium oral taxon 500	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 712991			Lachnospiraceae bacterium oral taxon 500	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 713008			Parvimonas sp. oral taxon 393	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 713595			Streptomyces fenghuangensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -10901,6 +11137,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 71451			Enterococcus malodoratus	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 71452			Enterococcus raffinosus	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 71453			Tetragenococcus solitarius	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+71453			Tetragenococcus solitarius	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 714537			Rubritalea halochordaticola	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 714549			Hydrotalea flava	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 715			Actinobacillus pleuropneumoniae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -10918,6 +11155,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 716914			Pseudomonas sp. ICMP 3272	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 716925			Ensifer sojae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 717			Actinobacillus capsulatus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
+717609			Caldicellulosiruptor obsidiansis	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 717609			Caldicellulosiruptor obsidiansis	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 717785			Hyphomicrobium sp. MC1	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 718			Actinobacillus equuli	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -10929,6 +11167,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 71998			Thermococcus pacificus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 71999			Kocuria palustris	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 72			Simonsiella muelleri	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+72			Simonsiella muelleri	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 720			Actinobacillus lignieresii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 72000			Kocuria rhizophila	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 72022			Methylarcula marina	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11132,8 +11371,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 759412			Natranaerobius trueperi	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 759415			Natronovirga wadinatrunensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 759619			Streptococcus rupicaprae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+759620			Weissella ceti	gram stain negative	TRUE	Madin_2020	sometimes	1 of 5 records
 759620			Weissella ceti	gram stain positive	TRUE	Madin_2020	usually	4 of 5 records
 75985			Mannheimia haemolytica	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+75985			Mannheimia haemolytica	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 759851			Sporosarcina newyorkensis	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 760			Pasteurella stomatis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 760012			Phenylobacterium muchangponense	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11193,12 +11434,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 76761			Pseudomonas veronii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 767892			Candidatus Puniceispirillum marinum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 76832			Myroides odoratimimus	gram stain negative	TRUE	Madin_2020	usually	3 of 4 records
+76832			Myroides odoratimimus	gram stain positive	TRUE	Madin_2020	sometimes	1 of 4 records
 76848			Sphingomonas roseiflava	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 768480			Mucilaginibacter boryungensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 768490			Serratia sp. AS12	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 768491			Serratia sp. S4	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 768493			Serratia sp. AS13	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 768528			Shewanella indica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+76853			Solibacillus silvestris	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 76853			Solibacillus silvestris	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 76860			Streptococcus constellatus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 76861			Cellulomonas persica	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
@@ -11243,6 +11486,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 78058			Paenibacillus lentimorbus	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 781			Rickettsia conorii	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 78120			Succinispira mobilis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+78120			Succinispira mobilis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 782			Rickettsia prowazekii	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 78229			Acidovorax anthurii	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 78257			Bifidobacterium saeculare	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -11295,6 +11539,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 79660			Virgibacillus marismortui	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 79681			Tissierella creatinophila	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 796937			Peptoanaerobacter stomatis	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+796937			Peptoanaerobacter stomatis	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 796942			Stomatobaculum longum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 797277			Pseudomonas litoralis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 79879			[Bacillus] clarkii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -11311,6 +11556,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 803			Bartonella quintana	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 80679			Thioflavicoccus mobilis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 807			Bartonella elizabethae	gram stain negative	TRUE	Madin_2020	usually	4 of 6 records
+807			Bartonella elizabethae	gram stain positive	TRUE	Madin_2020	sometimes	2 of 6 records
 80746			[Haemophilus] piscium	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 80816			Haliangium ochraceum	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 80842			Herbaspirillum rubrisubalbicans	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -11318,6 +11564,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 80852			Aliivibrio wodanis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 80854			Moritella viscosa	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 80866			Delftia acidovorans	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+80866			Delftia acidovorans	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 80867			Acidovorax avenae	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 80868			Acidovorax cattleyae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 80869			Acidovorax citrulli	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
@@ -11352,6 +11599,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 81459			Entomoplasma melaleucae	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 81462			Thermanaerovibrio acidaminovorans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 81464			Anaeromusa acidaminophila	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+81464			Anaeromusa acidaminophila	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 81467			Aminobacterium mobile	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 81468			Aminobacterium colombiense	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 81475			Frateuria aurantia	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -11360,6 +11608,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 81499			Friedmanniella spumicola	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 81569			Ruegeria atlantica	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 817			Bacteroides fragilis	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+817			Bacteroides fragilis	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 818			Bacteroides thetaiotaomicron	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 81857			Lactobacillus selangorensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 81858			Mycobacterium elephantis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -11371,17 +11620,21 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 81950			Gemella palaticanis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 82			Hyphomicrobium sp.	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 820			Bacteroides uniformis	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+820			Bacteroides uniformis	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 82076			Picrophilus torridus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 821			Bacteroides vulgatus	gram stain negative	TRUE	Madin_2020	usually	4 of 5 records
+821			Bacteroides vulgatus	gram stain positive	TRUE	Madin_2020	sometimes	1 of 5 records
 82116			Acetobacterium dehalogenans	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 82135			Atopobium vaginae	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 82171			Desulfovibrio zosterae	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 82203			Centipeda periodontii	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 823			Parabacteroides distasonis	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+823			Parabacteroides distasonis	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 82301			Wolbachia endosymbiont of Dirofilaria immitis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 82346			Ornithinicoccus hortensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 82347			Facklamia languida	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 82348			Streptococcus pluranimalium	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+82367			Paracoccus pantotrophus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 82367			Paracoccus pantotrophus	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 82374			Anaerovibrio lipolyticus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 82376			Anaeroarcus burkinensis	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -11394,6 +11647,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 82654			Pseudanabaena sp. PCC 7367	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 82688			Lactobacillus nagelii	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 827			Campylobacter ureolyticus	gram stain negative	TRUE	Madin_2020	usually	4 of 6 records
+827			Campylobacter ureolyticus	gram stain positive	TRUE	Madin_2020	sometimes	2 of 6 records
 82788			Thauera mechernichensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 82789			Agrobacterium sp. ATCC 31749	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 82801			Desemzia incerta	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -11416,6 +11670,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 82996			Serratia plymuthica	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 83			Hyphomicrobium vulgare	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 831			Butyrivibrio fibrisolvens	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+831			Butyrivibrio fibrisolvens	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 83171			Methanocaldococcus fervens	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 83219			Sulfitobacter mediterraneus	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 83231			Prevotella brevis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11460,6 +11715,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 83561			Simkania negevensis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 83564			Desulfosarcina ovata	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 83565			Methanobacterium espanolae	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+83565			Methanobacterium espanolae	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 83615			Luteimonas mephitis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 83617			Stenotrophomonas nitritireducens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 83619			Pseudoxanthomonas broegbernensis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11474,6 +11730,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 83769			Succinimonas amylolytica	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 83771			Succinivibrio dextrinosolvens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 83784			Paraburkholderia sartisoli	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
+83816			Methanobrevibacter ruminantium	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 83816			Methanobrevibacter ruminantium	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 83828			Brevibacterium avium	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 83868			Palaeococcus ferrophilus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11486,11 +11743,13 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 84			Hyphomicrobium methylovorum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 840			Prevotella loescheii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 84022			Clostridium aceticum	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+84022			Clostridium aceticum	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 84023			Clostridium autoethanogenum	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 84024			Clostridium disporicum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 84025			Clostridium haemolyticum	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 84026			[Clostridium] methylpentosum	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 84029			Clostridium roseum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
+84030			[Clostridium] saccharolyticum	gram stain negative	TRUE	Madin_2020	sometimes	1 of 3 records
 84030			[Clostridium] saccharolyticum	gram stain positive	TRUE	Madin_2020	usually	2 of 3 records
 84031			Clostridium sartagoforme	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 84032			[Clostridium] thermosuccinogenes	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11520,6 +11779,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 84588			Synechococcus sp. WH 8102	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 84590			Taylorella asinigenitalis	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 84592			Methanosarcina semesiae	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+84592			Methanosarcina semesiae	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 84594			Verrucosispora gifhornensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 84595			Gordonia polyisoprenivorans	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 84597			Thermococcus aegaeus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11545,8 +11805,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 85075			Halochromatium glycolicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 85085			Pseudarthrobacter chlorophenolicus	gram stain positive	TRUE	Madin_2020	always	4 of 4 records
 851			Fusobacterium nucleatum	gram stain negative	TRUE	Madin_2020	usually	3 of 5 records
+851			Fusobacterium nucleatum	gram stain positive	TRUE	Madin_2020	sometimes	2 of 5 records
 852			Fusobacterium perfoetens	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 853			Faecalibacterium prausnitzii	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+853			Faecalibacterium prausnitzii	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 85336			Rothia nasimurium	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 854			Fusobacterium russii	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 85401			Mannheimia glucosida	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11624,6 +11886,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 862720			Acidovorax oryzae	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 862751			Streptomyces sp. SirexAA-E	gram stain positive	TRUE	Madin_2020	always	3 of 3 records
 863			Syntrophomonas wolfei	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+863			Syntrophomonas wolfei	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 86304			Saccharophagus degradans	gram stain negative	TRUE	Madin_2020	always	4 of 4 records
 86332			Mogibacterium pumilum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 86333			Mogibacterium vescum	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
@@ -11838,6 +12101,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 905			Acidaminococcus fermentans	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 906888			Nonlabens ulvanivorans	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 907			Megasphaera elsdenii	gram stain negative	TRUE	Madin_2020	usually	2 of 4 records
+907			Megasphaera elsdenii	gram stain positive	TRUE	Madin_2020	usually	2 of 4 records
 907224			Peptoniphilus methioninivorax	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 90728			Desulfatiglans anilini	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 90729			[Desulfobacterium] catecholicum	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -11870,6 +12134,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 910545			Mucilaginibacter polysacchareus	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 910939			Streptococcus hongkongensis	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 911045			Pseudovibrio sp. FO-BEG1	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
+911092			Caldanaerobacter subterraneus	gram stain negative	TRUE	Madin_2020	sometimes	1 of 4 records
 911092			Caldanaerobacter subterraneus	gram stain positive	TRUE	Madin_2020	usually	3 of 4 records
 911239			Pseudomonas sp. CF149	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
 911240			Pseudomonas sp. CF150	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
@@ -12036,6 +12301,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 936589			Veillonella sp. AS16	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 936591			Veillonella sp. ICM51a	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 936594			Lachnoanaerobaculum sp. ICM7	gram stain negative	TRUE	Madin_2020	usually	1 of 2 records
+936594			Lachnoanaerobaculum sp. ICM7	gram stain positive	TRUE	Madin_2020	usually	1 of 2 records
 936595			Lachnoanaerobaculum sp. OBRC5-5	gram stain positive	TRUE	Madin_2020	always	2 of 2 records
 936596			Lachnoanaerobaculum sp. MSX33	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 93683			Roseivivax halodurans	gram stain negative	TRUE	Madin_2020	always	2 of 2 records
@@ -12146,6 +12412,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 97084			Halobacteriovorax marinus	gram stain negative	TRUE	Madin_2020	always	3 of 3 records
 97089			Halobacteriovorax litoralis	gram stain negative	TRUE	Madin_2020	always	1 of 1 records
 971			Selenomonas ruminantium	gram stain negative	TRUE	Madin_2020	usually	2 of 3 records
+971			Selenomonas ruminantium	gram stain positive	TRUE	Madin_2020	sometimes	1 of 3 records
 97137			Lactobacillus sp. ASF360	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 97138			Clostridium sp. ASF356	gram stain positive	TRUE	Madin_2020	always	1 of 1 records
 97139			Clostridium sp. ASF502	gram stain positive	TRUE	Madin_2020	always	1 of 1 records

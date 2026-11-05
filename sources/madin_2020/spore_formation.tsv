@@ -105,7 +105,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1036674			Idiomarina sp. A28L	spore formation	FALSE	Madin_2020	always	1 of 1 records
 103690			Nostoc sp. PCC 7120	spore formation	FALSE	Madin_2020	always	1 of 1 records
 103730			Actinokineospora inagensis	spore formation	TRUE	Madin_2020	always	2 of 2 records
-103731			Saccharothrix espanaensis	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 1037320			Pseudogulbenkiania gefcensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1037355			Parabacteroides chartae	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1037377			Chryseobacterium viscerum	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -576,7 +575,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1163398			Pseudomonas donghuensis	spore formation	FALSE	Madin_2020	always	2 of 2 records
 1163419			Hyphomicrobium sp. 99	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1163621			Rheinheimera nanhaiensis	spore formation	FALSE	Madin_2020	always	2 of 2 records
-1163710			Cronobacter condimenti	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 1163776			Barrientosiimonas marina	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1164			Trichormus azollae	spore formation	FALSE	Madin_2020	always	3 of 3 records
 1164594			Massilia yuzhufengensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -690,7 +688,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1194168			Comamonas jiangduensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 119484			Syntrophobacter fumaroxidans	spore formation	FALSE	Madin_2020	always	4 of 4 records
 119532			Microcoleus vaginatus	spore formation	FALSE	Madin_2020	always	1 of 1 records
-1195457			Streptomyces sp. SM8	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 1195761			Ornithinimicrobium tianjinense	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1196024			Rubrivirga marina	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1196083			Snodgrassella alvi	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -714,7 +711,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1202532			Flavobacterium sp. F52	spore formation	FALSE	Madin_2020	always	2 of 2 records
 1202667			Staphylococcus sp. OJ82	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1202668			Lactobacillus oryzae	spore formation	FALSE	Madin_2020	always	2 of 2 records
-1202716			Rhodomicrobium udaipurense	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 1203033			Lactobacillus hominis	spore formation	FALSE	Madin_2020	always	2 of 2 records
 1203069			Lactobacillus gigeriorum	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1203257			Streptomyces sp. AA1529	spore formation	TRUE	Madin_2020	always	1 of 1 records
@@ -1129,7 +1125,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1351			Enterococcus faecalis	spore formation	FALSE	Madin_2020	always	3 of 3 records
 135193			Paenibacillus daejeonensis	spore formation	TRUE	Madin_2020	always	3 of 3 records
 1352			Enterococcus faecium	spore formation	FALSE	Madin_2020	always	3 of 3 records
-1352929			Frankia sp. CcI6	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 1353			Enterococcus gallinarum	spore formation	FALSE	Madin_2020	always	3 of 3 records
 1353277			Rhizobium freirei	spore formation	FALSE	Madin_2020	always	4 of 4 records
 1353775			Nocardioides endophyticus	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -1250,7 +1245,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1428			Bacillus thuringiensis	spore formation	TRUE	Madin_2020	usually	3 of 4 records
 142864			Cylindrospermum stagnale	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1428684			Exiguobacterium alkaliphilum	spore formation	FALSE	Madin_2020	always	1 of 1 records
-142877			Desulfitobacterium metallireducens	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 1429438			Candidatus Entotheonella sp. TSY1	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1429439			Candidatus Entotheonella sp. TSY2	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1430331			Geobacillus icigianus	spore formation	TRUE	Madin_2020	always	1 of 1 records
@@ -1335,7 +1329,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1479			Bacillus smithii	spore formation	TRUE	Madin_2020	always	3 of 3 records
 148			Sediminispirochaeta bajacaliforniensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 1480694			Spirochaeta lutea	spore formation	FALSE	Madin_2020	always	1 of 1 records
-1482			Virgibacillus halodenitrificans	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 1482738			Geobacillus sp. CAMR12739	spore formation	TRUE	Madin_2020	always	1 of 1 records
 1482739			Geobacillus sp. CAMR5420	spore formation	TRUE	Madin_2020	always	1 of 1 records
 1484			Hydrogenibacillus schlegelii	spore formation	TRUE	Madin_2020	always	1 of 1 records
@@ -2131,7 +2124,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 219572			Pseudomonas antarctica	spore formation	FALSE	Madin_2020	always	1 of 1 records
 219649			Paraburkholderia unamae	spore formation	TRUE	Madin_2020	always	1 of 1 records
 219707			Cellulophaga pacifica	spore formation	FALSE	Madin_2020	always	1 of 1 records
-219748			Clostridium tunisiense	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 2198			Methanoculleus marisnigri	spore formation	FALSE	Madin_2020	always	3 of 3 records
 2200			Methanoculleus thermophilus	spore formation	FALSE	Madin_2020	always	1 of 1 records
 2203			Methanospirillum hungatei	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -2342,7 +2334,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 240303			Halobacillus aidingensis	spore formation	TRUE	Madin_2020	always	1 of 1 records
 240412			Chitinimonas taiwanensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 240427			Lactobacillus paracollinoides	spore formation	FALSE	Madin_2020	always	1 of 1 records
-240495			Pseudonocardia dioxanivorans	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 240521			Rhizobium daejeonense	spore formation	FALSE	Madin_2020	always	1 of 1 records
 241145			Salegentibacter holothuriorum	spore formation	FALSE	Madin_2020	always	1 of 1 records
 241244			Rummeliibacillus stabekisii	spore formation	TRUE	Madin_2020	always	1 of 1 records
@@ -2515,7 +2506,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 262077			Marinobacter daepoensis	spore formation	FALSE	Madin_2020	always	3 of 3 records
 262209			Janibacter melonis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 262668			Acinetobacter beijerinckii	spore formation	FALSE	Madin_2020	always	2 of 2 records
-262776			Rhodococcus imtechensis	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 262898			Micromonospora mirobrigensis	spore formation	TRUE	Madin_2020	always	1 of 1 records
 263			Francisella tularensis	spore formation	FALSE	Madin_2020	always	4 of 4 records
 263378			Salipiger mucosus	spore formation	FALSE	Madin_2020	always	3 of 3 records
@@ -2527,8 +2517,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 263724			Idiomarina ramblicola	spore formation	FALSE	Madin_2020	always	1 of 1 records
 263818			Marinomonas ushuaiensis	spore formation	FALSE	Madin_2020	always	2 of 2 records
 263852			Pilibacter termitis	spore formation	FALSE	Madin_2020	always	2 of 2 records
-263908			Gordonia effusa	spore formation	FALSE	Madin_2020	usually	1 of 2 records
-263909			Gordonia araii	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 264023			Mariniflexile fucanivorans	spore formation	FALSE	Madin_2020	always	1 of 1 records
 264027			Algoriphagus marincola	spore formation	FALSE	Madin_2020	always	3 of 3 records
 264148			Millisia brevis	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -2607,7 +2595,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 271432			Arthrobacter pigmenti	spore formation	FALSE	Madin_2020	always	1 of 1 records
 271433			Arthrobacter tecti	spore formation	FALSE	Madin_2020	always	1 of 1 records
 271434			Arthrobacter parietis	spore formation	FALSE	Madin_2020	always	1 of 1 records
-272131			Nostoc punctiforme	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 272161			Arthrobacter stackebrandtii	spore formation	FALSE	Madin_2020	always	1 of 1 records
 272164			Olleya marilimosa	spore formation	FALSE	Madin_2020	always	1 of 1 records
 272210			Leucobacter albus	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -2663,7 +2650,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28025			Bifidobacterium animalis	spore formation	FALSE	Madin_2020	always	4 of 4 records
 28026			Bifidobacterium pseudocatenulatum	spore formation	FALSE	Madin_2020	always	3 of 3 records
 280293			Catenulispora rubra	spore formation	TRUE	Madin_2020	always	1 of 1 records
-28031			Lysinibacillus fusiformis	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 28034			Sulfobacillus thermosulfidooxidans	spore formation	TRUE	Madin_2020	always	3 of 3 records
 28035			Staphylococcus lugdunensis	spore formation	FALSE	Madin_2020	always	4 of 4 records
 28037			Streptococcus mitis	spore formation	FALSE	Madin_2020	always	3 of 3 records
@@ -2960,7 +2946,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 298654			Frankia inefficax	spore formation	TRUE	Madin_2020	always	3 of 3 records
 298655			Frankia sp. CN3	spore formation	TRUE	Madin_2020	always	2 of 2 records
 298657			Pseudoalteromonas spongiae	spore formation	FALSE	Madin_2020	always	4 of 4 records
-298701			Desulfovibrio sp. A2	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 298708			Sphingomonas kaistensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 298794			Methylobacterium variabile	spore formation	FALSE	Madin_2020	always	1 of 1 records
 299072			Desulfovibrio paquesii	spore formation	FALSE	Madin_2020	always	2 of 2 records
@@ -3133,7 +3118,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 317577			Deinococcus ficus	spore formation	FALSE	Madin_2020	always	3 of 3 records
 317658			Sulfurimonas paralvinellae	spore formation	FALSE	Madin_2020	always	1 of 1 records
 317664			Quadrisphaera granulorum	spore formation	FALSE	Madin_2020	always	1 of 1 records
-317735			Enterococcus caccae	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 317936			Nostoc sp. PCC 7107	spore formation	FALSE	Madin_2020	always	1 of 1 records
 318434			Terrabacter terrae	spore formation	FALSE	Madin_2020	always	1 of 1 records
 318464			Clostridium sulfidigenes	spore formation	TRUE	Madin_2020	always	1 of 1 records
@@ -3142,7 +3126,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 319003			Bradyrhizobium sp. WSM1253	spore formation	FALSE	Madin_2020	always	2 of 2 records
 319017			Bradyrhizobium sp. WSM471	spore formation	FALSE	Madin_2020	always	2 of 2 records
 319054			Janibacter anophelis	spore formation	FALSE	Madin_2020	always	1 of 1 records
-31909			Halothermothrix orenii	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 319236			Nonlabens sediminis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 319238			Sediminicola luteus	spore formation	FALSE	Madin_2020	always	2 of 2 records
 319475			Clostridium lundense	spore formation	TRUE	Madin_2020	always	1 of 1 records
@@ -3320,7 +3303,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 334735			Sporosarcina koreensis	spore formation	TRUE	Madin_2020	always	1 of 1 records
 334736			Sporosarcina soli	spore formation	TRUE	Madin_2020	always	1 of 1 records
 334771			Ignisphaera aggregans	spore formation	FALSE	Madin_2020	always	2 of 2 records
-334852			Methylobacterium oryzae	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 334858			Goodfellowiella coeruleoviolacea	spore formation	TRUE	Madin_2020	always	1 of 1 records
 335017			Rhizobium mesosinicum	spore formation	FALSE	Madin_2020	always	1 of 1 records
 335020			Mesorhizobium albiziae	spore formation	FALSE	Madin_2020	always	2 of 2 records
@@ -3363,7 +3345,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 33903			Streptomyces avermitilis	spore formation	TRUE	Madin_2020	usually	4 of 5 records
 33905			Bifidobacterium thermophilum	spore formation	FALSE	Madin_2020	always	2 of 2 records
 33906			Actinopolyspora mortivallis	spore formation	TRUE	Madin_2020	always	3 of 3 records
-33910			Amycolatopsis mediterranei	spore formation	FALSE	Madin_2020	usually	2 of 4 records
 33922			Mycoplasma agassizii	spore formation	FALSE	Madin_2020	always	1 of 1 records
 339268			Mycobacterium colombiense	spore formation	FALSE	Madin_2020	always	2 of 2 records
 33934			Anoxybacillus flavithermus	spore formation	TRUE	Madin_2020	always	4 of 4 records
@@ -3395,7 +3376,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 34003			Paracoccus aminophilus	spore formation	FALSE	Madin_2020	always	3 of 3 records
 34007			Paracoccus versutus	spore formation	FALSE	Madin_2020	always	1 of 1 records
 340095			Thermodesulfovibrio thiophilus	spore formation	FALSE	Madin_2020	always	2 of 2 records
-340148			Streptomyces polyantibioticus	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 340172			Virgibacillus olivae	spore formation	TRUE	Madin_2020	always	1 of 1 records
 34018			Rhodospirillum centenum	spore formation	FALSE	Madin_2020	always	1 of 1 records
 34021			Candidatus Liberibacter asiaticus	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -4147,9 +4127,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 413402			Vibrio inusitatus	spore formation	FALSE	Madin_2020	always	1 of 1 records
 413403			Vibrio rarus	spore formation	FALSE	Madin_2020	always	1 of 1 records
 413434			Sediminibacterium ginsengisoli	spore formation	FALSE	Madin_2020	always	1 of 1 records
-413497			Cronobacter dublinensis	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 413502			Cronobacter turicensis	spore formation	FALSE	Madin_2020	usually	2 of 3 records
-413503			Cronobacter malonaticus	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 413810			Halalkalicoccus jeotgali	spore formation	FALSE	Madin_2020	always	2 of 2 records
 413888			Caldicellulosiruptor hydrothermalis	spore formation	FALSE	Madin_2020	always	5 of 5 records
 413889			Caldicellulosiruptor kronotskyensis	spore formation	FALSE	Madin_2020	always	4 of 4 records
@@ -4694,7 +4672,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 469594			Bifidobacterium sp. 12_1_47BFAA	spore formation	FALSE	Madin_2020	always	3 of 3 records
 469595			Citrobacter sp. 30_2	spore formation	FALSE	Madin_2020	always	1 of 1 records
 469596			Coprobacillus sp. 29_1	spore formation	TRUE	Madin_2020	always	2 of 2 records
-469597			Coprobacillus sp. 8_2_54BFAA	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 469598			Escherichia sp. 3_2_53FAA	spore formation	FALSE	Madin_2020	always	2 of 2 records
 469609			Streptococcus sp. 2_1_36FAA	spore formation	FALSE	Madin_2020	always	2 of 2 records
 469610			Burkholderiales bacterium 1_1_47	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -4737,7 +4714,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 472186			Vibrio areninigrae	spore formation	FALSE	Madin_2020	always	1 of 1 records
 47229			Massilia timonae	spore formation	FALSE	Madin_2020	always	1 of 1 records
 47246			[Clostridium] viride	spore formation	TRUE	Madin_2020	always	1 of 1 records
-472569			Devriesea agamarum	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 472693			Pantoea eucrina	spore formation	FALSE	Madin_2020	always	1 of 1 records
 472694			Pantoea brenneri	spore formation	FALSE	Madin_2020	always	1 of 1 records
 472695			Pantoea septica	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -4835,7 +4811,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 481720			Lactobacillus otakiensis	spore formation	FALSE	Madin_2020	always	2 of 2 records
 481722			Lactobacillus kisonensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 481743			Paenibacillus sp. Y412MC10	spore formation	TRUE	Madin_2020	always	3 of 3 records
-482461			Sediminibacillus halophilus	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 482564			Oscillatoria nigro-viridis	spore formation	FALSE	Madin_2020	always	1 of 1 records
 482825			Meiothermus cateniformans	spore formation	FALSE	Madin_2020	always	1 of 1 records
 482827			Thermus arciformis	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -4961,7 +4936,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 500153			Streptomyces avicenniae	spore formation	TRUE	Madin_2020	always	1 of 1 records
 500465			Deferribacter autotrophicus	spore formation	FALSE	Madin_2020	always	1 of 1 records
 50052			Mycoplasma crocodyli	spore formation	FALSE	Madin_2020	always	3 of 3 records
-500615			Desmospora activa	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 501010			Nocardiopsis sinuspersici	spore formation	TRUE	Madin_2020	always	1 of 1 records
 501023			Glaciibacter superstes	spore formation	FALSE	Madin_2020	always	4 of 4 records
 501482			Agrococcus versicolor	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -5381,7 +5355,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 559627			Actinomadura rupiterrae	spore formation	TRUE	Madin_2020	always	1 of 1 records
 559629			Actinomadura scrupuli	spore formation	FALSE	Madin_2020	always	1 of 1 records
 559956			Celerinatantimonas yamalensis	spore formation	FALSE	Madin_2020	always	1 of 1 records
-56			Sorangium cellulosum	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 560080			Shewanella corallii	spore formation	FALSE	Madin_2020	always	1 of 1 records
 560555			Mycobacterium mantenii	spore formation	FALSE	Madin_2020	always	1 of 1 records
 560557			Aeromicrobium halocynthiae	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -5596,7 +5569,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 59600			Cellulophaga algicola	spore formation	FALSE	Madin_2020	always	3 of 3 records
 596085			Prevotella aurantiaca	spore formation	FALSE	Madin_2020	always	2 of 2 records
 59610			Desulfotomaculum reducens	spore formation	TRUE	Madin_2020	always	4 of 4 records
-596152			Desulfovibrio sp. U5L	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 59617			Helicobacter rodentium	spore formation	FALSE	Madin_2020	always	1 of 1 records
 59748			Candidatus Phytoplasma australiense	spore formation	FALSE	Madin_2020	always	1 of 1 records
 59754			Alcanivorax borkumensis	spore formation	FALSE	Madin_2020	always	2 of 2 records
@@ -5772,10 +5744,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 644383			Thermosporothrix hazakensis	spore formation	TRUE	Madin_2020	always	2 of 2 records
 644556			Tsukamurella soli	spore formation	FALSE	Madin_2020	always	1 of 1 records
 64471			Synechococcus sp. CC9311	spore formation	FALSE	Madin_2020	always	1 of 1 records
-644968			Desulfovibrio sp. FW1012B	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 645			Aeromonas salmonicida	spore formation	FALSE	Madin_2020	always	3 of 3 records
 645110			Cecembia lonarensis	spore formation	FALSE	Madin_2020	always	2 of 2 records
-645275			Murinocardiopsis flavida	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 645465			Streptomyces sp. e14	spore formation	TRUE	Madin_2020	always	1 of 1 records
 645466			Anaerostipes butyraticus	spore formation	TRUE	Madin_2020	always	1 of 1 records
 645472			Halomonas sp. HTNK1	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -6019,7 +5989,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 683150			Arthrobacter nitrophenolicus	spore formation	FALSE	Madin_2020	always	1 of 1 records
 683219			Streptomyces sp. SA3_actG	spore formation	TRUE	Madin_2020	always	2 of 2 records
 683228			Micromonospora yangpuensis	spore formation	TRUE	Madin_2020	always	1 of 1 records
-683305			Frankia sp. BMG5.23	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 683315			Frankia sp. DC12	spore formation	TRUE	Madin_2020	always	1 of 1 records
 68334			Erwinia aphidicola	spore formation	FALSE	Madin_2020	always	1 of 1 records
 683846			Fervidicoccus fontis	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -6177,7 +6146,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 729			Haemophilus parainfluenzae	spore formation	FALSE	Madin_2020	always	1 of 1 records
 730			[Haemophilus] ducreyi	spore formation	FALSE	Madin_2020	always	2 of 2 records
 73030			Dechloromonas agitata	spore formation	FALSE	Madin_2020	always	1 of 1 records
-731			Histophilus somni	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 73141			Thiocystis violascens	spore formation	FALSE	Madin_2020	always	1 of 1 records
 732			Aggregatibacter aphrophilus	spore formation	FALSE	Madin_2020	always	1 of 1 records
 732242			Bacteroides paurosaccharolyticus	spore formation	FALSE	Madin_2020	always	1 of 1 records
@@ -6305,7 +6273,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 774			Bartonella bacilliformis	spore formation	FALSE	Madin_2020	always	3 of 3 records
 77551			Wolbachia endosymbiont of Onchocerca volvulus	spore formation	TRUE	Madin_2020	always	1 of 1 records
 77635			Bifidobacterium subtile	spore formation	FALSE	Madin_2020	always	1 of 1 records
-777			Coxiella burnetii	spore formation	FALSE	Madin_2020	usually	2 of 4 records
 779			Ehrlichia ruminantium	spore formation	FALSE	Madin_2020	always	1 of 1 records
 78057			Paenibacillus popilliae	spore formation	TRUE	Madin_2020	always	1 of 1 records
 781			Rickettsia conorii	spore formation	FALSE	Madin_2020	always	3 of 3 records
@@ -6813,8 +6780,6 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 981223			Acinetobacter sp. NCTC 7422	spore formation	FALSE	Madin_2020	always	2 of 2 records
 981224			Acinetobacter sp. NCTC 10304	spore formation	FALSE	Madin_2020	always	1 of 1 records
 981384			Ruegeria conchae	spore formation	FALSE	Madin_2020	always	1 of 1 records
-981405			Frankia sp. Allo2	spore formation	FALSE	Madin_2020	usually	1 of 2 records
-981426			Frankia sp. Thr	spore formation	FALSE	Madin_2020	usually	1 of 2 records
 983544			Lacinutrix sp. 5H-3-7-4	spore formation	FALSE	Madin_2020	always	2 of 2 records
 983545			Glaciecola sp. 4H-3-7+YE-5	spore formation	FALSE	Madin_2020	always	2 of 2 records
 983548			Dokdonia sp. 4H-3-7-5	spore formation	FALSE	Madin_2020	always	2 of 2 records

@@ -1,6 +1,6 @@
 NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
 6			Azorhizobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00814
-10			Cellvibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01208; vibrioid
+10			Cellvibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01208
 13			Dictyoglomus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00478
 13			Dictyoglomus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00478
 16			Methylophilus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00971.pub2
@@ -11,7 +11,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 20			Phenylobacterium	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00793
 20			Phenylobacterium	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00793
 22			Shewanella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01100
-22			Shewanella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01100; vibrioid
+22			Shewanella	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01100
 32			Myxococcus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01053
 40			Stigmatella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01049
 42			Cystobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01046
@@ -26,8 +26,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 64			Herpetosiphon	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00384
 68			Lysobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01232
 71			Simonsiella	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00983
-75			Caulobacter	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00792; vibrioid
 75			Caulobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00792
+75			Caulobacter	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00792
 81			Hyphomicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00820
 81			Hyphomicrobium	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00820
 85			Hyphomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00855.pub2
@@ -35,11 +35,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 85			Hyphomonas	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00855.pub2
 88			Leptothrix	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00955
 88			Leptothrix	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00955
-99			Ancylobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00811; vibrioid
 99			Methylorhabdus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00822
-101			Flectobacillus	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00265; vibrioid
+99			Ancylobacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00811
 101			Flectobacillus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00265
 101			Flectobacillus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00265
+101			Flectobacillus	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00265
 105			Runella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00273
 105			Runella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00273
 107			Spirosoma	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00274
@@ -63,22 +63,22 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 171			Leptospira	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244.pub2
 171			Leptospira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01244
 171			Leptospira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01244.pub2
-179			Leptospirillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00779; vibrioid
 179			Leptospirillum	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00779
-187			Aquaspirillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00974; vibrioid
+179			Leptospirillum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00779
 187			Aquaspirillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00974
 187			Aquaspirillum	spirillum	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00974
+187			Aquaspirillum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00974
 191			Azospirillum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00891
-191			Azospirillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00891; vibrioid
 191			Azospirillum	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00891
-194			Campylobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01071; vibrioid
+191			Azospirillum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00891
 194			Campylobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01071
 194			Campylobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01071
 194			Campylobacter	spirillum	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01071
-209			Helicobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01073; vibrioid
+194			Campylobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01071
 209			Helicobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01073
 209			Helicobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01073
 209			Helicobacter	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01073
+209			Helicobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01073
 222			Achromobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00926
 226			Alteromonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01089
 234			Brucella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00807
@@ -103,15 +103,15 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 279			Xanthobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00829
 279			Xanthobacter	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00829
 283			Comamonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00945
-283			Comamonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00945; vibrioid
 283			Comamonas	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00945
+283			Comamonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00945
 286			Pseudomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01210
-286			Pseudomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01210; vibrioid
 286			Serpens	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01213
+286			Pseudomonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01210
 338			Xanthomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01239
 338			Xanthomonas	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01239
 349			Zoogloea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01005
-349			Zoogloea	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01005; vibrioid
+349			Zoogloea	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01005
 352			Azotobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
 352			Azotobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
 352			Azotobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
@@ -129,16 +129,16 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 413			Methylococcus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01181
 416			Methylomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01183
 416			Methylomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01183.pub2
-416			Methylomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01183.pub2; vibrioid
-425			Methylosinus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00833; vibrioid
+416			Methylomonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01183.pub2
+425			Methylosinus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00833
 429			Methylobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01179.pub2
 429			Methylobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01179
 429			Methylobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01179.pub2
 429			Methylobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01179
 429			Methylobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01179.pub2
 434			Acetobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00876
-434			Acetobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00876; vibrioid
 434			Acetobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00876
+434			Acetobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00876
 441			Gluconobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00884
 441			Gluconobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00884
 469			Acinetobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01203.pub2
@@ -191,7 +191,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 642			Aeromonas	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01081
 657			Photobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01076.pub2
 662			Vibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01078
-662			Vibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01078; vibrioid
+662			Vibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01078
 702			Plesiomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01160
 713			Actinobacillus	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01197.pub2
 713			Actinobacillus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01197.pub2
@@ -211,39 +211,39 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 810			Chlamydia	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00364
 816			Bacteroides	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00238
 830			Butyrivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00640
-830			Butyrivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00640; vibrioid
 830			Butyrivibrio	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00640
 830			Butyrivibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00640
+830			Butyrivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00640
 832			Fibrobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00525
 832			Fibrobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00525
 836			Porphyromonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00246
 836			Porphyromonas	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00246
 838			Prevotella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00249
-841			Roseburia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00652; vibrioid
-843			Wolinella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01075; vibrioid
+841			Roseburia	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00652
 843			Wolinella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01075
 843			Wolinella	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01075
+843			Wolinella	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01075
 846			Oxalobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00966
-846			Oxalobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00966; vibrioid
+846			Oxalobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00966
 848			Fusobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00768
 862			Syntrophomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00682
 862			Syntrophospora	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00683
 862			Syntrophomonas	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00682
-864			Pectinatus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00699; vibrioid
 864			Pectinatus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
 864			Pectinatus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
+864			Pectinatus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00699
 866			Ruminobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01085
 869			Dichelobacter	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01102
-869			Dichelobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01102; vibrioid
-872			Desulfovibrio	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01035; vibrioid
+869			Dichelobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01102
 872			Desulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01035
-872			Desulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01035.pub2; vibrioid
 872			Desulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01035.pub2
 872			Desulfovibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01035
 872			Desulfovibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01035.pub2
+872			Desulfovibrio	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01035
+872			Desulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01035.pub2
 890			Desulfuromonas	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01039
-890			Desulfuromonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01039; vibrioid
 890			Desulfuromonas	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01039
+890			Desulfuromonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01039
 893			Desulfobulbus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01023.pub2
 893			Desulfobulbus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01023.pub2
 896			Desulfococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01016
@@ -264,11 +264,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 919			Thiobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00969
 919			Thiobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00969.pub2
 933			Thioalkalimicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01220
-933			Thioalkalimicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01220; vibrioid
-933			Thiomicrospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01221; vibrioid
 933			Thiomicrospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01221
 933			Thioalkalimicrobium	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01220
 933			Thiomicrospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01221
+933			Thioalkalimicrobium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01220
+933			Thiomicrospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01221
 936			Thiovulum	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01074
 936			Thiovulum	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01074
 939			Calderobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00230
@@ -279,14 +279,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 953			Wolbachia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00906
 953			Wolbachia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00906
 953			Wolbachia	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00906
-958			Bdellovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01007; vibrioid
-963			Herbaspirillum	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00963; vibrioid
+958			Bdellovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01007
 963			Herbaspirillum	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00963
+963			Herbaspirillum	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00963
 965			Oceanospirillum	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01196
 965			Oceanospirillum	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01196
 967			Spirillum	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00993
-970			Selenomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00705; vibrioid
 970			Selenomonas	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00705
+970			Selenomonas	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00705
 973			Sporohalobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00743
 978			Cytophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00261
 992			Flexibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00266
@@ -302,27 +302,27 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1030			Thiothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01229.pub2
 1033			Afipia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00798
 1033			Oligotropha	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00804
-1033			Oligotropha	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00804; vibrioid
+1033			Oligotropha	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00804
 1047			Chromatium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01105
-1047			Chromatium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01105; vibrioid
+1047			Chromatium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01105
 1051			Ectothiorhodospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01128
-1051			Ectothiorhodospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01128; vibrioid
 1051			Ectothiorhodospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01128
+1051			Ectothiorhodospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01128
 1056			Thiocapsa	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01116
 1060			Rhodobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00862
 1060			Rhodobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00862
 1064			Rhodocyclus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01003
-1064			Rhodocyclus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01003; vibrioid
+1064			Rhodocyclus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01003
 1068			Rhodomicrobium	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00825.pub2
 1070			Rhodopila	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00886.pub2
 1070			Rhodopila	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00886.pub2
 1073			Rhodopseudomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00806
 1081			Rhodospirillum	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00897.pub2
 1091			Chlorobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00374
-1091			Chlorobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00374; vibrioid
 1091			Chlorobium	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00374
 1091			Chlorobium	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00374
 1091			Chlorobium	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00374
+1091			Chlorobium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00374
 1099			Pelodictyon	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00376
 1099			Pelodictyon	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00376
 1101			Prosthecochloris	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00377
@@ -365,9 +365,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1222			Prochlorothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00443
 1227			Nitrosococcus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01111
 1227			Nitrosococcus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01111
-1234			Nitrospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00780; vibrioid
 1234			Nitrospira	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00780
 1234			Nitrospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00780
+1234			Nitrospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00780
 1237			Piscirickettsia	coccus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01219
 1237			Piscirickettsia	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01219
 1243			Leuconostoc	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00607.pub2
@@ -402,8 +402,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1485			Anaerobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00614
 1485			Anaerobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00614
 1562			Desulfotomaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00661
-1562			Desulfotomaculum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00661; vibrioid
 1562			Desulfotomaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00661.pub2
+1562			Desulfotomaculum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00661
 1567			Quinella	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00703
 1569			Sporosarcina	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00563
 1569			Sporosarcina	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00563
@@ -502,7 +502,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2040			Aeromicrobium	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00156
 2040			Aeromicrobium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00156
 2040			Aeromicrobium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00156
-2050			Mobiluncus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00014; vibrioid
+2050			Mobiluncus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00014
 2053			Gordonia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00030
 2053			Gordonia	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00030
 2053			Gordonia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00030
@@ -547,14 +547,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2192			Methanocorpusculum	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00504.pub2
 2195			Methanogenium	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00507
 2195			Methanogenium	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00507.pub2
-2202			Methanospirillum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00511; vibrioid
-2202			Methanospirillum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00511.pub2; vibrioid
 2202			Methanospirillum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00511
 2202			Methanospirillum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00511.pub2
+2202			Methanospirillum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00511
+2202			Methanospirillum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00511.pub2
 2204			Methanomicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00509
 2204			Methanomicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00509.pub2
-2204			Methanomicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00509.pub2; vibrioid
 2204			Methanomicrobium	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00509
+2204			Methanomicrobium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00509.pub2
 2207			Methanosarcina	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00519.pub2
 2220			Methanolobus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00517
 2220			Methanolobus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00517.pub2
@@ -586,11 +586,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2279			Staphylothermus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00389.pub2
 2284			Sulfolobus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00400
 2289			Desulfobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011
-2289			Desulfobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011; vibrioid
 2289			Desulfobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011.pub2
-2289			Desulfobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011.pub2; vibrioid
 2289			Desulfobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011
 2289			Desulfobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011.pub2
+2289			Desulfobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011
+2289			Desulfobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011.pub2
 2295			Desulfobacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01012
 2295			Desulfobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01012.pub2
 2295			Desulfobacterium	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01012
@@ -614,9 +614,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2349			Haliscomenobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00357
 2351			Flexistipes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00473
 2357			Desulfomonile	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01062
-2357			Desulfomonile	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01062; vibrioid
 2357			Desulfomonile	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01062.pub2
-2357			Desulfomonile	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01062.pub2; vibrioid
+2357			Desulfomonile	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01062
+2357			Desulfomonile	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01062.pub2
 2368			Arhodomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01127
 2370			Xylella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01240
 2370			Xylella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01240
@@ -643,16 +643,16 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2742			Marinobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01094
 2745			Halomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01190.pub2
 2747			Carnobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00593
-2747			Carnobacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00593; vibrioid
+2747			Carnobacterium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00593
 2753			Synergistes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01250
 2755			Brochothrix	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00546
 2755			Brochothrix	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00546
 12914			Acidianus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00397
 12914			Acidianus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00397
 12916			Acidovorax	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00943
-12916			Acidovorax	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00943; vibrioid
+12916			Acidovorax	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00943
 12960			Azoarcus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00994
-12960			Azoarcus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00994; vibrioid
+12960			Azoarcus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00994
 13075			Globicatella	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00585
 13134			Magnetospirillum	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00893
 13159			Mycoplana	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00808.pub2
@@ -671,8 +671,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28050			Lachnospira	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00647
 28050			Lachnospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00647
 28063			Heliobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00633
-28065			Rhodoferax	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00951; vibrioid
 28065			Rhodoferax	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00951
+28065			Rhodoferax	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00951
 28067			Rubrivivax	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00957
 28070			Gloeothece	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00418
 28073			Lyngbya	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00439
@@ -684,31 +684,31 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28138			Rikenella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00252
 28186			Acetohalobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00736
 28194			Thermonema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00284
-28196			Arcobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01070; vibrioid
 28196			Arcobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01070
 28196			Arcobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01070
 28196			Arcobacter	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01070
+28196			Arcobacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01070
 28209			Chelatococcus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00796
 28209			Chelatococcus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00796
-28222			Desulfobacula	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013; vibrioid
-28222			Desulfobacula	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013.pub2; vibrioid
 28222			Desulfobacula	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013
 28222			Desulfobacula	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013.pub2
 28222			Desulfobacula	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01013
 28222			Desulfobacula	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01013.pub2
+28222			Desulfobacula	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013
+28222			Desulfobacula	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013.pub2
 28228			Colwellia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01090
-28228			Colwellia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01090; vibrioid
+28228			Colwellia	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01090
 28231			Geobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01043
 28250			Ornithobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00331
 28250			Ornithobacterium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00331
 28253			Marinomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01193
-28253			Marinomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01193; vibrioid
-28261			Thermodesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00781; vibrioid
+28253			Marinomonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01193
+28261			Thermodesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00781
 28263			Arcanobacterium	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00013.pub2
 28263			Arcanobacterium	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00013.pub2
 28443			Herbidospora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00199
 28453			Sphingobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00361
-28884			Hydrogenovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01217; vibrioid
+28884			Hydrogenovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01217
 28895			Thermoanaerobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00755
 28905			Caedibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01808
 29287			Natronococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00492.pub2
@@ -733,8 +733,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29548			Rhodothermus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00282
 29574			Taylorella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00934
 29580			Janthinobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00964
-29580			Janthinobacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00964; vibrioid
-31980			Acetitomaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00637; vibrioid
+29580			Janthinobacterium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00964
+31980			Acetitomaculum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00637
 31983			Helcococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00715
 31988			Aminobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00835
 31988			Carbophilus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00844
@@ -787,7 +787,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 33969			Melissococcus	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00601
 33973			Acidobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00001
 33976			Caryophanon	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00556
-33976			Caryophanon	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00556; vibrioid
+33976			Caryophanon	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00556
 33981			Kineococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00053
 33983			Luteococcus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00164
 33983			Luteococcus	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00164
@@ -807,7 +807,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 34069			Telluria	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00967
 34069			Telluria	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00967
 34072			Variovorax	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00952
-34072			Variovorax	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00952; vibrioid
+34072			Variovorax	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00952
 34084			Riemerella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00336
 34093			Simkania	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00371
 34093			Simkania	coccus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00371
@@ -824,10 +824,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 35750			Sporichthya	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00048.pub2
 35753			Dactylosporangium	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00144
 35796			Nitrococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01130
-35798			Nitrosospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00992; vibrioid
 35798			Nitrosospira	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00992
 35798			Nitrosolobus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00990
 35798			Nitrosospira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00992
+35798			Nitrosospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00992
 35800			Nitrospina	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01028
 35800			Nitrospina	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01028
 35810			Erythromicrobium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00920
@@ -835,7 +835,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 35823			Arthrospira	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00433
 35823			Arthrospira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00433
 35829			Acetivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00671
-35829			Acetivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00671; vibrioid
+35829			Acetivibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00671
 35832			Bilophila	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01034
 35832			Bilophila	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01034.pub2
 35832			Bilophila	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01034
@@ -846,11 +846,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 35838			Holophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00006
 36739			Dermabacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00069
 36853			Desulfitobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00658
-36853			Desulfitobacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00658; vibrioid
+36853			Desulfitobacterium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00658
 36862			Ideonella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00954
 36862			Ideonella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00954
-37817			Desulfuromusa	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01040; vibrioid
 37817			Desulfuromusa	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01040
+37817			Desulfuromusa	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01040
 37914			Dietzia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00028
 37914			Dietzia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00028
 37924			Thermocrispum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00189
@@ -869,7 +869,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 40222			Methylophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01218
 40222			Methylophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01218.pub2
 40323			Stenotrophomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01237
-40323			Stenotrophomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01237; vibrioid
+40323			Stenotrophomonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01237
 40413			Desulforhopalus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01026
 40413			Desulforhopalus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01026.pub2
 40413			Desulforhopalus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01026
@@ -882,12 +882,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 41273			Tissierella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00721
 41273			Tissierella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00721.pub2
 41275			Brevundimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00791
-41275			Brevundimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00791; vibrioid
+41275			Brevundimonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00791
 41674			Stygiolobus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00399
-41707			Lawsonia	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01036; vibrioid
 41707			Lawsonia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01036
-41707			Lawsonia	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01036.pub2; vibrioid
 41707			Lawsonia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01036.pub2
+41707			Lawsonia	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01036
+41707			Lawsonia	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01036.pub2
 41980			Metallosphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00398
 42054			Chromohalobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01189.pub2
 42232			Spirilliplanes	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00152
@@ -895,7 +895,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 42255			Rubrobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00224
 42417			Halobacteroides	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00738
 42418			Halanaerobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00737
-42418			Halanaerobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00737; vibrioid
+42418			Halanaerobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00737
 42837			Ammonifex	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00744
 43356			Kutzneria	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00180
 43668			Brachybacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00068
@@ -918,11 +918,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 44011			Ferrimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01091
 44013			Polynucleobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00940
 44013			Polynucleobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00940.pub2
-44013			Polynucleobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00940.pub2; vibrioid
+44013			Polynucleobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00940.pub2
 44249			Paenibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00553
 44258			Caloramator	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00616
-44258			Caloramator	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616; vibrioid
 44258			Caloramator	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616
+44258			Caloramator	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616
 44259			Filifactor	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00667
 44261			Oxobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00621
 44262			Oxalophagus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00552
@@ -952,7 +952,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 46123			Abiotrophia	coccus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00580
 46123			Abiotrophia	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00580
 46123			Abiotrophia	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00580
-46200			Geovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00474; vibrioid
+46200			Geovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00474
 46205			Pseudobutyrivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00651
 46238			Entomoplasma	coccus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01260.pub3
 46238			Entomoplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01260.pub3
@@ -963,29 +963,29 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 46352			Agrococcus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
 46352			Agrococcus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
 46466			Halocella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00734
-46466			Halocella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00734; vibrioid
+46466			Halocella	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00734
 46468			Orenia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00741
 46631			Picrophilus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00523
 46913			Devosia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00816
-47054			Dethiosulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01255; vibrioid
+47054			Dethiosulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01255
 47251			Leptolyngbya	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00437
 47420			Hydrogenophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00947
 47494			Pedomicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00823
 47494			Pedomicrobium	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00823
 47494			Pedomicrobium	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00823
 47670			Lautropia	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00937
-48001			Desulfobotulus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01014; vibrioid
-48001			Desulfobotulus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01014.pub2; vibrioid
 48001			Desulfobotulus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01014
 48001			Desulfobotulus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01014.pub2
+48001			Desulfobotulus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01014
+48001			Desulfobotulus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01014.pub2
 48073			Microbulbifer	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01096
 48075			Marinobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01095.pub2
 48381			Thermothrix	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00942
 48381			Thermothrix	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00942
 48463			Prosthecobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01284
-48463			Prosthecobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01284; vibrioid
 48463			Brevifollis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01545
 48463			Brevifollis	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01545
+48463			Prosthecobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01284
 48728			Rhabdochromatium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01113
 48736			Ralstonia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00941
 49184			Kineosporia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00054
@@ -996,19 +996,19 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 49279			Gelidibacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00315
 49894			Acetomicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00235
 49894			Anaerobaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01254
-49894			Anaerobaculum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01254; vibrioid
+49894			Anaerobaculum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01254
 50709			Acidocella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00879
-50709			Acidocella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00879; vibrioid
 50709			Acidocella	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00879
+50709			Acidocella	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00879
 50714			Acidisphaera	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00878
 50714			Acidisphaera	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00878
 51194			Desulfofustis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01025
-51194			Desulfofustis	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01025; vibrioid
 51194			Desulfofustis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01025.pub2
-51194			Desulfofustis	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01025.pub2; vibrioid
+51194			Desulfofustis	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01025
+51194			Desulfofustis	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01025.pub2
 51196			Syntrophobotulus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00665
 51228			Wigglesworthia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01172
-51366			Salinivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01077; vibrioid
+51366			Salinivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01077
 51668			Tetragenococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00602
 51668			Tetragenococcus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00602
 52003			Natroniella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00740
@@ -1019,25 +1019,25 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 52784			Anaerofilum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00672
 52784			Anaerofilum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00672
 52959			Polaribacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333
-52959			Polaribacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333; vibrioid
 52959			Polaribacter	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00333.pub2
-52959			Polaribacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333.pub2; vibrioid
 52959			Polaribacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333
 52959			Polaribacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333.pub2
 52959			Polaribacter	elliptic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00333.pub2
 52959			Polaribacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333
 52959			Polaribacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333.pub2
 52959			Polaribacter	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333.pub2
+52959			Polaribacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333
+52959			Polaribacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333.pub2
 52972			Polaromonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00950
-53244			Desulfonatronovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01030; vibrioid
-53244			Desulfonatronovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01030.pub2; vibrioid
 53244			Desulfonatronovibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01030
+53244			Desulfonatronovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01030
+53244			Desulfonatronovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01030.pub2
 53246			Pseudoalteromonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01098
 53318			Desulfocapsa	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01024
 53318			Desulfocapsa	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01024.pub2
-53328			Desulfospira	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01021; vibrioid
-53328			Desulfospira	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01021.pub2; vibrioid
 53328			Desulfospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01021
+53328			Desulfospira	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01021
+53328			Desulfospira	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01021.pub2
 53335			Pantoea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01157.pub2
 53355			Terrabacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00087
 53355			Terrabacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00087
@@ -1086,7 +1086,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 54312			Tychonema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00449
 55079			Aneurinibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00549
 55080			Brevibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00550
-55506			Schwartzia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00704; vibrioid
+55506			Schwartzia	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00704
 55968			Leucobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00103
 56106			Cylindrospermum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00457
 56106			Cylindrospermum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00457
@@ -1101,8 +1101,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 56688			Halorubrum	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00487.pub2
 56999			Amaricoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00851
 57039			Malonomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01041
-57039			Malonomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01041; vibrioid
-57479			Microvirgula	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00980; vibrioid
+57039			Malonomonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01041
+57479			Microvirgula	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00980
 57488			Thiorhodococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01124
 57488			Thiorhodococcus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01124
 57493			Kocuria	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00120.pub2
@@ -1110,11 +1110,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 57494			Nesterenkonia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00122
 57495			Dermacoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00071
 57499			Kytococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00072
-57665			Sulfurospirillum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01072; vibrioid
 57665			Sulfurospirillum	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01072
+57665			Sulfurospirillum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01072
 57739			Vogesella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00985
-57739			Vogesella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00985; vibrioid
 57739			Vogesella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00985
+57739			Vogesella	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00985
 57962			Phlomobacter	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01141
 58050			Moritella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01097
 58108			Actinocorallia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00209
@@ -1153,21 +1153,21 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 60892			Desulfobacca	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01061.pub2
 60919			Sanguibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00137
 61170			Holdemania	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00764
-61593			Thiorhodovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01125; vibrioid
 61593			Thiorhodovibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01125
+61593			Thiorhodovibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01125
 61653			Methylopila	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00834.pub2
 62608			Thermocladium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00407
-62608			Thermocladium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00407; vibrioid
+62608			Thermocladium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00407
 63743			Natronomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00493.pub2
 63743			Natronomonas	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00493.pub2
 63743			Natronomonas	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00493.pub2
 63958			Demetria	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
 63958			Demetria	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
 64001			Nevskia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01233
-64001			Nevskia	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01233; vibrioid
+64001			Nevskia	vibrio	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01233
 64159			Desulfurobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00233
 64322			Carnimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01188
-64322			Carnimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01188; vibrioid
+64322			Carnimonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01188
 64895			Borreliella	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01525
 64968			Marinospirillum	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01194
 64968			Marinospirillum	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01194
@@ -1180,16 +1180,16 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 65551			Meiothermus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00476
 65551			Meiothermus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00476.pub2
 66831			Facklamia	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00584
-66848			Desulfonatronum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01033; vibrioid
-66848			Desulfonatronum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01033.pub2; vibrioid
 66848			Desulfonatronum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01033.pub2
 66848			Desulfonatronum	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01033
+66848			Desulfonatronum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01033
+66848			Desulfonatronum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01033.pub2
 66862			Ammoniphilus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00548
 67572			Psychromonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01099
 67572			Psychromonas	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01099
 68287			Mesorhizobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00839
 68287			Mesorhizobium	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00839
-68288			Cyclobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00256; vibrioid
+68288			Cyclobacterium	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00256
 68335			Coprothermobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00752
 68335			Coprothermobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00752.pub2
 68335			Coprothermobacter	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00752
@@ -1203,9 +1203,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 69578			Cryobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00095.pub2
 69578			Cryobacterium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00095.pub2
 69655			Sulfurisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00401
-69894			Tindallia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00625; vibrioid
-69959			Rhodospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00896; vibrioid
+69894			Tindallia	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00625
 69959			Rhodospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00896
+69959			Rhodospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00896
 69961			Azomonas	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01206
 69961			Azomonas	elliptic	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01206
 69965			Macrococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00567
@@ -1232,9 +1232,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 74030			Roseovarius	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00868
 74032			Antarctobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00852
 74317			Maricaulis	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00857
-74317			Maricaulis	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00857; vibrioid
 74317			Maricaulis	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00857.pub2
-74317			Maricaulis	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00857.pub2; vibrioid
+74317			Maricaulis	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00857
+74317			Maricaulis	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00857.pub2
 74385			Gracilibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00534
 74385			Gracilibacillus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00534
 74968			Ferroplasma	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01373
@@ -1242,12 +1242,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 74968			Ferroplasma	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01373
 75309			Rhodanobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01235
 75654			Duganella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00962
-75654			Duganella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00962; vibrioid
+75654			Duganella	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00962
 75683			Balneatrix	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01192
-75683			Balneatrix	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01192; vibrioid
+75683			Balneatrix	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01192
 75687			Neptunomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01195
-75687			Neptunomonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01195; vibrioid
 75687			Neptunomonas	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01195
+75687			Neptunomonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01195
 75905			Thermocrinis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00232
 75905			Thermocrinis	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00232
 75984			Mannheimia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01200.pub2
@@ -1257,41 +1257,41 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 76634			Mycetocola	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00107
 76831			Myroides	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00328
 76833			Actinobaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00011
-76833			Actinobaculum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00011; vibrioid
 76833			Actinobaculum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00011
+76833			Actinobaculum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00011
 76886			Caldivirga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00405
-76886			Caldivirga	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00405; vibrioid
+76886			Caldivirga	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00405
 76890			Asticcacaulis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00790
 77021			Cylindrospermopsis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00456
 77021			Cylindrospermopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00456
 77583			Craurococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00882
 77674			Paracraurococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00885
-78119			Succinispira	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00708; vibrioid
 78119			Succinispira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00708
+78119			Succinispira	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00708
 78526			Allorhizobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00843
 78553			Alterococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01274
 79206			Desulfosporosinus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00660
 79328			Chitinophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00354
-79598			Heliorestis	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00636; vibrioid
 79598			Heliorestis	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00636
 79598			Heliorestis	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00636
+79598			Heliorestis	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00636
 79603			Denitrobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00218
 80865			Delftia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00946
-80865			Delftia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00946; vibrioid
-81411			Aminomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01251; vibrioid
+80865			Delftia	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00946
+81411			Aminomonas	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01251
 81416			Methanofollis	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00506
 81416			Methanofollis	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00506.pub2
-81461			Thermanaerovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01252; vibrioid
-81463			Anaeroarcus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00689; vibrioid
-81463			Anaeromusa	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00691; vibrioid
+81461			Thermanaerovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01252
 81463			Anaeroarcus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00689
-81466			Aminobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01253; vibrioid
+81463			Anaeroarcus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00689
+81463			Anaeromusa	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00691
+81466			Aminobacterium	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01253
 81682			Methylovorus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00972.pub2
 81894			Prosthecomicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00824
 81894			Prosthecomicrobium	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00824
 82202			Centipeda	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00694
 82345			Ornithinicoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00082
-82373			Anaerovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00693; vibrioid
+82373			Anaerovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00693
 82559			Thiolamprovum	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01122
 82559			Thiolamprovum	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01122
 82800			Desemzia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00594
@@ -1305,8 +1305,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 82982			Obesumbacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01156
 82982			Obesumbacterium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01156
 82984			Pragia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01161
-83400			Roseospirillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00900; vibrioid
 83400			Roseospirillum	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00900
+83400			Roseospirillum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00900
 83461			Corallococcus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01052
 83551			Parachlamydia	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00367
 83612			Psychroflexus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00334
@@ -1318,21 +1318,21 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 83660			Desulfonispora	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00659
 83677			Thermobifida	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00197
 83681			Nonomuraea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00202
-83764			Formivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00977; vibrioid
+83764			Formivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00977
 83766			Propionibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01001
-83766			Propionivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01002; vibrioid
 83766			Propionivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01002
+83766			Propionivibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01002
 83768			Succinimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01086
 83768			Succinimonas	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01086
-83770			Succinivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01087; vibrioid
 83770			Succinivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01087
 83770			Succinivibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01087
+83770			Succinivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01087
 83867			Palaeococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01371
-84034			Propionispira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00701; vibrioid
 84034			Zymophilus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00711
-84034			Zymophilus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00711; vibrioid
 84034			Propionispira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00701
 84034			Zymophilus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00711
+84034			Propionispira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00701
+84034			Zymophilus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00711
 84036			Syntrophococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00655
 84108			Slackia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00221
 84108			Slackia	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00221
@@ -1351,29 +1351,29 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 84756			Beutenbergia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00056.pub2
 85043			Williamsia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00036
 85072			Allochromatium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01104
-85072			Allochromatium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01104; vibrioid
+85072			Allochromatium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01104
 85073			Thermochromatium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01114
-85073			Thermochromatium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01114; vibrioid
+85073			Thermochromatium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01114
 85074			Halochromatium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01106
-85074			Halochromatium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01106; vibrioid
+85074			Halochromatium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01106
 85076			Marichromatium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01110
-85076			Marichromatium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01110; vibrioid
+85076			Marichromatium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01110
 85077			Isochromatium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01107
-85077			Isochromatium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01107; vibrioid
+85077			Isochromatium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01107
 85078			Thiococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01117
 85079			Thiohalocapsa	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01121
 85108			Halorhodospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01129
 85108			Halorhodospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01129
-85265			Phaeospirillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00894.pub2; vibrioid
 85265			Phaeospirillum	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00894.pub2
-85273			Rhodothalassium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00875.pub2; vibrioid
+85265			Phaeospirillum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00894.pub2
 85273			Rhodothalassium	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00875.pub2
-85274			Rhodovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00898; vibrioid
+85273			Rhodothalassium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00875.pub2
 85274			Rhodovibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00898
+85274			Rhodovibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00898
 86004			Pasteuria	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00555
 86331			Mogibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00726
-86671			Roseospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00899.pub2; vibrioid
 86671			Roseospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00899.pub2
+86671			Roseospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00899.pub2
 86795			Marmoricola	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00158
 88138			Modestobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00045.pub2
 88138			Modestobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00045.pub2
@@ -1381,18 +1381,18 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 88358			Thermodesulforhabdus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01069
 88358			Thermodesulforhabdus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01069.pub2
 88875			Ferribacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01000
-88875			Ferribacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01000; vibrioid
+88875			Ferribacterium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01000
 89092			Ignavigranum	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00586
-89342			Desulfocella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01015; vibrioid
-89342			Desulfocella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01015.pub2; vibrioid
+89342			Desulfocella	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01015
+89342			Desulfocella	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01015.pub2
 89404			Glaciecola	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01092
-89404			Glaciecola	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01092; vibrioid
 89404			Glaciecola	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01092
+89404			Glaciecola	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01092
 89523			Rubrimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00869
 89523			Rubrimonas	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00869
 89583			Gluconacetobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00883
-89583			Gluconacetobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00883; vibrioid
 89583			Gluconacetobacter	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00883
+89583			Gluconacetobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00883
 89958			Natronincola	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00620
 89966			Hymenobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00267
 90243			Oligella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00930
@@ -1441,17 +1441,17 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 106146			Pelistega	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00931
 106589			Cupriavidus	coccobacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00936
 106591			Ensifer	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00846
-106633			Thioalkalivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01131; vibrioid
 106633			Thioalkalivibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01131
+106633			Thioalkalivibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01131
 109166			Desulfofrigus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01018
-109166			Desulfofrigus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01018; vibrioid
 109166			Desulfofrigus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01018.pub2
-109166			Desulfofrigus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01018.pub2; vibrioid
+109166			Desulfofrigus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01018
+109166			Desulfofrigus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01018.pub2
 109168			Desulfotalea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01027
 109168			Desulfotalea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01027.pub2
 109169			Desulfofaba	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01017
 109169			Desulfofaba	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01017.pub2
-109169			Desulfofaba	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01017.pub2; vibrioid
+109169			Desulfofaba	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01017.pub2
 109262			Halothiobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01133
 109471			Bisgaardia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01860
 110103			Anabaenopsis	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00453
@@ -1467,25 +1467,25 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 111782			Tolypothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00464
 112008			Schineria	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01236
 112040			Zobellia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00353
-112902			Propionispora	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00702; vibrioid
 112902			Propionispora	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00702
+112902			Propionispora	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00702
 112987			Neochlamydia	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00366
 113286			Pseudoramibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00631
 114248			Tepidimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00959
 114248			Tepidimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00959.pub2
 114627			Alkaliphilus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00613
-114627			Alkaliphilus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00613; vibrioid
+114627			Alkaliphilus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00613
 115543			Parasporobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00650
 115780			Desulfotignum	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01022
-115780			Desulfotignum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01022; vibrioid
 115780			Desulfotignum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01022.pub2
-115780			Desulfotignum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01022.pub2; vibrioid
+115780			Desulfotignum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01022
+115780			Desulfotignum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01022.pub2
 115782			Trichlorobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01044
 116071			Micropruina	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00166
 117156			Actinopolymorpha	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00155
 117156			Actinopolymorpha	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00155
 117563			Granulicatella	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00596
-118004			Chrysiogenes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00385; vibrioid
+118004			Chrysiogenes	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00385
 118747			Bulleidia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00760
 118966			Anaerorhabdus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00237
 119852			Oscillospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00676
@@ -1517,11 +1517,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 125216			Roseomonas	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00888
 125287			Ornithinimicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
 125287			Ornithinimicrobium	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
-129001			Syntrophothermus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00684; vibrioid
+129001			Syntrophothermus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00684
 129337			Geobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00533
 129577			Oceanimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01082
 129957			Carboxydothermus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00746
-129957			Carboxydothermus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00746; vibrioid
+129957			Carboxydothermus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00746
 130795			Crossiella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00177
 130795			Crossiella	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00177
 132605			Limnothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00438
@@ -1556,14 +1556,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 146825			Halorhabdus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01349
 146825			Halorhabdus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01349
 146918			Salinibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00283
-146918			Salinibacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00283; vibrioid
-146935			Azovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00997; vibrioid
+146918			Salinibacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00283
 146935			Azovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00997
+146935			Azovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00997
 146936			Azonexus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00995
-146936			Azonexus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00995; vibrioid
-146937			Azospira	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00996; vibrioid
+146936			Azonexus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00995
 146937			Azospira	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00996
 146937			Dechlorosoma	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00999
+146937			Azospira	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00996
 147067			Thermobispora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00213
 149698			Massilia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00965
 149711			Desulfovirga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01067
@@ -1574,12 +1574,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 150203			Blastomonas	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00918
 150203			Erythromonas	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00921
 150247			Anoxybacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00529
-150247			Anoxybacillus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00529; vibrioid
+150247			Anoxybacillus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00529
 150333			Thermobrachium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00623
 150818			Heliophilum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00635
 150830			Roseibium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00864
-151037			Anaerosinus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00692; vibrioid
 151037			Anaerosinus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00692
+151037			Anaerosinus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00692
 152053			Starkeya	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00828
 152053			Starkeya	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00828
 152053			Starkeya	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00828
@@ -1588,13 +1588,13 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 152267			Pigmentiphaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00932
 153027			Desulforegula	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01590
 153265			Aequorivita	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00293.pub2
-153265			Aequorivita	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00293.pub2; vibrioid
 153265			Vitellibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00347
 153265			Aequorivita	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00293.pub2
+153265			Aequorivita	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00293.pub2
 154116			Georgenia	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00061.pub2
 154116			Georgenia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00061.pub2
-154346			Thiorhodospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01132; vibrioid
 154346			Thiorhodospira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01132
+154346			Thiorhodospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01132
 155493			Gallibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01848
 155862			Methanothermococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00503
 155862			Methanothermococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00503.pub2
@@ -1632,7 +1632,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 162491			Oerskovia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00064
 162491			Oerskovia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00064
 164450			Vulcanisaeta	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01326
-164450			Vulcanisaeta	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01326; vibrioid
+164450			Vulcanisaeta	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01326
 165301			Lentzea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00182
 165301			Lechevalieria	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00181
 165301			Lentzea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00182
@@ -1667,7 +1667,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 175304			Lentibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00537
 177399			Anaerophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00240
 177971			Shuttleworthia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00653
-177971			Shuttleworthia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00653; vibrioid
+177971			Shuttleworthia	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00653
 178440			Opitutus	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01275
 178440			Opitutus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01275
 178469			Arenibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00296.pub2
@@ -1682,10 +1682,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 182623			Smithella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01063.pub2
 182709			Oceanobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00539
 183669			Macromonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00949
-183669			Macromonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00949; vibrioid
+183669			Macromonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00949
 184869			Varibaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00015
-184869			Varibaculum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00015; vibrioid
 184869			Varibaculum	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00015
+184869			Varibaculum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00015
 184923			Methylocapsa	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01402
 184923			Methylocapsa	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01402
 186188			Xylanibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00131
@@ -1703,7 +1703,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 190323			Plantibacter	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00110
 190818			Geoglobus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01329
 190972			Sedimentibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00718
-190972			Sedimentibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00718; vibrioid
+190972			Sedimentibacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00718
 191303			Turicibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00766
 191373			Pelotomaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00662
 191494			Conexibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00225
@@ -1770,16 +1770,16 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 205889			Albidovulum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01456
 206375			Prolinoborus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00982
 206375			Prolinoborus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00982
-206664			Desulfonauticus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01577; vibrioid
 206664			Desulfonauticus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01577
+206664			Desulfonauticus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01577
 207244			Anaerostipes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00638
 207599			Solirubrobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00227
-210622			Anoxynatronum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00615; vibrioid
+210622			Anoxynatronum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00615
 211469			Kineosphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00074
 212110			Thiopedia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01123
 212110			Thiopedia	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01123
-212111			Thiospirillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01126; vibrioid
 212111			Thiospirillum	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01126
+212111			Thiospirillum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01126
 212118			Thiobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01225
 212741			Mesophilobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01209
 212741			Mesophilobacter	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01209
@@ -1790,24 +1790,24 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 212791			Enhydrobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01214
 212791			Enhydrobacter	coccobacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01214
 213028			Saccharobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01165
-213484			Vampirovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01009; vibrioid
 213484			Vampirovibrio	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01009
-213485			Micavibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01008; vibrioid
+213484			Vampirovibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01009
+213485			Micavibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01008
 214904			Tepidibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00669
-214904			Tepidibacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669; vibrioid
+214904			Tepidibacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669
 214906			Histophilus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01849
 214906			Histophilus	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01849
 216400			Moorella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00748
 216400			Moorella	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00748
 216431			Croceibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00305
 216851			Faecalibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00674.pub2
-217140			Arcicella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00260; vibrioid
 217140			Arcicella	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00260
+217140			Arcicella	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00260
 217161			Chamaesiphon	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00410
 218204			Garciella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00630
 218207			Desulfatibacillum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01583
-218207			Desulfatibacillum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01583; vibrioid
 218207			Desulfatibacillum	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01583
+218207			Desulfatibacillum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01583
 221065			Kordia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00319
 221283			Nostochopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00470
 221283			Nostochopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00470.pub2
@@ -1820,9 +1820,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 224461			Jahnia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01058
 224465			Kofleria	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01050
 224474			Desulfothermus	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01031
-224474			Desulfothermus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031; vibrioid
 224474			Desulfothermus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031.pub2
-224474			Desulfothermus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031.pub2; vibrioid
+224474			Desulfothermus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031
+224474			Desulfothermus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031.pub2
 225447			Yaniella	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00125
 225447			Yaniella	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00125
 225842			Formosa	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00313
@@ -1840,12 +1840,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 235888			Salinibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00114
 235888			Salinibacterium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00114
 236052			Propionicimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00169
-236052			Propionicimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00169; vibrioid
+236052			Propionicimonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00169
 236752			Fastidiosipila	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00675
 237444			Ulvibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00346
 238749			Diaphorobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01826
 239759			Alistipes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00251
-239759			Alistipes	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00251; vibrioid
+239759			Alistipes	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00251
 239934			Akkermansia	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01282
 240233			Aeriscardovia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00017.pub2
 240233			Aeriscardovia	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00017.pub2
@@ -1860,8 +1860,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 245186			Loktanella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01670
 245186			Loktanella	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01670
 245186			Loktanella	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01670
-246861			Grimontia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01952; vibrioid
 246861			Grimontia	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01952
+246861			Grimontia	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01952
 246873			Crocinitomix	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00288
 246873			Crocinitomix	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00288
 246875			Algoriphagus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00253
@@ -1892,7 +1892,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 256818			Gulosibacter	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00099
 256846			Lentisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00776
 258514			Acetanaerobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00670
-261684			Thermosinus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00709; vibrioid
+261684			Thermosinus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00709
 263377			Salipiger	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01671
 263377			Salipiger	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01671
 263510			Crocosphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01517
@@ -1917,7 +1917,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 283735			Leeuwenhoekiella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00322
 283810			Stackebrandtia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00050
 285105			Tepidimicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01399
-285105			Tepidimicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01399; vibrioid
+285105			Tepidimicrobium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01399
 286104			Winogradskyella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00350.pub2
 286104			Winogradskyella	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00350.pub2
 286729			Alkaliflexus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00239
@@ -1927,15 +1927,15 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 288021			Kordiimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01916
 289201			Pontibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00541
 290174			Aquimarina	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00295
-290180			Fabibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00276; vibrioid
 290180			Roseivirga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00281
+290180			Fabibacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00276
 290184			Cryptanaerobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00656
 291178			Subsaximicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00344
 291181			Subsaxibacter	coccobacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00343
 291183			Lacinutrix	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00321
-291183			Lacinutrix	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00321; vibrioid
+291183			Lacinutrix	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00321
 291967			Acaricomes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00117
-291988			Thermosediminibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00756; vibrioid
+291988			Thermosediminibacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00756
 292480			Atopostipes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00592
 292486			Avibacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01840
 292486			Avibacterium	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01840
@@ -1998,8 +1998,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 338583			Polymorphospora	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00150
 338583			Polymorphospora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00150
 339721			Desulfovermiculus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01578
-339721			Desulfovermiculus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01578; vibrioid
 339721			Desulfovermiculus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01578
+339721			Desulfovermiculus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01578
 340070			Criblamydia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00365
 340070			Criblamydia	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00365
 342658			Gracilibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00632
@@ -2021,8 +2021,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 360541			Sporacetigenium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01446
 361050			Rubritalea	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01283
 361050			Rubritalea	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01283
-361106			Desulfoglaeba	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01581; vibrioid
 361106			Desulfoglaeba	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01581
+361106			Desulfoglaeba	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01581
 361177			Altererythrobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02132
 361177			Altererythrobacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02132
 361607			Patulibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00226
@@ -2030,9 +2030,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 363408			Donghaeana	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00307
 363408			Nonlabens	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00329
 363408			Persicivirga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00332
-363408			Persicivirga	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00332; vibrioid
 363408			Sandarakinotalea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00339
 363408			Stenothermobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00342
+363408			Persicivirga	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00332
 365032			Aureispira	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00356
 365032			Aureispira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00356
 367188			Haladaptatus	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01330
@@ -2060,15 +2060,15 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 394505			Salirhabdus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01444
 395331			Methanoregula	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01368
 395331			Methanoregula	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01368
-396320			Desulfatiferula	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01584; vibrioid
+396320			Desulfatiferula	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01584
 396388			Aestuariimicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00160
 396388			Aestuariimicrobium	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00160
 397456			Gulbenkiania	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01832
 397864			Barnesiella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00242
 399320			Sphaerochaeta	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02038
 399320			Sphaerochaeta	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02038
-400060			Paludibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01833; vibrioid
 400060			Paludibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01833
+400060			Paludibacterium	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01833
 400634			Lysinibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01570
 402170			Lapillicoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00081
 402649			Actinomycetospora	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01751
@@ -2091,7 +2091,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 423604			Elusimicrobium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01490
 427077			Salsuginibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01794
 427753			Humibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00100.pub2
-427922			Desulfurivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01697; vibrioid
+427922			Desulfurivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01697
 427925			Dethiobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01696
 429014			Desulfopila	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01592
 435913			Fodinicola	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00041
@@ -2102,9 +2102,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 442430			Coraliomargarita	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01277
 442432			Perexilibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01910
 442869			Acanthopleuribacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00004
-444090			Caldimicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01764; vibrioid
 444090			Caldimicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01764
 444090			Caldimicrobium	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01764
+444090			Caldimicrobium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01764
 444513			Salibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01976
 444599			Hansschlegelia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02082
 447020			Adlercreutzia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01946
@@ -2112,8 +2112,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 448176			Granulicoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00163
 449972			Chelativorans	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01709
 451512			Mangrovibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01701
-453229			Desulfarculus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01010; vibrioid
-453229			Desulfarculus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01010.pub2; vibrioid
+453229			Desulfarculus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01010
+453229			Desulfarculus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01010.pub2
 453849			Henriciella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01801
 455433			Pelagicoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01278
 457933			Elioraea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01458
@@ -2143,11 +2143,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 482460			Sediminibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01795
 484508			Ornithinibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01684
 485576			Aquisalibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01799
-488937			Desulfonatronospira	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01576; vibrioid
 488937			Desulfonatronospira	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01576
+488937			Desulfonatronospira	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01576
 492233			Thiohalorhabdus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01940
-497721			Desulfoluna	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01588; vibrioid
 497721			Desulfoluna	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01588
+497721			Desulfoluna	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01588
 497726			Nitrososphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01294
 497742			Desulfatirhabdium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01585
 497742			Desulfatirhabdium	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01585
@@ -2173,7 +2173,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 518746			Limibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01909
 527198			Mariniflexile	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00325
 529883			Rhodoluna	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01312
-529883			Rhodoluna	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01312; vibrioid
+529883			Rhodoluna	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01312
 543311			Parvimonas	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00716
 556178			Humibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01947
 558418			Acetofilamentum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00234
@@ -2202,7 +2202,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 613121			Smaragdicoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00035
 626119			Haloactinobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00135.pub2
 626119			Ruania	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00136
-630723			Halarsenatibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01726; vibrioid
+630723			Halarsenatibacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01726
 643949			Ferrithrix	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00009
 643949			Ferrithrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00009
 644353			Halanaerobaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01725
@@ -2219,12 +2219,12 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 665568			Paraoerskovia	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02018
 665568			Paraoerskovia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02018
 665874			Limnohabitans	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01537
-665874			Limnohabitans	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01537; vibrioid
 665874			Limnohabitans	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01537
 665874			Limnohabitans	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01537
+665874			Limnohabitans	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01537
 666508			Phycisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01507
 667112			Lutispora	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01393
-667112			Lutispora	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01393; vibrioid
+667112			Lutispora	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01393
 667113			Actinoallomurus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01752
 670486			Dehalogenimonas	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01556
 673534			Plantactinospora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01318
@@ -2233,19 +2233,19 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 689697			Salisaeta	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01720
 689760			Planosporangium	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01956
 690086			Salinarimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01702
-690086			Salinarimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01702; vibrioid
+690086			Salinarimonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01702
 690565			Serinibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00059.pub2
 690565			Serinibacter	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00059.pub2
 693074			Caldisericum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01477
 695982			Halogranum	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01337
 697025			Hoyosella	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02019
 698776			Cellulosilyticum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01382
-698776			Cellulosilyticum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01382; vibrioid
-700595			Desulfocurvus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01572; vibrioid
+698776			Cellulosilyticum	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01382
 700595			Desulfocurvus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01572
+700595			Desulfocurvus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01572
 704093			Anaerobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01785
 715222			Caldicoprobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01380
-715222			Caldicoprobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01380; vibrioid
+715222			Caldicoprobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01380
 744724			Halarchaeum	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01333
 745153			Umboniibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01706
 747074			Tepidamorphus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01455
@@ -2263,7 +2263,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 871740			Halomarina	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01340
 875170			Celeribacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01708
 881616			Herbiconiux	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01307
-881616			Herbiconiux	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01307; vibrioid
+881616			Herbiconiux	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01307
 904708			Arenicella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01705
 907364			Phytohabitans	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01316
 908284			Necropsobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01852
@@ -2339,7 +2339,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1164882			Lachnoanaerobaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02007
 1164882			Lachnoanaerobaculum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02007
 1167830			Litorimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01896
-1167830			Litorimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01896; vibrioid
+1167830			Litorimonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01896
 1172428			Thermotomaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01669
 1176327			Aureitalea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01907
 1176327			Aureitalea	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01907
@@ -2388,8 +2388,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1330546			Pluralibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02045
 1330547			Kosakonia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02043
 1333716			Schleiferia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01901
-1335745			Spiribacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01729; vibrioid
 1335745			Spiribacter	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01729
+1335745			Spiribacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01729
 1347386			Anaerosalibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01397
 1348508			Roseimicrobium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01550
 1348508			Roseimicrobium	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01550
@@ -2411,11 +2411,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1417297			Desulfonatronobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01589
 1425377			Haloechinothrix	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01759
 1425377			Haloechinothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01759
-1427172			Aminivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01660; vibrioid
+1427172			Aminivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01660
 1427378			Acetatifactor	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01448
 1433300			Alteribacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01784
 1433996			Desulfobaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01571
-1433996			Paradesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01890; vibrioid
+1433996			Paradesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01890
 1433997			Diaminobutyricimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01302
 1434009			Homoserinimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01432
 1434010			Jatrophihabitans	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01959
@@ -2423,7 +2423,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1434023			Natranaerovirga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01964
 1434026			Oceanirhabdus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01632
 1434030			Phytomonospora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01317
-1434032			Pontimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01311; vibrioid
+1434032			Pontimonas	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01311
 1434039			Rudaibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01313
 1434040			Salimesophilobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01378
 1434043			Saliterribacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01793
@@ -2441,8 +2441,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1486725			Anaerobacterium	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01653
 1486726			Pseudobacteroides	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01654
 1491776			Proteinivorax	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02112
-1491776			Proteinivorax	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02112; vibrioid
 1491776			Proteinivorax	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02112
+1491776			Proteinivorax	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02112
 1494427			Tepidibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01797
 1494561			Agaribacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01987
 1495038			Mesoaciditoga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01867
@@ -2450,9 +2450,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1500514			Thermolongibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01604
 1501224			Hydrogenispora	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01680
 1502725			Effusibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01603
-1505231			Chitinivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01979; vibrioid
+1505231			Chitinivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01979
 1508657			Ruminiclostridium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01924
-1508657			Ruminiclostridium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01924; vibrioid
+1508657			Ruminiclostridium	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01924
 1511635			Aquisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01920
 1511648			Defluviitoga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01864
 1520333			Vespertiliibacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01858
@@ -2460,14 +2460,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1520333			Vespertiliibacter	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01858
 1522431			Thermosulfurimonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01566
 1522431			Thermosulfurimonas	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01566
-1535192			Desulfocarbo	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01579; vibrioid
+1535192			Desulfocarbo	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01579
 1538466			Rhizocola	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01319
 1542963			Halapricum	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01332
 1542963			Halapricum	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01332
 1542963			Halapricum	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01332
 1543703			Desulfuribacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01967
 1549126			Desulfatiglans	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01679
-1549129			Temperatibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01917; vibrioid
+1549129			Temperatibacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01917
 1562564			Aridibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01427
 1562565			Pyrinomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01533
 1565313			Methyloprofundus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01414
@@ -2479,7 +2479,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1609627			Hydrogenibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01615
 1612157			Pararhodospirillum	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02003
 1616789			Salinispira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01983
-1634037			Desulfoplanes	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01575; vibrioid
+1634037			Desulfoplanes	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01575
 1637257			Mageeibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01737
 1640153			Caldisalinibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01982
 1644057			Salinigranum	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01363
@@ -2491,10 +2491,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1648517			Mesocricetibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01850
 1648520			Conyzicola	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01300
 1648520			Conyzicola	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01300
-1649264			Desulfoconvexum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01587; vibrioid
+1649264			Desulfoconvexum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01587
 1649279			Epibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01672
 1649284			Ercella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01655
-1649284			Ercella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01655; vibrioid
+1649284			Ercella	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01655
 1649292			Falsochrobactrum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01538
 1649452			Geothermomicrobium	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01625
 1649454			Glaciihabitans	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01305
@@ -2504,7 +2504,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1649468			Melaminivora	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01827
 1649469			Methyloparacoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01413
 1649471			Mobilitalea	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01650
-1649471			Mobilitalea	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01650; vibrioid
+1649471			Mobilitalea	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01650
 1649475			Paludibaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01668
 1649478			Pelolinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01484
 1649492			Salinithrix	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01626
@@ -2553,14 +2553,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1763521			Paludisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01919
 1763552			Baia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01629
 1765964			Acidihalobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02071
-1765964			Acidihalobacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02071; vibrioid
+1765964			Acidihalobacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02071
 1769713			Flexilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01551
 1769718			Athalassotoga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01868
 1769738			Compostibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01607
 1771356			Tepidisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01509
 1775121			Larsenimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01716
 1775468			Silvibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01473
-1775574			Dethiosulfatarculus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01580; vibrioid
+1775574			Dethiosulfatarculus	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01580
 1775697			Melghiribacillus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01617
 1779002			Halocalculus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01495
 1779141			Planctomicrobium	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02036
@@ -2575,7 +2575,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1843206			Anaerotaenia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01645
 1843206			Anaerotaenia	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01645
 1843210			Anaerocolumna	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01646
-1843210			Anaerocolumna	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01646; vibrioid
+1843210			Anaerocolumna	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01646
 1847386			Vicinamibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01685
 1849551			Cephaloticoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01513
 1849718			Labilibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01922
@@ -2595,8 +2595,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1884449			Salipaludibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01618
 1890059			Serpentinicella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01817
 1890224			Polygonibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01613
-1890224			Polygonibacillus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01613; vibrioid
-1890291			Falcatimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01647; vibrioid
+1890224			Polygonibacillus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01613
+1890291			Falcatimonas	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01647
 1890407			Nanopusillus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02047
 1897649			Pistricoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01718
 1905344			Ruthenibacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01656
@@ -2606,7 +2606,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1911573			Haloprofundus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01527
 1911573			Haloprofundus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01527
 1911573			Haloprofundus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01527
-1912771			Halodesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01573; vibrioid
+1912771			Halodesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01573
 1914234			Fimbriiglobus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01971
 1914252			Thermodesulfitimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01661
 1918385			Acutalibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01730
@@ -2621,7 +2621,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1918598			Turicimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01748
 1920247			Ampullimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01905
 1921569			Micropepsis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01535
-1921569			Micropepsis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01535; vibrioid
+1921569			Micropepsis	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01535
 1921784			Kiritimatiella	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02077
 1929135			Halofilum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01936
 1929901			Bogoriella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00060.pub2
@@ -2631,14 +2631,14 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1930795			Croceifilum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01627
 1930856			Cavicella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01904
 1930932			Thioflexithrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02034
-1938335			Sulfuritortus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01835; vibrioid
 1938335			Sulfuritortus	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01835
+1938335			Sulfuritortus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01835
 1940141			Halectosymbiota	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02011
 1940255			Fournierella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01664
 1940395			Caenibacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01623
 1960084			Rodentibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01855
 1970191			Salinivirga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02009
-1970191			Salinivirga	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02009; vibrioid
+1970191			Salinivirga	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02009
 1974209			Rhodohalobacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01923
 1986268			Caenimicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01820
 2004661			Hyphobacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01927
@@ -2653,7 +2653,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2018671			Imhoffiella	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01932
 2022711			Methanonatronarchaeum	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01682
 2022712			Methanohalarchaeum	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01683
-2023242			Galliscardovia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02120; vibrioid
+2023242			Galliscardovia	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02120
 2024965			Dictyobacter	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01559
 2024969			Natronospira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01977
 2024975			Silvanigrella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01937
@@ -2662,9 +2662,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2024975			Silvanigrella	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01937
 2024982			Notoacmeibacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01926
 2024982			Notoacmeibacter	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01926
-2026179			Desulfocucumis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01595; vibrioid
+2026179			Desulfocucumis	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01595
 2033601			Thermosulfuriphilus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01565
-2033601			Thermosulfuriphilus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01565; vibrioid
+2033601			Thermosulfuriphilus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01565
 2033608			Halobium	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01526
 2036001			Salinirussus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01529
 2036001			Salinirussus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01529
@@ -2727,10 +2727,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2282523			Methylorubrum	pleiomorphic cell	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02024
 2282740			Desulfallas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01771
 2282741			Desulfofundulus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01780
-2282741			Desulfofundulus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01780; vibrioid
+2282741			Desulfofundulus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01780
 2282742			Desulfofarcimen	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01774
-2282742			Desulfofarcimen	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01774; vibrioid
-2282743			Desulfohalotomaculum	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01776; vibrioid
+2282742			Desulfofarcimen	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01774
+2282743			Desulfohalotomaculum	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01776
 2303493			Zestosphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02042
 2303498			Nanoclepta	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02046
 2483368			Sedimentisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01836
@@ -2738,16 +2738,16 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2501796			Natrarchaeobius	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01945
 2501796			Natrarchaeobius	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01945
 2547964			Parashewanella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02069
-2547964			Parashewanella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02069; vibrioid
+2547964			Parashewanella	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02069
 2571160			Trinickia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02068
-2582836			Desulfohalovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01882; vibrioid
 2582836			Desulfohalovibrio	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01882
-2582840			Desulfocurvibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01881; vibrioid
+2582836			Desulfohalovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01882
 2582840			Desulfocurvibacter	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01881
+2582840			Desulfocurvibacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01881
 2607661			Methanofervidicoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02050
-2608728			Acidisarcina	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081; vibrioid
 2608728			Acidisarcina	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
 2608728			Acidisarcina	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02081
+2608728			Acidisarcina	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
 2614447			Halomicrococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02056
 2663399			Halegenticoccus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01942
 2676755			Croceibacterium	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02134
@@ -2779,7 +2779,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2767890			Paucilactobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02142
 2767892			Secundilactobacillus	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02140
 2767893			Lentilactobacillus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02114
-2773294			Desulfolutivibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02029; vibrioid
+2773294			Desulfolutivibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02029
 2778400			Tepiditoga	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02061
 2778400			Tepiditoga	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02061
 2782229			Epilithonimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00310
@@ -2791,13 +2791,13 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2792240			Thiospirochaeta	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02051
 2792240			Thiospirochaeta	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02051
 2792240			Thiospirochaeta	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02051
-2794998			Maridesulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01877; vibrioid
 2794998			Maridesulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01877
+2794998			Maridesulfovibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01877
 2798309			Salinadaptatus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02059
 2800681			Aurantiacibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02133
 2800686			Tsuneonella	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02063
 2800686			Tsuneonella	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02063
-2802295			Nitratidesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01888; vibrioid
+2802295			Nitratidesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01888
 2806252			Haloglomus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02008
 2806916			Halalkalirubrum	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02058
 2807414			Anatilimnocola	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02080
@@ -2811,7 +2811,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2856573			Infirmifilum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02137
 2866216			Perlabentimonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02156
 2867376			Desulfoscipio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01772
-2867376			Desulfoscipio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01772; vibrioid
+2867376			Desulfoscipio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01772
 2867377			Desulfotruncus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01773
 2904316			Desulfocicer	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01869
 2904316			Desulfocicer	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01869
@@ -2819,37 +2819,37 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2904687			Desulforapulum	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01870
 2904687			Desulforapulum	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01870
 2904716			Desulfosudis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01872
-2905136			Fundidesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01886; vibrioid
+2905136			Fundidesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01886
 2905949			Thermodesulfomicrobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01876
 2907187			Tichowtungia	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02078
 2907493			Halocatena	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02054
 2907507			Halococcoides	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01944
-2909705			Oleidesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01884; vibrioid
 2909705			Oleidesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01884
-2910978			Megalodesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01887; vibrioid
-2910983			Humidesulfovibrio	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01878; vibrioid
-2910984			Solidesulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01885; vibrioid
+2909705			Oleidesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01884
+2910978			Megalodesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01887
+2910983			Humidesulfovibrio	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01878
 2910984			Solidesulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01885
-2910985			Paucidesulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01880; vibrioid
+2910984			Solidesulfovibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01885
 2910985			Paucidesulfovibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01880
+2910985			Paucidesulfovibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01880
 2916674			Desulfocastanea	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01594
-2916690			Desulfofalx	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01777; vibrioid
+2916690			Desulfofalx	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01777
 2916691			Desulfolucanica	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01775
 2916692			Desulforadius	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01779
 2916693			Desulforamulus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01770.pub2
-2916693			Desulforamulus	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01770.pub2; vibrioid
+2916693			Desulforamulus	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01770.pub2
 2916959			Desulfovectis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01778
-2916959			Desulfovectis	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01778; vibrioid
+2916959			Desulfovectis	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01778
 2919362			Saliniramus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01984
 2919362			Saliniramus	pleiomorphic cell	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01984
-2930105			Deferrivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02160; vibrioid
 2930105			Deferrivibrio	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02160
+2930105			Deferrivibrio	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02160
 2930384			Periweissella	bacillus	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02097
 2930384			Periweissella	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02097
 2974824			Nanobdella	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01370.pub2
 2978367			Nicoliella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02128
 2992720			Acidilutibacter	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02148
-2992720			Acidilutibacter	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02148; vibrioid
+2992720			Acidilutibacter	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02148
 3035923			Halorutilus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02096
 3050007			Fontisphaera	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02129
 3051499			Aceticella	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02154
@@ -2862,7 +2862,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 3108009			Microcaldus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02110
 3159553			Anaerobaca	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02159
 3161151			Eupransor	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02143
-3366853			Carboxydichorda	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02168; vibrioid
+3366853			Carboxydichorda	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02168
 3382645			Methyloraptor	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02169
 3399578			Cyanospira	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00455
 3399578			Cyanospira	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00455
@@ -2870,4 +2870,4 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 3399578			Cyanospira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00455
 3409820			Rarispira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02158
 3457169			Winmispira	spirillum	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02157
-3811964			Geochorda	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02167; vibrioid
+3811964			Geochorda	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02167

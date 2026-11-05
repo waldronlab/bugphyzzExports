@@ -14,7 +14,7 @@ dois = {d["doi"]: d for d in json.load(open(os.path.join(os.path.dirname(__file_
 SOURCE = "Bergeys_2026"
 # extraction vocabulary -> bugphyzz attributes.tsv vocabulary (None = drop)
 SHAPE = {"bacillus": "bacillus", "coccus": "coccus", "coccobacillus": "coccobacillus", "spirillum": "spirillum",
-         "filamentous": "filamentous", "elliptic": "elliptic", "pleomorphic": "pleiomorphic cell", "vibrio": "bacillus", "other": None}
+         "filamentous": "filamentous", "elliptic": "elliptic", "pleomorphic": "pleiomorphic cell", "vibrio": "vibrio", "other": None}
 AERO = {"aerobic": "aerobic", "anaerobic": "anaerobic", "facultatively anaerobic": "facultatively anaerobic", "microaerophilic": "microaerophilic"}
 FREQ = {"always", "usually", "sometimes"}
 rows = collections.defaultdict(list); dropped = collections.Counter(); chapters = {}
@@ -40,7 +40,7 @@ for doi in sorted(keep):
         emit("gram stain", e["value"], "TRUE", e["frequency"])
     for e in g.get("shape") or []:
         s = SHAPE.get(e["value"])
-        if s: emit("shape", s, "TRUE", e["frequency"], "vibrioid" if e["value"] == "vibrio" else "")
+        if s: emit("shape", s, "TRUE", e["frequency"])
         else: dropped[f"shape {e['value']}"] += 1
     for e in g.get("motility") or []:
         emit("motility", "motility", "TRUE" if e["value"] else "FALSE", e["frequency"])
@@ -49,8 +49,16 @@ for doi in sorted(keep):
     t = g.get("growth_temperature_c") or {}
     if t.get("optimum") is not None:
         rows["growth temperature"].append({**base, "Attribute": "growth temperature", "Attribute_value": t["optimum"], "Frequency": "always", "Unit": "Celcius", "Note": doi + "; optimum"})
-    elif t.get("min") is not None and t.get("max") is not None:
-        rows["growth temperature"].append({**base, "Attribute": "growth temperature", "Attribute_value": (t["min"] + t["max"]) / 2, "Frequency": "sometimes", "Unit": "Celcius", "Note": f"{doi}; midpoint of range {t['min']}-{t['max']}"})
+    elif t.get("min") is not None or t.get("max") is not None:
+        dropped["growth temperature range without optimum"] += 1
+    gc = g.get("gc_content_mol_percent") or {}
+    lo, hi = gc.get("min"), gc.get("max")
+    if lo is None: lo = hi
+    if hi is None: hi = lo
+    if lo is not None and 20 <= lo <= 80 and 20 <= hi <= 80:
+        rows["gc content"].append({**base, "Attribute": "gc content", "Attribute_value_min": lo, "Attribute_value_max": hi, "Frequency": "always", "Unit": "mol%", "Note": doi})
+    else:
+        if lo is not None: dropped["gc content outside 20-80"] += 1
 # overrides: hand corrections that survive re-extraction
 ov_path = os.path.join(os.path.dirname(__file__), "overrides.tsv")
 if os.path.exists(ov_path):
@@ -60,7 +68,10 @@ if os.path.exists(ov_path):
         elif o["action"] == "add":
             rows[o["physiology"]].append({"NCBI_ID": o["NCBI_ID"], "Genome_ID": "", "Accession_ID": "", "Taxon_name": o["Taxon_name"], "Attribute": o["Attribute"], "Attribute_value": o["Attribute_value"], "Attribute_source": SOURCE, "Frequency": o["Frequency"], "Note": "override: " + o["reason"]})
 for phys, rr in rows.items():
-    cols = ["NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value", "Attribute_source", "Frequency"] + (["Unit"] if phys == "growth temperature" else []) + ["Note"]
+    if phys == "gc content":
+        cols = ["NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value_min", "Attribute_value_max", "Attribute_source", "Frequency", "Unit", "Note"]
+    else:
+        cols = ["NCBI_ID", "Genome_ID", "Accession_ID", "Taxon_name", "Attribute", "Attribute_value", "Attribute_source", "Frequency"] + (["Unit"] if phys == "growth temperature" else []) + ["Note"]
     rr.sort(key=lambda r: (int(r["NCBI_ID"]), r["Attribute"]))
     with open(os.path.join(out_dir, phys.replace(" ", "_") + ".tsv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=cols, delimiter="\t", lineterminator="\n"); w.writeheader(); w.writerows(rr)
