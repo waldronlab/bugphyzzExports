@@ -475,15 +475,16 @@ ar <- phys_union[["antimicrobial resistance"]] |>
             Attribute
         )
     ) |>
-    mutate(Attribute = sub("not resistant", "sensitive", Attribute)) |>
-    mutate(Attribute = sub("resistant", "resistance", Attribute)) |>
-    mutate(Attribute = sub("tot", "to", Attribute)) |>
+    ## only the leading verb phrase is matched, case-insensitively
+    mutate(Attribute = sub("^not resistant ", "sensitive ", Attribute, ignore.case = TRUE)) |>
+    mutate(Attribute = sub("^resistant ", "resistance ", Attribute, ignore.case = TRUE)) |>
+    mutate(Attribute = sub("^(resistance) tot ", "\\1 to ", Attribute, ignore.case = TRUE)) |>
     mutate(
         Attribute_value = ifelse(
-            grepl("sensitive", Attribute), FALSE, Attribute_value
+            grepl("^sensitive ", Attribute, ignore.case = TRUE), FALSE, Attribute_value
         )
     ) |>
-    mutate(Attribute = sub("sensitive", "resistance", Attribute)) |>
+    mutate(Attribute = sub("^sensitive ", "resistance ", Attribute, ignore.case = TRUE)) |>
     mutate(Attribute_type = "binary")
 ## the rewritten names must be in the vocabulary too, or filterData() drops them
 stop_on_unmapped(list(`antimicrobial resistance` = ar))
