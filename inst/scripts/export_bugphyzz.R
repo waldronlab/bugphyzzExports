@@ -25,10 +25,10 @@ suppressMessages({
 ## bugphyzz's attribute_synonyms.tsv; anything left would be dropped by
 ## taxPPro::filterData() with only a line in the log (#65).
 stop_on_unmapped <- function(phys) {
-    vocab <- utils::read.table(
-        system.file("extdata", "attributes.tsv", package = "bugphyzz"),
-        sep = "\t", header = TRUE
-    )
+    ## read exactly as taxPPro::filterDataDiscrete() reads it, so the two agree
+    fname <- system.file("extdata", "attributes.tsv", package = "bugphyzz")
+    if (!nzchar(fname)) stop("bugphyzz's attributes.tsv not found", call. = FALSE)
+    vocab <- utils::read.table(fname, sep = "\t", header = TRUE)
     discrete <- c("binary", "multistate-intersection", "multistate-union")
     bad <- character(0)
     for (g in names(phys)) {
@@ -124,6 +124,10 @@ tim <- system.time({
         c("habitat", "disease association", "antimicrobial resistance")
     )
 })
+stopifnot(all(
+    c("habitat", "disease association", "antimicrobial resistance") %in%
+        names(phys_union)
+))
 stop_on_unmapped(c(phys, phys_union))
 log_print(tim, blank_after = TRUE)
 
