@@ -19,7 +19,7 @@ Citation: Shaaban H, Westfall DA, Mohammad R, et al. The Microbe Directory: an a
   | `optimal_temperature`, `optimal_ph` | growth temperature (Celsius), optimal ph | as published |
 
 - Frequency is `unknown` on every row, as on the sheet rows: the table gives no frequencies. How much weight that carries is for conflict resolution (#66). `Note` keeps the name and code as published.
-- `overrides.tsv`: Gram stain for three *Parabacteroides* and *Moraxella catarrhalis* (published positive; waldronlab/bugphyzz#260), the negative Gram stain that came in under *S. oligofermentans*, and five impossible numbers: 121 °C for *Burkholderia gladioli* (waldronlab/bugphyzz#261), −60 °C and −10 °C optima, and two negative pH values.
+- `overrides.tsv` has two actions. `drop` removes rows matching `NCBI_ID` and `Attribute`, and `Attribute_value` too when it is filled in; a drop that matches nothing stops the build, so stale overrides show up. `add` appends a row. All drops run before any add. Current entries: Gram stain for three *Parabacteroides* and *Moraxella catarrhalis* (published positive; waldronlab/bugphyzz#260), the negative Gram stain that came in under *S. oligofermentans*, and five impossible numbers: 121 °C for *Burkholderia gladioli* (waldronlab/bugphyzz#261), −60 °C and −10 °C optima, and two negative pH values.
 
 ## What changed from the sheet rows
 

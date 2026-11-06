@@ -140,24 +140,30 @@ for r in csv.DictReader(open(md_csv, newline="", encoding="utf-8")):
         if r[col]:
             rows[phys].append({**base, "Attribute": attr, "Attribute_value": r[col], "Unit": unit, "Note": note(col)})
 
-## overrides: corrections that survive a re-run
+## overrides: corrections that survive a re-run. All drops are applied
+## before any add, whatever the file order. A drop matches NCBI_ID and
+## Attribute, and Attribute_value too when it is filled in.
 ov_path = os.environ.get("MD_OVERRIDES") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "overrides.tsv")   # MD_OVERRIDES: tests only
-for o in csv.DictReader(open(ov_path, encoding="utf-8"), delimiter="\t"):
+overrides = list(csv.DictReader(open(ov_path, encoding="utf-8"), delimiter="\t"))
+bad = {o["action"] for o in overrides} - {"drop", "add"}
+if bad:
+    sys.exit(f"unknown override action: {', '.join(sorted(bad))}")
+for o in (o for o in overrides if o["action"] == "drop"):
     phys = o["physiology"]
-    if o["action"] == "drop":
-        before = len(rows[phys])
-        rows[phys] = [x for x in rows[phys] if not (x["NCBI_ID"] == o["NCBI_ID"] and x["Attribute"] == o["Attribute"])]
-        if len(rows[phys]) == before:
-            sys.exit(f"override matched nothing: {o}")
-    elif o["action"] == "add":
-        new = {"NCBI_ID": o["NCBI_ID"], "Genome_ID": "", "Accession_ID": "", "Taxon_name": o["Taxon_name"],
-               "Attribute": o["Attribute"], "Attribute_value": o["Attribute_value"], "Attribute_source": SOURCE,
-               "Frequency": o["Frequency"], "Note": "override: " + o["reason"]}
-        if phys in ("growth temperature", "optimal ph"):
-            new["Unit"] = NUMERIC["optimal_temperature" if phys == "growth temperature" else "optimal_ph"][2]
-        rows[phys].append(new)
-    else:
-        sys.exit(f"unknown override action: {o['action']}")
+    hit = lambda x: x["NCBI_ID"] == o["NCBI_ID"] and x["Attribute"] == o["Attribute"] and (not o["Attribute_value"] or x["Attribute_value"] == o["Attribute_value"])
+    before = len(rows[phys])
+    rows[phys] = [x for x in rows[phys] if not hit(x)]
+    if len(rows[phys]) == before:
+        sys.exit(f"override matched nothing: {o}")
+    stats["overrides applied"] += 1
+for o in (o for o in overrides if o["action"] == "add"):
+    phys = o["physiology"]
+    new = {"NCBI_ID": o["NCBI_ID"], "Genome_ID": "", "Accession_ID": "", "Taxon_name": o["Taxon_name"],
+           "Attribute": o["Attribute"], "Attribute_value": o["Attribute_value"], "Attribute_source": SOURCE,
+           "Frequency": o["Frequency"], "Note": "override: " + o["reason"]}
+    if phys in ("growth temperature", "optimal ph"):
+        new["Unit"] = NUMERIC["optimal_temperature" if phys == "growth temperature" else "optimal_ph"][2]
+    rows[phys].append(new)
     stats["overrides applied"] += 1
 
 for phys in rows:   # identical rows from two names for one taxon
