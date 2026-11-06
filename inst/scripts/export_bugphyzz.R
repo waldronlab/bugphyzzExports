@@ -613,6 +613,20 @@ filterAsr <- function(df) {
 }
 final_set <- map(final_set, filterAsr)
 
+## Genus, species and strain only (#64). Above genus every row is ASR on
+## internal LTP nodes, and deep nodes take the root's state with near-certain
+## scores (Bacillota gram-negative, Bacteria at 58.6 C).
+keep_ranks <- c("genus", "species", "strain")
+final_set <- imap(final_set, function(df, attr_name) {
+    n_before <- nrow(df)
+    df <- filter(df, Rank %in% keep_ranks)
+    log_print(paste0(
+        attr_name, ": dropped ", n_before - nrow(df),
+        " rows above genus or without a rank."
+    ))
+    df
+})
+
 multistate_data <- bind_rows(final_set[c(
         attributes_by_type$multistate,
         "habitat", "antimicrobial resistance", "disease association"

@@ -15,7 +15,8 @@ and run the ASR step. It also contains the devel version of the annotations
 The *.csv files contain the data in tabular format and are imported through
 the `bugphyzz::importBugphyzz` function in [R](https://github.com/waldronlab/bugphyzz).
 The *gmt files contain lists of microbial signatures in GMT format
-created with the `bugphyz::makeSignatures` function.
+created with the `bugphyzz::makeSignatures` function.
+Annotations are at genus, species and strain level.
 
 The data schema is described [here](https://github.com/waldronlab/bugphyzz)
 
