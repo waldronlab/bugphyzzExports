@@ -465,21 +465,29 @@ daready <- purrr::map(dal, ~ getDataReady(filterData(.x))) |>
 propagated[["disease association"]] <- daready
 
 ## antimicrobial resistance
+## Pair "resistance to X" / "sensitive to X" into one binary attribute named
+## "resistance to X". Case is kept: the vocabulary has "kanamycin A" (#83).
 ar <- phys_union[["antimicrobial resistance"]] |>
-    mutate(Attribute = stringr::str_squish(tolower(Attribute))) |>
-    mutate(Attribute = sub("not resistant", "sensitive", Attribute)) |>
+    mutate(Attribute = stringr::str_squish(Attribute)) |>
     mutate(
-        Attribute = sub("carbapenem-resistan", "resistance to", Attribute)
-    ) |>
-    mutate(Attribute = sub("resistant", "resistance", Attribute)) |>
-    mutate(Attribute = sub("tot", "to", Attribute)) |>
-    mutate(
-        Attribute_value = ifelse(
-            grepl("sensitive", Attribute), FALSE, Attribute_value
+        Attribute = sub(
+            "^carbapenem-resistant Acinetobacter$", "resistance to carbapenems",
+            Attribute
         )
     ) |>
-    mutate(Attribute = sub("sensitive", "resistance", Attribute)) |>
+    ## only the leading verb phrase is matched, case-insensitively
+    mutate(Attribute = sub("^not resistant ", "sensitive ", Attribute, ignore.case = TRUE)) |>
+    mutate(Attribute = sub("^resistant ", "resistance ", Attribute, ignore.case = TRUE)) |>
+    mutate(Attribute = sub("^(resistance) tot ", "\\1 to ", Attribute, ignore.case = TRUE)) |>
+    mutate(
+        Attribute_value = ifelse(
+            grepl("^sensitive ", Attribute, ignore.case = TRUE), FALSE, Attribute_value
+        )
+    ) |>
+    mutate(Attribute = sub("^sensitive ", "resistance ", Attribute, ignore.case = TRUE)) |>
     mutate(Attribute_type = "binary")
+## the rewritten names must be in the vocabulary too, or filterData() drops them
+stop_on_unmapped(list(`antimicrobial resistance` = ar))
 
 arl <- split(ar, ar$Attribute)
 arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
