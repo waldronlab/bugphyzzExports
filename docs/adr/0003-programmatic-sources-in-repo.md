@@ -1,8 +1,8 @@
 # 0003. Programmatic sources live in `sources/`, hand curation in Google Sheets
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-05
-- **Deciders:** Levi Waldron, Claude Code
+- **Deciders:** Levi Waldron
 
 ## Context and Problem Statement
 

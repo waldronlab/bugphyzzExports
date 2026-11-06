@@ -1,8 +1,8 @@
 # 0004. Export genus, species and strain only
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-05
-- **Deciders:** Levi Waldron, Claude Code
+- **Deciders:** Levi Waldron
 
 ## Context and Problem Statement
 

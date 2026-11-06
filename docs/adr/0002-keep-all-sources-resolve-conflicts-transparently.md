@@ -1,8 +1,8 @@
 # 0002. Keep all sources and resolve conflicts transparently
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-05
-- **Deciders:** Levi Waldron, Claude Code
+- **Deciders:** Levi Waldron
 
 ## Context and Problem Statement
 

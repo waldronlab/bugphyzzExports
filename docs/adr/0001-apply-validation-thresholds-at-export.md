@@ -1,8 +1,8 @@
 # 0001. Apply validation thresholds at export
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-05
-- **Deciders:** Levi Waldron, Claude Code
+- **Deciders:** Levi Waldron
 
 ## Context and Problem Statement
 
