@@ -12,7 +12,7 @@ Sources disagree. Re-extracting Bergey's in 2026, importing Madin et al. 2020 in
 
 1. Every source is imported, and every value it holds stays in the curated data with `Attribute_source` (and, for aggregated sources, the upstream `Data_source`) recorded per row.
 2. Disagreements are resolved at conflict resolution, by rules that are written down and logged, not by deleting rows upstream (#66).
-3. The one exclusion is a true secondary duplicate: a Madin record whose upstream source is also imported directly. These 29,469 records add no taxa or values.
+3. The one exclusion is a true secondary duplicate: a Madin record whose upstream source is also imported directly (29,469 records that add no taxa or values), or an earlier extraction of a text that a later extraction of the same text supersedes (the 2020 Bergey's scrape, superseded by `Bergeys_2026`; waldronlab/bugphyzz#274).
 
 ## Alternatives Considered
 

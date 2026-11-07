@@ -1,0 +1,8470 @@
+{
+"A cetatifactor": {
+"clean": "Acetatifactor",
+"taxid": "1427378"
+},
+"A cidicapsa": {
+"clean": "Acidicapsa",
+"taxid": "1078830"
+},
+"A cidilobus": {
+"clean": "Acidilobus",
+"taxid": "105850"
+},
+"A cidipila": {
+"clean": "Acidipila",
+"taxid": "1000999"
+},
+"A cidithiobacillus": {
+"clean": "Acidithiobacillus",
+"taxid": "119977"
+},
+"A ctinoallomurus": {
+"clean": "Actinoallomurus",
+"taxid": "667113"
+},
+"A cutalibacter": {
+"clean": "Acutalibacter",
+"taxid": "1918385"
+},
+"A estuariicoccus": {
+"clean": "Aestuariicoccus",
+"taxid": "2054427"
+},
+"A gromyces": {
+"clean": "Agromyces",
+"taxid": "33877"
+},
+"A idingimonas": {
+"clean": "Aidingimonas",
+"taxid": "1395977"
+},
+"A lbidovulum": {
+"clean": "Albidovulum",
+"taxid": "205889"
+},
+"A licycliphilus": {
+"clean": "Alicycliphilus",
+"taxid": "201096"
+},
+"A lkalicoccus": {
+"clean": "Alkalicoccus",
+"taxid": "2005375"
+},
+"A llofrancisella": {
+"clean": "Allofrancisella",
+"taxid": "1869285"
+},
+"A mnibacterium": {
+"clean": "Amnibacterium",
+"taxid": "1029631"
+},
+"A naerobium": {
+"clean": "Anaerobium",
+"taxid": "1855714"
+},
+"A naerocolumna": {
+"clean": "Anaerocolumna",
+"taxid": "1843210"
+},
+"A naerolinea": {
+"clean": "Anaerolinea",
+"taxid": "233189"
+},
+"A naerosalibacter": {
+"clean": "Anaerosalibacter",
+"taxid": "1347386"
+},
+"A naerosporomusa": {
+"clean": "Anaerosporomusa",
+"taxid": "1794910"
+},
+"A naerotaenia": {
+"clean": "Anaerotaenia",
+"taxid": "1843206"
+},
+"A nnwoodia": {
+"clean": "Annwoodia",
+"taxid": "2008781"
+},
+"A quibacillus": {
+"clean": "Aquibacillus",
+"taxid": "1647190"
+},
+"A quicella": {
+"clean": "Aquicella",
+"taxid": "254245"
+},
+"A quicoccus": {
+"clean": "Aquicoccus",
+"taxid": "2055850"
+},
+"A rdenticatena": {
+"clean": "Ardenticatena",
+"taxid": "1382931"
+},
+"A renicella": {
+"clean": "Arenicella",
+"taxid": "904708"
+},
+"A renimicrobium": {
+"clean": "Arenimicrobium",
+"taxid": "2048907"
+},
+"A ridibacter": {
+"clean": "Aridibacter",
+"taxid": "1562564"
+},
+"A rthrobacter": {
+"clean": "Arthrobacter",
+"taxid": "1663"
+},
+"A uraticoccus": {
+"clean": "Auraticoccus",
+"taxid": "1278221"
+},
+"Abiotrophia": {
+"clean": "Abiotrophia",
+"taxid": "46123"
+},
+"Acanthopleuribacter": {
+"clean": "Acanthopleuribacter",
+"taxid": "442869"
+},
+"Acaricomes": {
+"clean": "Acaricomes",
+"taxid": "291967"
+},
+"Acetanaerobacterium": {
+"clean": "Acetanaerobacterium",
+"taxid": "258514"
+},
+"Aceticella": {
+"clean": "Aceticella",
+"taxid": "3051499"
+},
+"Acetitomaculum": {
+"clean": "Acetitomaculum",
+"taxid": "31980"
+},
+"Acetivibrio": {
+"clean": "Acetivibrio",
+"taxid": "35829"
+},
+"Acetoanaerobium": {
+"clean": "Acetoanaerobium",
+"taxid": "186831"
+},
+"Acetobacter": {
+"clean": "Acetobacter",
+"taxid": "434"
+},
+"Acetobacterium": {
+"clean": "Acetobacterium",
+"taxid": "33951"
+},
+"Acetofilamentum": {
+"clean": "Acetofilamentum",
+"taxid": "558418"
+},
+"Acetohalobium": {
+"clean": "Acetohalobium",
+"taxid": "28186"
+},
+"Acetomicrobium": {
+"clean": "Acetomicrobium",
+"taxid": "49894"
+},
+"Acetonema": {
+"clean": "Acetonema",
+"taxid": "2373"
+},
+"Acetothermus": {
+"clean": "Acetothermus",
+"taxid": "558421"
+},
+"Acholeplasma": {
+"clean": "Acholeplasma",
+"taxid": "2147"
+},
+"Achromatium": {
+"clean": "Achromatium",
+"taxid": "44937"
+},
+"Achromobacter": {
+"clean": "Achromobacter",
+"taxid": "222"
+},
+"Acidaminobacter": {
+"clean": "Acidaminobacter",
+"taxid": "65402"
+},
+"Acidaminococcus": {
+"clean": "Acidaminococcus",
+"taxid": "904"
+},
+"Acidianus": {
+"clean": "Acidianus",
+"taxid": "12914"
+},
+"Acidihalobacter": {
+"clean": "Acidihalobacter",
+"taxid": "1765964"
+},
+"Acidilutibacter": {
+"clean": "Acidilutibacter",
+"taxid": "2992720"
+},
+"Acidimicrobium": {
+"clean": "Acidimicrobium",
+"taxid": "53634"
+},
+"Acidiphilium": {
+"clean": "Acidiphilium",
+"taxid": "522"
+},
+"Acidiplasma": {
+"clean": "Acidiplasma",
+"taxid": "507753"
+},
+"Acidisarcina": {
+"clean": "Acidisarcina",
+"taxid": "2608728"
+},
+"Acidisoma": {
+"clean": "Acidisoma",
+"taxid": "512381"
+},
+"Acidisphaera": {
+"clean": "Acidisphaera",
+"taxid": "50714"
+},
+"Acidithiobacillus": {
+"clean": "Acidithiobacillus",
+"taxid": "119977"
+},
+"Acidobacterium": {
+"clean": "Acidobacterium",
+"taxid": "33973"
+},
+"Acidocella": {
+"clean": "Acidocella",
+"taxid": "50709"
+},
+"Acidomonas": {
+"clean": "Acidomonas",
+"taxid": "34000"
+},
+"Acidothermus": {
+"clean": "Acidothermus",
+"taxid": "28048"
+},
+"Acidovorax": {
+"clean": "Acidovorax",
+"taxid": "12916"
+},
+"Acinetobacter": {
+"clean": "Acinetobacter",
+"taxid": "469"
+},
+"Acrocarpospora": {
+"clean": "Acrocarpospora",
+"taxid": "90974"
+},
+"Actinoalloteichus": {
+"clean": "Actinoalloteichus",
+"taxid": "65496"
+},
+"Actinobacillus": {
+"clean": "Actinobacillus",
+"taxid": "713"
+},
+"Actinobaculum": {
+"clean": "Actinobaculum",
+"taxid": "76833"
+},
+"Actinocatenispora": {
+"clean": "Actinocatenispora",
+"taxid": "390988"
+},
+"Actinocorallia": {
+"clean": "Actinocorallia",
+"taxid": "58108"
+},
+"Actinokineospora": {
+"clean": "Actinokineospora",
+"taxid": "39845"
+},
+"Actinomadura": {
+"clean": "Actinomadura",
+"taxid": "1988"
+},
+"Actinomyces": {
+"clean": "Actinomyces",
+"taxid": "1654"
+},
+"Actinomycetospora": {
+"clean": "Actinomycetospora",
+"taxid": "402649"
+},
+"Actinoplanes": {
+"clean": "Actinoplanes",
+"taxid": "1865"
+},
+"Actinopolymorpha": {
+"clean": "Actinopolymorpha",
+"taxid": "117156"
+},
+"Actinopolyspora": {
+"clean": "Actinopolyspora",
+"taxid": "1849"
+},
+"Actinospica": {
+"clean": "Actinospica",
+"taxid": "414715"
+},
+"Actinosynnema": {
+"clean": "Actinosynnema",
+"taxid": "40566"
+},
+"Addendum to the Green Sulfur Bacteria Phototrophic green sulfur bacteria living in consortia with other microorganisms": {
+"clean": "Addendum to the Green Sulfur Bacteria Phototrophic green sulfur bacteria living in consortia with other microorganisms",
+"taxid": null
+},
+"Adhaeribacter": {
+"clean": "Adhaeribacter",
+"taxid": "299566"
+},
+"Adlercreutzia": {
+"clean": "Adlercreutzia",
+"taxid": "447020"
+},
+"Aequorivita": {
+"clean": "Aequorivita",
+"taxid": "153265"
+},
+"Aeriscardovia": {
+"clean": "Aeriscardovia",
+"taxid": "240233"
+},
+"Aerococcus": {
+"clean": "Aerococcus",
+"taxid": "1375"
+},
+"Aeromicrobium": {
+"clean": "Aeromicrobium",
+"taxid": "2040"
+},
+"Aeromonas": {
+"clean": "Aeromonas",
+"taxid": "642"
+},
+"Aeropyrum": {
+"clean": "Aeropyrum",
+"taxid": "56635"
+},
+"Aestuariimicrobium": {
+"clean": "Aestuariimicrobium",
+"taxid": "396388"
+},
+"Afipia": {
+"clean": "Afipia",
+"taxid": "1033"
+},
+"Agaribacter": {
+"clean": "Agaribacter",
+"taxid": "1494561"
+},
+"Agarilytica": {
+"clean": "Agarilytica",
+"taxid": "2036021"
+},
+"Agathobaculum": {
+"clean": "Agathobaculum",
+"taxid": "2048137"
+},
+"Aggregatibacter": {
+"clean": "Aggregatibacter",
+"taxid": "416916"
+},
+"Agreia": {
+"clean": "Agreia",
+"taxid": "110934"
+},
+"Agrilactobacillus": {
+"clean": "Agrilactobacillus",
+"taxid": "2767875"
+},
+"Agrobacterium": {
+"clean": "Agrobacterium",
+"taxid": "357"
+},
+"Agrococcus": {
+"clean": "Agrococcus",
+"taxid": "46352"
+},
+"Agromonas": {
+"clean": "Agromonas",
+"taxid": "374"
+},
+"Agromyces": {
+"clean": "Agromyces",
+"taxid": "33877"
+},
+"Ahrensia": {
+"clean": "Ahrensia",
+"taxid": "152180"
+},
+"Akkermansia": {
+"clean": "Akkermansia",
+"taxid": "239934"
+},
+"Albibacter": {
+"clean": "Albibacter",
+"taxid": "160700"
+},
+"Alcaligenes": {
+"clean": "Alcaligenes",
+"taxid": "507"
+},
+"Alcanivorax": {
+"clean": "Alcanivorax",
+"taxid": "59753"
+},
+"Algibacter": {
+"clean": "Algibacter",
+"taxid": "261827"
+},
+"Algimonas": {
+"clean": "Algimonas",
+"taxid": "1246884"
+},
+"Algoriphagus": {
+"clean": "Algoriphagus",
+"taxid": "246875"
+},
+"Alicyclobacillus": {
+"clean": "Alicyclobacillus",
+"taxid": "29330"
+},
+"Aliivibrio": {
+"clean": "Aliivibrio",
+"taxid": "511678"
+},
+"Alishewanella": {
+"clean": "Alishewanella",
+"taxid": "111142"
+},
+"Alistipes": {
+"clean": "Alistipes",
+"taxid": "239759"
+},
+"Alkalibacillus": {
+"clean": "Alkalibacillus",
+"taxid": "331654"
+},
+"Alkalibacter": {
+"clean": "Alkalibacter",
+"taxid": "274470"
+},
+"Alkalibacterium": {
+"clean": "Alkalibacterium",
+"taxid": "99906"
+},
+"Alkaliflexus": {
+"clean": "Alkaliflexus",
+"taxid": "286729"
+},
+"Alkaliphilus": {
+"clean": "Alkaliphilus",
+"taxid": "114627"
+},
+"Allisonella": {
+"clean": "Allisonella",
+"taxid": "39948"
+},
+"Allobaculum": {
+"clean": "Allobaculum",
+"taxid": "174708"
+},
+"Allochromatium": {
+"clean": "Allochromatium",
+"taxid": "85072"
+},
+"Allofustis": {
+"clean": "Allofustis",
+"taxid": "192987"
+},
+"Alloiococcus": {
+"clean": "Alloiococcus",
+"taxid": "1651"
+},
+"Allokutzneria": {
+"clean": "Allokutzneria",
+"taxid": "1137960"
+},
+"Allorhizobium": {
+"clean": "Allorhizobium",
+"taxid": "78526"
+},
+"Alloscardovia": {
+"clean": "Alloscardovia",
+"taxid": "419014"
+},
+"Alpinimonas": {
+"clean": "Alpinimonas",
+"taxid": "1132766"
+},
+"Altererythrobacter": {
+"clean": "Altererythrobacter",
+"taxid": "361177"
+},
+"Alteribacillus": {
+"clean": "Alteribacillus",
+"taxid": "1433300"
+},
+"Alterococcus": {
+"clean": "Alterococcus",
+"taxid": "78553"
+},
+"Alteromonas": {
+"clean": "Alteromonas",
+"taxid": "226"
+},
+"Alysiella": {
+"clean": "Alysiella",
+"taxid": "194195"
+},
+"Amaricoccus": {
+"clean": "Amaricoccus",
+"taxid": "56999"
+},
+"Aminivibrio": {
+"clean": "Aminivibrio",
+"taxid": "1427172"
+},
+"Aminobacter": {
+"clean": "Aminobacter",
+"taxid": "31988"
+},
+"Aminobacterium": {
+"clean": "Aminobacterium",
+"taxid": "81466"
+},
+"Aminomonas": {
+"clean": "Aminomonas",
+"taxid": "81411"
+},
+"Ammonifex": {
+"clean": "Ammonifex",
+"taxid": "42837"
+},
+"Ammoniphilus": {
+"clean": "Ammoniphilus",
+"taxid": "66862"
+},
+"Amphibacillus": {
+"clean": "Amphibacillus",
+"taxid": "29331"
+},
+"Ampullimonas": {
+"clean": "Ampullimonas",
+"taxid": "1920247"
+},
+"Amycolatopsis": {
+"clean": "Amycolatopsis",
+"taxid": "1813"
+},
+"Anaeroarcus": {
+"clean": "Anaeroarcus",
+"taxid": "81463"
+},
+"Anaerobaca": {
+"clean": "Anaerobaca",
+"taxid": "3159553"
+},
+"Anaerobacillus": {
+"clean": "Anaerobacillus",
+"taxid": "704093"
+},
+"Anaerobacter": {
+"clean": "Anaerobacter",
+"taxid": "1485"
+},
+"Anaerobacterium": {
+"clean": "Anaerobacterium",
+"taxid": "1486725"
+},
+"Anaerobaculum": {
+"clean": "Anaerobaculum",
+"taxid": "49894"
+},
+"Anaerobiospirillum": {
+"clean": "Anaerobiospirillum",
+"taxid": "13334"
+},
+"Anaerobranca": {
+"clean": "Anaerobranca",
+"taxid": "42447"
+},
+"Anaerococcus": {
+"clean": "Anaerococcus",
+"taxid": "165779"
+},
+"Anaerofilum": {
+"clean": "Anaerofilum",
+"taxid": "52784"
+},
+"Anaerofustis": {
+"clean": "Anaerofustis",
+"taxid": "264995"
+},
+"Anaeroglobus": {
+"clean": "Anaeroglobus",
+"taxid": "906"
+},
+"Anaeromusa": {
+"clean": "Anaeromusa",
+"taxid": "81463"
+},
+"Anaerophaga": {
+"clean": "Anaerophaga",
+"taxid": "177399"
+},
+"Anaeroplasma": {
+"clean": "Anaeroplasma",
+"taxid": "2086"
+},
+"Anaerorhabdus": {
+"clean": "Anaerorhabdus",
+"taxid": "118966"
+},
+"Anaerosinus": {
+"clean": "Anaerosinus",
+"taxid": "151037"
+},
+"Anaerostipes": {
+"clean": "Anaerostipes",
+"taxid": "207244"
+},
+"Anaerotruncus": {
+"clean": "Anaerotruncus",
+"taxid": "244127"
+},
+"Anaerovibrio": {
+"clean": "Anaerovibrio",
+"taxid": "82373"
+},
+"Anaerovorax": {
+"clean": "Anaerovorax",
+"taxid": "109326"
+},
+"Anaplasma": {
+"clean": "Anaplasma",
+"taxid": "768"
+},
+"Anatilimnocola": {
+"clean": "Anatilimnocola",
+"taxid": "2807414"
+},
+"Ancalochloris": {
+"clean": "Ancalochloris",
+"taxid": "565376"
+},
+"Ancalomicrobium": {
+"clean": "Ancalomicrobium",
+"taxid": "204472"
+},
+"Ancylobacter": {
+"clean": "Ancylobacter",
+"taxid": "99"
+},
+"Aneurinibacillus": {
+"clean": "Aneurinibacillus",
+"taxid": "55079"
+},
+"Angulomicrobium": {
+"clean": "Angulomicrobium",
+"taxid": "99"
+},
+"Angustibacter": {
+"clean": "Angustibacter",
+"taxid": "908626"
+},
+"Anoxybacillus": {
+"clean": "Anoxybacillus",
+"taxid": "150247"
+},
+"Anoxynatronum": {
+"clean": "Anoxynatronum",
+"taxid": "210622"
+},
+"Antarctobacter": {
+"clean": "Antarctobacter",
+"taxid": "74032"
+},
+"Apilactobacillus": {
+"clean": "Apilactobacillus",
+"taxid": "2767877"
+},
+"Aquabacter": {
+"clean": "Aquabacter",
+"taxid": "45402"
+},
+"Aquamicrobium": {
+"clean": "Aquamicrobium",
+"taxid": "69278"
+},
+"Aquaspirillum": {
+"clean": "Aquaspirillum",
+"taxid": "187"
+},
+"Aquifex": {
+"clean": "Aquifex",
+"taxid": "2713"
+},
+"Aquiflexum": {
+"clean": "Aquiflexum",
+"taxid": "280472"
+},
+"Aquimarina": {
+"clean": "Aquimarina",
+"taxid": "290174"
+},
+"Aquisalibacillus": {
+"clean": "Aquisalibacillus",
+"taxid": "485576"
+},
+"Aquisphaera": {
+"clean": "Aquisphaera",
+"taxid": "1511635"
+},
+"Arcanobacterium": {
+"clean": "Arcanobacterium",
+"taxid": "28263"
+},
+"Archaeoglobus": {
+"clean": "Archaeoglobus",
+"taxid": "2233"
+},
+"Archangium": {
+"clean": "Archangium",
+"taxid": "47"
+},
+"Arcicella": {
+"clean": "Arcicella",
+"taxid": "217140"
+},
+"Arcobacter": {
+"clean": "Arcobacter",
+"taxid": "28196"
+},
+"Arenibacter": {
+"clean": "Arenibacter",
+"taxid": "178469"
+},
+"Arhodomonas": {
+"clean": "Arhodomonas",
+"taxid": "2368"
+},
+"Arsenicicoccus": {
+"clean": "Arsenicicoccus",
+"taxid": "267408"
+},
+"Arsenophonus": {
+"clean": "Arsenophonus",
+"taxid": "637"
+},
+"Arthrobacter": {
+"clean": "Arthrobacter",
+"taxid": "1663"
+},
+"Asaia": {
+"clean": "Asaia",
+"taxid": "91914"
+},
+"Asanoa": {
+"clean": "Asanoa",
+"taxid": "195964"
+},
+"Asteroleplasma": {
+"clean": "Asteroleplasma",
+"taxid": "2152"
+},
+"Asticcacaulis": {
+"clean": "Asticcacaulis",
+"taxid": "76890"
+},
+"Athalassotoga": {
+"clean": "Athalassotoga",
+"taxid": "1769718"
+},
+"Atopobacter": {
+"clean": "Atopobacter",
+"taxid": "136491"
+},
+"Atopobium": {
+"clean": "Atopobium",
+"taxid": "1380"
+},
+"Atopococcus": {
+"clean": "Atopococcus",
+"taxid": "269773"
+},
+"Atopostipes": {
+"clean": "Atopostipes",
+"taxid": "292480"
+},
+"Atribacter": {
+"clean": "Atribacter",
+"taxid": "2847777"
+},
+"Aurantiacibacter": {
+"clean": "Aurantiacibacter",
+"taxid": "2800681"
+},
+"Aureibacillus": {
+"clean": "Aureibacillus",
+"taxid": "1930791"
+},
+"Aureispira": {
+"clean": "Aureispira",
+"taxid": "365032"
+},
+"Aureitalea": {
+"clean": "Aureitalea",
+"taxid": "1176327"
+},
+"Avibacterium": {
+"clean": "Avibacterium",
+"taxid": "292486"
+},
+"Azoarcus": {
+"clean": "Azoarcus",
+"taxid": "12960"
+},
+"Azomonas": {
+"clean": "Azomonas",
+"taxid": "69961"
+},
+"Azonexus": {
+"clean": "Azonexus",
+"taxid": "146936"
+},
+"Azorhizobium": {
+"clean": "Azorhizobium",
+"taxid": "6"
+},
+"Azospira": {
+"clean": "Azospira",
+"taxid": "146937"
+},
+"Azospirillum": {
+"clean": "Azospirillum",
+"taxid": "191"
+},
+"Azotobacter": {
+"clean": "Azotobacter",
+"taxid": "352"
+},
+"Azovibrio": {
+"clean": "Azovibrio",
+"taxid": "146935"
+},
+"B aia": {
+"clean": "Baia",
+"taxid": "1763552"
+},
+"B asfia": {
+"clean": "Basfia",
+"taxid": "697331"
+},
+"B auldia": {
+"clean": "Bauldia",
+"taxid": "1145345"
+},
+"B ellilinea": {
+"clean": "Bellilinea",
+"taxid": "475960"
+},
+"B ilophila": {
+"clean": "Bilophila",
+"taxid": "35832"
+},
+"B lastocatella": {
+"clean": "Blastocatella",
+"taxid": "1281902"
+},
+"B orrelia": {
+"clean": "Borrelia",
+"taxid": "138"
+},
+"B orreliella": {
+"clean": "Borreliella",
+"taxid": "64895"
+},
+"B rachyspira": {
+"clean": "Brachyspira",
+"taxid": "29521"
+},
+"B revifollis": {
+"clean": "Brevifollis",
+"taxid": "48463"
+},
+"B revitalea": {
+"clean": "Brevitalea",
+"taxid": "2048911"
+},
+"B rockia": {
+"clean": "Brockia",
+"taxid": "1648500"
+},
+"B rucella": {
+"clean": "Brucella",
+"taxid": "234"
+},
+"B ryobacter": {
+"clean": "Bryobacter",
+"taxid": "911113"
+},
+"B ryocella": {
+"clean": "Bryocella",
+"taxid": "1078860"
+},
+"B urkholderia": {
+"clean": "Burkholderia",
+"taxid": "32008"
+},
+"Bacillus": {
+"clean": "Bacillus",
+"taxid": "1386"
+},
+"Bacteriovorax": {
+"clean": "Bacteriovorax",
+"taxid": "146784"
+},
+"Bacteroides": {
+"clean": "Bacteroides",
+"taxid": "816"
+},
+"Balneatrix": {
+"clean": "Balneatrix",
+"taxid": "75683"
+},
+"Barnesiella": {
+"clean": "Barnesiella",
+"taxid": "397864"
+},
+"Bartonella": {
+"clean": "Bartonella",
+"taxid": "773"
+},
+"Bdellovibrio": {
+"clean": "Bdellovibrio",
+"taxid": "958"
+},
+"Beggiatoa": {
+"clean": "Beggiatoa",
+"taxid": "1021"
+},
+"Beijerinckia": {
+"clean": "Beijerinckia",
+"taxid": "532"
+},
+"Belliella": {
+"clean": "Belliella",
+"taxid": "232244"
+},
+"Bergeyella": {
+"clean": "Bergeyella",
+"taxid": "59735"
+},
+"Beutenbergia": {
+"clean": "Beutenbergia",
+"taxid": "84756"
+},
+"Bibersteinia": {
+"clean": "Bibersteinia",
+"taxid": "476528"
+},
+"Bifidobacterium": {
+"clean": "Bifidobacterium",
+"taxid": "1678"
+},
+"Bilophila": {
+"clean": "Bilophila",
+"taxid": "35832"
+},
+"Bisgaardia": {
+"clean": "Bisgaardia",
+"taxid": "109471"
+},
+"Bizionia": {
+"clean": "Bizionia",
+"taxid": "283785"
+},
+"Blastobacter": {
+"clean": "Blastobacter",
+"taxid": "109"
+},
+"Blastochloris": {
+"clean": "Blastochloris",
+"taxid": "59282"
+},
+"Blastococcus": {
+"clean": "Blastococcus",
+"taxid": "38501"
+},
+"Blastomonas": {
+"clean": "Blastomonas",
+"taxid": "150203"
+},
+"Blastopirellula": {
+"clean": "Blastopirellula",
+"taxid": "265487"
+},
+"Blattabacterium": {
+"clean": "Blattabacterium",
+"taxid": "34098"
+},
+"Bogoriella": {
+"clean": "Bogoriella",
+"taxid": "1929901"
+},
+"Bombilactobacillus": {
+"clean": "Bombilactobacillus",
+"taxid": "2767878"
+},
+"Bombiscardovia": {
+"clean": "Bombiscardovia",
+"taxid": "1159909"
+},
+"Bordetella": {
+"clean": "Bordetella",
+"taxid": "517"
+},
+"Borrelia": {
+"clean": "Borrelia",
+"taxid": "138"
+},
+"Bosea": {
+"clean": "Bosea",
+"taxid": "169215"
+},
+"Brachybacterium": {
+"clean": "Brachybacterium",
+"taxid": "43668"
+},
+"Brachymonas": {
+"clean": "Brachymonas",
+"taxid": null
+},
+"Brachyspira": {
+"clean": "Brachyspira",
+"taxid": "29521"
+},
+"Bradyrhizobium": {
+"clean": "Bradyrhizobium",
+"taxid": "374"
+},
+"Brenneria": {
+"clean": "Brenneria",
+"taxid": "71655"
+},
+"Brevibacillus": {
+"clean": "Brevibacillus",
+"taxid": "55080"
+},
+"Brevibacterium": {
+"clean": "Brevibacterium",
+"taxid": "1696"
+},
+"Brevinema": {
+"clean": "Brevinema",
+"taxid": "34096"
+},
+"Brevundimonas": {
+"clean": "Brevundimonas",
+"taxid": "41275"
+},
+"Brochothrix": {
+"clean": "Brochothrix",
+"taxid": "2755"
+},
+"Brooklawnia": {
+"clean": "Brooklawnia",
+"taxid": "369926"
+},
+"Brucella": {
+"clean": "Brucella",
+"taxid": "234"
+},
+"Brumimicrobium": {
+"clean": "Brumimicrobium",
+"taxid": "200473"
+},
+"Bryantella": {
+"clean": "Bryantella",
+"taxid": "248744"
+},
+"Buchnera": {
+"clean": "Buchnera",
+"taxid": "32199"
+},
+"Budvicia": {
+"clean": "Budvicia",
+"taxid": "82978"
+},
+"Bulleidia": {
+"clean": "Bulleidia",
+"taxid": "118747"
+},
+"Burkholderia": {
+"clean": "Burkholderia",
+"taxid": "32008"
+},
+"Buttiauxella": {
+"clean": "Buttiauxella",
+"taxid": "82976"
+},
+"Butyrivibrio": {
+"clean": "Butyrivibrio",
+"taxid": "830"
+},
+"Byssophaga gen. nov": {
+"clean": "Byssophaga",
+"taxid": "224459"
+},
+"C aedibacter": {
+"clean": "Caedibacter",
+"taxid": "28905"
+},
+"C aenibacillus": {
+"clean": "Caenibacillus",
+"taxid": "1940395"
+},
+"C alderihabitans": {
+"clean": "Calderihabitans",
+"taxid": "1326739"
+},
+"C aldisericum": {
+"clean": "Caldisericum",
+"taxid": "693074"
+},
+"C aloribacterium": {
+"clean": "Caloribacterium",
+"taxid": "1263959"
+},
+"C andidatus C enarchaeum": {
+"clean": "Candidatus Cenarchaeum",
+"taxid": "46769"
+},
+"C andidatus N itrosotenuis": {
+"clean": "Candidatus Nitrosotenuis",
+"taxid": "1825023"
+},
+"C aviibacter": {
+"clean": "Caviibacter",
+"taxid": "1792239"
+},
+"C aviibacterium": {
+"clean": "Caviibacterium",
+"taxid": "2070443"
+},
+"C ecembia": {
+"clean": "Cecembia",
+"taxid": "1187078"
+},
+"C eleribacter": {
+"clean": "Celeribacter",
+"taxid": "875170"
+},
+"C ephaloticoccus": {
+"clean": "Cephaloticoccus",
+"taxid": "1849551"
+},
+"C hloracidobacterium": {
+"clean": "Chloracidobacterium",
+"taxid": "458032"
+},
+"C hryseobacterium": {
+"clean": "Chryseobacterium",
+"taxid": "59732"
+},
+"C hryseoglobus": {
+"clean": "Chryseoglobus",
+"taxid": "337004"
+},
+"C hthonomonas": {
+"clean": "Chthonomonas",
+"taxid": "1077265"
+},
+"C ognatishimia": {
+"clean": "Cognatishimia",
+"taxid": "2211635"
+},
+"C ompostibacillus": {
+"clean": "Compostibacillus",
+"taxid": "1769738"
+},
+"C onyzicola": {
+"clean": "Conyzicola",
+"taxid": "1648520"
+},
+"C oprothermobacter": {
+"clean": "Coprothermobacter",
+"taxid": "68335"
+},
+"C rassaminicella": {
+"clean": "Crassaminicella",
+"taxid": "1848399"
+},
+"C roceifilum": {
+"clean": "Croceifilum",
+"taxid": "1930795"
+},
+"C uneatibacter": {
+"clean": "Cuneatibacter",
+"taxid": "1918450"
+},
+"C ysteiniphilum": {
+"clean": "Cysteiniphilum",
+"taxid": "2056696"
+},
+"Caenimicrobium": {
+"clean": "Caenimicrobium",
+"taxid": "1986268"
+},
+"Caldanaerobacter": {
+"clean": "Caldanaerobacter",
+"taxid": "249529"
+},
+"Calderobacterium": {
+"clean": "Calderobacterium",
+"taxid": "939"
+},
+"Caldicellulosiruptor": {
+"clean": "Caldicellulosiruptor",
+"taxid": "44000"
+},
+"Caldicoprobacter": {
+"clean": "Caldicoprobacter",
+"taxid": "715222"
+},
+"Caldilinea": {
+"clean": "Caldilinea",
+"taxid": "233191"
+},
+"Caldimicrobium": {
+"clean": "Caldimicrobium",
+"taxid": "444090"
+},
+"Caldisalinibacter": {
+"clean": "Caldisalinibacter",
+"taxid": "1640153"
+},
+"Caldisphaera": {
+"clean": "Caldisphaera",
+"taxid": "200414"
+},
+"Caldithrix": {
+"clean": "Caldithrix",
+"taxid": "187144"
+},
+"Caldivirga": {
+"clean": "Caldivirga",
+"taxid": "76886"
+},
+"Calidithermus": {
+"clean": "Calidithermus",
+"taxid": "2747271"
+},
+"Caloramator": {
+"clean": "Caloramator",
+"taxid": "44258"
+},
+"Caloranaerobacter": {
+"clean": "Caloranaerobacter",
+"taxid": "171003"
+},
+"Calymmatobacterium": {
+"clean": "Calymmatobacterium",
+"taxid": "570"
+},
+"Caminicella": {
+"clean": "Caminicella",
+"taxid": "166484"
+},
+"Campylobacter": {
+"clean": "Campylobacter",
+"taxid": "194"
+},
+"Candidatus Fermentimicrarchaeum": {
+"clean": "Fermentimicrarchaeum",
+"taxid": "2795013"
+},
+"Candidatus Halectosymbiota": {
+"clean": "Halectosymbiota",
+"taxid": "1940141"
+},
+"Candidatus Halobonum": {
+"clean": "Halobonum",
+"taxid": "1431544"
+},
+"Candidatus Haloredivivus": {
+"clean": "Candidatus Haloredivivus",
+"taxid": null
+},
+"Candidatus Hepatincola": {
+"clean": "Hepatincola",
+"taxid": "263960"
+},
+"Candidatus Magnetobacterium": {
+"clean": "Candidatus Magnetobacterium",
+"taxid": null
+},
+"Candidatus Mancarchaeum": {
+"clean": "Mancarchaeum",
+"taxid": "2490204"
+},
+"Candidatus Methanohalarchaeum": {
+"clean": "Methanohalarchaeum",
+"taxid": "2022712"
+},
+"Candidatus Nanoclepta": {
+"clean": "Nanoclepta",
+"taxid": "2303498"
+},
+"Candidatus Nanohalobium": {
+"clean": "Nanohalobium",
+"taxid": "2856051"
+},
+"Candidatus Nanopetraeus": {
+"clean": "Candidatus Nanopetraeus",
+"taxid": null
+},
+"Candidatus Nanopusillus": {
+"clean": "Nanopusillus",
+"taxid": "1890407"
+},
+"Candidatus Nanosalina": {
+"clean": "Nanosalina",
+"taxid": "1051666"
+},
+"Candidatus Nanosalinicola": {
+"clean": "Nanosalinicola",
+"taxid": "1051667"
+},
+"Candidatus Nitrosocaldus": {
+"clean": "Nitrosocaldus",
+"taxid": "498374"
+},
+"Candidatus Nitrosopelagicus": {
+"clean": "Nitrosopelagicus",
+"taxid": "1593364"
+},
+"Candidatus Nitrosopumilus": {
+"clean": "Nitrosopumilus",
+"taxid": "338191"
+},
+"Candidatus Nitrosotalea": {
+"clean": "Nitrosotalea",
+"taxid": "1078904"
+},
+"Candidatus Phlomobacter": {
+"clean": "Phlomobacter",
+"taxid": "57962"
+},
+"CandidatusPhytoplasma": {
+"clean": "Candidatus Phytoplasma",
+"taxid": "33926"
+},
+"Candidimonas": {
+"clean": "Candidimonas",
+"taxid": "1074468"
+},
+"Canibacter": {
+"clean": "Canibacter",
+"taxid": "1648503"
+},
+"Capnocytophaga": {
+"clean": "Capnocytophaga",
+"taxid": "1016"
+},
+"Caproiciproducens": {
+"clean": "Caproiciproducens",
+"taxid": "1738645"
+},
+"Carbophilus": {
+"clean": "Carbophilus",
+"taxid": "31988"
+},
+"Carboxydichorda": {
+"clean": "Carboxydichorda",
+"taxid": "3366853"
+},
+"Carboxydocella": {
+"clean": "Carboxydocella",
+"taxid": "178898"
+},
+"Carboxydothermus": {
+"clean": "Carboxydothermus",
+"taxid": "129957"
+},
+"Cardiobacterium": {
+"clean": "Cardiobacterium",
+"taxid": "2717"
+},
+"Carnimonas": {
+"clean": "Carnimonas",
+"taxid": "64322"
+},
+"Carnobacterium": {
+"clean": "Carnobacterium",
+"taxid": "2747"
+},
+"Caryophanon": {
+"clean": "Caryophanon",
+"taxid": "33976"
+},
+"Catellatospora": {
+"clean": "Catellatospora",
+"taxid": "53365"
+},
+"Catelliglobosispora": {
+"clean": "Catelliglobosispora",
+"taxid": "1121253"
+},
+"Catenibacterium": {
+"clean": "Catenibacterium",
+"taxid": "135858"
+},
+"Catenulispora": {
+"clean": "Catenulispora",
+"taxid": "414878"
+},
+"Catenuloplanes": {
+"clean": "Catenuloplanes",
+"taxid": "33874"
+},
+"Catonella": {
+"clean": "Catonella",
+"taxid": "43996"
+},
+"Caulobacter": {
+"clean": "Caulobacter",
+"taxid": "75"
+},
+"Cavicella": {
+"clean": "Cavicella",
+"taxid": "1930856"
+},
+"Cedecea": {
+"clean": "Cedecea",
+"taxid": "158483"
+},
+"Cellulomonas": {
+"clean": "Cellulomonas",
+"taxid": "1707"
+},
+"Cellulophaga": {
+"clean": "Cellulophaga",
+"taxid": "104264"
+},
+"Cellulosilyticum": {
+"clean": "Cellulosilyticum",
+"taxid": "698776"
+},
+"Cellulosimicrobium": {
+"clean": "Cellulosimicrobium",
+"taxid": "157920"
+},
+"Cellvibrio": {
+"clean": "Cellvibrio",
+"taxid": "10"
+},
+"Centipeda": {
+"clean": "Centipeda",
+"taxid": "82202"
+},
+"Cerasibacillus": {
+"clean": "Cerasibacillus",
+"taxid": "227864"
+},
+"Cerasicoccus": {
+"clean": "Cerasicoccus",
+"taxid": "468938"
+},
+"Cetobacterium": {
+"clean": "Cetobacterium",
+"taxid": "180162"
+},
+"Chelativorans": {
+"clean": "Chelativorans",
+"taxid": "449972"
+},
+"Chelatobacter": {
+"clean": "Chelatobacter",
+"taxid": "31988"
+},
+"Chelatococcus": {
+"clean": "Chelatococcus",
+"taxid": "28209"
+},
+"Chelonobacter": {
+"clean": "Chelonobacter",
+"taxid": "658623"
+},
+"Chitinispirillum": {
+"clean": "Chitinispirillum",
+"taxid": "1860139"
+},
+"Chitinivibrio": {
+"clean": "Chitinivibrio",
+"taxid": "1505231"
+},
+"Chitinophaga": {
+"clean": "Chitinophaga",
+"taxid": "79328"
+},
+"Chlamydia": {
+"clean": "Chlamydia",
+"taxid": "810"
+},
+"Chlorobium": {
+"clean": "Chlorobium",
+"taxid": "1091"
+},
+"Chloroflexus": {
+"clean": "Chloroflexus",
+"taxid": "1107"
+},
+"Chlorogloeopsis": {
+"clean": "Chlorogloeopsis",
+"taxid": "1123"
+},
+"Chloroherpeton": {
+"clean": "Chloroherpeton",
+"taxid": "100715"
+},
+"Chloronema": {
+"clean": "Chloronema",
+"taxid": "166588"
+},
+"Chondromyces": {
+"clean": "Chondromyces",
+"taxid": "50"
+},
+"Chromatium": {
+"clean": "Chromatium",
+"taxid": "1047"
+},
+"Chromobacterium": {
+"clean": "Chromobacterium",
+"taxid": "535"
+},
+"Chromohalobacter": {
+"clean": "Chromohalobacter",
+"taxid": "42054"
+},
+"Chryseobacterium": {
+"clean": "Chryseobacterium",
+"taxid": "59732"
+},
+"Chrysiogenes": {
+"clean": "Chrysiogenes",
+"taxid": "118004"
+},
+"Chthoniobacter": {
+"clean": "Chthoniobacter",
+"taxid": "295577"
+},
+"Citricoccus": {
+"clean": "Citricoccus",
+"taxid": "169133"
+},
+"Citrobacter": {
+"clean": "Citrobacter",
+"taxid": "544"
+},
+"Citromicrobium": {
+"clean": "Citromicrobium",
+"taxid": "72173"
+},
+"Clavibacter": {
+"clean": "Clavibacter",
+"taxid": "1573"
+},
+"Cloacibacterium": {
+"clean": "Cloacibacterium",
+"taxid": "501783"
+},
+"Clostridium": {
+"clean": "Clostridium",
+"taxid": "1485"
+},
+"Cobetia": {
+"clean": "Cobetia",
+"taxid": "204286"
+},
+"Coenonia": {
+"clean": "Coenonia",
+"taxid": null
+},
+"Cognatiyoonia": {
+"clean": "Cognatiyoonia",
+"taxid": "2211636"
+},
+"Cohnella": {
+"clean": "Cohnella",
+"taxid": "329857"
+},
+"Collinsella": {
+"clean": "Collinsella",
+"taxid": "102106"
+},
+"Colwellia": {
+"clean": "Colwellia",
+"taxid": "28228"
+},
+"Comamonas": {
+"clean": "Comamonas",
+"taxid": "283"
+},
+"Compostimonas": {
+"clean": "Compostimonas",
+"taxid": "1259734"
+},
+"Conexibacter": {
+"clean": "Conexibacter",
+"taxid": "191494"
+},
+"Conservatibacter": {
+"clean": "Conservatibacter",
+"taxid": "2070447"
+},
+"Convivina": {
+"clean": "Convivina",
+"taxid": "1697027"
+},
+"Coprobacillus": {
+"clean": "Coprobacillus",
+"taxid": "100883"
+},
+"Coprococcus": {
+"clean": "Coprococcus",
+"taxid": "33042"
+},
+"Coprothermobacter": {
+"clean": "Coprothermobacter",
+"taxid": "68335"
+},
+"Coraliomargarita": {
+"clean": "Coraliomargarita",
+"taxid": "442430"
+},
+"Corallococcus gen. nov": {
+"clean": "Corallococcus",
+"taxid": "83461"
+},
+"Coriobacterium": {
+"clean": "Coriobacterium",
+"taxid": "33870"
+},
+"Corynebacterium": {
+"clean": "Corynebacterium",
+"taxid": "1716"
+},
+"Costertonia": {
+"clean": "Costertonia",
+"taxid": "343334"
+},
+"Couchioplanes": {
+"clean": "Couchioplanes",
+"taxid": "56433"
+},
+"Coxiella": {
+"clean": "Coxiella",
+"taxid": "776"
+},
+"Craurococcus": {
+"clean": "Craurococcus",
+"taxid": "77583"
+},
+"Criblamydia": {
+"clean": "Criblamydia",
+"taxid": "340070"
+},
+"Cricetibacter": {
+"clean": "Cricetibacter",
+"taxid": "1648514"
+},
+"Cristispira": {
+"clean": "Cristispira",
+"taxid": "44757"
+},
+"Croceibacter": {
+"clean": "Croceibacter",
+"taxid": "216431"
+},
+"Croceibacterium": {
+"clean": "Croceibacterium",
+"taxid": "2676755"
+},
+"Croceicoccus": {
+"clean": "Croceicoccus",
+"taxid": "1295327"
+},
+"Crocinitomix": {
+"clean": "Crocinitomix",
+"taxid": "246873"
+},
+"Crocosphaera": {
+"clean": "Crocosphaera",
+"taxid": "263510"
+},
+"Crossiella": {
+"clean": "Crossiella",
+"taxid": "130795"
+},
+"Cryobacterium": {
+"clean": "Cryobacterium",
+"taxid": "69578"
+},
+"Cryomorpha": {
+"clean": "Cryomorpha",
+"taxid": "246876"
+},
+"Cryptanaerobacter": {
+"clean": "Cryptanaerobacter",
+"taxid": "290184"
+},
+"Cryptobacterium": {
+"clean": "Cryptobacterium",
+"taxid": "84162"
+},
+"Cryptosporangium": {
+"clean": "Cryptosporangium",
+"taxid": "65502"
+},
+"Cupriavidus": {
+"clean": "Cupriavidus",
+"taxid": "106589"
+},
+"Curtobacterium": {
+"clean": "Curtobacterium",
+"taxid": "2034"
+},
+"Cyclobacterium": {
+"clean": "Cyclobacterium",
+"taxid": "68288"
+},
+"Cycloclasticus": {
+"clean": "Cycloclasticus",
+"taxid": "34067"
+},
+"Cyclonatronum": {
+"clean": "Cyclonatronum",
+"taxid": "2489367"
+},
+"Cystobacter": {
+"clean": "Cystobacter",
+"taxid": "42"
+},
+"Cytophaga": {
+"clean": "Cytophaga",
+"taxid": "978"
+},
+"D einobacterium": {
+"clean": "Deinobacterium",
+"taxid": "758601"
+},
+"D esulfacinum": {
+"clean": "Desulfacinum",
+"taxid": "35836"
+},
+"D esulfallas": {
+"clean": "Desulfallas",
+"taxid": "2282740"
+},
+"D esulfarculus": {
+"clean": "Desulfarculus",
+"taxid": "453229"
+},
+"D esulfatiferula": {
+"clean": "Desulfatiferula",
+"taxid": "396320"
+},
+"D esulfatiglans": {
+"clean": "Desulfatiglans",
+"taxid": "1549126"
+},
+"D esulfatirhabdium": {
+"clean": "Desulfatirhabdium",
+"taxid": "497742"
+},
+"D esulfatitalea": {
+"clean": "Desulfatitalea",
+"taxid": "1303912"
+},
+"D esulfobacca": {
+"clean": "Desulfobacca",
+"taxid": "60892"
+},
+"D esulfobacter": {
+"clean": "Desulfobacter",
+"taxid": "2289"
+},
+"D esulfobacterium": {
+"clean": "Desulfobacterium",
+"taxid": "2295"
+},
+"D esulfobacula": {
+"clean": "Desulfobacula",
+"taxid": "28222"
+},
+"D esulfobaculum": {
+"clean": "Desulfobaculum",
+"taxid": "1433996"
+},
+"D esulfobotulus": {
+"clean": "Desulfobotulus",
+"taxid": "48001"
+},
+"D esulfocapsa": {
+"clean": "Desulfocapsa",
+"taxid": "53318"
+},
+"D esulfocarbo": {
+"clean": "Desulfocarbo",
+"taxid": "1535192"
+},
+"D esulfocastanea gen. nov.": {
+"clean": "Desulfocastanea",
+"taxid": "2916674"
+},
+"D esulfocella": {
+"clean": "Desulfocella",
+"taxid": "89342"
+},
+"D esulfococcus": {
+"clean": "Desulfococcus",
+"taxid": "896"
+},
+"D esulfoconvexum": {
+"clean": "Desulfoconvexum",
+"taxid": "1649264"
+},
+"D esulfocucumis": {
+"clean": "Desulfocucumis",
+"taxid": "2026179"
+},
+"D esulfocurvus": {
+"clean": "Desulfocurvus",
+"taxid": "700595"
+},
+"D esulfofaba": {
+"clean": "Desulfofaba",
+"taxid": "109169"
+},
+"D esulfofalx gen. nov.": {
+"clean": "Desulfofalx",
+"taxid": "2916690"
+},
+"D esulfofarcimen": {
+"clean": "Desulfofarcimen",
+"taxid": "2282742"
+},
+"D esulfofrigus": {
+"clean": "Desulfofrigus",
+"taxid": "109166"
+},
+"D esulfofundulus": {
+"clean": "Desulfofundulus",
+"taxid": "2282741"
+},
+"D esulfofustis": {
+"clean": "Desulfofustis",
+"taxid": "51194"
+},
+"D esulfoglaeba": {
+"clean": "Desulfoglaeba",
+"taxid": "361106"
+},
+"D esulfohalobium": {
+"clean": "Desulfohalobium",
+"taxid": "45662"
+},
+"D esulfohalotomaculum": {
+"clean": "Desulfohalotomaculum",
+"taxid": "2282743"
+},
+"D esulfolucanica gen. nov.": {
+"clean": "Desulfolucanica",
+"taxid": "2916691"
+},
+"D esulfoluna": {
+"clean": "Desulfoluna",
+"taxid": "497721"
+},
+"D esulfomicrobium": {
+"clean": "Desulfomicrobium",
+"taxid": "898"
+},
+"D esulfomonile": {
+"clean": "Desulfomonile",
+"taxid": "2357"
+},
+"D esulfonatronobacter": {
+"clean": "Desulfonatronobacter",
+"taxid": "1417297"
+},
+"D esulfonatronospira": {
+"clean": "Desulfonatronospira",
+"taxid": "488937"
+},
+"D esulfonatronovibrio": {
+"clean": "Desulfonatronovibrio",
+"taxid": "53244"
+},
+"D esulfonatronum": {
+"clean": "Desulfonatronum",
+"taxid": "66848"
+},
+"D esulfonauticus": {
+"clean": "Desulfonauticus",
+"taxid": "206664"
+},
+"D esulfonema": {
+"clean": "Desulfonema",
+"taxid": "45654"
+},
+"D esulfopila": {
+"clean": "Desulfopila",
+"taxid": "429014"
+},
+"D esulfoplanes": {
+"clean": "Desulfoplanes",
+"taxid": "1634037"
+},
+"D esulfoprunum": {
+"clean": "Desulfoprunum",
+"taxid": "1654934"
+},
+"D esulforadius gen. nov.": {
+"clean": "Desulforadius",
+"taxid": "2916692"
+},
+"D esulforamulus gen. nov.": {
+"clean": "Desulforamulus",
+"taxid": "2916693"
+},
+"D esulforegula": {
+"clean": "Desulforegula",
+"taxid": "153027"
+},
+"D esulforhabdus": {
+"clean": "Desulforhabdus",
+"taxid": "39840"
+},
+"D esulforhopalus": {
+"clean": "Desulforhopalus",
+"taxid": "40413"
+},
+"D esulfosalsimonas": {
+"clean": "Desulfosalsimonas",
+"taxid": "377149"
+},
+"D esulfosarcina": {
+"clean": "Desulfosarcina",
+"taxid": "2299"
+},
+"D esulfoscipio gen. nov.": {
+"clean": "Desulfoscipio",
+"taxid": "2867376"
+},
+"D esulfosoma": {
+"clean": "Desulfosoma",
+"taxid": "1148150"
+},
+"D esulfospira": {
+"clean": "Desulfospira",
+"taxid": "53328"
+},
+"D esulfotalea": {
+"clean": "Desulfotalea",
+"taxid": "109168"
+},
+"D esulfothermus": {
+"clean": "Desulfothermus",
+"taxid": "224474"
+},
+"D esulfotignum": {
+"clean": "Desulfotignum",
+"taxid": "115780"
+},
+"D esulfotomaculum": {
+"clean": "Desulfotomaculum",
+"taxid": "1562"
+},
+"D esulfotruncus gen. nov.": {
+"clean": "Desulfotruncus",
+"taxid": "2867377"
+},
+"D esulfovectis gen. nov.": {
+"clean": "Desulfovectis",
+"taxid": "2916959"
+},
+"D esulfovermiculus": {
+"clean": "Desulfovermiculus",
+"taxid": "339721"
+},
+"D esulfovibrio": {
+"clean": "Desulfovibrio",
+"taxid": "872"
+},
+"D esulfovirga": {
+"clean": "Desulfovirga",
+"taxid": "149711"
+},
+"D esulfovirgula": {
+"clean": "Desulfovirgula",
+"taxid": "418453"
+},
+"D esulfurispira": {
+"clean": "Desulfurispira",
+"taxid": "1007342"
+},
+"D esulfurispirillum": {
+"clean": "Desulfurispirillum",
+"taxid": "393029"
+},
+"D ethiobacter": {
+"clean": "Dethiobacter",
+"taxid": "427925"
+},
+"D ethiosulfatarculus": {
+"clean": "Dethiosulfatarculus",
+"taxid": "1775574"
+},
+"D evriesea": {
+"clean": "Devriesea",
+"taxid": "472568"
+},
+"D iaminobutyricimonas": {
+"clean": "Diaminobutyricimonas",
+"taxid": "1433997"
+},
+"D iaphorobacter": {
+"clean": "Diaphorobacter",
+"taxid": "238749"
+},
+"Dactylosporangium": {
+"clean": "Dactylosporangium",
+"taxid": "35753"
+},
+"Dechloromonas": {
+"clean": "Dechloromonas",
+"taxid": "73029"
+},
+"Dechlorosoma": {
+"clean": "Dechlorosoma",
+"taxid": "146937"
+},
+"Deferribacter": {
+"clean": "Deferribacter",
+"taxid": "53572"
+},
+"Deferrivibrio": {
+"clean": "Deferrivibrio",
+"taxid": "2930105"
+},
+"Defluvibacter": {
+"clean": "Defluvibacter",
+"taxid": "69278"
+},
+"Defluviitalea": {
+"clean": "Defluviitalea",
+"taxid": "1185408"
+},
+"Defluviitoga": {
+"clean": "Defluviitoga",
+"taxid": "1511648"
+},
+"Dehalobacter": {
+"clean": "Dehalobacter",
+"taxid": "56112"
+},
+"Dehalogenimonas": {
+"clean": "Dehalogenimonas",
+"taxid": "670486"
+},
+"Deinococcus": {
+"clean": "Deinococcus",
+"taxid": "1298"
+},
+"Delftia": {
+"clean": "Delftia",
+"taxid": "80865"
+},
+"Dellaglioa": {
+"clean": "Dellaglioa",
+"taxid": "2767880"
+},
+"Demetria": {
+"clean": "Demetria",
+"taxid": "63958"
+},
+"Dendrosporobacter": {
+"clean": "Dendrosporobacter",
+"taxid": "146813"
+},
+"Denitrobacterium": {
+"clean": "Denitrobacterium",
+"taxid": "79603"
+},
+"Dermabacter": {
+"clean": "Dermabacter",
+"taxid": "36739"
+},
+"Dermacoccus": {
+"clean": "Dermacoccus",
+"taxid": "57495"
+},
+"Dermatophilus": {
+"clean": "Dermatophilus",
+"taxid": "1862"
+},
+"Derxia": {
+"clean": "Derxia",
+"taxid": "203697"
+},
+"Desemzia": {
+"clean": "Desemzia",
+"taxid": "82800"
+},
+"Desertibacillus": {
+"clean": "Desertibacillus",
+"taxid": "2039709"
+},
+"Desulfacinum": {
+"clean": "Desulfacinum",
+"taxid": "35836"
+},
+"Desulfarculus gen. nov.": {
+"clean": "Desulfarculus",
+"taxid": "453229"
+},
+"Desulfatibacillum": {
+"clean": "Desulfatibacillum",
+"taxid": "218207"
+},
+"Desulfitispora": {
+"clean": "Desulfitispora",
+"taxid": "1006482"
+},
+"Desulfitobacterium": {
+"clean": "Desulfitobacterium",
+"taxid": "36853"
+},
+"Desulfobacca": {
+"clean": "Desulfobacca",
+"taxid": "60892"
+},
+"Desulfobacter": {
+"clean": "Desulfobacter",
+"taxid": "2289"
+},
+"Desulfobacterium": {
+"clean": "Desulfobacterium",
+"taxid": "2295"
+},
+"Desulfobacula": {
+"clean": "Desulfobacula",
+"taxid": "28222"
+},
+"Desulfobotulus gen. nov.": {
+"clean": "Desulfobotulus",
+"taxid": "48001"
+},
+"Desulfobulbus": {
+"clean": "Desulfobulbus",
+"taxid": "893"
+},
+"Desulfocapsa": {
+"clean": "Desulfocapsa",
+"taxid": "53318"
+},
+"Desulfocella": {
+"clean": "Desulfocella",
+"taxid": "89342"
+},
+"Desulfocicer gen. nov.": {
+"clean": "Desulfocicer",
+"taxid": "2904316"
+},
+"Desulfococcus": {
+"clean": "Desulfococcus",
+"taxid": "896"
+},
+"Desulfocurvibacter": {
+"clean": "Desulfocurvibacter",
+"taxid": "2582840"
+},
+"Desulfofaba": {
+"clean": "Desulfofaba",
+"taxid": "109169"
+},
+"Desulfofrigus": {
+"clean": "Desulfofrigus",
+"taxid": "109166"
+},
+"Desulfofustis": {
+"clean": "Desulfofustis",
+"taxid": "51194"
+},
+"Desulfogranum gen. nov .": {
+"clean": "Desulfogranum",
+"taxid": "2904609"
+},
+"Desulfohalobium": {
+"clean": "Desulfohalobium",
+"taxid": "45662"
+},
+"Desulfohalovibrio": {
+"clean": "Desulfohalovibrio",
+"taxid": "2582836"
+},
+"Desulfolutivibrio": {
+"clean": "Desulfolutivibrio",
+"taxid": "2773294"
+},
+"Desulfomicrobium": {
+"clean": "Desulfomicrobium",
+"taxid": "898"
+},
+"Desulfomonile": {
+"clean": "Desulfomonile",
+"taxid": "2357"
+},
+"Desulfonatronovibrio": {
+"clean": "Desulfonatronovibrio",
+"taxid": "53244"
+},
+"Desulfonatronum": {
+"clean": "Desulfonatronum",
+"taxid": "66848"
+},
+"Desulfonema": {
+"clean": "Desulfonema",
+"taxid": "45654"
+},
+"Desulfonispora": {
+"clean": "Desulfonispora",
+"taxid": "83660"
+},
+"Desulforapulum gen. nov.": {
+"clean": "Desulforapulum",
+"taxid": "2904687"
+},
+"Desulforhabdus": {
+"clean": "Desulforhabdus",
+"taxid": "39840"
+},
+"Desulforhopalus": {
+"clean": "Desulforhopalus",
+"taxid": "40413"
+},
+"Desulfosarcina": {
+"clean": "Desulfosarcina",
+"taxid": "2299"
+},
+"Desulfospira": {
+"clean": "Desulfospira",
+"taxid": "53328"
+},
+"Desulfosporosinus": {
+"clean": "Desulfosporosinus",
+"taxid": "79206"
+},
+"Desulfosudis gen. nov.": {
+"clean": "Desulfosudis",
+"taxid": "2904716"
+},
+"Desulfotalea": {
+"clean": "Desulfotalea",
+"taxid": "109168"
+},
+"Desulfothermus gen. nov": {
+"clean": "Desulfothermus",
+"taxid": "224474"
+},
+"Desulfotignum": {
+"clean": "Desulfotignum",
+"taxid": "115780"
+},
+"Desulfotomaculum": {
+"clean": "Desulfotomaculum",
+"taxid": "1562"
+},
+"Desulfovibrio": {
+"clean": "Desulfovibrio",
+"taxid": "872"
+},
+"Desulfovirga": {
+"clean": "Desulfovirga",
+"taxid": "149711"
+},
+"Desulfurella": {
+"clean": "Desulfurella",
+"taxid": "33001"
+},
+"Desulfuribacillus": {
+"clean": "Desulfuribacillus",
+"taxid": "1543703"
+},
+"Desulfurispora": {
+"clean": "Desulfurispora",
+"taxid": "510701"
+},
+"Desulfurivibrio": {
+"clean": "Desulfurivibrio",
+"taxid": "427922"
+},
+"Desulfurobacterium": {
+"clean": "Desulfurobacterium",
+"taxid": "64159"
+},
+"Desulfurococcus": {
+"clean": "Desulfurococcus",
+"taxid": "2273"
+},
+"Desulfuromonas": {
+"clean": "Desulfuromonas",
+"taxid": "890"
+},
+"Desulfuromusa": {
+"clean": "Desulfuromusa",
+"taxid": "37817"
+},
+"Dethiosulfovibrio": {
+"clean": "Dethiosulfovibrio",
+"taxid": "47054"
+},
+"Devosia": {
+"clean": "Devosia",
+"taxid": "46913"
+},
+"Dialister": {
+"clean": "Dialister",
+"taxid": "39948"
+},
+"Diaminobutyricibacter": {
+"clean": "Diaminobutyricibacter",
+"taxid": "110932"
+},
+"Dichelobacter": {
+"clean": "Dichelobacter",
+"taxid": "869"
+},
+"Dichotomicrobium": {
+"clean": "Dichotomicrobium",
+"taxid": "204474"
+},
+"Dickeya": {
+"clean": "Dickeya",
+"taxid": "204037"
+},
+"Dictyobacter": {
+"clean": "Dictyobacter",
+"taxid": "2024965"
+},
+"Dictyoglomus": {
+"clean": "Dictyoglomus",
+"taxid": "13"
+},
+"Dietzia": {
+"clean": "Dietzia",
+"taxid": "37914"
+},
+"Dokdonia": {
+"clean": "Dokdonia",
+"taxid": "326319"
+},
+"Dolosicoccus": {
+"clean": "Dolosicoccus",
+"taxid": "171413"
+},
+"Dolosigranulum": {
+"clean": "Dolosigranulum",
+"taxid": "29393"
+},
+"Donghaeana": {
+"clean": "Donghaeana",
+"taxid": "363408"
+},
+"Dorea": {
+"clean": "Dorea",
+"taxid": "189330"
+},
+"Duganella": {
+"clean": "Duganella",
+"taxid": "75654"
+},
+"Dyadobacter": {
+"clean": "Dyadobacter",
+"taxid": "120831"
+},
+"Dysgonomonas": {
+"clean": "Dysgonomonas",
+"taxid": "156973"
+},
+"E ffusibacillus": {
+"clean": "Effusibacillus",
+"taxid": "1502725"
+},
+"E lioraea": {
+"clean": "Elioraea",
+"taxid": "457933"
+},
+"E lusimicrobium": {
+"clean": "Elusimicrobium",
+"taxid": "423604"
+},
+"E ndomicrobium": {
+"clean": "Endomicrobium",
+"taxid": "1408194"
+},
+"E perythrozoon": {
+"clean": "Eperythrozoon",
+"taxid": "2093"
+},
+"E pibacterium": {
+"clean": "Epibacterium",
+"taxid": "1649279"
+},
+"E rcella": {
+"clean": "Ercella",
+"taxid": "1649284"
+},
+"E xtibacter": {
+"clean": "Extibacter",
+"taxid": "1918452"
+},
+"Echinicola": {
+"clean": "Echinicola",
+"taxid": "390846"
+},
+"Ectothiorhodospira": {
+"clean": "Ectothiorhodospira",
+"taxid": "1051"
+},
+"Edaphobacter": {
+"clean": "Edaphobacter",
+"taxid": "388463"
+},
+"Edwardsiella": {
+"clean": "Edwardsiella",
+"taxid": "635"
+},
+"Effluviibacter": {
+"clean": "Effluviibacter",
+"taxid": "323449"
+},
+"Eggerthella": {
+"clean": "Eggerthella",
+"taxid": "84111"
+},
+"Ehrlichia": {
+"clean": "Ehrlichia",
+"taxid": "943"
+},
+"Eikenella": {
+"clean": "Eikenella",
+"taxid": "538"
+},
+"Elizabethkingia": {
+"clean": "Elizabethkingia",
+"taxid": "308865"
+},
+"Ellagibacter": {
+"clean": "Ellagibacter",
+"taxid": "2137577"
+},
+"Empedobacter": {
+"clean": "Empedobacter",
+"taxid": "59734"
+},
+"Emticicia": {
+"clean": "Emticicia",
+"taxid": "312278"
+},
+"Endozoicomonas": {
+"clean": "Endozoicomonas",
+"taxid": "305899"
+},
+"Enhydrobacter": {
+"clean": "Enhydrobacter",
+"taxid": "212791"
+},
+"Ensifer": {
+"clean": "Ensifer",
+"taxid": "106591"
+},
+"Enterobacter": {
+"clean": "Enterobacter",
+"taxid": "547"
+},
+"Enterococcus": {
+"clean": "Enterococcus",
+"taxid": "1350"
+},
+"Enteroscipio": {
+"clean": "Enteroscipio",
+"taxid": "2126006"
+},
+"Enterovibrio": {
+"clean": "Enterovibrio",
+"taxid": "188143"
+},
+"Entomoplasma": {
+"clean": "Entomoplasma",
+"taxid": "46238"
+},
+"Eperythrozoon": {
+"clean": "Eperythrozoon",
+"taxid": "2093"
+},
+"Epilithonimonas": {
+"clean": "Epilithonimonas",
+"taxid": "2782229"
+},
+"Eremococcus": {
+"clean": "Eremococcus",
+"taxid": "171412"
+},
+"Erwinia": {
+"clean": "Erwinia",
+"taxid": "551"
+},
+"Erysipelothrix": {
+"clean": "Erysipelothrix",
+"taxid": "1647"
+},
+"Erythrobacter": {
+"clean": "Erythrobacter",
+"taxid": "1041"
+},
+"Erythromicrobium": {
+"clean": "Erythromicrobium",
+"taxid": "35810"
+},
+"Erythromonas": {
+"clean": "Erythromonas",
+"taxid": "150203"
+},
+"Escherichia": {
+"clean": "Escherichia",
+"taxid": "561"
+},
+"Eubacterium": {
+"clean": "Eubacterium",
+"taxid": "1730"
+},
+"Eupransor": {
+"clean": "Eupransor",
+"taxid": "3161151"
+},
+"Euzebya": {
+"clean": "Euzebya",
+"taxid": "908623"
+},
+"Ewingella": {
+"clean": "Ewingella",
+"taxid": "41201"
+},
+"Exiguobacterium": {
+"clean": "Exiguobacterium",
+"taxid": "33986"
+},
+"F alcatimonas": {
+"clean": "Falcatimonas",
+"taxid": "1890291"
+},
+"F angia": {
+"clean": "Fangia",
+"taxid": "482136"
+},
+"F astidiosibacter": {
+"clean": "Fastidiosibacter",
+"taxid": "2056689"
+},
+"F lavimaricola": {
+"clean": "Flavimaricola",
+"taxid": "2211637"
+},
+"F lexilinea": {
+"clean": "Flexilinea",
+"taxid": "1769713"
+},
+"F lintibacter": {
+"clean": "Flintibacter",
+"taxid": "1918454"
+},
+"F onticella": {
+"clean": "Fonticella",
+"taxid": "1434004"
+},
+"F uchsiella": {
+"clean": "Fuchsiella",
+"taxid": "1242734"
+},
+"F usicatenibacter": {
+"clean": "Fusicatenibacter",
+"taxid": "1407607"
+},
+"Fabibacter": {
+"clean": "Fabibacter",
+"taxid": "290180"
+},
+"Facklamia": {
+"clean": "Facklamia",
+"taxid": "66831"
+},
+"Faecalibacterium": {
+"clean": "Faecalibacterium",
+"taxid": "216851"
+},
+"Falsochrobactrum": {
+"clean": "Falsochrobactrum",
+"taxid": "1649292"
+},
+"Fastidiosipila": {
+"clean": "Fastidiosipila",
+"taxid": "236752"
+},
+"Fermentibacillus": {
+"clean": "Fermentibacillus",
+"taxid": "1817571"
+},
+"Ferribacterium": {
+"clean": "Ferribacterium",
+"taxid": "88875"
+},
+"Ferrimicrobium": {
+"clean": "Ferrimicrobium",
+"taxid": "121038"
+},
+"Ferrimonas": {
+"clean": "Ferrimonas",
+"taxid": "44011"
+},
+"Ferrithrix": {
+"clean": "Ferrithrix",
+"taxid": "643949"
+},
+"Ferroglobus": {
+"clean": "Ferroglobus",
+"taxid": "54260"
+},
+"Ferroplasma": {
+"clean": "Ferroplasma",
+"taxid": "74968"
+},
+"Fervidicoccus": {
+"clean": "Fervidicoccus",
+"taxid": "685950"
+},
+"Fervidobacterium": {
+"clean": "Fervidobacterium",
+"taxid": "2422"
+},
+"Fervidobacterium Emendation": {
+"clean": "Fervidobacterium",
+"taxid": "2422"
+},
+"Fibrobacter": {
+"clean": "Fibrobacter",
+"taxid": "832"
+},
+"Fictibacillus": {
+"clean": "Fictibacillus",
+"taxid": "1329200"
+},
+"Filibacter": {
+"clean": "Filibacter",
+"taxid": "34100"
+},
+"Filifactor": {
+"clean": "Filifactor",
+"taxid": "44259"
+},
+"Filobacillus": {
+"clean": "Filobacillus",
+"taxid": "160794"
+},
+"Filomicrobium": {
+"clean": "Filomicrobium",
+"taxid": "119044"
+},
+"Fimbriiglobus": {
+"clean": "Fimbriiglobus",
+"taxid": "1914234"
+},
+"Fimbriimonas": {
+"clean": "Fimbriimonas",
+"taxid": "1005038"
+},
+"Finegoldia": {
+"clean": "Finegoldia",
+"taxid": "150022"
+},
+"Fischerella": {
+"clean": "Fischerella",
+"taxid": "1190"
+},
+"Flammeovirga": {
+"clean": "Flammeovirga",
+"taxid": "59739"
+},
+"Flaviramulus": {
+"clean": "Flaviramulus",
+"taxid": "369400"
+},
+"Flavobacterium": {
+"clean": "Flavobacterium",
+"taxid": "237"
+},
+"Flavonifractor": {
+"clean": "Flavonifractor",
+"taxid": "946234"
+},
+"Flectobacillus": {
+"clean": "Flectobacillus",
+"taxid": "101"
+},
+"Flexibacter": {
+"clean": "Flexibacter",
+"taxid": "992"
+},
+"Flexistipes": {
+"clean": "Flexistipes",
+"taxid": "2351"
+},
+"Flexithrix": {
+"clean": "Flexithrix",
+"taxid": "70992"
+},
+"Fluviicola": {
+"clean": "Fluviicola",
+"taxid": "332102"
+},
+"Fodinicola": {
+"clean": "Fodinicola",
+"taxid": "435913"
+},
+"Fontisphaera": {
+"clean": "Fontisphaera",
+"taxid": "3050007"
+},
+"Formivibrio": {
+"clean": "Formivibrio",
+"taxid": "83764"
+},
+"Formosa": {
+"clean": "Formosa",
+"taxid": "225842"
+},
+"Form‐ Arthrospira": {
+"clean": "Arthrospira",
+"taxid": "35823"
+},
+"Form‐ Borzia": {
+"clean": "Borzia",
+"taxid": null
+},
+"Form‐ Chroococcidiopsis": {
+"clean": "Chroococcidiopsis",
+"taxid": "54298"
+},
+"Form‐ Crinalium": {
+"clean": "Crinalium",
+"taxid": "241421"
+},
+"Form‐ Cyanobium": {
+"clean": "Cyanobium",
+"taxid": "167375"
+},
+"Form‐ Cyanocystis": {
+"clean": "Cyanocystis",
+"taxid": "688242"
+},
+"Form‐ Dactylococcopsis": {
+"clean": "Dactylococcopsis",
+"taxid": "13034"
+},
+"Form‐ Dermocarpella": {
+"clean": "Dermocarpella",
+"taxid": "54302"
+},
+"Form‐ Geitlerinema stat. nov.": {
+"clean": "Geitlerinema",
+"taxid": "63132"
+},
+"Form‐ Gloeobacter": {
+"clean": "Gloeobacter",
+"taxid": "33071"
+},
+"Form‐ Gloeocapsa": {
+"clean": "Gloeocapsa",
+"taxid": "102231"
+},
+"Form‐ Gloeothece": {
+"clean": "Gloeothece",
+"taxid": "28070"
+},
+"Form‐ Leptolyngbya": {
+"clean": "Leptolyngbya",
+"taxid": "47251"
+},
+"Form‐ Limnothrix": {
+"clean": "Limnothrix",
+"taxid": "132605"
+},
+"Form‐ Lyngbya": {
+"clean": "Lyngbya",
+"taxid": "28073"
+},
+"Form‐ Microcoleus": {
+"clean": "Microcoleus",
+"taxid": "44471"
+},
+"Form‐ Myxosarcina": {
+"clean": "Myxosarcina",
+"taxid": "52605"
+},
+"Form‐ Oscillatoria": {
+"clean": "Oscillatoria",
+"taxid": "1158"
+},
+"Form‐ Planktothrix": {
+"clean": "Planktothrix",
+"taxid": "54304"
+},
+"Form‐ Prochlorococcus": {
+"clean": "Prochlorococcus",
+"taxid": "1218"
+},
+"Form‐ Prochloron": {
+"clean": "Prochloron",
+"taxid": "1214"
+},
+"Form‐ Prochlorothrix": {
+"clean": "Prochlorothrix",
+"taxid": "1222"
+},
+"Form‐ Pseudanabaena": {
+"clean": "Pseudanabaena",
+"taxid": "1152"
+},
+"Form‐ Spirulina": {
+"clean": "Spirulina",
+"taxid": "1154"
+},
+"Form‐ Stanieria": {
+"clean": "Stanieria",
+"taxid": "102115"
+},
+"Form‐ Starria": {
+"clean": "Starria",
+"taxid": "241429"
+},
+"Form‐ Symploca": {
+"clean": "Symploca",
+"taxid": "105591"
+},
+"Form‐ Synechococcus": {
+"clean": "Synechococcus",
+"taxid": "1129"
+},
+"Form‐ Synechocystis": {
+"clean": "Synechocystis",
+"taxid": "1142"
+},
+"Form‐ Tolypothrix": {
+"clean": "Tolypothrix",
+"taxid": "111782"
+},
+"Form‐ Trichodesmium": {
+"clean": "Trichodesmium",
+"taxid": "1205"
+},
+"Form‐ Tychonema": {
+"clean": "Tychonema",
+"taxid": "54312"
+},
+"Form‐ Xenococcus": {
+"clean": "Xenococcus",
+"taxid": "52607"
+},
+"Form‐Anabaena": {
+"clean": "Anabaena",
+"taxid": "1163"
+},
+"Form‐Anabaenopsis": {
+"clean": "Anabaenopsis",
+"taxid": "110103"
+},
+"Form‐Aphanizomenon": {
+"clean": "Aphanizomenon",
+"taxid": "1175"
+},
+"Form‐Calothrix": {
+"clean": "Calothrix",
+"taxid": "1186"
+},
+"Form‐Chamaesiphon": {
+"clean": "Chamaesiphon",
+"taxid": "217161"
+},
+"Form‐Chlorogloeopsis": {
+"clean": "Chlorogloeopsis",
+"taxid": "1123"
+},
+"Form‐Chroococcus": {
+"clean": "Chroococcus",
+"taxid": "70190"
+},
+"Form‐Cyanobacterium": {
+"clean": "Cyanobacterium",
+"taxid": "102234"
+},
+"Form‐Cyanospira": {
+"clean": "Cyanospira",
+"taxid": "3399578"
+},
+"Form‐Cyanothece": {
+"clean": "Cyanothece",
+"taxid": "43988"
+},
+"Form‐Cylindrospermopsis": {
+"clean": "Cylindrospermopsis",
+"taxid": "77021"
+},
+"Form‐Cylindrospermum": {
+"clean": "Cylindrospermum",
+"taxid": "56106"
+},
+"Form‐Fischerella": {
+"clean": "Fischerella",
+"taxid": "1190"
+},
+"Form‐Geitleria": {
+"clean": "Geitleria",
+"taxid": "2184065"
+},
+"Form‐Iyengariella": {
+"clean": "Iyengariella",
+"taxid": null
+},
+"Form‐Microcystis": {
+"clean": "Microcystis",
+"taxid": "1125"
+},
+"Form‐Nodularia": {
+"clean": "Nodularia",
+"taxid": "159191"
+},
+"Form‐Nostoc": {
+"clean": "Nostoc",
+"taxid": "1177"
+},
+"Form‐Nostochopsis": {
+"clean": "Nostochopsis",
+"taxid": "221283"
+},
+"Form‐Stigonema": {
+"clean": "Stigonema",
+"taxid": "221292"
+},
+"Fournierella": {
+"clean": "Fournierella",
+"taxid": "1940255"
+},
+"Francisella": {
+"clean": "Francisella",
+"taxid": "262"
+},
+"Frankia": {
+"clean": "Frankia",
+"taxid": "1854"
+},
+"Frateuria": {
+"clean": "Frateuria",
+"taxid": "70411"
+},
+"Frederiksenia": {
+"clean": "Frederiksenia",
+"taxid": "1649317"
+},
+"Friedmanniella": {
+"clean": "Friedmanniella",
+"taxid": "53387"
+},
+"Frigoribacterium": {
+"clean": "Frigoribacterium",
+"taxid": "96492"
+},
+"Frondihabitans": {
+"clean": "Frondihabitans",
+"taxid": "447237"
+},
+"Fructilactobacillus": {
+"clean": "Fructilactobacillus",
+"taxid": "2767881"
+},
+"Fructobacillus": {
+"clean": "Fructobacillus",
+"taxid": "559173"
+},
+"Fundidesulfovibrio": {
+"clean": "Fundidesulfovibrio",
+"taxid": "2905136"
+},
+"Fusibacter": {
+"clean": "Fusibacter",
+"taxid": "76008"
+},
+"Fusobacterium": {
+"clean": "Fusobacterium",
+"taxid": "848"
+},
+"G aiella": {
+"clean": "Gaiella",
+"taxid": "1154586"
+},
+"G albitalea": {
+"clean": "Galbitalea",
+"taxid": "1484107"
+},
+"G eothermomicrobium": {
+"clean": "Geothermomicrobium",
+"taxid": "1649452"
+},
+"G laciibacter": {
+"clean": "Glaciibacter",
+"taxid": "501022"
+},
+"G laciihabitans": {
+"clean": "Glaciihabitans",
+"taxid": "1649454"
+},
+"G lutamicibacter": {
+"clean": "Glutamicibacter",
+"taxid": "1742989"
+},
+"G lycocaulis": {
+"clean": "Glycocaulis",
+"taxid": "1433402"
+},
+"G ranulicella": {
+"clean": "Granulicella",
+"taxid": "940557"
+},
+"G ryllotalpicola": {
+"clean": "Gryllotalpicola",
+"taxid": "1195526"
+},
+"Gaetbulibacter": {
+"clean": "Gaetbulibacter",
+"taxid": "311207"
+},
+"Gallibacterium": {
+"clean": "Gallibacterium",
+"taxid": "155493"
+},
+"Gallicola": {
+"clean": "Gallicola",
+"taxid": "162290"
+},
+"Gallionella": {
+"clean": "Gallionella",
+"taxid": "96"
+},
+"Galliscardovia": {
+"clean": "Galliscardovia",
+"taxid": "2023242"
+},
+"Garciella": {
+"clean": "Garciella",
+"taxid": "218204"
+},
+"Gardnerella": {
+"clean": "Gardnerella",
+"taxid": "2701"
+},
+"Geitleria": {
+"clean": "Geitleria",
+"taxid": "2184065"
+},
+"Gelidibacter": {
+"clean": "Gelidibacter",
+"taxid": "49279"
+},
+"Gelria": {
+"clean": "Gelria",
+"taxid": "189326"
+},
+"Gemella": {
+"clean": "Gemella",
+"taxid": "1378"
+},
+"Geminisphaera": {
+"clean": "Geminisphaera",
+"taxid": "1148783"
+},
+"Gemmata": {
+"clean": "Gemmata",
+"taxid": "113"
+},
+"Gemmatimonas": {
+"clean": "Gemmatimonas",
+"taxid": "173479"
+},
+"Gemmiger": {
+"clean": "Gemmiger",
+"taxid": "204475"
+},
+"Gemmobacter": {
+"clean": "Gemmobacter",
+"taxid": "204456"
+},
+"Geoalkalibacter": {
+"clean": "Geoalkalibacter",
+"taxid": "392332"
+},
+"Geobacillus": {
+"clean": "Geobacillus",
+"taxid": "129337"
+},
+"Geobacter": {
+"clean": "Geobacter",
+"taxid": "28231"
+},
+"Geochorda": {
+"clean": "Geochorda",
+"taxid": "3811964"
+},
+"Geodermatophilus": {
+"clean": "Geodermatophilus",
+"taxid": "1860"
+},
+"Geoglobus": {
+"clean": "Geoglobus",
+"taxid": "190818"
+},
+"Georgenia": {
+"clean": "Georgenia",
+"taxid": "154116"
+},
+"Geothrix": {
+"clean": "Geothrix",
+"taxid": "44675"
+},
+"Geotoga": {
+"clean": "Geotoga",
+"taxid": "28233"
+},
+"Geovibrio": {
+"clean": "Geovibrio",
+"taxid": "46200"
+},
+"Gibbsiella": {
+"clean": "Gibbsiella",
+"taxid": "929812"
+},
+"Gillisia": {
+"clean": "Gillisia",
+"taxid": "244698"
+},
+"Glaciecola": {
+"clean": "Glaciecola",
+"taxid": "89404"
+},
+"Globicatella": {
+"clean": "Globicatella",
+"taxid": "13075"
+},
+"Gluconacetobacter": {
+"clean": "Gluconacetobacter",
+"taxid": "89583"
+},
+"Gluconobacter": {
+"clean": "Gluconobacter",
+"taxid": "441"
+},
+"Glycomyces": {
+"clean": "Glycomyces",
+"taxid": "58113"
+},
+"Goodfellowiella": {
+"clean": "Goodfellowiella",
+"taxid": "334857"
+},
+"Gordonia": {
+"clean": "Gordonia",
+"taxid": "2053"
+},
+"Gordonibacter": {
+"clean": "Gordonibacter",
+"taxid": "644652"
+},
+"Gracilibacillus": {
+"clean": "Gracilibacillus",
+"taxid": "74385"
+},
+"Gracilibacter": {
+"clean": "Gracilibacter",
+"taxid": "342658"
+},
+"Gramella": {
+"clean": "Gramella",
+"taxid": "292691"
+},
+"Granulicatella": {
+"clean": "Granulicatella",
+"taxid": "117563"
+},
+"Granulicoccus": {
+"clean": "Granulicoccus",
+"taxid": "448176"
+},
+"Green Sulfur Bacteria": {
+"clean": "Green Sulfur Bacteria",
+"taxid": null
+},
+"Grimontia": {
+"clean": "Grimontia",
+"taxid": "246861"
+},
+"Gudongella": {
+"clean": "Gudongella",
+"taxid": "2692382"
+},
+"Guggenheimella": {
+"clean": "Guggenheimella",
+"taxid": "228923"
+},
+"Gulbenkiania": {
+"clean": "Gulbenkiania",
+"taxid": "397456"
+},
+"Gulosibacter": {
+"clean": "Gulosibacter",
+"taxid": "256818"
+},
+"H alalkalicoccus": {
+"clean": "Halalkalicoccus",
+"taxid": "332246"
+},
+"H alanaeroarchaeum": {
+"clean": "Halanaeroarchaeum",
+"taxid": "1656823"
+},
+"H alanaerobaculum": {
+"clean": "Halanaerobaculum",
+"taxid": "644353"
+},
+"H alarsenatibacter": {
+"clean": "Halarsenatibacter",
+"taxid": "630723"
+},
+"H aloarchaeobius": {
+"clean": "Haloarchaeobius",
+"taxid": "1269031"
+},
+"H aloarcula": {
+"clean": "Haloarcula",
+"taxid": "2237"
+},
+"H alobium": {
+"clean": "Halobium",
+"taxid": "2033608"
+},
+"H alocalculus": {
+"clean": "Halocalculus",
+"taxid": "1779002"
+},
+"H alococcus": {
+"clean": "Halococcus",
+"taxid": "2249"
+},
+"H alodesulfovibrio": {
+"clean": "Halodesulfovibrio",
+"taxid": "1912771"
+},
+"H alodesulfurarchaeum": {
+"clean": "Halodesulfurarchaeum",
+"taxid": "1980514"
+},
+"H aloferax": {
+"clean": "Haloferax",
+"taxid": "2251"
+},
+"H alogeometricum": {
+"clean": "Halogeometricum",
+"taxid": "60846"
+},
+"H aloimpatiens": {
+"clean": "Haloimpatiens",
+"taxid": "1755832"
+},
+"H aloparvum": {
+"clean": "Haloparvum",
+"taxid": "1820337"
+},
+"H alopenitus": {
+"clean": "Halopenitus",
+"taxid": "1209988"
+},
+"H alopiger": {
+"clean": "Halopiger",
+"taxid": "387342"
+},
+"H aloplasma": {
+"clean": "Haloplasma",
+"taxid": "471824"
+},
+"H aloprofundus": {
+"clean": "Haloprofundus",
+"taxid": "1911573"
+},
+"H alorubrum": {
+"clean": "Halorubrum",
+"taxid": "56688"
+},
+"H alosiccatus": {
+"clean": "Halosiccatus",
+"taxid": "203135"
+},
+"H alostagnicola": {
+"clean": "Halostagnicola",
+"taxid": "353799"
+},
+"H alostella": {
+"clean": "Halostella",
+"taxid": "1843185"
+},
+"H alotalea": {
+"clean": "Halotalea",
+"taxid": "376488"
+},
+"H aloterrigena": {
+"clean": "Haloterrigena",
+"taxid": "121871"
+},
+"H alovarius": {
+"clean": "Halovarius",
+"taxid": "1699375"
+},
+"H alovenus": {
+"clean": "Halovenus",
+"taxid": "1377992"
+},
+"H alovivax": {
+"clean": "Halovivax",
+"taxid": "332951"
+},
+"H enriciella": {
+"clean": "Henriciella",
+"taxid": "453849"
+},
+"H erbiconiux": {
+"clean": "Herbiconiux",
+"taxid": "881616"
+},
+"H erminiimonas": {
+"clean": "Herminiimonas",
+"taxid": "303379"
+},
+"H ippea": {
+"clean": "Hippea",
+"taxid": "84404"
+},
+"H istophilus": {
+"clean": "Histophilus",
+"taxid": "214906"
+},
+"H ungatella": {
+"clean": "Hungatella",
+"taxid": "1649459"
+},
+"H wanghaeicola": {
+"clean": "Hwanghaeicola",
+"taxid": "315422"
+},
+"H ydrogenibacillus": {
+"clean": "Hydrogenibacillus",
+"taxid": "1609627"
+},
+"H ydrogenophilus": {
+"clean": "Hydrogenophilus",
+"taxid": "70774"
+},
+"H ydromonas": {
+"clean": "Hydromonas",
+"taxid": "1910924"
+},
+"H ydrotalea": {
+"clean": "Hydrotalea",
+"taxid": "1004300"
+},
+"Haemobartonella": {
+"clean": "Haemobartonella",
+"taxid": "2093"
+},
+"Haemophilus": {
+"clean": "Haemophilus",
+"taxid": "724"
+},
+"Hafnia": {
+"clean": "Hafnia",
+"taxid": "568"
+},
+"Hahella": {
+"clean": "Hahella",
+"taxid": "158481"
+},
+"Haladaptatus": {
+"clean": "Haladaptatus",
+"taxid": "367188"
+},
+"Halalkaliarchaeum": {
+"clean": "Halalkaliarchaeum",
+"taxid": "2678343"
+},
+"Halalkalirubrum": {
+"clean": "Halalkalirubrum",
+"taxid": "2806916"
+},
+"Halanaerobacter": {
+"clean": "Halanaerobacter",
+"taxid": "42418"
+},
+"Halanaerobium": {
+"clean": "Halanaerobium",
+"taxid": "2330"
+},
+"Halapricum": {
+"clean": "Halapricum",
+"taxid": "1542963"
+},
+"Halarchaeum": {
+"clean": "Halarchaeum",
+"taxid": "744724"
+},
+"Halegenticoccus": {
+"clean": "Halegenticoccus",
+"taxid": "2663399"
+},
+"Haliscomenobacter": {
+"clean": "Haliscomenobacter",
+"taxid": "2349"
+},
+"Haloactinobacterium": {
+"clean": "Haloactinobacterium",
+"taxid": "626119"
+},
+"Haloactinopolyspora": {
+"clean": "Haloactinopolyspora",
+"taxid": "1217101"
+},
+"Haloactinospora": {
+"clean": "Haloactinospora",
+"taxid": "405552"
+},
+"Haloarcula": {
+"clean": "Haloarcula",
+"taxid": "2237"
+},
+"Halobacillus": {
+"clean": "Halobacillus",
+"taxid": "45667"
+},
+"Halobacterium": {
+"clean": "Halobacterium",
+"taxid": "2239"
+},
+"Halobacteroides": {
+"clean": "Halobacteroides",
+"taxid": "42417"
+},
+"Halobaculum": {
+"clean": "Halobaculum",
+"taxid": "43927"
+},
+"Halobellus": {
+"clean": "Halobellus",
+"taxid": "1073986"
+},
+"Halobiforma": {
+"clean": "Halobiforma",
+"taxid": "203193"
+},
+"Halocatena": {
+"clean": "Halocatena",
+"taxid": "2907493"
+},
+"Halocella": {
+"clean": "Halocella",
+"taxid": "46466"
+},
+"Halochromatium": {
+"clean": "Halochromatium",
+"taxid": "85074"
+},
+"Halococcoides": {
+"clean": "Halococcoides",
+"taxid": "2907507"
+},
+"Halococcus": {
+"clean": "Halococcus",
+"taxid": "2249"
+},
+"Haloechinothrix": {
+"clean": "Haloechinothrix",
+"taxid": "1425377"
+},
+"Haloferax": {
+"clean": "Haloferax",
+"taxid": "2251"
+},
+"Halofilum": {
+"clean": "Halofilum",
+"taxid": "1929135"
+},
+"Halogeometricum": {
+"clean": "Halogeometricum",
+"taxid": "60846"
+},
+"Haloglomus": {
+"clean": "Haloglomus",
+"taxid": "2806252"
+},
+"Haloglycomyces": {
+"clean": "Haloglycomyces",
+"taxid": "651553"
+},
+"Halogranum": {
+"clean": "Halogranum",
+"taxid": "695982"
+},
+"Halohasta": {
+"clean": "Halohasta",
+"taxid": "1450140"
+},
+"Halolactibacillus": {
+"clean": "Halolactibacillus",
+"taxid": "306539"
+},
+"Halolamina": {
+"clean": "Halolamina",
+"taxid": "1075397"
+},
+"Halomarina": {
+"clean": "Halomarina",
+"taxid": "871740"
+},
+"Halomicroarcula": {
+"clean": "Halomicroarcula",
+"taxid": "2237"
+},
+"Halomicrobium": {
+"clean": "Halomicrobium",
+"taxid": "203135"
+},
+"Halomicrococcus": {
+"clean": "Halomicrococcus",
+"taxid": "2614447"
+},
+"Halomonas": {
+"clean": "Halomonas",
+"taxid": "2745"
+},
+"Halonatronum": {
+"clean": "Halonatronum",
+"taxid": "150059"
+},
+"Halonotius": {
+"clean": "Halonotius",
+"taxid": "869896"
+},
+"Halopelagius": {
+"clean": "Halopelagius",
+"taxid": "1008195"
+},
+"Halopeptonella": {
+"clean": "Halopeptonella",
+"taxid": "1739105"
+},
+"Haloplanus": {
+"clean": "Haloplanus",
+"taxid": "376170"
+},
+"Haloquadratum": {
+"clean": "Haloquadratum",
+"taxid": "293431"
+},
+"Halorhabdus": {
+"clean": "Halorhabdus",
+"taxid": "146825"
+},
+"Halorhodospira": {
+"clean": "Halorhodospira",
+"taxid": "85108"
+},
+"Halorientalis": {
+"clean": "Halorientalis",
+"taxid": "1073987"
+},
+"Halorubellus": {
+"clean": "Halorubellus",
+"taxid": "1269048"
+},
+"Halorubrum": {
+"clean": "Halorubrum",
+"taxid": "56688"
+},
+"Halorussus": {
+"clean": "Halorussus",
+"taxid": "1070314"
+},
+"Halorutilus": {
+"clean": "Halorutilus",
+"taxid": "3035923"
+},
+"Halosarcina": {
+"clean": "Halosarcina",
+"taxid": "60846"
+},
+"Halosegnis": {
+"clean": "Halosegnis",
+"taxid": "2841540"
+},
+"Halosimplex": {
+"clean": "Halosimplex",
+"taxid": "171163"
+},
+"Haloterrigena": {
+"clean": "Haloterrigena",
+"taxid": "121871"
+},
+"Halothermothrix": {
+"clean": "Halothermothrix",
+"taxid": "32636"
+},
+"Halothiobacillus": {
+"clean": "Halothiobacillus",
+"taxid": "109262"
+},
+"Hamadaea": {
+"clean": "Hamadaea",
+"taxid": "1121254"
+},
+"Hansschlegelia": {
+"clean": "Hansschlegelia",
+"taxid": "444599"
+},
+"Haploangium": {
+"clean": "Haploangium",
+"taxid": "55"
+},
+"Helcococcus": {
+"clean": "Helcococcus",
+"taxid": "31983"
+},
+"Helicobacter": {
+"clean": "Helicobacter",
+"taxid": "209"
+},
+"Heliimonas": {
+"clean": "Heliimonas",
+"taxid": "1649456"
+},
+"Heliobacillus": {
+"clean": "Heliobacillus",
+"taxid": "28063"
+},
+"Heliobacterium": {
+"clean": "Heliobacterium",
+"taxid": "2697"
+},
+"Heliophilum": {
+"clean": "Heliophilum",
+"taxid": "150818"
+},
+"Heliorestis": {
+"clean": "Heliorestis",
+"taxid": "79598"
+},
+"Heliothrix": {
+"clean": "Heliothrix",
+"taxid": "1109"
+},
+"Herbaspirillum": {
+"clean": "Herbaspirillum",
+"taxid": "963"
+},
+"Herbidospora": {
+"clean": "Herbidospora",
+"taxid": "28443"
+},
+"Herbinix": {
+"clean": "Herbinix",
+"taxid": "1663717"
+},
+"Herpetosiphon": {
+"clean": "Herpetosiphon",
+"taxid": "64"
+},
+"Hespellia": {
+"clean": "Hespellia",
+"taxid": "241189"
+},
+"Hippea": {
+"clean": "Hippea",
+"taxid": "84404"
+},
+"Hirschia": {
+"clean": "Hirschia",
+"taxid": "2723"
+},
+"Holdemania": {
+"clean": "Holdemania",
+"taxid": "61170"
+},
+"Holophaga": {
+"clean": "Holophaga",
+"taxid": "35838"
+},
+"Holospora": {
+"clean": "Holospora",
+"taxid": "44747"
+},
+"Homoserinibacter": {
+"clean": "Homoserinibacter",
+"taxid": "1649457"
+},
+"Homoserinimonas": {
+"clean": "Homoserinimonas",
+"taxid": "1434009"
+},
+"Hoyosella": {
+"clean": "Hoyosella",
+"taxid": "697025"
+},
+"Humibacillus": {
+"clean": "Humibacillus",
+"taxid": "556178"
+},
+"Humibacter": {
+"clean": "Humibacter",
+"taxid": "427753"
+},
+"Humicoccus": {
+"clean": "Humicoccus",
+"taxid": "53460"
+},
+"Humidesulfovibrio": {
+"clean": "Humidesulfovibrio",
+"taxid": "2910983"
+},
+"Humihabitans": {
+"clean": "Humihabitans",
+"taxid": "53357"
+},
+"Hyalangium gen. nov": {
+"clean": "Hyalangium",
+"taxid": "224455"
+},
+"Hydrogenispora": {
+"clean": "Hydrogenispora",
+"taxid": "1501224"
+},
+"Hydrogenoanaerobacterium": {
+"clean": "Hydrogenoanaerobacterium",
+"taxid": "596767"
+},
+"Hydrogenobacter": {
+"clean": "Hydrogenobacter",
+"taxid": "939"
+},
+"Hydrogenophaga": {
+"clean": "Hydrogenophaga",
+"taxid": "47420"
+},
+"Hydrogenophilus": {
+"clean": "Hydrogenophilus",
+"taxid": "70774"
+},
+"Hydrogenovibrio": {
+"clean": "Hydrogenovibrio",
+"taxid": "28884"
+},
+"Hymenobacter": {
+"clean": "Hymenobacter",
+"taxid": "89966"
+},
+"Hyperthermus": {
+"clean": "Hyperthermus",
+"taxid": "54247"
+},
+"Hyphobacterium": {
+"clean": "Hyphobacterium",
+"taxid": "2004661"
+},
+"Hyphomicrobium": {
+"clean": "Hyphomicrobium",
+"taxid": "81"
+},
+"Hyphomonas": {
+"clean": "Hyphomonas",
+"taxid": "85"
+},
+"I gnavibacterium": {
+"clean": "Ignavibacterium",
+"taxid": "795750"
+},
+"I ntestinimonas": {
+"clean": "Intestinimonas",
+"taxid": "1392389"
+},
+"Iamia": {
+"clean": "Iamia",
+"taxid": "467975"
+},
+"Idiomarina": {
+"clean": "Idiomarina",
+"taxid": "135575"
+},
+"Ignavigranum": {
+"clean": "Ignavigranum",
+"taxid": "89092"
+},
+"Ignicoccus": {
+"clean": "Ignicoccus",
+"taxid": "54258"
+},
+"Ignisphaera": {
+"clean": "Ignisphaera",
+"taxid": "334767"
+},
+"Ilyobacter": {
+"clean": "Ilyobacter",
+"taxid": "167639"
+},
+"Imhoffiella": {
+"clean": "Imhoffiella",
+"taxid": "2018671"
+},
+"Incertae Sedis I. Aquabacterium": {
+"clean": "Aquabacterium",
+"taxid": "92793"
+},
+"Incertae Sedis I. Fodinicola": {
+"clean": "Fodinicola",
+"taxid": "435913"
+},
+"Incertae Sedis I. Methanocalculus": {
+"clean": "Methanocalculus",
+"taxid": "71151"
+},
+"Incertae Sedis II Caedibacter": {
+"clean": "Caedibacter",
+"taxid": "28905"
+},
+"Incertae Sedis II. Ideonella": {
+"clean": "Ideonella",
+"taxid": "36862"
+},
+"Incertae Sedis III. Leptothrix": {
+"clean": "Leptothrix",
+"taxid": "88"
+},
+"Incertae Sedis III. Lyticum": {
+"clean": "Lyticum",
+"taxid": "204450"
+},
+"Incertae Sedis IV . Methylopila": {
+"clean": "Methylopila",
+"taxid": "61653"
+},
+"Incertae Sedis IV. Odyssella": {
+"clean": "Odyssella",
+"taxid": "84646"
+},
+"Incertae Sedis IV. Roseateles": {
+"clean": "Roseateles",
+"taxid": "93681"
+},
+"Incertae Sedis IX. Xylophilus": {
+"clean": "Xylophilus",
+"taxid": "54066"
+},
+"Incertae Sedis Tolumonas": {
+"clean": "Tolumonas",
+"taxid": "43947"
+},
+"Incertae Sedis V. Aegyptianella": {
+"clean": "Aegyptianella",
+"taxid": "203861"
+},
+"Incertae Sedis V. Candidatus Paracaedibacter": {
+"clean": "Paracaedibacter",
+"taxid": "1521255"
+},
+"Incertae Sedis V. Rubrivivax": {
+"clean": "Rubrivivax",
+"taxid": "28067"
+},
+"Incertae Sedis VI. Pseudocaedibacter": {
+"clean": "Pseudocaedibacter",
+"taxid": "204451"
+},
+"Incertae Sedis VI. Sphaerotilus": {
+"clean": "Sphaerotilus",
+"taxid": "34102"
+},
+"Incertae Sedis VII. Tepidimonas": {
+"clean": "Tepidimonas",
+"taxid": "114248"
+},
+"Incertae Sedis VII.“Pseudolyticum”": {
+"clean": "Pseudolyticum",
+"taxid": "3059033"
+},
+"Incertae Sedis VIII. Tectibacter": {
+"clean": "Tectibacter",
+"taxid": "204453"
+},
+"Incertae Sedis VIII. Thiomonas": {
+"clean": "Thiomonas",
+"taxid": "32012"
+},
+"Incertae Sedis XII. “Sporospirillum”": {
+"clean": "Sporospirillum",
+"taxid": null
+},
+"Incertae Sedis XIV. Catenococcus": {
+"clean": "Catenococcus",
+"taxid": "94139"
+},
+"Incertae Sedis XV. Morococcus": {
+"clean": "Morococcus",
+"taxid": "212742"
+},
+"Incertae Sedis XXVI . Rhodothalassium": {
+"clean": "Rhodothalassium",
+"taxid": "85273"
+},
+"Incertae sedis Actinotalea": {
+"clean": "Actinotalea",
+"taxid": "458839"
+},
+"Incertae sedis Demequina": {
+"clean": "Demequina",
+"taxid": "577469"
+},
+"Incertae sedis II. Streptacidiphilus": {
+"clean": "Streptacidiphilus",
+"taxid": "228398"
+},
+"Infirmifilum": {
+"clean": "Infirmifilum",
+"taxid": "2856573"
+},
+"Inmirania": {
+"clean": "Inmirania",
+"taxid": "1759371"
+},
+"Intrasporangium": {
+"clean": "Intrasporangium",
+"taxid": "53357"
+},
+"Iodobacter": {
+"clean": "Iodobacter",
+"taxid": "32014"
+},
+"Isobaculum": {
+"clean": "Isobaculum",
+"taxid": "142587"
+},
+"Isochromatium": {
+"clean": "Isochromatium",
+"taxid": "85077"
+},
+"Isoptericola": {
+"clean": "Isoptericola",
+"taxid": "254250"
+},
+"Isosphaera": {
+"clean": "Isosphaera",
+"taxid": "127"
+},
+"Iyengariella": {
+"clean": "Iyengariella",
+"taxid": null
+},
+"J eotgalibaca": {
+"clean": "Jeotgalibaca",
+"taxid": "1470540"
+},
+"Jahnia gen. nov": {
+"clean": "Jahnia",
+"taxid": "224461"
+},
+"Janibacter": {
+"clean": "Janibacter",
+"taxid": "53457"
+},
+"Janthinobacterium": {
+"clean": "Janthinobacterium",
+"taxid": "29580"
+},
+"Jatrophihabitans": {
+"clean": "Jatrophihabitans",
+"taxid": "1434010"
+},
+"Jeotgalibacillus": {
+"clean": "Jeotgalibacillus",
+"taxid": "157226"
+},
+"Jeotgalicoccus": {
+"clean": "Jeotgalicoccus",
+"taxid": "227979"
+},
+"Jiangella": {
+"clean": "Jiangella",
+"taxid": "281472"
+},
+"Johnsonella": {
+"clean": "Johnsonella",
+"taxid": "43994"
+},
+"Jonesia": {
+"clean": "Jonesia",
+"taxid": "43673"
+},
+"K inneretia": {
+"clean": "Kinneretia",
+"taxid": "93681"
+},
+"Kaistella": {
+"clean": "Kaistella",
+"taxid": "2782231"
+},
+"Ketogulonicigenium": {
+"clean": "Ketogulonicigenium",
+"taxid": "92944"
+},
+"Kibdelosporangium": {
+"clean": "Kibdelosporangium",
+"taxid": "2029"
+},
+"Kineococcus": {
+"clean": "Kineococcus",
+"taxid": "33981"
+},
+"Kineosphaera": {
+"clean": "Kineosphaera",
+"taxid": "211469"
+},
+"Kineosporia": {
+"clean": "Kineosporia",
+"taxid": "49184"
+},
+"Kineothrix": {
+"clean": "Kineothrix",
+"taxid": "2163168"
+},
+"Kingella": {
+"clean": "Kingella",
+"taxid": "32257"
+},
+"Kiritimatiella": {
+"clean": "Kiritimatiella",
+"taxid": "1921784"
+},
+"Kistimonas": {
+"clean": "Kistimonas",
+"taxid": "1036132"
+},
+"Klebsiella": {
+"clean": "Klebsiella",
+"taxid": "570"
+},
+"Klenkia": {
+"clean": "Klenkia",
+"taxid": "2183612"
+},
+"Klugiella": {
+"clean": "Klugiella",
+"taxid": "580374"
+},
+"Kluyvera": {
+"clean": "Kluyvera",
+"taxid": "579"
+},
+"Knoellia": {
+"clean": "Knoellia",
+"taxid": "136099"
+},
+"Kocuria": {
+"clean": "Kocuria",
+"taxid": "57493"
+},
+"Kofleria gen. nov": {
+"clean": "Kofleria",
+"taxid": "224465"
+},
+"Kordia": {
+"clean": "Kordia",
+"taxid": "221065"
+},
+"Kordiimonas": {
+"clean": "Kordiimonas",
+"taxid": "288021"
+},
+"Kosakonia": {
+"clean": "Kosakonia",
+"taxid": "1330547"
+},
+"Kosmotoga": {
+"clean": "Kosmotoga",
+"taxid": "651456"
+},
+"Krasilnikovia": {
+"clean": "Krasilnikovia",
+"taxid": "349312"
+},
+"Kribbella": {
+"clean": "Kribbella",
+"taxid": "182639"
+},
+"Kribbia": {
+"clean": "Kribbia",
+"taxid": "331525"
+},
+"Krokinobacter": {
+"clean": "Krokinobacter",
+"taxid": "326319"
+},
+"Ktedonobacter": {
+"clean": "Ktedonobacter",
+"taxid": "363276"
+},
+"Kurthia": {
+"clean": "Kurthia",
+"taxid": "1649"
+},
+"Kushneria": {
+"clean": "Kushneria",
+"taxid": "504090"
+},
+"Kutzneria": {
+"clean": "Kutzneria",
+"taxid": "43356"
+},
+"Kytococcus": {
+"clean": "Kytococcus",
+"taxid": "57499"
+},
+"L arsenimonas": {
+"clean": "Larsenimonas",
+"taxid": "1775121"
+},
+"L awsonia": {
+"clean": "Lawsonia",
+"taxid": "41707"
+},
+"L eptolinea": {
+"clean": "Leptolinea",
+"taxid": "475966"
+},
+"L eptonema": {
+"clean": "Leptonema",
+"taxid": "32205"
+},
+"L eptospira": {
+"clean": "Leptospira",
+"taxid": "171"
+},
+"L eptotrichia": {
+"clean": "Leptotrichia",
+"taxid": "32067"
+},
+"L evilinea": {
+"clean": "Levilinea",
+"taxid": "475965"
+},
+"L imnohabitans": {
+"clean": "Limnohabitans",
+"taxid": "665874"
+},
+"L itorimonas": {
+"clean": "Litorimonas",
+"taxid": "1167830"
+},
+"L ongibacter": {
+"clean": "Longibacter",
+"taxid": "1855405"
+},
+"L ongicatena": {
+"clean": "Longicatena",
+"taxid": "1918536"
+},
+"L ongilinea": {
+"clean": "Longilinea",
+"taxid": "475961"
+},
+"L ongimonas": {
+"clean": "Longimonas",
+"taxid": "1829937"
+},
+"L uteitalea": {
+"clean": "Luteitalea",
+"taxid": "2004797"
+},
+"L utispora": {
+"clean": "Lutispora",
+"taxid": "667112"
+},
+"L ysinibacillus": {
+"clean": "Lysinibacillus",
+"taxid": "400634"
+},
+"L ysinimonas": {
+"clean": "Lysinimonas",
+"taxid": "1434018"
+},
+"Labedella": {
+"clean": "Labedella",
+"taxid": "390250"
+},
+"Labilibacter": {
+"clean": "Labilibacter",
+"taxid": "1849718"
+},
+"Labrys": {
+"clean": "Labrys",
+"taxid": "204476"
+},
+"Laceyella": {
+"clean": "Laceyella",
+"taxid": "292635"
+},
+"Lachnoanaerobaculum": {
+"clean": "Lachnoanaerobaculum",
+"taxid": "1164882"
+},
+"Lachnobacterium": {
+"clean": "Lachnobacterium",
+"taxid": "140625"
+},
+"Lachnospira": {
+"clean": "Lachnospira",
+"taxid": "28050"
+},
+"Lacinutrix": {
+"clean": "Lacinutrix",
+"taxid": "291183"
+},
+"Lacipirellula": {
+"clean": "Lacipirellula",
+"taxid": "2691417"
+},
+"Lacticaseibacillus": {
+"clean": "Lacticaseibacillus",
+"taxid": "2759736"
+},
+"Lactobacillus": {
+"clean": "Lactobacillus",
+"taxid": "1578"
+},
+"Lactococcus": {
+"clean": "Lactococcus",
+"taxid": "1357"
+},
+"Lactovum": {
+"clean": "Lactovum",
+"taxid": "303226"
+},
+"Lamprobacter": {
+"clean": "Lamprobacter",
+"taxid": "1064513"
+},
+"Lamprocystis": {
+"clean": "Lamprocystis",
+"taxid": "53452"
+},
+"Lampropedia": {
+"clean": "Lampropedia",
+"taxid": "198705"
+},
+"Lapillicoccus": {
+"clean": "Lapillicoccus",
+"taxid": "402170"
+},
+"Larkinella": {
+"clean": "Larkinella",
+"taxid": "332157"
+},
+"Lautropia": {
+"clean": "Lautropia",
+"taxid": "47670"
+},
+"Lawsonia": {
+"clean": "Lawsonia",
+"taxid": "41707"
+},
+"Leadbetterella": {
+"clean": "Leadbetterella",
+"taxid": "319458"
+},
+"Lechevalieria": {
+"clean": "Lechevalieria",
+"taxid": "165301"
+},
+"Leclercia": {
+"clean": "Leclercia",
+"taxid": "83654"
+},
+"Leeuwenhoekiella": {
+"clean": "Leeuwenhoekiella",
+"taxid": "283735"
+},
+"Legionella": {
+"clean": "Legionella",
+"taxid": "445"
+},
+"Leifsonia": {
+"clean": "Leifsonia",
+"taxid": "110932"
+},
+"Lelliottia": {
+"clean": "Lelliottia",
+"taxid": "1330545"
+},
+"Leminorella": {
+"clean": "Leminorella",
+"taxid": "82980"
+},
+"Lentibacillus": {
+"clean": "Lentibacillus",
+"taxid": "175304"
+},
+"Lentilactobacillus": {
+"clean": "Lentilactobacillus",
+"taxid": "2767893"
+},
+"Lentisphaera": {
+"clean": "Lentisphaera",
+"taxid": "256846"
+},
+"Lentzea": {
+"clean": "Lentzea",
+"taxid": "165301"
+},
+"Leptonema": {
+"clean": "Leptonema",
+"taxid": "32205"
+},
+"Leptospira": {
+"clean": "Leptospira",
+"taxid": "171"
+},
+"Leptospirillum": {
+"clean": "Leptospirillum",
+"taxid": "179"
+},
+"Leptotrichia": {
+"clean": "Leptotrichia",
+"taxid": "32067"
+},
+"Leucobacter": {
+"clean": "Leucobacter",
+"taxid": "55968"
+},
+"Leuconostoc": {
+"clean": "Leuconostoc",
+"taxid": "1243"
+},
+"Leucothrix": {
+"clean": "Leucothrix",
+"taxid": "45247"
+},
+"Levilactobacillus": {
+"clean": "Levilactobacillus",
+"taxid": "2767886"
+},
+"Levispirillum": {
+"clean": "Levispirillum",
+"taxid": null
+},
+"Lewinella": {
+"clean": "Lewinella",
+"taxid": "70994"
+},
+"Liberibacter": {
+"clean": "Liberibacter",
+"taxid": "34019"
+},
+"Ligilactobacillus": {
+"clean": "Ligilactobacillus",
+"taxid": "2767887"
+},
+"Limibacter": {
+"clean": "Limibacter",
+"taxid": "518746"
+},
+"Limimaricola": {
+"clean": "Limimaricola",
+"taxid": "2211638"
+},
+"Limnobaculum": {
+"clean": "Limnobaculum",
+"taxid": "2172100"
+},
+"Limosilactobacillus": {
+"clean": "Limosilactobacillus",
+"taxid": "2742598"
+},
+"Liquorilactobacillus": {
+"clean": "Liquorilactobacillus",
+"taxid": "2767888"
+},
+"Lishizhenia": {
+"clean": "Lishizhenia",
+"taxid": "559293"
+},
+"Listeria": {
+"clean": "Listeria",
+"taxid": "1637"
+},
+"Loigolactobacillus": {
+"clean": "Loigolactobacillus",
+"taxid": "2767889"
+},
+"Loktanella": {
+"clean": "Loktanella",
+"taxid": "245186"
+},
+"Lonepinella": {
+"clean": "Lonepinella",
+"taxid": "53416"
+},
+"Longimicrobium": {
+"clean": "Longimicrobium",
+"taxid": "1804994"
+},
+"Longispora": {
+"clean": "Longispora",
+"taxid": "203522"
+},
+"Lonsdalea": {
+"clean": "Lonsdalea",
+"taxid": "1082702"
+},
+"Luedemannella": {
+"clean": "Luedemannella",
+"taxid": "349314"
+},
+"Luteimicrobium": {
+"clean": "Luteimicrobium",
+"taxid": "754249"
+},
+"Luteimonas": {
+"clean": "Luteimonas",
+"taxid": "83614"
+},
+"Luteococcus": {
+"clean": "Luteococcus",
+"taxid": "33983"
+},
+"Lutibacter": {
+"clean": "Lutibacter",
+"taxid": "358023"
+},
+"Lysobacter": {
+"clean": "Lysobacter",
+"taxid": "68"
+},
+"M ageeibacillus": {
+"clean": "Mageeibacillus",
+"taxid": "1637257"
+},
+"M angrovibacter": {
+"clean": "Mangrovibacter",
+"taxid": "451512"
+},
+"M aricaulis": {
+"clean": "Maricaulis",
+"taxid": "74317"
+},
+"M arinicella": {
+"clean": "Marinicella",
+"taxid": "863253"
+},
+"M arinicrinis": {
+"clean": "Marinicrinis",
+"taxid": "1943561"
+},
+"M arinithermus": {
+"clean": "Marinithermus",
+"taxid": "186191"
+},
+"M eiothermus": {
+"clean": "Meiothermus",
+"taxid": "65551"
+},
+"M elaminivora": {
+"clean": "Melaminivora",
+"taxid": "1649468"
+},
+"M elioribacter": {
+"clean": "Melioribacter",
+"taxid": "1134403"
+},
+"M ethanocalculus": {
+"clean": "Methanocalculus",
+"taxid": "71151"
+},
+"M ethanococcus": {
+"clean": "Methanococcus",
+"taxid": "2184"
+},
+"M ethanoculleus": {
+"clean": "Methanoculleus",
+"taxid": "45989"
+},
+"M ethanofollis": {
+"clean": "Methanofollis",
+"taxid": "81416"
+},
+"M ethanogenium": {
+"clean": "Methanogenium",
+"taxid": "2195"
+},
+"M ethanohalobium": {
+"clean": "Methanohalobium",
+"taxid": "2321"
+},
+"M ethanolobus": {
+"clean": "Methanolobus",
+"taxid": "2220"
+},
+"M ethanomethylovorans": {
+"clean": "Methanomethylovorans",
+"taxid": "101191"
+},
+"M ethanomicrobium": {
+"clean": "Methanomicrobium",
+"taxid": "2204"
+},
+"M ethanonatronarchaeum": {
+"clean": "Methanonatronarchaeum",
+"taxid": "2022711"
+},
+"M ethanoplanus": {
+"clean": "Methanoplanus",
+"taxid": "2314"
+},
+"M ethanosalsum": {
+"clean": "Methanosalsum",
+"taxid": "196136"
+},
+"M ethanosphaerula": {
+"clean": "Methanosphaerula",
+"taxid": "475087"
+},
+"M ethanospirillum": {
+"clean": "Methanospirillum",
+"taxid": "2202"
+},
+"M ethanothermococcus": {
+"clean": "Methanothermococcus",
+"taxid": "155862"
+},
+"M ethylobacter": {
+"clean": "Methylobacter",
+"taxid": "429"
+},
+"M ethylomonas": {
+"clean": "Methylomonas",
+"taxid": "416"
+},
+"M ethyloparacoccus": {
+"clean": "Methyloparacoccus",
+"taxid": "1649469"
+},
+"M ethylophaga": {
+"clean": "Methylophaga",
+"taxid": "40222"
+},
+"M icropepsis": {
+"clean": "Micropepsis",
+"taxid": "1921569"
+},
+"M obilitalea": {
+"clean": "Mobilitalea",
+"taxid": "1649471"
+},
+"M odicisalibacter": {
+"clean": "Modicisalibacter",
+"taxid": "574347"
+},
+"M uribaculum": {
+"clean": "Muribaculum",
+"taxid": "1918540"
+},
+"M uricomes": {
+"clean": "Muricomes",
+"taxid": "1918542"
+},
+"Macrococcus": {
+"clean": "Macrococcus",
+"taxid": "69965"
+},
+"Macromonas": {
+"clean": "Macromonas",
+"taxid": "183669"
+},
+"Magnetospirillum": {
+"clean": "Magnetospirillum",
+"taxid": "13134"
+},
+"Mahella": {
+"clean": "Mahella",
+"taxid": "252965"
+},
+"Malonomonas": {
+"clean": "Malonomonas",
+"taxid": "57039"
+},
+"Mangrovicoccus": {
+"clean": "Mangrovicoccus",
+"taxid": "2201383"
+},
+"Mangrovitalea": {
+"clean": "Mangrovitalea",
+"taxid": "2047735"
+},
+"Mannheimia": {
+"clean": "Mannheimia",
+"taxid": "75984"
+},
+"Maribacter": {
+"clean": "Maribacter",
+"taxid": "252356"
+},
+"Maricaulis": {
+"clean": "Maricaulis",
+"taxid": "74317"
+},
+"Marichromatium": {
+"clean": "Marichromatium",
+"taxid": "85076"
+},
+"Maridesulfovibrio": {
+"clean": "Maridesulfovibrio",
+"taxid": "2794998"
+},
+"Marihabitans": {
+"clean": "Marihabitans",
+"taxid": "568214"
+},
+"Marinactinospora": {
+"clean": "Marinactinospora",
+"taxid": "647960"
+},
+"Marinibacillus": {
+"clean": "Marinibacillus",
+"taxid": "157226"
+},
+"Mariniblastus": {
+"clean": "Mariniblastus",
+"taxid": "2005380"
+},
+"Marinicaulis": {
+"clean": "Marinicaulis",
+"taxid": "2038635"
+},
+"Mariniflexile": {
+"clean": "Mariniflexile",
+"taxid": "527198"
+},
+"Marinilabilia": {
+"clean": "Marinilabilia",
+"taxid": "59738"
+},
+"Marinilactibacillus": {
+"clean": "Marinilactibacillus",
+"taxid": "191769"
+},
+"Marinitoga": {
+"clean": "Marinitoga",
+"taxid": "160798"
+},
+"Marinobacter": {
+"clean": "Marinobacter",
+"taxid": "2742"
+},
+"Marinobacterium": {
+"clean": "Marinobacterium",
+"taxid": "48075"
+},
+"Marinococcus": {
+"clean": "Marinococcus",
+"taxid": "1370"
+},
+"Marinomonas": {
+"clean": "Marinomonas",
+"taxid": "28253"
+},
+"Marinospirillum": {
+"clean": "Marinospirillum",
+"taxid": "64968"
+},
+"Marispirochaeta": {
+"clean": "Marispirochaeta",
+"taxid": "1911565"
+},
+"Marmoricola": {
+"clean": "Marmoricola",
+"taxid": "86795"
+},
+"Marvinbryantia": {
+"clean": "Marvinbryantia",
+"taxid": "248744"
+},
+"Massilia": {
+"clean": "Massilia",
+"taxid": "149698"
+},
+"Mechercharimyces": {
+"clean": "Mechercharimyces",
+"taxid": "482144"
+},
+"Megalodesulfovibrio": {
+"clean": "Megalodesulfovibrio",
+"taxid": "2910978"
+},
+"Megasphaera": {
+"clean": "Megasphaera",
+"taxid": "906"
+},
+"Meiothermus": {
+"clean": "Meiothermus",
+"taxid": "65551"
+},
+"Melghiribacillus": {
+"clean": "Melghiribacillus",
+"taxid": "1775697"
+},
+"Melissococcus": {
+"clean": "Melissococcus",
+"taxid": "33969"
+},
+"Melittangium": {
+"clean": "Melittangium",
+"taxid": "44"
+},
+"Meniscus": {
+"clean": "Meniscus",
+"taxid": "200677"
+},
+"Mesoaciditoga": {
+"clean": "Mesoaciditoga",
+"taxid": "1495038"
+},
+"Mesocricetibacter": {
+"clean": "Mesocricetibacter",
+"taxid": "1648517"
+},
+"Mesonia": {
+"clean": "Mesonia",
+"taxid": "232115"
+},
+"Mesophilobacter": {
+"clean": "Mesophilobacter",
+"taxid": "212741"
+},
+"Mesoplasma": {
+"clean": "Mesoplasma",
+"taxid": "46239"
+},
+"Mesorhizobium": {
+"clean": "Mesorhizobium",
+"taxid": "68287"
+},
+"Mesoterricola": {
+"clean": "Mesoterricola",
+"taxid": "3074468"
+},
+"Mesotoga": {
+"clean": "Mesotoga",
+"taxid": "1184396"
+},
+"Metallosphaera": {
+"clean": "Metallosphaera",
+"taxid": "41980"
+},
+"Metascardovia": {
+"clean": "Metascardovia",
+"taxid": "419014"
+},
+"Methanobacterium": {
+"clean": "Methanobacterium",
+"taxid": "2160"
+},
+"Methanobrevibacter": {
+"clean": "Methanobrevibacter",
+"taxid": "2172"
+},
+"Methanocaldococcus": {
+"clean": "Methanocaldococcus",
+"taxid": "196118"
+},
+"Methanocaldococcus gen . nov .": {
+"clean": "Methanocaldococcus",
+"taxid": "196118"
+},
+"Methanocella": {
+"clean": "Methanocella",
+"taxid": "570266"
+},
+"Methanococcoides": {
+"clean": "Methanococcoides",
+"taxid": "2225"
+},
+"Methanococcus": {
+"clean": "Methanococcus",
+"taxid": "2184"
+},
+"Methanocorpusculum": {
+"clean": "Methanocorpusculum",
+"taxid": "2192"
+},
+"Methanoculleus": {
+"clean": "Methanoculleus",
+"taxid": "45989"
+},
+"Methanofervidicoccus": {
+"clean": "Methanofervidicoccus",
+"taxid": "2607661"
+},
+"Methanofollis": {
+"clean": "Methanofollis",
+"taxid": "81416"
+},
+"Methanogenium": {
+"clean": "Methanogenium",
+"taxid": "2195"
+},
+"Methanohalobium": {
+"clean": "Methanohalobium",
+"taxid": "2321"
+},
+"Methanohalophilus": {
+"clean": "Methanohalophilus",
+"taxid": "2175"
+},
+"Methanolacinia": {
+"clean": "Methanolacinia",
+"taxid": "230355"
+},
+"Methanolinea": {
+"clean": "Methanolinea",
+"taxid": "499551"
+},
+"Methanolobus": {
+"clean": "Methanolobus",
+"taxid": "2220"
+},
+"Methanomassiliicoccus": {
+"clean": "Methanomassiliicoccus",
+"taxid": "1080709"
+},
+"Methanomicrobium": {
+"clean": "Methanomicrobium",
+"taxid": "2204"
+},
+"Methanoplanus": {
+"clean": "Methanoplanus",
+"taxid": "2314"
+},
+"Methanopyrus": {
+"clean": "Methanopyrus",
+"taxid": "2319"
+},
+"Methanoregula": {
+"clean": "Methanoregula",
+"taxid": "395331"
+},
+"Methanosaeta": {
+"clean": "Methanosaeta",
+"taxid": "2222"
+},
+"Methanosalsum gen. nov .": {
+"clean": "Methanosalsum",
+"taxid": "196136"
+},
+"Methanosarcina": {
+"clean": "Methanosarcina",
+"taxid": "2207"
+},
+"Methanosphaera": {
+"clean": "Methanosphaera",
+"taxid": "2316"
+},
+"Methanospirillum": {
+"clean": "Methanospirillum",
+"taxid": "2202"
+},
+"Methanothermobacter": {
+"clean": "Methanothermobacter",
+"taxid": "145260"
+},
+"Methanothermococcus gen. nov.": {
+"clean": "Methanothermococcus",
+"taxid": "155862"
+},
+"Methanothermus": {
+"clean": "Methanothermus",
+"taxid": "2179"
+},
+"Methanothrix": {
+"clean": "Methanothrix",
+"taxid": "2222"
+},
+"Methanotorris": {
+"clean": "Methanotorris",
+"taxid": "196119"
+},
+"Methanotorris gen. nov.": {
+"clean": "Methanotorris",
+"taxid": "196119"
+},
+"Methylarcula": {
+"clean": "Methylarcula",
+"taxid": "72021"
+},
+"Methylicorpusculum": {
+"clean": "Methylicorpusculum",
+"taxid": "2713642"
+},
+"Methylobacillus": {
+"clean": "Methylobacillus",
+"taxid": "404"
+},
+"Methylobacter": {
+"clean": "Methylobacter",
+"taxid": "429"
+},
+"Methylobacterium": {
+"clean": "Methylobacterium",
+"taxid": "407"
+},
+"Methylocaldum": {
+"clean": "Methylocaldum",
+"taxid": "73778"
+},
+"Methylocapsa": {
+"clean": "Methylocapsa",
+"taxid": "184923"
+},
+"Methylocella": {
+"clean": "Methylocella",
+"taxid": "120652"
+},
+"Methylococcus": {
+"clean": "Methylococcus",
+"taxid": "413"
+},
+"Methylocystis": {
+"clean": "Methylocystis",
+"taxid": "133"
+},
+"Methyloferula": {
+"clean": "Methyloferula",
+"taxid": "1143004"
+},
+"Methylogaea": {
+"clean": "Methylogaea",
+"taxid": "1295378"
+},
+"Methyloglobulus": {
+"clean": "Methyloglobulus",
+"taxid": "1410680"
+},
+"Methylohalobius": {
+"clean": "Methylohalobius",
+"taxid": "244364"
+},
+"Methylohalomonas": {
+"clean": "Methylohalomonas",
+"taxid": "398772"
+},
+"Methylomagnum": {
+"clean": "Methylomagnum",
+"taxid": "1760987"
+},
+"Methylomarinovum": {
+"clean": "Methylomarinovum",
+"taxid": "1486720"
+},
+"Methylomarinum": {
+"clean": "Methylomarinum",
+"taxid": "1221209"
+},
+"Methylomicrobium": {
+"clean": "Methylomicrobium",
+"taxid": "39773"
+},
+"Methylomonas": {
+"clean": "Methylomonas",
+"taxid": "416"
+},
+"Methylonatrum": {
+"clean": "Methylonatrum",
+"taxid": "455252"
+},
+"Methylophaga": {
+"clean": "Methylophaga",
+"taxid": "40222"
+},
+"Methylophilus": {
+"clean": "Methylophilus",
+"taxid": "16"
+},
+"Methylopila": {
+"clean": "Methylopila",
+"taxid": "61653"
+},
+"Methyloprofundus": {
+"clean": "Methyloprofundus",
+"taxid": "1565313"
+},
+"Methyloraptor": {
+"clean": "Methyloraptor",
+"taxid": "3382645"
+},
+"Methylorhabdus": {
+"clean": "Methylorhabdus",
+"taxid": "99"
+},
+"Methylorosula": {
+"clean": "Methylorosula",
+"taxid": "1277353"
+},
+"Methylorubrum": {
+"clean": "Methylorubrum",
+"taxid": "2282523"
+},
+"Methylosarcina": {
+"clean": "Methylosarcina",
+"taxid": "160800"
+},
+"Methylosinus": {
+"clean": "Methylosinus",
+"taxid": "425"
+},
+"Methylosoma": {
+"clean": "Methylosoma",
+"taxid": "392710"
+},
+"Methylosphaera": {
+"clean": "Methylosphaera",
+"taxid": "54115"
+},
+"Methylotenera": {
+"clean": "Methylotenera",
+"taxid": "359407"
+},
+"Methyloterricola": {
+"clean": "Methyloterricola",
+"taxid": "2045060"
+},
+"Methylothermus": {
+"clean": "Methylothermus",
+"taxid": "317574"
+},
+"Methylovirgula": {
+"clean": "Methylovirgula",
+"taxid": "1156568"
+},
+"Methylovorus": {
+"clean": "Methylovorus",
+"taxid": "81682"
+},
+"Methylovulum": {
+"clean": "Methylovulum",
+"taxid": "762296"
+},
+"Micavibrio": {
+"clean": "Micavibrio",
+"taxid": "213485"
+},
+"Microbacterium": {
+"clean": "Microbacterium",
+"taxid": "33882"
+},
+"Microbispora": {
+"clean": "Microbispora",
+"taxid": "2005"
+},
+"Microbulbifer": {
+"clean": "Microbulbifer",
+"taxid": "48073"
+},
+"Microcaldus": {
+"clean": "Microcaldus",
+"taxid": "3108009"
+},
+"Microcella": {
+"clean": "Microcella",
+"taxid": "337004"
+},
+"Micrococcus": {
+"clean": "Micrococcus",
+"taxid": "1269"
+},
+"Microlunatus": {
+"clean": "Microlunatus",
+"taxid": "29404"
+},
+"Micromonospora": {
+"clean": "Micromonospora",
+"taxid": "1873"
+},
+"Micropruina": {
+"clean": "Micropruina",
+"taxid": "116071"
+},
+"Microscilla": {
+"clean": "Microscilla",
+"taxid": "1023"
+},
+"Microterricola": {
+"clean": "Microterricola",
+"taxid": "518733"
+},
+"Microtetraspora": {
+"clean": "Microtetraspora",
+"taxid": "1995"
+},
+"Microvirgula": {
+"clean": "Microvirgula",
+"taxid": "57479"
+},
+"Millisia": {
+"clean": "Millisia",
+"taxid": "264147"
+},
+"Miltoncostaea": {
+"clean": "Miltoncostaea",
+"taxid": "2843200"
+},
+"Miniimonas": {
+"clean": "Miniimonas",
+"taxid": "947525"
+},
+"Minwuia": {
+"clean": "Minwuia",
+"taxid": "2493629"
+},
+"Mitsuokella": {
+"clean": "Mitsuokella",
+"taxid": "52225"
+},
+"Mixta": {
+"clean": "Mixta",
+"taxid": "2100764"
+},
+"Mobilicoccus": {
+"clean": "Mobilicoccus",
+"taxid": "984996"
+},
+"Mobiluncus": {
+"clean": "Mobiluncus",
+"taxid": "2050"
+},
+"Modestobacter": {
+"clean": "Modestobacter",
+"taxid": "88138"
+},
+"Moellerella": {
+"clean": "Moellerella",
+"taxid": "158848"
+},
+"Mogibacterium": {
+"clean": "Mogibacterium",
+"taxid": "86331"
+},
+"Monoglobus": {
+"clean": "Monoglobus",
+"taxid": "2039302"
+},
+"Moorella": {
+"clean": "Moorella",
+"taxid": "216400"
+},
+"Moraxella": {
+"clean": "Moraxella",
+"taxid": "475"
+},
+"Morganella": {
+"clean": "Morganella",
+"taxid": "581"
+},
+"Moritella": {
+"clean": "Moritella",
+"taxid": "58050"
+},
+"Moryella": {
+"clean": "Moryella",
+"taxid": "437755"
+},
+"Muribacter": {
+"clean": "Muribacter",
+"taxid": "1857532"
+},
+"Muricauda": {
+"clean": "Muricauda",
+"taxid": "111500"
+},
+"Myceligenerans": {
+"clean": "Myceligenerans",
+"taxid": "253183"
+},
+"Mycetocola": {
+"clean": "Mycetocola",
+"taxid": "76634"
+},
+"Mycobacterium": {
+"clean": "Mycobacterium",
+"taxid": "1763"
+},
+"Mycoplana": {
+"clean": "Mycoplana",
+"taxid": "13159"
+},
+"Mycoplasma": {
+"clean": "Mycoplasma",
+"taxid": "2093"
+},
+"Myroides": {
+"clean": "Myroides",
+"taxid": "76831"
+},
+"Myxococcus": {
+"clean": "Myxococcus",
+"taxid": "32"
+},
+"N aasia": {
+"clean": "Naasia",
+"taxid": "1434022"
+},
+"N atranaerobaculum": {
+"clean": "Natranaerobaculum",
+"taxid": "1649472"
+},
+"N atranaerobius": {
+"clean": "Natranaerobius",
+"taxid": "375928"
+},
+"N atrialba": {
+"clean": "Natrialba",
+"taxid": "63742"
+},
+"N atrinema": {
+"clean": "Natrinema",
+"taxid": "88723"
+},
+"N atronobacterium": {
+"clean": "Natronobacterium",
+"taxid": "2256"
+},
+"N atronobiforma": {
+"clean": "Natronobiforma",
+"taxid": "2174848"
+},
+"N atronococcus": {
+"clean": "Natronococcus",
+"taxid": "29287"
+},
+"N atronomonas": {
+"clean": "Natronomonas",
+"taxid": "63743"
+},
+"N atronorubrum": {
+"clean": "Natronorubrum",
+"taxid": "134813"
+},
+"N atronotalea": {
+"clean": "Natronotalea",
+"taxid": "2039627"
+},
+"N atronovirga": {
+"clean": "Natronovirga",
+"taxid": "759413"
+},
+"N icoletella": {
+"clean": "Nicoletella",
+"taxid": "271159"
+},
+"N itrolancea": {
+"clean": "Nitrolancea",
+"taxid": "1206748"
+},
+"N itrosarchaeum": {
+"clean": "Nitrosarchaeum",
+"taxid": "1007082"
+},
+"Nakamurella": {
+"clean": "Nakamurella",
+"taxid": "53460"
+},
+"Nannocystis": {
+"clean": "Nannocystis",
+"taxid": "53"
+},
+"Nanobdella": {
+"clean": "Nanobdella",
+"taxid": "2974824"
+},
+"Natranaeroarchaeum": {
+"clean": "Natranaeroarchaeum",
+"taxid": "2917705"
+},
+"Natranaerofaba": {
+"clean": "Natranaerofaba",
+"taxid": "2807497"
+},
+"Natranaerovirga": {
+"clean": "Natranaerovirga",
+"taxid": "1434023"
+},
+"Natrarchaeobaculum": {
+"clean": "Natrarchaeobaculum",
+"taxid": "2765402"
+},
+"Natrarchaeobius": {
+"clean": "Natrarchaeobius",
+"taxid": "2501796"
+},
+"Natrialba": {
+"clean": "Natrialba",
+"taxid": "63742"
+},
+"Natribaculum": {
+"clean": "Natribaculum",
+"taxid": "1699375"
+},
+"Natrinema": {
+"clean": "Natrinema",
+"taxid": "88723"
+},
+"Natroniella": {
+"clean": "Natroniella",
+"taxid": "52003"
+},
+"Natronincola": {
+"clean": "Natronincola",
+"taxid": "89958"
+},
+"Natronoarchaeum": {
+"clean": "Natronoarchaeum",
+"taxid": "926359"
+},
+"Natronobacillus": {
+"clean": "Natronobacillus",
+"taxid": "472977"
+},
+"Natronobacterium": {
+"clean": "Natronobacterium",
+"taxid": "2256"
+},
+"Natronocalculus": {
+"clean": "Natronocalculus",
+"taxid": "2945980"
+},
+"Natronocella": {
+"clean": "Natronocella",
+"taxid": "414045"
+},
+"Natronococcus": {
+"clean": "Natronococcus",
+"taxid": "29287"
+},
+"Natronoflexus": {
+"clean": "Natronoflexus",
+"taxid": "1434024"
+},
+"Natronolimnobius": {
+"clean": "Natronolimnobius",
+"taxid": "253106"
+},
+"Natronolimnohabitans": {
+"clean": "Natronolimnohabitans",
+"taxid": "2765403"
+},
+"Natronomonas": {
+"clean": "Natronomonas",
+"taxid": "63743"
+},
+"Natronorubrum": {
+"clean": "Natronorubrum",
+"taxid": "134813"
+},
+"Natronospira": {
+"clean": "Natronospira",
+"taxid": "2024969"
+},
+"Necropsobacter": {
+"clean": "Necropsobacter",
+"taxid": "908284"
+},
+"Neisseria": {
+"clean": "Neisseria",
+"taxid": "482"
+},
+"Neochlamydia": {
+"clean": "Neochlamydia",
+"taxid": "112987"
+},
+"Neorickettsia": {
+"clean": "Neorickettsia",
+"taxid": "33993"
+},
+"Neoscardovia": {
+"clean": "Neoscardovia",
+"taxid": "1730861"
+},
+"Neptunomonas": {
+"clean": "Neptunomonas",
+"taxid": "75687"
+},
+"Nesterenkonia": {
+"clean": "Nesterenkonia",
+"taxid": "57494"
+},
+"Nevskia": {
+"clean": "Nevskia",
+"taxid": "64001"
+},
+"Nicoliella": {
+"clean": "Nicoliella",
+"taxid": "2978367"
+},
+"Nitratidesulfovibrio": {
+"clean": "Nitratidesulfovibrio",
+"taxid": "2802295"
+},
+"Nitriliruptor": {
+"clean": "Nitriliruptor",
+"taxid": "596499"
+},
+"Nitrobacter": {
+"clean": "Nitrobacter",
+"taxid": "911"
+},
+"Nitrococcus": {
+"clean": "Nitrococcus",
+"taxid": "35796"
+},
+"Nitrosococcus": {
+"clean": "Nitrosococcus",
+"taxid": "1227"
+},
+"Nitrosolobus": {
+"clean": "Nitrosolobus",
+"taxid": "35798"
+},
+"Nitrosomonas": {
+"clean": "Nitrosomonas",
+"taxid": "914"
+},
+"Nitrososphaera": {
+"clean": "Nitrososphaera",
+"taxid": "497726"
+},
+"Nitrosospira": {
+"clean": "Nitrosospira",
+"taxid": "35798"
+},
+"Nitrospina": {
+"clean": "Nitrospina",
+"taxid": "35800"
+},
+"Nitrospira": {
+"clean": "Nitrospira",
+"taxid": "1234"
+},
+"Nocardia": {
+"clean": "Nocardia",
+"taxid": "1817"
+},
+"Nocardioides": {
+"clean": "Nocardioides",
+"taxid": "1839"
+},
+"Nocardiopsis": {
+"clean": "Nocardiopsis",
+"taxid": "2013"
+},
+"Nonlabens": {
+"clean": "Nonlabens",
+"taxid": "363408"
+},
+"Nonomuraea": {
+"clean": "Nonomuraea",
+"taxid": "83681"
+},
+"Nostochopsis": {
+"clean": "Nostochopsis",
+"taxid": "221283"
+},
+"Notoacmeibacter": {
+"clean": "Notoacmeibacter",
+"taxid": "2024982"
+},
+"Novosphingobium": {
+"clean": "Novosphingobium",
+"taxid": "165696"
+},
+"O ccallatibacter": {
+"clean": "Occallatibacter",
+"taxid": "1742983"
+},
+"O ceanicaulis": {
+"clean": "Oceanicaulis",
+"taxid": "153232"
+},
+"O ceanivirga": {
+"clean": "Oceanivirga",
+"taxid": "1824856"
+},
+"O chrobactrum": {
+"clean": "Ochrobactrum",
+"taxid": "528"
+},
+"O leibacter": {
+"clean": "Oleibacter",
+"taxid": "187492"
+},
+"O rbus": {
+"clean": "Orbus",
+"taxid": "743714"
+},
+"O rnatilinea": {
+"clean": "Ornatilinea",
+"taxid": "1434028"
+},
+"O rrella": {
+"clean": "Orrella",
+"taxid": "1921582"
+},
+"O ryzisolibacter": {
+"clean": "Oryzisolibacter",
+"taxid": "2038733"
+},
+"Obesumbacterium": {
+"clean": "Obesumbacterium",
+"taxid": "82982"
+},
+"Oceanicella": {
+"clean": "Oceanicella",
+"taxid": "1233054"
+},
+"Oceanidesulfovibrio gen. nov.": {
+"clean": "Oceanidesulfovibrio",
+"taxid": "2905722"
+},
+"Oceaniglobus": {
+"clean": "Oceaniglobus",
+"taxid": "2047745"
+},
+"Oceanimonas": {
+"clean": "Oceanimonas",
+"taxid": "129577"
+},
+"Oceanirhabdus": {
+"clean": "Oceanirhabdus",
+"taxid": "1434026"
+},
+"Oceanobacillus": {
+"clean": "Oceanobacillus",
+"taxid": "182709"
+},
+"Oceanospirillum": {
+"clean": "Oceanospirillum",
+"taxid": "965"
+},
+"Oceanotoga": {
+"clean": "Oceanotoga",
+"taxid": "1255275"
+},
+"Ochrobactrum": {
+"clean": "Ochrobactrum",
+"taxid": "528"
+},
+"Octadecabacter": {
+"clean": "Octadecabacter",
+"taxid": "53945"
+},
+"Oenococcus": {
+"clean": "Oenococcus",
+"taxid": "46254"
+},
+"Oerskovia": {
+"clean": "Oerskovia",
+"taxid": "162491"
+},
+"Okibacterium": {
+"clean": "Okibacterium",
+"taxid": "196084"
+},
+"Oleidesulfovibrio": {
+"clean": "Oleidesulfovibrio",
+"taxid": "2909705"
+},
+"Oleiharenicola": {
+"clean": "Oleiharenicola",
+"taxid": "2100741"
+},
+"Oligella": {
+"clean": "Oligella",
+"taxid": "90243"
+},
+"Oligotropha": {
+"clean": "Oligotropha",
+"taxid": "1033"
+},
+"Olleya": {
+"clean": "Olleya",
+"taxid": "336276"
+},
+"Olsenella": {
+"clean": "Olsenella",
+"taxid": "133925"
+},
+"Opitutus": {
+"clean": "Opitutus",
+"taxid": "178440"
+},
+"Orenia": {
+"clean": "Orenia",
+"taxid": "46468"
+},
+"Oribacterium": {
+"clean": "Oribacterium",
+"taxid": "265975"
+},
+"Orientia": {
+"clean": "Orientia",
+"taxid": "69474"
+},
+"Ornithinibacillus": {
+"clean": "Ornithinibacillus",
+"taxid": "484508"
+},
+"Ornithinicoccus": {
+"clean": "Ornithinicoccus",
+"taxid": "82345"
+},
+"Ornithinimicrobium": {
+"clean": "Ornithinimicrobium",
+"taxid": "125287"
+},
+"Ornithobacterium": {
+"clean": "Ornithobacterium",
+"taxid": "28250"
+},
+"Oryzihumus": {
+"clean": "Oryzihumus",
+"taxid": "344063"
+},
+"Oscillochloris": {
+"clean": "Oscillochloris",
+"taxid": "104175"
+},
+"Oscillospira": {
+"clean": "Oscillospira",
+"taxid": "119852"
+},
+"Otariodibacter": {
+"clean": "Otariodibacter",
+"taxid": "1249016"
+},
+"Owenweeksia": {
+"clean": "Owenweeksia",
+"taxid": "267986"
+},
+"Oxalobacter": {
+"clean": "Oxalobacter",
+"taxid": "846"
+},
+"Oxalophagus": {
+"clean": "Oxalophagus",
+"taxid": "44262"
+},
+"Oxobacter": {
+"clean": "Oxobacter",
+"taxid": "44261"
+},
+"P acificibacter": {
+"clean": "Pacificibacter",
+"taxid": "1042323"
+},
+"P aenalcaligenes": {
+"clean": "Paenalcaligenes",
+"taxid": "1100891"
+},
+"P aenarthrobacter": {
+"clean": "Paenarthrobacter",
+"taxid": "1742992"
+},
+"P aeniglutamicibacter": {
+"clean": "Paeniglutamicibacter",
+"taxid": "1742990"
+},
+"P aenochrobactrum": {
+"clean": "Paenochrobactrum",
+"taxid": "999488"
+},
+"P aludibaculum": {
+"clean": "Paludibaculum",
+"taxid": "1649475"
+},
+"P aludifilum": {
+"clean": "Paludifilum",
+"taxid": "1905726"
+},
+"P elagirhabdus": {
+"clean": "Pelagirhabdus",
+"taxid": "1738642"
+},
+"P elolinea": {
+"clean": "Pelolinea",
+"taxid": "1649478"
+},
+"P hycisphaera": {
+"clean": "Phycisphaera",
+"taxid": "666508"
+},
+"P istricoccus": {
+"clean": "Pistricoccus",
+"taxid": "1897649"
+},
+"P olaribacter": {
+"clean": "Polaribacter",
+"taxid": "52959"
+},
+"P olygonibacillus": {
+"clean": "Polygonibacillus",
+"taxid": "1890224"
+},
+"P olynucleobacter": {
+"clean": "Polynucleobacter",
+"taxid": "44013"
+},
+"P ontibaca": {
+"clean": "Pontibaca",
+"taxid": "1400059"
+},
+"P orticoccus": {
+"clean": "Porticoccus",
+"taxid": "1123967"
+},
+"P roteiniborus": {
+"clean": "Proteiniborus",
+"taxid": "415014"
+},
+"P seudaestuariivita": {
+"clean": "Pseudaestuariivita",
+"taxid": "2211639"
+},
+"P seudarthrobacter": {
+"clean": "Pseudarthrobacter",
+"taxid": "1742993"
+},
+"P seudodesulfovibrio": {
+"clean": "Pseudodesulfovibrio",
+"taxid": "2035811"
+},
+"P seudoglutamicibacter": {
+"clean": "Pseudoglutamicibacter",
+"taxid": "1742991"
+},
+"P seudogracilibacillus": {
+"clean": "Pseudogracilibacillus",
+"taxid": "1494958"
+},
+"P ullulanibacillus": {
+"clean": "Pullulanibacillus",
+"taxid": "475230"
+},
+"P yrinomonas": {
+"clean": "Pyrinomonas",
+"taxid": "1562565"
+},
+"Paenibacillus": {
+"clean": "Paenibacillus",
+"taxid": "44249"
+},
+"Paeniclostridium": {
+"clean": "Paeniclostridium",
+"taxid": "1849828"
+},
+"Palaeococcus": {
+"clean": "Palaeococcus",
+"taxid": "83867"
+},
+"Palleronia": {
+"clean": "Palleronia",
+"taxid": "315422"
+},
+"Paludibacter": {
+"clean": "Paludibacter",
+"taxid": "346096"
+},
+"Paludibacterium": {
+"clean": "Paludibacterium",
+"taxid": "400060"
+},
+"Paludisphaera": {
+"clean": "Paludisphaera",
+"taxid": "1763521"
+},
+"Pandoraea": {
+"clean": "Pandoraea",
+"taxid": "93217"
+},
+"Pantoea": {
+"clean": "Pantoea",
+"taxid": "53335"
+},
+"Papillibacter": {
+"clean": "Papillibacter",
+"taxid": "100175"
+},
+"Paracandidimonas": {
+"clean": "Paracandidimonas",
+"taxid": "2017546"
+},
+"Parachlamydia": {
+"clean": "Parachlamydia",
+"taxid": "83551"
+},
+"Paraclostridium": {
+"clean": "Paraclostridium",
+"taxid": "1849822"
+},
+"Paracoccus": {
+"clean": "Paracoccus",
+"taxid": "265"
+},
+"Paracraurococcus": {
+"clean": "Paracraurococcus",
+"taxid": "77674"
+},
+"Paradesulfovibrio": {
+"clean": "Paradesulfovibrio",
+"taxid": "1433996"
+},
+"Paralactobacillus": {
+"clean": "Paralactobacillus",
+"taxid": "1578"
+},
+"Paraliobacillus": {
+"clean": "Paraliobacillus",
+"taxid": "200903"
+},
+"Paraoerskovia": {
+"clean": "Paraoerskovia",
+"taxid": "665568"
+},
+"Parapusillimonas": {
+"clean": "Parapusillimonas",
+"taxid": "1403714"
+},
+"Pararhodospirillum": {
+"clean": "Pararhodospirillum",
+"taxid": "1612157"
+},
+"Parascardovia": {
+"clean": "Parascardovia",
+"taxid": "196082"
+},
+"Parashewanella": {
+"clean": "Parashewanella",
+"taxid": "2547964"
+},
+"Parasphaerochaeta": {
+"clean": "Parasphaerochaeta",
+"taxid": "3062336"
+},
+"Parasporobacterium": {
+"clean": "Parasporobacterium",
+"taxid": "115543"
+},
+"Parendozoicomonas": {
+"clean": "Parendozoicomonas",
+"taxid": "2066475"
+},
+"Parvimonas": {
+"clean": "Parvimonas",
+"taxid": "543311"
+},
+"Pasteurella": {
+"clean": "Pasteurella",
+"taxid": "745"
+},
+"Pasteuria": {
+"clean": "Pasteuria",
+"taxid": "86004"
+},
+"Patulibacter": {
+"clean": "Patulibacter",
+"taxid": "361607"
+},
+"Paucidesulfovibrio": {
+"clean": "Paucidesulfovibrio",
+"taxid": "2910985"
+},
+"Paucilactobacillus": {
+"clean": "Paucilactobacillus",
+"taxid": "2767890"
+},
+"Paucimonas": {
+"clean": "Paucimonas",
+"taxid": "157932"
+},
+"Pectinatus": {
+"clean": "Pectinatus",
+"taxid": "864"
+},
+"Pectobacterium": {
+"clean": "Pectobacterium",
+"taxid": "122277"
+},
+"Pediococcus": {
+"clean": "Pediococcus",
+"taxid": "1253"
+},
+"Pedobacter": {
+"clean": "Pedobacter",
+"taxid": "84567"
+},
+"Pedomicrobium": {
+"clean": "Pedomicrobium",
+"taxid": "47494"
+},
+"Pelagerythrobacter": {
+"clean": "Pelagerythrobacter",
+"taxid": "2800685"
+},
+"Pelagicoccus": {
+"clean": "Pelagicoccus",
+"taxid": "455433"
+},
+"Pelistega": {
+"clean": "Pelistega",
+"taxid": "106146"
+},
+"Pelobacter": {
+"clean": "Pelobacter",
+"taxid": "18"
+},
+"Pelodictyon": {
+"clean": "Pelodictyon",
+"taxid": "1099"
+},
+"Pelomicrobium": {
+"clean": "Pelomicrobium",
+"taxid": "2815315"
+},
+"Pelospora": {
+"clean": "Pelospora",
+"taxid": "109324"
+},
+"Pelotomaculum": {
+"clean": "Pelotomaculum",
+"taxid": "191373"
+},
+"Peptococcus": {
+"clean": "Peptococcus",
+"taxid": "2740"
+},
+"Peptoniphilus": {
+"clean": "Peptoniphilus",
+"taxid": "162289"
+},
+"Peptostreptococcus": {
+"clean": "Peptostreptococcus",
+"taxid": "1257"
+},
+"Perexilibacter": {
+"clean": "Perexilibacter",
+"taxid": "442432"
+},
+"Periweissella": {
+"clean": "Periweissella",
+"taxid": "2930384"
+},
+"Perlabentimonas": {
+"clean": "Perlabentimonas",
+"taxid": "2866216"
+},
+"Persicivirga": {
+"clean": "Persicivirga",
+"taxid": "363408"
+},
+"Persicobacter": {
+"clean": "Persicobacter",
+"taxid": "59740"
+},
+"Petrimonas": {
+"clean": "Petrimonas",
+"taxid": "307628"
+},
+"Petrotoga": {
+"clean": "Petrotoga",
+"taxid": "28236"
+},
+"Pfennigia": {
+"clean": "Pfennigia",
+"taxid": "53452"
+},
+"Phaeospirillum": {
+"clean": "Phaeospirillum",
+"taxid": "85265"
+},
+"Phascolarctobacterium": {
+"clean": "Phascolarctobacterium",
+"taxid": "33024"
+},
+"Phenylobacterium": {
+"clean": "Phenylobacterium",
+"taxid": "20"
+},
+"Phocoenobacter": {
+"clean": "Phocoenobacter",
+"taxid": "146805"
+},
+"Photobacterium": {
+"clean": "Photobacterium",
+"taxid": "657"
+},
+"Photorhabdus": {
+"clean": "Photorhabdus",
+"taxid": "29487"
+},
+"Phycicoccus": {
+"clean": "Phycicoccus",
+"taxid": "367298"
+},
+"Phycicola": {
+"clean": "Phycicola",
+"taxid": "518733"
+},
+"Phyllobacterium": {
+"clean": "Phyllobacterium",
+"taxid": "28100"
+},
+"Phytohabitans": {
+"clean": "Phytohabitans",
+"taxid": "907364"
+},
+"Phytomonospora": {
+"clean": "Phytomonospora",
+"taxid": "1434030"
+},
+"Picrophilus": {
+"clean": "Picrophilus",
+"taxid": "46631"
+},
+"Pigmentiphaga": {
+"clean": "Pigmentiphaga",
+"taxid": "152267"
+},
+"Pilimelia": {
+"clean": "Pilimelia",
+"taxid": "53370"
+},
+"Pirellula": {
+"clean": "Pirellula",
+"taxid": "123"
+},
+"Piscibacillus": {
+"clean": "Piscibacillus",
+"taxid": "420644"
+},
+"Piscicoccus": {
+"clean": "Piscicoccus",
+"taxid": "985001"
+},
+"Piscirickettsia": {
+"clean": "Piscirickettsia",
+"taxid": "1237"
+},
+"Planctomicrobium": {
+"clean": "Planctomicrobium",
+"taxid": "1779141"
+},
+"Planctomyces": {
+"clean": "Planctomyces",
+"taxid": "118"
+},
+"Planifilum": {
+"clean": "Planifilum",
+"taxid": "332100"
+},
+"Planobispora": {
+"clean": "Planobispora",
+"taxid": "29298"
+},
+"Planococcus": {
+"clean": "Planococcus",
+"taxid": "1372"
+},
+"Planomicrobium": {
+"clean": "Planomicrobium",
+"taxid": "162291"
+},
+"Planomonospora": {
+"clean": "Planomonospora",
+"taxid": "1998"
+},
+"Planosporangium": {
+"clean": "Planosporangium",
+"taxid": "689760"
+},
+"Planotetraspora": {
+"clean": "Planotetraspora",
+"taxid": "58120"
+},
+"Plantactinospora": {
+"clean": "Plantactinospora",
+"taxid": "673534"
+},
+"Plantibacter": {
+"clean": "Plantibacter",
+"taxid": "190323"
+},
+"Plesiomonas": {
+"clean": "Plesiomonas",
+"taxid": "702"
+},
+"Pleurocapsa‐group": {
+"clean": "Pleurocapsa‐group",
+"taxid": null
+},
+"Pluralibacter": {
+"clean": "Pluralibacter",
+"taxid": "1330546"
+},
+"Polaribacter": {
+"clean": "Polaribacter",
+"taxid": "52959"
+},
+"Polaromonas": {
+"clean": "Polaromonas",
+"taxid": "52972"
+},
+"Polyangium": {
+"clean": "Polyangium",
+"taxid": "55"
+},
+"Polymorphospora": {
+"clean": "Polymorphospora",
+"taxid": "338583"
+},
+"Polynucleobacter": {
+"clean": "Polynucleobacter",
+"taxid": "44013"
+},
+"Pontibacillus": {
+"clean": "Pontibacillus",
+"taxid": "289201"
+},
+"Pontibacter": {
+"clean": "Pontibacter",
+"taxid": "323449"
+},
+"Pontimonas": {
+"clean": "Pontimonas",
+"taxid": "1434032"
+},
+"Pontixanthobacter": {
+"clean": "Pontixanthobacter",
+"taxid": "2792075"
+},
+"Porphyrobacter": {
+"clean": "Porphyrobacter",
+"taxid": "1111"
+},
+"Porphyromonas": {
+"clean": "Porphyromonas",
+"taxid": "836"
+},
+"Pragia": {
+"clean": "Pragia",
+"taxid": "82984"
+},
+"Prauserella": {
+"clean": "Prauserella",
+"taxid": "142577"
+},
+"Prevotella": {
+"clean": "Prevotella",
+"taxid": "838"
+},
+"Prochlorococcus": {
+"clean": "Prochlorococcus",
+"taxid": "1218"
+},
+"Prolinoborus": {
+"clean": "Prolinoborus",
+"taxid": "206375"
+},
+"Promicromonospora": {
+"clean": "Promicromonospora",
+"taxid": "43676"
+},
+"Propionibacter": {
+"clean": "Propionibacter",
+"taxid": "83766"
+},
+"Propionibacterium": {
+"clean": "Propionibacterium",
+"taxid": "1743"
+},
+"Propionicicella": {
+"clean": "Propionicicella",
+"taxid": "348581"
+},
+"Propionicimonas": {
+"clean": "Propionicimonas",
+"taxid": "236052"
+},
+"Propioniferax": {
+"clean": "Propioniferax",
+"taxid": "53456"
+},
+"Propionigenium": {
+"clean": "Propionigenium",
+"taxid": "2332"
+},
+"Propionimicrobium": {
+"clean": "Propionimicrobium",
+"taxid": "203133"
+},
+"Propionispira": {
+"clean": "Propionispira",
+"taxid": "84034"
+},
+"Propionispora": {
+"clean": "Propionispora",
+"taxid": "112902"
+},
+"Propionivibrio": {
+"clean": "Propionivibrio",
+"taxid": "83766"
+},
+"Prosthecobacter": {
+"clean": "Prosthecobacter",
+"taxid": "48463"
+},
+"Prosthecochloris": {
+"clean": "Prosthecochloris",
+"taxid": "1101"
+},
+"Prosthecomicrobium": {
+"clean": "Prosthecomicrobium",
+"taxid": "81894"
+},
+"Proteiniphilum": {
+"clean": "Proteiniphilum",
+"taxid": "294702"
+},
+"Proteinivorax": {
+"clean": "Proteinivorax",
+"taxid": "1491776"
+},
+"Proteus": {
+"clean": "Proteus",
+"taxid": "583"
+},
+"Protochlamydia": {
+"clean": "Protochlamydia",
+"taxid": "282132"
+},
+"Providencia": {
+"clean": "Providencia",
+"taxid": "586"
+},
+"Pseudaminobacter": {
+"clean": "Pseudaminobacter",
+"taxid": "93368"
+},
+"Pseudoalteromonas": {
+"clean": "Pseudoalteromonas",
+"taxid": "53246"
+},
+"Pseudobacteroides": {
+"clean": "Pseudobacteroides",
+"taxid": "1486726"
+},
+"Pseudobutyrivibrio": {
+"clean": "Pseudobutyrivibrio",
+"taxid": "46205"
+},
+"Pseudochrobactrum": {
+"clean": "Pseudochrobactrum",
+"taxid": "354349"
+},
+"Pseudoclavibacter": {
+"clean": "Pseudoclavibacter",
+"taxid": "255204"
+},
+"Pseudoflavonifractor": {
+"clean": "Pseudoflavonifractor",
+"taxid": "1017280"
+},
+"Pseudofulvimonas": {
+"clean": "Pseudofulvimonas",
+"taxid": "999506"
+},
+"Pseudogulbenkiania": {
+"clean": "Pseudogulbenkiania",
+"taxid": "568394"
+},
+"Pseudomonas": {
+"clean": "Pseudomonas",
+"taxid": "286"
+},
+"Pseudonocardia": {
+"clean": "Pseudonocardia",
+"taxid": "1847"
+},
+"Pseudooceanicola": {
+"clean": "Pseudooceanicola",
+"taxid": "1679449"
+},
+"Pseudoramibacter": {
+"clean": "Pseudoramibacter",
+"taxid": "113286"
+},
+"Pseudothermotoga": {
+"clean": "Pseudothermotoga",
+"taxid": "1643951"
+},
+"Pseudoxanthomonas": {
+"clean": "Pseudoxanthomonas",
+"taxid": "83618"
+},
+"Psychrobacter": {
+"clean": "Psychrobacter",
+"taxid": "497"
+},
+"Psychroflexus": {
+"clean": "Psychroflexus",
+"taxid": "83612"
+},
+"Psychromonas": {
+"clean": "Psychromonas",
+"taxid": "67572"
+},
+"Psychroserpens": {
+"clean": "Psychroserpens",
+"taxid": "49277"
+},
+"Puniceicoccus": {
+"clean": "Puniceicoccus",
+"taxid": "388745"
+},
+"Pusillimonas": {
+"clean": "Pusillimonas",
+"taxid": "305976"
+},
+"Pyrobaculum": {
+"clean": "Pyrobaculum",
+"taxid": "2276"
+},
+"Pyrococcus": {
+"clean": "Pyrococcus",
+"taxid": "2260"
+},
+"Pyrodictium": {
+"clean": "Pyrodictium",
+"taxid": "2308"
+},
+"Pyrofollis": {
+"clean": "Pyrofollis",
+"taxid": "3088728"
+},
+"Pyrolobus": {
+"clean": "Pyrolobus",
+"taxid": "54251"
+},
+"Pyxicoccus gen. nov.": {
+"clean": "Pyxicoccus",
+"taxid": "224458"
+},
+"Qipengyuania": {
+"clean": "Qipengyuania",
+"taxid": "1855416"
+},
+"Quadrisphaera": {
+"clean": "Quadrisphaera",
+"taxid": "317661"
+},
+"Quinella": {
+"clean": "Quinella",
+"taxid": "1567"
+},
+"R habdanaerobium": {
+"clean": "Rhabdanaerobium",
+"taxid": "2040476"
+},
+"R hizobacter": {
+"clean": "Rhizobacter",
+"taxid": "212743"
+},
+"R hizomicrobium": {
+"clean": "Rhizomicrobium",
+"taxid": "1241326"
+},
+"R ickettsia": {
+"clean": "Rickettsia",
+"taxid": "780"
+},
+"R obinsoniella": {
+"clean": "Robinsoniella",
+"taxid": "588605"
+},
+"R oseimicrobium": {
+"clean": "Roseimicrobium",
+"taxid": "1348508"
+},
+"R ubritepida": {
+"clean": "Rubritepida",
+"taxid": "182402"
+},
+"R udaibacter": {
+"clean": "Rudaibacter",
+"taxid": "1434039"
+},
+"R uegeria": {
+"clean": "Ruegeria",
+"taxid": "97050"
+},
+"R uthenibacterium": {
+"clean": "Ruthenibacterium",
+"taxid": "1905344"
+},
+"Rahnella": {
+"clean": "Rahnella",
+"taxid": "34037"
+},
+"Raineya": {
+"clean": "Raineya",
+"taxid": "2071614"
+},
+"Ralstonia": {
+"clean": "Ralstonia",
+"taxid": "48736"
+},
+"Rapidithrix": {
+"clean": "Rapidithrix",
+"taxid": "413963"
+},
+"Rarispira": {
+"clean": "Rarispira",
+"taxid": "3409820"
+},
+"Rarobacter": {
+"clean": "Rarobacter",
+"taxid": "13242"
+},
+"Rathayibacter": {
+"clean": "Rathayibacter",
+"taxid": "33886"
+},
+"Reichenbachiella": {
+"clean": "Reichenbachiella",
+"taxid": "156993"
+},
+"Renibacterium": {
+"clean": "Renibacterium",
+"taxid": "1645"
+},
+"Rhabdochlamydia": {
+"clean": "Rhabdochlamydia",
+"taxid": "292833"
+},
+"Rhabdochromatium": {
+"clean": "Rhabdochromatium",
+"taxid": "48728"
+},
+"Rhizobacter": {
+"clean": "Rhizobacter",
+"taxid": "212743"
+},
+"Rhizobium": {
+"clean": "Rhizobium",
+"taxid": "379"
+},
+"Rhizocola": {
+"clean": "Rhizocola",
+"taxid": "1538466"
+},
+"Rhodanobacter": {
+"clean": "Rhodanobacter",
+"taxid": "75309"
+},
+"Rhodobaca": {
+"clean": "Rhodobaca",
+"taxid": "121820"
+},
+"Rhodobacter": {
+"clean": "Rhodobacter",
+"taxid": "1060"
+},
+"Rhodobium": {
+"clean": "Rhodobium",
+"taxid": "34016"
+},
+"Rhodoblastus": {
+"clean": "Rhodoblastus",
+"taxid": "168658"
+},
+"Rhodocista": {
+"clean": "Rhodocista",
+"taxid": "34023"
+},
+"Rhodococcus": {
+"clean": "Rhodococcus",
+"taxid": "1827"
+},
+"Rhodocyclus": {
+"clean": "Rhodocyclus",
+"taxid": "1064"
+},
+"Rhodoferax": {
+"clean": "Rhodoferax",
+"taxid": "28065"
+},
+"Rhodoglobus": {
+"clean": "Rhodoglobus",
+"taxid": "193383"
+},
+"Rhodohalobacter": {
+"clean": "Rhodohalobacter",
+"taxid": "1974209"
+},
+"Rhodoluna": {
+"clean": "Rhodoluna",
+"taxid": "529883"
+},
+"Rhodomicrobium": {
+"clean": "Rhodomicrobium",
+"taxid": "1068"
+},
+"Rhodonellum": {
+"clean": "Rhodonellum",
+"taxid": "336827"
+},
+"Rhodopila": {
+"clean": "Rhodopila",
+"taxid": "1070"
+},
+"Rhodopirellula": {
+"clean": "Rhodopirellula",
+"taxid": "265488"
+},
+"Rhodoplanes": {
+"clean": "Rhodoplanes",
+"taxid": "29407"
+},
+"Rhodopseudomonas": {
+"clean": "Rhodopseudomonas",
+"taxid": "1073"
+},
+"Rhodosalinus": {
+"clean": "Rhodosalinus",
+"taxid": "2047740"
+},
+"Rhodospira": {
+"clean": "Rhodospira",
+"taxid": "69959"
+},
+"Rhodospirillum": {
+"clean": "Rhodospirillum",
+"taxid": "1081"
+},
+"Rhodothalassium": {
+"clean": "Rhodothalassium",
+"taxid": "85273"
+},
+"Rhodothermus": {
+"clean": "Rhodothermus",
+"taxid": "29548"
+},
+"Rhodovibrio": {
+"clean": "Rhodovibrio",
+"taxid": "85274"
+},
+"Rhodovulum": {
+"clean": "Rhodovulum",
+"taxid": "34008"
+},
+"Richelia": {
+"clean": "Richelia",
+"taxid": "98443"
+},
+"Rickettsia": {
+"clean": "Rickettsia",
+"taxid": "780"
+},
+"Rickettsiella": {
+"clean": "Rickettsiella",
+"taxid": "59195"
+},
+"Riemerella": {
+"clean": "Riemerella",
+"taxid": "34084"
+},
+"Rikenella": {
+"clean": "Rikenella",
+"taxid": "28138"
+},
+"Rivularia": {
+"clean": "Rivularia",
+"taxid": "373984"
+},
+"Robiginitalea": {
+"clean": "Robiginitalea",
+"taxid": "252306"
+},
+"Rodentibacter": {
+"clean": "Rodentibacter",
+"taxid": "1960084"
+},
+"Roseburia": {
+"clean": "Roseburia",
+"taxid": "841"
+},
+"Roseibium": {
+"clean": "Roseibium",
+"taxid": "150830"
+},
+"Roseiflexus": {
+"clean": "Roseiflexus",
+"taxid": "120961"
+},
+"Roseimaritima": {
+"clean": "Roseimaritima",
+"taxid": "1579506"
+},
+"Roseinatronobacter": {
+"clean": "Roseinatronobacter",
+"taxid": "121820"
+},
+"Roseivirga": {
+"clean": "Roseivirga",
+"taxid": "290180"
+},
+"Roseivivax": {
+"clean": "Roseivivax",
+"taxid": "93682"
+},
+"Roseobacter": {
+"clean": "Roseobacter",
+"taxid": "2433"
+},
+"Roseococcus": {
+"clean": "Roseococcus",
+"taxid": "35812"
+},
+"Roseomonas": {
+"clean": "Roseomonas",
+"taxid": "125216"
+},
+"Roseospira": {
+"clean": "Roseospira",
+"taxid": "86671"
+},
+"Roseospirillum": {
+"clean": "Roseospirillum",
+"taxid": "83400"
+},
+"Roseovarius": {
+"clean": "Roseovarius",
+"taxid": "74030"
+},
+"Rothia": {
+"clean": "Rothia",
+"taxid": "32207"
+},
+"Ruania": {
+"clean": "Ruania",
+"taxid": "626119"
+},
+"Rubneribacter": {
+"clean": "Rubneribacter",
+"taxid": "2126002"
+},
+"Rubrimonas": {
+"clean": "Rubrimonas",
+"taxid": "89523"
+},
+"Rubripirellula": {
+"clean": "Rubripirellula",
+"taxid": "1579505"
+},
+"Rubritalea": {
+"clean": "Rubritalea",
+"taxid": "361050"
+},
+"Rubrobacter": {
+"clean": "Rubrobacter",
+"taxid": "42255"
+},
+"Ruegeria": {
+"clean": "Ruegeria",
+"taxid": "97050"
+},
+"Rugamonas": {
+"clean": "Rugamonas",
+"taxid": "212744"
+},
+"Rugosimonospora": {
+"clean": "Rugosimonospora",
+"taxid": "1198243"
+},
+"Ruminiclostridium": {
+"clean": "Ruminiclostridium",
+"taxid": "1508657"
+},
+"Ruminobacter": {
+"clean": "Ruminobacter",
+"taxid": "866"
+},
+"Ruminococcus": {
+"clean": "Ruminococcus",
+"taxid": "1263"
+},
+"Runella": {
+"clean": "Runella",
+"taxid": "105"
+},
+"S accharofermentans": {
+"clean": "Saccharofermentans",
+"taxid": "1200657"
+},
+"S alinarimonas": {
+"clean": "Salinarimonas",
+"taxid": "690086"
+},
+"S alinicola": {
+"clean": "Salinicola",
+"taxid": "404432"
+},
+"S alinirussus": {
+"clean": "Salinirussus",
+"taxid": "2036001"
+},
+"S alinisphaera": {
+"clean": "Salinisphaera",
+"taxid": "180541"
+},
+"S alinithrix": {
+"clean": "Salinithrix",
+"taxid": "1649492"
+},
+"S alinivenus": {
+"clean": "Salinivenus",
+"taxid": "1853226"
+},
+"S alipaludibacillus": {
+"clean": "Salipaludibacillus",
+"taxid": "1884449"
+},
+"S aliphagus": {
+"clean": "Saliphagus",
+"taxid": "2039236"
+},
+"S alirhabdus": {
+"clean": "Salirhabdus",
+"taxid": "394505"
+},
+"S alisaeta": {
+"clean": "Salisaeta",
+"taxid": "689697"
+},
+"S ciscionella": {
+"clean": "Sciscionella",
+"taxid": "596495"
+},
+"S ebaldella": {
+"clean": "Sebaldella",
+"taxid": "32068"
+},
+"S edimentisphaera": {
+"clean": "Sedimentisphaera",
+"taxid": "2483368"
+},
+"S ilvibacterium": {
+"clean": "Silvibacterium",
+"taxid": "1775468"
+},
+"S inibacillus": {
+"clean": "Sinibacillus",
+"taxid": "1649496"
+},
+"S mithella": {
+"clean": "Smithella",
+"taxid": "182623"
+},
+"S neathia": {
+"clean": "Sneathia",
+"taxid": "168808"
+},
+"S piribacter": {
+"clean": "Spiribacter",
+"taxid": "1335745"
+},
+"S poracetigenium": {
+"clean": "Sporacetigenium",
+"taxid": "360541"
+},
+"S porosalibacterium": {
+"clean": "Sporosalibacterium",
+"taxid": "1400135"
+},
+"S tenotrophobacter": {
+"clean": "Stenotrophobacter",
+"taxid": "1748767"
+},
+"S treptobacillus": {
+"clean": "Streptobacillus",
+"taxid": "34104"
+},
+"S ulfuricella": {
+"clean": "Sulfuricella",
+"taxid": "935200"
+},
+"S ulfuritortus": {
+"clean": "Sulfuritortus",
+"taxid": "1938335"
+},
+"S yntrophaceticus": {
+"clean": "Syntrophaceticus",
+"taxid": "862071"
+},
+"S yntrophobacter": {
+"clean": "Syntrophobacter",
+"taxid": "29526"
+},
+"S yntrophus": {
+"clean": "Syntrophus",
+"taxid": "43773"
+},
+"Saccharobacter": {
+"clean": "Saccharobacter",
+"taxid": "213028"
+},
+"Saccharococcus": {
+"clean": "Saccharococcus",
+"taxid": "29395"
+},
+"Saccharomonospora": {
+"clean": "Saccharomonospora",
+"taxid": "1851"
+},
+"Saccharopolyspora": {
+"clean": "Saccharopolyspora",
+"taxid": "1835"
+},
+"Saccharothrix": {
+"clean": "Saccharothrix",
+"taxid": "2071"
+},
+"Sagittula": {
+"clean": "Sagittula",
+"taxid": "58842"
+},
+"Salana": {
+"clean": "Salana",
+"taxid": "120376"
+},
+"Salarchaeum": {
+"clean": "Salarchaeum",
+"taxid": "1075398"
+},
+"Salegentibacter": {
+"clean": "Salegentibacter",
+"taxid": "143222"
+},
+"Salibacter": {
+"clean": "Salibacter",
+"taxid": "444513"
+},
+"Salimesophilobacter": {
+"clean": "Salimesophilobacter",
+"taxid": "1434040"
+},
+"Salinadaptatus": {
+"clean": "Salinadaptatus",
+"taxid": "2798309"
+},
+"Salinarchaeum": {
+"clean": "Salinarchaeum",
+"taxid": "1269201"
+},
+"Salinibacter": {
+"clean": "Salinibacter",
+"taxid": "146918"
+},
+"Salinibacterium": {
+"clean": "Salinibacterium",
+"taxid": "235888"
+},
+"Salinibaculum": {
+"clean": "Salinibaculum",
+"taxid": "2732368"
+},
+"Salinicoccus": {
+"clean": "Salinicoccus",
+"taxid": "45669"
+},
+"Salinigranum": {
+"clean": "Salinigranum",
+"taxid": "1644057"
+},
+"Saliniramus": {
+"clean": "Saliniramus",
+"taxid": "2919362"
+},
+"Salinirubellus": {
+"clean": "Salinirubellus",
+"taxid": "2162630"
+},
+"Salinirubrum": {
+"clean": "Salinirubrum",
+"taxid": "1644062"
+},
+"Salinispira": {
+"clean": "Salinispira",
+"taxid": "1616789"
+},
+"Salinispora": {
+"clean": "Salinispora",
+"taxid": "168694"
+},
+"Salinivibrio": {
+"clean": "Salinivibrio",
+"taxid": "51366"
+},
+"Salinivirga": {
+"clean": "Salinivirga",
+"taxid": "1970191"
+},
+"Salipiger": {
+"clean": "Salipiger",
+"taxid": "263377"
+},
+"Saliterribacillus": {
+"clean": "Saliterribacillus",
+"taxid": "1434043"
+},
+"Salmonella": {
+"clean": "Salmonella",
+"taxid": "590"
+},
+"Salsuginibacillus": {
+"clean": "Salsuginibacillus",
+"taxid": "427077"
+},
+"Sandaracinobacter": {
+"clean": "Sandaracinobacter",
+"taxid": "56358"
+},
+"Sandarakinotalea": {
+"clean": "Sandarakinotalea",
+"taxid": "363408"
+},
+"Sanguibacter": {
+"clean": "Sanguibacter",
+"taxid": "60919"
+},
+"Sansalvadorimonas": {
+"clean": "Sansalvadorimonas",
+"taxid": "2172823"
+},
+"Saprospira": {
+"clean": "Saprospira",
+"taxid": "1007"
+},
+"Sarcina": {
+"clean": "Sarcina",
+"taxid": "1266"
+},
+"Scardovia": {
+"clean": "Scardovia",
+"taxid": "196081"
+},
+"Schineria": {
+"clean": "Schineria",
+"taxid": "112008"
+},
+"Schlegelella": {
+"clean": "Schlegelella",
+"taxid": "196013"
+},
+"Schleiferia": {
+"clean": "Schleiferia",
+"taxid": "1333716"
+},
+"Schlesneria": {
+"clean": "Schlesneria",
+"taxid": "656899"
+},
+"Schumannella": {
+"clean": "Schumannella",
+"taxid": "472058"
+},
+"Schwartzia": {
+"clean": "Schwartzia",
+"taxid": "55506"
+},
+"Scytonema": {
+"clean": "Scytonema",
+"taxid": "1203"
+},
+"Sebaldella": {
+"clean": "Sebaldella",
+"taxid": "32068"
+},
+"Secundilactobacillus": {
+"clean": "Secundilactobacillus",
+"taxid": "2767892"
+},
+"Sedimentibacter": {
+"clean": "Sedimentibacter",
+"taxid": "190972"
+},
+"Sediminibacillus": {
+"clean": "Sediminibacillus",
+"taxid": "482460"
+},
+"Sediminicola": {
+"clean": "Sediminicola",
+"taxid": "389486"
+},
+"Segniliparus": {
+"clean": "Segniliparus",
+"taxid": "286801"
+},
+"Seinonella": {
+"clean": "Seinonella",
+"taxid": "292637"
+},
+"Sejongia": {
+"clean": "Sejongia",
+"taxid": "2782231"
+},
+"Selenihalanaerobacter": {
+"clean": "Selenihalanaerobacter",
+"taxid": "142841"
+},
+"Selenomonas": {
+"clean": "Selenomonas",
+"taxid": "970"
+},
+"Seliberia": {
+"clean": "Seliberia",
+"taxid": "204477"
+},
+"Senegalimassilia": {
+"clean": "Senegalimassilia",
+"taxid": "1473205"
+},
+"Serinibacter": {
+"clean": "Serinibacter",
+"taxid": "690565"
+},
+"Serinicoccus": {
+"clean": "Serinicoccus",
+"taxid": "265976"
+},
+"Serpens": {
+"clean": "Serpens",
+"taxid": "286"
+},
+"Serpentinicella": {
+"clean": "Serpentinicella",
+"taxid": "1890059"
+},
+"Serratia": {
+"clean": "Serratia",
+"taxid": "613"
+},
+"Shewanella": {
+"clean": "Shewanella",
+"taxid": "22"
+},
+"Shigella": {
+"clean": "Shigella",
+"taxid": "620"
+},
+"Shimazuella": {
+"clean": "Shimazuella",
+"taxid": "471798"
+},
+"Shimia": {
+"clean": "Shimia",
+"taxid": "573139"
+},
+"Shuttleworthia": {
+"clean": "Shuttleworthia",
+"taxid": "177971"
+},
+"Silvanigrella": {
+"clean": "Silvanigrella",
+"taxid": "2024975"
+},
+"Simkania": {
+"clean": "Simkania",
+"taxid": "34093"
+},
+"Simonsiella": {
+"clean": "Simonsiella",
+"taxid": "71"
+},
+"Singulisphaera": {
+"clean": "Singulisphaera",
+"taxid": "466152"
+},
+"Sinirhodobacter": {
+"clean": "Sinirhodobacter",
+"taxid": "1470577"
+},
+"Sinorhizobium": {
+"clean": "Sinorhizobium",
+"taxid": "28105"
+},
+"Skermanella": {
+"clean": "Skermanella",
+"taxid": "204447"
+},
+"Skermania": {
+"clean": "Skermania",
+"taxid": "59613"
+},
+"Slackia": {
+"clean": "Slackia",
+"taxid": "84108"
+},
+"Smaragdicoccus": {
+"clean": "Smaragdicoccus",
+"taxid": "613121"
+},
+"Smithella": {
+"clean": "Smithella",
+"taxid": "182623"
+},
+"Sneathia": {
+"clean": "Sneathia",
+"taxid": "168808"
+},
+"Sodalinema": {
+"clean": "Sodalinema",
+"taxid": "2219504"
+},
+"Sodalis": {
+"clean": "Sodalis",
+"taxid": "84565"
+},
+"Soehngenia": {
+"clean": "Soehngenia",
+"taxid": "253255"
+},
+"Solidesulfovibrio": {
+"clean": "Solidesulfovibrio",
+"taxid": "2910984"
+},
+"Solirubrobacter": {
+"clean": "Solirubrobacter",
+"taxid": "207599"
+},
+"Solobacterium": {
+"clean": "Solobacterium",
+"taxid": "123375"
+},
+"Sorangium": {
+"clean": "Sorangium",
+"taxid": "39643"
+},
+"Sphaerisporangium": {
+"clean": "Sphaerisporangium",
+"taxid": "321315"
+},
+"Sphaerochaeta": {
+"clean": "Sphaerochaeta",
+"taxid": "399320"
+},
+"Sphingobacterium": {
+"clean": "Sphingobacterium",
+"taxid": "28453"
+},
+"Sphingobium": {
+"clean": "Sphingobium",
+"taxid": "165695"
+},
+"Sphingomonas": {
+"clean": "Sphingomonas",
+"taxid": "13687"
+},
+"Sphingopyxis": {
+"clean": "Sphingopyxis",
+"taxid": "165697"
+},
+"Spirilliplanes": {
+"clean": "Spirilliplanes",
+"taxid": "42232"
+},
+"Spirillospora": {
+"clean": "Spirillospora",
+"taxid": "58122"
+},
+"Spirillum": {
+"clean": "Spirillum",
+"taxid": "967"
+},
+"Spirochaeta": {
+"clean": "Spirochaeta",
+"taxid": "146"
+},
+"Spiroplasma": {
+"clean": "Spiroplasma",
+"taxid": "2132"
+},
+"Spirosoma": {
+"clean": "Spirosoma",
+"taxid": "107"
+},
+"Sporanaerobacter": {
+"clean": "Sporanaerobacter",
+"taxid": "165812"
+},
+"Sporichthya": {
+"clean": "Sporichthya",
+"taxid": "35750"
+},
+"Sporobacter": {
+"clean": "Sporobacter",
+"taxid": "44748"
+},
+"Sporobacterium": {
+"clean": "Sporobacterium",
+"taxid": "100132"
+},
+"Sporocytophaga": {
+"clean": "Sporocytophaga",
+"taxid": "1011"
+},
+"Sporohalobacter": {
+"clean": "Sporohalobacter",
+"taxid": "973"
+},
+"Sporolactobacillus": {
+"clean": "Sporolactobacillus",
+"taxid": "2077"
+},
+"Sporomusa": {
+"clean": "Sporomusa",
+"taxid": "2375"
+},
+"Sporosarcina": {
+"clean": "Sporosarcina",
+"taxid": "1569"
+},
+"Sporotomaculum": {
+"clean": "Sporotomaculum",
+"taxid": "68034"
+},
+"Stackebrandtia": {
+"clean": "Stackebrandtia",
+"taxid": "283810"
+},
+"Staleya": {
+"clean": "Staleya",
+"taxid": "60136"
+},
+"Staphylococcus": {
+"clean": "Staphylococcus",
+"taxid": "1279"
+},
+"Staphylothermus": {
+"clean": "Staphylothermus",
+"taxid": "2279"
+},
+"Stappia": {
+"clean": "Stappia",
+"taxid": "152161"
+},
+"Starkeya": {
+"clean": "Starkeya",
+"taxid": "152053"
+},
+"Stella": {
+"clean": "Stella",
+"taxid": "93"
+},
+"Stenothermobacter": {
+"clean": "Stenothermobacter",
+"taxid": "363408"
+},
+"Stenotrophomonas": {
+"clean": "Stenotrophomonas",
+"taxid": "40323"
+},
+"Stetteria": {
+"clean": "Stetteria",
+"taxid": "52130"
+},
+"Stigmatella": {
+"clean": "Stigmatella",
+"taxid": "40"
+},
+"Stigonema": {
+"clean": "Stigonema",
+"taxid": "221292"
+},
+"Streptoalloteichus": {
+"clean": "Streptoalloteichus",
+"taxid": "2016"
+},
+"Streptobacillus": {
+"clean": "Streptobacillus",
+"taxid": "34104"
+},
+"Streptococcus": {
+"clean": "Streptococcus",
+"taxid": "1301"
+},
+"Streptohalobacillus": {
+"clean": "Streptohalobacillus",
+"taxid": "1400134"
+},
+"Streptomonospora": {
+"clean": "Streptomonospora",
+"taxid": "104204"
+},
+"Streptomyces": {
+"clean": "Streptomyces",
+"taxid": "1883"
+},
+"Streptosporangium": {
+"clean": "Streptosporangium",
+"taxid": "2000"
+},
+"Stygiolobus": {
+"clean": "Stygiolobus",
+"taxid": "41674"
+},
+"Subdoligranulum": {
+"clean": "Subdoligranulum",
+"taxid": "292632"
+},
+"Subsaxibacter": {
+"clean": "Subsaxibacter",
+"taxid": "291181"
+},
+"Subsaximicrobium": {
+"clean": "Subsaximicrobium",
+"taxid": "291178"
+},
+"Subsection I": {
+"clean": "Subsection I",
+"taxid": null
+},
+"Subsection II": {
+"clean": "Subsection II",
+"taxid": null
+},
+"Subsection III": {
+"clean": "Subsection III",
+"taxid": null
+},
+"Subsection IV": {
+"clean": "Subsection IV",
+"taxid": null
+},
+"Subsection IV.I": {
+"clean": "Subsection IV.I",
+"taxid": null
+},
+"Subsection IV.II": {
+"clean": "Subsection IV.II",
+"taxid": null
+},
+"Subsection V": {
+"clean": "Subsection V",
+"taxid": null
+},
+"Subtercola": {
+"clean": "Subtercola",
+"taxid": "120212"
+},
+"Succiniclasticum": {
+"clean": "Succiniclasticum",
+"taxid": "40840"
+},
+"Succinimonas": {
+"clean": "Succinimonas",
+"taxid": "83768"
+},
+"Succinispira": {
+"clean": "Succinispira",
+"taxid": "78119"
+},
+"Succinivibrio": {
+"clean": "Succinivibrio",
+"taxid": "83770"
+},
+"Sulfitobacter": {
+"clean": "Sulfitobacter",
+"taxid": "60136"
+},
+"Sulfobacillus": {
+"clean": "Sulfobacillus",
+"taxid": "28033"
+},
+"Sulfolobus": {
+"clean": "Sulfolobus",
+"taxid": "2284"
+},
+"Sulfophobococcus": {
+"clean": "Sulfophobococcus",
+"taxid": "53425"
+},
+"Sulfurisphaera": {
+"clean": "Sulfurisphaera",
+"taxid": "69655"
+},
+"Sulfurococcus": {
+"clean": "Sulfurococcus",
+"taxid": "230188"
+},
+"Sulfurospirillum": {
+"clean": "Sulfurospirillum",
+"taxid": "57665"
+},
+"Sutterella": {
+"clean": "Sutterella",
+"taxid": "40544"
+},
+"Suttonella": {
+"clean": "Suttonella",
+"taxid": "13275"
+},
+"Symbiobacterium": {
+"clean": "Symbiobacterium",
+"taxid": "2733"
+},
+"Synergistes": {
+"clean": "Synergistes",
+"taxid": "2753"
+},
+"Syntrophobacter": {
+"clean": "Syntrophobacter",
+"taxid": "29526"
+},
+"Syntrophobacterium gen. nov .": {
+"clean": "Syntrophobacterium",
+"taxid": "2905940"
+},
+"Syntrophobotulus": {
+"clean": "Syntrophobotulus",
+"taxid": "51196"
+},
+"Syntrophococcus": {
+"clean": "Syntrophococcus",
+"taxid": "84036"
+},
+"Syntrophomonas": {
+"clean": "Syntrophomonas",
+"taxid": "862"
+},
+"Syntrophospora": {
+"clean": "Syntrophospora",
+"taxid": "862"
+},
+"Syntrophothermus": {
+"clean": "Syntrophothermus",
+"taxid": "129001"
+},
+"Syntrophus": {
+"clean": "Syntrophus",
+"taxid": "43773"
+},
+"T ellurimicrobium": {
+"clean": "Tellurimicrobium",
+"taxid": "1748764"
+},
+"T elmatobacter": {
+"clean": "Telmatobacter",
+"taxid": "1078829"
+},
+"T epidamorphus": {
+"clean": "Tepidamorphus",
+"taxid": "747074"
+},
+"T epidanaerobacter": {
+"clean": "Tepidanaerobacter",
+"taxid": "499228"
+},
+"T epidicella": {
+"clean": "Tepidicella",
+"taxid": "360239"
+},
+"T epidimicrobium": {
+"clean": "Tepidimicrobium",
+"taxid": "285105"
+},
+"T epidiphilus": {
+"clean": "Tepidiphilus",
+"taxid": "203470"
+},
+"T epidisphaera": {
+"clean": "Tepidisphaera",
+"taxid": "1771356"
+},
+"T erracidiphilus": {
+"clean": "Terracidiphilus",
+"taxid": "1742983"
+},
+"T errimicrobium": {
+"clean": "Terrimicrobium",
+"taxid": "1649503"
+},
+"T excoconibacillus": {
+"clean": "Texcoconibacillus",
+"taxid": "1649504"
+},
+"T hermithiobacillus": {
+"clean": "Thermithiobacillus",
+"taxid": "119979"
+},
+"T hermodesulfitimonas": {
+"clean": "Thermodesulfitimonas",
+"taxid": "1914252"
+},
+"T hermodesulforhabdus": {
+"clean": "Thermodesulforhabdus",
+"taxid": "88358"
+},
+"T hermoflexus": {
+"clean": "Thermoflexus",
+"taxid": "1495649"
+},
+"T hermolongibacillus": {
+"clean": "Thermolongibacillus",
+"taxid": "1500514"
+},
+"T hermomarinilinea": {
+"clean": "Thermomarinilinea",
+"taxid": "1649507"
+},
+"T hermotoga": {
+"clean": "Thermotoga",
+"taxid": "2335"
+},
+"T hermotomaculum": {
+"clean": "Thermotomaculum",
+"taxid": "1172428"
+},
+"T hermus": {
+"clean": "Thermus",
+"taxid": "270"
+},
+"T hioalkalibacter": {
+"clean": "Thioalkalibacter",
+"taxid": "469655"
+},
+"T hiobacillus": {
+"clean": "Thiobacillus",
+"taxid": "919"
+},
+"T hiohalobacter": {
+"clean": "Thiohalobacter",
+"taxid": "1273155"
+},
+"T hiohalorhabdus": {
+"clean": "Thiohalorhabdus",
+"taxid": "492233"
+},
+"T issierella": {
+"clean": "Tissierella",
+"taxid": "41273"
+},
+"T istlia": {
+"clean": "Tistlia",
+"taxid": "1321364"
+},
+"T ruepera": {
+"clean": "Truepera",
+"taxid": "332248"
+},
+"T uricimonas": {
+"clean": "Turicimonas",
+"taxid": "1918598"
+},
+"T urneriella": {
+"clean": "Turneriella",
+"taxid": "338321"
+},
+"Tamilnaduibacter": {
+"clean": "Tamilnaduibacter",
+"taxid": "1857014"
+},
+"Tannerella": {
+"clean": "Tannerella",
+"taxid": "195950"
+},
+"Tatumella": {
+"clean": "Tatumella",
+"taxid": "82986"
+},
+"Tautonia": {
+"clean": "Tautonia",
+"taxid": "2680020"
+},
+"Taylorella": {
+"clean": "Taylorella",
+"taxid": "29574"
+},
+"Telluria": {
+"clean": "Telluria",
+"taxid": "34069"
+},
+"Temperatibacter": {
+"clean": "Temperatibacter",
+"taxid": "1549129"
+},
+"Tenacibaculum": {
+"clean": "Tenacibaculum",
+"taxid": "104267"
+},
+"Tenuibacillus": {
+"clean": "Tenuibacillus",
+"taxid": "286800"
+},
+"Tenuifilum": {
+"clean": "Tenuifilum",
+"taxid": "2760873"
+},
+"Tepidibacillus": {
+"clean": "Tepidibacillus",
+"taxid": "1494427"
+},
+"Tepidibacter": {
+"clean": "Tepidibacter",
+"taxid": "214904"
+},
+"Tepidimonas": {
+"clean": "Tepidimonas",
+"taxid": "114248"
+},
+"Tepiditoga": {
+"clean": "Tepiditoga",
+"taxid": "2778400"
+},
+"Terrabacter": {
+"clean": "Terrabacter",
+"taxid": "53355"
+},
+"Terracoccus": {
+"clean": "Terracoccus",
+"taxid": "68903"
+},
+"Terriglobus": {
+"clean": "Terriglobus",
+"taxid": "392733"
+},
+"Terrilactibacillus": {
+"clean": "Terrilactibacillus",
+"taxid": "1795633"
+},
+"Terrimonas": {
+"clean": "Terrimonas",
+"taxid": "296051"
+},
+"Tessaracoccus": {
+"clean": "Tessaracoccus",
+"taxid": "72763"
+},
+"Testudinibacter": {
+"clean": "Testudinibacter",
+"taxid": "1755672"
+},
+"Tetragenococcus": {
+"clean": "Tetragenococcus",
+"taxid": "51668"
+},
+"Tetrasphaera": {
+"clean": "Tetrasphaera",
+"taxid": "99479"
+},
+"Thalassobacillus": {
+"clean": "Thalassobacillus",
+"taxid": "331971"
+},
+"Thauera": {
+"clean": "Thauera",
+"taxid": "33057"
+},
+"Thaumasiovibrio": {
+"clean": "Thaumasiovibrio",
+"taxid": "2014233"
+},
+"Thermacetogenium": {
+"clean": "Thermacetogenium",
+"taxid": "140458"
+},
+"Thermaerobacter": {
+"clean": "Thermaerobacter",
+"taxid": "73918"
+},
+"Thermanaeromonas": {
+"clean": "Thermanaeromonas",
+"taxid": "202949"
+},
+"Thermanaerovibrio": {
+"clean": "Thermanaerovibrio",
+"taxid": "81461"
+},
+"Thermatribacter": {
+"clean": "Thermatribacter",
+"taxid": "3240450"
+},
+"Thermicanus": {
+"clean": "Thermicanus",
+"taxid": "94008"
+},
+"Thermincola": {
+"clean": "Thermincola",
+"taxid": "278993"
+},
+"Thermithiobacillus": {
+"clean": "Thermithiobacillus",
+"taxid": "119979"
+},
+"Thermoactinomyces": {
+"clean": "Thermoactinomyces",
+"taxid": "2023"
+},
+"Thermoanaerobacter": {
+"clean": "Thermoanaerobacter",
+"taxid": "1754"
+},
+"Thermoanaerobacterium": {
+"clean": "Thermoanaerobacterium",
+"taxid": "28895"
+},
+"Thermoanaerobaculum": {
+"clean": "Thermoanaerobaculum",
+"taxid": "1434048"
+},
+"Thermobacillus": {
+"clean": "Thermobacillus",
+"taxid": "76632"
+},
+"Thermobifida": {
+"clean": "Thermobifida",
+"taxid": "83677"
+},
+"Thermobispora": {
+"clean": "Thermobispora",
+"taxid": "147067"
+},
+"Thermobrachium": {
+"clean": "Thermobrachium",
+"taxid": "150333"
+},
+"Thermochromatium": {
+"clean": "Thermochromatium",
+"taxid": "85073"
+},
+"Thermocladium": {
+"clean": "Thermocladium",
+"taxid": "62608"
+},
+"Thermococcus": {
+"clean": "Thermococcus",
+"taxid": "2263"
+},
+"Thermocrinis": {
+"clean": "Thermocrinis",
+"taxid": "75905"
+},
+"Thermocrispum": {
+"clean": "Thermocrispum",
+"taxid": "37924"
+},
+"Thermodesulfatator": {
+"clean": "Thermodesulfatator",
+"taxid": "241192"
+},
+"Thermodesulfobacterium": {
+"clean": "Thermodesulfobacterium",
+"taxid": "1740"
+},
+"Thermodesulfobium": {
+"clean": "Thermodesulfobium",
+"taxid": "227388"
+},
+"Thermodesulfomicrobium gen. nov.": {
+"clean": "Thermodesulfomicrobium",
+"taxid": "2905949"
+},
+"Thermodesulforhabdus": {
+"clean": "Thermodesulforhabdus",
+"taxid": "88358"
+},
+"Thermodesulfovibrio": {
+"clean": "Thermodesulfovibrio",
+"taxid": "28261"
+},
+"Thermodiscus": {
+"clean": "Thermodiscus",
+"taxid": "54249"
+},
+"Thermodiscus gen. nov.": {
+"clean": "Thermodiscus",
+"taxid": "54249"
+},
+"Thermofilum": {
+"clean": "Thermofilum",
+"taxid": "2268"
+},
+"Thermoflavifilum": {
+"clean": "Thermoflavifilum",
+"taxid": "1649506"
+},
+"Thermoflavimicrobium": {
+"clean": "Thermoflavimicrobium",
+"taxid": "292636"
+},
+"Thermogemmatispora": {
+"clean": "Thermogemmatispora",
+"taxid": "768669"
+},
+"Thermogutta": {
+"clean": "Thermogutta",
+"taxid": "1676125"
+},
+"Thermogymnomonas": {
+"clean": "Thermogymnomonas",
+"taxid": "482135"
+},
+"Thermohalobacter": {
+"clean": "Thermohalobacter",
+"taxid": "99593"
+},
+"Thermoleophilum": {
+"clean": "Thermoleophilum",
+"taxid": "192992"
+},
+"Thermomicrobium": {
+"clean": "Thermomicrobium",
+"taxid": "499"
+},
+"Thermomonas": {
+"clean": "Thermomonas",
+"taxid": "141948"
+},
+"Thermomonospora": {
+"clean": "Thermomonospora",
+"taxid": "2019"
+},
+"Thermonema": {
+"clean": "Thermonema",
+"taxid": "28194"
+},
+"Thermoplasma": {
+"clean": "Thermoplasma",
+"taxid": "2302"
+},
+"Thermopolyspora": {
+"clean": "Thermopolyspora",
+"taxid": "359169"
+},
+"Thermoproteus": {
+"clean": "Thermoproteus",
+"taxid": "2270"
+},
+"Thermosediminibacter": {
+"clean": "Thermosediminibacter",
+"taxid": "291988"
+},
+"Thermosinus": {
+"clean": "Thermosinus",
+"taxid": "261684"
+},
+"Thermosipho": {
+"clean": "Thermosipho",
+"taxid": "2420"
+},
+"Thermosphaera": {
+"clean": "Thermosphaera",
+"taxid": "54253"
+},
+"Thermosporothrix": {
+"clean": "Thermosporothrix",
+"taxid": "768650"
+},
+"Thermostilla": {
+"clean": "Thermostilla",
+"taxid": "1755820"
+},
+"Thermosulfurimonas": {
+"clean": "Thermosulfurimonas",
+"taxid": "1522431"
+},
+"Thermosulfuriphilus": {
+"clean": "Thermosulfuriphilus",
+"taxid": "2033601"
+},
+"Thermosyntropha": {
+"clean": "Thermosyntropha",
+"taxid": "54293"
+},
+"Thermothrix": {
+"clean": "Thermothrix",
+"taxid": "48381"
+},
+"Thermotoga": {
+"clean": "Thermotoga",
+"taxid": "2335"
+},
+"Thermovenabulum": {
+"clean": "Thermovenabulum",
+"taxid": "159730"
+},
+"Thermus": {
+"clean": "Thermus",
+"taxid": "270"
+},
+"Thioalkalicoccus": {
+"clean": "Thioalkalicoccus",
+"taxid": "156972"
+},
+"Thioalkalimicrobium": {
+"clean": "Thioalkalimicrobium",
+"taxid": "933"
+},
+"Thioalkalivibrio": {
+"clean": "Thioalkalivibrio",
+"taxid": "106633"
+},
+"Thiobacillus": {
+"clean": "Thiobacillus",
+"taxid": "919"
+},
+"Thiobacterium": {
+"clean": "Thiobacterium",
+"taxid": "212118"
+},
+"Thiocapsa": {
+"clean": "Thiocapsa",
+"taxid": "1056"
+},
+"Thiococcus": {
+"clean": "Thiococcus",
+"taxid": "85078"
+},
+"Thiocystis": {
+"clean": "Thiocystis",
+"taxid": "13724"
+},
+"Thiodictyon": {
+"clean": "Thiodictyon",
+"taxid": "53392"
+},
+"Thioflavicoccus": {
+"clean": "Thioflavicoccus",
+"taxid": "156885"
+},
+"Thioflexithrix": {
+"clean": "Thioflexithrix",
+"taxid": "1930932"
+},
+"Thiohalocapsa": {
+"clean": "Thiohalocapsa",
+"taxid": "85079"
+},
+"Thiohalomonas": {
+"clean": "Thiohalomonas",
+"taxid": "397268"
+},
+"Thiohalophilus": {
+"clean": "Thiohalophilus",
+"taxid": "445670"
+},
+"Thiohalospira": {
+"clean": "Thiohalospira",
+"taxid": "476278"
+},
+"Thiolamprovum": {
+"clean": "Thiolamprovum",
+"taxid": "82559"
+},
+"Thiomargarita": {
+"clean": "Thiomargarita",
+"taxid": "90372"
+},
+"Thiomicrospira": {
+"clean": "Thiomicrospira",
+"taxid": "933"
+},
+"Thiopedia": {
+"clean": "Thiopedia",
+"taxid": "212110"
+},
+"Thioploca": {
+"clean": "Thioploca",
+"taxid": "40751"
+},
+"Thiorhodococcus": {
+"clean": "Thiorhodococcus",
+"taxid": "57488"
+},
+"Thiorhodospira": {
+"clean": "Thiorhodospira",
+"taxid": "154346"
+},
+"Thiorhodovibrio": {
+"clean": "Thiorhodovibrio",
+"taxid": "61593"
+},
+"Thiospira": {
+"clean": "Thiospira",
+"taxid": "1653871"
+},
+"Thiospirillum": {
+"clean": "Thiospirillum",
+"taxid": "212111"
+},
+"Thiospirochaeta": {
+"clean": "Thiospirochaeta",
+"taxid": "2792240"
+},
+"Thiothrix": {
+"clean": "Thiothrix",
+"taxid": "1030"
+},
+"Thiovulum": {
+"clean": "Thiovulum",
+"taxid": "936"
+},
+"Tichowtungia": {
+"clean": "Tichowtungia",
+"taxid": "2907187"
+},
+"Tindallia": {
+"clean": "Tindallia",
+"taxid": "69894"
+},
+"Tissierella": {
+"clean": "Tissierella",
+"taxid": "41273"
+},
+"Toxothrix": {
+"clean": "Toxothrix",
+"taxid": "200683"
+},
+"Trabulsiella": {
+"clean": "Trabulsiella",
+"taxid": "158851"
+},
+"Treponema": {
+"clean": "Treponema",
+"taxid": "157"
+},
+"Trichlorobacter": {
+"clean": "Trichlorobacter",
+"taxid": "115782"
+},
+"Trichococcus": {
+"clean": "Trichococcus",
+"taxid": "82802"
+},
+"Trichodesmium": {
+"clean": "Trichodesmium",
+"taxid": "1205"
+},
+"Trinickia": {
+"clean": "Trinickia",
+"taxid": "2571160"
+},
+"Tropheryma": {
+"clean": "Tropheryma",
+"taxid": "2038"
+},
+"Trueperella": {
+"clean": "Trueperella",
+"taxid": "1069494"
+},
+"Tsukamurella": {
+"clean": "Tsukamurella",
+"taxid": "2060"
+},
+"Tsuneonella": {
+"clean": "Tsuneonella",
+"taxid": "2800686"
+},
+"Turicella": {
+"clean": "Turicella",
+"taxid": "1716"
+},
+"Turicibacter": {
+"clean": "Turicibacter",
+"taxid": "191303"
+},
+"Turneriella": {
+"clean": "Turneriella",
+"taxid": "338321"
+},
+"U mboniibacter": {
+"clean": "Umboniibacter",
+"taxid": "745153"
+},
+"U reaplasma": {
+"clean": "Ureaplasma",
+"taxid": "2129"
+},
+"Ulvibacter": {
+"clean": "Ulvibacter",
+"taxid": "237444"
+},
+"Umezawaea": {
+"clean": "Umezawaea",
+"taxid": "583360"
+},
+"Ureaplasma": {
+"clean": "Ureaplasma",
+"taxid": "2129"
+},
+"Ureibacillus": {
+"clean": "Ureibacillus",
+"taxid": "160795"
+},
+"Ursidibacter": {
+"clean": "Ursidibacter",
+"taxid": "1855419"
+},
+"V icinamibacter": {
+"clean": "Vicinamibacter",
+"taxid": "1847386"
+},
+"Vagococcus": {
+"clean": "Vagococcus",
+"taxid": "2737"
+},
+"Vallitalea": {
+"clean": "Vallitalea",
+"taxid": "1348611"
+},
+"Vampirovibrio": {
+"clean": "Vampirovibrio",
+"taxid": "213484"
+},
+"Varibaculum": {
+"clean": "Varibaculum",
+"taxid": "184869"
+},
+"Variovorax": {
+"clean": "Variovorax",
+"taxid": "34072"
+},
+"Veillonella": {
+"clean": "Veillonella",
+"taxid": "29465"
+},
+"Verrucomicrobium": {
+"clean": "Verrucomicrobium",
+"taxid": "2735"
+},
+"Verrucosispora": {
+"clean": "Verrucosispora",
+"taxid": "1873"
+},
+"Vespertiliibacter": {
+"clean": "Vespertiliibacter",
+"taxid": "1520333"
+},
+"Vibrio": {
+"clean": "Vibrio",
+"taxid": "662"
+},
+"Victivallis": {
+"clean": "Victivallis",
+"taxid": "172900"
+},
+"Virgibacillus": {
+"clean": "Virgibacillus",
+"taxid": "84406"
+},
+"Virgisporangium": {
+"clean": "Virgisporangium",
+"taxid": "65504"
+},
+"Vitellibacter": {
+"clean": "Vitellibacter",
+"taxid": "153265"
+},
+"Vitreoscilla": {
+"clean": "Vitreoscilla",
+"taxid": "59"
+},
+"Vogesella": {
+"clean": "Vogesella",
+"taxid": "57739"
+},
+"Volucribacter": {
+"clean": "Volucribacter",
+"taxid": "256730"
+},
+"Vulcanisaeta": {
+"clean": "Vulcanisaeta",
+"taxid": "164450"
+},
+"W oodsholea": {
+"clean": "Woodsholea",
+"taxid": "240236"
+},
+"Waddlia": {
+"clean": "Waddlia",
+"taxid": "71666"
+},
+"Wautersiella": {
+"clean": "Wautersiella",
+"taxid": "343873"
+},
+"Weeksella": {
+"clean": "Weeksella",
+"taxid": "1013"
+},
+"Weissella": {
+"clean": "Weissella",
+"taxid": "46255"
+},
+"Wigglesworthia": {
+"clean": "Wigglesworthia",
+"taxid": "51228"
+},
+"Williamsia": {
+"clean": "Williamsia",
+"taxid": "85043"
+},
+"Winmispira": {
+"clean": "Winmispira",
+"taxid": "3457169"
+},
+"Winogradskyella": {
+"clean": "Winogradskyella",
+"taxid": "286104"
+},
+"Wolbachia": {
+"clean": "Wolbachia",
+"taxid": "953"
+},
+"Wolinella": {
+"clean": "Wolinella",
+"taxid": "843"
+},
+"Xanthobacter": {
+"clean": "Xanthobacter",
+"taxid": "279"
+},
+"Xanthomonas": {
+"clean": "Xanthomonas",
+"taxid": "338"
+},
+"Xenorhabdus": {
+"clean": "Xenorhabdus",
+"taxid": "626"
+},
+"Xiangella": {
+"clean": "Xiangella",
+"taxid": "1873"
+},
+"Xylanibacter": {
+"clean": "Xylanibacter",
+"taxid": "558436"
+},
+"Xylanibacterium": {
+"clean": "Xylanibacterium",
+"taxid": "186188"
+},
+"Xylanimicrobium": {
+"clean": "Xylanimicrobium",
+"taxid": "186188"
+},
+"Xylanimonas": {
+"clean": "Xylanimonas",
+"taxid": "186188"
+},
+"Xylella": {
+"clean": "Xylella",
+"taxid": "2370"
+},
+"Yaniella": {
+"clean": "Yaniella",
+"taxid": "225447"
+},
+"Yeosuana": {
+"clean": "Yeosuana",
+"taxid": "288018"
+},
+"Yersinia": {
+"clean": "Yersinia",
+"taxid": "629"
+},
+"Yimella": {
+"clean": "Yimella",
+"taxid": "908935"
+},
+"Yokenella": {
+"clean": "Yokenella",
+"taxid": "158876"
+},
+"Yonghaparkia": {
+"clean": "Yonghaparkia",
+"taxid": "337004"
+},
+"Yoonia": {
+"clean": "Yoonia",
+"taxid": "2211641"
+},
+"Zavarzinella": {
+"clean": "Zavarzinella",
+"taxid": "600332"
+},
+"Zavarzinia": {
+"clean": "Zavarzinia",
+"taxid": "204446"
+},
+"Zestosphaera": {
+"clean": "Zestosphaera",
+"taxid": "2303493"
+},
+"Zhihengliuella": {
+"clean": "Zhihengliuella",
+"taxid": "370735"
+},
+"Zhouia": {
+"clean": "Zhouia",
+"taxid": "561555"
+},
+"Zobellia": {
+"clean": "Zobellia",
+"taxid": "112040"
+},
+"Zoogloea": {
+"clean": "Zoogloea",
+"taxid": "349"
+},
+"Zymobacter": {
+"clean": "Zymobacter",
+"taxid": "33073"
+},
+"Zymomonas": {
+"clean": "Zymomonas",
+"taxid": "541"
+},
+"Zymophilus": {
+"clean": "Zymophilus",
+"taxid": "84034"
+},
+"incertae sedis I. Kitasatospora corrig": {
+"clean": "Kitasatospora",
+"taxid": "2063"
+},
+"‘ Candidatus Phytoplasma’": {
+"clean": "Candidatus Phytoplasma",
+"taxid": "33926"
+},
+"“ Alteridesulfovibrio ”": {
+"clean": "Alteridesulfovibrio",
+"taxid": null
+},
+"“ Aminidesulfovibrio ”": {
+"clean": "Aminidesulfovibrio",
+"taxid": null
+},
+"“ Candidatus Clavichlamydia ”": {
+"clean": "Candidatus Clavichlamydia",
+"taxid": "469811"
+},
+"“ Candidatus Fritschea ”": {
+"clean": "Candidatus Fritschea",
+"taxid": "206680"
+},
+"“ Candidatus Piscichlamydia”": {
+"clean": "Candidatus Piscichlamydia",
+"taxid": "263177"
+},
+"“ Candidatus Xiphinematobacter ”": {
+"clean": "Candidatus Xiphinematobacter",
+"taxid": "134550"
+},
+"“ Desulfoliva ” gen. nov.": {
+"clean": "Desulfoliva",
+"taxid": null
+},
+"“ Desulfostilus ” gen. nov.": {
+"clean": "Desulfostilus",
+"taxid": null
+},
+"“ Frigididesulfovibrio ”": {
+"clean": "Frigididesulfovibrio",
+"taxid": "3086978"
+},
+"“ Macrodesulfovibrio ” gen. nov.": {
+"clean": "Macrodesulfovibrio",
+"taxid": null
+},
+"“ Nitrosovibrio ”": {
+"clean": "Nitrosovibrio",
+"taxid": "1232"
+},
+"“ Psychrodesulfovibrio ” gen. nov.": {
+"clean": "Psychrodesulfovibrio",
+"taxid": null
+},
+"“Candidatus Phytoplasma”": {
+"clean": "Candidatus Phytoplasma",
+"taxid": "33926"
+},
+"“Nanoarchaeum”": {
+"clean": "Nanoarchaeum",
+"taxid": "193568"
+}
+}
