@@ -131,6 +131,15 @@ stopifnot(all(
 stop_on_unmapped(c(phys, phys_union))
 log_print(tim, blank_after = TRUE)
 
+## Record-level corrections to sheet rows (ADR 0005)
+source("inst/scripts/sheet_overrides.R")
+sheet_ov <- read_sheet_overrides("sources/sheet_overrides.tsv")
+in_union <- sheet_ov$physiology %in% names(phys_union)
+phys <- apply_sheet_overrides(phys, sheet_ov[!in_union, ], log = log_print)
+phys_union <- apply_sheet_overrides(
+    phys_union, sheet_ov[in_union, ], log = log_print
+)
+
 dat_ready <- vector("list", length(phys))
 dat_ready_w <- vector("list", length(phys))
 
