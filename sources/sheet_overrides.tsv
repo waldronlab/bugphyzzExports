@@ -1,0 +1,6 @@
+physiology	NCBI_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	reason
+gram stain	435590	Bacteroides vulgatus ATCC 8482	gram stain positive	TRUE	BacMap	Bacteroides (now Phocaeicola) vulgatus is Gram negative (waldronlab/bugphyzz#260)
+gram stain	435591	Parabacteroides distasonis ATCC 8503	gram stain positive	TRUE	BacMap	Bacteroidota are Gram negative (waldronlab/bugphyzz#260)
+gram stain	29466	Veillonella parvula	gram stain positive	TRUE	ProTraits	Veillonella is Gram negative; ProTraits' other row for the species says not positive (waldronlab/bugphyzz#260)
+gram stain	671229	Veillonella sp. oral taxon 780	gram stain positive	TRUE	ProTraits	Veillonella is Gram negative (waldronlab/bugphyzz#260)
+genome size	889932	Lactobacillus plantarum subsp. plantarum ST-III	Genome size		Kegg	53,560 bp is the plasmid pST-III; the chromosome is about 3.25 Mb (waldronlab/bugphyzz#262)
