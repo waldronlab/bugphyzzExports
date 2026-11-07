@@ -131,6 +131,18 @@ stopifnot(all(
 stop_on_unmapped(c(phys, phys_union))
 log_print(tim, blank_after = TRUE)
 
+## The 2020 Bergey's keyword scrape in the sheets is replaced by Bergeys_2026
+## (sources/bergeys_2026, waldronlab/bugphyzz#274)
+drop_bergeys_2020 <- function(l) {
+    purrr::imap(l, function(df, g) {
+        n <- sum(df$Attribute_source == "Bergey's Manual", na.rm = TRUE)
+        if (n) log_print(paste0(g, ": dropped ", n, " Bergey's Manual (2020) rows."))
+        df[is.na(df$Attribute_source) | df$Attribute_source != "Bergey's Manual", ]
+    })
+}
+phys <- drop_bergeys_2020(phys)
+phys_union <- drop_bergeys_2020(phys_union)
+
 dat_ready <- vector("list", length(phys))
 dat_ready_w <- vector("list", length(phys))
 
