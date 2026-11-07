@@ -1,12 +1,12 @@
 # 0005. Corrections to sheet rows are a versioned drop list applied at export
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-07
 - **Deciders:** Levi Waldron
 
 ## Context and Problem Statement
 
-Many Google Sheet rows are copies of external sources (BacMap, ProTraits, KEGG, ...), and some are wrong: *Parabacteroides* Gram positive, a plasmid length given as a genome size. Editing the sheet loses the record of what the source said and why it was changed, and changing a value makes the sheet attribute to the source a claim it never made. ADR 0003 covers corrections to scripted sources (`overrides.tsv`) but not to sheet rows.
+Many Google Sheet rows are copies of external sources (BacMap, ProTraits, KEGG, ...), and some are wrong: *Parabacteroides* Gram positive, a plasmid length given as a genome size. The previous practice of manually editing the sheet loses the record of what the source said, what was changed, or why, and makes the sheet attribute to the source a claim it never made. ADR 0003 covers corrections to scripted sources (`overrides.tsv`) but not to sheet rows.
 
 ## Decision
 
