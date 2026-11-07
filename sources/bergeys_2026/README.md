@@ -7,7 +7,7 @@ Genus-level traits from the public abstracts of the genus chapters of Bergey's M
 - Chapter list and abstracts: Crossref API, `filter=isbn:9781118960608`, fetched 2026-11-04: 2,249 genus chapters (DOI prefix `10.1002/9781118960608.gbm`), all with abstracts. `dois.json` lists them; the abstract text is not committed, re-fetch it from Crossref.
 - Extraction: `extract.py` with `system_prompt.txt`, model `gemini-3.8-flash` (the `gemini-flash-latest` alias on 2026-11-04, Google Generative Language API; `extract.py` now pins it), temperature 0, JSON output, 50 abstracts per call. Run 2026-11-04.
 - Second pass, 2026-11-07: cell arrangement and spore shape with `system_prompt_arrangement.txt`, same model and settings, same abstracts.
-- Frozen copy of the Crossref download, the batches and both runs' model outputs: `ssh super`, `~/data/bergeys_bmsab/` (`crossref_2026-11-04/`, `arrangement_2026-11-07/`, with checksums). Wiley's abstracts are not committed here.
+- Frozen copy of the Crossref download, the batches and both runs' model outputs: the private repository [lwaldron/bergeys-bmsab-abstracts](https://github.com/lwaldron/bergeys-bmsab-abstracts), and on supermicro `~/data/bergeys_bmsab/` (`crossref_2026-11-04/`, `arrangement_2026-11-07/`, with checksums). The abstracts are Wiley's, under its text and data mining license, so they are not public; the tables here are.
 - Genus to NCBI taxid: `genus_taxids.json`, made by `genus_taxids.py`. It keeps the 2026-11-04 map (NCBI taxdump of 2026-11-03, scientific names then synonyms at rank genus) for every title that map resolved, and looks up the rest with taxoniq in the pinned ncbi-taxon-db 2026.11.1 after cleaning "Incertae sedis", "Form-", "gen. nov.", quotes and the space after an initial; a hit counts only for a genus under Bacteria or Archaea. `SYNONYMS` in the script adds NCBI synonyms the lookup misses. 2,091 of 2,117 distinct titles map; most of the rest are section headings.
 - When several chapters map to one genus taxid (a 2015 original and its revision, or a genus NCBI has since merged), the newest chapter is used.
 - `build_traits.py` writes the TSVs, applying `overrides.tsv`.
@@ -35,7 +35,7 @@ Compared with the 2020 scrape on genera both have: aerophilicity shares a value 
 ## Refreshing
 
 ```sh
-# batches and outputs: rsync from supermicro ~/data/bergeys_bmsab/ rather than re-fetching
+# batches and outputs: clone lwaldron/bergeys-bmsab-abstracts (or rsync supermicro ~/data/bergeys_bmsab/) rather than re-fetching
 python3 -I extract.py system_prompt.txt <batches_dir> <out_dir>   # needs ~/.pi/agent/auth.json google key
 python3 -I extract.py system_prompt_arrangement.txt <batches_dir> <arrangement_out_dir>
 sh ../ncbi_assemblies/python.sh genus_taxids.py genus_taxids.json dois.json genus_taxids.json   # after a taxonomy update
