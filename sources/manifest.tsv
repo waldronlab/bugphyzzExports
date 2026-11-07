@@ -26,3 +26,14 @@ BacDive	width	range	bacdive/width.tsv
 NCBI_RefSeq	genome size	numeric	ncbi_assemblies/genome_size.tsv
 NCBI_RefSeq	gc content	range	ncbi_assemblies/gc_content.tsv
 NCBI_RefSeq	coding genes	numeric	ncbi_assemblies/coding_genes.tsv
+The Microbe Directory	animal pathogen	binary	microbe_directory/animal_pathogen.tsv
+The Microbe Directory	antimicrobial sensitivity	binary	microbe_directory/antimicrobial_sensitivity.tsv
+The Microbe Directory	biofilm formation	binary	microbe_directory/biofilm_formation.tsv
+The Microbe Directory	COGEM pathogenicity rating	multistate-intersection	microbe_directory/COGEM_pathogenicity_rating.tsv
+The Microbe Directory	extreme environment	binary	microbe_directory/extreme_environment.tsv
+The Microbe Directory	gram stain	multistate-intersection	microbe_directory/gram_stain.tsv
+The Microbe Directory	growth temperature	numeric	microbe_directory/growth_temperature.tsv
+The Microbe Directory	host-associated	binary	microbe_directory/host-associated.tsv
+The Microbe Directory	optimal ph	numeric	microbe_directory/optimal_ph.tsv
+The Microbe Directory	plant pathogenicity	binary	microbe_directory/plant_pathogenicity.tsv
+The Microbe Directory	spore formation	binary	microbe_directory/spore_formation.tsv

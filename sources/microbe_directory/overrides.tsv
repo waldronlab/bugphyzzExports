@@ -1,0 +1,15 @@
+physiology	NCBI_ID	Taxon_name	Attribute	Attribute_value	Frequency	action	reason
+gram stain	823	Parabacteroides distasonis	gram stain positive			drop	Bacteroidota are Gram negative; published as positive (waldronlab/bugphyzz#260)
+gram stain	823	Parabacteroides distasonis	gram stain negative	TRUE	unknown	add	Bacteroidota are Gram negative (waldronlab/bugphyzz#260)
+gram stain	46503	Parabacteroides merdae	gram stain positive			drop	Bacteroidota are Gram negative; published as positive (waldronlab/bugphyzz#260)
+gram stain	46503	Parabacteroides merdae	gram stain negative	TRUE	unknown	add	Bacteroidota are Gram negative (waldronlab/bugphyzz#260)
+gram stain	328812	Parabacteroides goldsteinii	gram stain positive			drop	Bacteroidota are Gram negative; published as positive (waldronlab/bugphyzz#260)
+gram stain	328812	Parabacteroides goldsteinii	gram stain negative	TRUE	unknown	add	Bacteroidota are Gram negative (waldronlab/bugphyzz#260)
+gram stain	480	Moraxella catarrhalis	gram stain positive			drop	Moraxella is Gram negative; published as positive (waldronlab/bugphyzz#260)
+gram stain	480	Moraxella catarrhalis	gram stain negative	TRUE	unknown	add	Moraxella is Gram negative (waldronlab/bugphyzz#260)
+gram stain	45634	Streptococcus cristatus	gram stain negative			drop	From the name Streptococcus oligofermentans, now a synonym of S. cristatus; streptococci are Gram positive and the S. cristatus row says so (waldronlab/bugphyzz#260)
+growth temperature	28095	Burkholderia gladioli	growth temperature			drop	121 C is an autoclave temperature, not a growth optimum (waldronlab/bugphyzz#261)
+growth temperature	39486	Dorea formicigenerans	growth temperature			drop	-60 C is impossible for a gut anaerobe
+growth temperature	334543	Psychrobacter arcticus	growth temperature			drop	-10 C is the minimum growth temperature, not the optimum
+optimal ph	244596	Parahoeflea phototrophica	optimal ph			drop	Negative pH (-1.5)
+optimal ph	1125964	Limimaricola cinnabarinus	optimal ph			drop	Negative pH (-0.5)

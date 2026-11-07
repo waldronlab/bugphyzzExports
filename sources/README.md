@@ -5,7 +5,7 @@ Curation data that comes from a script rather than a curator. Each source has it
 Rules:
 - Never edit a `*.tsv` output by hand. Put corrections in the source's `overrides.tsv` so a re-run keeps them.
 - Pin upstream versions (commit, record, model) in the script and the README.
-- Look taxids up with taxoniq and a pinned `ncbi-taxon-db` release (https://github.com/lwaldron/taxoniq/releases), as `ncbi_assemblies/python.sh` does, rather than a raw taxdump.
+- Look taxids up with taxoniq and a pinned `ncbi-taxon-db` release (https://github.com/lwaldron/taxoniq/releases), as `ncbi_assemblies/python.sh` does, rather than a raw taxdump. taxoniq has no synonym lookup; where old names must be matched, use `names.dmp` from the NCBI `taxdump_archive` file of the same date as the release, as `microbe_directory/` does.
 - Add a row to `manifest.tsv` for each new file; `attribute_type` must match `bugphyzz/inst/extdata/spreadsheet_links.tsv` for that physiology.
 - Attribute values must be in `bugphyzz/inst/extdata/attributes.tsv`; the export drops anything else.
 
@@ -15,3 +15,4 @@ Rules:
 | `madin_2020/` | Madin et al. 2020 condensed species traits | `import.R` |
 | `bacdive/` | Every BacDive strain record from the public API | `run.sh` (`fetch.py` then `build.py`) |
 | `ncbi_assemblies/` | Genome size, G+C content and coding genes of one RefSeq assembly per species | `run.sh` (`build.py`) |
+| `microbe_directory/` | The Microbe Directory 2018 table, eleven traits | `run.sh` (`build.py`) |
