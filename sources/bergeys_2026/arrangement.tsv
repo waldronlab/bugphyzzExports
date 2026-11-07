@@ -1,0 +1,1669 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+13			Dictyoglomus	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00478
+13			Dictyoglomus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00478
+13			Dictyoglomus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00478
+16			Methylophilus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00971.pub2
+16			Methylophilus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00971.pub2
+18			Pelobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01042
+18			Pelobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01042
+18			Pelobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01042
+20			Phenylobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00793
+20			Phenylobacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00793
+20			Phenylobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00793
+20			Phenylobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00793
+47			Archangium	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01045
+59			Vitreoscilla	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00984
+64			Herpetosiphon	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00384
+71			Simonsiella	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00983
+75			Caulobacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00792
+81			Hyphomicrobium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00820
+88			Leptothrix	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00955
+88			Leptothrix	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00955
+88			Leptothrix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00955
+93			Stella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00889
+93			Stella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00889
+105			Runella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00273
+107			Spirosoma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00274
+109			Blastobacter	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00800
+109			Blastobacter	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00800
+118			Planctomyces	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00786
+118			Planctomyces	rosettes	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00786
+127			Isosphaera	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00784.pub2
+133			Methylocystis	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00832
+171			Leptospira	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244.pub2
+171			Leptospira	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244.pub2
+171			Leptospira	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244.pub2
+194			Campylobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01071
+226			Alteromonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01089
+226			Alteromonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01089
+237			Flavobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00312
+237			Flavobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00312
+265			Paracoccus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00860
+265			Paracoccus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00860
+265			Paracoccus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00860
+270			Thermus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00477.pub2
+283			Comamonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00945
+283			Comamonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00945
+286			Serpens	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01213
+338			Xanthomonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01239
+338			Xanthomonas	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01239
+338			Xanthomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01239
+338			Xanthomonas	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01239
+352			Azotobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
+352			Azotobacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
+352			Azotobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
+352			Azotobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01207
+352			Azotobacter	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01207
+357			Agrobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00842
+357			Agrobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00842
+404			Methylobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00970.pub2
+404			Methylobacillus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00970.pub2
+407			Methylobacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00830.pub2
+407			Methylobacterium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00830.pub2
+407			Methylobacterium	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00830.pub2
+407			Methylobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00830.pub2
+413			Methylococcus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01181
+413			Methylococcus	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01181
+416			Methylomonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01183.pub2
+416			Methylomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01183.pub2
+416			Methylomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01183.pub2
+425			Methylosinus	rosettes	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00833
+429			Methylobacter	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01179.pub2
+429			Methylobacter	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01179.pub2
+429			Methylobacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01179.pub2
+434			Acetobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00876
+434			Acetobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00876
+434			Acetobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00876
+441			Gluconobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00884
+441			Gluconobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00884
+441			Gluconobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00884
+469			Acinetobacter	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01203.pub2
+475			Moraxella	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01204.pub2
+475			Moraxella	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01204.pub2
+475			Moraxella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01204.pub2
+475			Moraxella	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01204.pub2
+482			Neisseria	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00981
+482			Neisseria	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00981
+482			Neisseria	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00981
+482			Neisseria	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00981
+499			Thermomicrobium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01268
+499			Thermomicrobium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01268
+507			Alcaligenes	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00927
+517			Bordetella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00928
+517			Bordetella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00928
+517			Bordetella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00928
+532			Beijerinckia	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00795.pub2
+532			Beijerinckia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00795.pub2
+532			Beijerinckia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00795.pub2
+535			Chromobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00975
+535			Chromobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00975
+535			Chromobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00975
+538			Eikenella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00976
+541			Zymomonas	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00925
+544			Citrobacter	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01143
+544			Citrobacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01143
+551			Erwinia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01146.pub2
+551			Erwinia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01146.pub2
+551			Erwinia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01146.pub2
+561			Escherichia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01147
+561			Escherichia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01147
+626			Xenorhabdus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01173
+642			Aeromonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01081
+642			Aeromonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01081
+642			Aeromonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01081
+713			Actinobacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01197.pub2
+713			Actinobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01197.pub2
+713			Actinobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01197.pub2
+768			Anaplasma	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00903
+773			Bartonella	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00794
+773			Bartonella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00794
+773			Bartonella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00794
+773			Bartonella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00794
+780			Rickettsia	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00916.pub2
+830			Butyrivibrio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00640
+830			Butyrivibrio	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00640
+830			Butyrivibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00640
+841			Roseburia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00652
+841			Roseburia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00652
+864			Pectinatus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
+864			Pectinatus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
+864			Pectinatus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
+893			Desulfobulbus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01023.pub2
+893			Desulfobulbus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01023.pub2
+893			Desulfobulbus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01023.pub2
+896			Desulfococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01016.pub2
+896			Desulfococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01016.pub2
+898			Desulfomicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01032.pub2
+898			Desulfomicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01032.pub2
+904			Acidaminococcus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00687
+914			Nitrosomonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00991
+914			Nitrosomonas	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00991
+914			Nitrosomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00991
+933			Thiomicrospira	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01221
+939			Hydrogenobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00231
+939			Hydrogenobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00231
+943			Ehrlichia	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00904
+970			Selenomonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00705
+1007			Saprospira	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00359
+1011			Sporocytophaga	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00275
+1021			Beggiatoa	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01223
+1021			Beggiatoa	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01223
+1030			Thiothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01229.pub2
+1030			Thiothrix	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01229.pub2
+1033			Oligotropha	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00804
+1047			Chromatium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01105
+1047			Chromatium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01105
+1056			Thiocapsa	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01116
+1056			Thiocapsa	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01116
+1060			Rhodobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00862
+1099			Pelodictyon	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00376
+1099			Pelodictyon	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00376
+1099			Pelodictyon	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00376
+1101			Prosthecochloris	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00377
+1101			Prosthecochloris	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00377
+1107			Chloroflexus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00380
+1109			Heliothrix	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00382
+1109			Heliothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00382
+1123			Chlorogloeopsis	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00466.pub2
+1123			Chlorogloeopsis	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00466.pub2
+1123			Chlorogloeopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00466.pub2
+1125			Microcystis	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00419
+1129			Synechococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00422
+1142			Synechocystis	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00423
+1142			Synechocystis	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00423
+1142			Synechocystis	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00423
+1152			Pseudanabaena	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00444
+1152			Pseudanabaena	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00444
+1154			Spirulina	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00445
+1158			Oscillatoria	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00441
+1163			Anabaena	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00452
+1175			Aphanizomenon	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00454
+1177			Nostoc	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00459.pub2
+1186			Calothrix	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00462
+1186			Calothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00462
+1190			Fischerella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00467.pub2
+1190			Fischerella	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00467.pub2
+1203			Scytonema	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00460
+1203			Scytonema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00460
+1205			Trichodesmium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00448.pub2
+1205			Trichodesmium	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00448.pub2
+1222			Prochlorothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00443
+1253			Pediococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00606.pub2
+1253			Pediococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00606.pub2
+1257			Peptostreptococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00668
+1257			Peptostreptococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00668
+1257			Peptostreptococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00668
+1263			Ruminococcus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00678
+1263			Ruminococcus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00678
+1266			Sarcina	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00622
+1266			Sarcina	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00622
+1266			Sarcina	tetrads	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00622
+1279			Staphylococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00569
+1279			Staphylococcus	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00569
+1279			Staphylococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00569
+1279			Staphylococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00569
+1279			Staphylococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00569
+1298			Deinococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00475
+1298			Deinococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00475
+1301			Streptococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00612
+1301			Streptococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00612
+1350			Enterococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00600.pub2
+1350			Enterococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00600.pub2
+1350			Enterococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00600.pub2
+1357			Lactococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00610
+1357			Lactococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00610
+1357			Lactococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00610
+1370			Marinococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00538
+1370			Marinococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00538
+1370			Marinococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00538
+1370			Marinococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00538
+1372			Planococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00561
+1372			Planococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00561
+1372			Planococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00561
+1372			Planococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00561
+1375			Aerococcus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00581
+1375			Aerococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00581
+1375			Aerococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00581
+1375			Aerococcus	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00581
+1378			Gemella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00578
+1378			Gemella	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00578
+1378			Gemella	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00578
+1378			Gemella	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00578
+1380			Atopobium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00214
+1380			Atopobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00214
+1380			Atopobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00214
+1386			Bacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
+1386			Bacillus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
+1386			Bacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
+1386			Bacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
+1567			Quinella	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00703
+1567			Quinella	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00703
+1637			Listeria	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00547
+1637			Listeria	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00547
+1637			Listeria	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00547
+1645			Renibacterium	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00123
+1645			Renibacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00123
+1647			Erysipelothrix	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00763
+1647			Erysipelothrix	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00763
+1647			Erysipelothrix	filamentous	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00763
+1647			Erysipelothrix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00763
+1647			Erysipelothrix	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00763
+1649			Kurthia	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00559
+1649			Kurthia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00559
+1651			Alloiococcus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00589
+1651			Alloiococcus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00589
+1651			Alloiococcus	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00589
+1654			Actinomyces	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00012
+1654			Actinomyces	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00012
+1654			Actinomyces	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00012
+1654			Actinomyces	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00012
+1654			Actinomyces	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00012
+1654			Actinomyces	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00012
+1654			Actinomyces	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00012
+1678			Bifidobacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00019
+1678			Bifidobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00019
+1678			Bifidobacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00019
+1678			Bifidobacterium	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00019
+1678			Bifidobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00019
+1678			Bifidobacterium	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00019
+1696			Brevibacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00062
+1696			Brevibacterium	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00062
+1707			Cellulomonas	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00063
+1707			Cellulomonas	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00063
+1716			Turicella	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00027
+1716			Turicella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00027
+1716			Turicella	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00027
+1740			Thermodesulfobacterium	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01267
+1740			Thermodesulfobacterium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01267
+1740			Thermodesulfobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01267
+1743			Propionibacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1743			Propionibacterium	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00167
+1754			Thermoanaerobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00751
+1763			Mycobacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00029
+1763			Mycobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00029
+1813			Amycolatopsis	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00176
+1817			Nocardia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00032
+1827			Rhodococcus	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00033
+1827			Rhodococcus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00033
+1835			Saccharopolyspora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00186
+1839			Nocardioides	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00159
+1839			Nocardioides	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00159
+1847			Pseudonocardia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00184
+1847			Pseudonocardia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00184
+1847			Pseudonocardia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00184
+1847			Pseudonocardia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00184
+1849			Actinopolyspora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00016
+1854			Frankia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00042.pub2
+1860			Geodermatophilus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00044.pub2
+1862			Dermatophilus	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00073
+1865			Actinoplanes	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00139
+1873			Xiangella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01321
+1883			Streptomyces	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00191
+1988			Actinomadura	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00210
+1995			Microtetraspora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00201
+1998			Planomonospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00204
+2000			Streptosporangium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00207
+2005			Microbispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00200
+2013			Nocardiopsis	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00195
+2013			Nocardiopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00195
+2016			Streptoalloteichus	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00188
+2019			Thermomonospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00212
+2023			Thermoactinomyces	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00575
+2029			Kibdelosporangium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00179.pub2
+2029			Kibdelosporangium	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00179.pub2
+2038			Tropheryma	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00065
+2040			Aeromicrobium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00156
+2040			Aeromicrobium	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00156
+2050			Mobiluncus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00014
+2050			Mobiluncus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00014
+2053			Gordonia	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00030
+2053			Gordonia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00030
+2053			Gordonia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00030
+2053			Gordonia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00030
+2053			Gordonia	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00030
+2060			Tsukamurella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00038
+2060			Tsukamurella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00038
+2063			Kitasatospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00192
+2071			Saccharothrix	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00187
+2077			Sporolactobacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00565
+2077			Sporolactobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00565
+2077			Sporolactobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00565
+2086			Anaeroplasma	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01257
+2132			Spiroplasma	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01262.pub2
+2132			Spiroplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01262.pub2
+2160			Methanobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00495
+2172			Methanobrevibacter	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00496.pub2
+2172			Methanobrevibacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00496.pub2
+2172			Methanobrevibacter	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00496.pub2
+2175			Methanohalophilus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00516
+2175			Methanohalophilus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00516
+2179			Methanothermus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00499.pub2
+2179			Methanothermus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00499.pub2
+2179			Methanothermus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00499.pub2
+2195			Methanogenium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00507.pub2
+2195			Methanogenium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00507.pub2
+2202			Methanospirillum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00511.pub2
+2204			Methanomicrobium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00509.pub2
+2204			Methanomicrobium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00509.pub2
+2207			Methanosarcina	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00519.pub2
+2207			Methanosarcina	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00519.pub2
+2220			Methanolobus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00517.pub2
+2222			Methanothrix	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00513.pub2
+2225			Methanococcoides	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00514.pub2
+2225			Methanococcoides	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00514.pub2
+2225			Methanococcoides	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00514.pub2
+2233			Archaeoglobus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00479
+2233			Archaeoglobus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00479
+2249			Halococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00484.pub2
+2249			Halococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00484.pub2
+2249			Halococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00484.pub2
+2260			Pyrococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00521
+2260			Pyrococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00521
+2263			Thermococcus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00522
+2263			Thermococcus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00522
+2268			Thermofilum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02136
+2270			Thermoproteus	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02138
+2276			Pyrobaculum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00408.pub2
+2276			Pyrobaculum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00408.pub2
+2276			Pyrobaculum	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00408.pub2
+2279			Staphylothermus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00389.pub2
+2284			Sulfolobus	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00400
+2289			Desulfobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011.pub2
+2289			Desulfobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01011.pub2
+2295			Desulfobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01012.pub2
+2295			Desulfobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01012.pub2
+2299			Desulfosarcina	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01020.pub2
+2299			Desulfosarcina	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01020.pub2
+2302			Thermoplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00524
+2314			Methanoplanus	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00510.pub2
+2314			Methanoplanus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00510.pub2
+2314			Methanoplanus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00510.pub2
+2316			Methanosphaera	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00497.pub2
+2316			Methanosphaera	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00497.pub2
+2316			Methanosphaera	tetrads	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00497.pub2
+2319			Methanopyrus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00520.pub2
+2319			Methanopyrus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00520.pub2
+2321			Methanohalobium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00515.pub2
+2321			Methanohalobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00515.pub2
+2349			Haliscomenobacter	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00357
+2349			Haliscomenobacter	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00357
+2357			Desulfomonile	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01062.pub2
+2368			Arhodomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01127
+2368			Arhodomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01127
+2370			Xylella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01240
+2370			Xylella	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01240
+2422			Fervidobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
+2422			Fervidobacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
+2422			Fervidobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
+2422			Fervidobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
+2422			Fervidobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
+2697			Heliobacterium	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00634
+2713			Aquifex	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00229
+2713			Aquifex	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00229
+2713			Aquifex	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00229
+2717			Cardiobacterium	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01101
+2717			Cardiobacterium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01101
+2717			Cardiobacterium	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01101
+2717			Cardiobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01101
+2737			Vagococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00603
+2737			Vagococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00603
+2737			Vagococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00603
+2740			Peptococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00663
+2740			Peptococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00663
+2740			Peptococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00663
+2747			Carnobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00593
+2747			Carnobacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00593
+2747			Carnobacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00593
+2755			Brochothrix	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00546
+2755			Brochothrix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00546
+12914			Acidianus	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00397
+12916			Acidovorax	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00943
+12916			Acidovorax	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00943
+12916			Acidovorax	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00943
+12960			Azoarcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00994
+13034			Dactylococcopsis	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00415
+13075			Globicatella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00585
+13075			Globicatella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00585
+13075			Globicatella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00585
+13159			Mycoplana	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00808.pub2
+13275			Suttonella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01103
+13275			Suttonella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01103
+13275			Suttonella	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01103
+13334			Anaerobiospirillum	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01084
+13687			Sphingomonas	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00924.pub2
+13724			Thiocystis	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01118
+13724			Thiocystis	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01118
+13724			Thiocystis	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01118
+28048			Acidothermus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00039.pub2
+28050			Lachnospira	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00647
+28050			Lachnospira	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00647
+28070			Gloeothece	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00418
+28073			Lyngbya	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00439
+28100			Phyllobacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00840
+28100			Phyllobacterium	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00840
+28138			Rikenella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00252
+28138			Rikenella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00252
+28138			Rikenella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00252
+28194			Thermonema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00284
+28196			Arcobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01070
+28209			Chelatococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00796
+28222			Desulfobacula	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013.pub2
+28222			Desulfobacula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013.pub2
+28231			Geobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01043
+28231			Geobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01043
+28231			Geobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01043
+28233			Geotoga	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01270.pub2
+28233			Geotoga	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01270.pub2
+28233			Geotoga	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01270.pub2
+28261			Thermodesulfovibrio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00781
+28261			Thermodesulfovibrio	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00781
+28263			Arcanobacterium	v-formation	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00013.pub2
+28443			Herbidospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00199
+28884			Hydrogenovibrio	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01217
+29287			Natronococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00492.pub2
+29287			Natronococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00492.pub2
+29287			Natronococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00492.pub2
+29298			Planobispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00203
+29331			Amphibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00528
+29331			Amphibacillus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00528
+29331			Amphibacillus	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00528
+29393			Dolosigranulum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00595
+29393			Dolosigranulum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00595
+29393			Dolosigranulum	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00595
+29395			Saccharococcus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00542
+29404			Microlunatus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00165
+29404			Microlunatus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00165
+29404			Microlunatus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00165
+29465			Veillonella	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00710
+29465			Veillonella	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00710
+29465			Veillonella	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00710
+29487			Photorhabdus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01159
+29526			Syntrophobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01068.pub2
+29526			Syntrophobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01068.pub2
+29526			Syntrophobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01068.pub2
+29526			Syntrophobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01068.pub2
+29548			Rhodothermus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00282
+29580			Janthinobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00964
+29580			Janthinobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00964
+29580			Janthinobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00964
+31980			Acetitomaculum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00637
+31980			Acetitomaculum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00637
+31980			Acetitomaculum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00637
+31983			Helcococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00715
+31983			Helcococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00715
+31983			Helcococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00715
+32014			Iodobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00978
+32014			Iodobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00978
+32014			Iodobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00978
+32014			Iodobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00978
+32067			Leptotrichia	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00771.pub2
+32067			Leptotrichia	filamentous	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00771.pub2
+32067			Leptotrichia	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00771.pub2
+32205			Leptonema	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01243.pub2
+32205			Leptonema	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01243.pub2
+32257			Kingella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00979
+32257			Kingella	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00979
+32636			Halothermothrix	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00735
+33024			Phascolarctobacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00700
+33042			Coprococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00642
+33042			Coprococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00642
+33057			Thauera	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01004
+33071			Gloeobacter	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00416
+33073			Zymobacter	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01191
+33870			Coriobacterium	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00216
+33874			Catenuloplanes	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00142
+33877			Agromyces	branched	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00093.pub2
+33882			Microbacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00104
+33882			Microbacterium	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00104
+33886			Rathayibacter	v-formation	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00112
+33969			Melissococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00601
+33969			Melissococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00601
+33969			Melissococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00601
+33973			Acidobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00001
+33973			Acidobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00001
+33973			Acidobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00001
+33976			Caryophanon	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00556
+33976			Caryophanon	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00556
+33981			Kineococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00053
+33981			Kineococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00053
+33981			Kineococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00053
+33983			Luteococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00164
+33983			Luteococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00164
+33983			Luteococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00164
+33986			Exiguobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00579
+33986			Exiguobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00579
+33986			Exiguobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00579
+34000			Acidomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00880
+34000			Acidomonas	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00880
+34016			Rhodobium	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00849
+34019			Liberibacter	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00838
+34069			Telluria	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00967
+34069			Telluria	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00967
+34069			Telluria	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00967
+34072			Variovorax	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00952
+34072			Variovorax	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00952
+34098			Blattabacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00286
+34100			Filibacter	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00557
+34102			Sphaerotilus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00958
+34102			Sphaerotilus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00958
+34102			Sphaerotilus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00958
+34104			Streptobacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00774.pub2
+34104			Streptobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00774.pub2
+35750			Sporichthya	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00048.pub2
+35750			Sporichthya	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00048.pub2
+35753			Dactylosporangium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00144
+35796			Nitrococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01130
+35796			Nitrococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01130
+35810			Erythromicrobium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00920
+35823			Arthrospira	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00433
+35832			Bilophila	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01034.pub2
+35832			Bilophila	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01034.pub2
+35832			Bilophila	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01034.pub2
+35836			Desulfacinum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01065.pub2
+35836			Desulfacinum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01065.pub2
+36862			Ideonella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00954
+36862			Ideonella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00954
+36862			Ideonella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00954
+37924			Thermocrispum	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00189
+37924			Thermocrispum	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00189
+37924			Thermocrispum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00189
+38501			Blastococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00043.pub2
+38501			Blastococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00043.pub2
+38501			Blastococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00043.pub2
+39840			Desulforhabdus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01066.pub2
+39840			Desulforhabdus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01066.pub2
+39840			Desulforhabdus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01066.pub2
+40323			Stenotrophomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01237
+40323			Stenotrophomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01237
+40413			Desulforhopalus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01026.pub2
+40413			Desulforhopalus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01026.pub2
+40413			Desulforhopalus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01026.pub2
+40566			Actinosynnema	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00175
+40751			Thioploca	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01227
+40840			Succiniclasticum	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00707
+41273			Tissierella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00721.pub2
+41273			Tissierella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00721.pub2
+41273			Tissierella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00721.pub2
+42232			Spirilliplanes	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00152
+42447			Anaerobranca	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00727
+42837			Ammonifex	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00744
+42837			Ammonifex	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00744
+42837			Ammonifex	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00744
+43356			Kutzneria	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00180
+43668			Brachybacterium	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00068
+43668			Brachybacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00068
+43673			Jonesia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00090
+43673			Jonesia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00090
+43676			Promicromonospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00130
+43676			Promicromonospora	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00130
+43773			Syntrophus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01064.pub2
+43773			Syntrophus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01064.pub2
+43947			Tolumonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01083
+43947			Tolumonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01083
+44011			Ferrimonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01091
+44011			Ferrimonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01091
+44011			Ferrimonas	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01091
+44258			Caloramator	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616
+44258			Caloramator	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616
+44258			Caloramator	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616
+44471			Microcoleus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00440
+44748			Sporobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00679
+44748			Sporobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00679
+44937			Achromatium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01222
+45247			Leucothrix	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01224
+45247			Leucothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01224
+45247			Leucothrix	rosettes	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01224
+45247			Leucothrix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01224
+45402			Aquabacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00813
+45654			Desulfonema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01019.pub2
+45662			Desulfohalobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01029.pub2
+45662			Desulfohalobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01029.pub2
+45667			Halobacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00535
+45667			Halobacillus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00535
+45667			Halobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00535
+45667			Halobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00535
+45667			Halobacillus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00535
+45669			Salinicoccus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00568
+45669			Salinicoccus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00568
+45669			Salinicoccus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00568
+45669			Salinicoccus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00568
+45989			Methanoculleus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00505.pub2
+45989			Methanoculleus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00505.pub2
+46200			Geovibrio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00474
+46200			Geovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00474
+46238			Entomoplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01260.pub3
+46254			Oenococcus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00608
+46254			Oenococcus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00608
+46352			Agrococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
+46352			Agrococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
+46352			Agrococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
+46352			Agrococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
+47251			Leptolyngbya	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00437
+47420			Hydrogenophaga	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00947
+47420			Hydrogenophaga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00947
+47494			Pedomicrobium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00823
+47670			Lautropia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00937
+47670			Lautropia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00937
+48001			Desulfobotulus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01014.pub2
+48001			Desulfobotulus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01014.pub2
+48381			Thermothrix	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00942
+48463			Brevifollis	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01545
+49277			Psychroserpens	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00335
+49277			Psychroserpens	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00335
+49277			Psychroserpens	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00335
+49279			Gelidibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00315
+49279			Gelidibacter	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00315
+49279			Gelidibacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00315
+49894			Anaerobaculum	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01254
+49894			Anaerobaculum	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01254
+51366			Salinivibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01077
+51366			Salinivibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01077
+51668			Tetragenococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00602
+51668			Tetragenococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00602
+51668			Tetragenococcus	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00602
+52605			Myxosarcina	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00430
+52784			Anaerofilum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00672
+52784			Anaerofilum	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00672
+52784			Anaerofilum	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00672
+52959			Polaribacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00333.pub2
+53244			Desulfonatronovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01030.pub2
+53244			Desulfonatronovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01030.pub2
+53246			Pseudoalteromonas	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01098
+53246			Pseudoalteromonas	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01098
+53335			Pantoea	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01157.pub2
+53357			Intrasporangium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00077
+53365			Catellatospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00141
+53370			Pilimelia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00149
+53387			Friedmanniella	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00162
+53387			Friedmanniella	tetrads	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00162
+53392			Thiodictyon	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01119
+53392			Thiodictyon	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01119
+53416			Lonepinella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01199.pub2
+53425			Sulfophobococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00391
+53425			Sulfophobococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00391
+53452			Pfennigia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01112
+53456			Propioniferax	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00170
+53456			Propioniferax	v-formation	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00170
+53457			Janibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00078
+53457			Janibacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00078
+53457			Janibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00078
+53457			Janibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00078
+53460			Nakamurella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00047.pub2
+53460			Nakamurella	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00047.pub2
+53634			Acidimicrobium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00007
+54066			Xylophilus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00961
+54066			Xylophilus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00961
+54066			Xylophilus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00961
+54066			Xylophilus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00961
+54115			Methylosphaera	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01185
+54115			Methylosphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01185
+54253			Thermosphaera	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
+54253			Thermosphaera	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
+54253			Thermosphaera	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
+54253			Thermosphaera	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
+54258			Ignicoccus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00388
+54258			Ignicoccus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00388
+54298			Chroococcidiopsis	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00429
+54302			Dermocarpella	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00426
+54304			Planktothrix	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00442
+54304			Planktothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00442
+54312			Tychonema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00449
+56106			Cylindrospermum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00457
+56112			Dehalobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00657
+56112			Dehalobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00657
+56358			Sandaracinobacter	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00923
+56433			Couchioplanes	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00143
+56999			Amaricoccus	tetrads	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00851
+57479			Microvirgula	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00980
+57479			Microvirgula	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00980
+57479			Microvirgula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00980
+57488			Thiorhodococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01124
+57488			Thiorhodococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01124
+57488			Thiorhodococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01124
+57494			Nesterenkonia	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00122
+57665			Sulfurospirillum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01072
+57739			Vogesella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00985
+57739			Vogesella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00985
+57739			Vogesella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00985
+57739			Vogesella	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00985
+57962			Phlomobacter	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01141
+58108			Actinocorallia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00209
+58113			Glycomyces	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00049
+58120			Planotetraspora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00205
+58122			Spirillospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00211
+59282			Blastochloris	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00815.pub2
+59282			Blastochloris	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00815.pub2
+59613			Skermania	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00034
+60846			Halogeometricum	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00486.pub2
+60892			Desulfobacca	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01061.pub2
+60892			Desulfobacca	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01061.pub2
+61170			Holdemania	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00764
+61170			Holdemania	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00764
+61653			Methylopila	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00834.pub2
+61653			Methylopila	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00834.pub2
+62608			Thermocladium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00407
+63132			Geitlerinema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00436
+63958			Demetria	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
+63958			Demetria	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
+63958			Demetria	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
+63958			Demetria	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00070
+64001			Nevskia	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01233
+64159			Desulfurobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00233
+64159			Desulfurobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00233
+64322			Carnimonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01188
+64322			Carnimonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01188
+65496			Actinoalloteichus	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00173
+65502			Cryptosporangium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00040.pub2
+65504			Virgisporangium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00154
+65551			Meiothermus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00476.pub2
+66831			Facklamia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00584
+66831			Facklamia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00584
+66831			Facklamia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00584
+66848			Desulfonatronum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01033.pub2
+66848			Desulfonatronum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01033.pub2
+66848			Desulfonatronum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01033.pub2
+66848			Desulfonatronum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01033.pub2
+68335			Coprothermobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00752.pub2
+68335			Coprothermobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00752.pub2
+68903			Terracoccus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00088
+68903			Terracoccus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00088
+68903			Terracoccus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00088
+68903			Terracoccus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00088
+69278			Defluvibacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00837
+69894			Tindallia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00625
+69894			Tindallia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00625
+69894			Tindallia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00625
+69961			Azomonas	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01206
+69961			Azomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01206
+69961			Azomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01206
+69965			Macrococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00567
+69965			Macrococcus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00567
+69965			Macrococcus	tetrads	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00567
+70190			Chroococcus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00411
+70411			Frateuria	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01230
+70411			Frateuria	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01230
+70774			Hydrogenophilus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00968.pub2
+70774			Hydrogenophilus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00968.pub2
+70994			Lewinella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00358
+71655			Brenneria	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01136.pub2
+71655			Brenneria	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01136.pub2
+72763			Tessaracoccus	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00172
+73918			Thermaerobacter	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00730
+73918			Thermaerobacter	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00730
+74032			Antarctobacter	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00852
+74317			Maricaulis	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00857.pub2
+74385			Gracilibacillus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00534
+74968			Ferroplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01373
+75654			Duganella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00962
+75905			Thermocrinis	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00232
+75905			Thermocrinis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00232
+75905			Thermocrinis	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00232
+75905			Thermocrinis	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00232
+76008			Fusibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00723
+76008			Fusibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00723
+76831			Myroides	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00328
+76833			Actinobaculum	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00011
+76886			Caldivirga	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00405
+76886			Caldivirga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00405
+76890			Asticcacaulis	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00790
+77021			Cylindrospermopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00456
+79328			Chitinophaga	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00354
+79598			Heliorestis	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00636
+80865			Delftia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00946
+80865			Delftia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00946
+81411			Aminomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01251
+81411			Aminomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01251
+81416			Methanofollis	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00506.pub2
+81463			Anaeromusa	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00691
+81463			Anaeromusa	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00691
+81466			Aminobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01253
+81466			Aminobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01253
+81466			Aminobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01253
+81682			Methylovorus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00972.pub2
+82345			Ornithinicoccus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00082
+82345			Ornithinicoccus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00082
+82345			Ornithinicoccus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00082
+82345			Ornithinicoccus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00082
+82559			Thiolamprovum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01122
+82800			Desemzia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00594
+82800			Desemzia	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00594
+82802			Trichococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00599
+82802			Trichococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00599
+82802			Trichococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00599
+82978			Budvicia	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01138.pub2
+82982			Obesumbacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01156
+83612			Psychroflexus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00334
+83612			Psychroflexus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00334
+83612			Psychroflexus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00334
+83677			Thermobifida	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00197
+83681			Nonomuraea	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00202
+84034			Zymophilus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00711
+84034			Zymophilus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00711
+84034			Zymophilus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00711
+84404			Hippea	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01038.pub2
+84404			Hippea	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01038.pub2
+84406			Virgibacillus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00545
+84406			Virgibacillus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00545
+84406			Virgibacillus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00545
+84406			Virgibacillus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00545
+84756			Beutenbergia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00056.pub2
+84756			Beutenbergia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00056.pub2
+84756			Beutenbergia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00056.pub2
+84756			Beutenbergia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00056.pub2
+85072			Allochromatium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01104
+85072			Allochromatium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01104
+85074			Halochromatium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01106
+85074			Halochromatium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01106
+85076			Marichromatium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01110
+85076			Marichromatium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01110
+85076			Marichromatium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01110
+85078			Thiococcus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01117
+85079			Thiohalocapsa	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01121
+86004			Pasteuria	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00555
+86004			Pasteuria	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00555
+86004			Pasteuria	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00555
+86004			Pasteuria	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00555
+86331			Mogibacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00726
+86331			Mogibacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00726
+86331			Mogibacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00726
+86795			Marmoricola	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00158
+86795			Marmoricola	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00158
+86795			Marmoricola	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00158
+86795			Marmoricola	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00158
+88138			Modestobacter	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00045.pub2
+88138			Modestobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00045.pub2
+88358			Thermodesulforhabdus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01069.pub2
+88358			Thermodesulforhabdus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01069.pub2
+89092			Ignavigranum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00586
+89092			Ignavigranum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00586
+89092			Ignavigranum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00586
+89583			Gluconacetobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00883
+89583			Gluconacetobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00883
+89583			Gluconacetobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00883
+89966			Hymenobacter	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00267
+89966			Hymenobacter	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00267
+90243			Oligella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00930
+90372			Thiomargarita	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01226
+90372			Thiomargarita	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01226
+90372			Thiomargarita	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01226
+90974			Acrocarpospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00198
+94139			Catenococcus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00986
+98443			Richelia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01520
+99479			Tetrasphaera	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00089
+99479			Tetrasphaera	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00089
+99479			Tetrasphaera	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00089
+99479			Tetrasphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00089
+99479			Tetrasphaera	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00089
+99479			Tetrasphaera	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00089
+99593			Thermohalobacter	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00624
+99593			Thermohalobacter	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00624
+99906			Alkalibacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00587
+99906			Alkalibacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00587
+99906			Alkalibacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00587
+100715			Chloroherpeton	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00375
+100883			Coprobacillus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00762
+102106			Collinsella	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00215
+102231			Gloeocapsa	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00417
+104175			Oscillochloris	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00383
+104204			Streptomonospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00196
+104264			Cellulophaga	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00300.pub2
+104264			Cellulophaga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00300.pub2
+105591			Symploca	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00447
+105591			Symploca	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00447
+106591			Ensifer	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00846
+106591			Ensifer	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00846
+109169			Desulfofaba	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01017.pub2
+109169			Desulfofaba	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01017.pub2
+109262			Halothiobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01133
+109262			Halothiobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01133
+110103			Anabaenopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00453
+110934			Agreia	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00091
+111500			Muricauda	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00327.pub2
+111500			Muricauda	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00327.pub2
+111782			Tolypothrix	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00464
+111782			Tolypothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00464
+113286			Pseudoramibacter	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00631
+113286			Pseudoramibacter	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00631
+113286			Pseudoramibacter	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00631
+115780			Desulfotignum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01022.pub2
+115780			Desulfotignum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01022.pub2
+116071			Micropruina	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00166
+116071			Micropruina	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00166
+116071			Micropruina	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00166
+117156			Actinopolymorpha	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00155
+117156			Actinopolymorpha	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00155
+117156			Actinopolymorpha	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00155
+117563			Granulicatella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00596
+117563			Granulicatella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00596
+117563			Granulicatella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00596
+118747			Bulleidia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00760
+118747			Bulleidia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00760
+119852			Oscillospira	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00676
+120652			Methylocella	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00797.pub2
+120652			Methylocella	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00797.pub2
+120831			Dyadobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00262
+120831			Dyadobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00262
+120961			Roseiflexus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01762
+122277			Pectobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01158.pub2
+122277			Pectobacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01158.pub2
+122277			Pectobacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01158.pub2
+123375			Solobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00765
+125216			Roseomonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00888
+125216			Roseomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00888
+125216			Roseomonas	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00888
+125287			Ornithinimicrobium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
+125287			Ornithinimicrobium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
+125287			Ornithinimicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
+125287			Ornithinimicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00083
+129337			Geobacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00533
+129337			Geobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00533
+130795			Crossiella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00177
+132605			Limnothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00438
+133925			Olsenella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00220
+133925			Olsenella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00220
+133925			Olsenella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00220
+134550			Candidatus Xiphinematobacter	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01280
+135858			Catenibacterium	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00761
+136099			Knoellia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00079
+136099			Knoellia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00079
+136099			Knoellia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00079
+136099			Knoellia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00079
+140625			Lachnobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00646
+140625			Lachnobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00646
+142577			Prauserella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00183
+142577			Prauserella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00183
+142587			Isobaculum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00597
+143222			Salegentibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00338.pub2
+143222			Salegentibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00338.pub2
+143222			Salegentibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00338.pub2
+145260			Methanothermobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00498
+146813			Dendrosporobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00695
+146813			Dendrosporobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00695
+147067			Thermobispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00213
+149711			Desulfovirga	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01067.pub2
+149711			Desulfovirga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01067.pub2
+150022			Finegoldia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00713
+150022			Finegoldia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00713
+150022			Finegoldia	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00713
+150247			Anoxybacillus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00529
+150247			Anoxybacillus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00529
+150333			Thermobrachium	branched	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00623
+150818			Heliophilum	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00635
+152053			Starkeya	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00828
+152053			Starkeya	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00828
+153027			Desulforegula	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01590
+153027			Desulforegula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01590
+153265			Aequorivita	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00293.pub2
+153265			Aequorivita	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00293.pub2
+153265			Aequorivita	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00293.pub2
+154116			Georgenia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00061.pub2
+154116			Georgenia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00061.pub2
+156885			Thioflavicoccus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01120
+156972			Thioalkalicoccus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01115
+157226			Marinibacillus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00560
+157920			Cellulosimicrobium	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00127
+159191			Nodularia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00458
+159730			Thermovenabulum	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00757
+159730			Thermovenabulum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00757
+159730			Thermovenabulum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00757
+160700			Albibacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00831
+160700			Albibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00831
+160700			Albibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00831
+160800			Methylosarcina	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01184.pub2
+162289			Peptoniphilus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00717
+162289			Peptoniphilus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00717
+162289			Peptoniphilus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00717
+162289			Peptoniphilus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00717
+162290			Gallicola	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00714
+162290			Gallicola	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00714
+162491			Oerskovia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00064
+164450			Vulcanisaeta	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01326
+165301			Lentzea	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00182
+165779			Anaerococcus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00712
+165779			Anaerococcus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00712
+165779			Anaerococcus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00712
+165779			Anaerococcus	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00712
+165812			Sporanaerobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00720
+165812			Sporanaerobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00720
+166588			Chloronema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00381
+168694			Salinispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00151
+168808			Sneathia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00773.pub2
+169133			Citricoccus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00119
+169133			Citricoccus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00119
+169133			Citricoccus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00119
+169215			Bosea	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00801
+171003			Caloranaerobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00617
+171003			Caloranaerobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00617
+171003			Caloranaerobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00617
+171412			Eremococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00583
+171412			Eremococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00583
+171412			Eremococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00583
+171413			Dolosicoccus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00582
+171413			Dolosicoccus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00582
+171413			Dolosicoccus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00582
+172900			Victivallis	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00777
+172900			Victivallis	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00777
+174708			Allobaculum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00759
+174708			Allobaculum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00759
+177971			Shuttleworthia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00653
+177971			Shuttleworthia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00653
+177971			Shuttleworthia	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00653
+177971			Shuttleworthia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00653
+182402			Rubritepida	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01457
+184923			Methylocapsa	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01402
+184923			Methylocapsa	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01402
+186191			Marinithermus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01564
+186191			Marinithermus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01564
+190323			Plantibacter	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00110
+190818			Geoglobus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01329
+190818			Geoglobus	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01329
+190972			Sedimentibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00718
+190972			Sedimentibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00718
+191303			Turicibacter	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00766
+191494			Conexibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00225
+191494			Conexibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00225
+191769			Marinilactibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00598
+191769			Marinilactibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00598
+191769			Marinilactibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00598
+194195			Alysiella	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00973
+194195			Alysiella	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00973
+195964			Asanoa	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00140
+196084			Okibacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00108
+196084			Okibacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00108
+198705			Lampropedia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00948
+198705			Lampropedia	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00948
+200473			Brumimicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00287
+200473			Brumimicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00287
+200677			Meniscus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00270
+200677			Meniscus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00270
+200683			Toxothrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00285
+203133			Propionimicrobium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00171
+203133			Propionimicrobium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00171
+203133			Propionimicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00171
+203133			Propionimicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00171
+203133			Propionimicrobium	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00171
+203522			Longispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00146
+203522			Longispora	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00146
+203697			Derxia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00929
+203697			Derxia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00929
+203697			Derxia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00929
+204037			Dickeya	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02014
+204037			Dickeya	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02014
+204037			Dickeya	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02014
+204447			Skermanella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00901
+204447			Skermanella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00901
+204456			Gemmobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00853
+204472			Ancalomicrobium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00810
+204472			Ancalomicrobium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00810
+204472			Ancalomicrobium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00810
+204474			Dichotomicrobium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00817
+204475			Gemmiger	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00819
+204477			Seliberia	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00827
+204477			Seliberia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00827
+206375			Prolinoborus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00982
+206664			Desulfonauticus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01577
+206664			Desulfonauticus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01577
+207244			Anaerostipes	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00638
+211469			Kineosphaera	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00074
+211469			Kineosphaera	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00074
+212110			Thiopedia	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01123
+212111			Thiospirillum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01126
+212118			Thiobacterium	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01225
+212742			Morococcus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00987
+212791			Enhydrobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01214
+212791			Enhydrobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01214
+212791			Enhydrobacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01214
+213485			Micavibrio	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01008
+214904			Tepidibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669
+214904			Tepidibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669
+214904			Tepidibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669
+218204			Garciella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00630
+218204			Garciella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00630
+218207			Desulfatibacillum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01583
+218207			Desulfatibacillum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01583
+221283			Nostochopsis	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00470.pub2
+221283			Nostochopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00470.pub2
+221292			Stigonema	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00471.pub2
+221292			Stigonema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00471.pub2
+224474			Desulfothermus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031.pub2
+224474			Desulfothermus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031.pub2
+224474			Desulfothermus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01031.pub2
+225447			Yaniella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00125
+225447			Yaniella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00125
+227864			Cerasibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00531
+227864			Cerasibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00531
+227864			Cerasibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00531
+228398			Streptacidiphilus	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00193
+230188			Sulfurococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00402
+230188			Sulfurococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00402
+230355			Methanolacinia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00508.pub2
+230355			Methanolacinia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00508.pub2
+232244			Belliella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00255
+232244			Belliella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00255
+233189			Anaerolinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01478
+233191			Caldilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01761
+239759			Alistipes	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00251
+239759			Alistipes	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00251
+239759			Alistipes	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00251
+239934			Akkermansia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01282
+239934			Akkermansia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01282
+239934			Akkermansia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01282
+241189			Hespellia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00644
+241189			Hespellia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00644
+241189			Hespellia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00644
+241421			Crinalium	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00435
+241429			Starria	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00446
+244364			Methylohalobius	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01418
+244364			Methylohalobius	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01418
+244364			Methylohalobius	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01418
+246873			Crocinitomix	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00288
+246873			Crocinitomix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00288
+246876			Cryomorpha	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00289
+246876			Cryomorpha	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00289
+248744			Marvinbryantia	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01644
+248744			Marvinbryantia	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01644
+252965			Mahella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00758
+252965			Mahella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00758
+253183			Myceligenerans	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00129
+254245			Aquicella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01465
+254250			Isoptericola	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00128
+254250			Isoptericola	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00128
+256818			Gulosibacter	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00099
+256818			Gulosibacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00099
+263510			Crocosphaera	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01517
+263510			Crocosphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01517
+264147			Millisia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00031
+265487			Blastopirellula	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00782
+265487			Blastopirellula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00782
+265488			Rhodopirellula	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00787
+265488			Rhodopirellula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00787
+265975			Oribacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00649
+265975			Oribacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00649
+265975			Oribacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00649
+267408			Arsenicicoccus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00075
+267986			Owenweeksia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00292
+269773			Atopococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00591
+269773			Atopococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00591
+280472			Aquiflexum	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00254
+280472			Aquiflexum	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00254
+281472			Jiangella	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00052
+283810			Stackebrandtia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00050
+285105			Tepidimicrobium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01399
+285105			Tepidimicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01399
+291178			Subsaximicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00344
+291178			Subsaximicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00344
+291181			Subsaxibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00343
+291181			Subsaxibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00343
+291183			Lacinutrix	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00321
+291183			Lacinutrix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00321
+291988			Thermosediminibacter	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00756
+292486			Avibacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01840
+292635			Laceyella	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00570
+292636			Thermoflavimicrobium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00576
+292637			Seinonella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00573
+296051			Terrimonas	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00355
+299566			Adhaeribacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00259
+299566			Adhaeribacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00259
+299566			Adhaeribacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00259
+306539			Halolactibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
+306539			Halolactibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
+306539			Halolactibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
+312278			Emticicia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00264
+312278			Emticicia	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00264
+317661			Quadrisphaera	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00055
+321315			Sphaerisporangium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00206
+332100			Planifilum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00572
+332102			Fluviicola	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00290
+334767			Ignisphaera	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01324
+334767			Ignisphaera	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01324
+334767			Ignisphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01324
+334857			Goodfellowiella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00178
+338583			Polymorphospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00150
+339721			Desulfovermiculus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01578
+339721			Desulfovermiculus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01578
+343334			Costertonia	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00304
+349312			Krasilnikovia	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00145
+349314			Luedemannella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00147
+359169			Thermopolyspora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00208
+361106			Desulfoglaeba	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01581
+361106			Desulfoglaeba	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01581
+363276			Ktedonobacter	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01558
+363408			Stenothermobacter	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00342
+365032			Aureispira	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00356
+367188			Haladaptatus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01330
+367188			Haladaptatus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01330
+369400			Flaviramulus	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00311
+377149			Desulfosalsimonas	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01591
+377149			Desulfosalsimonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01591
+377149			Desulfosalsimonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01591
+388463			Edaphobacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00002
+388463			Edaphobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00002
+390988			Actinocatenispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00138
+392733			Terriglobus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00003.pub2
+396320			Desulfatiferula	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01584
+396320			Desulfatiferula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01584
+399320			Sphaerochaeta	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02038
+402170			Lapillicoccus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00081
+402170			Lapillicoccus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00081
+405552			Haloactinospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00194
+413963			Rapidithrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01911
+414715			Actinospica	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00024.pub2
+414878			Catenulispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00025
+419014			Alloscardovia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00018.pub2
+419014			Alloscardovia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00018.pub2
+423604			Elusimicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01490
+423604			Elusimicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01490
+427077			Salsuginibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01794
+427077			Salsuginibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01794
+429014			Desulfopila	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01592
+429014			Desulfopila	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01592
+435913			Fodinicola	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00041.pub2
+435913			Fodinicola	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00041.pub2
+437755			Moryella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00648
+437755			Moryella	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00648
+437755			Moryella	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00648
+444599			Hansschlegelia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02082
+444599			Hansschlegelia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02082
+449972			Chelativorans	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01709
+453229			Desulfarculus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01010.pub2
+453229			Desulfarculus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01010.pub2
+453849			Henriciella	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01801
+466152			Singulisphaera	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00789.pub2
+466152			Singulisphaera	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00789.pub2
+466152			Singulisphaera	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00789.pub2
+466152			Singulisphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00789.pub2
+471798			Shimazuella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00574
+472058			Schumannella	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01440
+472568			Devriesea	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01539
+472568			Devriesea	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01539
+472568			Devriesea	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01539
+475960			Bellilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01479
+475961			Longilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01482
+475965			Levilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01481
+475966			Leptolinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01480
+476528			Bibersteinia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01842
+476528			Bibersteinia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01842
+476528			Bibersteinia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01842
+482136			Fangia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01810
+482136			Fangia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01810
+482144			Mechercharimyces	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00571
+482460			Sediminibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01795
+482460			Sediminibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01795
+482460			Sediminibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01795
+488937			Desulfonatronospira	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01576
+488937			Desulfonatronospira	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01576
+497721			Desulfoluna	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01588
+497721			Desulfoluna	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01588
+497742			Desulfatirhabdium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01585
+497742			Desulfatirhabdium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01585
+499551			Methanolinea	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01367
+501022			Glaciibacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01304
+512381			Acidisoma	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02033
+512381			Acidisoma	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02033
+512381			Acidisoma	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02033
+543311			Parvimonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00716
+543311			Parvimonas	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00716
+543311			Parvimonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00716
+558418			Acetofilamentum	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00234
+558418			Acetofilamentum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00234
+558421			Acetothermus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00236
+558421			Acetothermus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00236
+565376			Ancalochloris	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00373
+565376			Ancalochloris	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00373
+570266			Methanocella	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01366
+583360			Umezawaea	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00190
+588605			Robinsoniella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01449
+588605			Robinsoniella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01449
+596767			Hydrogenoanaerobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01735
+596767			Hydrogenoanaerobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01735
+600332			Zavarzinella	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01970
+600332			Zavarzinella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01970
+643949			Ferrithrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00009
+643949			Ferrithrix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00009
+647960			Marinactinospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01755
+647960			Marinactinospora	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01755
+656899			Schlesneria	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00788.pub2
+656899			Schlesneria	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00788.pub2
+656899			Schlesneria	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00788.pub2
+656899			Schlesneria	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00788.pub2
+665568			Paraoerskovia	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02018
+667113			Actinoallomurus	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01752
+673534			Plantactinospora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01318
+689760			Planosporangium	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01956
+690086			Salinarimonas	branched	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01702
+693074			Caldisericum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01477
+697025			Hoyosella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02019
+697025			Hoyosella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02019
+697025			Hoyosella	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02019
+700595			Desulfocurvus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01572
+700595			Desulfocurvus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01572
+704093			Anaerobacillus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01785
+704093			Anaerobacillus	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01785
+704093			Anaerobacillus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01785
+715222			Caldicoprobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01380
+715222			Caldicoprobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01380
+768650			Thermosporothrix	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01561
+768669			Thermogemmatispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01562
+907364			Phytohabitans	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01316
+911113			Bryobacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01667
+911113			Bryobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01667
+929812			Gibbsiella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02015
+929812			Gibbsiella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02015
+929812			Gibbsiella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02015
+940557			Granulicella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01424
+940557			Granulicella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01424
+940557			Granulicella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01424
+985001			Piscicoccus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02041
+1007082			Nitrosarchaeum	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01289
+1069494			Trueperella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01515
+1069494			Trueperella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01515
+1069494			Trueperella	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01515
+1069494			Trueperella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01515
+1069494			Trueperella	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01515
+1078829			Telmatobacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01426
+1078830			Acidicapsa	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01471
+1078830			Acidicapsa	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01471
+1078830			Acidicapsa	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01471
+1078860			Bryocella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01472
+1078860			Bryocella	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01472
+1078860			Bryocella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01472
+1080709			Methanomassiliicoccus	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01365
+1082702			Lonsdalea	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02016
+1082702			Lonsdalea	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02016
+1121253			Catelliglobosispora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01957
+1121253			Catelliglobosispora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01957
+1121254			Hamadaea	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01958
+1134403			Melioribacter	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01506
+1137960			Allokutzneria	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01953
+1143004			Methyloferula	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01403
+1143004			Methyloferula	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01403
+1148150			Desulfosoma	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01582
+1148150			Desulfosoma	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01582
+1148783			Geminisphaera	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01542
+1156568			Methylovirgula	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01405
+1156568			Methylovirgula	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01405
+1156568			Methylovirgula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01405
+1159909			Bombiscardovia	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02119
+1164882			Lachnoanaerobaculum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02007
+1172428			Thermotomaculum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01669
+1172428			Thermotomaculum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01669
+1172428			Thermotomaculum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01669
+1217101			Haloactinopolyspora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00051
+1241326			Rhizomicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01536
+1241326			Rhizomicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01536
+1255275			Oceanotoga	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01865
+1255275			Oceanotoga	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01865
+1255275			Oceanotoga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01865
+1263959			Caloribacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01453
+1263959			Caloribacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01453
+1277353			Methylorosula	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01404
+1277353			Methylorosula	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01404
+1278221			Auraticoccus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01754
+1278221			Auraticoccus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01754
+1281902			Blastocatella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01428
+1281902			Blastocatella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01428
+1281902			Blastocatella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01428
+1281902			Blastocatella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01428
+1303912			Desulfatitalea	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01586
+1303912			Desulfatitalea	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01586
+1321364			Tistlia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01691
+1321364			Tistlia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01691
+1329200			Fictibacillus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01620
+1348508			Roseimicrobium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01550
+1382931			Ardenticatena	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01554
+1400134			Streptohalobacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01796
+1400134			Streptohalobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01796
+1400134			Streptohalobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01796
+1407607			Fusicatenibacter	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01639
+1407607			Fusicatenibacter	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01639
+1417297			Desulfonatronobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01589
+1417297			Desulfonatronobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01589
+1425377			Haloechinothrix	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01759
+1427172			Aminivibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01660
+1427172			Aminivibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01660
+1433996			Paradesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01890
+1433996			Paradesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01890
+1434028			Ornatilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01483
+1434030			Phytomonospora	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01317
+1470540			Jeotgalibaca	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01621
+1470540			Jeotgalibaca	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01621
+1486725			Anaerobacterium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01653
+1486725			Anaerobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01653
+1486726			Pseudobacteroides	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01654
+1486726			Pseudobacteroides	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01654
+1486726			Pseudobacteroides	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01654
+1491776			Proteinivorax	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02112
+1491776			Proteinivorax	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02112
+1495649			Thermoflexus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01488
+1500514			Thermolongibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01604
+1500514			Thermolongibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01604
+1500514			Thermolongibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01604
+1511635			Aquisphaera	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01920
+1511648			Defluviitoga	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01864
+1511648			Defluviitoga	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01864
+1511648			Defluviitoga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01864
+1520333			Vespertiliibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01858
+1520333			Vespertiliibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01858
+1520333			Vespertiliibacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01858
+1522431			Thermosulfurimonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01566
+1522431			Thermosulfurimonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01566
+1535192			Desulfocarbo	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01579
+1535192			Desulfocarbo	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01579
+1538466			Rhizocola	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01319
+1549126			Desulfatiglans	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01679
+1549126			Desulfatiglans	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01679
+1562564			Aridibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01427
+1562564			Aridibacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01427
+1562564			Aridibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01427
+1565313			Methyloprofundus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01414
+1565313			Methyloprofundus	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01414
+1579505			Rubripirellula	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02025
+1579505			Rubripirellula	rosettes	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02025
+1579506			Roseimaritima	rosettes	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02026
+1634037			Desulfoplanes	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01575
+1634037			Desulfoplanes	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01575
+1634037			Desulfoplanes	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01575
+1637257			Mageeibacillus	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01737
+1637257			Mageeibacillus	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01737
+1648503			Canibacter	v-formation	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01297
+1649264			Desulfoconvexum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01587
+1649264			Desulfoconvexum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01587
+1649284			Ercella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01655
+1649284			Ercella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01655
+1649452			Geothermomicrobium	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01625
+1649469			Methyloparacoccus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01413
+1649469			Methyloparacoccus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01413
+1649475			Paludibaculum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01668
+1649475			Paludibaculum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01668
+1649475			Paludibaculum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01668
+1649478			Pelolinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01484
+1649492			Salinithrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01626
+1649496			Sinibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01605
+1649496			Sinibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01605
+1649507			Thermomarinilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01552
+1654934			Desulfoprunum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01593
+1654934			Desulfoprunum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01593
+1676125			Thermogutta	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01972
+1676125			Thermogutta	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01972
+1679449			Pseudooceanicola	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02065
+1679449			Pseudooceanicola	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02065
+1748767			Stenotrophobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01429
+1748767			Stenotrophobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01429
+1755820			Thermostilla	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01973
+1755820			Thermostilla	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01973
+1760987			Methylomagnum	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01975
+1760987			Methylomagnum	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01975
+1763521			Paludisphaera	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01919
+1763521			Paludisphaera	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01919
+1763521			Paludisphaera	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01919
+1763521			Paludisphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01919
+1763552			Baia	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01629
+1769713			Flexilinea	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01551
+1769738			Compostibacillus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01607
+1769738			Compostibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01607
+1771356			Tepidisphaera	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01509
+1771356			Tepidisphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01509
+1775468			Silvibacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01473
+1775468			Silvibacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01473
+1775574			Dethiosulfatarculus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01580
+1775574			Dethiosulfatarculus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01580
+1775574			Dethiosulfatarculus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01580
+1775697			Melghiribacillus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01617
+1779141			Planctomicrobium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02036
+1779141			Planctomicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02036
+1779141			Planctomicrobium	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02036
+1779141			Planctomicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02036
+1817571			Fermentibacillus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01612
+1843210			Anaerocolumna	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01646
+1843210			Anaerocolumna	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01646
+1847386			Vicinamibacter	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01685
+1847386			Vicinamibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01685
+1849551			Cephaloticoccus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01513
+1855714			Anaerobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01642
+1855714			Anaerobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01642
+1890059			Serpentinicella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01817
+1890059			Serpentinicella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01817
+1890224			Polygonibacillus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01613
+1905344			Ruthenibacterium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01656
+1905344			Ruthenibacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01656
+1905726			Paludifilum	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01628
+1912771			Halodesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01573
+1912771			Halodesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01573
+1914234			Fimbriiglobus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01971
+1914234			Fimbriiglobus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01971
+1914234			Fimbriiglobus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01971
+1918385			Acutalibacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01730
+1918450			Cuneatibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01747
+1918450			Cuneatibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01747
+1918454			Flintibacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01734
+1918536			Longicatena	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01768
+1918542			Muricomes	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01746
+1918542			Muricomes	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01746
+1918542			Muricomes	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01746
+1918598			Turicimonas	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01748
+1921582			Orrella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01819
+1929901			Bogoriella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00060.pub2
+1929901			Bogoriella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00060.pub2
+1929901			Bogoriella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00060.pub2
+1929901			Bogoriella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00060.pub2
+1930795			Croceifilum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01627
+1930932			Thioflexithrix	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02034
+1940395			Caenibacillus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01623
+1970191			Salinivirga	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02009
+1970191			Salinivirga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02009
+2005380			Mariniblastus	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02027
+2005380			Mariniblastus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02027
+2018671			Imhoffiella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01932
+2018671			Imhoffiella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01932
+2024965			Dictyobacter	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01559
+2035811			Pseudodesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01574
+2035811			Pseudodesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01574
+2045060			Methyloterricola	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01974
+2048137			Agathobaculum	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01657
+2048137			Agathobaculum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01657
+2048137			Agathobaculum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01657
+2071614			Raineya	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01902
+2100741			Oleiharenicola	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02023
+2100741			Oleiharenicola	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm02023
+2126002			Rubneribacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01986
+2126002			Rubneribacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01986
+2126006			Enteroscipio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01985
+2126006			Enteroscipio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01985
+2163168			Kineothrix	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01648
+2163168			Kineothrix	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01648
+2184065			Geitleria	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00468.pub2
+2184065			Geitleria	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00468.pub2
+2184065			Geitleria	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00468.pub2
+2219504			Sodalinema	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02079
+2282523			Methylorubrum	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02024
+2282523			Methylorubrum	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02024
+2282523			Methylorubrum	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02024
+2282523			Methylorubrum	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02024
+2582836			Desulfohalovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01882
+2582836			Desulfohalovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01882
+2582840			Desulfocurvibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01881
+2582840			Desulfocurvibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01881
+2608728			Acidisarcina	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
+2608728			Acidisarcina	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
+2608728			Acidisarcina	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
+2608728			Acidisarcina	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
+2608728			Acidisarcina	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02081
+2680020			Tautonia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01921
+2680020			Tautonia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01921
+2680020			Tautonia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01921
+2691417			Lacipirellula	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02035
+2691417			Lacipirellula	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02035
+2691417			Lacipirellula	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02035
+2691417			Lacipirellula	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02035
+2692382			Gudongella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02149
+2692382			Gudongella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02149
+2692382			Gudongella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02149
+2747271			Calidithermus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02076
+2760873			Tenuifilum	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02155
+2773294			Desulfolutivibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02029
+2773294			Desulfolutivibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02029
+2792240			Thiospirochaeta	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02051
+2792240			Thiospirochaeta	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02051
+2794998			Maridesulfovibrio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01877
+2794998			Maridesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01877
+2794998			Maridesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01877
+2802295			Nitratidesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01888
+2802295			Nitratidesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01888
+2807414			Anatilimnocola	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02080
+2807414			Anatilimnocola	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02080
+2807414			Anatilimnocola	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02080
+2807414			Anatilimnocola	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02080
+2856573			Infirmifilum	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02137
+2904316			Desulfocicer	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01869
+2904316			Desulfocicer	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01869
+2904316			Desulfocicer	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01869
+2904609			Desulfogranum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01873
+2904609			Desulfogranum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01873
+2904687			Desulforapulum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01870
+2904687			Desulforapulum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01870
+2904716			Desulfosudis	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01872
+2904716			Desulfosudis	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01872
+2905136			Fundidesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01886
+2905136			Fundidesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01886
+2905722			Oceanidesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01894
+2905722			Oceanidesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01894
+2905940			Syntrophobacterium	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01875
+2905940			Syntrophobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01875
+2909705			Oleidesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01884
+2909705			Oleidesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01884
+2910978			Megalodesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01887
+2910978			Megalodesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01887
+2910983			Humidesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01878
+2910983			Humidesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01878
+2910984			Solidesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01885
+2910984			Solidesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01885
+2910985			Paucidesulfovibrio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01880
+2910985			Paucidesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01880
+2910985			Paucidesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01880
+2916674			Desulfocastanea	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01594
+2916674			Desulfocastanea	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01594
+2919362			Saliniramus	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01984
+2930384			Periweissella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02097
+2930384			Periweissella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02097
+2930384			Periweissella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02097
+2974824			Nanobdella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01370.pub2
+2992720			Acidilutibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02148
+2992720			Acidilutibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02148
+3050007			Fontisphaera	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02129
+3051499			Aceticella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02154
+3051499			Aceticella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02154
+3051499			Aceticella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02154
+3051499			Aceticella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02154
+3062336			Parasphaerochaeta	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02039
+3086978			Frigididesulfovibrio	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01891
+3086978			Frigididesulfovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01891
+3108009			Microcaldus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm02110
+3382645			Methyloraptor	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02169
+3382645			Methyloraptor	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02169
+3382645			Methyloraptor	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02169
+3399578			Cyanospira	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00455
