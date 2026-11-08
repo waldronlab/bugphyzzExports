@@ -590,49 +590,19 @@ stopifnot(!anyDuplicated(validation_whole$attribute))
 ## Attributes with no validation entry (habitat, disease association,
 ## antimicrobial resistance, and any discrete value that was not validated)
 ## keep their curated rows and lose all ASR rows.
-filterAsr <- function(df) {
-    attr_name <- unique(df$Attribute)[1]
-    attr_type <- unique(df$Attribute_type)
-    attr_type <- attr_type[!is.na(attr_type)]
-    df <- mutate(df, .attr_key = tolower(Attribute))
-    if (any(attr_type %in% c("numeric", "range", "binary"))) {
-        thr <- if (any(attr_type == "binary")) mcc_threshold else r2_threshold
-        df <- left_join(
-            df, select(validation_whole, .attr_key = attribute, value),
-            by = ".attr_key"
-        )
-    } else {
-        thr <- mcc_threshold
-        df <- df |>
-            mutate(.value_key = tolower(Attribute_value)) |>
-            left_join(
-                select(
-                    validation, .attr_key = physiology,
-                    .value_key = attribute, value
-                ),
-                by = c(".attr_key", ".value_key")
-            ) |>
-            select(-.value_key)
-    }
-    df <- select(df, -.attr_key)
-    n_before <- sum(df$Evidence == "asr", na.rm = TRUE)
-    df <- df |>
-        filter(
-            Evidence != "asr" |
-                (
-                    !is.na(value) & value >= thr &
-                        !Frequency %in% c("rarely", "never")
-                )
-        ) |>
-        select(-value)
-    n_after <- sum(df$Evidence == "asr", na.rm = TRUE)
+## filterAsr() lives in filter_asr.R (tested by test_filter_asr.R); it
+## returns the kept rows and the ASR rows it removed, with their score.
+source("inst/scripts/filter_asr.R")
+split_set <- imap(final_set, function(df, attr_name) {
+    res <- filterAsr(df, validation, validation_whole, mcc_threshold, r2_threshold)
     log_print(paste0(
-        attr_name, ": kept ", n_after, " of ", n_before,
+        attr_name, ": kept ", res$n_after, " of ", res$n_before,
         " ASR annotations after validation and frequency filters."
     ))
-    df
-}
-final_set <- map(final_set, filterAsr)
+    res
+})
+final_set <- map(split_set, "kept")
+dropped_asr <- map(split_set, "dropped")
 
 ## Genus, species and strain only (#64). Above genus every row is ASR on
 ## internal LTP nodes, and deep nodes take the root's state with near-certain
@@ -647,6 +617,16 @@ final_set <- imap(final_set, function(df, attr_name) {
     ))
     df
 })
+
+dropped_asr <- bind_rows(dropped_asr) |>
+    filter(Rank %in% keep_ranks) |>
+    mutate(Attribute_type = ifelse(
+        Attribute %in% attributes_by_type$numeric, "numeric", Attribute_type
+    ))
+log_print(paste0(
+    nrow(dropped_asr), " ASR annotations below the validation thresholds or ",
+    "with frequency rarely/never, written to bugphyzz_asr_dropped.csv.gz."
+))
 
 multistate_data <- bind_rows(final_set[c(
         attributes_by_type$multistate,
@@ -679,6 +659,16 @@ write.table(
     x = numeric_data, file = "bugphyzz_numeric.csv", quote = TRUE,
     sep = ",", row.names = FALSE, append = TRUE, col.names = TRUE
 )
+
+## Not part of a release: the ASR annotations the thresholds removed, for
+## threshold experiments through importBugphyzz(includeDroppedAsr = TRUE)
+con <- gzfile("bugphyzz_asr_dropped.csv.gz", "w")
+cat(header, file = con)
+write.table(
+    x = dropped_asr, file = con, quote = TRUE,
+    sep = ",", row.names = FALSE, append = TRUE, col.names = TRUE
+)
+close(con)
 
 all_data <- list(multistate_data, binary_data, numeric_data) |> 
     discard(~ !nrow(.x))

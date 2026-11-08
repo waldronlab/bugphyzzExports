@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate exports
         run: |
-          rm -f ./*.gmt ./*.csv
+          rm -f ./*.gmt ./*.csv ./*.csv.gz
           Rscript inst/scripts/export_bugphyzz.R
 
       - name: Configure git
@@ -47,7 +47,7 @@ jobs:
       # Copied and adapted from https://github.com/waldronlab/BugSigDBExports/blob/5cb9151b8bea35f1cd104df5879a9d405cce1574/.github/workflows/export-bugsigdb.yml#L41C1-L57C15
       - name: Commit Exports
         run: |
-          for export in `find . -type f -iname \*.gmt -o -iname \*.csv`
+          for export in `find . -type f \( -iname '*.gmt' -o -iname '*.csv' -o -iname '*.csv.gz' \)`
           do
             export=$(echo $export | sed 's/\.\///g')
             git_diff=$(git diff --numstat $export | sed -e 's/\t//g')
