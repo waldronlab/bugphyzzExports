@@ -616,15 +616,12 @@ filterAsr <- function(df) {
     }
     df <- select(df, -.attr_key)
     n_before <- sum(df$Evidence == "asr", na.rm = TRUE)
-    df <- df |>
-        filter(
-            Evidence != "asr" |
-                (
-                    !is.na(value) & value >= thr &
-                        !Frequency %in% c("rarely", "never")
-                )
-        ) |>
-        select(-value)
+    keep <- df$Evidence != "asr" |
+        (!is.na(df$value) & df$value >= thr & !df$Frequency %in% c("rarely", "never"))
+    ## ASR rows that fail go to bugphyzz_asr_dropped.csv.gz with their
+    ## validation score, so a lower threshold can be tried without an export
+    dropped_asr[[attr_name]] <<- df[!keep, ] |> rename(Validation = value)
+    df <- df[keep, ] |> select(-value)
     n_after <- sum(df$Evidence == "asr", na.rm = TRUE)
     log_print(paste0(
         attr_name, ": kept ", n_after, " of ", n_before,
@@ -632,6 +629,7 @@ filterAsr <- function(df) {
     ))
     df
 }
+dropped_asr <- list()
 final_set <- map(final_set, filterAsr)
 
 ## Genus, species and strain only (#64). Above genus every row is ASR on
@@ -647,6 +645,16 @@ final_set <- imap(final_set, function(df, attr_name) {
     ))
     df
 })
+
+dropped_asr <- bind_rows(dropped_asr) |>
+    filter(Rank %in% keep_ranks) |>
+    mutate(Attribute_type = ifelse(
+        Attribute %in% attributes_by_type$numeric, "numeric", Attribute_type
+    ))
+log_print(paste0(
+    nrow(dropped_asr), " ASR annotations below the validation thresholds or ",
+    "with frequency rarely/never, written to bugphyzz_asr_dropped.csv.gz."
+))
 
 multistate_data <- bind_rows(final_set[c(
         attributes_by_type$multistate,
@@ -679,6 +687,16 @@ write.table(
     x = numeric_data, file = "bugphyzz_numeric.csv", quote = TRUE,
     sep = ",", row.names = FALSE, append = TRUE, col.names = TRUE
 )
+
+## Not part of a release: the ASR annotations the thresholds removed, for
+## threshold experiments through importBugphyzz(includeDroppedAsr = TRUE)
+con <- gzfile("bugphyzz_asr_dropped.csv.gz", "w")
+cat(header, file = con)
+write.table(
+    x = dropped_asr, file = con, quote = TRUE,
+    sep = ",", row.names = FALSE, append = TRUE, col.names = TRUE
+)
+close(con)
 
 all_data <- list(multistate_data, binary_data, numeric_data) |> 
     discard(~ !nrow(.x))
