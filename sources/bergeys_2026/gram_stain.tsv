@@ -311,6 +311,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28194			Thermonema	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00284
 28196			Arcobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01070
 28209			Chelatococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00796
+28219			Brachymonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00944
 28222			Desulfobacula	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01013.pub2
 28228			Colwellia	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01090
 28231			Geobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01043
@@ -614,6 +615,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 77583			Craurococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00882
 77674			Paracraurococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00885
 78119			Succinispira	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00708
+78328			Coenonia	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00303
 78526			Allorhizobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00843
 78553			Alterococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01274
 79206			Desulfosporosinus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00660

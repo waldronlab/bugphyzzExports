@@ -605,6 +605,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28196			Arcobacter	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01070
 28209			Chelatococcus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00796
 28209			Chelatococcus	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00796
+28219			Brachymonas	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00944
+28219			Brachymonas	coccobacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00944
 28222			Desulfobacula	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013.pub2
 28222			Desulfobacula	elliptic	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01013.pub2
 28222			Desulfobacula	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01013.pub2
@@ -756,6 +758,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 39840			Desulforhabdus	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01066.pub2
 39845			Actinokineospora	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00174
 39948			Dialister	coccobacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00696
+40118			Candidatus Magnetobacterium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00778
 40222			Methylophaga	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01218.pub2
 40323			Stenotrophomonas	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01237
 40323			Stenotrophomonas	vibrio	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01237
@@ -1102,6 +1105,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 77674			Paracraurococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00885
 78119			Succinispira	spirillum	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00708
 78119			Succinispira	vibrio	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00708
+78328			Coenonia	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00303
 78526			Allorhizobium	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00843
 78553			Alterococcus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01274
 79206			Desulfosporosinus	bacillus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00660

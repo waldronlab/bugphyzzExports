@@ -18,6 +18,15 @@ PROKARYOTES = {2, 2157}
 # NCBI synonyms taxoniq's name lookup cannot resolve: cleaned title -> taxid
 SYNONYMS = {
     "Catenococcus": "94139",  # homotypic synonym of Allocatenococcus (NCBI names page)
+    # NCBI keeps these synonyms with the authority appended, which the exact
+    # name lookup misses (names.dmp, new_taxdump 2026-11-01)
+    "Brachymonas": "28219",  # "Brachymonas Hiraishi et al. 1995", now Allobrachymonas
+    "Coenonia": "78328",  # "Coenonia Vandamme et al. 1999", now Allocoenonia
+    "Candidatus Magnetobacterium": "40118",  # equivalent name of Magnetobacterium (SeqCode)
+    # Not added: "Desulfoliva" gen. nov. (Galushko and Kuever 2020) is an NCBI
+    # synonym of Desulfofaba (109169), which has its own chapter; the Desulfoliva
+    # chapter describes only Desulfofaba fastidiosa, so mapping it would replace
+    # the type species' traits. Left unmapped until NCBI accepts the genus.
 }
 
 

@@ -233,6 +233,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28194			Thermonema	width	0.7	Bergeys_2026	always	um	10.1002/9781118960608.gbm00284
 28196			Arcobacter	width	0.2-0.9	Bergeys_2026	always	um	10.1002/9781118960608.gbm01070
 28209			Chelatococcus	width	0.5-1.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00796
+28219			Brachymonas	width	0.6-1.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00944
 28222			Desulfobacula	width	1.2-1.5	Bergeys_2026	always	um	10.1002/9781118960608.gbm01013.pub2
 28228			Colwellia	width	0.4-1.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm01090
 28231			Geobacter	width	0.6	Bergeys_2026	always	um	10.1002/9781118960608.gbm01043
@@ -427,6 +428,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 77583			Craurococcus	width	0.8-2.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00882
 77674			Paracraurococcus	width	0.8-1.5	Bergeys_2026	always	um	10.1002/9781118960608.gbm00885
 78119			Succinispira	width	0.5	Bergeys_2026	always	um	10.1002/9781118960608.gbm00708
+78328			Coenonia	width	0.2-0.4	Bergeys_2026	always	um	10.1002/9781118960608.gbm00303
 78526			Allorhizobium	width	0.5-0.7	Bergeys_2026	always	um	10.1002/9781118960608.gbm00843
 79328			Chitinophaga	width	0.5-0.8	Bergeys_2026	always	um	10.1002/9781118960608.gbm00354
 79603			Denitrobacterium	width	0.5-1.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00218

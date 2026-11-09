@@ -209,6 +209,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28138			Rikenella	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm00252
 28186			Acetohalobium	spore formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00736
 28196			Arcobacter	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm01070
+28219			Brachymonas	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm00944
 28222			Desulfobacula	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm01013.pub2
 28228			Colwellia	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm01090
 28231			Geobacter	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm01043
@@ -426,6 +427,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 76833			Actinobaculum	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm00011
 77021			Cylindrospermopsis	spore formation	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00456
 78119			Succinispira	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm00708
+78328			Coenonia	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm00303
 78526			Allorhizobium	spore formation	FALSE	Bergeys_2026	always	10.1002/9781118960608.gbm00843
 79206			Desulfosporosinus	spore formation	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00660
 79328			Chitinophaga	spore formation	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00354
