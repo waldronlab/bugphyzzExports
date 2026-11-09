@@ -618,7 +618,11 @@ final_set <- imap(final_set, function(df, attr_name) {
     df
 })
 
-dropped_asr <- bind_rows(dropped_asr) |>
+## Attribute_value is numeric for numeric attributes and character for
+## discrete ones; the side file is read back as character anyway
+dropped_asr <- dropped_asr |>
+    map(~ mutate(.x, Attribute_value = as.character(Attribute_value))) |>
+    bind_rows() |>
     filter(Rank %in% keep_ranks) |>
     mutate(Attribute_type = ifelse(
         Attribute %in% attributes_by_type$numeric, "numeric", Attribute_type
