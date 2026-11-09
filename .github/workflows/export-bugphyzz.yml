@@ -47,21 +47,21 @@ jobs:
       # Copied and adapted from https://github.com/waldronlab/BugSigDBExports/blob/5cb9151b8bea35f1cd104df5879a9d405cce1574/.github/workflows/export-bugsigdb.yml#L41C1-L57C15
       - name: Commit Exports
         run: |
-          for export in `find . -type f \( -iname '*.gmt' -o -iname '*.csv' -o -iname '*.csv.gz' \)`
+          for export in `find . -maxdepth 1 -type f \( -iname '*.gmt' -o -iname '*.csv' -o -iname '*.csv.gz' \)`
           do
             export=$(echo $export | sed 's/\.\///g')
             # a new file (e.g. bugphyzz_asr_dropped.csv.gz) has no git diff yet
             if ! git ls-files --error-unmatch "$export" > /dev/null 2>&1; then
               echo "Add new file $export"
-              git add "$export"
+              git add -- "$export"
               continue
             fi
-            git_diff=$(git diff --numstat $export | sed -e 's/\t//g')
+            git_diff=$(git diff --numstat -- "$export" | sed -e 's/\t//g')
             if [ "$git_diff" = "11$export" -o "$git_diff" = "" ]; then
               echo "No changes to commit for $export"
             else
               echo "Add changes for $export"
-              git add $export
+              git add -- "$export"
             fi
           done
           echo "Check if any file contents have been added to index"
