@@ -59,6 +59,14 @@ Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()
 [6] "Warning message:\nIn FALSE(): appending column names to file\n"               
 [7] "Warning message:\nIn TRUE(): appending column names to file\n"                
 [8] "Warning message:\nIn TRUE(): appending column names to file\n"                
+[1] "Warning message:\nIn write.table(): appending column names to file\n"
+[2] "Warning message:\nIn dropped_asr(): appending column names to file\n"
+[3] "Warning message:\nIn con(): appending column names to file\n"        
+[4] "Warning message:\nIn TRUE(): appending column names to file\n"       
+[5] "Warning message:\nIn ,(): appending column names to file\n"          
+[6] "Warning message:\nIn FALSE(): appending column names to file\n"      
+[7] "Warning message:\nIn TRUE(): appending column names to file\n"       
+[8] "Warning message:\nIn TRUE(): appending column names to file\n"       
 Warning: Not enough data for creating signatures. Try different filtering options 
 Warning: Not enough data for creating signatures. Try different filtering options 
 Warning: Not enough data for creating signatures. Try different filtering options 
