@@ -200,6 +200,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 76632			Thermobacillus	growth temperature	55.0	Bergeys_2026	always	Celcius	10.1002/9781118960608.gbm00554; optimum
 76634			Mycetocola	growth temperature	25.0	Bergeys_2026	always	Celcius	10.1002/9781118960608.gbm00107; optimum
 76886			Caldivirga	growth temperature	85.0	Bergeys_2026	always	Celcius	10.1002/9781118960608.gbm00405; optimum
+78328			Coenonia	growth temperature	37.0	Bergeys_2026	always	Celcius	10.1002/9781118960608.gbm00303; optimum
 79328			Chitinophaga	growth temperature	23.5	Bergeys_2026	always	Celcius	10.1002/9781118960608.gbm00354; optimum
 79598			Heliorestis	growth temperature	30.0	Bergeys_2026	always	Celcius	10.1002/9781118960608.gbm00636; optimum
 81411			Aminomonas	growth temperature	35.0	Bergeys_2026	always	Celcius	10.1002/9781118960608.gbm01251; optimum

@@ -325,6 +325,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28194			Thermonema	gc content	47.0-51.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00284
 28196			Arcobacter	gc content	27.0-31.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01070
 28209			Chelatococcus	gc content	63.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00796
+28219			Brachymonas	gc content	63.0-65.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00944
 28222			Desulfobacula	gc content	41.3-41.4	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01013.pub2
 28228			Colwellia	gc content	35.0-46.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01090
 28231			Geobacter	gc content	50.2-60.6	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01043
@@ -638,6 +639,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 76890			Asticcacaulis	gc content	55.0-61.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00790
 77583			Craurococcus	gc content	70.5	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00882
 78119			Succinispira	gc content	36.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00708
+78328			Coenonia	gc content	35.0-36.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00303
 78526			Allorhizobium	gc content	60.1	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00843
 78553			Alterococcus	gc content	65.5-67.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01274
 79206			Desulfosporosinus	gc content	41.6-45.9	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00660

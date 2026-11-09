@@ -198,6 +198,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28194			Thermonema	length	60.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00284
 28196			Arcobacter	length	0.5-3.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm01070
 28209			Chelatococcus	length	1.0-2.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00796
+28219			Brachymonas	length	0.8-1.5	Bergeys_2026	always	um	10.1002/9781118960608.gbm00944
 28222			Desulfobacula	length	1.2-3.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm01013.pub2
 28228			Colwellia	length	1.5-5.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm01090
 28231			Geobacter	length	1.0-4.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm01043
@@ -365,6 +366,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 76890			Asticcacaulis	length	1.0-3.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00790
 77583			Craurococcus	length	0.8-2.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00882
 78119			Succinispira	length	2.0-10.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00708
+78328			Coenonia	length	1.25-2.5	Bergeys_2026	always	um	10.1002/9781118960608.gbm00303
 78526			Allorhizobium	length	2.0-4.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00843
 79328			Chitinophaga	length	40.0	Bergeys_2026	always	um	10.1002/9781118960608.gbm00354
 79603			Denitrobacterium	length	1.0-1.5	Bergeys_2026	always	um	10.1002/9781118960608.gbm00218
