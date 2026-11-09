@@ -3,6 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-11-05
 - **Deciders:** Levi Waldron
+- **Amended by:** 0006 (imputation is decided per attribute, by distance-matched kappa)
 
 ## Context and Problem Statement
 
