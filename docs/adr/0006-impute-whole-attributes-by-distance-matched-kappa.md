@@ -1,6 +1,6 @@
 # 0006. Impute whole attributes, judged by distance-matched kappa
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-09
 - **Deciders:** Levi Waldron
 - **Amends:** 0001
