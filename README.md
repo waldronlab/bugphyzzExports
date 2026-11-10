@@ -125,11 +125,16 @@ annotations, etc.
 
 ## Validation of the ASR method
 
-A 10-fold cross-validation approach was used to estimate how good our
-ASR method did with each attribute/physiology in the dataset.
-These validation results are not really part of the annotations, so they're not
-provided here. You can find these results on: https://github.com/waldronlab/taxPProValidation/.
-to select the attributes with the best results. The validation values are also
-attached when importing the files with the [bugphyzz](https://github.com/waldronlab/bugphyzz)
-package in R.
+A 10-fold cross-validation (https://github.com/waldronlab/taxPProValidation/)
+scores the ASR method per attribute. The export keeps an attribute's imputed
+annotations all together or not at all ([ADR 0006](docs/adr/0006-impute-whole-attributes-by-distance-matched-kappa.md)):
+they are kept when the lower 95% bound of the attribute's Cohen's kappa
+(weighted for ordered states; R2 for numeric attributes), with held-out taxa
+weighted to match the phylogenetic distance of the taxa being imputed, is at
+least 0.7 (0.5 for R2), and only rows with `Score` >= 0.5 are kept. The
+scores come from `validation_attributes.tsv` in the installed bugphyzz
+package, which `importBugphyzz()` also attaches as `Validation`. The imputed
+annotations the export leaves out are in `bugphyzz_asr_dropped.csv.gz`
+(`devel` only), and `importBugphyzz()` reads them when any of its thresholds
+is set below the export's.
 

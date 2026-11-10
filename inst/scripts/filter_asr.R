@@ -1,43 +1,30 @@
 ## Validation filter for imputed (ASR) annotations, sourced by
-## export_bugphyzz.R and tested by test_filter_asr.R.
+## export_bugphyzz.R and tested by test_filter_asr.R. Implements ADR 0006.
 ##
-## filterAsr(df, validation, validation_whole, mcc_threshold, r2_threshold)
+## filterAsr(df, validation, kappa_threshold, r2_threshold, score_threshold)
 ## takes one attribute's rows and returns list(kept, dropped, n_before,
-## n_after). `kept` is df without the ASR rows that fail: no validation
-## entry, a score below the threshold for the attribute type, or Frequency
-## "rarely"/"never". `dropped` is those rows with the score in a
-## `Validation` column, for bugphyzz_asr_dropped.csv.gz. Curated rows
-## are never filtered. `validation` has columns physiology, attribute,
-## value (lower case); `validation_whole` is its physiology == attribute
-## subset (binary and numeric attributes are validated as a whole).
+## n_after). An attribute's imputed states are kept or dropped together: an
+## ASR row is kept when the attribute's cross-validation score (lower 95%
+## bound of kappa, or of R2 for numeric attributes) is at least the
+## threshold for its type and the row's Score is at least score_threshold.
+## `dropped` holds the ASR rows that fail either rule, with the attribute's
+## score in a `Validation` column, for bugphyzz_asr_dropped.csv.gz. Curated
+## rows are never filtered. `validation` has one row per attribute:
+## `.attr_key` (physiology, lower case) and `value` (the score bound).
 
-filterAsr <- function(df, validation, validation_whole, mcc_threshold, r2_threshold) {
+filterAsr <- function(df, validation, kappa_threshold, r2_threshold,
+                      score_threshold) {
     attr_type <- unique(df$Attribute_type)
     attr_type <- attr_type[!is.na(attr_type)]
-    df <- dplyr::mutate(df, .attr_key = tolower(Attribute))
-    if (any(attr_type %in% c("numeric", "range", "binary"))) {
-        thr <- if (any(attr_type == "binary")) mcc_threshold else r2_threshold
-        df <- dplyr::left_join(
-            df, dplyr::select(validation_whole, .attr_key = attribute, value),
-            by = ".attr_key"
-        )
-    } else {
-        thr <- mcc_threshold
-        df <- df |>
-            dplyr::mutate(.value_key = tolower(Attribute_value)) |>
-            dplyr::left_join(
-                dplyr::select(
-                    validation, .attr_key = physiology,
-                    .value_key = attribute, value
-                ),
-                by = c(".attr_key", ".value_key")
-            ) |>
-            dplyr::select(-.value_key)
-    }
-    df <- dplyr::select(df, -.attr_key)
+    is_numeric <- any(attr_type %in% c("numeric", "range"))
+    thr <- if (is_numeric) r2_threshold else kappa_threshold
+    df <- df |>
+        dplyr::mutate(.attr_key = tolower(Attribute)) |>
+        dplyr::left_join(validation, by = ".attr_key") |>
+        dplyr::select(-.attr_key)
     is_asr <- df$Evidence %in% "asr"
     passes <- !is.na(df$value) & df$value >= thr &
-        !df$Frequency %in% c("rarely", "never")
+        !is.na(df$Score) & df$Score >= score_threshold
     keep <- !is_asr | (passes %in% TRUE)
     list(
         kept = dplyr::select(df[keep, , drop = FALSE], -value),

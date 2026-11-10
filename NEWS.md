@@ -4,6 +4,19 @@ Changes to the data pipeline and the exported files, newest first. Released data
 
 ## 2026-11 (unreleased, on `devel`)
 
+- **Imputed annotations kept per attribute, by distance-matched kappa** ([ADR 0006](docs/adr/0006-impute-whole-attributes-by-distance-matched-kappa.md), #95; replaces the per-value MCC rule of #63/#67): `filter_asr.R` keeps all imputed states of an attribute when the lower 95% bound of its kappa (weighted for ordered states; R2 for numeric attributes) in bugphyzz's `validation_attributes.tsv` is at least 0.7 (0.5), drops all of them otherwise, and drops imputed rows with `Score` < 0.5 in place of the rarely/never rule. Needs bugphyzz >= 1.7.15. Against the export of 2026-11-09: aerophilicity goes from 1,190 imputed rows (all anaerobic) to 9,672 (7,787 aerobic, 1,190 anaerobic, 695 facultatively anaerobic); gram stain gains 18 "variable"; COGEM pathogenicity rating loses all 21,992; the numeric attributes and spore formation are unchanged. `bugphyzz_asr_dropped.csv.gz` now holds the imputations of failing attributes and the `Score` < 0.5 rows, with the attribute's score bound in `Validation`; `importBugphyzz()` reads it on its own when a threshold is below the export's, so `includeDroppedAsr` is gone. Held-out precision of the imputed states (rank "all", distance-matched; from `validation_states.tsv`):
+
+  | Attribute | State | Held-out predictions | Precision |
+  |---|---|---|---|
+  | aerophilicity | aerobic | 10,008 | 0.91 |
+  | aerophilicity | anaerobic | 2,580 | 0.93 |
+  | aerophilicity | facultatively anaerobic | 819 | 0.37 |
+  | gram stain | negative | 8,463 | 0.98 |
+  | gram stain | positive | 5,622 | 0.95 |
+  | gram stain | variable | 27 | 0.21 |
+  | spore formation | FALSE | 4,852 | 0.97 |
+  | spore formation | TRUE | 2,041 | 0.90 |
+
 - Bergeys_2026: three chapters that failed the taxid lookup now map through NCBI synonyms (Brachymonas to *Allobrachymonas* 28219, Coenonia to *Allocoenonia* 78328, Candidatus Magnetobacterium to 40118), adding 23 rows; "Desulfoliva" gen. nov. stays unmapped because NCBI treats it as *Desulfofaba*, which has its own chapter.
 - **Export stops on unmapped attribute values** (#65): right after import, every discrete value must be in bugphyzz's `attributes.tsv`, after `physiologies()` has applied bugphyzz's synonym table (`attribute_synonyms.tsv`, waldronlab/bugphyzz#279). Unmapped values used to be dropped with only a line in `log_file.msg`, which lost all 14,992 BacDive shape rows. Habitat, disease association and antimicrobial resistance are imported once, up front, so the check runs before ASR.
 - **Dropped ASR annotations kept in a side file** (`bugphyzz_asr_dropped.csv.gz`, on `devel` only, not in releases): the imputed annotations the validation thresholds or the rarely/never rule removed, with their validation score. `bugphyzz::importBugphyzz(includeDroppedAsr = TRUE)` adds them back so a lower threshold can be evaluated against known ground truth without re-running the export.

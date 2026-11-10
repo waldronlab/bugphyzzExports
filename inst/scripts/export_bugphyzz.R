@@ -552,52 +552,46 @@ final_set <- propagated |>
                 Attribute_type
             )
     })
-## Keep only imputed (ASR) annotations whose attribute value passed the
-## 10-fold cross-validation (MCC >= 0.7 for discrete, R2 >= 0.5 for numeric;
-## waldronlab/taxPProValidation), and drop imputed states with Frequency
-## "rarely" or "never". These are the thresholds used in the bugphyzz
-## manuscript and the defaults of bugphyzz::importBugphyzz(). Curated
-## annotations are never filtered here.
-mcc_threshold <- 0.7
+## Keep imputed (ASR) annotations per attribute (ADR 0006): all states of an
+## attribute together, when the lower 95% bound of its cross-validated kappa
+## (R2 for numeric attributes; waldronlab/taxPProValidation, distance-matched
+## to the taxa being imputed) is at least the threshold, and only rows with
+## Score >= 0.5. These are the defaults of bugphyzz::importBugphyzz(), which
+## reads the same table. Curated annotations are never filtered here.
+kappa_threshold <- 0.7
 r2_threshold <- 0.5
+score_threshold <- 0.5
 validation_file <- system.file(
-    "extdata", "validation_summary.tsv", package = "bugphyzz"
+    "extdata", "validation_attributes.tsv", package = "bugphyzz"
 )
 if (!nzchar(validation_file)) {
-    stop("The installed bugphyzz has no extdata/validation_summary.tsv.")
+    stop(
+        "The installed bugphyzz has no extdata/validation_attributes.tsv ",
+        "(needs bugphyzz >= 1.7.15)."
+    )
 }
 validation <- read.delim(validation_file)
 stopifnot(all(
-    c("rank", "physiology", "attribute", "mcc_mean", "r2_mean") %in%
-        names(validation)
+    c("rank", "physiology", "metric", "score_lcb") %in% names(validation)
 ))
-## One row per attribute value over all ranks. Discrete values have an MCC,
-## numeric attributes an R2; a row never has both.
+## One row per attribute over all ranks: the lower bound of kappa (weighted
+## for ordered attributes) or of R2. Attributes with no row (habitat,
+## disease association, antimicrobial resistance, ...) keep their curated
+## rows and lose all ASR rows.
 validation <- validation |>
     filter(rank == "all") |>
-    mutate(
-        physiology = tolower(physiology),
-        attribute = tolower(attribute),
-        value = ifelse(is.na(mcc_mean), r2_mean, mcc_mean)
-    ) |>
-    select(physiology, attribute, value)
-stopifnot(!anyDuplicated(validation[c("physiology", "attribute")]))
-## Binary and numeric attributes are validated as a whole, so their row has
-## physiology == attribute. Keep those apart so a multistate value with the
-## same name (e.g. "coccus" under shape and spore shape) can't match.
-validation_whole <- filter(validation, physiology == attribute)
-stopifnot(!anyDuplicated(validation_whole$attribute))
-## Attributes with no validation entry (habitat, disease association,
-## antimicrobial resistance, and any discrete value that was not validated)
-## keep their curated rows and lose all ASR rows.
+    transmute(.attr_key = tolower(physiology), value = score_lcb)
+stopifnot(!anyDuplicated(validation$.attr_key), !any(is.na(validation$value)))
 ## filterAsr() lives in filter_asr.R (tested by test_filter_asr.R); it
 ## returns the kept rows and the ASR rows it removed, with their score.
 source("inst/scripts/filter_asr.R")
 split_set <- imap(final_set, function(df, attr_name) {
-    res <- filterAsr(df, validation, validation_whole, mcc_threshold, r2_threshold)
+    res <- filterAsr(df, validation, kappa_threshold, r2_threshold, score_threshold)
     log_print(paste0(
         attr_name, ": kept ", res$n_after, " of ", res$n_before,
-        " ASR annotations after validation and frequency filters."
+        " ASR annotations (attribute score ",
+        validation$value[validation$.attr_key == tolower(attr_name)][1],
+        "; Score >= ", score_threshold, ")."
     ))
     res
 })
@@ -628,8 +622,9 @@ dropped_asr <- dropped_asr |>
         Attribute %in% attributes_by_type$numeric, "numeric", Attribute_type
     ))
 log_print(paste0(
-    nrow(dropped_asr), " ASR annotations below the validation thresholds or ",
-    "with frequency rarely/never, written to bugphyzz_asr_dropped.csv.gz."
+    nrow(dropped_asr), " ASR annotations of attributes below the validation ",
+    "thresholds or with Score < ", score_threshold,
+    ", written to bugphyzz_asr_dropped.csv.gz."
 ))
 
 multistate_data <- bind_rows(final_set[c(
