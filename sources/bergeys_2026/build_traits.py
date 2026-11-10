@@ -41,32 +41,64 @@ def taxon(doi, g):
 for doi, g in chapters.items():
     key = taxon(doi, g).get("taxid") or ("title", g["genus"])
     by_genus[key].append((dois.get(doi, {}).get("year") or 0, doi))
-keep = {max(v)[1] for v in by_genus.values()}
-for doi in sorted(keep):
-    g = chapters[doi]; t = taxon(doi, g)
+# Per trait, the newest chapter wins where it states the trait; where it is
+# silent the next-older chapter fills in (#102). `src` records which chapter
+# each trait came from, for the Note column.
+LIST_FIELDS = ("aerophilicity", "gram_stain", "shape", "motility", "spore_formation")
+RANGE_FIELDS = ("growth_temperature_c", "gc_content_mol_percent", "cell_length_um", "cell_width_um")
+def stated(rec, field):
+    v = (rec or {}).get(field)
+    if field in LIST_FIELDS:
+        return bool(v)
+    return isinstance(v, dict) and any(x is not None for x in v.values())
+filled_from_older = collections.Counter()
+for key, lst in sorted(by_genus.items(), key=lambda kv: str(kv[0])):
+    order = [d for _, d in sorted(lst, reverse=True)]   # newest first
+    doi = order[0]; g0 = chapters[doi]; t = taxon(doi, g0)
     if not t.get("taxid"):
         dropped["genus without NCBI taxid"] += 1; continue
+    g, arr_rec, src = {"genus": g0["genus"]}, {}, {}
+    for field in LIST_FIELDS + RANGE_FIELDS:
+        for d in order:
+            if stated(chapters[d], field):
+                g[field] = chapters[d][field]; src[field] = d
+                if d != doi: filled_from_older[field] += 1
+                break
+    for field in ("arrangement", "spore_shape"):
+        for d in order:
+            if (arr.get(d) or {}).get(field):
+                arr_rec[field] = arr[d][field]; src[field] = d
+                if d != doi: filled_from_older[field] += 1
+                break
     base = {"NCBI_ID": t["taxid"], "Genome_ID": "", "Accession_ID": "", "Taxon_name": t["clean"], "Attribute_source": SOURCE, "Note": doi}
+    newest = doi
     def emit(phys, attr, val, freq, note=""):
         if freq not in FREQ: dropped[f"frequency {freq}"] += 1; return
         rows[phys].append({**base, "Attribute": attr, "Attribute_value": val, "Frequency": freq, "Note": (doi + ("; " + note if note else ""))})
+    doi = src.get("aerophilicity", newest)
     for e in g.get("aerophilicity") or []:
         a = AERO.get(e["value"]); emit("aerophilicity", a, "TRUE", e["frequency"]) if a else dropped.update([f"aerophilicity {e['value']}"])
+    doi = src.get("gram_stain", newest)
     for e in g.get("gram_stain") or []:
         emit("gram stain", e["value"], "TRUE", e["frequency"])
+    doi = src.get("shape", newest)
     for e in g.get("shape") or []:
         s = SHAPE.get(e["value"])
         if s: emit("shape", s, "TRUE", e["frequency"])
         else: dropped[f"shape {e['value']}"] += 1
+    doi = src.get("motility", newest)
     for e in g.get("motility") or []:
         emit("motility", "motility", "TRUE" if e["value"] else "FALSE", e["frequency"])
+    doi = src.get("spore_formation", newest)
     for e in g.get("spore_formation") or []:
         emit("spore formation", "spore formation", "TRUE" if e["value"] else "FALSE", e["frequency"])
+    doi = src.get("growth_temperature_c", newest)
     t = g.get("growth_temperature_c") or {}
     if t.get("optimum") is not None:
         rows["growth temperature"].append({**base, "Attribute": "growth temperature", "Attribute_value": t["optimum"], "Frequency": "always", "Unit": UNIT["growth temperature"], "Note": doi + "; optimum"})
     elif t.get("min") is not None or t.get("max") is not None:
         dropped["growth temperature range without optimum"] += 1
+    doi = src.get("gc_content_mol_percent", newest)
     gc = g.get("gc_content_mol_percent") or {}
     lo, hi = gc.get("min"), gc.get("max")
     if lo is None: lo = hi
@@ -79,6 +111,7 @@ for doi in sorted(keep):
     else:
         if lo is not None: dropped["gc content outside 20-80"] += 1
     for phys, key in (("length", "cell_length_um"), ("width", "cell_width_um")):
+        doi = src.get(key, newest)
         v = g.get(key) or {}
         lo, hi = v.get("min"), v.get("max")
         if lo is None: lo = hi
@@ -89,11 +122,12 @@ for doi in sorted(keep):
             dropped[f"{phys} not positive"] += 1; continue
         lo, hi = round(lo, 2), round(hi, 2)
         rows[phys].append({**base, "Attribute": phys, "Attribute_value": (f"{lo}-{hi}" if lo != hi else f"{lo}"), "Frequency": "always", "Unit": "um", "Note": doi})
-    a = arr.get(doi) or {}
-    for e in a.get("arrangement") or []:
+    doi = src.get("arrangement", newest)
+    for e in arr_rec.get("arrangement") or []:
         if e["value"] in ARRANGEMENT: emit("arrangement", e["value"], "TRUE", e["frequency"])
         else: dropped[f"arrangement {e['value']}"] += 1
-    for e in a.get("spore_shape") or []:
+    doi = src.get("spore_shape", newest)
+    for e in arr_rec.get("spore_shape") or []:
         if e["value"] in SPORE_SHAPE: emit("spore shape", e["value"], "TRUE", e["frequency"])
         else: dropped[f"spore shape {e['value']}"] += 1
 # overrides: hand corrections that survive re-extraction
@@ -111,3 +145,4 @@ for phys, rr in rows.items():
         w = csv.DictWriter(fh, fieldnames=cols, delimiter="\t", lineterminator="\n"); w.writeheader(); w.writerows(rr)
     print(f"{phys}: {len(rr)} rows, {len({r['NCBI_ID'] for r in rr})} genera")
 print("dropped:", dict(dropped))
+print("filled from an older chapter:", dict(filled_from_older))
