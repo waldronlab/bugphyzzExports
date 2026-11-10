@@ -34,14 +34,16 @@ Open a PR on `devel` that changes only:
 - `DESCRIPTION`: `Version: X.Y.Z`;
 - `.zenodo.json`: creators and affiliations.
 
-Merge it after the export from step 2 has landed, so the release commit sits on top of the files to be deposited. No export may run between this merge and the tag.
+Merge it after the export from step 2 has landed, so the release commit sits on top of the files to be deposited. The weekly export runs on Sundays at 22:00 UTC; tag straight after the merge, or disable the workflow until the tag is pushed (`gh workflow disable export-bugphyzz.yml -R waldronlab/bugphyzzExports`, then `enable`).
 
 ## 5. Tag and publish
 
 ```sh
 git tag -a vX.Y.Z <merge-commit> -m "bugphyzz data vX.Y.Z"
 git push origin vX.Y.Z
-gh release create vX.Y.Z -R waldronlab/bugphyzzExports --title "bugphyzz vX.Y.Z" --notes-file <the NEWS section>
+# release notes: the vX.Y.Z section of NEWS.md, without its heading
+awk '/^## .*vX\.Y\.Z/{f=1; next} /^## /{f=0} f' NEWS.md > notes.md
+gh release create vX.Y.Z -R waldronlab/bugphyzzExports --title "bugphyzz vX.Y.Z" --notes-file notes.md
 ```
 
 Publishing the release makes the Zenodo deposit under the concept DOI 10.5281/zenodo.10980653 within a minute or two.
@@ -54,7 +56,7 @@ Download the zip from the new record. The three `bugphyzz_*.csv` files, `bugphyz
 bp <- bugphyzz::importBugphyzz(version = "10.5281/zenodo.<record>", forceDownload = TRUE)
 ```
 
-must return the same number of rows as `version = "devel"`. Put the record DOI in the NEWS heading here.
+must return the same number of rows as `version = "devel"`. Then, in a separate commit after the tag, replace "Zenodo DOI added after the release" in the NEWS heading with the record DOI.
 
 ## 7. Package
 
