@@ -101,7 +101,7 @@ The files are available under [Creative Commons Attribution 4.0 International](h
 
 Find this dataset on Zenodo (latest realease version): https://zenodo.org/doi/10.5281/zenodo.10980653 
 
-A release deposit holds the three `bugphyzz_*.csv` files and the GMT files. `bugphyzz_asr_dropped.csv.gz` stays on `devel`: it is the imputed annotations the validation thresholds removed, kept for threshold experiments (`bugphyzz::importBugphyzz(includeDroppedAsr = TRUE)`), not release data.
+A release deposit holds the three `bugphyzz_*.csv` files, the GMT files and `bugphyzz_asr_dropped.csv.gz`, the imputed annotations the validation rule or the Score cut-off removed. `bugphyzz::importBugphyzz()` reads the side file only when one of its thresholds is set below the export's (ADR 0006); at the defaults the three CSV files are the data.
 
 ## Versioning (recommended)
 

@@ -650,8 +650,8 @@ write.table(
     sep = ",", row.names = FALSE, append = TRUE, col.names = TRUE
 )
 
-## Not part of a release: the ASR annotations the thresholds removed, for
-## threshold experiments through importBugphyzz(includeDroppedAsr = TRUE)
+## The ASR annotations the attribute rule or the Score cut-off removed;
+## importBugphyzz() reads them when a threshold is set below the export's
 con <- gzfile("bugphyzz_asr_dropped.csv.gz", "w")
 cat(header, file = con)
 write.table(
