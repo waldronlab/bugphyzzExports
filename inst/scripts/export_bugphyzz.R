@@ -536,6 +536,11 @@ arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
         )
     )
 
+## the pairing above writes the FALSE side as "sensitive to X"; those names
+## must be in the vocabulary too, or importBugphyzz()'s data checks fail (#99)
+stop_on_unmapped(list(
+    `antimicrobial resistance` = mutate(arready, Attribute = Attribute_value)
+))
 propagated[["antimicrobial resistance"]] <- arready
 final_set <- propagated |>
     purrr::map(~ {
