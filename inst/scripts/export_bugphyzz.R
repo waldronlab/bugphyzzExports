@@ -586,6 +586,10 @@ stopifnot(!anyDuplicated(validation$.attr_key), !any(is.na(validation$value)))
 ## returns the kept rows and the ASR rows it removed, with their score.
 source("inst/scripts/filter_asr.R")
 split_set <- imap(final_set, function(df, attr_name) {
+    n_na <- sum(df$Evidence %in% "asr" & is.na(df$Score))
+    if (n_na > 0) {
+        log_print(paste0(attr_name, ": ", n_na, " ASR annotations have no Score and are dropped."))
+    }
     res <- filterAsr(df, validation, kappa_threshold, r2_threshold, score_threshold)
     log_print(paste0(
         attr_name, ": kept ", res$n_after, " of ", res$n_before,

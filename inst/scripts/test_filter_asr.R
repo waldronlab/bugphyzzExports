@@ -58,6 +58,10 @@ hab <- data.frame(Attribute = "habitat", Attribute_type = "multistate-union",
     Frequency = "always", Score = c(1, 1), stringsAsFactors = FALSE)
 res <- filterAsr(hab, validation, 0.7, 0.5, 0.5)
 stopifnot(nrow(res$kept) == 1, is.na(res$dropped$Validation))
+## an imputed row with NA Score fails the Score rule and goes to dropped
+na <- aero[2, ]; na$Score <- NA_real_
+res <- filterAsr(rbind(aero, na), validation, 0.7, 0.5, 0.5)
+stopifnot(nrow(res$dropped) == 2, any(is.na(res$dropped$Score)))
 ## empty input
 e <- filterAsr(aero[0, ], validation, 0.7, 0.5, 0.5)
 stopifnot(nrow(e$kept) == 0, nrow(e$dropped) == 0, e$n_before == 0)
