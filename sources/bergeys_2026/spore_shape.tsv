@@ -16,6 +16,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1849			Actinopolyspora	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00016
 1849			Actinopolyspora	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00016
 1862			Dermatophilus	coccus	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00073
+1873			Xiangella	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00148
+1873			Xiangella	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00148
 1995			Microtetraspora	bacillus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00201
 1995			Microtetraspora	coccus	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00201
 1995			Microtetraspora	elliptic	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00201

@@ -28,6 +28,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 109			Blastobacter	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00800
 118			Planctomyces	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00786
 118			Planctomyces	rosettes	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00786
+123			Pirellula	rosettes	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00785
 127			Isosphaera	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00784.pub2
 133			Methylocystis	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00832
 171			Leptospira	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01244.pub2
@@ -36,6 +37,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 194			Campylobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01071
 226			Alteromonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01089
 226			Alteromonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01089
+234			Brucella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00807
+234			Brucella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00807
+234			Brucella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00807
+234			Brucella	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00807
 237			Flavobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00312
 237			Flavobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00312
 265			Paracoccus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00860
@@ -56,6 +61,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 352			Azotobacter	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01207
 357			Agrobacterium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00842
 357			Agrobacterium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00842
+374			Bradyrhizobium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00799
 404			Methylobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00970.pub2
 404			Methylobacillus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00970.pub2
 407			Methylobacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00830.pub2
@@ -92,6 +98,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 517			Bordetella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00928
 517			Bordetella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00928
 517			Bordetella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00928
+528			Ochrobactrum	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00809
 532			Beijerinckia	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00795.pub2
 532			Beijerinckia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00795.pub2
 532			Beijerinckia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00795.pub2
@@ -107,6 +114,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 551			Erwinia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01146.pub2
 561			Escherichia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01147
 561			Escherichia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01147
+570			Klebsiella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01150
+570			Klebsiella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01150
+570			Klebsiella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01150
 626			Xenorhabdus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01173
 642			Aeromonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01081
 642			Aeromonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01081
@@ -114,6 +124,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 713			Actinobacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01197.pub2
 713			Actinobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01197.pub2
 713			Actinobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01197.pub2
+724			Haemophilus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01198
+745			Pasteurella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01201
+745			Pasteurella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01201
+745			Pasteurella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01201
+745			Pasteurella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01201
 768			Anaplasma	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00903
 773			Bartonella	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00794
 773			Bartonella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00794
@@ -125,6 +140,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 830			Butyrivibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00640
 841			Roseburia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00652
 841			Roseburia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00652
+862			Syntrophospora	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00682
+862			Syntrophospora	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00682
+862			Syntrophospora	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00682
 864			Pectinatus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
 864			Pectinatus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
 864			Pectinatus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00699
@@ -136,6 +154,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 898			Desulfomicrobium	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01032.pub2
 898			Desulfomicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01032.pub2
 904			Acidaminococcus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00687
+906			Megasphaera	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00690
+906			Megasphaera	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00690
 914			Nitrosomonas	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00991
 914			Nitrosomonas	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00991
 914			Nitrosomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00991
@@ -236,8 +256,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1386			Bacillus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
 1386			Bacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
 1386			Bacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00530.pub2
+1562			Desulfotomaculum	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00661
+1562			Desulfotomaculum	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00661
 1567			Quinella	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00703
 1567			Quinella	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00703
+1578			Lactobacillus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00604
 1637			Listeria	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00547
 1637			Listeria	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00547
 1637			Listeria	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00547
@@ -334,6 +357,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2077			Sporolactobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00565
 2077			Sporolactobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00565
 2086			Anaeroplasma	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01257
+2093			Mycoplasma	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01266
 2132			Spiroplasma	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01262.pub2
 2132			Spiroplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01262.pub2
 2160			Methanobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00495
@@ -390,6 +414,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2319			Methanopyrus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00520.pub2
 2321			Methanohalobium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00515.pub2
 2321			Methanohalobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00515.pub2
+2335			Thermotoga	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01273
+2335			Thermotoga	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01273
 2349			Haliscomenobacter	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00357
 2349			Haliscomenobacter	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00357
 2357			Desulfomonile	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01062.pub2
@@ -397,6 +423,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2368			Arhodomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01127
 2370			Xylella	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01240
 2370			Xylella	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01240
+2420			Thermosipho	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01272
+2420			Thermosipho	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01272
+2420			Thermosipho	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01272
 2422			Fervidobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
 2422			Fervidobacterium	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
 2422			Fervidobacterium	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01269.pub2
@@ -416,6 +445,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2740			Peptococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00663
 2740			Peptococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00663
 2740			Peptococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00663
+2745			Halomonas	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01190
 2747			Carnobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00593
 2747			Carnobacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00593
 2747			Carnobacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00593
@@ -463,6 +493,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28233			Geotoga	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01270.pub2
 28233			Geotoga	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01270.pub2
 28233			Geotoga	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01270.pub2
+28236			Petrotoga	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01271
+28236			Petrotoga	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01271
+28236			Petrotoga	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01271
 28261			Thermodesulfovibrio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00781
 28261			Thermodesulfovibrio	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00781
 28263			Arcanobacterium	v-formation	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00013.pub2
@@ -486,6 +519,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29465			Veillonella	cell cluster	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00710
 29465			Veillonella	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00710
 29487			Photorhabdus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01159
+29521			Brachyspira	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01241
+29521			Brachyspira	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01241
 29526			Syntrophobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01068.pub2
 29526			Syntrophobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01068.pub2
 29526			Syntrophobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01068.pub2
@@ -500,6 +535,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 31983			Helcococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00715
 31983			Helcococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00715
 31983			Helcococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00715
+31988			Chelatobacter	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00844
+32008			Burkholderia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00935
+32008			Burkholderia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00935
 32014			Iodobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00978
 32014			Iodobacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00978
 32014			Iodobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00978
@@ -578,9 +616,15 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 38501			Blastococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00043.pub2
 38501			Blastococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00043.pub2
 38501			Blastococcus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00043.pub2
+39773			Methylomicrobium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01182
+39773			Methylomicrobium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01182
 39840			Desulforhabdus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01066.pub2
 39840			Desulforhabdus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01066.pub2
 39840			Desulforhabdus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01066.pub2
+39948			Dialister	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00688
+39948			Dialister	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00688
+40222			Methylophaga	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01218
+40222			Methylophaga	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01218
 40323			Stenotrophomonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01237
 40323			Stenotrophomonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01237
 40413			Desulforhopalus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01026.pub2
@@ -592,6 +636,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 41273			Tissierella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00721.pub2
 41273			Tissierella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00721.pub2
 41273			Tissierella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00721.pub2
+42054			Chromohalobacter	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01189
+42054			Chromohalobacter	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01189
+42054			Chromohalobacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01189
 42232			Spirilliplanes	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00152
 42447			Anaerobranca	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00727
 42837			Ammonifex	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00744
@@ -615,6 +662,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 44258			Caloramator	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616
 44258			Caloramator	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00616
 44471			Microcoleus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00440
+44675			Geothrix	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00005
+44675			Geothrix	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00005
 44748			Sporobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00679
 44748			Sporobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00679
 44937			Achromatium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01222
@@ -640,8 +689,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 46200			Geovibrio	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00474
 46200			Geovibrio	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00474
 46238			Entomoplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01260.pub3
+46239			Mesoplasma	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01261
 46254			Oenococcus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00608
 46254			Oenococcus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00608
+46255			Weissella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00609
+46255			Weissella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00609
 46352			Agrococcus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
 46352			Agrococcus	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
 46352			Agrococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00092
@@ -705,6 +757,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 54066			Xylophilus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00961
 54115			Methylosphaera	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01185
 54115			Methylosphaera	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01185
+54249			Thermodiscus	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00392
 54253			Thermosphaera	cell chain	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
 54253			Thermosphaera	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
 54253			Thermosphaera	paired cells	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00393
@@ -742,6 +795,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 59282			Blastochloris	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00815.pub2
 59282			Blastochloris	rosettes	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00815.pub2
 59613			Skermania	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00034
+59732			Chryseobacterium	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00301
 60846			Halogeometricum	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00486.pub2
 60892			Desulfobacca	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01061.pub2
 60892			Desulfobacca	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01061.pub2
@@ -778,6 +832,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 68903			Terracoccus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00088
 68903			Terracoccus	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00088
 69278			Defluvibacter	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00837
+69578			Cryobacterium	branched	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00095
 69894			Tindallia	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00625
 69894			Tindallia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00625
 69894			Tindallia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00625
@@ -815,6 +870,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 76886			Caldivirga	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00405
 76890			Asticcacaulis	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00790
 77021			Cylindrospermopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00456
+78553			Alterococcus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01134
+78553			Alterococcus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01134
 79328			Chitinophaga	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00354
 79598			Heliorestis	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00636
 80865			Delftia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00946
@@ -925,6 +982,9 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 109262			Halothiobacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01133
 109262			Halothiobacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01133
 110103			Anabaenopsis	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00453
+110932			Diaminobutyricibacter	branched	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00102
+110932			Diaminobutyricibacter	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00102
+110932			Diaminobutyricibacter	v-formation	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00102
 110934			Agreia	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00091
 111500			Muricauda	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00327.pub2
 111500			Muricauda	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00327.pub2
@@ -947,11 +1007,15 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 118747			Bulleidia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00760
 118747			Bulleidia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00760
 119852			Oscillospira	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00676
+120212			Subtercola	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00115
+120212			Subtercola	v-formation	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00115
 120652			Methylocella	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00797.pub2
 120652			Methylocella	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00797.pub2
 120831			Dyadobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00262
 120831			Dyadobacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00262
 120961			Roseiflexus	filamentous	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01762
+121820			Roseinatronobacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00865
+121820			Roseinatronobacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00865
 122277			Pectobacterium	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01158.pub2
 122277			Pectobacterium	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01158.pub2
 122277			Pectobacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm01158.pub2
@@ -993,6 +1057,10 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 150022			Finegoldia	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00713
 150022			Finegoldia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00713
 150022			Finegoldia	tetrads	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00713
+150203			Erythromonas	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00918
+150203			Erythromonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00918
+150203			Erythromonas	rosettes	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00918
+150203			Erythromonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00918
 150247			Anoxybacillus	cell chain	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00529
 150247			Anoxybacillus	paired cells	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00529
 150333			Thermobrachium	branched	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00623
@@ -1058,8 +1126,13 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 177971			Shuttleworthia	palisade	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00653
 177971			Shuttleworthia	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00653
 182402			Rubritepida	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01457
+182639			Kribbella	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00157
+182639			Kribbella	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00157
+182639			Kribbella	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00157
 184923			Methylocapsa	cell cluster	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01402
 184923			Methylocapsa	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01402
+186188			Xylanimonas	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00132
+186188			Xylanimonas	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00132
 186191			Marinithermus	filamentous	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01564
 186191			Marinithermus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01564
 190323			Plantibacter	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00110
@@ -1125,6 +1198,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 214904			Tepidibacter	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669
 214904			Tepidibacter	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669
 214904			Tepidibacter	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00669
+216851			Faecalibacterium	single	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00674
 218204			Garciella	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00630
 218204			Garciella	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00630
 218207			Desulfatibacillum	cell cluster	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01583
@@ -1216,6 +1290,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 306539			Halolactibacillus	cell chain	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
 306539			Halolactibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
 306539			Halolactibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00536
+308865			Elizabethkingia	filamentous	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00308
+308865			Elizabethkingia	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00308
 312278			Emticicia	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00264
 312278			Emticicia	single	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00264
 317661			Quadrisphaera	tetrads	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00055
@@ -1263,6 +1339,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 423604			Elusimicrobium	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01490
 427077			Salsuginibacillus	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01794
 427077			Salsuginibacillus	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01794
+427753			Humibacter	v-formation	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00100
 429014			Desulfopila	paired cells	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01592
 429014			Desulfopila	single	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm01592
 435913			Fodinicola	branched	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00041.pub2

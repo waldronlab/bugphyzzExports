@@ -351,6 +351,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29465			Veillonella	gc content	36.0-44.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00710
 29487			Photorhabdus	gc content	43.0-45.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01159
 29521			Brachyspira	gc content	24.6-27.5	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01241.pub2
+29526			Syntrophobacter	gc content	57.0-61.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01068
 29548			Rhodothermus	gc content	64.0-66.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00282
 29574			Taylorella	gc content	36.5	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00934
 29580			Janthinobacterium	gc content	61.0-67.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00964
@@ -601,6 +602,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 68288			Cyclobacterium	gc content	41.0-45.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00256
 68335			Coprothermobacter	gc content	42.5-44.8	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00752.pub2
 68903			Terracoccus	gc content	73.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00088
+69278			Defluvibacter	gc content	59.0-65.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00836
 69474			Orientia	gc content	28.1-30.5	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00915
 69578			Cryobacterium	gc content	65.0-70.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00095.pub2
 69894			Tindallia	gc content	37.6-44.4	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00625
@@ -1175,6 +1177,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 444599			Hansschlegelia	gc content	67.0-69.4	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm02082
 445670			Thiohalophilus	gc content	57.4	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01693
 447020			Adlercreutzia	gc content	62.0-65.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01946
+447237			Frondihabitans	gc content	71.0-72.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00098
 448176			Granulicoccus	gc content	69.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00163
 449972			Chelativorans	gc content	60.8-64.3	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01709
 451512			Mangrovibacter	gc content	50.1-52.0	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01701
@@ -1308,6 +1311,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 935200			Sulfuricella	gc content	56.1	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01704
 940557			Granulicella	gc content	57.3-62.1	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01424
 946234			Flavonifractor	gc content	56.0-61.6	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01733
+947525			Miniimonas	gc content	74.2	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm00057
 984996			Mobilicoccus	gc content	69.8-71.9	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm02031
 985001			Piscicoccus	gc content	71.8	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm02041
 999488			Paenochrobactrum	gc content	48.5-49.7	Bergeys_2026	always	mol%	10.1002/9781118960608.gbm01406

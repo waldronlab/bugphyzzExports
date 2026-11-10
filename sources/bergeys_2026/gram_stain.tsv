@@ -20,8 +20,11 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 105			Runella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00273
 107			Spirosoma	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00274
 109			Blastobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00800
+113			Gemmata	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00783
 118			Planctomyces	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00786
+123			Pirellula	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00785
 127			Isosphaera	gram stain variable	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00784.pub2
+138			Borrelia	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01246
 157			Treponema	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01249
 171			Leptospira	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01244.pub2
 179			Leptospirillum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00779
@@ -144,6 +147,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1068			Rhodomicrobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00825.pub2
 1070			Rhodopila	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00886.pub2
 1073			Rhodopseudomonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00806
+1081			Rhodospirillum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00897
 1091			Chlorobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00374
 1099			Pelodictyon	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00376
 1101			Prosthecochloris	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00377
@@ -208,6 +212,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 1847			Pseudonocardia	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00184
 1849			Actinopolyspora	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00016
 1851			Saccharomonospora	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00185
+1854			Frankia	gram stain positive	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00042
+1854			Frankia	gram stain variable	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00042
 1860			Geodermatophilus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00044.pub2
 1862			Dermatophilus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00073
 1865			Actinoplanes	gram stain negative	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00139
@@ -237,21 +243,29 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2071			Saccharothrix	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00187
 2077			Sporolactobacillus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00565
 2086			Anaeroplasma	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01257
+2093			Mycoplasma	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01263
 2160			Methanobacterium	gram stain positive	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00495
 2172			Methanobrevibacter	gram stain positive	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00496.pub2
 2175			Methanohalophilus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00516
 2179			Methanothermus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00499.pub2
 2192			Methanocorpusculum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00504.pub2
 2195			Methanogenium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00507.pub2
+2202			Methanospirillum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00511
 2204			Methanomicrobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00509.pub2
 2207			Methanosarcina	gram stain variable	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00519.pub2
 2220			Methanolobus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00517.pub2
 2222			Methanothrix	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00513.pub2
 2233			Archaeoglobus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00479
 2237			Haloarcula	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00481.pub2
+2239			Halobacterium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00482
 2249			Halococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00484.pub2
 2251			Haloferax	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00485.pub2
+2256			Natronobacterium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00491
 2260			Pyrococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00521
+2268			Thermofilum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00403
+2273			Desulfurococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00387
+2276			Pyrobaculum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00406
+2279			Staphylothermus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00389
 2284			Sulfolobus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00400
 2289			Desulfobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01011.pub2
 2295			Desulfobacterium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01012.pub2
@@ -262,6 +276,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2319			Methanopyrus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00520.pub2
 2321			Methanohalobium	gram stain variable	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00515.pub2
 2330			Halanaerobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00733
+2335			Thermotoga	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01273
 2349			Haliscomenobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00357
 2351			Flexistipes	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00473
 2357			Desulfomonile	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01062.pub2
@@ -270,6 +285,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 2373			Acetonema	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00686
 2375			Sporomusa	gram stain negative	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00706
 2375			Sporomusa	gram stain positive	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00706
+2420			Thermosipho	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01272
 2422			Fervidobacterium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01269.pub2
 2433			Roseobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00867
 2701			Gardnerella	gram stain negative	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00020
@@ -316,6 +332,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28228			Colwellia	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01090
 28231			Geobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01043
 28233			Geotoga	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01270.pub2
+28236			Petrotoga	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01271
 28250			Ornithobacterium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00331
 28253			Marinomonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01193
 28261			Thermodesulfovibrio	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00781
@@ -325,6 +342,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 28884			Hydrogenovibrio	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01217
 28895			Thermoanaerobacterium	gram stain negative	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00755
 28905			Caedibacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01808
+29287			Natronococcus	gram stain variable	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00492
 29298			Planobispora	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00203
 29330			Alicyclobacillus	gram stain negative	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00526
 29330			Alicyclobacillus	gram stain positive	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00526
@@ -335,6 +353,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 29407			Rhodoplanes	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00826.pub2
 29465			Veillonella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00710
 29487			Photorhabdus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01159
+29521			Brachyspira	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01241
 29526			Syntrophobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01068.pub2
 29548			Rhodothermus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00282
 29574			Taylorella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00934
@@ -343,6 +362,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 31980			Acetitomaculum	gram stain positive	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00637
 31983			Helcococcus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00715
 31988			Chelatobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00845
+32008			Burkholderia	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00935
 32012			Thiomonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00960
 32014			Iodobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00978
 32067			Leptotrichia	gram stain negative	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00771.pub2
@@ -374,6 +394,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 34000			Acidomonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00880
 34008			Rhodovulum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00863
 34016			Rhodobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00849
+34023			Rhodocista	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00895
 34037			Rahnella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01164.pub2
 34067			Cycloclasticus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01216
 34069			Telluria	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00967
@@ -402,6 +423,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 37914			Dietzia	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00028
 37924			Thermocrispum	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00189
 38501			Blastococcus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00043.pub2
+39773			Methylomicrobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01182
 39840			Desulforhabdus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01066.pub2
 39845			Actinokineospora	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00174
 39948			Dialister	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00696
@@ -433,6 +455,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 43673			Jonesia	gram stain positive	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00090
 43676			Promicromonospora	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00130
 43773			Syntrophus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01064.pub2
+43927			Halobaculum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00483
 43947			Tolumonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01083
 43994			Johnsonella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00645
 43996			Catonella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00641
@@ -526,6 +549,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 56112			Dehalobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00657
 56358			Sandaracinobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00923
 56433			Couchioplanes	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00143
+56635			Aeropyrum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00386
 56688			Halorubrum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00487.pub2
 56999			Amaricoccus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00851
 57039			Malonomonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01041
@@ -559,6 +583,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 61593			Thiorhodovibrio	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01125
 61653			Methylopila	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00834.pub2
 62608			Thermocladium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00407
+63742			Natrialba	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00489
 63743			Natronomonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00493.pub2
 63958			Demetria	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00070
 64001			Nevskia	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01233
@@ -674,12 +699,16 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 85078			Thiococcus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01117
 85079			Thiohalocapsa	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01121
 85108			Halorhodospira	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01129
+85265			Phaeospirillum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00894
+85273			Rhodothalassium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00875
 85274			Rhodovibrio	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00898
 86004			Pasteuria	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00555
 86331			Mogibacterium	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00726
+86671			Roseospira	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00899
 86795			Marmoricola	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00158
 88138			Modestobacter	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00045.pub2
 88358			Thermodesulforhabdus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01069.pub2
+88723			Natrinema	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00490
 89092			Ignavigranum	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00586
 89342			Desulfocella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01015.pub2
 89404			Glaciecola	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01092
@@ -752,6 +781,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 120831			Dyadobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00262
 120961			Roseiflexus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01762
 121038			Ferrimicrobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00008
+121820			Roseinatronobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00865
+121871			Haloterrigena	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00488
 122277			Pectobacterium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01158.pub2
 123375			Solobacterium	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00765
 125216			Roseomonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00888
@@ -764,6 +795,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 130795			Crossiella	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00177
 133925			Olsenella	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00220
 134550			Candidatus Xiphinematobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01280
+134813			Natronorubrum	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00494
 135575			Idiomarina	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01093
 135858			Catenibacterium	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00761
 136099			Knoellia	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00079
@@ -852,6 +884,8 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 180541			Salinisphaera	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01423
 182402			Rubritepida	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01457
 182623			Smithella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01063.pub2
+182639			Kribbella	gram stain positive	TRUE	Bergeys_2026	usually	10.1002/9781118960608.gbm00157
+182639			Kribbella	gram stain variable	TRUE	Bergeys_2026	sometimes	10.1002/9781118960608.gbm00157
 182709			Oceanobacillus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00539
 183669			Macromonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00949
 184869			Varibaculum	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00015
@@ -1001,6 +1035,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 288018			Yeosuana	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00351
 288021			Kordiimonas	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01916
 289201			Pontibacillus	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00541
+290180			Roseivirga	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00276
 290184			Cryptanaerobacter	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00656
 291178			Subsaximicrobium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00344
 291181			Subsaxibacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00343
@@ -1031,6 +1066,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 317661			Quadrisphaera	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00055
 319458			Leadbetterella	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00269
 321315			Sphaerisporangium	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00206
+323449			Pontibacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00263
 326319			Krokinobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00320
 329857			Cohnella	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00551
 331525			Kribbia	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00080
@@ -1130,6 +1166,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 457933			Elioraea	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01458
 458032			Chloracidobacterium	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01534
 458839			Actinotalea	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00066
+466152			Singulisphaera	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00789
 467975			Iamia	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00010
 468938			Cerasicoccus	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01276
 471798			Shimazuella	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00574
@@ -1189,6 +1226,7 @@ NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_so
 647960			Marinactinospora	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01755
 651456			Kosmotoga	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01863
 651553			Haloglycomyces	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01756
+656899			Schlesneria	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm00788
 658623			Chelonobacter	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01844
 665568			Paraoerskovia	gram stain positive	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm02018
 666508			Phycisphaera	gram stain negative	TRUE	Bergeys_2026	always	10.1002/9781118960608.gbm01507
