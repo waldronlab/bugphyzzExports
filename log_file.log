@@ -4,16 +4,16 @@ Program Path: /__w/bugphyzzExports/bugphyzzExports/inst/scripts/export_bugphyzz.
 Working Directory: /__w/bugphyzzExports/bugphyzzExports 
 User Name: root 
 R Version: 4.6.1 (2026-06-24) 
-Machine: f1ceb0d77428 x86_64 
+Machine: 38acd68f346a x86_64 
 Operating System: Linux 7.0.0-1019-azure #20-Ubuntu SMP PREEMPT Mon Oct 19 22:41:16 UTC 2026 
 Base Packages: stats graphics grDevices utils datasets methods base 
-Other Packages: purrr_1.2.2 castor_1.8.7 Rcpp_1.1.2 phytools_2.5-2 maps_3.4.4 ape_5.8-1 tibble_3.3.1 tidyr_1.3.2 dplyr_1.2.1 rlang_1.3.0 taxPPro_1.0.1 bugphyzz_1.7.15 logr_1.4.1 common_1.1.5 
-Log Start Time: 2026-11-10 02:52:27.281268 
+Other Packages: purrr_1.2.2 castor_1.8.7 Rcpp_1.1.2 phytools_2.5-2 maps_3.4.4 ape_5.8-1 tibble_3.3.1 tidyr_1.3.2 dplyr_1.2.1 rlang_1.3.0 taxPPro_1.0.1 bugphyzz_1.7.16 logr_1.4.1 common_1.1.5 
+Log Start Time: 2026-11-10 13:34:17.308936 
 ========================================================================= 
 Importing 30 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, gc content, animal pathogen, antimicrobial sensitivity, biofilm formation, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis" 
 
    user  system elapsed 
- 33.135   0.993  77.408 
+ 26.835   0.696  71.785 
 
 gram stain: dropped 1 BacMap row(s) for Bacteroides vulgatus ATCC 8482 (435590): Bacteroides (now Phocaeicola) vulgatus is Gram negative (waldronlab/bugphyzz#260) 
 gram stain: dropped 1 BacMap row(s) for Parabacteroides distasonis ATCC 8503 (435591): Bacteroidota are Gram negative (waldronlab/bugphyzz#260) 
@@ -635,86 +635,86 @@ The following NCBI IDs might need to be updated:
 The following attributes are not valid and have been dropped: 
 Propagating aerophilicity of type multistate-intersection. 
    user  system elapsed 
-277.770   0.033 277.841 
+192.299   0.009 192.326 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-408.121   0.030 408.188 
+279.228   0.009 279.261 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-350.064   0.035 350.130 
+233.296   0.012 233.324 
 Propagating arrangement of type multistate-intersection. 
    user  system elapsed 
-496.931   0.066 497.050 
+350.152   0.034 350.210 
 Propagating biofilm formation of type binary. 
 Not enough data for ASR for biofilm formation. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-317.045   0.024 317.094 
+224.838   0.015 224.869 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  0.833   0.000   0.835 
+  0.513   0.001   0.517 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-321.520   0.044 321.605 
+224.041   0.012 224.073 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-352.369   0.042 352.449 
+244.724   0.013 244.756 
 Propagating gc content of type range. 
    user  system elapsed 
-  0.449   0.000   0.449 
+   0.26    0.00    0.26 
 Propagating genome size of type range. 
    user  system elapsed 
-  0.839   0.000   0.840 
+  0.532   0.000   0.532 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-318.677   0.013 318.713 
+230.726   0.006 230.753 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  0.841   0.000   0.840 
+  0.481   0.000   0.480 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
    user  system elapsed 
-355.922   0.014 355.961 
+252.853   0.007 252.880 
 Propagating host-associated of type binary. 
    user  system elapsed 
-256.066   0.005 256.088 
+178.111   0.009 178.134 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-   1.73    0.00    1.73 
+  1.008   0.000   1.008 
 Propagating motility of type binary. 
    user  system elapsed 
-400.388   0.038 400.459 
+281.062   0.012 281.095 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  2.056   0.000   2.057 
+  1.288   0.000   1.288 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-326.514   0.007 326.543 
+227.973   0.012 228.004 
 Propagating shape of type multistate-intersection. 
    user  system elapsed 
-491.166   0.039 491.239 
+367.294   0.020 367.343 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-275.453   0.011 275.483 
+196.704   0.012 196.732 
 Propagating spore shape of type multistate-intersection. 
    user  system elapsed 
-343.619   0.012 343.650 
+242.842   0.014 242.875 
 Propagating width of type range. 
    user  system elapsed 
-  1.739   0.000   1.739 
+  1.072   0.000   1.071 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 7 of 269 taxon IDs. The followings are left unrankd: 488538, 342610, 85643, 338187, 62153, 395568, 52765 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 4 of 507 taxon IDs. The followings are left unrankd: 866775, 1183401, 741091, 190486 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 8 of 215 taxon IDs. The followings are left unrankd: 665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139 
@@ -1187,7 +1187,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  bit                 4.6.0      2025-03-06 [1] RSPM (R 4.6.0)
  bit64               4.8.6      2026-09-01 [1] RSPM (R 4.6.0)
  blob                1.3.0      2026-01-14 [1] RSPM (R 4.6.0)
- bugphyzz          * 1.7.15     2026-11-10 [1] Github (waldronlab/bugphyzz@a7da249)
+ bugphyzz          * 1.7.16     2026-11-10 [1] Github (waldronlab/bugphyzz@60b1483)
  bugsigdbr           1.19.0     2026-04-28 [1] Bioconductor 3.24 (R 4.6.1)
  cachem              1.1.0      2024-05-16 [1] RSPM (R 4.6.0)
  castor            * 1.8.7      2026-08-04 [1] RSPM (R 4.6.0)
@@ -1268,6 +1268,6 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
 ──────────────────────────────────────────────────────────────────────────────
 
 ========================================================================= 
-Log End Time: 2026-11-10 04:28:36.751288 
-Log Elapsed Time: 0 01:36:09 
+Log End Time: 2026-11-10 14:42:28.674332 
+Log Elapsed Time: 0 01:08:11 
 ========================================================================= 
