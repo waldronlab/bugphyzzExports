@@ -2,7 +2,7 @@
 
 Changes to the data pipeline and the exported files, newest first. Released data versions are on Zenodo (concept DOI 10.5281/zenodo.10980653); the `devel` branch holds the weekly export.
 
-## 2026-11-10, v1.1.0 (Zenodo DOI added after the release)
+## 2026-11-10, v1.1.0 (Zenodo 10.5281/zenodo.24114812)
 
 - **GMT signature names all start with `bugphyzz:`** (waldronlab/bugphyzz#256): discrete signatures were named `bugphyz:`; code that matched the old prefix needs updating.
 - **Vocabulary check after the AMR pairing** (#99): the export now stops if a `sensitive to X` value it writes is not in bugphyzz's `attributes.tsv`; three such values and the `butyrate-producing bacteria` group name are added in bugphyzz 1.7.16.
