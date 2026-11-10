@@ -20,34 +20,7 @@ suppressMessages({
     library(purrr)
 })
 
-## Stop on discrete attribute values that are not in bugphyzz's vocabulary
-## (attributes.tsv). physiologies() has already mapped source terms with
-## bugphyzz's attribute_synonyms.tsv; anything left would be dropped by
-## taxPPro::filterData() with only a line in the log (#65).
-stop_on_unmapped <- function(phys) {
-    ## read exactly as taxPPro::filterDataDiscrete() reads it, so the two agree
-    fname <- system.file("extdata", "attributes.tsv", package = "bugphyzz")
-    if (!nzchar(fname)) stop("bugphyzz's attributes.tsv not found", call. = FALSE)
-    vocab <- utils::read.table(fname, sep = "\t", header = TRUE)
-    discrete <- c("binary", "multistate-intersection", "multistate-union")
-    bad <- character(0)
-    for (g in names(phys)) {
-        df <- phys[[g]]
-        if (!unique(df$Attribute_type)[1] %in% discrete) next
-        rgx <- paste0("\\b", g, "\\b")
-        valid <- vocab$attribute[grepl(rgx, vocab$attribute_group)]
-        x <- setdiff(unique(df$Attribute), c(valid, NA))
-        if (length(x))
-            bad <- c(bad, paste0(g, ": ", paste0(x, collapse = " | ")))
-    }
-    if (length(bad))
-        stop(
-            "Attribute values not in bugphyzz's vocabulary; map them in ",
-            "bugphyzz's inst/extdata/attribute_synonyms.tsv:\n",
-            paste0(bad, collapse = "\n"), call. = FALSE
-        )
-    invisible(phys)
-}
+source("inst/scripts/stop_on_unmapped.R")
 
 logfile <- "log_file"
 lf <- log_open(logfile, logdir = FALSE, compact = TRUE, show_notes = FALSE)
@@ -536,6 +509,20 @@ arready <- purrr::map(arl, ~ getDataReady(filterData(.x))) |>
         )
     )
 
+## the pairing above writes the FALSE side as "sensitive to X"; those names
+## must be in the vocabulary too, or importBugphyzz()'s data checks fail (#99).
+## The case_when() above has no default, so an unexpected suffix would give NA,
+## which the vocabulary check ignores; stop on that instead.
+if (anyNA(arready$Attribute_value)) {
+    stop(
+        sum(is.na(arready$Attribute_value)),
+        " antimicrobial resistance rows have no Attribute_value after pairing.",
+        call. = FALSE
+    )
+}
+stop_on_unmapped(list(
+    `antimicrobial resistance` = mutate(arready, Attribute = Attribute_value)
+))
 propagated[["antimicrobial resistance"]] <- arready
 final_set <- propagated |>
     purrr::map(~ {
