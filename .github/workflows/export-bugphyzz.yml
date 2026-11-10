@@ -33,6 +33,11 @@ jobs:
           stopifnot(requireNamespace("bugphyzz", quietly = TRUE), requireNamespace("bugphyzzExports", quietly = TRUE))
         shell: Rscript {0}
 
+      - name: Test the export's helper scripts
+        run: |
+          Rscript inst/scripts/test_filter_asr.R
+          Rscript inst/scripts/test_sheet_overrides.R
+
       - name: Generate exports
         run: |
           rm -f ./*.gmt ./*.csv ./*.csv.gz

@@ -28,7 +28,7 @@ ADR 0001 keeps an imputed (ASR) value when that value's cross-validated MCC is a
    - `kappaThreshold` (default 0.7) replaces the per-value `mccThreshold`, and `r2Threshold` (default 0.5) now applies per attribute;
    - thresholds below the export's defaults make `importBugphyzz()` load the imputations from `bugphyzz_asr_dropped.csv.gz` automatically, so `includeDroppedAsr` is removed.
 
-   `bugphyzz_asr_dropped.csv.gz` holds every imputation left out of the main files: those of attributes that fail decision 4 and those with Score below 0.5. Per-attribute kappa and R² come from `validation_summary.tsv` in bugphyzz, as MCC does now.
+   `bugphyzz_asr_dropped.csv.gz` holds every imputation left out of the main files: those of attributes that fail decision 4 and those with Score below 0.5. Per-attribute kappa and R² come from `validation_attributes.tsv` in bugphyzz (waldronlab/taxPProValidation#13); per-state precision is in `validation_states.tsv`.
 6. The release notes report, for each imputed attribute, the precision of each state on the held-out folds, distance-matched, with the number of held-out predictions.
 
 Ordered scales declared now: aerophilicity (aerobic, facultatively anaerobic, anaerobic), gram stain (negative, variable, positive), biosafety level (1, 2, 3), COGEM pathogenicity rating (1, 2, 3).
@@ -66,7 +66,7 @@ The effective sample size of the weighted held-out tips is 97% to 98% of their n
 - Aerophilicity gains aerobic and facultatively anaerobic imputations (about 10,000 rows instead of about 1,200); gram stain gains "variable". COGEM pathogenicity rating loses all imputations (about 22,000 rows).
 - Weak minority states are imputed with their attribute: facultatively anaerobic (precision about 0.59) and gram stain variable (about 0.22, 27 held-out predictions).
 - The 0.7 threshold is kept from ADR 0001, where it was set for MCC. It is a default: on the evidence above and given the ordinal weighting, the decisions do not depend on it, and users can choose another (decision 5). For binary attributes |kappa| ≤ |MCC|, with equality when the predicted and curated distributions of states match.
-- waldronlab/taxPProValidation must report distance-matched kappa (weighted for ordered attributes) per attribute and fold. Until it does, the export cannot apply this rule from `validation_summary.tsv`.
+- waldronlab/taxPProValidation reports distance-matched kappa (weighted for ordered attributes) per attribute and fold in `validation_attributes.tsv` (#13); the export applies the rule from the copy in the installed bugphyzz (bugphyzzExports#97).
 - `importBugphyzz()` arguments change as in decision 5. `excludeRarely` is in Bioconductor 3.23 and goes through the deprecation cycle; `mccThreshold` and `includeDroppedAsr` have not been released and are removed without one.
 - Release counts no longer match the manuscript.
 
