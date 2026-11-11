@@ -214,8 +214,13 @@ for (i in seq_along(propagated)) {
                 )
                 log_print(msg)
 
-                if (attr_type == "multistate-union") {
+                ## same columns as the propagated branch below
+                if (attr_type == "multistate-intersection") {
                     dat <- dat |>
+                        mutate(
+                            Attribute_group = attr_grp,
+                            Attribute_type = attr_type
+                        ) |>
                         rename(Attribute_value = Attribute) |>
                         mutate(Attribute = Attribute_group) |>
                         relocate(
