@@ -1,0 +1,23 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+1386			Bacillus	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus; wikidata Q212032
+1458			Metabacillus fastidiosus	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Metabacillus_fastidiosus; wikidata Q12062573
+1459			Sporosarcina globispora	coccus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sporosarcina_globispora; wikidata Q15622272
+1493			Clostridium cellulovorans	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_cellulovorans; wikidata Q3681038
+1509			Clostridium sporogenes	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_sporogenes; wikidata Q2979669
+1520			Clostridium beijerinckii	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_beijerinckii; wikidata Q3681018
+1865			Actinoplanes	coccus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinoplanes; wikidata Q16825162
+1954			Streptomyces brasiliensis	coccus	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptomyces_brasiliensis; wikidata Q22287028
+1954			Streptomyces brasiliensis	elliptic	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptomyces_brasiliensis; wikidata Q22287028
+47490			Thermoanaerobacterium aotearoense	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacterium_aotearoense; wikidata Q3990309
+77523			Caldalkalibacillus horti	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_horti; wikidata Q18355969
+84406			Virgibacillus	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus; wikidata Q16993429
+85558			Streptomyces turgidiscabies	bacillus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_turgidiscabies; wikidata Q16992822
+86664			Priestia flexa	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Priestia_flexa; wikidata Q21399893
+92644			Streptomyces malaysiensis	bacillus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_malaysiensis; wikidata Q16992810
+135826			Jeotgalibacillus alimentarius	coccus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalibacillus_alimentarius; wikidata Q15631284
+160795			Ureibacillus	coccus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ureibacillus; wikidata Q15616678
+164115			Streptomyces niveiscabiei	bacillus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_niveiscabiei; wikidata Q18385825
+205328			Clostridium lacusfryxellense	coccus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_lacusfryxellense; wikidata Q3681096
+361280			Tigheibacillus halophilus	coccus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_halophilus; wikidata Q26306689
+545501			Oceanobacillus oncorhynchi	elliptic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_oncorhynchi; wikidata Q16986750
+995060			Actinopolyspora lacussalsi subsp. righensis	bacillus	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinopolyspora_righensis; wikidata Q16825174

@@ -629,7 +629,7 @@ numeric_data <- numeric_data |>
 
 # Export CSV --------------------------------------------------------------
 header <- paste0("# bugphyzz ", Sys.Date(),
-                 ", License: Creative Commons Attribution 4.0 International",
+                 ", License: Creative Commons Attribution-ShareAlike 4.0 International",
                  ", URL: https://waldronlab.io/bugphyzz\n")
 
 cat(header, file = 'bugphyzz_multistate.csv')
