@@ -82,9 +82,9 @@ Pathogenicity and host association have no high-confidence reference. BacDive re
 
 ## What it adds
 
-`analysis/added.R` (curated data) and `analysis/compare_exports.R` (two full runs of `export_bugphyzz.R` on supermicro, with and without this source, bugphyzz 1.7.17 and taxPPro 1.0.1).
+`analysis/added.R` (curated data) and `analysis/compare_exports.R` (two full runs of `export_bugphyzz.R` on supermicro, with and without this source, bugphyzz 1.7.17 and taxPPro 1.0.1). The export runs predate the three classes, which the export does not include, and the `skin` and `intertidal zone` habitat terms (70 rows), so the habitat counts of the export are 70 rows short.
 
-Curated data (first pass, before the classes and the two habitat terms; with them the source has 26,485 rows for 7,968 taxa): 7,859 taxa get at least one row; 378 of them have no curated row of any physiology in bugphyzz (325 genera, 51 species, 2 below species) and 67 more are species known only through their strains. Of 24,907 rows, 13,904 are for a taxon with no curated value of that physiology at its own rank. Habitat is the largest part: 6,062 of 6,162 habitat rows are a term bugphyzz does not have for that taxon, and 4,507 of 5,200 taxa have no habitat at all.
+Curated data: 7,968 taxa get at least one row; 386 of them have no curated row of any physiology in bugphyzz (332 genera, 52 species, 2 below species) and 67 more are species known only through their strains. Of 26,485 rows, 15,475 are for a taxon with no curated value of that physiology at its own rank. Habitat is the largest part: 6,132 of 6,232 habitat rows are a term bugphyzz does not have for that taxon, and 4,541 of 5,236 taxa have no habitat at all. The three classes are new for every taxon.
 
 Export, taxa with a value per attribute (baseline, with Wikipedia): habitat 3,875 to 8,441; motility 14,821 to 15,630; shape 16,873 to 17,680; host-associated 1,467 to 1,945; animal pathogen 2,776 to 3,174; gram stain 29,864 to 29,993; arrangement 2,028 to 2,140; length 6,625 to 6,735; width 6,589 to 6,691; aerophilicity 29,024 to 29,102; plant pathogenicity 2,205 to 2,268; optimal pH 4,004 to 4,062; spore formation 25,923 to 25,963. In total 7,784 new taxon by attribute pairs and 61 new taxa, nearly all curated values rather than ASR.
 

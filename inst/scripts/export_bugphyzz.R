@@ -630,6 +630,9 @@ numeric_data <- numeric_data |>
 # Export CSV --------------------------------------------------------------
 header <- paste0("# bugphyzz ", Sys.Date(),
                  ", License: Creative Commons Attribution-ShareAlike 4.0 International",
+                 " (Attribute_source Wikipedia_2026 is derived from Wikipedia;",
+                 " articles are linked in sources/wikipedia_2026 of",
+                 " https://github.com/waldronlab/bugphyzzExports)",
                  ", URL: https://waldronlab.io/bugphyzz\n")
 
 cat(header, file = 'bugphyzz_multistate.csv')
