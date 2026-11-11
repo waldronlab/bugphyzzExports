@@ -61,7 +61,10 @@ attributes_by_type <- list(
         "shape",
         "spore shape",
         "arrangement",
-        "hemolysis"
+        "hemolysis",
+        "halophily class",
+        "temperature class",
+        "ph class"
     )
     ## habitat
     ## disease association
