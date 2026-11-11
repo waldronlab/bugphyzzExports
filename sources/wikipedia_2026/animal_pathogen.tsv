@@ -1,0 +1,793 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+7			Azorhizobium caulinodans	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Azorhizobium_caulinodans; wikidata Q4832853
+7			Azorhizobium caulinodans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Azorhizobium_caulinodans; wikidata Q4832853
+138			Borrelia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Borrelia; wikidata Q115528
+140			Borrelia hermsii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_hermsii; wikidata Q4946575
+141			Borrelia parkeri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_parkeri; wikidata Q16944831
+142			Borrelia turicatae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_turicatae; wikidata Q16975261
+157			Treponema	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Treponema; wikidata Q134745
+158			Treponema denticola	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_denticola; wikidata Q2534751
+159			Brachyspira hyodysenteriae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachyspira_hyodysenteriae; wikidata Q62905923
+160			Treponema pallidum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_pallidum; wikidata Q156007
+171			Leptospira	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Leptospira; wikidata Q133841
+173			Leptospira interrogans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_interrogans; wikidata Q143779
+174			Leptospira borgpetersenii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_borgpetersenii; wikidata Q6528408
+194			Campylobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Campylobacter; wikidata Q131488
+195			Campylobacter coli	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_coli; wikidata Q1031711
+196			Campylobacter fetus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_fetus; wikidata Q148776
+197			Campylobacter jejuni	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_jejuni; wikidata Q265488
+198			Campylobacter hyointestinalis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_hyointestinalis; wikidata Q16955154
+199			Campylobacter concisus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Campylobacter_concisus; wikidata Q2087197
+201			Campylobacter lari	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_lari; wikidata Q16851296
+203			Campylobacter rectus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_rectus; wikidata Q5028747
+204			Campylobacter showae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_showae; wikidata Q16975403
+209			Helicobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Helicobacter; wikidata Q134684
+210			Helicobacter pylori	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_pylori; wikidata Q180556
+212			Helicobacter acinonychis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_acinonychis; wikidata Q12270685
+213			Helicobacter cinaedi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_cinaedi; wikidata Q16982883
+214			Helicobacter felis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_felis; wikidata Q16982889
+222			Achromobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Achromobacter; wikidata Q146380
+234			Brucella	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella; wikidata Q313358
+235			Brucella abortus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_abortus; wikidata Q11353905
+236			Brucella ovis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_ovis; wikidata Q870849
+237			Flavobacterium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Flavobacterium; wikidata Q140572
+250			Chryseobacterium gleum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Chryseobacterium_gleum; wikidata Q20182711
+253			Chryseobacterium indologenes	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_indologenes; wikidata Q25096555
+262			Francisella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Francisella; wikidata Q3246268
+263			Francisella tularensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Francisella_tularensis; wikidata Q1003460
+283			Comamonas	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Comamonas; wikidata Q3683908
+285			Comamonas testosteroni	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Comamonas_testosteroni; wikidata Q5150499
+286			Pseudomonas	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas; wikidata Q131143
+287			Pseudomonas aeruginosa	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_aeruginosa; wikidata Q31856
+288			Pseudoalteromonas atlantica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoalteromonas_atlantica; wikidata Q7254473
+300			Ectopseudomonas mendocina	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas_mendocina; wikidata Q7255067
+303			Pseudomonas putida	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_putida; wikidata Q2738168
+316			Stutzerimonas stutzeri	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Stutzerimonas_stutzeri; wikidata Q2888828
+346			Xanthomonas citri	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_citri; wikidata Q15637477
+435			Acetobacter aceti	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acetobacter_aceti; wikidata Q3604286
+441			Gluconobacter	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gluconobacter; wikidata Q17629105
+445			Legionella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Legionella; wikidata Q158013
+446			Legionella pneumophila	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_pneumophila; wikidata Q147885
+450			Legionella longbeachae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_longbeachae; wikidata Q6518170
+453			Legionella feeleii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_feeleii; wikidata Q15262117
+456			Legionella jordanis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Legionella_jordanis; wikidata Q15395914
+466			Legionella maceachernii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_maceachernii; wikidata Q16984314
+469			Acinetobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter; wikidata Q310457
+470			Acinetobacter baumannii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter_baumannii; wikidata Q3241189
+476			Moraxella bovis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_bovis; wikidata Q6909425
+477			Moraxella lacunata	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_lacunata; wikidata Q6909420
+478			Moraxella nonliquefaciens	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moraxella_nonliquefaciens; wikidata Q16985970
+480			Moraxella catarrhalis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_catarrhalis; wikidata Q2046669
+482			Neisseria	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria; wikidata Q132209
+484			Neisseria flavescens	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria_flavescens; wikidata Q22286328
+485			Neisseria gonorrhoeae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_gonorrhoeae; wikidata Q131129
+487			Neisseria meningitidis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_meningitidis; wikidata Q154625
+488			Neisseria mucosa	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria_mucosa; wikidata Q3337861
+489			Neisseria polysaccharea	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_polysaccharea; wikidata Q25351103
+490			Neisseria sicca	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria_sicca; wikidata Q6989664
+497			Psychrobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Psychrobacter; wikidata Q2116089
+502			Kingella denitrificans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kingella_denitrificans; wikidata Q25860955
+504			Kingella kingae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kingella_kingae; wikidata Q1950143
+511			Alcaligenes faecalis	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Alcaligenes_faecalis; wikidata Q137946
+511			Alcaligenes faecalis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Alcaligenes_faecalis; wikidata Q137946
+517			Bordetella	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella; wikidata Q893440
+518			Bordetella bronchiseptica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_bronchiseptica; wikidata Q137446
+519			Bordetella parapertussis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_parapertussis; wikidata Q893436
+520			Bordetella pertussis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_pertussis; wikidata Q137103
+521			Bordetella avium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_avium; wikidata Q15882735
+529			Brucella anthropi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_anthropi; wikidata Q16986776
+539			Eikenella corrodens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Eikenella_corrodens; wikidata Q3039103
+544			Citrobacter	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Citrobacter; wikidata Q134081
+545			Citrobacter koseri	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Citrobacter_koseri; wikidata Q5122841
+547			Enterobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterobacter; wikidata Q134281
+548			Klebsiella aerogenes	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_aerogenes; wikidata Q644487
+550			Enterobacter cloacae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterobacter_cloacae; wikidata Q4038096
+561			Escherichia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Escherichia; wikidata Q311055
+562			Escherichia coli	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Escherichia_coli; wikidata Q25419
+563			Shimwellia blattae	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shimwellia_blattae; wikidata Q26285486
+569			Hafnia alvei	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Hafnia_alvei; wikidata Q140736
+569			Hafnia alvei	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Hafnia_alvei; wikidata Q140736
+573			Klebsiella pneumoniae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Klebsiella_pneumoniae; wikidata Q132592
+577			Klebsiella terrigena	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Raoultella_terrigena; wikidata Q26280028
+579			Kluyvera	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kluyvera; wikidata Q19684147
+582			Morganella morganii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Morganella_morganii; wikidata Q2696880
+583			Proteus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Proteus_(bacterium); wikidata Q132229
+584			Proteus mirabilis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Proteus_mirabilis; wikidata Q311273
+585			Proteus vulgaris	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Proteus_vulgaris; wikidata Q2701588
+590			Salmonella	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salmonella; wikidata Q150839
+613			Serratia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Serratia; wikidata Q134980
+615			Serratia marcescens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Serratia_marcescens; wikidata Q140004
+620			Shigella	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shigella; wikidata Q131029
+621			Shigella boydii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shigella_boydii; wikidata Q4892937
+623			Shigella flexneri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shigella_flexneri; wikidata Q1644417
+624			Shigella sonnei	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shigella_sonnei; wikidata Q6382438
+626			Xenorhabdus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Xenorhabdus; wikidata Q1465894
+629			Yersinia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Yersinia; wikidata Q132231
+630			Yersinia enterocolitica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_enterocolitica; wikidata Q135177
+632			Yersinia pestis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_pestis; wikidata Q153875
+633			Yersinia pseudotuberculosis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_pseudotuberculosis; wikidata Q139928
+636			Edwardsiella tarda	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_tarda; wikidata Q3048738
+637			Arsenophonus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Arsenophonus; wikidata Q16530186
+638			Arsenophonus nasoniae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arsenophonus_nasoniae; wikidata Q16833957
+642			Aeromonas	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Aeromonas; wikidata Q137647
+645			Aeromonas salmonicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aeromonas_salmonicida; wikidata Q4688338
+649			Aeromonas eucrenophila	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aeromonas_eucrenophila; wikidata Q16825721
+652			Aeromonas schubertii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aeromonas_schubertii; wikidata Q16825747
+654			Aeromonas veronii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Aeromonas_veronii; wikidata Q4688339
+662			Vibrio	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio; wikidata Q753490
+663			Vibrio alginolyticus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_alginolyticus; wikidata Q3556827
+666			Vibrio cholerae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_cholerae; wikidata Q160821
+668			Aliivibrio fischeri	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliivibrio_fischeri; wikidata Q148731
+669			Vibrio harveyi	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_harveyi; wikidata Q3761158
+670			Vibrio parahaemolyticus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_parahaemolyticus; wikidata Q134280
+672			Vibrio vulnificus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_vulnificus; wikidata Q135183
+673			Grimontia hollisae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Grimontia_hollisae; wikidata Q5609298
+674			Vibrio mimicus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_mimicus; wikidata Q7924680
+675			Vibrio cincinnatiensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_cincinnatiensis; wikidata Q26299205
+676			Vibrio fluvialis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_fluvialis; wikidata Q16993406
+680			Vibrio campbellii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_campbellii; wikidata Q16993397
+703			Plesiomonas shigelloides	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Plesiomonas_shigelloides; wikidata Q3768142
+713			Actinobacillus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Actinobacillus; wikidata Q310714
+714			Aggregatibacter actinomycetemcomitans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aggregatibacter_actinomycetemcomitans; wikidata Q2174895
+715			Actinobacillus pleuropneumoniae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinobacillus_pleuropneumoniae; wikidata Q343332
+716			Actinobacillus suis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinobacillus_suis; wikidata Q4676910
+718			Actinobacillus equuli	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Actinobacillus_equuli; wikidata Q25833732
+722			Actinobacillus seminis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinobacillus_seminis; wikidata Q16825146
+724			Haemophilus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Haemophilus; wikidata Q311275
+726			Haemophilus haemolyticus	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Haemophilus_haemolyticus; wikidata Q5638259
+726			Haemophilus haemolyticus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Haemophilus_haemolyticus; wikidata Q5638259
+727			Haemophilus influenzae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haemophilus_influenzae; wikidata Q1141979
+729			Parahaemophilus parainfluenzae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Haemophilus_parainfluenzae; wikidata Q3023545
+730			Pseudactinobacillus ducreyi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haemophilus_ducreyi; wikidata Q1114305
+731			Histophilus somni	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Histophilus_somni; wikidata Q1620746
+735			Pseudohaemophilus parahaemolyticus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haemophilus_parahaemolyticus; wikidata Q25859906
+747			Pasteurella multocida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteurella_multocida; wikidata Q310656
+752			Pasteurella bettyae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteurella_bettyae; wikidata Q16987549
+753			Pasteurella canis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pasteurella_canis; wikidata Q7142993
+754			Pasteurella dagmatis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pasteurella_dagmatis; wikidata Q16987553
+761			Pasteurella testudinis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pasteurella_testudinis; wikidata Q19671380
+768			Anaplasma	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaplasma; wikidata Q70288
+773			Bartonella	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella; wikidata Q135006
+776			Coxiella	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Coxiella_(bacterium); wikidata Q2296480
+776			Coxiella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Coxiella_(bacterium); wikidata Q2296480
+777			Coxiella burnetii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Coxiella_burnetii; wikidata Q133971
+779			Ehrlichia ruminantium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_ruminantium; wikidata Q1118366
+780			Rickettsia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rickettsia; wikidata Q627992
+781			Rickettsia conorii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_conorii; wikidata Q2708461
+782			Rickettsia prowazekii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_prowazekii; wikidata Q952862
+783			Rickettsia rickettsii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_rickettsii; wikidata Q2698925
+784			Orientia tsutsugamushi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Orientia_tsutsugamushi; wikidata Q3018329
+785			Rickettsia typhi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_typhi; wikidata Q3010410
+787			Rickettsia australis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_australis; wikidata Q7331928
+803			Bartonella quintana	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_quintana; wikidata Q148561
+807			Bartonella elizabethae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_elizabethae; wikidata Q16838301
+810			Chlamydia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_(bacterium); wikidata Q846309
+813			Chlamydia trachomatis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_trachomatis; wikidata Q131065
+817			Bacteroides fragilis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacteroides_fragilis; wikidata Q221817
+818			Bacteroides thetaiotaomicron	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacteroides_thetaiotaomicron; wikidata Q798597
+836			Porphyromonas	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Porphyromonas; wikidata Q21226978
+837			Porphyromonas gingivalis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Porphyromonas_gingivalis; wikidata Q3214147
+838			Prevotella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Prevotella; wikidata Q7242440
+848			Fusobacterium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fusobacterium; wikidata Q2720082
+851			Fusobacterium nucleatum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Fusobacterium_nucleatum; wikidata Q5510311
+859			Fusobacterium necrophorum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fusobacterium_necrophorum; wikidata Q676829
+870			Dichelobacter nodosus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dichelobacter_nodosus; wikidata Q3706891
+876			Desulfovibrio desulfuricans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Desulfovibrio_desulfuricans; wikidata Q1201021
+881			Nitratidesulfovibrio vulgaris	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Desulfovibrio_vulgaris; wikidata Q593811
+943			Ehrlichia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia; wikidata Q138670
+944			Ehrlichia canis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_canis; wikidata Q5348627
+945			Ehrlichia chaffeensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_chaffeensis; wikidata Q5348629
+947			Ehrlichia ewingii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_ewingii; wikidata Q5348630
+948			Anaplasma phagocytophilum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaplasma_phagocytophilum; wikidata Q292189
+949			Anaplasma platys	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaplasma_platys; wikidata Q4751573
+950			Neorickettsia risticii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neorickettsia_risticii; wikidata Q6994107
+951			Ehrlichia sennetsu	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neorickettsia_sennetsu; wikidata Q16978225
+953			Wolbachia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Wolbachia; wikidata Q283526
+996			Flavobacterium columnare	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_columnare; wikidata Q5458149
+1014			Weeksella virosa	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Weeksella_virosa; wikidata Q26307008
+1015			Bergeyella zoohelcum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bergeyella_zoohelcum; wikidata Q19930980
+1016			Capnocytophaga	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Capnocytophaga; wikidata Q5036048
+1238			Piscirickettsia salmonis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Piscirickettsia_salmonis; wikidata Q16988162
+1243			Leuconostoc	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Leuconostoc; wikidata Q138793
+1252			Leuconostoc carnosum	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leuconostoc_carnosum; wikidata Q16984480
+1260			Finegoldia magna	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Finegoldia_magna; wikidata Q3745691
+1270			Micrococcus luteus	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Micrococcus_luteus; wikidata Q142000
+1270			Micrococcus luteus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Micrococcus_luteus; wikidata Q142000
+1272			Kocuria varians	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kocuria_varians; wikidata Q20642745
+1275			Kocuria rosea	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kocuria_rosea; wikidata Q25860999
+1276			Kytococcus sedentarius	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kytococcus_sedentarius; wikidata Q16943340
+1280			Staphylococcus aureus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_aureus; wikidata Q188121
+1281			Staphylococcus carnosus	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_carnosus; wikidata Q7600400
+1282			Staphylococcus epidermidis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_epidermidis; wikidata Q131915
+1283			Staphylococcus haemolyticus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_haemolyticus; wikidata Q3760144
+1284			Staphylococcus hyicus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_hyicus; wikidata Q2332104
+1285			Staphylococcus intermedius	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_intermedius; wikidata Q2332105
+1288			Staphylococcus xylosus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_xylosus; wikidata Q606505
+1290			Staphylococcus hominis	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Staphylococcus_hominis; wikidata Q7600410
+1290			Staphylococcus hominis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_hominis; wikidata Q7600410
+1292			Staphylococcus warneri	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_warneri; wikidata Q3968275
+1293			Staphylococcus gallinarum	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Staphylococcus_gallinarum; wikidata Q7600409
+1295			Staphylococcus schleiferi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_schleiferi; wikidata Q16992701
+1302			Streptococcus gordonii	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus_gordonii; wikidata Q7623352
+1302			Streptococcus gordonii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_gordonii; wikidata Q7623352
+1303			Streptococcus oralis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_oralis; wikidata Q1856358
+1304			Streptococcus salivarius	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_salivarius; wikidata Q139986
+1307			Streptococcus suis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_suis; wikidata Q287694
+1309			Streptococcus mutans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_mutans; wikidata Q131452
+1311			Streptococcus agalactiae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_agalactiae; wikidata Q132949
+1313			Streptococcus pneumoniae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_pneumoniae; wikidata Q221179
+1314			Streptococcus pyogenes	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus_pyogenes; wikidata Q131271
+1326			Streptococcus acidominimus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_acidominimus; wikidata Q26289052
+1329			Streptococcus canis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_canis; wikidata Q7623353
+1334			Streptococcus dysgalactiae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_dysgalactiae; wikidata Q7623351
+1335			Streptococcus equinus	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_equinus; wikidata Q7623349
+1338			Streptococcus intermedius	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_intermedius; wikidata Q7623355
+1343			Streptococcus vestibularis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_vestibularis; wikidata Q7623367
+1345			Streptococcus ferus	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus_ferus; wikidata Q7623350
+1346			Streptococcus iniae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_iniae; wikidata Q7623354
+1348			Streptococcus parauberis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_parauberis; wikidata Q26289477
+1349			Streptococcus uberis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_uberis; wikidata Q310707
+1350			Enterococcus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus; wikidata Q517258
+1351			Enterococcus faecalis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_faecalis; wikidata Q140014
+1352			Enterococcus faecium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_faecium; wikidata Q140010
+1353			Enterococcus gallinarum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_gallinarum; wikidata Q5380225
+1354			Enterococcus hirae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_hirae; wikidata Q16981651
+1358			Lactococcus lactis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactococcus_lactis; wikidata Q133598
+1363			Lactococcus garvieae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactococcus_garvieae; wikidata Q16984199
+1364			Pseudolactococcus piscium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactococcus_piscium; wikidata Q16984202
+1376			Aerococcus urinae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aerococcus_urinae; wikidata Q4688227
+1377			Aerococcus viridans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aerococcus_viridans; wikidata Q9141538
+1392			Bacillus anthracis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_anthracis; wikidata Q614156
+1393			Brevibacillus brevis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brevibacillus_brevis; wikidata Q25840575
+1396			Bacillus cereus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacillus_cereus; wikidata Q131307
+1397			Niallia circulans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Niallia_circulans; wikidata Q21399843
+1421			Lysinibacillus sphaericus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lysinibacillus_sphaericus; wikidata Q18324723
+1428			Bacillus thuringiensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacillus_thuringiensis; wikidata Q310467
+1464			Paenibacillus larvae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paenibacillus_larvae; wikidata Q18088582
+1474			Sporosarcina pasteurii	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sporosarcina_pasteurii; wikidata Q7579277
+1485			Clostridium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridium; wikidata Q327663
+1491			Clostridium botulinum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_botulinum; wikidata Q131268
+1492			Clostridium butyricum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridium_butyricum; wikidata Q2622044
+1496			Clostridioides difficile	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridioides_difficile; wikidata Q56290719
+1502			Clostridium perfringens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_perfringens; wikidata Q309465
+1504			Clostridium septicum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_septicum; wikidata Q288263
+1513			Clostridium tetani	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_tetani; wikidata Q309471
+1522			[Clostridium] innocuum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridium_innocuum; wikidata Q3681087
+1524			[Clostridium] piliforme	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_piliforme; wikidata Q378419
+1529			Clostridium cadaveris	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Clostridium_cadaveris; wikidata Q3681024
+1542			Clostridium novyi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_novyi; wikidata Q3681074
+1559			Clostridium tertium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridium_tertium; wikidata Q3681167
+1561			Clostridium baratii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridium_baratii; wikidata Q3681015
+1582			Lacticaseibacillus casei	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lacticaseibacillus_casei; wikidata Q139777
+1585			Lactobacillus delbrueckii subsp. bulgaricus	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_delbrueckii_subsp._bulgaricus; wikidata Q262677
+1637			Listeria	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Listeria; wikidata Q746209
+1638			Listeria ivanovii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_ivanovii; wikidata Q3834924
+1639			Listeria monocytogenes	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_monocytogenes; wikidata Q292015
+1640			Listeria seeligeri	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_seeligeri; wikidata Q3834925
+1642			Listeria innocua	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Listeria_innocua; wikidata Q3834922
+1642			Listeria innocua	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Listeria_innocua; wikidata Q3834922
+1643			Listeria welshimeri	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_welshimeri; wikidata Q3834926
+1646			Renibacterium salmoninarum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Renibacterium_salmoninarum; wikidata Q16989049
+1648			Erysipelothrix rhusiopathiae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erysipelothrix_rhusiopathiae; wikidata Q2346390
+1649			Kurthia	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kurthia; wikidata Q15824711
+1654			Actinomyces	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Actinomyces; wikidata Q312213
+1655			Actinomyces naeslundii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Actinomyces_naeslundii; wikidata Q3911265
+1656			Actinomyces viscosus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_viscosus; wikidata Q2690800
+1658			Actinomyces bovis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_bovis; wikidata Q21232913
+1659			Actinomyces israelii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_israelii; wikidata Q147800
+1661			Trueperella pyogenes	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trueperella_pyogenes; wikidata Q26298324
+1689			Bifidobacterium dentium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_dentium; wikidata Q4904766
+1710			Cellulosimicrobium cellulans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cellulosimicrobium_cellulans; wikidata Q25841259
+1716			Corynebacterium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Corynebacterium; wikidata Q133976
+1717			Corynebacterium diphtheriae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_diphtheriae; wikidata Q131649
+1719			Corynebacterium pseudotuberculosis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_pseudotuberculosis; wikidata Q3694962
+1724			Corynebacterium renale	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_renale; wikidata Q5173762
+1725			Corynebacterium xerosis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Corynebacterium_xerosis; wikidata Q21263084
+1743			Propionibacterium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Propionibacterium; wikidata Q1309614
+1747			Cutibacterium acnes	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cutibacterium_acnes; wikidata Q2442109
+1763			Mycobacterium	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Mycobacterium; wikidata Q194309
+1763			Mycobacterium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium; wikidata Q194309
+1765			Mycobacterium tuberculosis variant bovis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_bovis; wikidata Q133447
+1768			Mycobacterium kansasii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_kansasii; wikidata Q4044720
+1769			Mycobacterium leprae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_leprae; wikidata Q155891
+1770			Mycobacterium avium subsp. paratuberculosis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_avium_subsp._paratuberculosis; wikidata Q6946990
+1771			Mycolicibacterium phlei	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_phlei; wikidata Q16986094
+1773			Mycobacterium tuberculosis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_tuberculosis; wikidata Q130971
+1774			Mycobacteroides chelonae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacteroides_chelonae; wikidata Q6947002
+1781			Mycobacterium marinum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_marinum; wikidata Q508803
+1782			Mycolicibacter nonchromogenicus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycolicibacter_nonchromogenicus; wikidata Q6947071
+1783			Mycobacterium scrofulaceum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_scrofulaceum; wikidata Q4044723
+1787			Mycobacterium szulgai	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_szulgai; wikidata Q6947099
+1788			Mycolicibacter terrae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycolicibacter_terrae; wikidata Q6947101
+1789			Mycobacterium xenopi	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_xenopi; wikidata Q4044724
+1790			Mycobacterium asiaticum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_asiaticum; wikidata Q4752715
+1791			Mycolicibacterium aurum	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycolicibacterium_aurum; wikidata Q6946982
+1798			Mycolicibacillus trivialis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycolicibacillus_trivialis; wikidata Q6947106
+1806			Mycobacterium tuberculosis variant microti	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_microti; wikidata Q4752705
+1809			Mycobacterium ulcerans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_ulcerans; wikidata Q141154
+1810			Mycolicibacterium vaccae	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_vaccae; wikidata Q655983
+1817			Nocardia	animal pathogen	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nocardia; wikidata Q135175
+1817			Nocardia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nocardia; wikidata Q135175
+1824			Nocardia asteroides	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardia_asteroides; wikidata Q3140162
+1827			Rhodococcus	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Rhodococcus; wikidata Q288311
+1827			Rhodococcus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rhodococcus; wikidata Q288311
+1863			Dermatophilus congolensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dermatophilus_congolensis; wikidata Q5262706
+1883			Streptomyces	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptomyces; wikidata Q1144013
+1993			Actinomadura madurae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomadura_madurae; wikidata Q25833899
+2026			Thermoactinomyces vulgaris	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoactinomyces_vulgaris; wikidata Q26295919
+2039			Tropheryma whipplei	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/%22Tropheryma%22; wikidata Q2703876
+2047			Rothia dentocariosa	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Rothia_dentocariosa; wikidata Q7370477
+2047			Rothia dentocariosa	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_dentocariosa; wikidata Q7370477
+2052			Mobiluncus mulieris	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Mobiluncus_mulieris; wikidata Q16985902
+2053			Gordonia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Gordonia_(bacterium); wikidata Q1538121
+2060			Tsukamurella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Tsukamurella; wikidata Q21078595
+2095			Mycoplasma capricolum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_capricolum; wikidata Q1768284
+2096			Mycoplasmoides gallisepticum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_gallisepticum; wikidata Q150185
+2097			Mycoplasmoides genitalium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_genitalium; wikidata Q1930909
+2098			Metamycoplasma hominis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_hominis; wikidata Q2616475
+2099			Mesomycoplasma hyopneumoniae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_hyopneumoniae; wikidata Q3869024
+2100			Mesomycoplasma hyorhinis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma_hyorhinis; wikidata Q3869017
+2101			Mycoplasma incognitus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_incognitus; wikidata Q59717447
+2102			Mycoplasma mycoides	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_mycoides; wikidata Q1768280
+2104			Mycoplasmoides pneumoniae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_pneumoniae; wikidata Q310904
+2109			Mycoplasmopsis synoviae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_synoviae; wikidata Q3869067
+2110			Mycoplasmopsis agalactiae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_agalactiae; wikidata Q3868950
+2115			Mycoplasmopsis fermentans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma_fermentans; wikidata Q3869003
+2118			[Mycoplasma] mobile	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_mobile; wikidata Q3869034
+2121			Metamycoplasma orale	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma_orale; wikidata Q3869045
+2124			Metamycoplasma salivarium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma_salivarium; wikidata Q3869060
+2132			Spiroplasma	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Spiroplasma; wikidata Q1769476
+2144			Spiroplasma mirum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiroplasma_mirum; wikidata Q3966883
+2369			Arhodomonas aquaeolei	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arhodomonas_aquaeolei; wikidata Q20685937
+2718			Cardiobacterium hominis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cardiobacterium_hominis; wikidata Q2938074
+2738			Vagococcus fluvialis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vagococcus_fluvialis; wikidata Q16994520
+2739			Vagococcus salmoninarum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vagococcus_salmoninarum; wikidata Q16993370
+2755			Brochothrix	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brochothrix; wikidata Q3645203
+13075			Globicatella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Globicatella; wikidata Q26211787
+13076			Globicatella sanguinis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Globicatella_sanguinis; wikidata Q25859544
+13276			Suttonella indologenes	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Suttonella_indologenes; wikidata Q16994496
+13373			Burkholderia mallei	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_mallei; wikidata Q134434
+13689			Sphingomonas paucimobilis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sphingomonas_paucimobilis; wikidata Q7576791
+28037			Streptococcus mitis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_mitis; wikidata Q684674
+28042			Saccharopolyspora rectivirgula	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_rectivirgula; wikidata Q7396612
+28047			Mycolicibacterium confluentis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_confluentis; wikidata Q16986062
+28080			Campylobacter upsaliensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_upsaliensis; wikidata Q5028748
+28082			Legionella anisa	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_anisa; wikidata Q15252682
+28084			Legionella cherrii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_cherrii; wikidata Q16984288
+28087			Legionella sainthelensi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_sainthelensi; wikidata Q15262063
+28088			Legionella wadsworthii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_wadsworthii; wikidata Q16979289
+28090			Acinetobacter lwoffii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_lwoffii; wikidata Q17097067
+28095			Burkholderia gladioli	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_gladioli; wikidata Q3308486
+28109			Pseudoalteromonas nigrifaciens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoalteromonas_nigrifaciens; wikidata Q7254491
+28110			Francisella philomiragia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Francisella_philomiragia; wikidata Q25859036
+28112			Tannerella forsythia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tannerella_forsythia; wikidata Q7683667
+28116			Bacteroides ovatus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacteroides_ovatus; wikidata Q25840252
+28125			Prevotella bivia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_bivia; wikidata Q20721552
+28131			Prevotella intermedia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_intermedia; wikidata Q2022791
+28132			Prevotella melaninogenica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_melaninogenica; wikidata Q26274602
+28133			Prevotella nigrescens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_nigrescens; wikidata Q16988483
+28141			Cronobacter sakazakii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cronobacter_sakazakii; wikidata Q25841585
+28152			Yersinia kristensenii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Yersinia_kristensenii; wikidata Q16993571
+28172			Vibrio metschnikovii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_metschnikovii; wikidata Q26299512
+28173			Vibrio nigripulchritudo	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_nigripulchritudo; wikidata Q26299584
+28174			Vibrio ordalii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_ordalii; wikidata Q16994526
+28182			Leptospira noguchii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_noguchii; wikidata Q16984416
+28183			Leptospira santarosai	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_santarosai; wikidata Q6528414
+28184			Leptospira weilii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_weilii; wikidata Q6528415
+28188			Capnocytophaga canimorsus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Capnocytophaga_canimorsus; wikidata Q310984
+28196			Arcobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Arcobacter; wikidata Q4787427
+28197			Aliarcobacter butzleri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcobacter_butzleri; wikidata Q21237173
+28200			Aliarcobacter skirrowii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Arcobacter_skirrowii; wikidata Q16833562
+28227			Malacoplasma penetrans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Malacoplasma_penetrans; wikidata Q3869048
+28251			Ornithobacterium rhinotracheale	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ornithobacterium_rhinotracheale; wikidata Q1275398
+28263			Arcanobacterium	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Arcanobacterium; wikidata Q631663
+28263			Arcanobacterium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Arcanobacterium; wikidata Q631663
+28264			Arcanobacterium haemolyticum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcanobacterium_haemolyticum; wikidata Q22113627
+28449			Neisseria subflava	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Neisseria_subflava; wikidata Q6989667
+28449			Neisseria subflava	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria_subflava; wikidata Q6989667
+28450			Burkholderia pseudomallei	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_pseudomallei; wikidata Q140475
+28452			Leptospira alstonii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_alstonii; wikidata Q47175006
+28901			Salmonella enterica	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Salmonella_enterica; wikidata Q2264864
+29311			Mycobacterium haemophilum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_haemophilum; wikidata Q6947030
+29313			Mycobacterium shimoidei	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_shimoidei; wikidata Q16915028
+29341			Clostridium argentinense	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_argentinense; wikidata Q3681013
+29379			Staphylococcus auricularis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_auricularis; wikidata Q7600398
+29385			Staphylococcus saprophyticus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_saprophyticus; wikidata Q1708986
+29388			Staphylococcus capitis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_capitis; wikidata Q7600399
+29394			Dolosigranulum pigrum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Dolosigranulum_pigrum; wikidata Q28407295
+29419			Helicobacter canis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_canis; wikidata Q16982876
+29423			Legionella oakridgensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_oakridgensis; wikidata Q15261944
+29430			Acinetobacter haemolyticus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter_haemolyticus; wikidata Q16824990
+29432			Psychrobacter phenylpyruvicus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Psychrobacter_phenylpyruvicus; wikidata Q15629817
+29459			Brucella melitensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_melitensis; wikidata Q3512031
+29461			Brucella suis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_suis; wikidata Q836301
+29465			Veillonella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Veillonella; wikidata Q7918682
+29466			Veillonella parvula	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Veillonella_parvula; wikidata Q4009298
+29484			Yersinia frederiksenii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Yersinia_frederiksenii; wikidata Q16993567
+29486			Yersinia ruckeri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_ruckeri; wikidata Q16993573
+29487			Photorhabdus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photorhabdus; wikidata Q7187896
+29488			Photorhabdus luminescens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photorhabdus_luminescens; wikidata Q388648
+29495			Vibrio navarrensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_navarrensis; wikidata Q26299544
+29498			Vibrio tubiashii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_tubiashii; wikidata Q26299875
+29501			Mycoplasma haemofelis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_haemofelis; wikidata Q3869018
+29506			Leptospira inadai	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_inadai; wikidata Q6528409
+29507			Leptospira kirschneri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_kirschneri; wikidata Q16984413
+29521			Brachyspira	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brachyspira; wikidata Q896648
+29522			Brachyspira aalborgi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachyspira_aalborgi; wikidata Q16845639
+29546			Lawsonia intracellularis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lawsonia_intracellularis; wikidata Q16992002
+29561			Mycoplasmopsis meleagridis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_meleagridis; wikidata Q3869031
+29574			Taylorella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Taylorella; wikidata Q309673
+29575			Taylorella equigenitalis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Taylorella_equigenitalis; wikidata Q289291
+31943			Brevibacterium iodinum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brevibacterium_iodinum; wikidata Q4962548
+31973			Eggerthia catenaformis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Eggerthia_catenaformis; wikidata Q25842053
+32002			Achromobacter denitrificans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Achromobacter_denitrificans; wikidata Q16824877
+32008			Burkholderia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia; wikidata Q135239
+32025			Helicobacter hepaticus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_hepaticus; wikidata Q1602479
+32207			Rothia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_(bacterium); wikidata Q19756508
+32257			Kingella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kingella; wikidata Q20051818
+33029			Anaerococcus hydrogenalis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Anaerococcus_hydrogenalis; wikidata Q3614901
+33032			Anaerococcus lactolyticus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Anaerococcus_lactolyticus; wikidata Q3614902
+33033			Parvimonas micra	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Parvimonas_micra; wikidata Q26270804
+33044			Bartonella doshiae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_doshiae; wikidata Q4865711
+33045			Bartonella grahamii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_grahamii; wikidata Q4865713
+33046			Bartonella taylorii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_taylorii; wikidata Q4865718
+33047			Bartonella vinsonii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_vinsonii; wikidata Q18356787
+33894			Mycobacterium tuberculosis variant africanum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_africanum; wikidata Q2918842
+33945			Enterococcus avium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_avium; wikidata Q3726279
+33969			Melissococcus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Melissococcus; wikidata Q19652404
+33987			Exiguobacterium aurantiacum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Exiguobacterium_aurantiacum; wikidata Q25858427
+33993			Neorickettsia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neorickettsia; wikidata Q5225591
+33994			Neorickettsia helminthoeca	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neorickettsia_helminthoeca; wikidata Q50231157
+34026			Neisseria flava	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Neisseria_flava; wikidata Q6989659
+34026			Neisseria flava	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria_flava; wikidata Q6989659
+34059			Faucicola atlantae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moraxella_atlantae; wikidata Q15648400
+34062			Faucicola osloensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_osloensis; wikidata Q6909429
+34085			Riemerella anatipestifer	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Riemerella_anatipestifer; wikidata Q2152245
+34097			Brevinema andersonii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brevinema_andersonii; wikidata Q22286925
+34104			Streptobacillus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptobacillus; wikidata Q3798005
+35703			Citrobacter amalonaticus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Citrobacter_amalonaticus; wikidata Q5122839
+35788			Rickettsia africae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_africae; wikidata Q7331930
+35789			Rickettsia helvetica	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rickettsia_helvetica; wikidata Q7331933
+35790			Rickettsia japonica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_japonica; wikidata Q7331934
+35791			Rickettsia massiliae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_massiliae; wikidata Q16989259
+35792			Rickettsia parkeri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_parkeri; wikidata Q62889344
+35795			Ehrlichia muris	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_muris; wikidata Q16966900
+35814			Bordetella holmesii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_holmesii; wikidata Q16844637
+35817			Helicobacter heilmannii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_heilmannii_sensu_lato; wikidata Q7780536
+35818			Helicobacter pullorum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Helicobacter_pullorum; wikidata Q3784557
+35833			Bilophila wadsworthia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bilophila_wadsworthia; wikidata Q62894827
+36808			Corynebacterium bovis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_bovis; wikidata Q5173756
+36809			Mycobacteroides abscessus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacteroides_abscessus; wikidata Q6946978
+36845			Clostridium intestinale	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridium_intestinale; wikidata Q3681089
+36855			Brucella canis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_canis; wikidata Q4978547
+36874			Porphyromonas cangingivalis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Porphyromonas_cangingivalis; wikidata Q29887931
+37326			Nocardia brasiliensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nocardia_brasiliensis; wikidata Q4425574
+37332			Nocardia seriolae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardia_seriolae; wikidata Q26268837
+37333			Nocardia transvalensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardia_transvalensis; wikidata Q26268854
+37372			Helicobacter bilis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_bilis; wikidata Q3784556
+37734			Enterococcus casseliflavus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_casseliflavus; wikidata Q5834259
+37816			Rickettsia honei	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_honei; wikidata Q7331932
+37914			Dietzia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Dietzia; wikidata Q20526151
+37923			Rothia kristinae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_kristinae; wikidata Q16983977
+38289			Corynebacterium jeikeium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_jeikeium; wikidata Q3694959
+38290			Corynebacterium macginleyi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_macginleyi; wikidata Q18349032
+38294			Photobacterium damselae subsp. piscicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photobacterium_damselae_subsp._piscicida; wikidata Q7187713
+38323			Bartonella henselae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_henselae; wikidata Q140599
+39152			Methanococcus maripaludis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanococcus_maripaludis; wikidata Q16985527
+39824			Klebsiella granulomatis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_granulomatis; wikidata Q150946
+39956			Methylobacterium mesophilicum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methylobacterium_mesophilicum; wikidata Q16985611
+40215			Acinetobacter junii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter_junii; wikidata Q16824998
+40269			Aliivibrio salmonicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliivibrio_salmonicida; wikidata Q25834876
+40323			Stenotrophomonas	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Stenotrophomonas; wikidata Q2707476
+40324			Stenotrophomonas maltophilia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Stenotrophomonas_maltophilia; wikidata Q142705
+40835			Borrelia hispanica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_hispanica; wikidata Q20635356
+41202			Ewingella americana	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ewingella_americana; wikidata Q5419066
+42096			Ureaplasma gallorale	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ureaplasma_gallorale; wikidata Q4006422
+42109			Borreliella andersonii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Borrelia_andersonii; wikidata Q16844832
+42862			Rickettsia felis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_felis; wikidata Q7331931
+42906			Serratia entomophila	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Serratia_entomophila; wikidata Q16992525
+43263			Aquipseudomonas alcaligenes	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas_alcaligenes; wikidata Q7255001
+43668			Brachybacterium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brachybacterium; wikidata Q21226493
+43675			Rothia mucilaginosa	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_mucilaginosa; wikidata Q26282584
+43765			Corynebacterium amycolatum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Corynebacterium_amycolatum; wikidata Q5173759
+43768			Corynebacterium matruchotii	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_matruchotii; wikidata Q5173761
+43769			Corynebacterium propinquum	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Corynebacterium_propinquum; wikidata Q21262711
+43770			Corynebacterium striatum	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Corynebacterium_striatum; wikidata Q10261127
+43771			Corynebacterium urealyticum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_urealyticum; wikidata Q3694964
+44249			Paenibacillus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Paenibacillus; wikidata Q1952884
+44449			Borrelia recurrentis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_recurrentis; wikidata Q139991
+45254			Indolivaga capnocytophagoides	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Dysgonomonas_capnocytophagoides; wikidata Q25842025
+45465			Vogesella indigofera	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vogesella_indigofera; wikidata Q2941024
+45658			Vibrio scophthalmi	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_scophthalmi; wikidata Q26299797
+46124			Granulicatella adiacens	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Granulicatella_adiacens; wikidata Q25859800
+46125			Abiotrophia defectiva	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Abiotrophia_defectiva; wikidata Q25343611
+46126			Staphylococcus chromogenes	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_chromogenes; wikidata Q7600401
+46127			Staphylococcus felis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_felis; wikidata Q10859373
+46351			Mycolicibacterium hassiacum	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_hassiacum; wikidata Q6947035
+46506			Bacteroides stercoris	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacteroides_stercoris; wikidata Q25840264
+46867			Clostridium chauvoei	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_chauvoei; wikidata Q3681040
+47466			Borrelia miyamotoi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_miyamotoi; wikidata Q3330965
+47687			Mycoplasmopsis alligatoris	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_alligatoris; wikidata Q3868955
+47839			Mycobacterium triplex	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_triplex; wikidata Q6947105
+47885			Pseudomonas oryzihabitans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas_oryzihabitans; wikidata Q7255078
+47886			Pseudomonas luteola	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas_luteola; wikidata Q7255062
+48782			Leptospira fainei	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_fainei; wikidata Q16984406
+50339			Thermoplasma volcanium	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoplasma_volcanium; wikidata Q16993083
+51160			Treponema maltophilum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_maltophilum; wikidata Q23808004
+51362			Mycoplasmopsis adleri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_adleri; wikidata Q3868949
+52242			Lactobacillus gallinarum	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_gallinarum; wikidata Q2252232
+52443			Vibrio tapetis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_tapetis; wikidata Q16993414
+52584			Brachyspira pilosicoli	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachyspira_pilosicoli; wikidata Q4953571
+52764			Bartonella alsatica	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_alsatica; wikidata Q16838284
+52769			Actinomyces gerencseriae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Actinomyces_gerencseriae; wikidata Q4676973
+53345			Enterococcus durans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_durans; wikidata Q5380224
+53406			Pseudomonas anguilliseptica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_anguilliseptica; wikidata Q7255005
+53418			Treponema lecithinolyticum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_lecithinolyticum; wikidata Q24975381
+53419			Treponema socranskii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_socranskii; wikidata Q24975387
+53431			Nocardia salmonicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardia_salmonicida; wikidata Q26268835
+53435			Treponema paraluiscuniculi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_paraluiscuniculi; wikidata Q2803910
+53449			Streptomyces intermedius	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_intermedius; wikidata Q26290570
+53462			Mycolicibacterium mageritense	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_mageritense; wikidata Q6947060
+54736			Salmonella bongori	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salmonella_bongori; wikidata Q6176438
+55197			Flavobacterium branchiophilum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_branchiophilum; wikidata Q19831132
+55604			Mycoplasmopsis primatum	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_primatum; wikidata Q3869056
+55966			Haemobartonella muris	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Eperythrozoon_muris; wikidata Q3869015
+56142			Metamycoplasma faucium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma_faucium; wikidata Q3868999
+56425			Mycobacterium bohemicum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_bohemicum; wikidata Q16986054
+56426			Bartonella clarridgeiae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_clarridgeiae; wikidata Q16975079
+56877			Helicobacter bizzozeronii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_bizzozeronii; wikidata Q21267147
+56878			Helicobacter salomonis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Helicobacter_salomonis; wikidata Q16982909
+57704			Tsukamurella tyrosinosolvens	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Tsukamurella_tyrosinosolvens; wikidata Q26298433
+57706			Citrobacter braakii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Citrobacter_braakii; wikidata Q16958571
+57975			Burkholderia thailandensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_thailandensis; wikidata Q4999034
+59201			Salmonella enterica subsp. enterica	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Salmonella_enterica_subsp._enterica; wikidata Q21600865
+59750			Mycolicibacterium wolinskyi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_wolinskyi; wikidata Q6947112
+60552			Burkholderia vietnamiensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_vietnamiensis; wikidata Q4999039
+62763			Vibrio pectenicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_pectenicida; wikidata Q16993411
+64667			Mycobacterium lepraemurium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_lepraemurium; wikidata Q6947057
+64897			Borreliella bissettiae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_bissettii; wikidata Q16844838
+65058			Corynebacterium ulcerans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Corynebacterium_ulcerans; wikidata Q3694963
+66228			Gleimia europaea	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Gleimia_europaea; wikidata Q66662374
+66831			Facklamia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Facklamia; wikidata Q27438796
+66969			Legionella waltersii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Legionella_waltersii; wikidata Q16984341
+67780			Edwardsiella ictaluri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_ictaluri; wikidata Q5346148
+67825			Citrobacter rodentium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Citrobacter_rodentium; wikidata Q16975761
+67826			Citrobacter sedlakii	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Citrobacter_sedlakii; wikidata Q16958588
+67826			Citrobacter sedlakii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Citrobacter_sedlakii; wikidata Q16958588
+68909			Deinococcus geothermalis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Deinococcus_geothermalis; wikidata Q16955589
+69474			Orientia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Orientia; wikidata Q3767673
+69710			Treponema vincentii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_vincentii; wikidata Q24975375
+69823			Selenomonas sputigena	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Selenomonas_sputigena; wikidata Q3954762
+69966			Macrococcoides caseolyticum	animal pathogen	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Macrococcus_caseolyticus; wikidata Q25862020
+69966			Macrococcoides caseolyticum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Macrococcus_caseolyticus; wikidata Q25862020
+70775			Pseudomonas plecoglossicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_plecoglossicida; wikidata Q7255090
+71451			Enterococcus malodoratus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_malodoratus; wikidata Q16981655
+71452			Enterococcus raffinosus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_raffinosus; wikidata Q17119101
+72000			Kocuria rhizophila	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kocuria_rhizophila; wikidata Q16943638
+75684			Balneatrix alpica	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Balneatrix_alpica; wikidata Q25840273
+76831			Myroides	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Myroides; wikidata Q19753528
+76832			Myroides odoratimimus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Myroides_odoratimimus; wikidata Q16986138
+76860			Streptococcus constellatus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_constellatus; wikidata Q7623346
+76936			Helicobacter typhlonius	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Helicobacter_typhlonius; wikidata Q21267174
+78057			Paenibacillus popilliae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Milky_spore; wikidata Q6858158
+78331			Mycobacterium canetti	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_canettii; wikidata Q6946999
+78355			Streptomyces somaliensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_somaliensis; wikidata Q26292681
+79880			Shouchella clausii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Alkalihalobacillus_clausii; wikidata Q722949
+80854			Moritella viscosa	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moritella_viscosa; wikidata Q25864525
+81947			Vagococcus lutrae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vagococcus_lutrae; wikidata Q26298765
+82135			Fannyhessea vaginae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Atopobium_vaginae; wikidata Q16949286
+82633			Cupriavidus pauculus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cupriavidus_pauculus; wikidata Q16953269
+82977			Buttiauxella agrestis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Buttiauxella_agrestis; wikidata Q25840821
+83262			Mycobacteroides immunogenum	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Mycobacteroides_immunogenum; wikidata Q6947043
+83554			Chlamydia psittaci	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_psittaci; wikidata Q62869749
+83555			Chlamydia abortus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_abortus; wikidata Q25841304
+83556			Chlamydia felis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_felis; wikidata Q25841305
+83557			Chlamydia caviae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_caviae; wikidata Q5102720
+83558			Chlamydia pneumoniae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_pneumoniae; wikidata Q62869737
+83559			Chlamydia suis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_suis; wikidata Q5102712
+83560			Chlamydia muridarum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Chlamydia_muridarum; wikidata Q2964056
+84025			Clostridium haemolyticum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_haemolyticum; wikidata Q4444236
+84111			Eggerthella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Eggerthella; wikidata Q5347900
+84112			Eggerthella lenta	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Eggerthella_lenta; wikidata Q25842050
+84135			Gemella sanguinis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Gemella_sanguinis; wikidata Q18589226
+84379			Brachyspira alvinipulli	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachyspira_alvinipulli; wikidata Q62905899
+85403			Mannheimia ruminalis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mannheimia_ruminalis; wikidata Q16985135
+85404			Mannheimia varigena	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mannheimia_varigena; wikidata Q16985138
+85581			Photobacterium damselae subsp. damselae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photobacterium_damselae_subsp._damselae; wikidata Q63124005
+85698			Achromobacter xylosoxidans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Achromobacter_xylosoxidans; wikidata Q16824899
+85701			Bartonella tribocorum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_tribocorum; wikidata Q16838314
+85968			Mycolicibacterium brumae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_brumae; wikidata Q6946995
+85991			Chlamydia pecorum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_pecorum; wikidata Q62869723
+86004			Pasteuria	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteuria; wikidata Q16987565
+87883			Burkholderia multivorans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_multivorans; wikidata Q4999018
+90239			Moraxella canis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moraxella_canis; wikidata Q16868411
+90245			Oligella urethralis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Oligella_urethralis; wikidata Q11797957
+90373			Thiomargarita namibiensis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomargarita_namibiensis; wikidata Q132118
+91915			Asaia bogorensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Asaia_bogorensis; wikidata Q16834282
+92406			Metamycoplasma spumans	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_spumans; wikidata Q3869062
+93064			Sphingomonas koreensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sphingomonas_koreensis; wikidata Q26287169
+93217			Pandoraea	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pandoraea; wikidata Q16987241
+93218			Pandoraea apista	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pandoraea_apista; wikidata Q16987248
+93221			Pandoraea pulmonicola	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pandoraea_pulmonicola; wikidata Q16987252
+93222			Pandoraea sputorum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pandoraea_sputorum; wikidata Q16987258
+94625			Brucella intermedia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brucella_intermedia; wikidata Q18356031
+95485			Burkholderia stabilis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_stabilis; wikidata Q4999031
+95486			Burkholderia cenocepacia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_cenocepacia; wikidata Q4810500
+96345			Flavobacterium psychrophilum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_psychrophilum; wikidata Q18609891
+100177			[Borrelia] lusitaniae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Borrelia_lusitaniae; wikidata Q15346472
+102862			Proteus penneri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Proteus_penneri; wikidata Q7251706
+103810			Riemerella columbina	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Riemerella_columbina; wikidata Q26281859
+104267			Tenacibaculum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Tenacibaculum; wikidata Q19930482
+104270			Tenacibaculum ovolyticum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tenacibaculum_ovolyticum; wikidata Q26294861
+104628			Helicobacter suis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Helicobacter_suis; wikidata Q10294494
+105219			Ralstonia mannitolilytica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ralstonia_mannitolilytica; wikidata Q7288382
+105751			Aeromonas bestiarum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aeromonas_bestiarum; wikidata Q16825689
+106147			Pelistega europaea	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pelistega_europaea; wikidata Q16987685
+107400			Methylobacterium fujisawaense	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methylobacterium_fujisawaense; wikidata Q16985605
+107401			Tenacibaculum maritimum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Tenacibaculum_maritimum; wikidata Q26294849
+108980			Acinetobacter ursingii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter_ursingii; wikidata Q16825049
+108981			Acinetobacter schindleri	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter_schindleri; wikidata Q16825028
+111015			Actinomyces radicidentis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_radicidentis; wikidata Q20685839
+115862			Mycobacterium tuberculosis variant caprae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_caprae; wikidata Q6946997
+117563			Granulicatella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Granulicatella; wikidata Q26209403
+119206			Aerococcus sanguinicola	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aerococcus_sanguinicola; wikidata Q4688225
+120576			Brucella pinnipedialis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_pinnipedialis; wikidata Q16847655
+120577			Brucella ceti	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_ceti; wikidata Q16847641
+120959			Mycobacterium kubicae	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_kubicae; wikidata Q6947050
+124225			Brackiella oedipodis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brackiella_oedipodis; wikidata Q16845661
+125216			Roseomonas	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Roseomonas; wikidata Q21215290
+131111			Schaalia turicensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Schaalia_turicensis; wikidata Q21364795
+131112			Arcanobacterium phocae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcanobacterium_phocae; wikidata Q16829962
+133925			Olsenella	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Olsenella; wikidata Q26267700
+133926			Olsenella uli	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Olsenella_uli; wikidata Q26269592
+135083			Centipeda noxia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Selenomonas_noxia; wikidata Q3954758
+136093			Globicatella sulfidifaciens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Globicatella_sulfidifaciens; wikidata Q25859548
+136241			Mycoplasma haemocanis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma_haemocanis; wikidata Q3869014
+136468			Vibrio lentus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_lentus; wikidata Q26299437
+137583			Thalassomonas	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Thalassomonas; wikidata Q26295714
+137732			Granulicatella elegans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Granulicatella_elegans; wikidata Q25859809
+138563			Helicobacter cetorum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Helicobacter_cetorum; wikidata Q61954709
+142461			Vibrio ichthyoenteri	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_ichthyoenteri; wikidata Q26299388
+143361			Filifactor alocis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Filifactor_alocis; wikidata Q3745004
+146017			Mycolicibacterium boenickei	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Mycobacterium_boenickei; wikidata Q6946987
+146020			Mycolicibacterium brisbanense	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Mycobacterium_brisbanense; wikidata Q6946994
+153971			Mycobacterium palustre	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_palustre; wikidata Q6947073
+154046			Hungatella hathewayi	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Hungatella_hathewayi; wikidata Q25860799
+154654			Mycobacterium montefiorense	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_montefiorense; wikidata Q6947063
+154981			Aliiroseovarius crassostreae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliiroseovarius_crassostreae; wikidata Q56292555
+155192			Bartonella capreoli	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_capreoli; wikidata Q16838296
+155194			Bartonella bovis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_bovis; wikidata Q16838290
+155493			Gallibacterium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gallibacterium; wikidata Q26219630
+156973			Dysgonomonas	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Dysgonomonas; wikidata Q26209099
+156979			Pseudoglutamicibacter cumminsii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudoglutamicibacter_cumminsii; wikidata Q62857685
+156980			Arthrobacter woluwensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Arthrobacter_woluwensis; wikidata Q16834045
+157692			Pseudoleptotrichia goodfellowii	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudoleptotrichia_goodfellowii; wikidata Q101715230
+157920			Cellulosimicrobium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cellulosimicrobium; wikidata Q26209360
+158786			Lyngbya majuscula	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lyngbya_majuscula; wikidata Q20720044
+158876			Yokenella	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Yokenella; wikidata Q8054552
+165694			Bartonella schoenbuchensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_schoenbuchensis; wikidata Q18391255
+165779			Anaerococcus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Anaerococcus; wikidata Q3614900
+168471			Laribacter hongkongensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Laribacter_hongkongensis; wikidata Q15224108
+168808			Sneathia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sneathia; wikidata Q12217085
+169765			Mycobacterium lacus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_lacus; wikidata Q6947054
+180282			Delftia tsuruhatensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Delftia_tsuruhatensis; wikidata Q16961745
+182270			Aurantimonas coralicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aurantimonas_coralicida; wikidata Q16962925
+183670			Macromonas bipunctata	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Macromonas_bipunctata; wikidata Q24976895
+186733			Anaplasma bovis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Anaplasma_bovis; wikidata Q4751572
+186739			Candidatus Bartonella washoeensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_washoensis; wikidata Q18356789
+190721			Ralstonia insidiosa	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ralstonia_insidiosa; wikidata Q7288381
+190893			Vibrio coralliilyticus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_coralliilyticus; wikidata Q16993401
+194542			Mycobacterium tuberculosis variant pinnipedii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_pinnipedii; wikidata Q6947083
+194702			Cardiobacterium valvarum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cardiobacterium_valvarum; wikidata Q24975581
+196119			Methanotorris	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanotorris; wikidata Q6823607
+197575			Haemophilus aegyptius	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haemophilus_aegyptius; wikidata Q5638269
+199592			Microbacterium paraoxydans	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Microbacterium_paraoxydans; wikidata Q25863451
+203482			Volucribacter psittacicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Volucribacter_psittacicida; wikidata Q26306921
+204525			Teichococcus cervicalis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseomonas_cervicalis; wikidata Q48999253
+208557			Pasteuria nishizawae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteuria_nishizawae; wikidata Q18386921
+208962			Escherichia albertii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Escherichia_albertii; wikidata Q5397188
+212791			Enhydrobacter	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enhydrobacter; wikidata Q16981631
+214906			Histophilus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Histophilus; wikidata Q19841821
+216816			Bifidobacterium longum	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_longum; wikidata Q4904768
+218538			Dialister invisus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Dialister_invisus; wikidata Q3706665
+225322			Pasteuria ramosa	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteuria_ramosa; wikidata Q23817021
+226665			Rickettsia conorii subsp. heilongjiangensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_heilongjiangensis; wikidata Q16989255
+238800			Rickettsia asiatica	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_asiatica; wikidata Q16989250
+244292			Mycobacterium nebraskense	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_nebraskense; wikidata Q6947068
+244366			Klebsiella variicola	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_variicola; wikidata Q24976449
+249188			Parahaemophilus pittmaniae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Haemophilus_pittmaniae; wikidata Q18347933
+254786			Streptococcus castoreus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_castoreus; wikidata Q26289105
+255204			Pseudoclavibacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudoclavibacter; wikidata Q26275593
+256730			Volucribacter	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Volucribacter; wikidata Q26306914
+257708			Roseomonas gilardii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseomonas_gilardii; wikidata Q48999287
+257758			Streptococcus pseudopneumoniae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Streptococcus_pseudopneumoniae; wikidata Q7623359
+258533			Mycolicibacterium cosmeticum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_cosmeticum; wikidata Q6947012
+264251			Cellulosimicrobium funkei	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cellulosimicrobium_funkei; wikidata Q25841260
+265668			Vibrio ponticus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_ponticus; wikidata Q26299702
+267212			Neisseria bacilliformis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria_bacilliformis; wikidata Q6989655
+273136			Mycoplasma amphoriforme	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_amphoriforme; wikidata Q3868959
+280145			Acinetobacter colistiniresistens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_colistiniresistens; wikidata Q55603140
+280483			Thalassotalea loyana	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassotalea_loyana; wikidata Q48840955
+283734			Staphylococcus pseudintermedius	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_pseudintermedius; wikidata Q16992700
+290174			Aquimarina	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Aquimarina; wikidata Q26209012
+291176			Bartonella melophagi	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_melophagi; wikidata Q4865714
+291968			Acaricomes phytoseiuli	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acaricomes_phytoseiuli; wikidata Q4672120
+292462			Mycobacterium florentinum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_florentinum; wikidata Q6947021
+292486			Avibacterium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Avibacterium; wikidata Q26209050
+299583			Francisella orientalis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Francisella_orientalis; wikidata Q29564505
+308865			Elizabethkingia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Elizabethkingia; wikidata Q16745544
+309805			Persephonella marina	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Persephonella_marina; wikidata Q16987873
+312306			Pseudomonas entomophila	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_entomophila; wikidata Q7255037
+319939			Metapseudomonas otitidis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_otitidis; wikidata Q7255080
+326522			Neisseria animaloris	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Neisseria_animaloris; wikidata Q26268392
+339268			Mycobacterium colombiense	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_colombiense; wikidata Q6947006
+341694			Peptostreptococcus stomatis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptostreptococcus_stomatis; wikidata Q3899444
+342113			Burkholderia oklahomensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_oklahomensis; wikidata Q16849329
+369822			Rickettsia conorii subsp. raoultii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_raoultii; wikidata Q16989272
+373638			Attibartonella tamiae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_tamiae; wikidata Q18356774
+386891			Moraxella bovoculi	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moraxella_bovoculi; wikidata Q15709867
+400946			Wohlfahrtiimonas chitiniclastica	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Wohlfahrtiimonas_chitiniclastica; wikidata Q26307347
+404941			Mycobacteroides salmoniphilum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacteroides_salmoniphilum; wikidata Q112916207
+411577			Anaerococcus murdochii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerococcus_murdochii; wikidata Q25836950
+413502			Cronobacter turicensis	animal pathogen	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Cronobacter_turicensis; wikidata Q16959283
+413712			Sphingomonas pseudosanguinis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sphingomonas_pseudosanguinis; wikidata Q26287349
+419015			Alloscardovia omnicolens	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Alloscardovia_omnicolens; wikidata Q25835334
+425468			Mycobacterium arosiense	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_arosiense; wikidata Q6946976
+444163			Brucella microti	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_microti; wikidata Q15131209
+447689			Tenacibaculum soleae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tenacibaculum_soleae; wikidata Q16992998
+447792			Phytobacter	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Phytobacter; wikidata Q28735297
+472583			Ignatzschineria indica	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ignatzschineria_indica; wikidata Q25860854
+476528			Bibersteinia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bibersteinia; wikidata Q26219522
+480418			Mycobacterium lepromatosis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_lepromatosis; wikidata Q10748967
+487316			Acinetobacter soli	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter_soli; wikidata Q16825033
+497727			Candidatus Nitrososphaera gargensis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nitrososphaera_gargensis; wikidata Q24976640
+508459			Cloacibacillus	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cloacibacillus; wikidata Q26210384
+512402			Mycolicibacter heraklionensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycolicibacter_heraklionensis; wikidata Q113106448
+516063			Gallibacterium melopsittaci	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gallibacterium_melopsittaci; wikidata Q62903918
+516075			Providencia sneebia	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Providencia_sneebia; wikidata Q16965230
+529731			Listeria marthii	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_marthii; wikidata Q16984722
+574560			Photorhabdus temperata	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photorhabdus_temperata; wikidata Q16988015
+592724			Bartonella talpae	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_talpae; wikidata Q4865716
+676517			Rickettsiella massiliensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Diplorickettsia_massiliensis; wikidata Q16981380
+908285			Necropsobacter rosorum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Necropsobacter_rosorum; wikidata Q26268380
+935293			Yersinia entomophaga	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_entomophaga; wikidata Q21299156
+948102			Mycobacteroides franklinii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacteroides_franklinii; wikidata Q112916706
+985002			Staphylococcus argenteus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_argenteus; wikidata Q26288539
+1069827			Listeria fleischmannii	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_fleischmannii; wikidata Q24958397
+1108812			Mycolicibacter longobardus	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycolicibacter_longobardus; wikidata Q113105639
+1114204			Pseudomonas reptilivorous	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_reptilivora; wikidata Q7255099
+1114870			Flavobacterium branchiarum	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Flavobacterium_branchiarum; wikidata Q48966811
+1117041			Effusibacillus consociatus	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Effusibacillus_consociatus; wikidata Q25842046
+1117645			Elizabethkingia anophelis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Elizabethkingia_anophelis; wikidata Q24976335
+1134687			Klebsiella michiganensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Klebsiella_michiganensis; wikidata Q25860977
+1137606			Leptospira mayottensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_mayottensis; wikidata Q47174959
+1155739			Moorena producens	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorea_producens; wikidata Q293131
+1218315			Brucella inopinata	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brucella_inopinata; wikidata Q16847646
+1233427			Roseofilum reptotaenium	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseofilum_reptotaenium; wikidata Q67358016
+1263550			Edwardsiella piscicida	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_piscicida; wikidata Q29565713
+1268553			Sphingomonas kyeonggiensis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_kyeonggiensis; wikidata Q26287179
+1305738			Mycobacterium orygis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_orygis; wikidata Q109801739
+1318743			Bartonella ancashensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_ancashensis; wikidata Q29565903
+1461577			Weeksella massiliensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Weeksella_massiliensis; wikidata Q62867873
+1494960			Listeria aquatica	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_aquatica; wikidata Q24911548
+1494961			Listeria cornellensis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_cornellensis; wikidata Q24911564
+1494964			Paenilisteria riparia	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_riparia; wikidata Q24911561
+1497681			Paenilisteria newyorkensis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_newyorkensis; wikidata Q24908270
+1499973			Escherichia marmotae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Escherichia_marmotae; wikidata Q25858131
+1552123			Listeria booriae	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_booriae; wikidata Q24908262
+1585976			Bergeyella cardium	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bergeyella_cardium; wikidata Q28407481
+1604335			Yersinia rochesterensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Yersinia_rochesterensis; wikidata Q115774148
+1653175			Bartonella peromysci	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bartonella_peromysci; wikidata Q4865715
+1674146			Borreliella mayonii	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_mayonii; wikidata Q25441290
+1688787			Mycobacterium suricattae	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_suricattae; wikidata Q110867192
+1821960			Edwardsiella anguillarum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_anguillarum; wikidata Q25842043
+1822464			Paraburkholderia	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Paraburkholderia; wikidata Q26270559
+1870884			Clostridioides	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridioides; wikidata Q27438828
+1915309			Silvanigrella aquatica	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Silvanigrella_aquatica; wikidata Q60791504
+1986155			Staphylococcus cornubiensis	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_cornubiensis; wikidata Q63345706
+2026604			Listeria costaricensis	animal pathogen	FALSE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Listeria_costaricensis; wikidata Q61451453
+2153354			Klebsiella huaxiensis	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_huaxiensis; wikidata Q63397802
+2268407			Listeria thailandensis	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_thailandensis; wikidata Q63372694
+2305228			Chryseobacterium nematophagum	animal pathogen	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_nematophagum; wikidata Q61928109
+2529408			Schaalia	animal pathogen	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Schaalia; wikidata Q80959374
+2759526			Sphingomonas aliaeris	animal pathogen	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_aliaeris; wikidata Q108319300

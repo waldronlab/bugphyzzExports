@@ -1,0 +1,275 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+18			Pelobacter	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pelobacter; wikidata Q7161632
+18			Pelobacter	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pelobacter; wikidata Q7161632
+18			Pelobacter	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pelobacter; wikidata Q7161632
+167			Treponema succinifaciens	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Treponema_succinifaciens; wikidata Q26298094
+414			Methylococcus capsulatus	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Methylococcus_capsulatus; wikidata Q1948565
+469			Acinetobacter	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter; wikidata Q310457
+475			Moraxella	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moraxella; wikidata Q138309
+477			Moraxella lacunata	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Moraxella_lacunata; wikidata Q6909420
+480			Moraxella catarrhalis	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_catarrhalis; wikidata Q2046669
+482			Neisseria	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria; wikidata Q132209
+483			Neisseria cinerea	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_cinerea; wikidata Q16986248
+485			Neisseria gonorrhoeae	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_gonorrhoeae; wikidata Q131129
+486			Neisseria lactamica	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_lactamica; wikidata Q16986253
+487			Neisseria meningitidis	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Neisseria_meningitidis; wikidata Q154625
+489			Neisseria polysaccharea	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_polysaccharea; wikidata Q25351103
+830			Butyrivibrio	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Butyrivibrio; wikidata Q3647750
+830			Butyrivibrio	single	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Butyrivibrio; wikidata Q3647750
+904			Acidaminococcus	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidaminococcus; wikidata Q4674086
+914			Nitrosomonas	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nitrosomonas; wikidata Q132206
+920			Acidithiobacillus ferrooxidans	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acidithiobacillus_ferrooxidans; wikidata Q21232221
+920			Acidithiobacillus ferrooxidans	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acidithiobacillus_ferrooxidans; wikidata Q21232221
+1021			Beggiatoa	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Beggiatoa; wikidata Q3637455
+1030			Thiothrix	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiothrix; wikidata Q7784706
+1030			Thiothrix	rosettes	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Thiothrix; wikidata Q7784706
+1068			Rhodomicrobium	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodomicrobium; wikidata Q3934129
+1108			Chloroflexus aurantiacus	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chloroflexus_aurantiacus; wikidata Q2473850
+1158			Oscillatoria	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oscillatoria; wikidata Q141259
+1163			Anabaena	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anabaena; wikidata Q133353
+1175			Aphanizomenon	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aphanizomenon; wikidata Q309515
+1175			Aphanizomenon	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Aphanizomenon; wikidata Q309515
+1177			Nostoc	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nostoc; wikidata Q311257
+1177			Nostoc	filamentous	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nostoc; wikidata Q311257
+1203			Scytonema	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Scytonema; wikidata Q1315636
+1205			Trichodesmium	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Trichodesmium; wikidata Q7840756
+1205			Trichodesmium	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trichodesmium; wikidata Q7840756
+1206			Trichodesmium erythraeum	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Trichodesmium_erythraeum; wikidata Q21308349
+1206			Trichodesmium erythraeum	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trichodesmium_erythraeum; wikidata Q21308349
+1222			Prochlorothrix	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prochlorothrix; wikidata Q12047073
+1223			Prochlorothrix hollandica	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prochlorothrix_hollandica; wikidata Q62870127
+1253			Pediococcus	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Pediococcus; wikidata Q3243659
+1253			Pediococcus	tetrads	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Pediococcus; wikidata Q3243659
+1257			Peptostreptococcus	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptostreptococcus; wikidata Q3543267
+1257			Peptostreptococcus	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptostreptococcus; wikidata Q3543267
+1257			Peptostreptococcus	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptostreptococcus; wikidata Q3543267
+1258			Peptoniphilus asaccharolyticus	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptoniphilus_asaccharolyticus; wikidata Q3899436
+1258			Peptoniphilus asaccharolyticus	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptoniphilus_asaccharolyticus; wikidata Q3899436
+1258			Peptoniphilus asaccharolyticus	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptoniphilus_asaccharolyticus; wikidata Q3899436
+1261			Peptostreptococcus anaerobius	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptostreptococcus_anaerobius; wikidata Q3899443
+1261			Peptostreptococcus anaerobius	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptostreptococcus_anaerobius; wikidata Q3899443
+1261			Peptostreptococcus anaerobius	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Peptostreptococcus_anaerobius; wikidata Q3899443
+1266			Sarcina	tetrads	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sarcina_(bacterium); wikidata Q309504
+1269			Micrococcus	tetrads	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Micrococcus; wikidata Q1954952
+1270			Micrococcus luteus	tetrads	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micrococcus_luteus; wikidata Q142000
+1272			Kocuria varians	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kocuria_varians; wikidata Q20642745
+1273			Micrococcus lylae	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Micrococcus_lylae; wikidata Q16985697
+1273			Micrococcus lylae	tetrads	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Micrococcus_lylae; wikidata Q16985697
+1275			Kocuria rosea	tetrads	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kocuria_rosea; wikidata Q25860999
+1276			Kytococcus sedentarius	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kytococcus_sedentarius; wikidata Q16943340
+1276			Kytococcus sedentarius	tetrads	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kytococcus_sedentarius; wikidata Q16943340
+1279			Staphylococcus	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus; wikidata Q199695
+1284			Staphylococcus hyicus	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_hyicus; wikidata Q2332104
+1285			Staphylococcus intermedius	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_intermedius; wikidata Q2332105
+1286			Staphylococcus simulans	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_simulans; wikidata Q2268276
+1286			Staphylococcus simulans	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_simulans; wikidata Q2268276
+1286			Staphylococcus simulans	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_simulans; wikidata Q2268276
+1288			Staphylococcus xylosus	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_xylosus; wikidata Q606505
+1290			Staphylococcus hominis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_hominis; wikidata Q7600410
+1292			Staphylococcus warneri	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_warneri; wikidata Q3968275
+1293			Staphylococcus gallinarum	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_gallinarum; wikidata Q7600409
+1293			Staphylococcus gallinarum	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_gallinarum; wikidata Q7600409
+1293			Staphylococcus gallinarum	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_gallinarum; wikidata Q7600409
+1296			Mammaliicoccus sciuri	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mammaliicoccus_sciuri; wikidata Q606028
+1301			Streptococcus	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus; wikidata Q190161
+1301			Streptococcus	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus; wikidata Q190161
+1303			Streptococcus oralis	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_oralis; wikidata Q1856358
+1304			Streptococcus salivarius	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus_salivarius; wikidata Q139986
+1311			Streptococcus agalactiae	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus_agalactiae; wikidata Q132949
+1313			Streptococcus pneumoniae	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus_pneumoniae; wikidata Q221179
+1314			Streptococcus pyogenes	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Streptococcus_pyogenes; wikidata Q131271
+1345			Streptococcus ferus	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_ferus; wikidata Q7623350
+1357			Lactococcus	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactococcus; wikidata Q134274
+1357			Lactococcus	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactococcus; wikidata Q134274
+1357			Lactococcus	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactococcus; wikidata Q134274
+1358			Lactococcus lactis	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactococcus_lactis; wikidata Q133598
+1358			Lactococcus lactis	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactococcus_lactis; wikidata Q133598
+1375			Aerococcus	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aerococcus; wikidata Q4688224
+1380			Atopobium	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Atopobium; wikidata Q3629016
+1380			Atopobium	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Atopobium; wikidata Q3629016
+1380			Atopobium	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Atopobium; wikidata Q3629016
+1404			Priestia megaterium	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Priestia_megaterium; wikidata Q148703
+1404			Priestia megaterium	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Priestia_megaterium; wikidata Q148703
+1496			Clostridioides difficile	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridioides_difficile; wikidata Q56290719
+1496			Clostridioides difficile	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridioides_difficile; wikidata Q56290719
+1588			Lentilactobacillus hilgardii	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lentilactobacillus_hilgardii; wikidata Q1967870
+1588			Lentilactobacillus hilgardii	filamentous	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lentilactobacillus_hilgardii; wikidata Q1967870
+1588			Lentilactobacillus hilgardii	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lentilactobacillus_hilgardii; wikidata Q1967870
+1590			Lactiplantibacillus plantarum	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactiplantibacillus_plantarum; wikidata Q1756682
+1590			Lactiplantibacillus plantarum	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactiplantibacillus_plantarum; wikidata Q1756682
+1590			Lactiplantibacillus plantarum	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactiplantibacillus_plantarum; wikidata Q1756682
+1614			Fructilactobacillus fructivorans	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Fructilactobacillus_fructivorans; wikidata Q2682319
+1614			Fructilactobacillus fructivorans	filamentous	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Fructilactobacillus_fructivorans; wikidata Q2682319
+1614			Fructilactobacillus fructivorans	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Fructilactobacillus_fructivorans; wikidata Q2682319
+1614			Fructilactobacillus fructivorans	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Fructilactobacillus_fructivorans; wikidata Q2682319
+1654			Actinomyces	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces; wikidata Q312213
+1658			Actinomyces bovis	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_bovis; wikidata Q21232913
+1678			Bifidobacterium	branched	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Bifidobacterium; wikidata Q132656
+1724			Corynebacterium renale	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_renale; wikidata Q5173762
+1769			Mycobacterium leprae	palisade	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Mycobacterium_leprae; wikidata Q155891
+1791			Mycolicibacterium aurum	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycolicibacterium_aurum; wikidata Q6946982
+1817			Nocardia	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardia; wikidata Q135175
+1844			Nocardioides luteus	branched	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nocardioides_luteus; wikidata Q26268946
+1865			Actinoplanes	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinoplanes; wikidata Q16825162
+1873			Micromonospora	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora; wikidata Q3061522
+1888			Streptomyces albus	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_albus; wikidata Q7623378
+1901			Streptomyces clavuligerus	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_clavuligerus; wikidata Q7623381
+1988			Actinomadura	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomadura; wikidata Q16825153
+1993			Actinomadura madurae	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomadura_madurae; wikidata Q25833899
+2181			Methanothermus sociabilis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanothermus_sociabilis; wikidata Q16985584
+2202			Methanospirillum	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanospirillum; wikidata Q4044149
+2207			Methanosarcina	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanosarcina; wikidata Q1942715
+2214			Methanosarcina acetivorans	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanosarcina_acetivorans; wikidata Q1946250
+2222			Methanothrix	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanothrix; wikidata Q6823605
+2223			Methanothrix soehngenii	filamentous	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Methanothrix_soehngenii; wikidata Q16985588
+2226			Methanococcoides methylutens	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanococcoides_methylutens; wikidata Q16985521
+2226			Methanococcoides methylutens	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanococcoides_methylutens; wikidata Q16985521
+2262			Pyrococcus woesei	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Pyrococcus_woesei; wikidata Q16988926
+2263			Thermococcus	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Thermococcus; wikidata Q2710532
+2713			Aquifex	cell cluster	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Aquifex; wikidata Q310736
+2755			Brochothrix	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brochothrix; wikidata Q3645203
+13159			Mycoplana	branched	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplana; wikidata Q16218966
+28035			Staphylococcus lugdunensis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_lugdunensis; wikidata Q3968274
+28073			Lyngbya	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lyngbya; wikidata Q310362
+28449			Neisseria subflava	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_subflava; wikidata Q6989667
+29291			Methanococcoides burtonii	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanococcoides_burtonii; wikidata Q3307346
+29291			Methanococcoides burtonii	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanococcoides_burtonii; wikidata Q3307346
+29378			Staphylococcus arlettae	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_arlettae; wikidata Q7600396
+29379			Staphylococcus auricularis	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_auricularis; wikidata Q7600398
+29379			Staphylococcus auricularis	tetrads	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_auricularis; wikidata Q7600398
+29382			Staphylococcus cohnii	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_cohnii; wikidata Q3968273
+29384			Staphylococcus kloosii	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_kloosii; wikidata Q7600412
+29384			Staphylococcus kloosii	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_kloosii; wikidata Q7600412
+29384			Staphylococcus kloosii	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_kloosii; wikidata Q7600412
+29501			Mycoplasma haemofelis	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma_haemofelis; wikidata Q3869018
+33028			Staphylococcus saccharolyticus	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_saccharolyticus; wikidata Q7600423
+33028			Staphylococcus saccharolyticus	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_saccharolyticus; wikidata Q7600423
+33043			Coprococcus eutactus	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Coprococcus_eutactus; wikidata Q3693218
+33043			Coprococcus eutactus	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Coprococcus_eutactus; wikidata Q3693218
+33059			Acidithiobacillus caldus	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Acidithiobacillus_caldus; wikidata Q18350075
+34104			Streptobacillus	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptobacillus; wikidata Q3798005
+35823			Arthrospira	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrospira; wikidata Q987596
+36808			Corynebacterium bovis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_bovis; wikidata Q5173756
+37332			Nocardia seriolae	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardia_seriolae; wikidata Q26268837
+40751			Thioploca	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioploca; wikidata Q7784687
+40753			Thioploca chileae	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioploca_chileae; wikidata Q17264637
+42858			Mammaliicoccus lentus	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_lentus; wikidata Q7600419
+43675			Rothia mucilaginosa	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_mucilaginosa; wikidata Q26282584
+43675			Rothia mucilaginosa	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_mucilaginosa; wikidata Q26282584
+43675			Rothia mucilaginosa	tetrads	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_mucilaginosa; wikidata Q26282584
+43947			Tolumonas	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Tolumonas; wikidata Q16993145
+43947			Tolumonas	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Tolumonas; wikidata Q16993145
+44676			Geothrix fermentans	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Geothrix_fermentans; wikidata Q5548615
+44676			Geothrix fermentans	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Geothrix_fermentans; wikidata Q5548615
+46124			Granulicatella adiacens	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Granulicatella_adiacens; wikidata Q25859800
+46124			Granulicatella adiacens	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Granulicatella_adiacens; wikidata Q25859800
+46126			Staphylococcus chromogenes	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_chromogenes; wikidata Q7600401
+46127			Staphylococcus felis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_felis; wikidata Q10859373
+47482			Sphaerisporangium cinnabarinum	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphaerisporangium_cinnabarinum; wikidata Q22286443
+47715			Lacticaseibacillus rhamnosus	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Lacticaseibacillus_rhamnosus; wikidata Q1607640
+48296			Acinetobacter pittii	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_pittii; wikidata Q16825015
+53344			Staphylococcus delphini	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_delphini; wikidata Q7600405
+53344			Staphylococcus delphini	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_delphini; wikidata Q7600405
+53344			Staphylococcus delphini	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_delphini; wikidata Q7600405
+53357			Intrasporangium	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Intrasporangium; wikidata Q21216926
+53358			Intrasporangium calvum	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Intrasporangium_calvum; wikidata Q21277220
+54304			Planktothrix	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Planktothrix; wikidata Q2098270
+54571			Streptomyces venezuelae	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_venezuelae; wikidata Q7623398
+57493			Kocuria	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kocuria; wikidata Q16947564
+57493			Kocuria	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kocuria; wikidata Q16947564
+57493			Kocuria	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kocuria; wikidata Q16947564
+57493			Kocuria	tetrads	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Kocuria; wikidata Q16947564
+60894			Saccharopolyspora spinosa	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_spinosa; wikidata Q16992363
+63186			Zobellia galactanivorans	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Zobellia_galactanivorans; wikidata Q26308242
+64002			Nevskia ramosa	rosettes	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Nevskia_ramosa; wikidata Q26268454
+66851			Methanobrevibacter oralis	single	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanobrevibacter_oralis; wikidata Q18344101
+69964			Azotobacter salinestris	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Azotobacter_salinestris; wikidata Q24976883
+69964			Azotobacter salinestris	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Azotobacter_salinestris; wikidata Q24976883
+69966			Macrococcoides caseolyticum	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Macrococcus_caseolyticus; wikidata Q25862020
+69966			Macrococcoides caseolyticum	cell cluster	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Macrococcus_caseolyticus; wikidata Q25862020
+69966			Macrococcoides caseolyticum	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Macrococcus_caseolyticus; wikidata Q25862020
+69966			Macrococcoides caseolyticum	single	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Macrococcus_caseolyticus; wikidata Q25862020
+70255			Staphylococcus condimenti	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_condimenti; wikidata Q7600402
+70255			Staphylococcus condimenti	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_condimenti; wikidata Q7600402
+70255			Staphylococcus condimenti	single	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_condimenti; wikidata Q7600402
+70258			Staphylococcus piscifermentans	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_piscifermentans; wikidata Q7600422
+71237			Mammaliicoccus vitulinus	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_vitulinus; wikidata Q7600426
+71452			Enterococcus raffinosus	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_raffinosus; wikidata Q17119101
+71452			Enterococcus raffinosus	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_raffinosus; wikidata Q17119101
+71452			Enterococcus raffinosus	single	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_raffinosus; wikidata Q17119101
+80865			Delftia	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Delftia; wikidata Q5253698
+80865			Delftia	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Delftia; wikidata Q5253698
+82135			Fannyhessea vaginae	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Atopobium_vaginae; wikidata Q16949286
+82135			Fannyhessea vaginae	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Atopobium_vaginae; wikidata Q16949286
+82135			Fannyhessea vaginae	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Atopobium_vaginae; wikidata Q16949286
+83302			Microbispora corallina	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbispora_corallina; wikidata Q18344596
+84036			Syntrophococcus	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Syntrophococcus; wikidata Q21078552
+84037			Syntrophococcus sucromutans	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Syntrophococcus_sucromutans; wikidata Q16992908
+84111			Eggerthella	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Eggerthella; wikidata Q5347900
+84111			Eggerthella	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Eggerthella; wikidata Q5347900
+84111			Eggerthella	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Eggerthella; wikidata Q5347900
+86004			Pasteuria	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteuria; wikidata Q16987565
+90373			Thiomargarita namibiensis	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomargarita_namibiensis; wikidata Q132118
+91559			Methanimicrococcus	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanimicrococcus; wikidata Q4044096
+91559			Methanimicrococcus	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanimicrococcus; wikidata Q4044096
+92644			Streptomyces malaysiensis	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_malaysiensis; wikidata Q16992810
+92939			Gloeotrichia	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gloeotrichia; wikidata Q22285311
+98443			Richelia	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Richelia; wikidata Q27438682
+102231			Gloeocapsa	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Gloeocapsa; wikidata Q5571161
+111015			Actinomyces radicidentis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_radicidentis; wikidata Q20685839
+113567			Actinoplanes italicus	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinoplanes_italicus; wikidata Q16973955
+119206			Aerococcus sanguinicola	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aerococcus_sanguinicola; wikidata Q4688225
+150056			Mammaliicoccus fleurettii	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_fleurettii; wikidata Q7600407
+150056			Mammaliicoccus fleurettii	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_fleurettii; wikidata Q7600407
+150056			Mammaliicoccus fleurettii	single	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_fleurettii; wikidata Q7600407
+177969			Oscillatoria brevis	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oscillatoria_brevis; wikidata Q39087436
+191768			Plesiocystis pacifica	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Plesiocystis_pacifica; wikidata Q26271219
+207243			Palaeococcus helgesonii	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Palaeococcus_helgesonii; wikidata Q20669259
+207243			Palaeococcus helgesonii	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Palaeococcus_helgesonii; wikidata Q20669259
+212347			Aulosira	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aulosira; wikidata Q4821820
+215802			Enhygromyxa	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enhygromyxa; wikidata Q26225914
+215803			Enhygromyxa salina	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enhygromyxa_salina; wikidata Q25842073
+221292			Stigonema	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Stigonema; wikidata Q2349407
+221292			Stigonema	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Stigonema; wikidata Q2349407
+230143			Scardovia wiggsiae	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Scardovia_wiggsiae; wikidata Q26284634
+241425			Crinalium epipsammum	cell chain	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Crinalium_epipsammum; wikidata Q5185731
+241425			Crinalium epipsammum	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Crinalium_epipsammum; wikidata Q5185731
+246432			Staphylococcus equorum	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_equorum; wikidata Q7600406
+253183			Myceligenerans	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Myceligenerans; wikidata Q26237432
+272131			Nostoc punctiforme	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nostoc_punctiforme; wikidata Q7061966
+308354			Staphylococcus simiae	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_simiae; wikidata Q1707938
+309805			Persephonella marina	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Persephonella_marina; wikidata Q16987873
+309805			Persephonella marina	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Persephonella_marina; wikidata Q16987873
+321316			Sphaerisporangium melleum	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphaerisporangium_melleum; wikidata Q22286450
+321317			Sphaerisporangium rubeum	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphaerisporangium_rubeum; wikidata Q22286456
+338192			Nitrosopumilus maritimus	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nitrosopumilus_maritimus; wikidata Q13606110
+338192			Nitrosopumilus maritimus	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nitrosopumilus_maritimus; wikidata Q13606110
+348610			Methanogenium marinum	single	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanogenium_marinum; wikidata Q16985539
+400947			Deefgea	single	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Deefgea; wikidata Q5249989
+407159			Knoellia remsis	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Knoellia_remsis; wikidata Q66663019
+407159			Knoellia remsis	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Knoellia_remsis; wikidata Q66663019
+407159			Knoellia remsis	tetrads	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Knoellia_remsis; wikidata Q66663019
+491919			Allobrachymonas chironomi	cell chain	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brachymonas_chironomi; wikidata Q16845607
+491919			Allobrachymonas chironomi	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brachymonas_chironomi; wikidata Q16845607
+491919			Allobrachymonas chironomi	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brachymonas_chironomi; wikidata Q16845607
+522262			Staphylococcus rostri	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_rostri; wikidata Q606532
+555791			Staphylococcus massiliensis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_massiliensis; wikidata Q7600414
+569857			Staphylococcus microti	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_microti; wikidata Q7600413
+570936			Pseudonocardia parietis	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudonocardia_parietis; wikidata Q26277651
+586733			Staphylococcus devriesei	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_devriesei; wikidata Q7600404
+592978			Mediterraneibacter faecis	cell chain	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Mediterraneibacter_faecis; wikidata Q113680550
+622664			Ornithinibacter aureus	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ornithinibacter_aureus; wikidata Q26269641
+643214			Mammaliicoccus stepanovicii	cell cluster	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_stepanovicii; wikidata Q7600424
+643214			Mammaliicoccus stepanovicii	paired cells	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_stepanovicii; wikidata Q7600424
+643214			Mammaliicoccus stepanovicii	single	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_stepanovicii; wikidata Q7600424
+676517			Rickettsiella massiliensis	paired cells	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Diplorickettsia_massiliensis; wikidata Q16981380
+732147			Wollea	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Wollea; wikidata Q8030332
+863522			Bryocella elongata	rosettes	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bryocella_elongata; wikidata Q16975314
+995060			Actinopolyspora lacussalsi subsp. righensis	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinopolyspora_righensis; wikidata Q16825174
+1191515			Ornithinibacter	branched	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ornithinibacter; wikidata Q26269642
+1323230			Aerococcus vaginalis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aerococcus_vaginalis; wikidata Q25834673
+1547882			Petalonema alatum	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Petalonema_alatum; wikidata Q13538183
+1707952			Chloroflexus islandicus	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chloroflexus_islandicus; wikidata Q62869905
+1755241			Anaerococcus nagyae	paired cells	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerococcus_nagyae; wikidata Q62879768
+2596745			Limnospira	filamentous	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Limnospira; wikidata Q98815276
+2742203			Staphylococcus borealis	cell cluster	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_borealis; wikidata Q101135508

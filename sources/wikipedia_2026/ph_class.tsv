@@ -1,0 +1,255 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+437			Acidomonas methanolica	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidomonas_methanolica; wikidata Q16824919
+533			Beijerinckia indica	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Beijerinckia_indica; wikidata Q18357295
+662			Vibrio	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio; wikidata Q753490
+926			Thiomonas intermedia	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomonas_intermedia; wikidata Q16977849
+1254			Pediococcus acidilactici	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pediococcus_acidilactici; wikidata Q7159284
+1399			Cytobacillus firmus	alkalitolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacillus_firmus; wikidata Q18355968
+1445			Alkalihalobacillus alcalophilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_alcalophilus; wikidata Q4838957
+1450			Alicyclobacillus acidoterrestris	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_acidoterrestris; wikidata Q21399774
+1457			Paenalicyclobacillus cycloheptanicus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_cycloheptanicus; wikidata Q21399858
+1582			Lacticaseibacillus casei	acidotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacticaseibacillus_casei; wikidata Q139777
+1585			Lactobacillus delbrueckii subsp. bulgaricus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_delbrueckii_subsp._bulgaricus; wikidata Q262677
+1956			Streptomyces diastaticus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_diastaticus; wikidata Q21319402
+2175			Methanohalophilus	alkaliphile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanohalophilus; wikidata Q4044121
+2256			Natronobacterium	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronobacterium; wikidata Q6980254
+2284			Sulfolobus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfolobus; wikidata Q1209791
+2285			Sulfolobus acidocaldarius	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfolobus_acidocaldarius; wikidata Q2364491
+2331			Halanaerobium praevalens	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobium_praevalens; wikidata Q3782529
+12915			Acidianus infernus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidianus_infernus; wikidata Q12605453
+28033			Sulfobacillus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfobacillus; wikidata Q20642767
+28034			Sulfobacillus thermosulfidooxidans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfobacillus_thermosulfidooxidans; wikidata Q26294142
+33059			Acidithiobacillus caldus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidithiobacillus_caldus; wikidata Q18350075
+33075			Acidobacterium capsulatum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidobacterium_capsulatum; wikidata Q16001631
+33987			Exiguobacterium aurantiacum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_aurantiacum; wikidata Q25858427
+42808			Paenalicyclobacillus disulfidooxidans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_disulfidooxidans; wikidata Q25834837
+43687			Metallosphaera sedula	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Metallosphaera_sedula; wikidata Q5990371
+46631			Picrophilus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Picrophilus; wikidata Q3267581
+47490			Thermoanaerobacterium aotearoense	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacterium_aotearoense; wikidata Q3990309
+50339			Thermoplasma volcanium	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoplasma_volcanium; wikidata Q16993083
+50709			Acidocella	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidocella; wikidata Q4674111
+50714			Acidisphaera	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidisphaera; wikidata Q4674104
+52021			Billgrantia desiderata	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_desiderata; wikidata Q18348097
+53245			Desulfonatronovibrio hydrogenovorans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronovibrio_hydrogenovorans; wikidata Q16960161
+53633			Sulfobacillus acidophilus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfobacillus_acidophilus; wikidata Q16992847
+53635			Acidimicrobium ferrooxidans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidimicrobium_ferrooxidans; wikidata Q19760243
+54294			Thermosyntropha lipolytica	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermosyntropha_lipolytica; wikidata Q3990333
+66848			Desulfonatronum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronum; wikidata Q19683999
+66862			Ammoniphilus	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ammoniphilus; wikidata Q21217355
+66864			Ammoniphilus oxalivorans	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ammoniphilus_oxalivorans; wikidata Q25835873
+68284			Streptomyces werraensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_werraensis; wikidata Q26293473
+68288			Cyclobacterium	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cyclobacterium; wikidata Q26219570
+69895			Tindallia magadiensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tindallia_magadiensis; wikidata Q3991566
+71151			Methanocalculus	neutrophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanocalculus; wikidata Q4044097
+74968			Ferroplasma	acidophile	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Ferroplasma; wikidata Q2666248
+74969			Ferroplasma acidiphilum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ferroplasma_acidiphilum; wikidata Q5860815
+76935			Salipaludibacillus agaradhaerens	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salipaludibacillus_agaradhaerens; wikidata Q48975066
+76935			Salipaludibacillus agaradhaerens	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salipaludibacillus_agaradhaerens; wikidata Q48975066
+77523			Caldalkalibacillus horti	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_horti; wikidata Q18355969
+79598			Heliorestis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Heliorestis; wikidata Q3784582
+79599			Heliorestis daurensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Heliorestis_daurensis; wikidata Q3784585
+79601			Metallosphaera hakonensis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Metallosphaera_hakonensis; wikidata Q12595099
+79882			Sutcliffiella halmapala	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sutcliffiella_halmapala; wikidata Q4838966
+79882			Sutcliffiella halmapala	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sutcliffiella_halmapala; wikidata Q4838966
+79883			Sutcliffiella horikoshii	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sutcliffiella_horikoshii; wikidata Q4838968
+79885			Alkalihalophilus pseudofirmus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_pseudofirmus; wikidata Q4838978
+79885			Alkalihalophilus pseudofirmus	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_pseudofirmus; wikidata Q4838978
+81943			Methylocella palustris	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylocella_palustris; wikidata Q16985631
+85682			Anaerobacillus arseniciselenatis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerobacillus_arseniciselenatis; wikidata Q25836721
+85924			Alkalispirillum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalispirillum; wikidata Q26219963
+88724			Natrinema versiforme	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natrinema_versiforme; wikidata Q16986218
+89784			Alicyclobacillus hesperidum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_hesperidum; wikidata Q25834844
+89959			Natronincola histidinovorans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronincola_histidinovorans; wikidata Q3873299
+90373			Thiomargarita namibiensis	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomargarita_namibiensis; wikidata Q132118
+90970			Alicyclobacillus tolerans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_tolerans; wikidata Q56277128
+92245			Thiomicrospira aerophila	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomicrospira_aerophila; wikidata Q62905503
+92246			Thiomicrospira sibirica	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomicrospira_sibirica; wikidata Q62905549
+94136			Alkalibacillus haloalkaliphilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_haloalkaliphilus; wikidata Q25834899
+101564			Ectopseudomonas alcaliphila	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_alcaliphila; wikidata Q7255000
+105229			Neobacillus fumarioli	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neobacillus_fumarioli; wikidata Q16980623
+105851			Acidilobus aceticus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidilobus_aceticus; wikidata Q12605459
+106634			Thioalkalivibrio versutus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioalkalivibrio_versutus; wikidata Q16993111
+107820			Thioalkalivibrio nitratis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioalkalivibrio_nitratis; wikidata Q16993103
+108010			Thioalkalivibrio paradoxus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioalkalivibrio_paradoxus; wikidata Q16993107
+114628			Alkaliphilus transvaalensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkaliphilus_transvaalensis; wikidata Q3611880
+119977			Acidithiobacillus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidithiobacillus; wikidata Q142671
+121039			Ferrimicrobium acidiphilum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ferrimicrobium_acidiphilum; wikidata Q25858512
+122960			Paenalicyclobacillus herbarius	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_herbarius; wikidata Q25834842
+133552			Methylocapsa acidiphila	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylocapsa_acidiphila; wikidata Q16985629
+139021			Dietzia psychralcaliphila	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dietzia_psychralcaliphila; wikidata Q16960727
+148448			Natronobacterium haloterrestre	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobiforma_haloterrestris; wikidata Q18392516
+148454			Marinospirillum alkaliphilum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinospirillum_alkaliphilum; wikidata Q25862729
+150333			Thermobrachium	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermobrachium; wikidata Q3990316
+152475			Thioalkalivibrio thiocyanoxidans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioalkalivibrio_thiocyanoxidans; wikidata Q16993108
+154347			Thiorhodospira sibirica	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiorhodospira_sibirica; wikidata Q18394160
+156972			Thioalkalicoccus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioalkalicoccus; wikidata Q28070506
+159290			Desulfonatronum thiodismutans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronum_thiodismutans; wikidata Q18351399
+159292			Tindallia californiensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tindallia_californiensis; wikidata Q3991564
+160660			Acidihalobacter prosperus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidihalobacter_prosperus; wikidata Q25481238
+161920			Dietzia natronolimnaea	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dietzia_natronolimnaea; wikidata Q18388524
+179819			Nocardiopsis metallicus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_metallicus; wikidata Q26269023
+182455			Alicyclobacillus acidiphilus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_acidiphilus; wikidata Q16827248
+182710			Oceanobacillus iheyensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_iheyensis; wikidata Q16986730
+191770			Marinilactibacillus psychrotolerans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinilactibacillus_psychrotolerans; wikidata Q25862353
+192387			Alicyclobacillus sendaiensis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_sendaiensis; wikidata Q25834854
+196081			Scardovia	acidotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Scardovia; wikidata Q26267706
+199136			Arthrobacter koreensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_koreensis; wikidata Q24959772
+199441			Halalkalibacter krulwichiae	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_krulwichiae; wikidata Q111850668
+200904			Paraliobacillus ryukyuensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraliobacillus_ryukyuensis; wikidata Q26270756
+200989			Alkalicoccus saliphilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalicoccus_saliphilus; wikidata Q62871131
+200990			Alkalibacillus filiformis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_filiformis; wikidata Q25834896
+202260			Virgibacillus sediminis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_sediminis; wikidata Q26306793
+204470			Paenalicyclobacillus pomorum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_pomorum; wikidata Q25834851
+210622			Anoxynatronum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anoxynatronum; wikidata Q3618286
+210623			Anoxynatronum sibiricum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anoxynatronum_sibiricum; wikidata Q3618287
+223958			Exiguobacterium oxidotolerans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_oxidotolerans; wikidata Q25858447
+225762			Nocardiopsis alkaliphila	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_alkaliphila; wikidata Q26816919
+226217			Streptomyces sodiiphilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_sodiiphilus; wikidata Q26292671
+227864			Cerasibacillus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cerasibacillus; wikidata Q26219547
+235931			Alkalibacter saccharofermentans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacter_saccharofermentans; wikidata Q3611876
+239974			Nocardiopsis valliformis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_valliformis; wikidata Q26269151
+242703			Acidilobus saccharovorans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidilobus_saccharovorans; wikidata Q12605460
+246272			Alkalihalobacterium bogoriense	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_bogoriensis; wikidata Q111850765
+246603			Citricoccus alkalitolerans	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Citricoccus_alkalitolerans; wikidata Q25841407
+252246			Alicyclobacillus vulcanalis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_vulcanalis; wikidata Q25834861
+254356			Roseinatronobacter ekhonensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseibaca_ekhonensis; wikidata Q26282038
+254719			Marinobacter alkaliphilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_alkaliphilus; wikidata Q26816917
+255045			Bradyrhizobium canariense	acidotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_canariense; wikidata Q16953362
+266892			Salibacterium qingdaonense	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salibacterium_qingdaonense; wikidata Q26283826
+267990			Lebetimonas acidiphila	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lebetimonas_acidiphila; wikidata Q25861286
+278991			Aneurinibacillus terranovensis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aneurinibacillus_terranovensis; wikidata Q25837728
+290588			Shouchella oshimensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_oshimensis; wikidata Q111850714
+290589			Alkalibacterium iburiense	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacterium_iburiense; wikidata Q62876412
+293256			Alkalidesulfovibrio alkalitolerans	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_alkalitolerans; wikidata Q25841858
+296745			Caldalkalibacillus thermarum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldalkalibacillus_thermarum; wikidata Q48971813
+296995			Exiguobacterium indicum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_indicum; wikidata Q25858435
+301388			Actinotalea bogoriensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulomonas_bogoriensis; wikidata Q25841226
+302484			Haloferax larsenii	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloferax_larsenii; wikidata Q20081188
+306540			Halolactibacillus halophilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halolactibacillus_halophilus; wikidata Q25860235
+310575			Advenella kashmirensis	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Advenella_kashmirensis; wikidata Q16973970
+310779			Actinacidiphila yanglinensis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_yanglinensis; wikidata Q26293566
+310780			Actinacidiphila rubida	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_rubidus; wikidata Q26292353
+310781			Actinacidiphila guanduensis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_guanduensis; wikidata Q22665876
+312539			Acidianus sulfidivorans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidianus_sulfidivorans; wikidata Q12605452
+314344			Mariprofundus ferrooxydans	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mariprofundus_ferrooxydans; wikidata Q10957092
+337005			Microcella putealis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microcella_putealis; wikidata Q25863736
+338644			Sulfobacillus thermotolerans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfobacillus_thermotolerans; wikidata Q18393103
+351052			Alkalilimnicola ehrlichii	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalilimnicola_ehrlichii; wikidata Q16827267
+353224			Caldalkalibacillus uzonensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldalkalibacillus_uzonensis; wikidata Q25840862
+353800			Halostagnicola larsenii	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halostagnicola_larsenii; wikidata Q20055215
+359209			Marinomonas ostreistagni	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_ostreistagni; wikidata Q25862688
+361365			Tindallia texcoconensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tindallia_texcoconensis; wikidata Q26297874
+364901			Streptomyces gulbargensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_gulbargensis; wikidata Q22665877
+368783			Acidicaldus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidicaldus; wikidata Q4674094
+372655			Nocardiopsis terrae	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_terrae; wikidata Q26269134
+376488			Halotalea	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halotalea; wikidata Q26220003
+379482			Marinobacter pelagius	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_pelagius; wikidata Q26816900
+379547			Candidatus Aciduliprofundum boonei	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aciduliprofundum_boonei; wikidata Q25833622
+381706			Oceanobacillus chironomi	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_chironomi; wikidata Q16986723
+392010			Alicyclobacillus sacchari	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_sacchari; wikidata Q25834852
+392011			Alicyclobacillus fastidiosus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_fastidiosus; wikidata Q25834838
+392012			Paenalicyclobacillus kakegawensis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_kakegawensis; wikidata Q25834845
+392014			Paenalicyclobacillus shizuokensis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_shizuokensis; wikidata Q25834857
+392015			Paenalicyclobacillus macrosporangiidus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_macrosporangiidus; wikidata Q25834847
+392016			Paenalicyclobacillus contaminans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_contaminans; wikidata Q25834835
+392823			Alkalibacillus silvisoli	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_silvisoli; wikidata Q25834905
+392825			Halalkalibacillus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halalkalibacillus; wikidata Q26219643
+393762			Natronincola ferrireducens	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronincola_ferrireducens; wikidata Q26268355
+398758			Alkalibacterium indicireducens	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacterium_indicireducens; wikidata Q62876425
+405212			Alicyclobacillus acidocaldarius	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_acidocaldarius; wikidata Q21237564
+406099			Aquisalimonas	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquisalimonas; wikidata Q26209605
+424188			Streptomyces deccanensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_deccanensis; wikidata Q22285044
+424696			Ferroplasma thermophilum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ferroplasma_thermophilum; wikidata Q26156010
+426114			Thiomonas arsenitoxydans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomonas_arsenitoxydans; wikidata Q16964042
+427078			Salsuginibacillus kocurii	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salsuginibacillus_kocurii; wikidata Q26284494
+442899			Halolactibacillus alkaliphilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halolactibacillus_alkaliphilus; wikidata Q48972659
+450380			Microbacterium profundi	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_profundi; wikidata Q25863474
+459525			Fictibacillus solisalsi	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fictibacillus_solisalsi; wikidata Q25858626
+466152			Singulisphaera	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Singulisphaera; wikidata Q26285740
+471514			Paenalicyclobacillus ferrooxydans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_ferrooxydans; wikidata Q25834840
+472977			Natronobacillus	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronobacillus; wikidata Q27438780
+478780			Cellulomonas phragmiteti	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulomonas_phragmiteti; wikidata Q25841246
+489142			Citricoccus zhacaiensis	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Citricoccus_zhacaiensis; wikidata Q25841412
+501010			Nocardiopsis sinuspersici	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_sinuspersici; wikidata Q26269099
+505248			Novosphingobium acidiphilum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Novosphingobium_acidiphilum; wikidata Q26269411
+517424			Salsuginibacillus halophilus	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salsuginibacillus_halophilus; wikidata Q26284476
+517425			Salisediminibacterium halotolerans	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salisediminibacterium_halotolerans; wikidata Q26284415
+527312			Hoeflea siderophila	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hoeflea_siderophila; wikidata Q16941357
+531814			Gracilibacillus ureilyticus	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gracilibacillus_ureilyticus; wikidata Q16991919
+531815			Oceanobacillus neutriphilus	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_neutriphilus; wikidata Q16986744
+545501			Oceanobacillus oncorhynchi	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_oncorhynchi; wikidata Q16986750
+545890			Alicyclobacillus aeris	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_aeris; wikidata Q56274647
+587739			Yaniella soli	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yaniella_soli; wikidata Q26307889
+589872			Winogradskyella exilis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Winogradskyella_exilis; wikidata Q61944714
+617000			Desulfonatronovibrio thiodismutans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronovibrio_thiodismutans; wikidata Q18351392
+617001			Desulfonatronum thioautotrophicum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronum_thioautotrophicum; wikidata Q18351395
+617002			Desulfonatronum thiosulfatophilum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronum_thiosulfatophilum; wikidata Q18351405
+633405			Lacticigenium	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacticigenium; wikidata Q26219690
+634430			Sphingomonas rubra	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_rubra; wikidata Q26287369
+643671			Larkinella arboricola	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Larkinella_arboricola; wikidata Q25861284
+643672			Singulisphaera rosea	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Singulisphaera_rosea; wikidata Q26285749
+656519			Halanaerobium hydrogeniformans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobium_hydrogeniformans; wikidata Q20687153
+667306			Aciditerrimonas ferrireducens	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aciditerrimonas_ferrireducens; wikidata Q25833568
+682973			Chryseomicrobium palamuruense	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseomicrobium_palamuruense; wikidata Q62875640
+700599			Streptomyces lonarensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_lonarensis; wikidata Q48965698
+715473			Amycolatopsis acidiphila	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Amycolatopsis_acidiphila; wikidata Q62849563
+735331			Leptothrix ochracea	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptothrix_ochracea; wikidata Q16948179
+742169			Fictibacillus nanhaiensis	alkaliphile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Fictibacillus_nanhaiensis; wikidata Q25858612
+745820			Alkalicoccus daliensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalicoccus_daliensis; wikidata Q111748193
+753702			Alkalibacterium subtropicum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacterium_subtropicum; wikidata Q25834916
+759412			Natranaerobius trueperi	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobius_trueperi; wikidata Q26268340
+759413			Natronovirga	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronovirga; wikidata Q26268369
+767528			Geomicrobium	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geomicrobium; wikidata Q26211780
+768535			Acidipila rosea	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidipila_rosea; wikidata Q27997108
+876270			Methyloferula stellata	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methyloferula_stellata; wikidata Q25863241
+880057			Aliidiomarina minuta	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina_minuta; wikidata Q65079458
+885475			Salipaludibacillus neizhouensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salipaludibacillus_neizhouensis; wikidata Q48975082
+904291			Microbacterium sediminis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_sediminis; wikidata Q25863551
+908940			Salisediminibacterium locisalis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salisediminibacterium_locisalis; wikidata Q26284431
+935616			Halalkalibacter alkalisediminis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_alkalisediminis; wikidata Q111850759
+940557			Granulicella	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Granulicella; wikidata Q26208743
+986106			Acidiferrobacter	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidiferrobacter; wikidata Q26219958
+1003997			Paenalicyclobacillus cellulosilyticus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_cellulosilyticus; wikidata Q56274733
+1122252			Marinospirillum celere	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinospirillum_celere; wikidata Q25862736
+1125965			Brevundimonas abyssalis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brevundimonas_abyssalis; wikidata Q62880693
+1130080			Alkalibacterium gilvum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacterium_gilvum; wikidata Q25834907
+1150774			Natribacillus	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natribacillus; wikidata Q26268351
+1194079			Streptomyces chilikensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_chilikensis; wikidata Q22287093
+1279027			Hippea alviniae	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hippea_alviniae; wikidata Q25860783
+1280514			Acidithrix ferrooxidans	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidithrix_ferrooxidans; wikidata Q30681828
+1335627			Acidicapsa acidiphila	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidicapsa_acidiphila; wikidata Q48845626
+1348284			Streptomyces fukangensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_fukangensis; wikidata Q22285391
+1366656			Nitrincola alkalisediminis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nitrincola_alkalisediminis; wikidata Q48840180
+1387313			Streptantibioticus rubrisoli	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_rubrisoli; wikidata Q26292385
+1424294			Geosporobacter ferrireducens	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geosporobacter_ferrireducens; wikidata Q105752910
+1428684			Exiguobacterium alkaliphilum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_alkaliphilum; wikidata Q25858415
+1434001			Extensimonas	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Extensimonas; wikidata Q26219606
+1434024			Natronoflexus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronoflexus; wikidata Q26268363
+1434071			Aliidiomarina iranensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina_iranensis; wikidata Q63369441
+1450019			Lysinibacillus alkaliphilus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lysinibacillus_alkaliphilus; wikidata Q25861646
+1464122			Shouchella lonarensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_lonarensis; wikidata Q111850679
+1464124			Streptomyces alkalithermotolerans	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_alkalithermotolerans; wikidata Q22286879
+1475485			Alicyclobacillus dauci	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_dauci; wikidata Q56276674
+1478215			Nocardiopsis algeriensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_algeriensis; wikidata Q26268988
+1548213			Alkalicoccus urumqiensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalicoccus_urumqiensis; wikidata Q111748177
+1548599			Halalkalibacter kiskunsagensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_kiskunsagensis; wikidata Q111850660
+1562698			Desulfurella amilsii	acidotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurella_amilsii; wikidata Q29566483
+1612202			Pelagirhabdus alkalitolerans	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pelagirhabdus_alkalitolerans; wikidata Q48967381
+1623218			Rhodanobacter aciditrophus	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodanobacter_aciditrophus; wikidata Q56276793
+1630542			Alkalihalophilus lindianensis	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_lindianensis; wikidata Q111850676
+1649472			Natranaerobaculum	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobaculum; wikidata Q26268335
+1649506			Thermoflavifilum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoflavifilum; wikidata Q21399970
+1661150			Alicyclobacillus fodiniaquatilis	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_fodiniaquatilis; wikidata Q62870996
+1670830			Egicoccus halophilus	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Egicoccus_halophilus; wikidata Q48966572
+1670832			Nocardiopsis ansamitocini	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_ansamitocini; wikidata Q26816920
+1794699			Thermodesulfobium acidiphilum	acidophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermodesulfobium_acidiphilum; wikidata Q54985360
+1817571			Fermentibacillus	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fermentibacillus; wikidata Q27438774
+1849968			Flavivirga aquatica	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavivirga_aquatica; wikidata Q111753012
+1854571			Streptomyces altiplanensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_altiplanensis; wikidata Q104882552
+1854574			Streptomyces huasconensis	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_huasconensis; wikidata Q111754249
+1888173			Rhodanobacter humi	acidotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodanobacter_humi; wikidata Q56276926
+1888173			Rhodanobacter humi	alkalitolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodanobacter_humi; wikidata Q56276926
+1933879			Aliidiomarina sedimenti	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina_sedimenti; wikidata Q63369493
+1940526			Labilibaculum filiforme	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Labilibaculum_filiforme; wikidata Q65121203
+2024969			Natronospira	alkaliphile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronospira; wikidata Q62646075
+2100748			Oleiharenicola alkalitolerans	neutrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oleiharenicola_alkalitolerans; wikidata Q63372827

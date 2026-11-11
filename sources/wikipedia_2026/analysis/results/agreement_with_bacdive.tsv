@@ -1,0 +1,21 @@
+physiology	source	confidence	taxa	share_a_state	single_state_taxa	same_state	kappa
+aerophilicity	Wikipedia_2026	?	1940	94.8	1746	95.5	0.902
+aerophilicity	Madin_2020	medium	7307	94.8	5977	94.8	0.88
+aerophilicity	ProTraits	medium	849	92.5	687	91.4	0.842
+aerophilicity	BacMap	low	614	85	498	83.5	0.731
+animal pathogen	Wikipedia_2026	?	201	100	201	100	NA
+animal pathogen	The Microbe Directory	low	134	100	134	100	NA
+gram stain	Wikipedia_2026	?	3261	98.6	3231	98.7	0.969
+gram stain	The Microbe Directory	low	1477	97.9	1457	97.9	0.955
+gram stain	Madin_2020	medium	5812	97.9	5705	97.8	0.956
+gram stain	ProTraits	medium	446	96.4	440	96.4	0.107
+gram stain	BacMap	low	468	95.9	464	95.9	0.912
+motility	Madin_2020	medium	4637	97.1	4389	97	0.938
+motility	Wikipedia_2026	?	1497	95.7	1442	95.5	0.909
+shape	Madin_2020	medium	4646	97.6	4453	97.6	0.892
+shape	ProTraits	medium	741	95.4	737	95.4	0.772
+shape	Wikipedia_2026	?	1543	94.8	1433	95.2	0.769
+shape	BacMap	low	443	92.1	437	92	0.74
+spore formation	Madin_2020	medium	3046	99.6	3026	99.6	0.99
+spore formation	Wikipedia_2026	?	676	99.4	673	99.4	0.984
+spore formation	The Microbe Directory	low	451	97.8	439	97.7	0.943

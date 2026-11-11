@@ -1,0 +1,131 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Unit	Note
+9			Buchnera aphidicola	length	3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Buchnera_aphidicola; wikidata Q383453
+21			Phenylobacterium immobile	length	1.0-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Phenylobacterium_immobile; wikidata Q18388104
+143			Borrelia anserina	length	8.0-20.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Borrelia_anserina; wikidata Q2911336
+160			Treponema pallidum	length	6.0-15.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Treponema_pallidum; wikidata Q156007
+167			Treponema succinifaciens	length	16.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Treponema_succinifaciens; wikidata Q26298094
+234			Brucella	length	0.6-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Brucella; wikidata Q313358
+263			Francisella tularensis	length	0.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Francisella_tularensis; wikidata Q1003460
+546			Citrobacter freundii	length	1.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Citrobacter_freundii; wikidata Q5122842
+548			Klebsiella aerogenes	length	1.0-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Klebsiella_aerogenes; wikidata Q644487
+590			Salmonella	length	2.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Salmonella; wikidata Q150839
+613			Serratia	length	1.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Serratia; wikidata Q134980
+774			Bartonella bacilliformis	length	2.0-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Bartonella_bacilliformis; wikidata Q2007668
+830			Butyrivibrio	length	2.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Butyrivibrio; wikidata Q3647750
+920			Acidithiobacillus ferrooxidans	length	0.8	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Acidithiobacillus_ferrooxidans; wikidata Q21232221
+1030			Thiothrix	length	1.2-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thiothrix; wikidata Q7784706
+1067			Rhodocyclus purpureus	length	2.5-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Rhodocyclus_purpureus; wikidata Q16989153
+1071			Rhodopila globiformis	length	1.6-1.8	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Rhodopila_globiformis; wikidata Q16989196
+1074			Rhodoblastus acidophilus	length	2.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Rhodoblastus_acidophilus; wikidata Q16989137
+1129			Synechococcus	length	0.8-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Synechococcus; wikidata Q150962
+1245			Leuconostoc mesenteroides	length	0.7-1.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Leuconostoc_mesenteroides; wikidata Q146954
+1269			Micrococcus	length	0.5-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Micrococcus; wikidata Q1954952
+1272			Kocuria varians	length	0.9-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Kocuria_varians; wikidata Q20642745
+1358			Lactococcus lactis	length	0.5-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Lactococcus_lactis; wikidata Q133598
+1392			Bacillus anthracis	length	3.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Bacillus_anthracis; wikidata Q614156
+1404			Priestia megaterium	length	4.0-10.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Priestia_megaterium; wikidata Q148703
+1449			Amphibacillus xylanus	length	0.9-1.9	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Amphibacillus_xylanus; wikidata Q4748168
+1513			Clostridium tetani	length	2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Clostridium_tetani; wikidata Q309471
+1590			Lactiplantibacillus plantarum	length	3.0-8.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Lactiplantibacillus_plantarum; wikidata Q1756682
+1597			Lacticaseibacillus paracasei	length	0.8-1.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Lacticaseibacillus_paracasei; wikidata Q1799829
+1724			Corynebacterium renale	length	1.0-8.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Corynebacterium_renale; wikidata Q5173762
+1772			Mycolicibacterium smegmatis	length	3.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Mycobacterium_smegmatis; wikidata Q606230
+2099			Mesomycoplasma hyopneumoniae	length	0.4-1.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Mycoplasma_hyopneumoniae; wikidata Q3869024
+2220			Methanolobus	length	1.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanolobus; wikidata Q4044125
+2223			Methanothrix soehngenii	length	2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanothrix_soehngenii; wikidata Q16985588
+2226			Methanococcoides methylutens	length	1.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanococcoides_methylutens; wikidata Q16985521
+2263			Thermococcus	length	0.6-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermococcus; wikidata Q2710532
+2265			Thermococcus litoralis	length	0.5-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermococcus_litoralis; wikidata Q7783148
+2303			Thermoplasma acidophilum	length	1.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermoplasma_acidophilum; wikidata Q14324411
+2333			Propionigenium modestum	length	0.5-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Propionigenium_modestum; wikidata Q16988537
+2368			Arhodomonas	length	2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Arhodomonas; wikidata Q20739351
+2377			Sporomusa termitida	length	2.0-8.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Sporomusa_termitida; wikidata Q3967012
+2702			Gardnerella vaginalis	length	1.0-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Gardnerella_vaginalis; wikidata Q127375
+2713			Aquifex	length	2.0-6.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Aquifex; wikidata Q310736
+13373			Burkholderia mallei	length	1.5-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Burkholderia_mallei; wikidata Q134434
+13689			Sphingomonas paucimobilis	length	1.4	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Sphingomonas_paucimobilis; wikidata Q7576791
+29498			Vibrio tubiashii	length	0.5-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Vibrio_tubiashii; wikidata Q26299875
+29501			Mycoplasma haemofelis	length	0.6	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Mycoplasma_haemofelis; wikidata Q3869018
+29522			Brachyspira aalborgi	length	2.0-6.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Brachyspira_aalborgi; wikidata Q16845639
+29543			Pelobacter propionicus	length	1.2-7.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Pelobacter_propionicus; wikidata Q16987695
+29549			Rhodothermus marinus	length	2.0-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Rhodothermus_marinus; wikidata Q15842326
+33043			Coprococcus eutactus	length	0.7-1.3	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Coprococcus_eutactus; wikidata Q3693218
+33865			Methanoplanus endosymbiosus	length	1.6-3.4	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanoplanus_endosymbiosus; wikidata Q16985564
+34071			Telluria mixta	length	2.0-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Telluria_mixta; wikidata Q7697657
+35837			Desulfacinum infernum	length	2.5-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Desulfacinum_infernum; wikidata Q16981285
+36808			Corynebacterium bovis	length	1.0-8.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Corynebacterium_bovis; wikidata Q5173756
+39152			Methanococcus maripaludis	length	1.6	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanococcus_maripaludis; wikidata Q16985527
+39824			Klebsiella granulomatis	length	0.5-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Klebsiella_granulomatis; wikidata Q150946
+40324			Stenotrophomonas maltophilia	length	0.7-1.8	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Stenotrophomonas_maltophilia; wikidata Q142705
+44676			Geothrix fermentans	length	2.0-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Geothrix_fermentans; wikidata Q5548615
+46539			Thermococcus hydrothermalis	length	0.8-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermococcus_hydrothermalis; wikidata Q16124880
+47055			Dethiosulfovibrio peptidovorans	length	3.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Dethiosulfovibrio_peptidovorans; wikidata Q3706148
+47311			Methanobrevibacter cuticularis	length	0.34-1.6	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanobrevibacter_cuticularis; wikidata Q16985491
+47834			Spiroplasma kunkelii	length	0.15-0.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Spiroplasma_kunkelii; wikidata Q3966876
+49338			Desulfitobacterium hafniense	length	3.3-6.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Desulfitobacterium_hafniense; wikidata Q3706079
+49547			Methanobrevibacter curvatus	length	0.34-1.6	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanobrevibacter_curvatus; wikidata Q16985486
+49899			Thermococcus profundus	length	1.0-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermococcus_profundus; wikidata Q16124919
+49900			Thermococcus stetteri	length	1.0-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermococcus_stetteri; wikidata Q16124892
+51353			Methylosphaera hansonii	length	1.5-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methylosphaera_hansonii; wikidata Q16985649
+51362			Mycoplasmopsis adleri	length	0.3-0.6	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Mycoplasma_adleri; wikidata Q3868949
+53573			Deferribacter thermophilus	length	1.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Deferribacter_thermophilus; wikidata Q16955073
+53952			Thermococcus peptonophilus	length	0.7-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermococcus_peptonophilus; wikidata Q16993065
+54262			Thermococcus chitonophagus	length	1.2-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Pyrococcus_chitonophagus; wikidata Q16993064
+63363			Aquifex aeolicus	length	2.0-6.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/%22Aquifex_aeolicus%22; wikidata Q4034249
+74109			Photobacterium profundum	length	2.0-4.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Photobacterium_profundum; wikidata Q7187712
+79269			Desulfurella multipotens	length	1.5-1.8	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Desulfurella_multipotens; wikidata Q16960259
+80865			Delftia	length	2.5-4.1	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Delftia; wikidata Q5253698
+86179			Chromohalobacter beijerinckii	length	1.8-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Chromohalobacter_beijerinckii; wikidata Q5113884
+90373			Thiomargarita namibiensis	length	100.0-750.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thiomargarita_namibiensis; wikidata Q132118
+91559			Methanimicrococcus	length	0.7-1.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanimicrococcus; wikidata Q4044096
+92406			Metamycoplasma spumans	length	0.3-0.6	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Mycoplasma_spumans; wikidata Q3869062
+96345			Flavobacterium psychrophilum	length	3.0-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Flavobacterium_psychrophilum; wikidata Q18609891
+108819			Coprothermobacter platensis	length	1.5-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Coprothermobacter_platensis; wikidata Q3693224
+109258			Desulfacinum hydrothermale	length	1.5-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Desulfacinum_hydrothermale; wikidata Q16981282
+116849			Azomonas agilis	length	2.5-13.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Azomonas_agilis; wikidata Q3813901
+135577			Idiomarina loihiensis	length	0.7-1.8	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Idiomarina_loihiensis; wikidata Q16983517
+145263			Methanothermobacter marburgensis	length	3.0-3.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanothermobacter_marburgensis; wikidata Q16985577
+149715			Marinitoga piezophila	length	1.0-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Marinitoga_piezophila; wikidata Q18352750
+152526			Caminibacter hydrogeniphilus	length	1.01-5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Caminibacter_hydrogeniphilus; wikidata Q16851092
+154347			Thiorhodospira sibirica	length	7.0-20.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thiorhodospira_sibirica; wikidata Q18394160
+159290			Desulfonatronum thiodismutans	length	1.2-2.7	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Desulfonatronum_thiodismutans; wikidata Q18351399
+160232			Nanoarchaeum equitans	length	0.4	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Nanoarchaeum_equitans; wikidata Q221936
+169300			Geothermobacterium ferrireducens	length	1.1	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Geothermobacterium_ferrireducens; wikidata Q117011303
+182900			Persephonella guaymasensis	length	2.0-4.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Persephonella_guaymasensis; wikidata Q16987870
+202746			Sulfurimonas	length	1.5-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Sulfurimonas; wikidata Q7636232
+204038			Dickeya dadantii	length	0.8-3.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Dickeya_dadantii; wikidata Q3026652
+204050			Methanoculleus submarinus	length	0.8-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanoculleus_submarinus; wikidata Q16985529
+207243			Palaeococcus helgesonii	length	0.6-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Palaeococcus_helgesonii; wikidata Q20669259
+214856			Alistipes finegoldii	length	0.8-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Alistipes_finegoldii; wikidata Q25834883
+221711			Desulfovibrio brasiliensis	length	1.0-3.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Desulfovibrio_brasiliensis; wikidata Q16960177
+230355			Methanolacinia	length	1.5-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanolacinia; wikidata Q4044123
+249403			Deinococcus frigens	length	0.9-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Deinococcus_frigens; wikidata Q16981249
+261685			Thermosinus carboxydivorans	length	2.6-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermosinus_carboxydivorans; wikidata Q3990331
+263511			Crocosphaera watsonii	length	2.5-6.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Crocosphaera_watsonii; wikidata Q29887660
+269258			Nitratiruptor	length	1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Nitratiruptor; wikidata Q21214874
+290055			Faecalicatena fissicatena	length	0.5-1.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Faecalicatena_fissicatena; wikidata Q62879047
+301301			Roseburia hominis	length	5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Roseburia_hominis; wikidata Q16992311
+301302			Roseburia faecis	length	5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Roseburia_faecis; wikidata Q16992310
+312539			Acidianus sulfidivorans	length	0.5-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Acidianus_sulfidivorans; wikidata Q12605452
+338644			Sulfobacillus thermotolerans	length	1.5-4.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Sulfobacillus_thermotolerans; wikidata Q18393103
+348609			Methanogenium boonei	length	1.0-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanogenium_boonei; wikidata Q4044113
+348610			Methanogenium marinum	length	1.0-1.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Methanogenium_marinum; wikidata Q16985539
+360807			Roseburia inulinivorans	length	5.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Roseburia_inulinivorans; wikidata Q16992314
+367456			Helmutkoenigia isoptericolens	length	12.0-20.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Treponema_isoptericolens; wikidata Q16993193
+381751			Thermocrinis minervae	length	2.4-3.9	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Thermocrinis_minervae; wikidata Q16993071
+393662			Congregibacter litoralis	length	2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Congregibacter_litoralis; wikidata Q20686270
+423605			Elusimicrobium minutum	length	0.3-2.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Elusimicrobium_minutum; wikidata Q5360333
+430457			Salinicola salarius	length	1.3-1.7	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Salinicola_salarius; wikidata Q26284112
+431060			Roseateles terrae	length	2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Roseateles_terrae; wikidata Q16939958
+444090			Caldimicrobium	length	1.0-1.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Caldimicrobium; wikidata Q26219533
+457502			Polaromonas jejuensis	length	1.0-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Polaromonas_jejuensis; wikidata Q16988288
+497727			Candidatus Nitrososphaera gargensis	length	0.6-1.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Nitrososphaera_gargensis; wikidata Q24976640
+523788			Herminiimonas glaciei	length	0.5-0.9	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Herminiimonas_glaciei; wikidata Q311435
+573501			Leeuwenhoekiella palythoae	length	1.4-3.2	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Leeuwenhoekiella_palythoae; wikidata Q25861300
+592361			Pseudomonas peli	length	2.0-3.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Pseudomonas_peli; wikidata Q7255085
+709509			Jeotgalicoccus coquinae	length	1.5-2.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Jeotgalicoccus_coquinae; wikidata Q17291903
+758823			Vampirovibrio chlorellavorus	length	0.6	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Vampirovibrio_chlorellavorus; wikidata Q20721471
+1008460			Pyrococcus yayanosii	length	1.0-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Pyrococcus_yayanosii; wikidata Q18456556
+1055104			Cobetia amphilecti	length	1.1-1.3	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Cobetia_amphilecti; wikidata Q62902840
+1707952			Chloroflexus islandicus	length	4.0-7.0	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Chloroflexus_islandicus; wikidata Q62869905
+2594179			Arthrobacter bussei	length	1.1-1.5	Wikipedia_2026	always	um	https://en.wikipedia.org/wiki/Arthrobacter_bussei; wikidata Q96372402

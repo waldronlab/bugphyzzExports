@@ -1,0 +1,175 @@
+Rows in the export by how the value was obtained (curated source, inh = inherited, tax = taxonomic pooling, asr = ancestral state reconstruction)
+                             Attribute asr_baseline asr_wikipedia curated_baseline curated_wikipedia tax_baseline tax_wikipedia
+           Butyrate-Producing Bacteria            0             0               28                28            0             0
+            COGEM pathogenicity rating            0             0             1447              1447            0             0
+                     Health associated            0             0               29                29            0             0
+                Sphingolipid producing            0             0               13                13            0             0
+                         aerophilicity         9671          8914            17002             18483         4165          3615
+                       animal pathogen            0             0             2375              2870          403           323
+              antimicrobial resistance            0             0              131               131           90            90
+             antimicrobial sensitivity            0             0             1083              1083            0             0
+                           arrangement            0             0             3296              3474            0             0
+                     biofilm formation            0             0              604               604            0             0
+                       biosafety level            0             0             4113              4113         9875          9875
+                          coding genes         7013          7013            80743             80743            0             0
+                   disease association            0             0              560               560            0             0
+                   extreme environment            0             0             2773              2773            0             0
+                            gc content         3346          3346            84389             84389            0             0
+                           genome size         6949          6949            82095             82095            0             0
+                            gram stain         9033          7955            16785             19126         4294          3222
+                    growth temperature         7304          7278            11695             11776        11588         11536
+                               habitat            0             0             5069             11116            0             0
+                             hemolysis            0             0              202               202          411           411
+                       host-associated            0             0             1467              1952            0             0
+                hydrogen gas producing            0             0               14                14            0             0
+                     lactate producing            0             0               15                15            0             0
+                                length            0             0             6625              6735            0             0
+                              motility            0             0            10744             12106         4428          3896
+ mutation rate per site per generation            0             0               26                26            0             0
+       mutation rate per site per year            0             0               33                33            0             0
+                            optimal ph            0             0             4004              4062            0             0
+                   plant pathogenicity            0             0             2205              2269            0             0
+                                 shape            0             0            13890             15449         4465          3918
+                       spore formation        16205         15727             7904              8596         1833          1666
+                           spore shape            0             0              783               800            0             0
+                                 width            0             0             6589              6691            0             0
+
+Totals:
+    kind baseline wikipedia
+     asr    59521     57182
+ curated   368731    383803
+     tax    41552     38552
+
+Rows carrying Attribute_source Wikipedia_2026 in the export (the ones that survived conflict resolution):
+           Attribute genus species
+       aerophilicity   203    2808
+     animal pathogen   112     668
+         arrangement    19     186
+          gram stain   355    4771
+  growth temperature     9      81
+             habitat   499    5647
+     host-associated   146     662
+              length    10     100
+            motility   124    2290
+          optimal ph     5      65
+ plant pathogenicity    15      89
+               shape   131    2552
+     spore formation    87    1263
+         spore shape     1      16
+               width    11      91
+
+Taxa annotated per attribute: baseline, with Wikipedia, gained, lost
+                             Attribute baseline wikipedia gained lost
+           Butyrate-Producing Bacteria       28        28      0    0
+            COGEM pathogenicity rating     1447      1447      0    0
+                     Health associated       29        29      0    0
+                Sphingolipid producing       13        13      0    0
+                         aerophilicity    29024     29102     93   15
+                       animal pathogen     2776      3174    398    0
+              antimicrobial resistance       27        27      0    0
+             antimicrobial sensitivity     1083      1083      0    0
+                           arrangement     2028      2140    112    0
+                     biofilm formation      604       604      0    0
+                       biosafety level    13790     13790      0    0
+                          coding genes    87756     87756      0    0
+                   disease association      433       433      0    0
+                   extreme environment     2770      2770      0    0
+                            gc content    87735     87735      0    0
+                           genome size    89044     89044      0    0
+                            gram stain    29864     29993    129    0
+                    growth temperature    30587     30590      3    0
+                               habitat     3875      8441   4566    0
+                             hemolysis      564       564      0    0
+                       host-associated     1467      1945    478    0
+                hydrogen gas producing       14        14      0    0
+                     lactate producing       15        15      0    0
+                                length     6625      6735    110    0
+                              motility    14821     15630    809    0
+ mutation rate per site per generation       26        26      0    0
+       mutation rate per site per year       33        33      0    0
+                            optimal ph     4004      4062     58    0
+                   plant pathogenicity     2205      2268     63    0
+                                 shape    16873     17680    807    0
+                       spore formation    25923     25963     40    0
+                           spore shape      736       752     16    0
+                                 width     6589      6691    102    0
+
+Distinct taxa in the export: baseline 93838, with Wikipedia 93899
+
+Gained taxon by attribute pairs, by rank and by how the new value was obtained:
+    Rank asr curated
+   genus   3     807
+ species   6    6968
+
+Discrete attributes: taxa whose top-scoring state changed, by how the value was obtained before and after
+           Attribute kind.base kind.wiki  n
+       aerophilicity       asr   curated 90
+       aerophilicity       asr       asr 77
+       aerophilicity   curated   curated 39
+       aerophilicity       tax   curated 34
+     animal pathogen   curated   curated 76
+     animal pathogen       tax   curated  3
+         arrangement   curated   curated  9
+          gram stain   curated   curated 28
+          gram stain       tax   curated 17
+          gram stain       asr   curated 16
+          gram stain       asr       asr 14
+     host-associated   curated   curated  2
+            motility       tax   curated 33
+            motility   curated   curated 17
+ plant pathogenicity   curated   curated  1
+               shape   curated   curated 49
+               shape       tax   curated 49
+     spore formation       asr       asr 28
+     spore formation       asr   curated 14
+     spore formation   curated   curated  4
+     spore formation       tax   curated  2
+Changed: 602 of 146059 taxon by attribute pairs present in both runs (0.41%)
+
+ASR-only pairs in both runs: same top state, and change in its score
+       Attribute pairs same_state median_abs_score_change
+   aerophilicity  8906      99.14                   1e-04
+      gram stain  7955      99.82                   4e-04
+ spore formation 15727      99.82                   6e-04
+
+Numeric attributes, taxa in both runs: change in the exported value
+                             Attribute kind.wiki  taxa changed median_abs_change_when_changed
+                          coding genes       asr  7013       0                             NA
+                          coding genes   curated 80743       0                             NA
+                            gc content       asr  3346       0                             NA
+                            gc content   curated 84389       0                             NA
+                           genome size       asr  6949       0                             NA
+                           genome size   curated 82095       0                             NA
+                    growth temperature       asr  7277    4843                           0.00
+                    growth temperature   curated 11774      77                           2.50
+                    growth temperature       tax 11536       0                             NA
+                                length   curated  6625       0                             NA
+ mutation rate per site per generation   curated    26       0                             NA
+       mutation rate per site per year   curated    33       0                             NA
+                            optimal ph   curated  4004       9                           0.25
+                                 width   curated  6589       0                             NA
+
+ASR annotations dropped (attribute below the validation threshold, or Score < 0.5):
+                  Attribute n.base n.wiki
+ COGEM pathogenicity rating  67578  67578
+              aerophilicity  19525  18017
+            animal pathogen  43848  43250
+  antimicrobial sensitivity  45354  45354
+                arrangement 218860 218090
+            biosafety level  37314  37314
+               coding genes    222    222
+        extreme environment  44450  44450
+                 gc content     73     73
+                genome size    216    216
+                 gram stain  18066  15910
+         growth temperature    179    177
+                  hemolysis  90460  90460
+            host-associated  45064  44282
+                     length  17132  17064
+                   motility  24424  23024
+                 optimal ph  20131  20081
+        plant pathogenicity  44760  44656
+                      shape 125631 118129
+            spore formation  16205  15727
+                spore shape  90804  90748
+                      width  17175  17113

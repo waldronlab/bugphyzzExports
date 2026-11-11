@@ -1,0 +1,65 @@
+source	reference	taxa	share_a_state	single_state_taxa	same_state	kappa	rank	reference_confidence	reference_evidence	physiology
+Wikipedia_2026	BacDive	1940	94.8	1746	95.5	0.902	species	high	exp	aerophilicity
+Wikipedia_2026	BacMap	213	85.9	205	86.3	0.792	species	low	nas	aerophilicity
+Wikipedia_2026	Madin_2020	1597	93.4	1460	93.4	0.865	species	medium	tas	aerophilicity
+Wikipedia_2026	ProTraits	220	92.7	218	93.1	0.869	species	medium	igc	aerophilicity
+Wikipedia_2026	Bergeys_2026	328	96.3	302	97.7	0.962	genus	high	exp	aerophilicity
+BacDive	BacMap	614	85	498	83.5	0.731	any	NA	NA	aerophilicity
+BacDive	Madin_2020	7307	94.8	5977	94.8	0.88	any	NA	NA	aerophilicity
+BacDive	ProTraits	849	92.5	687	91.4	0.842	any	NA	NA	aerophilicity
+BacMap	Madin_2020	921	94.9	716	94.6	0.909	any	NA	NA	aerophilicity
+BacMap	ProTraits	534	95.3	526	95.4	0.93	any	NA	NA	aerophilicity
+Madin_2020	ProTraits	1163	92.2	976	91.7	0.86	any	NA	NA	aerophilicity
+Wikipedia_2026	BacDive	3261	98.6	3231	98.7	0.969	species	high	exp	gram stain
+Wikipedia_2026	BacMap	350	98.3	350	98.3	0.96	species	low	nas	gram stain
+Wikipedia_2026	Madin_2020	2809	98.6	2764	98.6	0.968	species	medium	tas	gram stain
+Wikipedia_2026	ProTraits	224	96.4	224	96.4	0.194	species	medium	igc	gram stain
+Wikipedia_2026	The Microbe Directory	849	98.2	844	98.2	0.958	species	low	nas	gram stain
+Wikipedia_2026	Bergeys_2026	511	98.6	484	98.8	0.974	genus	high	exp	gram stain
+BacDive	BacMap	468	95.9	464	95.9	0.912	any	NA	NA	gram stain
+BacDive	Madin_2020	5812	97.9	5705	97.8	0.956	any	NA	NA	gram stain
+BacDive	ProTraits	446	96.4	440	96.4	0.107	any	NA	NA	gram stain
+BacDive	The Microbe Directory	1477	97.9	1457	97.9	0.955	any	NA	NA	gram stain
+BacMap	Madin_2020	882	97.2	838	97	0.928	any	NA	NA	gram stain
+BacMap	ProTraits	247	93.1	247	93.1	0.301	any	NA	NA	gram stain
+BacMap	The Microbe Directory	735	95.4	734	95.4	0.886	any	NA	NA	gram stain
+Madin_2020	ProTraits	758	97	727	96.8	0.428	any	NA	NA	gram stain
+Madin_2020	The Microbe Directory	2969	97.4	2897	97.3	0.94	any	NA	NA	gram stain
+ProTraits	The Microbe Directory	556	96.2	556	96.2	0.388	any	NA	NA	gram stain
+Wikipedia_2026	BacDive	1543	94.8	1433	95.2	0.769	species	high	exp	shape
+Wikipedia_2026	BacMap	223	95.1	215	94.9	0.886	species	low	nas	shape
+Wikipedia_2026	Madin_2020	1183	92.2	1090	93	0.775	species	medium	tas	shape
+Wikipedia_2026	ProTraits	277	96	271	95.9	0.876	species	medium	igc	shape
+Wikipedia_2026	Bergeys_2026	243	93	134	90.3	0.812	genus	high	exp	shape
+BacDive	BacMap	443	92.1	437	92	0.74	any	NA	NA	shape
+BacDive	Madin_2020	4646	97.6	4453	97.6	0.892	any	NA	NA	shape
+BacDive	ProTraits	741	95.4	737	95.4	0.772	any	NA	NA	shape
+BacMap	Madin_2020	871	98	823	97.9	0.952	any	NA	NA	shape
+BacMap	ProTraits	583	96.9	583	96.9	0.92	any	NA	NA	shape
+Madin_2020	ProTraits	1161	97.2	1134	97.3	0.915	any	NA	NA	shape
+Wikipedia_2026	BacMap	17	82.4	5	60	0.5	species	low	nas	arrangement
+Wikipedia_2026	ProTraits	28	96.4	15	93.3	0.909	species	medium	igc	arrangement
+Wikipedia_2026	Bergeys_2026	48	87.5	19	84.2	0.755	genus	high	exp	arrangement
+BacMap	ProTraits	131	96.9	95	97.9	0.956	any	NA	NA	arrangement
+Wikipedia_2026	Bergeys_2026	3	100	2	100	1	genus	high	exp	spore shape
+Wikipedia_2026	BacDive	1497	95.7	1442	95.5	0.909	species	high	exp	motility
+Wikipedia_2026	Madin_2020	1077	97.7	1075	97.7	0.953	species	medium	tas	motility
+Wikipedia_2026	Bergeys_2026	217	96.8	200	96.5	0.926	genus	high	exp	motility
+BacDive	Madin_2020	4637	97.1	4389	97	0.938	any	NA	NA	motility
+Wikipedia_2026	BacDive	676	99.4	673	99.4	0.984	species	high	exp	spore formation
+Wikipedia_2026	Madin_2020	640	99.1	639	99.1	0.974	species	medium	tas	spore formation
+Wikipedia_2026	The Microbe Directory	169	97.6	169	97.6	0.94	species	low	nas	spore formation
+Wikipedia_2026	Bergeys_2026	152	98	152	98	0.95	genus	high	exp	spore formation
+BacDive	Madin_2020	3046	99.6	3026	99.6	0.99	any	NA	NA	spore formation
+BacDive	The Microbe Directory	451	97.8	439	97.7	0.943	any	NA	NA	spore formation
+Madin_2020	The Microbe Directory	1287	97.4	1287	97.4	0.916	any	NA	NA	spore formation
+Wikipedia_2026	BacDive	201	100	201	100	NA	species	high	exp	animal pathogen
+Wikipedia_2026	The Microbe Directory	284	73.9	280	73.6	0.238	species	low	nas	animal pathogen
+BacDive	The Microbe Directory	134	100	134	100	NA	any	NA	NA	animal pathogen
+Wikipedia_2026	The Microbe Directory	40	97.5	40	97.5	0.844	species	low	nas	plant pathogenicity
+Wikipedia_2026	Browne_2021	5	40	5	40	0	species	high	exp	host-associated
+Wikipedia_2026	ProTraits	301	100	301	100	NA	species	medium	igc	host-associated
+Wikipedia_2026	The Microbe Directory	148	100	148	100	NA	species	low	nas	host-associated
+Browne_2021	ProTraits	2	100	2	100	NA	any	NA	NA	host-associated
+Browne_2021	The Microbe Directory	2	100	2	100	NA	any	NA	NA	host-associated
+ProTraits	The Microbe Directory	400	100	400	100	NA	any	NA	NA	host-associated

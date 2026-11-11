@@ -1,0 +1,107 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+286			Pseudomonas	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas; wikidata Q131143
+287			Pseudomonas aeruginosa	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_aeruginosa; wikidata Q31856
+298			Pseudomonas marginalis	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_marginalis; wikidata Q7255064
+305			Ralstonia solanacearum	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ralstonia_solanacearum; wikidata Q2710840
+317			Pseudomonas syringae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_syringae; wikidata Q311202
+338			Xanthomonas	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas; wikidata Q140652
+339			Xanthomonas campestris	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_campestris; wikidata Q3753551
+343			Xanthomonas translucens	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_translucens; wikidata Q2597727
+346			Xanthomonas citri	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_citri; wikidata Q15637477
+347			Xanthomonas oryzae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_oryzae; wikidata Q8043056
+357			Agrobacterium	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Agrobacterium; wikidata Q2700446
+358			Agrobacterium tumefaciens	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Agrobacterium_tumefaciens; wikidata Q131472
+362			Agrobacterium radiobacter	plant pathogenicity	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Agrobacterium_radiobacter; wikidata Q21235902
+362			Agrobacterium radiobacter	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Agrobacterium_radiobacter; wikidata Q21235902
+441			Gluconobacter	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Gluconobacter; wikidata Q17629105
+551			Erwinia	plant pathogenicity	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Erwinia; wikidata Q134827
+554			Pectobacterium carotovorum	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pectobacterium_carotovorum; wikidata Q164586
+1245			Leuconostoc mesenteroides	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Leuconostoc_mesenteroides; wikidata Q146954
+1828			Rhodococcoides fascians	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodococcus_fascians; wikidata Q309787
+1919			Streptomyces microflavus	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_microflavus; wikidata Q26291237
+2035			Curtobacterium flaccumfaciens	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Curtobacterium_flaccumfaciens; wikidata Q5196014
+2132			Spiroplasma	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiroplasma; wikidata Q1769476
+2133			Spiroplasma citri	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiroplasma_citri; wikidata Q3966863
+2371			Xylella fastidiosa	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xylella_fastidiosa; wikidata Q3019529
+12916			Acidovorax	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acidovorax; wikidata Q618548
+28092			Robbsia andropogonis	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Robbsia_andropogonis; wikidata Q66667739
+28094			Trinickia caryophylli	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trinickia_caryophylli; wikidata Q103817317
+28095			Burkholderia gladioli	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_gladioli; wikidata Q3308486
+28097			Ralstonia syzygii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ralstonia_syzygii; wikidata Q7288389
+28447			Clavibacter michiganensis	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clavibacter_michiganensis; wikidata Q2978666
+29435			Phytopseudomonas flavescens	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_flavescens; wikidata Q7255040
+29438			Pseudomonas savastanoi	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_savastanoi; wikidata Q309784
+29447			Xanthomonas albilineans	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_albilineans; wikidata Q15624529
+29471			Pectobacterium atrosepticum	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pectobacterium_atrosepticum; wikidata Q3373933
+32008			Burkholderia	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia; wikidata Q135239
+32040			Paracidovorax konjaci	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_konjaci; wikidata Q4674135
+33014			Clavibacter michiganensis subsp. insidiosus	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clavibacter_insidiosus; wikidata Q29564934
+33069			Pseudomonas viridiflava	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_viridiflava; wikidata Q7255134
+33888			Rathayibacter tritici	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rathayibacter_tritici; wikidata Q26280107
+33926			Candidatus Phytoplasma	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phytoplasma; wikidata Q132782
+35780			Candidatus Phytoplasma fraxini	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phytoplasma_fraxini; wikidata Q3901764
+36746			Pseudomonas cichorii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_cichorii; wikidata Q7255025
+42234			Streptomyces acidiscabies	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_acidiscabies; wikidata Q16992805
+46257			Pseudomonas avellanae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_avellanae; wikidata Q7255011
+46678			Pseudomonas caricapapayae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_caricapapayae; wikidata Q7255022
+47877			Pseudomonas amygdali	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_amygdali; wikidata Q7255002
+47878			Pseudomonas azotoformans	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_azotoformans; wikidata Q7255013
+47879			Pseudomonas corrugata	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_corrugata; wikidata Q7255031
+48664			Xanthomonas fragariae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_fragariae; wikidata Q8043054
+53407			Pseudomonas asplenii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_asplenii; wikidata Q7255008
+53409			Pseudomonas coronafaciens	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_coronafaciens; wikidata Q7255030
+53410			Pseudomonas ficuserectae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_ficuserectae; wikidata Q7255041
+54066			Xylophilus	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Xylophilus_(bacterium); wikidata Q8045499
+55207			Pectobacterium betavasculorum	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pectobacterium_betavasculorum; wikidata Q16987604
+55208			Pectobacterium wasabiae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pectobacterium_wasabiae; wikidata Q16987607
+55214			Brenneria salicis	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brenneria_salicis; wikidata Q4961270
+56448			Xanthomonas arboricola	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_arboricola; wikidata Q8043052
+56449			Xanthomonas bromi	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_bromi; wikidata Q16125116
+56453			Xanthomonas cucurbitae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_cucurbitae; wikidata Q15637470
+56454			Xanthomonas hortorum	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_hortorum; wikidata Q15614061
+59736			Leifsonia xyli subsp. xyli	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leifsonia_xyli_subsp._xyli; wikidata Q21383741
+65700			Erwinia tracheiphila	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacterial_wilt; wikidata Q4840003
+66269			Pantoea stewartii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pantoea_stewartii; wikidata Q7615691
+69224			Erwinia psidii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erwinia_psidii; wikidata Q5396222
+71655			Brenneria	plant pathogenicity	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Brenneria; wikidata Q4961272
+78229			Paracidovorax anthurii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_anthurii; wikidata Q4674130
+78526			Allorhizobium	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Allorhizobium; wikidata Q24041562
+79967			Erwinia pyrifoliae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erwinia_pyrifoliae; wikidata Q16991872
+80842			Herbaspirillum rubrisubalbicans	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Herbaspirillum_rubrisubalbicans; wikidata Q5733347
+80868			Paracidovorax cattleyae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_cattleyae; wikidata Q16824936
+80869			Paracidovorax citrulli	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_citrulli; wikidata Q4674129
+81476			Pluralibacter pyrinus	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pluralibacter_pyrinus; wikidata Q26271228
+85558			Streptomyces turgidiscabies	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_turgidiscabies; wikidata Q16992822
+86176			Pseudomonas meliae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_meliae; wikidata Q7255066
+86265			Pseudomonas thivervalensis	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_thivervalensis; wikidata Q7255124
+86840			Pseudomonas cannabina	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_cannabina; wikidata Q7255020
+89584			Gluconacetobacter liquefaciens	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gluconacetobacter_liquefaciens; wikidata Q25859555
+95486			Burkholderia cenocepacia	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_cenocepacia; wikidata Q4810500
+103232			Streptomyces ipomoeae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_ipomoeae; wikidata Q26290591
+145458			Rathayibacter toxicus	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rathayibacter_toxicus; wikidata Q24975323
+146819			Streptomyces europaeiscabiei	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_europaeiscabiei; wikidata Q16992808
+146820			Streptomyces stelliscabiei	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_stelliscabiei; wikidata Q16992815
+146821			Streptomyces reticuliscabiei	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_reticuliscabiei; wikidata Q16992812
+152682			Sphingomonas melonis	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sphingomonas_melonis; wikidata Q26287220
+164115			Streptomyces niveiscabiei	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_niveiscabiei; wikidata Q18385825
+164348			Streptomyces puniciscabiei	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_puniciscabiei; wikidata Q18385828
+183795			Pseudomonas mediterranea	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_mediterranea; wikidata Q7255065
+191390			Pseudomonas palleroniana	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_palleroniana; wikidata Q7255081
+191391			Pseudomonas salomonii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_salomonii; wikidata Q7255115
+200454			Pseudomonas tremae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_tremae; wikidata Q7255127
+204037			Dickeya	plant pathogenicity	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Dickeya; wikidata Q5273668
+204038			Dickeya dadantii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dickeya_dadantii; wikidata Q3026652
+206499			Erwinia papayae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erwinia_papayae; wikidata Q25842167
+208434			Milkweed yellows phytoplasma	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Milkweed_yellows_phytoplasma; wikidata Q109579558
+212743			Rhizobacter	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobacter; wikidata Q17638115
+244366			Klebsiella variicola	plant pathogenicity	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_variicola; wikidata Q24976449
+289370			Phytopseudomonas argentinensis	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_argentinensis; wikidata Q7255007
+587753			Pseudomonas chlororaphis	plant pathogenicity	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_chlororaphis; wikidata Q7255026
+758826			Acidovorax radicis	plant pathogenicity	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_radicis; wikidata Q16824943
+862720			Paracidovorax oryzae	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_oryzae; wikidata Q16824940
+930166			Pseudomonas brassicacearum	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas_brassicacearum; wikidata Q7255018
+1082702			Lonsdalea	plant pathogenicity	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lonsdalea; wikidata Q26220027
+1089444			Dickeya solani	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dickeya_solani; wikidata Q5273669
+1310165			Ralstonia pseudosolanacearum	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ralstonia_pseudosolanacearum; wikidata Q62892708
+1843581			Xanthomonas nasturtii	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_nasturtii; wikidata Q62901868
+1985254			Xanthomonas phaseoli	plant pathogenicity	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_phaseoli; wikidata Q16125133

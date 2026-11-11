@@ -1,0 +1,822 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+6			Azorhizobium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azorhizobium; wikidata Q4832851
+7			Azorhizobium caulinodans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azorhizobium_caulinodans; wikidata Q4832853
+9			Buchnera aphidicola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Buchnera_aphidicola; wikidata Q383453
+22			Shewanella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella; wikidata Q3243676
+142			Borrelia turicatae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_turicatae; wikidata Q16975261
+154			Winmispira thermophila	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spirochaeta_thermophila; wikidata Q22286485
+158			Treponema denticola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_denticola; wikidata Q2534751
+160			Treponema pallidum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_pallidum; wikidata Q156007
+163			Treponema bryantii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_bryantii; wikidata Q16965689
+167			Treponema succinifaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_succinifaciens; wikidata Q26298094
+173			Leptospira interrogans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_interrogans; wikidata Q143779
+192			Azospirillum brasilense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azospirillum_brasilense; wikidata Q16836505
+198			Campylobacter hyointestinalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_hyointestinalis; wikidata Q16955154
+199			Campylobacter concisus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_concisus; wikidata Q2087197
+203			Campylobacter rectus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_rectus; wikidata Q5028747
+204			Campylobacter showae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_showae; wikidata Q16975403
+209			Helicobacter	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter; wikidata Q134684
+210			Helicobacter pylori	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_pylori; wikidata Q180556
+212			Helicobacter acinonychis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_acinonychis; wikidata Q12270685
+213			Helicobacter cinaedi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_cinaedi; wikidata Q16982883
+214			Helicobacter felis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_felis; wikidata Q16982889
+216			Helicobacter muridarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_muridarum; wikidata Q16982895
+234			Brucella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella; wikidata Q313358
+238			Elizabethkingia meningoseptica	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Elizabethkingia_meningoseptica; wikidata Q3266416
+262			Francisella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Francisella; wikidata Q3246268
+263			Francisella tularensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Francisella_tularensis; wikidata Q1003460
+286			Pseudomonas	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas; wikidata Q131143
+305			Ralstonia solanacearum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ralstonia_solanacearum; wikidata Q2710840
+316			Stutzerimonas stutzeri	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Stutzerimonas_stutzeri; wikidata Q2888828
+317			Pseudomonas syringae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_syringae; wikidata Q311202
+338			Xanthomonas	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas; wikidata Q140652
+339			Xanthomonas campestris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_campestris; wikidata Q3753551
+343			Xanthomonas translucens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_translucens; wikidata Q2597727
+347			Xanthomonas oryzae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_oryzae; wikidata Q8043056
+352			Azotobacter	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azotobacter; wikidata Q132995
+352			Azotobacter	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Azotobacter; wikidata Q132995
+353			Azotobacter chroococcum	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azotobacter_chroococcum; wikidata Q3565794
+354			Azotobacter vinelandii	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azotobacter_vinelandii; wikidata Q2157875
+358			Agrobacterium tumefaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Agrobacterium_tumefaciens; wikidata Q131472
+375			Bradyrhizobium japonicum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_japonicum; wikidata Q212471
+379			Rhizobium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium; wikidata Q830142
+380			Ensifer fredii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ensifer_fredii; wikidata Q16992580
+384			Rhizobium leguminosarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_leguminosarum; wikidata Q3934108
+407			Methylobacterium	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Methylobacterium; wikidata Q10329184
+445			Legionella	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Legionella; wikidata Q158013
+446			Legionella pneumophila	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_pneumophila; wikidata Q147885
+477			Moraxella lacunata	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Moraxella_lacunata; wikidata Q6909420
+482			Neisseria	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria; wikidata Q132209
+483			Neisseria cinerea	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_cinerea; wikidata Q16986248
+484			Neisseria flavescens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_flavescens; wikidata Q22286328
+485			Neisseria gonorrhoeae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_gonorrhoeae; wikidata Q131129
+486			Neisseria lactamica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_lactamica; wikidata Q16986253
+487			Neisseria meningitidis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_meningitidis; wikidata Q154625
+489			Neisseria polysaccharea	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_polysaccharea; wikidata Q25351103
+490			Neisseria sicca	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_sicca; wikidata Q6989664
+502			Kingella denitrificans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kingella_denitrificans; wikidata Q25860955
+504			Kingella kingae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kingella_kingae; wikidata Q1950143
+518			Bordetella bronchiseptica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_bronchiseptica; wikidata Q137446
+519			Bordetella parapertussis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_parapertussis; wikidata Q893436
+520			Bordetella pertussis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_pertussis; wikidata Q137103
+521			Bordetella avium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bordetella_avium; wikidata Q15882735
+532			Beijerinckia	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Beijerinckia; wikidata Q15787457
+539			Eikenella corrodens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Eikenella_corrodens; wikidata Q3039103
+546			Citrobacter freundii	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Citrobacter_freundii; wikidata Q5122842
+548			Klebsiella aerogenes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_aerogenes; wikidata Q644487
+550			Enterobacter cloacae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterobacter_cloacae; wikidata Q4038096
+561			Escherichia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Escherichia; wikidata Q311055
+562			Escherichia coli	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Escherichia_coli; wikidata Q25419
+563			Shimwellia blattae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shimwellia_blattae; wikidata Q26285486
+569			Hafnia alvei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hafnia_alvei; wikidata Q140736
+570			Klebsiella	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Klebsiella; wikidata Q131854
+573			Klebsiella pneumoniae	host-associated	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Klebsiella_pneumoniae; wikidata Q132592
+573			Klebsiella pneumoniae	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Klebsiella_pneumoniae; wikidata Q132592
+577			Klebsiella terrigena	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Raoultella_terrigena; wikidata Q26280028
+582			Morganella morganii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Morganella_morganii; wikidata Q2696880
+583			Proteus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Proteus_(bacterium); wikidata Q132229
+585			Proteus vulgaris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Proteus_vulgaris; wikidata Q2701588
+590			Salmonella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salmonella; wikidata Q150839
+620			Shigella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shigella; wikidata Q131029
+626			Xenorhabdus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xenorhabdus; wikidata Q1465894
+629			Yersinia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia; wikidata Q132231
+630			Yersinia enterocolitica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_enterocolitica; wikidata Q135177
+632			Yersinia pestis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_pestis; wikidata Q153875
+633			Yersinia pseudotuberculosis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_pseudotuberculosis; wikidata Q139928
+636			Edwardsiella tarda	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_tarda; wikidata Q3048738
+637			Arsenophonus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arsenophonus; wikidata Q16530186
+638			Arsenophonus nasoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arsenophonus_nasoniae; wikidata Q16833957
+644			Aeromonas hydrophila	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Aeromonas_hydrophila; wikidata Q2697755
+645			Aeromonas salmonicida	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aeromonas_salmonicida; wikidata Q4688338
+654			Aeromonas veronii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aeromonas_veronii; wikidata Q4688339
+657			Photobacterium	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Photobacterium; wikidata Q1632556
+659			Photobacterium phosphoreum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photobacterium_phosphoreum; wikidata Q7187716
+663			Vibrio alginolyticus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_alginolyticus; wikidata Q3556827
+666			Vibrio cholerae	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_cholerae; wikidata Q160821
+668			Aliivibrio fischeri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliivibrio_fischeri; wikidata Q148731
+669			Vibrio harveyi	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vibrio_harveyi; wikidata Q3761158
+713			Actinobacillus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinobacillus; wikidata Q310714
+715			Actinobacillus pleuropneumoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinobacillus_pleuropneumoniae; wikidata Q343332
+716			Actinobacillus suis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinobacillus_suis; wikidata Q4676910
+718			Actinobacillus equuli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinobacillus_equuli; wikidata Q25833732
+724			Haemophilus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haemophilus; wikidata Q311275
+731			Histophilus somni	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Histophilus_somni; wikidata Q1620746
+747			Pasteurella multocida	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteurella_multocida; wikidata Q310656
+768			Anaplasma	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaplasma; wikidata Q70288
+773			Bartonella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella; wikidata Q135006
+776			Coxiella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Coxiella_(bacterium); wikidata Q2296480
+777			Coxiella burnetii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Coxiella_burnetii; wikidata Q133971
+779			Ehrlichia ruminantium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_ruminantium; wikidata Q1118366
+780			Rickettsia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia; wikidata Q627992
+781			Rickettsia conorii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_conorii; wikidata Q2708461
+782			Rickettsia prowazekii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_prowazekii; wikidata Q952862
+783			Rickettsia rickettsii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_rickettsii; wikidata Q2698925
+784			Orientia tsutsugamushi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Orientia_tsutsugamushi; wikidata Q3018329
+807			Bartonella elizabethae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_elizabethae; wikidata Q16838301
+810			Chlamydia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_(bacterium); wikidata Q846309
+813			Chlamydia trachomatis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_trachomatis; wikidata Q131065
+816			Bacteroides	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Bacteroides; wikidata Q133186
+817			Bacteroides fragilis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacteroides_fragilis; wikidata Q221817
+818			Bacteroides thetaiotaomicron	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacteroides_thetaiotaomicron; wikidata Q798597
+830			Butyrivibrio	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Butyrivibrio; wikidata Q3647750
+833			Fibrobacter succinogenes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fibrobacter_succinogenes; wikidata Q5446451
+836			Porphyromonas	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Porphyromonas; wikidata Q21226978
+837			Porphyromonas gingivalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Porphyromonas_gingivalis; wikidata Q3214147
+838			Prevotella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella; wikidata Q7242440
+841			Roseburia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseburia; wikidata Q3941444
+846			Oxalobacter	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oxalobacter; wikidata Q3887773
+847			Oxalobacter formigenes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oxalobacter_formigenes; wikidata Q1659450
+848			Fusobacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fusobacterium; wikidata Q2720082
+851			Fusobacterium nucleatum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fusobacterium_nucleatum; wikidata Q5510311
+853			Faecalibacterium prausnitzii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Faecalibacterium_prausnitzii; wikidata Q3738296
+870			Dichelobacter nodosus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dichelobacter_nodosus; wikidata Q3706891
+872			Desulfovibrio	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Desulfovibrio; wikidata Q15846377
+943			Ehrlichia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia; wikidata Q138670
+944			Ehrlichia canis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_canis; wikidata Q5348627
+945			Ehrlichia chaffeensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_chaffeensis; wikidata Q5348629
+947			Ehrlichia ewingii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ehrlichia_ewingii; wikidata Q5348630
+948			Anaplasma phagocytophilum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaplasma_phagocytophilum; wikidata Q292189
+950			Neorickettsia risticii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neorickettsia_risticii; wikidata Q6994107
+951			Ehrlichia sennetsu	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neorickettsia_sennetsu; wikidata Q16978225
+953			Wolbachia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Wolbachia; wikidata Q283526
+964			Herbaspirillum seropedicae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Herbaspirillum_seropedicae; wikidata Q2275644
+970			Selenomonas	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Selenomonad; wikidata Q3954750
+996			Flavobacterium columnare	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_columnare; wikidata Q5458149
+1013			Weeksella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Weeksella; wikidata Q26307017
+1014			Weeksella virosa	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Weeksella_virosa; wikidata Q26307008
+1015			Bergeyella zoohelcum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bergeyella_zoohelcum; wikidata Q19930980
+1016			Capnocytophaga	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Capnocytophaga; wikidata Q5036048
+1163			Anabaena	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Anabaena; wikidata Q133353
+1177			Nostoc	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nostoc; wikidata Q311257
+1203			Scytonema	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Scytonema; wikidata Q1315636
+1254			Pediococcus acidilactici	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pediococcus_acidilactici; wikidata Q7159284
+1257			Peptostreptococcus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Peptostreptococcus; wikidata Q3543267
+1258			Peptoniphilus asaccharolyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Peptoniphilus_asaccharolyticus; wikidata Q3899436
+1260			Finegoldia magna	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Finegoldia_magna; wikidata Q3745691
+1261			Peptostreptococcus anaerobius	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Peptostreptococcus_anaerobius; wikidata Q3899443
+1263			Ruminococcus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ruminococcus; wikidata Q288892
+1266			Sarcina	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sarcina_(bacterium); wikidata Q309504
+1270			Micrococcus luteus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micrococcus_luteus; wikidata Q142000
+1280			Staphylococcus aureus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_aureus; wikidata Q188121
+1282			Staphylococcus epidermidis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_epidermidis; wikidata Q131915
+1283			Staphylococcus haemolyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_haemolyticus; wikidata Q3760144
+1284			Staphylococcus hyicus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_hyicus; wikidata Q2332104
+1288			Staphylococcus xylosus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_xylosus; wikidata Q606505
+1290			Staphylococcus hominis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_hominis; wikidata Q7600410
+1292			Staphylococcus warneri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_warneri; wikidata Q3968275
+1302			Streptococcus gordonii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_gordonii; wikidata Q7623352
+1304			Streptococcus salivarius	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_salivarius; wikidata Q139986
+1305			Streptococcus sanguinis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_sanguinis; wikidata Q2033849
+1307			Streptococcus suis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_suis; wikidata Q287694
+1309			Streptococcus mutans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_mutans; wikidata Q131452
+1311			Streptococcus agalactiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_agalactiae; wikidata Q132949
+1313			Streptococcus pneumoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_pneumoniae; wikidata Q221179
+1314			Streptococcus pyogenes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_pyogenes; wikidata Q131271
+1318			Streptococcus parasanguinis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_parasanguinis; wikidata Q7623360
+1329			Streptococcus canis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_canis; wikidata Q7623353
+1334			Streptococcus dysgalactiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_dysgalactiae; wikidata Q7623351
+1335			Streptococcus equinus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_equinus; wikidata Q7623349
+1338			Streptococcus intermedius	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_intermedius; wikidata Q7623355
+1341			Streptococcus ratti	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_ratti; wikidata Q7623363
+1343			Streptococcus vestibularis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_vestibularis; wikidata Q7623367
+1345			Streptococcus ferus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_ferus; wikidata Q7623350
+1350			Enterococcus	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Enterococcus; wikidata Q517258
+1351			Enterococcus faecalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_faecalis; wikidata Q140014
+1352			Enterococcus faecium	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Enterococcus_faecium; wikidata Q140010
+1353			Enterococcus gallinarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_gallinarum; wikidata Q5380225
+1363			Lactococcus garvieae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactococcus_garvieae; wikidata Q16984199
+1364			Pseudolactococcus piscium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactococcus_piscium; wikidata Q16984202
+1390			Bacillus amyloliquefaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_amyloliquefaciens; wikidata Q4354408
+1392			Bacillus anthracis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_anthracis; wikidata Q614156
+1396			Bacillus cereus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacillus_cereus; wikidata Q131307
+1423			Bacillus subtilis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacillus_subtilis; wikidata Q131238
+1428			Bacillus thuringiensis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacillus_thuringiensis; wikidata Q310467
+1485			Clostridium	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Clostridium; wikidata Q327663
+1501			Clostridium pasteurianum	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_pasteurianum; wikidata Q3681124
+1502			Clostridium perfringens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_perfringens; wikidata Q309465
+1522			[Clostridium] innocuum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_innocuum; wikidata Q3681087
+1529			Clostridium cadaveris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_cadaveris; wikidata Q3681024
+1535			[Clostridium] leptum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_leptum; wikidata Q3681099
+1568			Quinella ovalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Quinella_ovalis; wikidata Q15632246
+1578			Lactobacillus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus; wikidata Q1061596
+1579			Lactobacillus acidophilus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_acidophilus; wikidata Q132644
+1580			Levilactobacillus brevis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Levilactobacillus_brevis; wikidata Q559395
+1582			Lacticaseibacillus casei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacticaseibacillus_casei; wikidata Q139777
+1584			Lactobacillus delbrueckii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_delbrueckii; wikidata Q3246083
+1590			Lactiplantibacillus plantarum	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Lactiplantibacillus_plantarum; wikidata Q1756682
+1596			Lactobacillus gasseri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_gasseri; wikidata Q1975869
+1597			Lacticaseibacillus paracasei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacticaseibacillus_paracasei; wikidata Q1799829
+1624			Ligilactobacillus salivarius	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ligilactobacillus_salivarius; wikidata Q3825336
+1637			Listeria	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria; wikidata Q746209
+1638			Listeria ivanovii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_ivanovii; wikidata Q3834924
+1639			Listeria monocytogenes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Listeria_monocytogenes; wikidata Q292015
+1646			Renibacterium salmoninarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Renibacterium_salmoninarum; wikidata Q16989049
+1648			Erysipelothrix rhusiopathiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erysipelothrix_rhusiopathiae; wikidata Q2346390
+1654			Actinomyces	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Actinomyces; wikidata Q312213
+1655			Actinomyces naeslundii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_naeslundii; wikidata Q3911265
+1656			Actinomyces viscosus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_viscosus; wikidata Q2690800
+1658			Actinomyces bovis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_bovis; wikidata Q21232913
+1659			Actinomyces israelii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_israelii; wikidata Q147800
+1678			Bifidobacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium; wikidata Q132656
+1680			Bifidobacterium adolescentis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_adolescentis; wikidata Q2902068
+1685			Bifidobacterium breve	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_breve; wikidata Q2902069
+1689			Bifidobacterium dentium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_dentium; wikidata Q4904766
+1716			Corynebacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium; wikidata Q133976
+1717			Corynebacterium diphtheriae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_diphtheriae; wikidata Q131649
+1719			Corynebacterium pseudotuberculosis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_pseudotuberculosis; wikidata Q3694962
+1724			Corynebacterium renale	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_renale; wikidata Q5173762
+1725			Corynebacterium xerosis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_xerosis; wikidata Q21263084
+1730			Eubacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Eubacterium; wikidata Q5405346
+1743			Propionibacterium	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Propionibacterium; wikidata Q1309614
+1747			Cutibacterium acnes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cutibacterium_acnes; wikidata Q2442109
+1765			Mycobacterium tuberculosis variant bovis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_bovis; wikidata Q133447
+1769			Mycobacterium leprae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_leprae; wikidata Q155891
+1770			Mycobacterium avium subsp. paratuberculosis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_avium_subsp._paratuberculosis; wikidata Q6946990
+1773			Mycobacterium tuberculosis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_tuberculosis; wikidata Q130971
+1781			Mycobacterium marinum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_marinum; wikidata Q508803
+1806			Mycobacterium tuberculosis variant microti	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_microti; wikidata Q4752705
+1809			Mycobacterium ulcerans	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_ulcerans; wikidata Q141154
+1817			Nocardia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nocardia; wikidata Q135175
+1827			Rhodococcus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rhodococcus; wikidata Q288311
+1828			Rhodococcoides fascians	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodococcus_fascians; wikidata Q309787
+1847			Pseudonocardia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudonocardia; wikidata Q7255179
+1854			Frankia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Frankia; wikidata Q134931
+1859			Frankia alni	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Frankia_alni; wikidata Q5490884
+1873			Micromonospora	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Micromonospora; wikidata Q3061522
+1881			Micromonospora viridifaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_viridifaciens; wikidata Q20721705
+1993			Actinomadura madurae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomadura_madurae; wikidata Q25833899
+2035			Curtobacterium flaccumfaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Curtobacterium_flaccumfaciens; wikidata Q5196014
+2047			Rothia dentocariosa	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rothia_dentocariosa; wikidata Q7370477
+2050			Mobiluncus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mobiluncus; wikidata Q6887329
+2052			Mobiluncus mulieris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mobiluncus_mulieris; wikidata Q16985902
+2093			Mycoplasma	host-associated	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma; wikidata Q210975
+2093			Mycoplasma	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycoplasma; wikidata Q210975
+2095			Mycoplasma capricolum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_capricolum; wikidata Q1768284
+2096			Mycoplasmoides gallisepticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_gallisepticum; wikidata Q150185
+2097			Mycoplasmoides genitalium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_genitalium; wikidata Q1930909
+2098			Metamycoplasma hominis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_hominis; wikidata Q2616475
+2099			Mesomycoplasma hyopneumoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_hyopneumoniae; wikidata Q3869024
+2100			Mesomycoplasma hyorhinis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_hyorhinis; wikidata Q3869017
+2102			Mycoplasma mycoides	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_mycoides; wikidata Q1768280
+2104			Mycoplasmoides pneumoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_pneumoniae; wikidata Q310904
+2109			Mycoplasmopsis synoviae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_synoviae; wikidata Q3869067
+2110			Mycoplasmopsis agalactiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_agalactiae; wikidata Q3868950
+2117			Mycoplasmopsis lipophila	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_lipophilum; wikidata Q3869029
+2118			[Mycoplasma] mobile	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_mobile; wikidata Q3869034
+2121			Metamycoplasma orale	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_orale; wikidata Q3869045
+2122			Mycoplasmoides pirum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasmoides_pirum; wikidata Q3869054
+2124			Metamycoplasma salivarium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_salivarium; wikidata Q3869060
+2130			Ureaplasma urealyticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ureaplasma_urealyticum; wikidata Q137110
+2132			Spiroplasma	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiroplasma; wikidata Q1769476
+2133			Spiroplasma citri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiroplasma_citri; wikidata Q3966863
+2138			Spiroplasma poulsonii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiroplasma_poulsonii; wikidata Q3966889
+2144			Spiroplasma mirum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiroplasma_mirum; wikidata Q3966883
+2147			Acholeplasma	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acholeplasma; wikidata Q481881
+2172			Methanobrevibacter	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanobrevibacter; wikidata Q6823583
+2173			Methanobrevibacter smithii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanobrevibacter_smithii; wikidata Q309517
+2317			Methanosphaera stadtmanae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanosphaera_stadtmanae; wikidata Q25863179
+2371			Xylella fastidiosa	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xylella_fastidiosa; wikidata Q3019529
+2374			Acetonema longum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acetonema_longum; wikidata Q3604304
+2382			Acetitomaculum ruminis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acetitomaculum_ruminis; wikidata Q3604273
+2718			Cardiobacterium hominis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cardiobacterium_hominis; wikidata Q2938074
+2739			Vagococcus salmoninarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vagococcus_salmoninarum; wikidata Q16993370
+2740			Peptococcus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Peptococcus; wikidata Q3899432
+2754			Synergistes jonesii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Synergistes_jonesii; wikidata Q16992897
+12916			Acidovorax	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acidovorax; wikidata Q618548
+12960			Azoarcus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Azoarcus; wikidata Q5715092
+13276			Suttonella indologenes	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Suttonella_indologenes; wikidata Q16994496
+13334			Anaerobiospirillum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerobiospirillum; wikidata Q4750802
+13373			Burkholderia mallei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_mallei; wikidata Q134434
+28025			Bifidobacterium animalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_animalis; wikidata Q4904767
+28037			Streptococcus mitis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_mitis; wikidata Q684674
+28047			Mycolicibacterium confluentis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_confluentis; wikidata Q16986062
+28080			Campylobacter upsaliensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_upsaliensis; wikidata Q5028748
+28090			Acinetobacter lwoffii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_lwoffii; wikidata Q17097067
+28094			Trinickia caryophylli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trinickia_caryophylli; wikidata Q103817317
+28095			Burkholderia gladioli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_gladioli; wikidata Q3308486
+28097			Ralstonia syzygii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ralstonia_syzygii; wikidata Q7288389
+28116			Bacteroides ovatus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacteroides_ovatus; wikidata Q25840252
+28132			Prevotella melaninogenica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_melaninogenica; wikidata Q26274602
+28133			Prevotella nigrescens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_nigrescens; wikidata Q16988483
+28134			Hoylesella oralis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_oralis; wikidata Q26274656
+28172			Vibrio metschnikovii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_metschnikovii; wikidata Q26299512
+28173			Vibrio nigripulchritudo	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_nigripulchritudo; wikidata Q26299584
+28182			Leptospira noguchii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_noguchii; wikidata Q16984416
+28188			Capnocytophaga canimorsus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Capnocytophaga_canimorsus; wikidata Q310984
+28197			Aliarcobacter butzleri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcobacter_butzleri; wikidata Q21237173
+28227			Malacoplasma penetrans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Malacoplasma_penetrans; wikidata Q3869048
+28250			Ornithobacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ornithobacterium; wikidata Q18573053
+28263			Arcanobacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcanobacterium; wikidata Q631663
+28264			Arcanobacterium haemolyticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcanobacterium_haemolyticum; wikidata Q22113627
+28447			Clavibacter michiganensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clavibacter_michiganensis; wikidata Q2978666
+28449			Neisseria subflava	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_subflava; wikidata Q6989667
+28450			Burkholderia pseudomallei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_pseudomallei; wikidata Q140475
+28452			Leptospira alstonii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_alstonii; wikidata Q47175006
+28901			Salmonella enterica	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Salmonella_enterica; wikidata Q2264864
+29311			Mycobacterium haemophilum	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_haemophilum; wikidata Q6947030
+29379			Staphylococcus auricularis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_auricularis; wikidata Q7600398
+29382			Staphylococcus cohnii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_cohnii; wikidata Q3968273
+29384			Staphylococcus kloosii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_kloosii; wikidata Q7600412
+29388			Staphylococcus capitis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_capitis; wikidata Q7600399
+29394			Dolosigranulum pigrum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dolosigranulum_pigrum; wikidata Q28407295
+29419			Helicobacter canis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_canis; wikidata Q16982876
+29438			Pseudomonas savastanoi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_savastanoi; wikidata Q309784
+29442			Pseudomonas tolaasii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_tolaasii; wikidata Q7255125
+29448			Bradyrhizobium elkanii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_elkanii; wikidata Q4955268
+29449			Rhizobium etli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_etli; wikidata Q21308510
+29459			Brucella melitensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_melitensis; wikidata Q3512031
+29461			Brucella suis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_suis; wikidata Q836301
+29465			Veillonella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Veillonella; wikidata Q7918682
+29466			Veillonella parvula	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Veillonella_parvula; wikidata Q4009298
+29471			Pectobacterium atrosepticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pectobacterium_atrosepticum; wikidata Q3373933
+29484			Yersinia frederiksenii	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Yersinia_frederiksenii; wikidata Q16993567
+29486			Yersinia ruckeri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yersinia_ruckeri; wikidata Q16993573
+29487			Photorhabdus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photorhabdus; wikidata Q7187896
+29488			Photorhabdus luminescens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photorhabdus_luminescens; wikidata Q388648
+29501			Mycoplasma haemofelis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_haemofelis; wikidata Q3869018
+29507			Leptospira kirschneri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_kirschneri; wikidata Q16984413
+29521			Brachyspira	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brachyspira; wikidata Q896648
+29522			Brachyspira aalborgi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachyspira_aalborgi; wikidata Q16845639
+29545			Azoarcus indigens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azoarcus_indigens; wikidata Q16836434
+29546			Lawsonia intracellularis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lawsonia_intracellularis; wikidata Q16992002
+29561			Mycoplasmopsis meleagridis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_meleagridis; wikidata Q3869031
+29562			Mesomycoplasma ovipneumoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_ovipneumoniae; wikidata Q3869050
+29575			Taylorella equigenitalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Taylorella_equigenitalis; wikidata Q289291
+29581			Janthinobacterium lividum	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Janthinobacterium_lividum; wikidata Q16983802
+31943			Brevibacterium iodinum	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Brevibacterium_iodinum; wikidata Q4962548
+31973			Eggerthia catenaformis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Eggerthia_catenaformis; wikidata Q25842053
+31980			Acetitomaculum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acetitomaculum; wikidata Q3604279
+32025			Helicobacter hepaticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_hepaticus; wikidata Q1602479
+32207			Rothia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Rothia_(bacterium); wikidata Q19756508
+33007			Winkia neuii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Winkia_neuii; wikidata Q12218890
+33011			Cutibacterium granulosum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cutibacterium_granulosum; wikidata Q62849244
+33014			Clavibacter michiganensis subsp. insidiosus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clavibacter_insidiosus; wikidata Q29564934
+33029			Anaerococcus hydrogenalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerococcus_hydrogenalis; wikidata Q3614901
+33032			Anaerococcus lactolyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerococcus_lactolyticus; wikidata Q3614902
+33036			Anaerococcus tetradius	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerococcus_tetradius; wikidata Q3614905
+33042			Coprococcus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Coprococcus; wikidata Q3693215
+33865			Methanoplanus endosymbiosus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanoplanus_endosymbiosus; wikidata Q16985564
+33870			Coriobacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Coriobacterium; wikidata Q5170703
+33926			Candidatus Phytoplasma	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phytoplasma; wikidata Q132782
+33959			Lactobacillus johnsonii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_johnsonii; wikidata Q3825299
+33993			Neorickettsia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neorickettsia; wikidata Q5225591
+34010			Azospirillum halopraeferens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azospirillum_halopraeferens; wikidata Q16836511
+34026			Neisseria flava	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_flava; wikidata Q6989659
+34062			Faucicola osloensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_osloensis; wikidata Q6909429
+34097			Brevinema andersonii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brevinema_andersonii; wikidata Q22286925
+34098			Blattabacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Blattabacterium; wikidata Q4925522
+35789			Rickettsia helvetica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_helvetica; wikidata Q7331933
+35818			Helicobacter pullorum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_pullorum; wikidata Q3784557
+36855			Brucella canis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_canis; wikidata Q4978547
+37372			Helicobacter bilis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_bilis; wikidata Q3784556
+37734			Enterococcus casseliflavus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_casseliflavus; wikidata Q5834259
+37914			Dietzia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Dietzia; wikidata Q20526151
+37923			Rothia kristinae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rothia_kristinae; wikidata Q16983977
+38323			Bartonella henselae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_henselae; wikidata Q140599
+38875			Heyndrickxia oleronia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Heyndrickxia_oleronia; wikidata Q4838975
+39645			Mesorhizobium ciceri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_ciceri; wikidata Q16985443
+39824			Klebsiella granulomatis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_granulomatis; wikidata Q150946
+39844			Mesorhizobium tianshanense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_tianshanense; wikidata Q16985463
+39956			Methylobacterium mesophilicum	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methylobacterium_mesophilicum; wikidata Q16985611
+40215			Acinetobacter junii	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acinetobacter_junii; wikidata Q16824998
+40269			Aliivibrio salmonicida	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliivibrio_salmonicida; wikidata Q25834876
+40323			Stenotrophomonas	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Stenotrophomonas; wikidata Q2707476
+40324			Stenotrophomonas maltophilia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Stenotrophomonas_maltophilia; wikidata Q142705
+40518			Ruminococcus bromii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ruminococcus_bromii; wikidata Q3942635
+40520			Blautia obeum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Blautia_obeum; wikidata Q24977415
+40542			Leptotrichia buccalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptotrichia_buccalis; wikidata Q6528590
+40544			Sutterella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sutterella; wikidata Q16992872
+40575			Clostridium grantii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_grantii; wikidata Q3681073
+41202			Ewingella americana	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ewingella_americana; wikidata Q5419066
+41976			Porphyromonas catoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Porphyromonas_catoniae; wikidata Q26274144
+42096			Ureaplasma gallorale	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ureaplasma_gallorale; wikidata Q4006422
+43617			Mesorhizobium mediterraneum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_mediterraneum; wikidata Q16985451
+43675			Rothia mucilaginosa	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rothia_mucilaginosa; wikidata Q26282584
+43765			Corynebacterium amycolatum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_amycolatum; wikidata Q5173759
+43768			Corynebacterium matruchotii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_matruchotii; wikidata Q5173761
+43769			Corynebacterium propinquum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_propinquum; wikidata Q21262711
+43770			Corynebacterium striatum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_striatum; wikidata Q10261127
+43992			Bradyrhizobium liaoningense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_liaoningense; wikidata Q16845740
+44013			Polynucleobacter	host-associated	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Polynucleobacter; wikidata Q7226655
+44013			Polynucleobacter	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Polynucleobacter; wikidata Q7226655
+44449			Borrelia recurrentis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_recurrentis; wikidata Q139991
+45658			Vibrio scophthalmi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_scophthalmi; wikidata Q26299797
+46124			Granulicatella adiacens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Granulicatella_adiacens; wikidata Q25859800
+46125			Abiotrophia defectiva	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Abiotrophia_defectiva; wikidata Q25343611
+46126			Staphylococcus chromogenes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_chromogenes; wikidata Q7600401
+46127			Staphylococcus felis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_felis; wikidata Q10859373
+46257			Pseudomonas avellanae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_avellanae; wikidata Q7255011
+46506			Bacteroides stercoris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacteroides_stercoris; wikidata Q25840264
+46678			Pseudomonas caricapapayae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_caricapapayae; wikidata Q7255022
+47311			Methanobrevibacter cuticularis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanobrevibacter_cuticularis; wikidata Q16985491
+47466			Borrelia miyamotoi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_miyamotoi; wikidata Q3330965
+47589			Rickettsia peacockii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_peacockii; wikidata Q16989267
+47687			Mycoplasmopsis alligatoris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_alligatoris; wikidata Q3868955
+47715			Lacticaseibacillus rhamnosus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacticaseibacillus_rhamnosus; wikidata Q1607640
+47770			Lactobacillus crispatus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_crispatus; wikidata Q2355641
+47855			Micromonospora citrea	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_citrea; wikidata Q20721760
+47857			Micromonospora echinaurantiaca	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_echinaurantiaca; wikidata Q20721762
+47858			Micromonospora echinofusca	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_echinofusca; wikidata Q20721764
+47860			Micromonospora fulviviridis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_fulviviridis; wikidata Q20721768
+47866			Micromonospora inyonensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_inyonensis; wikidata Q20721772
+47871			Micromonospora peucetia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_peucetia; wikidata Q20721776
+47875			Micromonospora sagamiensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_sagamiensis; wikidata Q20721779
+47877			Pseudomonas amygdali	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_amygdali; wikidata Q7255002
+47878			Pseudomonas azotoformans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_azotoformans; wikidata Q7255013
+47879			Pseudomonas corrugata	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_corrugata; wikidata Q7255031
+47880			Pseudomonas fulva	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_fulva; wikidata Q3924907
+48782			Leptospira fainei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_fainei; wikidata Q16984406
+49547			Methanobrevibacter curvatus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanobrevibacter_curvatus; wikidata Q16985486
+51160			Treponema maltophilum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_maltophilum; wikidata Q23808004
+51229			Wigglesworthia glossinidia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Wigglesworthia_glossinidia; wikidata Q3568005
+51362			Mycoplasmopsis adleri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_adleri; wikidata Q3868949
+52131			Martinezella hainanensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_hainanense; wikidata Q16989108
+52242			Lactobacillus gallinarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_gallinarum; wikidata Q2252232
+52584			Brachyspira pilosicoli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachyspira_pilosicoli; wikidata Q4953571
+52764			Bartonella alsatica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_alsatica; wikidata Q16838284
+52768			Schaalia georgiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Schaalia_georgiae; wikidata Q12218884
+53406			Pseudomonas anguilliseptica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_anguilliseptica; wikidata Q7255005
+53409			Pseudomonas coronafaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_coronafaciens; wikidata Q7255030
+53418			Treponema lecithinolyticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_lecithinolyticum; wikidata Q24975381
+53435			Treponema paraluiscuniculi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_paraluiscuniculi; wikidata Q2803910
+54736			Salmonella bongori	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salmonella_bongori; wikidata Q6176438
+55197			Flavobacterium branchiophilum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_branchiophilum; wikidata Q19831132
+55207			Pectobacterium betavasculorum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pectobacterium_betavasculorum; wikidata Q16987604
+55208			Pectobacterium wasabiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pectobacterium_wasabiae; wikidata Q16987607
+55214			Brenneria salicis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brenneria_salicis; wikidata Q4961270
+55602			Metamycoplasma buccale	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_buccale; wikidata Q3868970
+55604			Mycoplasmopsis primatum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_primatum; wikidata Q3869056
+55758			Methanobrevibacter filiformis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanobrevibacter_filiformis; wikidata Q16985495
+56142			Metamycoplasma faucium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_faucium; wikidata Q3868999
+56426			Bartonella clarridgeiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_clarridgeiae; wikidata Q16975079
+56448			Xanthomonas arboricola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_arboricola; wikidata Q8043052
+56449			Xanthomonas bromi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_bromi; wikidata Q16125116
+56453			Xanthomonas cucurbitae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_cucurbitae; wikidata Q15637470
+56454			Xanthomonas hortorum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_hortorum; wikidata Q15614061
+56730			Rhizobium gallicum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_gallicum; wikidata Q16989101
+56731			Rhizobium giardinii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pararhizobium_giardinii; wikidata Q16989105
+56877			Helicobacter bizzozeronii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_bizzozeronii; wikidata Q21267147
+56878			Helicobacter salomonis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Helicobacter_salomonis; wikidata Q16982909
+57676			Rhizobium mongolense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_mongolense; wikidata Q16989124
+58050			Moritella	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moritella; wikidata Q24255201
+59406			Aromatoleum evansii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azoarcus_evansii; wikidata Q16836430
+59732			Chryseobacterium	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Chryseobacterium; wikidata Q5114574
+60552			Burkholderia vietnamiensis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_vietnamiensis; wikidata Q4999039
+62763			Vibrio pectenicida	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_pectenicida; wikidata Q16993411
+63612			Sodalis glossinidius	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sodalis_glossinidius; wikidata Q16992606
+64897			Borreliella bissettiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_bissettii; wikidata Q16844838
+65058			Corynebacterium ulcerans	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Corynebacterium_ulcerans; wikidata Q3694963
+65700			Erwinia tracheiphila	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacterial_wilt; wikidata Q4840003
+66269			Pantoea stewartii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pantoea_stewartii; wikidata Q7615691
+66851			Methanobrevibacter oralis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanobrevibacter_oralis; wikidata Q18344101
+67780			Edwardsiella ictaluri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_ictaluri; wikidata Q5346148
+67825			Citrobacter rodentium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Citrobacter_rodentium; wikidata Q16975761
+67826			Citrobacter sedlakii	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Citrobacter_sedlakii; wikidata Q16958588
+69224			Erwinia psidii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erwinia_psidii; wikidata Q5396222
+69474			Orientia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Orientia; wikidata Q3767673
+69823			Selenomonas sputigena	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Selenomonas_sputigena; wikidata Q3954762
+69974			Mesorhizobium plurifarium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_plurifarium; wikidata Q16985459
+71433			Mesorhizobium amorphae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_amorphae; wikidata Q16985434
+71451			Enterococcus malodoratus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_malodoratus; wikidata Q16981655
+71452			Enterococcus raffinosus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_raffinosus; wikidata Q17119101
+74426			Collinsella aerofaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Collinsella_aerofaciens; wikidata Q25841484
+76860			Streptococcus constellatus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_constellatus; wikidata Q7623346
+78331			Mycobacterium canetti	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_canettii; wikidata Q6946999
+78345			Bifidobacterium merycicum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_merycicum; wikidata Q18357973
+78346			Bifidobacterium ruminantium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_ruminantium; wikidata Q18385441
+78355			Streptomyces somaliensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_somaliensis; wikidata Q26292681
+78526			Allorhizobium	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Allorhizobium; wikidata Q24041562
+78535			Streptococcus viridans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Viridans_streptococci; wikidata Q751405
+79603			Denitrobacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Denitrobacterium; wikidata Q5257858
+79604			Denitrobacterium detoxificans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Denitrobacterium_detoxificans; wikidata Q25841704
+79880			Shouchella clausii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_clausii; wikidata Q722949
+79967			Erwinia pyrifoliae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erwinia_pyrifoliae; wikidata Q16991872
+80869			Paracidovorax citrulli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_citrulli; wikidata Q4674129
+81947			Vagococcus lutrae	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Vagococcus_lutrae; wikidata Q26298765
+82135			Fannyhessea vaginae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Atopobium_vaginae; wikidata Q16949286
+82380			Microbacterium oxydans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_oxydans; wikidata Q25863426
+82633			Cupriavidus pauculus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cupriavidus_pauculus; wikidata Q16953269
+82977			Buttiauxella agrestis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Buttiauxella_agrestis; wikidata Q25840821
+83552			Parachlamydia acanthamoebae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Parachlamydia_acanthamoebae; wikidata Q7133891
+83554			Chlamydia psittaci	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_psittaci; wikidata Q62869749
+83555			Chlamydia abortus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_abortus; wikidata Q25841304
+83556			Chlamydia felis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_felis; wikidata Q25841305
+83557			Chlamydia caviae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_caviae; wikidata Q5102720
+83558			Chlamydia pneumoniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_pneumoniae; wikidata Q62869737
+83559			Chlamydia suis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_suis; wikidata Q5102712
+83560			Chlamydia muridarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_muridarum; wikidata Q2964056
+84025			Clostridium haemolyticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_haemolyticum; wikidata Q4444236
+84036			Syntrophococcus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Syntrophococcus; wikidata Q21078552
+84037			Syntrophococcus sucromutans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Syntrophococcus_sucromutans; wikidata Q16992908
+84111			Eggerthella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Eggerthella; wikidata Q5347900
+84112			Eggerthella lenta	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Eggerthella_lenta; wikidata Q25842050
+84379			Brachyspira alvinipulli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachyspira_alvinipulli; wikidata Q62905899
+84565			Sodalis	host-associated	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sodalis_(bacterium); wikidata Q16992604
+84565			Sodalis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sodalis_(bacterium); wikidata Q16992604
+85404			Mannheimia varigena	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mannheimia_varigena; wikidata Q16985138
+85991			Chlamydia pecorum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlamydia_pecorum; wikidata Q62869723
+86004			Pasteuria	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteuria; wikidata Q16987565
+86265			Pseudomonas thivervalensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_thivervalensis; wikidata Q7255124
+87883			Burkholderia multivorans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Burkholderia_multivorans; wikidata Q4999018
+88058			Treponema primitia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_primitia; wikidata Q16993194
+88431			Dorea longicatena	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dorea_longicatena; wikidata Q3714222
+89584			Gluconacetobacter liquefaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gluconacetobacter_liquefaciens; wikidata Q25859555
+90239			Moraxella canis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_canis; wikidata Q16868411
+91914			Asaia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Asaia; wikidata Q19944793
+92406			Metamycoplasma spumans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_spumans; wikidata Q3869062
+92645			Herbaspirillum frisingense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Herbaspirillum_frisingense; wikidata Q16983046
+92759			Gluconacetobacter sacchari	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gluconacetobacter_sacchari; wikidata Q16982378
+92933			Azospirillum doebereinerae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azospirillum_doebereinerae; wikidata Q16949809
+95485			Burkholderia stabilis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_stabilis; wikidata Q4999031
+95486			Burkholderia cenocepacia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Burkholderia_cenocepacia; wikidata Q4810500
+97478			Limosilactobacillus mucosae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Limosilactobacillus_mucosae; wikidata Q2232770
+98443			Richelia	host-associated	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Richelia; wikidata Q27438682
+98443			Richelia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Richelia; wikidata Q27438682
+100177			[Borrelia] lusitaniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_lusitaniae; wikidata Q15346472
+102148			Solobacterium moorei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Solobacterium_moorei; wikidata Q7558499
+107401			Tenacibaculum maritimum	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Tenacibaculum_maritimum; wikidata Q26294849
+108015			Bradyrhizobium yuanmingense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_yuanmingense; wikidata Q16845745
+109790			Lactobacillus jensenii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_jensenii; wikidata Q2618197
+110321			Sinorhizobium medicae	host-associated	FALSE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ensifer_medicae; wikidata Q21326825
+110321			Sinorhizobium medicae	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ensifer_medicae; wikidata Q21326825
+111015			Actinomyces radicidentis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_radicidentis; wikidata Q20685839
+113286			Pseudoramibacter	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoramibacter; wikidata Q3924921
+114616			Methylobacterium nodulans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylobacterium_nodulans; wikidata Q16985615
+117563			Granulicatella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Granulicatella; wikidata Q26209403
+120576			Brucella pinnipedialis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_pinnipedialis; wikidata Q16847655
+120577			Brucella ceti	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_ceti; wikidata Q16847641
+120831			Dyadobacter	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Dyadobacter; wikidata Q26208679
+123375			Solobacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Solobacterium; wikidata Q21078886
+131111			Schaalia turicensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Schaalia_turicensis; wikidata Q21364795
+131112			Arcanobacterium phocae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcanobacterium_phocae; wikidata Q16829962
+134821			Ureaplasma parvum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ureaplasma_parvum; wikidata Q4006425
+135083			Centipeda noxia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Selenomonas_noxia; wikidata Q3954758
+136093			Globicatella sulfidifaciens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Globicatella_sulfidifaciens; wikidata Q25859548
+136468			Vibrio lentus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_lentus; wikidata Q26299437
+137583			Thalassomonas	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Thalassomonas; wikidata Q26295714
+137732			Granulicatella elegans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Granulicatella_elegans; wikidata Q25859809
+138073			Candidatus Regiella insecticola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Regiella_insecticola; wikidata Q16989032
+138074			Serratia symbiotica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Serratia_symbiotica; wikidata Q16992527
+138563			Helicobacter cetorum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Helicobacter_cetorum; wikidata Q61954709
+142461			Vibrio ichthyoenteri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_ichthyoenteri; wikidata Q26299388
+143361			Filifactor alocis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Filifactor_alocis; wikidata Q3745004
+147207			Collinsella intestinalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Collinsella_intestinalis; wikidata Q25841485
+147802			Lactobacillus iners	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lactobacillus_iners; wikidata Q2097107
+148447			Paraburkholderia phymatum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraburkholderia_phymatum; wikidata Q26270607
+149698			Massilia	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Massilia_(bacterium); wikidata Q6784645
+150829			Leadbettera azotonutricia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_azotonutricium; wikidata Q16993191
+152682			Sphingomonas melonis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_melonis; wikidata Q26287220
+154654			Mycobacterium montefiorense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_montefiorense; wikidata Q6947063
+155493			Gallibacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gallibacterium; wikidata Q26219630
+155978			Acaryochloris marina	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acaryochloris_marina; wikidata Q338104
+156979			Pseudoglutamicibacter cumminsii	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudoglutamicibacter_cumminsii; wikidata Q62857685
+157692			Pseudoleptotrichia goodfellowii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoleptotrichia_goodfellowii; wikidata Q101715230
+157782			Pseudomonas parafulva	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_parafulva; wikidata Q7255084
+157920			Cellulosimicrobium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulosimicrobium; wikidata Q26209360
+158891			Rhizobium indigoferae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_indigoferae; wikidata Q17264663
+163011			Pseudomonas lini	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas_lini; wikidata Q7255059
+164546			Cupriavidus taiwanensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cupriavidus_taiwanensis; wikidata Q16953284
+165179			Segatella copri	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prevotella_copri; wikidata Q26221543
+165779			Anaerococcus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerococcus; wikidata Q3614900
+168933			Legionella drancourtii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Legionella_drancourtii; wikidata Q15238841
+170573			Staphylococcus pettenkoferi	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Staphylococcus_pettenkoferi; wikidata Q7600417
+172901			Victivallis vadensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Victivallis_vadensis; wikidata Q20720128
+182270			Aurantimonas coralicida	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aurantimonas_coralicida; wikidata Q16962925
+183795			Pseudomonas mediterranea	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_mediterranea; wikidata Q7255065
+186733			Anaplasma bovis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaplasma_bovis; wikidata Q4751572
+186739			Candidatus Bartonella washoeensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_washoensis; wikidata Q18356789
+188913			Cetobacterium somerae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cetobacterium_somerae; wikidata Q25841273
+190893			Vibrio coralliilyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_coralliilyticus; wikidata Q16993401
+191302			Devosia neptuniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Devosia_neptuniae; wikidata Q16960412
+191303			Turicibacter	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Turicibacter; wikidata Q24892371
+191390			Pseudomonas palleroniana	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_palleroniana; wikidata Q7255081
+191391			Pseudomonas salomonii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_salomonii; wikidata Q7255115
+194542			Mycobacterium tuberculosis variant pinnipedii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_pinnipedii; wikidata Q6947083
+194702			Cardiobacterium valvarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cardiobacterium_valvarum; wikidata Q24975581
+194963			Sinorhizobium americanum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ensifer_americanus; wikidata Q18378468
+196081			Scardovia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Scardovia; wikidata Q26267706
+200413			Moraxella oblonga	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_oblonga; wikidata Q16985974
+200454			Pseudomonas tremae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_tremae; wikidata Q7255127
+203482			Volucribacter psittacicida	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Volucribacter_psittacicida; wikidata Q26306921
+204037			Dickeya	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Dickeya; wikidata Q5273668
+204038			Dickeya dadantii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dickeya_dadantii; wikidata Q3026652
+204525			Teichococcus cervicalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseomonas_cervicalis; wikidata Q48999253
+207244			Anaerostipes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerostipes; wikidata Q3614922
+207340			Roseomonas mucosa	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseomonas_mucosa; wikidata Q48999250
+208434			Milkweed yellows phytoplasma	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Milkweed_yellows_phytoplasma; wikidata Q109579558
+208557			Pasteuria nishizawae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteuria_nishizawae; wikidata Q18386921
+208962			Escherichia albertii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Escherichia_albertii; wikidata Q5397188
+212347			Aulosira	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Aulosira; wikidata Q4821820
+212743			Rhizobacter	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobacter; wikidata Q17638115
+212791			Enhydrobacter	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enhydrobacter; wikidata Q16981631
+213312			Herbaspirillum lusitanum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Herbaspirillum_lusitanum; wikidata Q5733341
+214856			Alistipes finegoldii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alistipes_finegoldii; wikidata Q25834883
+214906			Histophilus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Histophilus; wikidata Q19841821
+215813			Dinoroseobacter shibae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dinoroseobacter_shibae; wikidata Q25841985
+216816			Bifidobacterium longum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_longum; wikidata Q4904768
+216851			Faecalibacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Faecalibacterium; wikidata Q3738294
+218538			Dialister invisus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dialister_invisus; wikidata Q3706665
+225322			Pasteuria ramosa	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pasteuria_ramosa; wikidata Q23817021
+226665			Rickettsia conorii subsp. heilongjiangensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_heilongjiangensis; wikidata Q16989255
+230143			Scardovia wiggsiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Scardovia_wiggsiae; wikidata Q26284634
+238800			Rickettsia asiatica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_asiatica; wikidata Q16989250
+239759			Alistipes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alistipes; wikidata Q4727356
+239935			Akkermansia muciniphila	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Akkermansia_muciniphila; wikidata Q15020908
+244127			Anaerotruncus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerotruncus; wikidata Q3614925
+244292			Mycobacterium nebraskense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_nebraskense; wikidata Q6947068
+244366			Klebsiella variicola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_variicola; wikidata Q24976449
+244734			Bradyrhizobium betae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_betae; wikidata Q16845724
+244787			Nautilia profundicola	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nautilia_profundicola; wikidata Q16756078
+248038			Mucispirillum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mucispirillum; wikidata Q27438769
+249188			Parahaemophilus pittmaniae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haemophilus_pittmaniae; wikidata Q18347933
+254786			Streptococcus castoreus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_castoreus; wikidata Q26289105
+255045			Bradyrhizobium canariense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_canariense; wikidata Q16953362
+255457			Brucella lupini	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_lupini; wikidata Q16986791
+256730			Volucribacter	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Volucribacter; wikidata Q26306914
+261302			Paraburkholderia phytofirmans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraburkholderia_phytofirmans; wikidata Q26270608
+264251			Cellulosimicrobium funkei	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cellulosimicrobium_funkei; wikidata Q25841260
+265178			Breznakia pachnodae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Breznakia_pachnodae; wikidata Q29566668
+267212			Neisseria bacilliformis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_bacilliformis; wikidata Q6989655
+272131			Nostoc punctiforme	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Nostoc_punctiforme; wikidata Q7061966
+273136			Mycoplasma amphoriforme	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycoplasma_amphoriforme; wikidata Q3868959
+280145			Acinetobacter colistiniresistens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_colistiniresistens; wikidata Q55603140
+280333			Bradyrhizobium pachyrhizi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_pachyrhizi; wikidata Q18359293
+280483			Thalassotalea loyana	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassotalea_loyana; wikidata Q48840955
+281091			Azorhizobium doebereinerae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azorhizobium_doebereinerae; wikidata Q18209804
+285679			Micromonospora lupini	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_lupini; wikidata Q18344615
+286727			Azospirillum oryzae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Azospirillum_oryzae; wikidata Q16975002
+289370			Phytopseudomonas argentinensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_argentinensis; wikidata Q7255007
+290055			Faecalicatena fissicatena	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Faecalicatena_fissicatena; wikidata Q62879047
+291176			Bartonella melophagi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_melophagi; wikidata Q4865714
+291968			Acaricomes phytoseiuli	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acaricomes_phytoseiuli; wikidata Q4672120
+292462			Mycobacterium florentinum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_florentinum; wikidata Q6947021
+292486			Avibacterium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Avibacterium; wikidata Q26209050
+293958			Martinezella lusitana	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_lusitanum; wikidata Q16989119
+299583			Francisella orientalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Francisella_orientalis; wikidata Q29564505
+300193			Phyllobacterium trifolii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phyllobacterium_trifolii; wikidata Q16988053
+302911			Bifidobacterium animalis subsp. lactis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_animalis_lactis; wikidata Q21365200
+305899			Endozoicomonas	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Endozoicomonas; wikidata Q26209114
+310297			Phocaeicola plebeius	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phocaeicola_plebeius; wikidata Q25840254
+312026			Paraburkholderia mimosarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraburkholderia_mimosarum; wikidata Q26270601
+312306			Pseudomonas entomophila	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pseudomonas_entomophila; wikidata Q7255037
+314237			Paramesorhizobium leguminum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phyllobacterium_leguminum; wikidata Q16965232
+314238			Phyllobacterium ifriqiyense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phyllobacterium_ifriqiyense; wikidata Q16965472
+326522			Neisseria animaloris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neisseria_animaloris; wikidata Q26268392
+328812			Parabacteroides goldsteinii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Parabacteroides_goldsteinii; wikidata Q26270554
+328813			Alistipes onderdonkii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alistipes_onderdonkii; wikidata Q25834888
+335286			Brucella oryzae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_oryzae; wikidata Q18356037
+337255			Candidatus Arsenophonus arthropodicus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arsenophonus_arthropodicus; wikidata Q99774758
+339268			Mycobacterium colombiense	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacterium_colombiense; wikidata Q6947006
+341694			Peptostreptococcus stomatis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Peptostreptococcus_stomatis; wikidata Q3899444
+346665			Faucicola boevrei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moraxella_boevrei; wikidata Q16868410
+356851			Micromonospora chokoriensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_chokoriensis; wikidata Q20817883
+356852			Micromonospora coxensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Micromonospora_coxensis; wikidata Q20817884
+357276			Phocaeicola dorei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacteroides_dorei; wikidata Q25840234
+364316			Verminephrobacter	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Verminephrobacter; wikidata Q7921643
+367456			Helmutkoenigia isoptericolens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Treponema_isoptericolens; wikidata Q16993193
+367827			Streptomyces tritolerans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_tritolerans; wikidata Q26293087
+369822			Rickettsia conorii subsp. raoultii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rickettsia_raoultii; wikidata Q16989272
+372463			Oceanobacillus profundus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Oceanobacillus_profundus; wikidata Q26269532
+375288			Parabacteroides	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Parabacteroides; wikidata Q21219470
+386891			Moraxella bovoculi	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moraxella_bovoculi; wikidata Q15709867
+392320			Paraburkholderia nodosa	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraburkholderia_nodosa; wikidata Q26270602
+404941			Mycobacteroides salmoniphilum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacteroides_salmoniphilum; wikidata Q112916207
+407152			Brucella cytisi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_cytisi; wikidata Q16986781
+411577			Anaerococcus murdochii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerococcus_murdochii; wikidata Q25836950
+413712			Sphingomonas pseudosanguinis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sphingomonas_pseudosanguinis; wikidata Q26287349
+418240			Blautia wexlerae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Blautia_wexlerae; wikidata Q25840444
+419015			Alloscardovia omnicolens	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Alloscardovia_omnicolens; wikidata Q25835334
+441950			Bradyrhizobium iriomotense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_iriomotense; wikidata Q16845733
+444163			Brucella microti	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_microti; wikidata Q15131209
+447689			Tenacibaculum soleae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tenacibaculum_soleae; wikidata Q16992998
+447792			Phytobacter	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Phytobacter; wikidata Q28735297
+460060			Mesorhizobium shangrilense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_shangrilense; wikidata Q15964789
+472583			Ignatzschineria indica	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Ignatzschineria_indica; wikidata Q25860854
+480996			Glycomyces endophyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glycomyces_endophyticus; wikidata Q25859584
+483206			Mesorhizobium caraganae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_caraganae; wikidata Q16969330
+487049			Paraburkholderia rhynchosiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraburkholderia_rhynchosiae; wikidata Q62892611
+516075			Providencia sneebia	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Providencia_sneebia; wikidata Q16965230
+519427			Sharpea	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sharpea; wikidata Q26285228
+553611			Photobacterium leiognathi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photobacterium_leiognathi; wikidata Q16988011
+555791			Staphylococcus massiliensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_massiliensis; wikidata Q7600414
+561879			Bacillus safensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_safensis; wikidata Q4838980
+568987			Candidatus Williamhamiltonella	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hamiltonella; wikidata Q16982696
+574560			Photorhabdus temperata	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photorhabdus_temperata; wikidata Q16988015
+574561			Rhizobium pisi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizobium_pisi; wikidata Q26280548
+574697			Butyricimonas	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Butyricimonas; wikidata Q26209985
+576611			Polynucleobacter asymbioticus	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_asymbioticus; wikidata Q29887725
+582472			Wohlfahrtiimonas	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Wohlfahrtiimonas; wikidata Q26307354
+586733			Staphylococcus devriesei	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_devriesei; wikidata Q7600404
+592978			Mediterraneibacter faecis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mediterraneibacter_faecis; wikidata Q113680550
+617123			Lachnoanaerobaculum umeaense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lachnoanaerobaculum_umeaense; wikidata Q25861086
+637393			Herbiconiux moechotypicola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Herbiconiux_moechotypicola; wikidata Q62856176
+643214			Mammaliicoccus stepanovicii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Staphylococcus_stepanovicii; wikidata Q7600424
+648751			Flindersiella endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flindersiella_endophytica; wikidata Q25858949
+653940			Basfia succiniciproducens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Basfia_succiniciproducens; wikidata Q809947
+667676			Paraburkholderia diazotrophica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraburkholderia_diazotrophica; wikidata Q26270566
+671218			Alloprevotella rava	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alloprevotella_rava; wikidata Q25835217
+673521			Trujillonella endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Blastococcus_endophyticus; wikidata Q25840387
+673954			Arsenicicoccus piscis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arsenicicoccus_piscis; wikidata Q25839716
+676517			Rickettsiella massiliensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Diplorickettsia_massiliensis; wikidata Q16981380
+680248			Sinorhizobium numidicum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ensifer_numidicus; wikidata Q62883126
+758823			Vampirovibrio chlorellavorus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vampirovibrio_chlorellavorus; wikidata Q20721471
+858423			Bradyrhizobium arachidis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_arachidis; wikidata Q16845718
+862720			Paracidovorax oryzae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidovorax_oryzae; wikidata Q16824940
+864069			Microvirga lotononidis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microvirga_lotononidis; wikidata Q24912303
+874422			Aquimarina gracilis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquimarina_gracilis; wikidata Q28403656
+874423			Aquimarina mytili	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquimarina_mytili; wikidata Q28403747
+881616			Herbiconiux	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Herbiconiux; wikidata Q26209421
+930166			Pseudomonas brassicacearum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_brassicacearum; wikidata Q7255018
+948102			Mycobacteroides franklinii	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycobacteroides_franklinii; wikidata Q112916706
+985002			Staphylococcus argenteus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_argenteus; wikidata Q26288539
+989370			Bradyrhizobium manausense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_manausense; wikidata Q28405833
+1076443			Glycomyces artemisiae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glycomyces_artemisiae; wikidata Q62847963
+1079922			Commensalibacter	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Commensalibacter; wikidata Q27881621
+1108812			Mycolicibacter longobardus	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Mycolicibacter_longobardus; wikidata Q113105639
+1114204			Pseudomonas reptilivorous	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_reptilivora; wikidata Q7255099
+1117645			Elizabethkingia anophelis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Elizabethkingia_anophelis; wikidata Q24976335
+1137606			Leptospira mayottensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptospira_mayottensis; wikidata Q47174959
+1155739			Moorena producens	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorea_producens; wikidata Q293131
+1157312			Clostridium vulturis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_vulturis; wikidata Q62878708
+1164882			Lachnoanaerobaculum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lachnoanaerobaculum; wikidata Q26209430
+1181882			Glycomyces phytohabitans	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glycomyces_phytohabitans; wikidata Q25859601
+1196083			Snodgrassella alvi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Snodgrassella_alvi; wikidata Q60617228
+1219382			Acinetobacter nectaris	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_nectaris; wikidata Q16825002
+1233427			Roseofilum reptotaenium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseofilum_reptotaenium; wikidata Q67358016
+1234144			Endozoicomonas gorgoniicola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Endozoicomonas_gorgoniicola; wikidata Q60760212
+1263550			Edwardsiella piscicida	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_piscicida; wikidata Q29565713
+1310165			Ralstonia pseudosolanacearum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ralstonia_pseudosolanacearum; wikidata Q62892708
+1318743			Bartonella ancashensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_ancashensis; wikidata Q29565903
+1325090			Bradyrhizobium guangdongense	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_guangdongense; wikidata Q39047504
+1326083			Mesorhizobium acaciae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesorhizobium_acaciae; wikidata Q48840807
+1334106			Phyllobacterium loti	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phyllobacterium_loti; wikidata Q16944379
+1346286			Indolivaga macrotermitis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dysgonomonas_macrotermitis; wikidata Q25842027
+1486262			Martelella endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Martelella_endophytica; wikidata Q16985186
+1496996			Stackebrandtia endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Stackebrandtia_endophytica; wikidata Q26288490
+1497615			Bradyrhizobium neotropicale	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_neotropicale; wikidata Q28405835
+1497618			Bradyrhizobium ingae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bradyrhizobium_ingae; wikidata Q28405825
+1500311			Filimonas endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Filimonas_endophytica; wikidata Q62859927
+1505725			Weissella bombi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Weissella_bombi; wikidata Q26307034
+1516126			Dysgonomonas termitidis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dysgonomonas_termitidis; wikidata Q29887853
+1521621			Nostoc parmelioides	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nostoc_parmelioides; wikidata Q49425203
+1523160			Labedella endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Labedella_endophytica; wikidata Q25861066
+1525371			Neorhizobium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neorhizobium; wikidata Q24976459
+1585976			Bergeyella cardium	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bergeyella_cardium; wikidata Q28407481
+1586267			Apibacter mensalis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Apibacter_mensalis; wikidata Q62863218
+1612611			Pararhizobium	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pararhizobium; wikidata Q24976466
+1623397			Asanoa endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Asanoa_endophytica; wikidata Q48841791
+1633495			Endozoicomonas arenosclerae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Endozoicomonas_arenosclerae; wikidata Q60183490
+1649486			Rhizorhabdus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhizorhabdus; wikidata Q26280762
+1674146			Borreliella mayonii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Borrelia_mayonii; wikidata Q25441290
+1679444			Neoakkermansia glycaniphila	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Akkermansia_glycaniphila; wikidata Q27439631
+1686310			Ditibartonella apis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bartonella_apis; wikidata Q29887753
+1690220			Phycicoccus endophyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phycicoccus_endophyticus; wikidata Q29566418
+1720195			Gabonibacter massiliensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gabonibacter_massiliensis; wikidata Q29887882
+1743157			Polynucleobacter sinensis	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_sinensis; wikidata Q29887733
+1743159			Polynucleobacter yangtzensis	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_yangtzensis; wikidata Q29887735
+1743163			Polynucleobacter campilacus	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_campilacus; wikidata Q60791521
+1743164			Polynucleobacter aenigmaticus	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_aenigmaticus; wikidata Q60183460
+1743166			Polynucleobacter hirudinilacicola	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_hirudinilacicola; wikidata Q60183461
+1743168			Polynucleobacter wuianus	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_wuianus; wikidata Q29887731
+1743169			Polynucleobacter sphagniphilus	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_sphagniphilus; wikidata Q60183463
+1749036			Dyadobacter endophyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dyadobacter_endophyticus; wikidata Q29566648
+1775911			Corynebacterium uropygiale	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_uropygiale; wikidata Q28100506
+1778590			Pseudoclavibacter endophyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoclavibacter_endophyticus; wikidata Q29566429
+1785988			Bombella apis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bombella_apis; wikidata Q57829579
+1789224			Acinetobacter larvae	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_larvae; wikidata Q55603145
+1821960			Edwardsiella anguillarum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Edwardsiella_anguillarum; wikidata Q25842043
+1822464			Paraburkholderia	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Paraburkholderia; wikidata Q26270559
+1835254			Polynucleobacter duraquae	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_duraquae; wikidata Q29887729
+1840412			Glycomyces anabasis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glycomyces_anabasis; wikidata Q62847948
+1843581			Xanthomonas nasturtii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Xanthomonas_nasturtii; wikidata Q62901868
+1847819			Yimella radicis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yimella_radicis; wikidata Q29566646
+1849103			Flexivirga endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flexivirga_endophytica; wikidata Q54984337
+1849551			Cephaloticoccus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cephaloticoccus; wikidata Q28777768
+1854762			Chryseobacterium endophyticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_endophyticum; wikidata Q54983626
+1882682			Microvirga ossetica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microvirga_ossetica; wikidata Q39047938
+1888914			Tenacibaculum haliotis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tenacibaculum_haliotis; wikidata Q60523449
+1891644			Epidermidibacterium keratini	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Epidermidibacterium_keratini; wikidata Q63372337
+1915309			Silvanigrella aquatica	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Silvanigrella_aquatica; wikidata Q60791504
+1938814			Polynucleobacter meluiroseus	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_meluiroseus; wikidata Q60183462
+1963359			Paramesorhizobium endophyticum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brucella_endophytica; wikidata Q39047597
+1978490			Ureibacillus endophyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lysinibacillus_endophyticus; wikidata Q62873679
+2040280			Marmoricola endophyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marmoricola_endophyticus; wikidata Q62848804
+2049319			Polynucleobacter victoriensis	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_victoriensis; wikidata Q60183464
+2058291			Janibacter massiliensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Janibacter_massiliensis; wikidata Q85770807
+2058924			Streptomyces populi	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_populi; wikidata Q62851731
+2060666			Saccharibacillus endophyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharibacillus_endophyticus; wikidata Q56291942
+2108523			Lawsonibacter asaccharolyticus	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lawsonibacter_asaccharolyticus; wikidata Q63432173
+2153354			Klebsiella huaxiensis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Klebsiella_huaxiensis; wikidata Q63397802
+2269386			Kushneria endophytica	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_endophytica; wikidata Q63372614
+2305228			Chryseobacterium nematophagum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_nematophagum; wikidata Q61928109
+2527775			Polynucleobacter paneuropaeus	host-associated	FALSE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polynucleobacter_paneuropaeus; wikidata Q63348484
+2590666			Gynurincola	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gynurincola; wikidata Q63435639
+2714947			Vagococcus hydrophili	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vagococcus_hydrophili; wikidata Q105984630
+2714950			Tessaracoccus coleopterorum	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tessaracoccus_coleopterorum; wikidata Q106039524
+2742203			Staphylococcus borealis	host-associated	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_borealis; wikidata Q101135508
+2742598			Limosilactobacillus	host-associated	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Limosilactobacillus; wikidata Q104157424
+2763672			Simiaoa sunii	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Simiaoa_sunii; wikidata Q140355693
+2870453			Clevelandina	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clevelandina; wikidata Q21078635
+2870454			Clevelandina reticulitermitidis	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clevelandina_reticulitermitidis; wikidata Q18347928
+2946593			Oxalobacter aliiformigenes	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oxalobacter_aliiformigenes; wikidata Q116263385
+2981630			Anthropogastromicrobium	host-associated	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anthropogastromicrobium; wikidata Q113551278

@@ -95,7 +95,7 @@ On supermicro (for internal use):
 
 ## License
 
-The files are available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode).
+The data files are available under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode), because they include annotations derived from Wikipedia (`sources/wikipedia_2026`). Rows with `Attribute_source` `Wikipedia_2026` are the Wikipedia-derived ones; the article each value was read from is linked in the `Note` column of the tables in `sources/wikipedia_2026`, which is the attribution to give when reusing them. Releases up to v1.1.0 are CC BY 4.0. The code in this repository and the bugphyzz package are Artistic-2.0.
 
 ## Zenodo
 

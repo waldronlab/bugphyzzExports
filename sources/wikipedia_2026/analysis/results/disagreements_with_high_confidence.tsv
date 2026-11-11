@@ -1,0 +1,351 @@
+physiology	NCBI_ID	rank	wikipedia	reference	reference_states	reference_records	Taxon_name	Note
+aerophilicity	1006155	species	facultatively anaerobic	BacDive	anaerobic	1	Paenilisteria weihenstephanensis	https://en.wikipedia.org/wiki/Listeria_weihenstephanensis; wikidata Q24911610
+aerophilicity	1067	species	facultatively anaerobic	BacDive	anaerobic	1	Rhodocyclus purpureus	https://en.wikipedia.org/wiki/Rhodocyclus_purpureus; wikidata Q16989153
+aerophilicity	107400	species	facultatively anaerobic	BacDive	aerobic	1	Methylobacterium fujisawaense	https://en.wikipedia.org/wiki/Methylobacterium_fujisawaense; wikidata Q16985605
+aerophilicity	1085	species	facultatively anaerobic	BacDive	anaerobic	8	Rhodospirillum rubrum	https://en.wikipedia.org/wiki/Rhodospirillum_rubrum; wikidata Q24303
+aerophilicity	1114880	species	anaerobic	BacDive	facultatively anaerobic	1	Aeromonas australiensis	https://en.wikipedia.org/wiki/Aeromonas_australiensis; wikidata Q16825685
+aerophilicity	1176537	species	aerobic	BacDive	anaerobic	1	Olivibacter ginsenosidimutans	https://en.wikipedia.org/wiki/Olivibacter_ginsenosidimutans; wikidata Q62868630
+aerophilicity	1221500	species	aerobic	BacDive	facultatively anaerobic	1	Fictibacillus phosphorivorans	https://en.wikipedia.org/wiki/Fictibacillus_phosphorivorans; wikidata Q25858616
+aerophilicity	1229156	species	facultatively anaerobic	BacDive	aerobic	1	Roseovarius aquimarinus	https://en.wikipedia.org/wiki/Roseovarius_aquimarinus; wikidata Q59688165
+aerophilicity	1252	species	anaerobic	BacDive	aerobic|facultatively anaerobic	2	Leuconostoc carnosum	https://en.wikipedia.org/wiki/Leuconostoc_carnosum; wikidata Q16984480
+aerophilicity	1255257	species	facultatively anaerobic	BacDive	anaerobic	1	Ferrimonas gelatinilytica	https://en.wikipedia.org/wiki/Ferrimonas_gelatinilytica; wikidata Q62898948
+aerophilicity	12915	species	aerobic	BacDive	anaerobic	1	Acidianus infernus	https://en.wikipedia.org/wiki/Acidianus_infernus; wikidata Q12605453
+aerophilicity	1295	species	facultatively anaerobic	BacDive	aerobic	12	Staphylococcus schleiferi	https://en.wikipedia.org/wiki/Staphylococcus_schleiferi; wikidata Q16992701
+aerophilicity	1301026	species	anaerobic	BacDive	aerobic	1	Microbacterium nanhaiense	https://en.wikipedia.org/wiki/Microbacterium_nanhaiense; wikidata Q25863387
+aerophilicity	1303	species	facultatively anaerobic	BacDive	aerobic	39	Streptococcus oralis	https://en.wikipedia.org/wiki/Streptococcus_oralis; wikidata Q1856358
+aerophilicity	1304	species	facultatively anaerobic	BacDive	aerobic	29	Streptococcus salivarius	https://en.wikipedia.org/wiki/Streptococcus_salivarius; wikidata Q139986
+aerophilicity	1305	species	facultatively anaerobic	BacDive	aerobic	30	Streptococcus sanguinis	https://en.wikipedia.org/wiki/Streptococcus_sanguinis; wikidata Q2033849
+aerophilicity	1309	species	facultatively anaerobic	BacDive	aerobic	25	Streptococcus mutans	https://en.wikipedia.org/wiki/Streptococcus_mutans; wikidata Q131452
+aerophilicity	1310	species	anaerobic	BacDive	aerobic	7	Streptococcus sobrinus	https://en.wikipedia.org/wiki/Streptococcus_sobrinus; wikidata Q603315
+aerophilicity	131111	species	facultatively anaerobic	BacDive	aerobic|anaerobic	38	Schaalia turicensis	https://en.wikipedia.org/wiki/Schaalia_turicensis; wikidata Q21364795
+aerophilicity	1314	species	anaerobic	BacDive	aerobic|facultatively anaerobic	57	Streptococcus pyogenes	https://en.wikipedia.org/wiki/Streptococcus_pyogenes; wikidata Q131271
+aerophilicity	1338	species	anaerobic	BacDive	aerobic|facultatively anaerobic	3	Streptococcus intermedius	https://en.wikipedia.org/wiki/Streptococcus_intermedius; wikidata Q7623355
+aerophilicity	1346286	species	facultatively anaerobic	BacDive	anaerobic	1	Indolivaga macrotermitis	https://en.wikipedia.org/wiki/Dysgonomonas_macrotermitis; wikidata Q25842027
+aerophilicity	13773	species	aerobic	BacDive	anaerobic	1	Pyrobaculum aerophilum	https://en.wikipedia.org/wiki/Pyrobaculum_aerophilum; wikidata Q12622259
+aerophilicity	147802	species	facultatively anaerobic	BacDive	aerobic|anaerobic	30	Lactobacillus iners	https://en.wikipedia.org/wiki/Lactobacillus_iners; wikidata Q2097107
+aerophilicity	1486262	species	aerobic	BacDive	facultatively anaerobic	1	Martelella endophytica	https://en.wikipedia.org/wiki/Martelella_endophytica; wikidata Q16985186
+aerophilicity	148813	species	facultatively anaerobic	BacDive	anaerobic	1	Sulfuricurvum kujiense	https://en.wikipedia.org/wiki/Sulfuricurvum_kujiense; wikidata Q16992854
+aerophilicity	1581	species	anaerobic	BacDive	facultatively anaerobic	5	Lentilactobacillus buchneri	https://en.wikipedia.org/wiki/Lentilactobacillus_buchneri; wikidata Q3074777
+aerophilicity	159896	species	facultatively anaerobic	BacDive	aerobic	1	Microbacterium gubbeenense	https://en.wikipedia.org/wiki/Microbacterium_gubbeenense; wikidata Q25863329
+aerophilicity	161493	species	facultatively anaerobic	BacDive	aerobic|anaerobic	17	Anaeromyxobacter dehalogenans	https://en.wikipedia.org/wiki/Anaeromyxobacter_dehalogenans; wikidata Q16828217
+aerophilicity	163665	species	facultatively anaerobic	BacDive	aerobic|anaerobic	4	Dysgonomonas mossii	https://en.wikipedia.org/wiki/Dysgonomonas_mossii; wikidata Q25842028
+aerophilicity	1640	species	facultatively anaerobic	BacDive	aerobic	6	Listeria seeligeri	https://en.wikipedia.org/wiki/Listeria_seeligeri; wikidata Q3834925
+aerophilicity	1642469	species	aerobic	BacDive	anaerobic	1	Mariniluteicoccus endophyticus	https://en.wikipedia.org/wiki/Mariniluteicoccus_endophyticus; wikidata Q29566444
+aerophilicity	166939	species	facultatively anaerobic	BacDive	aerobic|anaerobic	2	Allofustis seminis	https://en.wikipedia.org/wiki/Allofustis_seminis; wikidata Q25835090
+aerophilicity	170573	species	facultatively anaerobic	BacDive	aerobic	7	Staphylococcus pettenkoferi	https://en.wikipedia.org/wiki/Staphylococcus_pettenkoferi; wikidata Q7600417
+aerophilicity	173361	species	facultatively anaerobic	BacDive	aerobic	1	Brachybacterium rhamnosum	https://en.wikipedia.org/wiki/Brachybacterium_rhamnosum; wikidata Q25840512
+aerophilicity	173362	species	facultatively anaerobic	BacDive	aerobic	1	Brachybacterium paraconglomeratum	https://en.wikipedia.org/wiki/Brachybacterium_paraconglomeratum; wikidata Q25840509
+aerophilicity	1743159	species	aerobic	BacDive	facultatively anaerobic	1	Polynucleobacter yangtzensis	https://en.wikipedia.org/wiki/Polynucleobacter_yangtzensis; wikidata Q29887735
+aerophilicity	1756761	species	facultatively anaerobic	BacDive	aerobic	1	Pseudaeromonas pectinilytica	https://en.wikipedia.org/wiki/Pseudaeromonas_pectinilytica; wikidata Q62897973
+aerophilicity	1849022	species	facultatively anaerobic	BacDive	aerobic|anaerobic	2	Demequina litorisediminis	https://en.wikipedia.org/wiki/Demequina_litorisediminis; wikidata Q55394581
+aerophilicity	1855725	species	anaerobic	BacDive	aerobic|facultatively anaerobic	2	Mucilaginibacter antarcticus	https://en.wikipedia.org/wiki/Mucilaginibacter_antarcticus; wikidata Q28868588
+aerophilicity	186189	species	aerobic	BacDive	facultatively anaerobic	1	Xylanimonas cellulosilytica	https://en.wikipedia.org/wiki/Xylanimonas_cellulosilytica; wikidata Q26307830
+aerophilicity	200253	species	anaerobic	BacDive	aerobic|facultatively anaerobic	2	Deinococcus aerius	https://en.wikipedia.org/wiki/Deinococcus_aerius; wikidata Q25841657
+aerophilicity	200475	species	facultatively anaerobic	BacDive	aerobic	1	Brumimicrobium glaciale	https://en.wikipedia.org/wiki/Brumimicrobium_glaciale; wikidata Q16847694
+aerophilicity	201	species	anaerobic|microaerophilic	BacDive	aerobic	11	Campylobacter lari	https://en.wikipedia.org/wiki/Campylobacter_lari; wikidata Q16851296
+aerophilicity	203	species	facultatively anaerobic	BacDive	anaerobic	5	Campylobacter rectus	https://en.wikipedia.org/wiki/Campylobacter_rectus; wikidata Q5028747
+aerophilicity	203192	species	facultatively anaerobic	BacDive	aerobic|anaerobic	2	Stutzerimonas chloritidismutans	https://en.wikipedia.org/wiki/Stutzerimonas_chloritidismutans; wikidata Q62904786
+aerophilicity	2049319	species	aerobic	BacDive	facultatively anaerobic	1	Polynucleobacter victoriensis	https://en.wikipedia.org/wiki/Polynucleobacter_victoriensis; wikidata Q60183464
+aerophilicity	215813	species	facultatively anaerobic	BacDive	aerobic	1	Dinoroseobacter shibae	https://en.wikipedia.org/wiki/Dinoroseobacter_shibae; wikidata Q25841985
+aerophilicity	2182385	species	facultatively anaerobic	BacDive	aerobic	1	Brachybacterium endophyticum	https://en.wikipedia.org/wiki/Brachybacterium_endophyticum; wikidata Q63371438
+aerophilicity	24	species	facultatively anaerobic	BacDive	aerobic	10	Shewanella putrefaciens	https://en.wikipedia.org/wiki/Shewanella_putrefaciens; wikidata Q7495722
+aerophilicity	267818	species	facultatively anaerobic	BacDive	aerobic|anaerobic	2	Lactobacillus kefiranofaciens	https://en.wikipedia.org/wiki/Lactobacillus_kefiranofaciens; wikidata Q3825300
+aerophilicity	2702	species	facultatively anaerobic	BacDive	aerobic|anaerobic	76	Gardnerella vaginalis	https://en.wikipedia.org/wiki/Gardnerella_vaginalis; wikidata Q127375
+aerophilicity	28037	species	facultatively anaerobic	BacDive	aerobic	35	Streptococcus mitis	https://en.wikipedia.org/wiki/Streptococcus_mitis; wikidata Q684674
+aerophilicity	28197	species	anaerobic	BacDive	aerobic	7	Aliarcobacter butzleri	https://en.wikipedia.org/wiki/Arcobacter_butzleri; wikidata Q21237173
+aerophilicity	29391	species	facultatively anaerobic|microaerophilic	BacDive	aerobic|anaerobic	23	Gemella morbillorum	https://en.wikipedia.org/wiki/Gemella_morbillorum; wikidata Q5530601
+aerophilicity	29573	species	anaerobic	BacDive	facultatively anaerobic	1	Halomonas halophila	https://en.wikipedia.org/wiki/Halomonas_halophila; wikidata Q25860342
+aerophilicity	337779	species	facultatively anaerobic	BacDive	aerobic|anaerobic	2	Dechloromonas hortensis	https://en.wikipedia.org/wiki/Dechloromonas_hortensis; wikidata Q16959499
+aerophilicity	348582	species	facultatively anaerobic	BacDive	anaerobic	1	Propionicicella superfundia	https://en.wikipedia.org/wiki/Propionicicella_superfundia; wikidata Q26275041
+aerophilicity	36808	species	facultatively anaerobic	BacDive	aerobic	2	Corynebacterium bovis	https://en.wikipedia.org/wiki/Corynebacterium_bovis; wikidata Q5173756
+aerophilicity	370976	species	anaerobic	BacDive	facultatively anaerobic	1	Hydrogenophaga caeni	https://en.wikipedia.org/wiki/Hydrogenophaga_caeni; wikidata Q16976407
+aerophilicity	399497	species	anaerobic	BacDive	aerobic|facultatively anaerobic	2	Tessaracoccus flavescens	https://en.wikipedia.org/wiki/Tessaracoccus_flavescens; wikidata Q26295400
+aerophilicity	406100	species	aerobic	BacDive	facultatively anaerobic	1	Aquisalimonas asiatica	https://en.wikipedia.org/wiki/Aquisalimonas_asiatica; wikidata Q25838699
+aerophilicity	416230	species	facultatively anaerobic	BacDive	anaerobic	1	Brachybacterium zhongshanense	https://en.wikipedia.org/wiki/Brachybacterium_zhongshanense; wikidata Q25840530
+aerophilicity	433330	species	facultatively anaerobic	BacDive	anaerobic	1	Propioniciclava tarda	https://en.wikipedia.org/wiki/Propioniciclava_tarda; wikidata Q26275057
+aerophilicity	45254	species	anaerobic	BacDive	aerobic	7	Indolivaga capnocytophagoides	https://en.wikipedia.org/wiki/Dysgonomonas_capnocytophagoides; wikidata Q25842025
+aerophilicity	46125	species	facultatively anaerobic	BacDive	aerobic	23	Abiotrophia defectiva	https://en.wikipedia.org/wiki/Abiotrophia_defectiva; wikidata Q25343611
+aerophilicity	47671	species	facultatively anaerobic	BacDive	aerobic	5	Lautropia mirabilis	https://en.wikipedia.org/wiki/Lautropia_mirabilis; wikidata Q16984266
+aerophilicity	47845	species	facultatively anaerobic	BacDive	aerobic	1	Brachybacterium alimentarium	https://en.wikipedia.org/wiki/Brachybacterium_alimentarium; wikidata Q25840495
+aerophilicity	47846	species	facultatively anaerobic	BacDive	aerobic	1	Brachybacterium conglomeratum	https://en.wikipedia.org/wiki/Brachybacterium_conglomeratum; wikidata Q25840498
+aerophilicity	481366	species	anaerobic	BacDive	aerobic	1	Limnobacter litoralis	https://en.wikipedia.org/wiki/Limnobacter_litoralis; wikidata Q16984578
+aerophilicity	504	species	facultatively anaerobic	BacDive	aerobic	58	Kingella kingae	https://en.wikipedia.org/wiki/Kingella_kingae; wikidata Q1950143
+aerophilicity	510515	species	anaerobic	BacDive	facultatively anaerobic	1	Comamonas guangdongensis	https://en.wikipedia.org/wiki/Comamonas_guangdongensis; wikidata Q16948140
+aerophilicity	51160	species	facultatively anaerobic	BacDive	anaerobic	1	Treponema maltophilum	https://en.wikipedia.org/wiki/Treponema_maltophilum; wikidata Q23808004
+aerophilicity	51663	species	facultatively anaerobic	BacDive	aerobic|anaerobic	5	Pediococcus damnosus	https://en.wikipedia.org/wiki/Pediococcus_damnosus; wikidata Q7159285
+aerophilicity	539	species	facultatively anaerobic	BacDive	aerobic	11	Eikenella corrodens	https://en.wikipedia.org/wiki/Eikenella_corrodens; wikidata Q3039103
+aerophilicity	542	species	facultatively anaerobic	BacDive	aerobic|anaerobic	3	Zymomonas mobilis	https://en.wikipedia.org/wiki/Zymomonas_mobilis; wikidata Q245744
+aerophilicity	546	species	facultatively anaerobic	BacDive	aerobic	16	Citrobacter freundii	https://en.wikipedia.org/wiki/Citrobacter_freundii; wikidata Q5122842
+aerophilicity	561879	species	aerobic	BacDive	facultatively anaerobic	2	Bacillus safensis	https://en.wikipedia.org/wiki/Bacillus_safensis; wikidata Q4838980
+aerophilicity	561965	species	facultatively anaerobic	BacDive	anaerobic	1	Aliagarivorans marinus	https://en.wikipedia.org/wiki/Aliagarivorans_marinus; wikidata Q25834829
+aerophilicity	563	species	aerobic	BacDive	facultatively anaerobic	3	Shimwellia blattae	https://en.wikipedia.org/wiki/Shimwellia_blattae; wikidata Q26285486
+aerophilicity	56807	species	aerobic	BacDive	facultatively anaerobic	1	Brumicola pallidula	https://en.wikipedia.org/wiki/Glaciecola_pallidula; wikidata Q16982337
+aerophilicity	56812	species	anaerobic	BacDive	aerobic	1	Shewanella frigidimarina	https://en.wikipedia.org/wiki/Shewanella_frigidimarina; wikidata Q16992540
+aerophilicity	576611	species	aerobic	BacDive	facultatively anaerobic	1	Polynucleobacter asymbioticus	https://en.wikipedia.org/wiki/Polynucleobacter_asymbioticus; wikidata Q29887725
+aerophilicity	588602	species	aerobic	BacDive	facultatively anaerobic	1	Celeribacter neptunius	https://en.wikipedia.org/wiki/Celeribacter_neptunius; wikidata Q25841220
+aerophilicity	589035	species	aerobic	BacDive	facultatively anaerobic	1	Gemmobacter caeni	https://en.wikipedia.org/wiki/Gemmobacter_caeni; wikidata Q25859232
+aerophilicity	610251	species	facultatively anaerobic	BacDive	aerobic	1	Lactococcus fujiensis	https://en.wikipedia.org/wiki/Lactococcus_fujiensis; wikidata Q25861274
+aerophilicity	632	species	facultatively anaerobic	BacDive	aerobic	1	Yersinia pestis	https://en.wikipedia.org/wiki/Yersinia_pestis; wikidata Q153875
+aerophilicity	637886	species	facultatively anaerobic	BacDive	aerobic|anaerobic	2	Dysgonomonas hofstadii	https://en.wikipedia.org/wiki/Dysgonomonas_hofstadii; wikidata Q29887856
+aerophilicity	651662	species	aerobic	BacDive	facultatively anaerobic	1	Hymenobacter psychrophilus	https://en.wikipedia.org/wiki/Hymenobacter_psychrophilus; wikidata Q25860830
+aerophilicity	653940	species	facultatively anaerobic	BacDive	aerobic	7	Basfia succiniciproducens	https://en.wikipedia.org/wiki/Basfia_succiniciproducens; wikidata Q809947
+aerophilicity	67854	species	facultatively anaerobic	BacDive	aerobic	1	Actinobacillus succinogenes	https://en.wikipedia.org/wiki/Actinobacillus_succinogenes; wikidata Q16960236
+aerophilicity	70863	species	facultatively anaerobic	BacDive	aerobic	1	Shewanella oneidensis	https://en.wikipedia.org/wiki/Shewanella_oneidensis; wikidata Q4049396
+aerophilicity	715	species	facultatively anaerobic	BacDive	aerobic	3	Actinobacillus pleuropneumoniae	https://en.wikipedia.org/wiki/Actinobacillus_pleuropneumoniae; wikidata Q343332
+aerophilicity	73030	species	facultatively anaerobic	BacDive	aerobic|anaerobic	2	Dechloromonas agitata	https://en.wikipedia.org/wiki/Dechloromonas_agitata; wikidata Q5249130
+aerophilicity	731	species	facultatively anaerobic	BacDive	aerobic	20	Histophilus somni	https://en.wikipedia.org/wiki/Histophilus_somni; wikidata Q1620746
+aerophilicity	735	species	anaerobic	BacDive	aerobic|facultatively anaerobic	11	Pseudohaemophilus parahaemolyticus	https://en.wikipedia.org/wiki/Haemophilus_parahaemolyticus; wikidata Q25859906
+aerophilicity	82135	species	facultatively anaerobic	BacDive	anaerobic	11	Fannyhessea vaginae	https://en.wikipedia.org/wiki/Atopobium_vaginae; wikidata Q16949286
+aerophilicity	89402	species	facultatively anaerobic	BacDive	aerobic	1	Colwellia hornerae	https://en.wikipedia.org/wiki/Colwellia_hornerae; wikidata Q16980899
+aerophilicity	981381	species	aerobic	BacDive	facultatively anaerobic	1	Oceanisphaera sediminis	https://en.wikipedia.org/wiki/Oceanisphaera_sediminis; wikidata Q26269515
+aerophilicity	992287	species	facultatively anaerobic	BacDive	aerobic	1	Cellulomonas pakistanensis	https://en.wikipedia.org/wiki/Cellulomonas_pakistanensis; wikidata Q25841243
+aerophilicity	120831	genus	anaerobic	Bergeys_2026	aerobic	1	Dyadobacter	https://en.wikipedia.org/wiki/Dyadobacter; wikidata Q26208679
+aerophilicity	2077	genus	anaerobic	Bergeys_2026	aerobic|facultatively anaerobic	2	Sporolactobacillus	https://en.wikipedia.org/wiki/Sporolactobacillus; wikidata Q7579259
+aerophilicity	28033	genus	facultatively anaerobic	Bergeys_2026	aerobic|anaerobic	2	Sulfobacillus	https://en.wikipedia.org/wiki/Sulfobacillus; wikidata Q20642767
+aerophilicity	29331	genus	facultatively anaerobic	Bergeys_2026	aerobic|anaerobic	2	Amphibacillus	https://en.wikipedia.org/wiki/Amphibacillus; wikidata Q20675411
+aerophilicity	376488	genus	aerobic	Bergeys_2026	facultatively anaerobic	1	Halotalea	https://en.wikipedia.org/wiki/Halotalea; wikidata Q26220003
+aerophilicity	43947	genus	aerobic|anaerobic	Bergeys_2026	facultatively anaerobic	1	Tolumonas	https://en.wikipedia.org/wiki/Tolumonas; wikidata Q16993145
+aerophilicity	472058	genus	anaerobic	Bergeys_2026	aerobic	1	Schumannella	https://en.wikipedia.org/wiki/Schumannella; wikidata Q26284706
+aerophilicity	472977	genus	aerobic	Bergeys_2026	anaerobic	1	Natronobacillus	https://en.wikipedia.org/wiki/Natronobacillus; wikidata Q27438780
+aerophilicity	544	genus	aerobic	Bergeys_2026	facultatively anaerobic	1	Citrobacter	https://en.wikipedia.org/wiki/Citrobacter; wikidata Q134081
+aerophilicity	57665	genus	anaerobic	Bergeys_2026	aerobic	1	Sulfurospirillum	https://en.wikipedia.org/wiki/Sulfurospirillum; wikidata Q19684371
+aerophilicity	75687	genus	anaerobic	Bergeys_2026	aerobic	1	Neptunomonas	https://en.wikipedia.org/wiki/Neptunomonas; wikidata Q19684213
+aerophilicity	75984	genus	anaerobic	Bergeys_2026	aerobic|facultatively anaerobic	2	Mannheimia	https://en.wikipedia.org/wiki/Mannheimia; wikidata Q19684170
+gram stain	105841	species	gram stain variable	BacDive	gram stain positive	1	Anaerostipes caccae	https://en.wikipedia.org/wiki/Anaerostipes_caccae; wikidata Q3614923
+gram stain	1076695	species	gram stain negative	BacDive	gram stain positive	1	Halanaerobium sehlinense	https://en.wikipedia.org/wiki/Halanaerobium_sehlinense; wikidata Q25859970
+gram stain	1229621	species	gram stain variable	BacDive	gram stain positive	1	Anaerostipes rhamnosivorans	https://en.wikipedia.org/wiki/Anaerostipes_rhamnosivorans; wikidata Q25837394
+gram stain	1286	species	gram stain positive	BacDive	gram stain negative	1	Staphylococcus simulans	https://en.wikipedia.org/wiki/Staphylococcus_simulans; wikidata Q2268276
+gram stain	1324351	species	gram stain negative	BacDive	gram stain positive	1	Paenochrobactrum pullorum	https://en.wikipedia.org/wiki/Paenochrobactrum_pullorum; wikidata Q18385999
+gram stain	136093	species	gram stain positive	BacDive	gram stain negative|gram stain variable	2	Globicatella sulfidifaciens	https://en.wikipedia.org/wiki/Globicatella_sulfidifaciens; wikidata Q25859548
+gram stain	1385522	species	gram stain positive	BacDive	gram stain negative	1	Novilysobacter arseniciresistens	https://en.wikipedia.org/wiki/Lysobacter_arseniciresistens; wikidata Q25861832
+gram stain	1417629	species	gram stain positive	BacDive	gram stain negative	1	Anaerosolibacter carboniphilus	https://en.wikipedia.org/wiki/Anaerosolibacter_carboniphilus; wikidata Q29565819
+gram stain	1459	species	gram stain positive	BacDive	gram stain negative	1	Sporosarcina globispora	https://en.wikipedia.org/wiki/Sporosarcina_globispora; wikidata Q15622272
+gram stain	1484	species	gram stain positive	BacDive	gram stain negative|gram stain variable	2	Hydrogenibacillus schlegelii	https://en.wikipedia.org/wiki/Hydrogenibacillus_schlegelii; wikidata Q25860805
+gram stain	1493	species	gram stain positive	BacDive	gram stain negative	1	Clostridium cellulovorans	https://en.wikipedia.org/wiki/Clostridium_cellulovorans; wikidata Q3681038
+gram stain	1501332	species	gram stain positive	BacDive	gram stain variable	1	Oribacterium asaccharolyticum	https://en.wikipedia.org/wiki/Oribacterium_asaccharolyticum; wikidata Q26269628
+gram stain	1571481	species	gram stain negative	BacDive	gram stain positive	1	Flavihumibacter sediminis	https://en.wikipedia.org/wiki/Flavihumibacter_sediminis; wikidata Q62859997
+gram stain	1644105	species	gram stain negative	BacDive	gram stain positive	1	Agromyces insulae	https://en.wikipedia.org/wiki/Agromyces_insulae; wikidata Q62855678
+gram stain	1706195	species	gram stain positive	BacDive	gram stain negative	1	Marilutibacter aestuarii	https://en.wikipedia.org/wiki/Lysobacter_aestuarii; wikidata Q56274301
+gram stain	1834163	species	gram stain negative	BacDive	gram stain positive	1	Flavihumibacter stibioxidans	https://en.wikipedia.org/wiki/Flavihumibacter_stibioxidans; wikidata Q62860023
+gram stain	1859295	species	gram stain negative	BacDive	gram stain positive	1	Mobilicoccus caccae	https://en.wikipedia.org/wiki/Mobilicoccus_caccae; wikidata Q55393579
+gram stain	1965019	species	gram stain positive	BacDive	gram stain negative	1	Geofilum rhodophaeum	https://en.wikipedia.org/wiki/Geofilum_rhodophaeum; wikidata Q62859116
+gram stain	2052	species	gram stain variable	BacDive	gram stain negative	1	Mobiluncus mulieris	https://en.wikipedia.org/wiki/Mobiluncus_mulieris; wikidata Q16985902
+gram stain	225453	species	gram stain negative	BacDive	gram stain positive	1	Yaniella halotolerans	https://en.wikipedia.org/wiki/Yaniella_halotolerans; wikidata Q26307880
+gram stain	248902	species	gram stain negative	BacDive	gram stain positive	1	Agromyces ulmi	https://en.wikipedia.org/wiki/Agromyces_ulmi; wikidata Q25834770
+gram stain	269420	species	gram stain negative	BacDive	gram stain positive	1	Agromyces neolithicus	https://en.wikipedia.org/wiki/Agromyces_neolithicus; wikidata Q25834758
+gram stain	2702	species	gram stain variable	BacDive	gram stain negative	14	Gardnerella vaginalis	https://en.wikipedia.org/wiki/Gardnerella_vaginalis; wikidata Q127375
+gram stain	279828	species	gram stain positive	BacDive	gram stain negative	1	Microcella alkaliphila	https://en.wikipedia.org/wiki/Microcella_alkaliphila; wikidata Q25863729
+gram stain	28112	species	gram stain negative	BacDive	gram stain positive	1	Tannerella forsythia	https://en.wikipedia.org/wiki/Tannerella_forsythia; wikidata Q7683667
+gram stain	287930	species	gram stain negative	BacDive	gram stain positive	1	Yaniella flava	https://en.wikipedia.org/wiki/Yaniella_flava; wikidata Q26307863
+gram stain	332101	species	gram stain positive	BacDive	gram stain negative	1	Clostridium drakei	https://en.wikipedia.org/wiki/Clostridium_drakei; wikidata Q3681053
+gram stain	367742	species	gram stain positive	BacDive	gram stain negative	1	Ureibacillus composti	https://en.wikipedia.org/wiki/Ureibacillus_composti; wikidata Q26298664
+gram stain	398758	species	gram stain positive	BacDive	gram stain negative	1	Alkalibacterium indicireducens	https://en.wikipedia.org/wiki/Alkalibacterium_indicireducens; wikidata Q62876425
+gram stain	40542	species	gram stain negative	BacDive	gram stain positive	1	Leptotrichia buccalis	https://en.wikipedia.org/wiki/Leptotrichia_buccalis; wikidata Q6528590
+gram stain	49338	species	gram stain positive	BacDive	gram stain negative	1	Desulfitobacterium hafniense	https://en.wikipedia.org/wiki/Desulfitobacterium_hafniense; wikidata Q3706079
+gram stain	510947	species	gram stain negative	BacDive	gram stain positive	1	Lacibacter cauensis	https://en.wikipedia.org/wiki/Lacibacter_cauensis; wikidata Q62860186
+gram stain	549295	species	gram stain negative	BacDive	gram stain positive	1	Flavihumibacter petaseus	https://en.wikipedia.org/wiki/Flavihumibacter_petaseus; wikidata Q62859981
+gram stain	582850	species	gram stain variable	BacDive	gram stain positive	1	Sporosarcina luteola	https://en.wikipedia.org/wiki/Sporosarcina_luteola; wikidata Q26288410
+gram stain	587739	species	gram stain negative	BacDive	gram stain positive	1	Yaniella soli	https://en.wikipedia.org/wiki/Yaniella_soli; wikidata Q26307889
+gram stain	658225	species	gram stain positive	BacDive	gram stain negative	1	Sphingomonas glacialis	https://en.wikipedia.org/wiki/Sphingomonas_glacialis; wikidata Q26287045
+gram stain	659012	species	gram stain negative	BacDive	gram stain positive	1	Agromyces soli	https://en.wikipedia.org/wiki/Agromyces_soli; wikidata Q25834762
+gram stain	66864	species	gram stain variable	BacDive	gram stain positive	1	Ammoniphilus oxalivorans	https://en.wikipedia.org/wiki/Ammoniphilus_oxalivorans; wikidata Q25835873
+gram stain	720633	species	gram stain positive	BacDive	gram stain negative	1	Lysinibacillus composti	https://en.wikipedia.org/wiki/Lysinibacillus_composti; wikidata Q25861655
+gram stain	768533	species	gram stain negative	BacDive	gram stain positive	1	Chelativorans composti	https://en.wikipedia.org/wiki/Chelativorans_composti; wikidata Q39046721
+gram stain	80879	species	gram stain negative	BacDive	gram stain positive	1	Curvibacter delicatus	https://en.wikipedia.org/wiki/Curvibacter_delicatus; wikidata Q16953313
+gram stain	84112	species	gram stain positive	BacDive	gram stain negative	1	Eggerthella lenta	https://en.wikipedia.org/wiki/Eggerthella_lenta; wikidata Q25842050
+gram stain	86664	species	gram stain variable	BacDive	gram stain positive	2	Priestia flexa	https://en.wikipedia.org/wiki/Priestia_flexa; wikidata Q21399893
+gram stain	89784	species	gram stain positive	BacDive	gram stain negative	1	Alicyclobacillus hesperidum	https://en.wikipedia.org/wiki/Alicyclobacillus_hesperidum; wikidata Q25834844
+gram stain	906888	species	gram stain negative	BacDive	gram stain positive	1	Nonlabens ulvanivorans	https://en.wikipedia.org/wiki/Nonlabens_ulvanivorans; wikidata Q26269181
+gram stain	140458	genus	gram stain positive	Bergeys_2026	gram stain negative	1	Thermacetogenium	https://en.wikipedia.org/wiki/Thermacetogenium; wikidata Q3990276
+gram stain	160795	genus	gram stain positive	Bergeys_2026	gram stain negative	1	Ureibacillus	https://en.wikipedia.org/wiki/Ureibacillus; wikidata Q15616678
+gram stain	1890291	genus	gram stain positive	Bergeys_2026	gram stain negative	1	Falcatimonas	https://en.wikipedia.org/wiki/Falcatimonas; wikidata Q27438808
+gram stain	191373	genus	gram stain positive	Bergeys_2026	gram stain negative	1	Pelotomaculum	https://en.wikipedia.org/wiki/Pelotomaculum; wikidata Q3898980
+gram stain	29330	genus	gram stain variable	Bergeys_2026	gram stain negative|gram stain positive	2	Alicyclobacillus	https://en.wikipedia.org/wiki/Alicyclobacillus; wikidata Q1417570
+gram stain	44000	genus	gram stain positive	Bergeys_2026	gram stain negative	1	Caldicellulosiruptor	https://en.wikipedia.org/wiki/Caldicellulosiruptor; wikidata Q3650566
+gram stain	85074	genus	gram stain positive	Bergeys_2026	gram stain negative	1	Halochromatium	https://en.wikipedia.org/wiki/Halochromatium; wikidata Q26209407
+shape	1071	species	coccus	BacDive	bacillus	1	Rhodopila globiformis	https://en.wikipedia.org/wiki/Rhodopila_globiformis; wikidata Q16989196
+shape	1112	species	pleiomorphic cell	BacDive	elliptic	1	Erythrobacter neustonensis	https://en.wikipedia.org/wiki/Erythrobacter_neustonensis; wikidata Q26274094
+shape	1125875	species	vibrio	BacDive	bacillus	1	Noviherbaspirillum psychrotolerans	https://en.wikipedia.org/wiki/Noviherbaspirillum_psychrotolerans; wikidata Q26269408
+shape	1166257	species	pleiomorphic cell	BacDive	bacillus	1	Pleomorphomonas diazotrophica	https://en.wikipedia.org/wiki/Pleomorphomonas_diazotrophica; wikidata Q26271207
+shape	1218315	species	coccus	BacDive	elliptic	1	Brucella inopinata	https://en.wikipedia.org/wiki/Brucella_inopinata; wikidata Q16847646
+shape	1262585	species	bacillus	BacDive	elliptic	1	Acinetobacter qingfengensis	https://en.wikipedia.org/wiki/Acinetobacter_qingfengensis; wikidata Q28403224
+shape	148813	species	vibrio	BacDive	bacillus	1	Sulfuricurvum kujiense	https://en.wikipedia.org/wiki/Sulfuricurvum_kujiense; wikidata Q16992854
+shape	149017	species	pleiomorphic cell	BacDive	bacillus	1	Arcanobacterium hippocoleae	https://en.wikipedia.org/wiki/Arcanobacterium_hippocoleae; wikidata Q16829958
+shape	1538102	species	bacillus	BacDive	coccus	1	Pseudochelatococcus lubricantis	https://en.wikipedia.org/wiki/Pseudochelatococcus_lubricantis; wikidata Q26275544
+shape	1553449	species	bacillus	BacDive	elliptic	1	Psychrobacter ciconiae	https://en.wikipedia.org/wiki/Psychrobacter_ciconiae; wikidata Q24908558
+shape	1662395	species	bacillus	BacDive	pleiomorphic cell	1	Shimia abyssi	https://en.wikipedia.org/wiki/Shimia_abyssi; wikidata Q60183575
+shape	173363	species	bacillus|coccus	BacDive	elliptic	1	Brachybacterium fresconis	https://en.wikipedia.org/wiki/Brachybacterium_fresconis; wikidata Q25840503
+shape	180588	species	bacillus	BacDive	elliptic	1	Psychrobacter faecalis	https://en.wikipedia.org/wiki/Psychrobacter_faecalis; wikidata Q16988766
+shape	185007	species	vibrio	BacDive	bacillus	1	Pseudobutyrivibrio xylanivorans	https://en.wikipedia.org/wiki/Pseudobutyrivibrio_xylanivorans; wikidata Q3924872
+shape	186189	species	coccus	BacDive	elliptic	1	Xylanimonas cellulosilytica	https://en.wikipedia.org/wiki/Xylanimonas_cellulosilytica; wikidata Q26307830
+shape	187493	species	vibrio	BacDive	coccus	1	Thalassolituus oleivorans	https://en.wikipedia.org/wiki/Thalassolituus_oleivorans; wikidata Q18388970
+shape	195	species	coccus|spirillum	BacDive	bacillus	9	Campylobacter coli	https://en.wikipedia.org/wiki/Campylobacter_coli; wikidata Q1031711
+shape	199	species	spirillum	BacDive	bacillus	2	Campylobacter concisus	https://en.wikipedia.org/wiki/Campylobacter_concisus; wikidata Q2087197
+shape	202	species	vibrio	BacDive	bacillus	1	Campylobacter mucosalis	https://en.wikipedia.org/wiki/Campylobacter_mucosalis; wikidata Q16975399
+shape	208216	species	bacillus	BacDive	elliptic	1	Parvularcula bermudensis	https://en.wikipedia.org/wiki/Parvularcula_bermudensis; wikidata Q148157
+shape	212	species	spirillum	BacDive	bacillus	1	Helicobacter acinonychis	https://en.wikipedia.org/wiki/Helicobacter_acinonychis; wikidata Q12270685
+shape	214	species	spirillum	BacDive	bacillus	2	Helicobacter felis	https://en.wikipedia.org/wiki/Helicobacter_felis; wikidata Q16982889
+shape	216	species	spirillum	BacDive	bacillus	1	Helicobacter muridarum	https://en.wikipedia.org/wiki/Helicobacter_muridarum; wikidata Q16982895
+shape	217169	species	spirillum	BacDive	coccus	1	Marinospirillum insulare	https://en.wikipedia.org/wiki/Marinospirillum_insulare; wikidata Q25862745
+shape	217219	species	filamentous	BacDive	bacillus	1	Neomegalonema perideroedes	https://en.wikipedia.org/wiki/Neomegalonema_perideroedes; wikidata Q63400064
+shape	225194	species	vibrio	BacDive	bacillus	1	Citrifermentans bemidjiense	https://en.wikipedia.org/wiki/Geobacter_bemidjiensis; wikidata Q16982247
+shape	228654	species	coccus	BacDive	bacillus|elliptic	2	Psychrobacter pulmonis	https://en.wikipedia.org/wiki/Psychrobacter_pulmonis; wikidata Q15632876
+shape	24	species	pleiomorphic cell	BacDive	bacillus	4	Shewanella putrefaciens	https://en.wikipedia.org/wiki/Shewanella_putrefaciens; wikidata Q7495722
+shape	244365	species	coccus	BacDive	bacillus	1	Methylohalobius crimeensis	https://en.wikipedia.org/wiki/Methylohalobius_crimeensis; wikidata Q17264648
+shape	266	species	coccus	BacDive	bacillus	1	Paracoccus denitrificans	https://en.wikipedia.org/wiki/Paracoccus_denitrificans; wikidata Q150790
+shape	266126	species	vibrio	BacDive	bacillus	1	Azonexus caeni	https://en.wikipedia.org/wiki/Azonexus_caeni; wikidata Q16836468
+shape	2718	species	pleiomorphic cell	BacDive	bacillus	3	Cardiobacterium hominis	https://en.wikipedia.org/wiki/Cardiobacterium_hominis; wikidata Q2938074
+shape	280	species	pleiomorphic cell	BacDive	bacillus	4	Xanthobacter autotrophicus	https://en.wikipedia.org/wiki/Xanthobacter_autotrophicus; wikidata Q21300691
+shape	28169	species	vibrio	BacDive	bacillus	1	Vibrio pelagius	https://en.wikipedia.org/wiki/Vibrio_pelagius; wikidata Q26299653
+shape	28197	species	spirillum	BacDive	bacillus	2	Aliarcobacter butzleri	https://en.wikipedia.org/wiki/Arcobacter_butzleri; wikidata Q21237173
+shape	286698	species	vibrio	BacDive	bacillus	1	Geobacter psychrophilus	https://en.wikipedia.org/wiki/Geobacter_psychrophilus; wikidata Q16982259
+shape	29466	species	coccus	BacDive	elliptic	1	Veillonella parvula	https://en.wikipedia.org/wiki/Veillonella_parvula; wikidata Q4009298
+shape	296218	species	filamentous	BacDive	bacillus	1	Roseivirga echinicomitans	https://en.wikipedia.org/wiki/Roseivirga_echinicomitans; wikidata Q28868714
+shape	314200	species	spirillum	BacDive	bacillus	1	Giesbergeria voronezhensis	https://en.wikipedia.org/wiki/Giesbergeria_voronezhensis; wikidata Q25859509
+shape	32025	species	spirillum	BacDive	bacillus	3	Helicobacter hepaticus	https://en.wikipedia.org/wiki/Helicobacter_hepaticus; wikidata Q1602479
+shape	33011	species	bacillus	BacDive	elliptic	1	Cutibacterium granulosum	https://en.wikipedia.org/wiki/Cutibacterium_granulosum; wikidata Q62849244
+shape	33968	species	coccus	BacDive	elliptic	8	Leuconostoc pseudomesenteroides	https://en.wikipedia.org/wiki/Leuconostoc_pseudomesenteroides; wikidata Q18346223
+shape	34006	species	coccus	BacDive	bacillus	1	Paracoccus thiocyanatus	https://en.wikipedia.org/wiki/Paracoccus_thiocyanatus; wikidata Q16987373
+shape	364410	species	bacillus|coccobacillus	BacDive	coccus	1	Granulibacter bethesdensis	https://en.wikipedia.org/wiki/Granulibacter_bethesdensis; wikidata Q16982501
+shape	37332	species	filamentous	BacDive	bacillus	4	Nocardia seriolae	https://en.wikipedia.org/wiki/Nocardia_seriolae; wikidata Q26268837
+shape	392409	species	pleiomorphic cell	BacDive	bacillus	1	Sphingomonas jaspsi	https://en.wikipedia.org/wiki/Sphingomonas_jaspsi; wikidata Q26287127
+shape	396014	species	bacillus|coccus	BacDive	elliptic	1	Brachybacterium phenoliresistens	https://en.wikipedia.org/wiki/Brachybacterium_phenoliresistens; wikidata Q25840510
+shape	40216	species	coccobacillus|pleiomorphic cell	BacDive	bacillus|elliptic	4	Acinetobacter radioresistens	https://en.wikipedia.org/wiki/Acinetobacter_radioresistens; wikidata Q16825019
+shape	412439	species	bacillus	BacDive	coccus	1	Cellulosimicrobium terreum	https://en.wikipedia.org/wiki/Cellulosimicrobium_terreum; wikidata Q25841261
+shape	415218	species	bacillus|coccus	BacDive	elliptic	1	Marihabitans asiaticum	https://en.wikipedia.org/wiki/Marihabitans_asiaticum; wikidata Q25862305
+shape	430683	species	pleiomorphic cell	BacDive	bacillus|coccus	2	Pedobacter lentus	https://en.wikipedia.org/wiki/Pedobacter_lentus; wikidata Q16987648
+shape	430684	species	pleiomorphic cell	BacDive	bacillus|coccus	2	Pedobacter terricola	https://en.wikipedia.org/wiki/Pedobacter_terricola; wikidata Q16987671
+shape	43769	species	pleiomorphic cell	BacDive	bacillus	1	Corynebacterium propinquum	https://en.wikipedia.org/wiki/Corynebacterium_propinquum; wikidata Q21262711
+shape	442954	species	bacillus|coccus	BacDive	elliptic	1	Knoellia aerolata	https://en.wikipedia.org/wiki/Knoellia_aerolata; wikidata Q25860983
+shape	444163	species	coccus	BacDive	bacillus	1	Brucella microti	https://en.wikipedia.org/wiki/Brucella_microti; wikidata Q15131209
+shape	446	species	pleiomorphic cell	BacDive	bacillus	7	Legionella pneumophila	https://en.wikipedia.org/wiki/Legionella_pneumophila; wikidata Q147885
+shape	45498	species	filamentous	BacDive	bacillus	1	Helicobacter cholecystus	https://en.wikipedia.org/wiki/Helicobacter_cholecystus; wikidata Q16982880
+shape	459519	species	bacillus|pleiomorphic cell	BacDive	coccus	1	Ancylobacter oerskovii	https://en.wikipedia.org/wiki/Ancylobacter_oerskovii; wikidata Q24913949
+shape	46125	species	pleiomorphic cell	BacDive	coccus	4	Abiotrophia defectiva	https://en.wikipedia.org/wiki/Abiotrophia_defectiva; wikidata Q25343611
+shape	512649	species	vibrio	BacDive	bacillus	1	Vibrio azureus	https://en.wikipedia.org/wiki/Vibrio_azureus; wikidata Q26299139
+shape	515662	species	bacillus|coccus	BacDive	elliptic	1	Terrabacter aeriphilus	https://en.wikipedia.org/wiki/Terrabacter_aeriphilus; wikidata Q26295144
+shape	53431	species	filamentous	BacDive	bacillus	1	Nocardia salmonicida	https://en.wikipedia.org/wiki/Nocardia_salmonicida; wikidata Q26268835
+shape	55601	species	vibrio	BacDive	bacillus	2	Vibrio anguillarum	https://en.wikipedia.org/wiki/Vibrio_anguillarum; wikidata Q7924678
+shape	556499	species	pleiomorphic cell	BacDive	bacillus	1	Propionibacterium acidifaciens	https://en.wikipedia.org/wiki/Propionibacterium_acidifaciens; wikidata Q26274922
+shape	57480	species	vibrio	BacDive	bacillus	2	Microvirgula aerodenitrificans	https://en.wikipedia.org/wiki/Microvirgula_aerodenitrificans; wikidata Q18344651
+shape	580872	species	pleiomorphic cell	BacDive	bacillus	1	Marivita byunsanensis	https://en.wikipedia.org/wiki/Marivita_byunsanensis; wikidata Q60192365
+shape	591202	species	vibrio	BacDive	bacillus	1	Arcicella aurantiaca	https://en.wikipedia.org/wiki/Arcicella_aurantiaca; wikidata Q25839265
+shape	634770	species	bacillus|coccus	BacDive	elliptic	1	Nocardioides caricicola	https://en.wikipedia.org/wiki/Nocardioides_caricicola; wikidata Q26268888
+shape	64975	species	spirillum	BacDive	bacillus	1	Marinospirillum megaterium	https://en.wikipedia.org/wiki/Marinospirillum_megaterium; wikidata Q48840064
+shape	666	species	vibrio	BacDive	bacillus	26	Vibrio cholerae	https://en.wikipedia.org/wiki/Vibrio_cholerae; wikidata Q160821
+shape	670	species	vibrio	BacDive	bacillus	13	Vibrio parahaemolyticus	https://en.wikipedia.org/wiki/Vibrio_parahaemolyticus; wikidata Q134280
+shape	672	species	vibrio	BacDive	bacillus	5	Vibrio vulnificus	https://en.wikipedia.org/wiki/Vibrio_vulnificus; wikidata Q135183
+shape	680	species	vibrio	BacDive	bacillus	2	Vibrio campbellii	https://en.wikipedia.org/wiki/Vibrio_campbellii; wikidata Q16993397
+shape	686234	species	bacillus	BacDive	elliptic	1	Bartonella acomydis	https://en.wikipedia.org/wiki/Bartonella_acomydis; wikidata Q16975053
+shape	760012	species	bacillus	BacDive	elliptic	1	Phenylobacterium muchangponense	https://en.wikipedia.org/wiki/Phenylobacterium_muchangponense; wikidata Q26270955
+shape	774	species	coccobacillus|pleiomorphic cell	BacDive	bacillus	3	Bartonella bacilliformis	https://en.wikipedia.org/wiki/Bartonella_bacilliformis; wikidata Q2007668
+shape	81476	species	bacillus	BacDive	elliptic	1	Pluralibacter pyrinus	https://en.wikipedia.org/wiki/Pluralibacter_pyrinus; wikidata Q26271228
+shape	84379	species	spirillum	BacDive	bacillus	1	Brachyspira alvinipulli	https://en.wikipedia.org/wiki/Brachyspira_alvinipulli; wikidata Q62905899
+shape	859058	species	vibrio	BacDive	elliptic	1	Caenispirillum salinarum	https://en.wikipedia.org/wiki/Caenispirillum_salinarum; wikidata Q48966738
+shape	89402	species	vibrio	BacDive	bacillus	1	Colwellia hornerae	https://en.wikipedia.org/wiki/Colwellia_hornerae; wikidata Q16980899
+shape	971	species	vibrio	BacDive	bacillus	1	Pseudoselenomonas ruminantium	https://en.wikipedia.org/wiki/Pseudoselenomonas_ruminantium; wikidata Q3954759
+shape	1030	genus	bacillus	Bergeys_2026	filamentous	1	Thiothrix	https://en.wikipedia.org/wiki/Thiothrix; wikidata Q7784706
+shape	106589	genus	bacillus	Bergeys_2026	coccobacillus	1	Cupriavidus	https://en.wikipedia.org/wiki/Cupriavidus; wikidata Q150722
+shape	155862	genus	bacillus	Bergeys_2026	coccus	1	Methanothermococcus	https://en.wikipedia.org/wiki/Methanothermococcus; wikidata Q6823604
+shape	2005375	genus	bacillus	Bergeys_2026	coccus	1	Alkalicoccus	https://en.wikipedia.org/wiki/Alkalicoccus; wikidata Q62611482
+shape	2050	genus	bacillus	Bergeys_2026	vibrio	1	Mobiluncus	https://en.wikipedia.org/wiki/Mobiluncus; wikidata Q6887329
+shape	2202	genus	bacillus	Bergeys_2026	filamentous|vibrio	2	Methanospirillum	https://en.wikipedia.org/wiki/Methanospirillum; wikidata Q4044149
+shape	226	genus	vibrio	Bergeys_2026	bacillus	1	Alteromonas	https://en.wikipedia.org/wiki/Alteromonas; wikidata Q3762368
+shape	2284	genus	pleiomorphic cell	Bergeys_2026	coccus	1	Sulfolobus	https://en.wikipedia.org/wiki/Sulfolobus; wikidata Q1209791
+shape	2314	genus	coccus	Bergeys_2026	pleiomorphic cell	1	Methanoplanus	https://en.wikipedia.org/wiki/Methanoplanus; wikidata Q4044131
+shape	2737	genus	coccus	Bergeys_2026	elliptic	1	Vagococcus	https://en.wikipedia.org/wiki/Vagococcus; wikidata Q16976645
+shape	32207	genus	bacillus	Bergeys_2026	coccus|filamentous|pleiomorphic cell	3	Rothia	https://en.wikipedia.org/wiki/Rothia_(bacterium); wikidata Q19756508
+shape	414878	genus	bacillus	Bergeys_2026	filamentous	1	Catenulispora	https://en.wikipedia.org/wiki/Catenulispora; wikidata Q26208657
+shape	52959	genus	bacillus|elliptic	Bergeys_2026		6	Polaribacter	https://en.wikipedia.org/wiki/Polaribacter; wikidata Q19944800
+shape	57665	genus	bacillus	Bergeys_2026	spirillum|vibrio	2	Sulfurospirillum	https://en.wikipedia.org/wiki/Sulfurospirillum; wikidata Q19684371
+shape	65504	genus	bacillus	Bergeys_2026	filamentous	1	Virgisporangium	https://en.wikipedia.org/wiki/Virgisporangium; wikidata Q20643856
+shape	745	genus	pleiomorphic cell	Bergeys_2026	bacillus|coccobacillus	2	Pasteurella	https://en.wikipedia.org/wiki/Pasteurella; wikidata Q2477372
+shape	841	genus	bacillus	Bergeys_2026	vibrio	1	Roseburia	https://en.wikipedia.org/wiki/Roseburia; wikidata Q3941444
+shape	958	genus	pleiomorphic cell	Bergeys_2026	vibrio	1	Bdellovibrio	https://en.wikipedia.org/wiki/Bdellovibrio; wikidata Q136602
+arrangement	102231	genus	paired cells	Bergeys_2026	cell cluster	1	Gloeocapsa	https://en.wikipedia.org/wiki/Gloeocapsa; wikidata Q5571161
+arrangement	1175	genus	cell chain|cell cluster	Bergeys_2026	filamentous	1	Aphanizomenon	https://en.wikipedia.org/wiki/Aphanizomenon; wikidata Q309515
+arrangement	1654	genus	branched	Bergeys_2026		7	Actinomyces	https://en.wikipedia.org/wiki/Actinomyces; wikidata Q312213
+arrangement	1678	genus	branched	Bergeys_2026		6	Bifidobacterium	https://en.wikipedia.org/wiki/Bifidobacterium; wikidata Q132656
+arrangement	1865	genus	filamentous	Bergeys_2026	branched	1	Actinoplanes	https://en.wikipedia.org/wiki/Actinoplanes; wikidata Q16825162
+arrangement	2222	genus	filamentous	Bergeys_2026	cell chain	1	Methanothrix	https://en.wikipedia.org/wiki/Methanothrix; wikidata Q6823605
+arrangement	2263	genus	cell cluster	Bergeys_2026	paired cells|single	2	Thermococcus	https://en.wikipedia.org/wiki/Thermococcus; wikidata Q2710532
+arrangement	86004	genus	branched	Bergeys_2026	cell cluster|paired cells|single|tetrads	4	Pasteuria	https://en.wikipedia.org/wiki/Pasteuria; wikidata Q16987565
+motility	1006155	species	FALSE	BacDive	TRUE	1	Paenilisteria weihenstephanensis	https://en.wikipedia.org/wiki/Listeria_weihenstephanensis; wikidata Q24911610
+motility	101564	species	TRUE	BacDive	FALSE	1	Ectopseudomonas alcaliphila	https://en.wikipedia.org/wiki/Pseudomonas_alcaliphila; wikidata Q7255000
+motility	1031541	species	TRUE	BacDive	FALSE	1	Tropicimonas sediminicola	https://en.wikipedia.org/wiki/Tropicimonas_sediminicola; wikidata Q26298256
+motility	1071	species	TRUE	BacDive	FALSE	1	Rhodopila globiformis	https://en.wikipedia.org/wiki/Rhodopila_globiformis; wikidata Q16989196
+motility	1074	species	TRUE	BacDive	FALSE	1	Rhodoblastus acidophilus	https://en.wikipedia.org/wiki/Rhodoblastus_acidophilus; wikidata Q16989137
+motility	1227947	species	FALSE	BacDive	TRUE	1	Kordia aquimaris	https://en.wikipedia.org/wiki/Kordia_aquimaris; wikidata Q62865814
+motility	1268273	species	FALSE	BacDive	TRUE	1	Paraperlucidibaca wandonensis	https://en.wikipedia.org/wiki/Paraperlucidibaca_wandonensis; wikidata Q16977499
+motility	131568	species	TRUE	BacDive	FALSE	1	Kineococcus radiotolerans	https://en.wikipedia.org/wiki/Kineococcus_radiotolerans; wikidata Q3196974
+motility	1449	species	TRUE	BacDive	FALSE	1	Amphibacillus xylanus	https://en.wikipedia.org/wiki/Amphibacillus_xylanus; wikidata Q4748168
+motility	1496	species	TRUE	BacDive	FALSE	7	Clostridioides difficile	https://en.wikipedia.org/wiki/Clostridioides_difficile; wikidata Q56290719
+motility	150120	species	TRUE	BacDive	FALSE	1	Shewanella livingstonensis	https://en.wikipedia.org/wiki/Shewanella_livingstonensis; wikidata Q16992544
+motility	151414	species	TRUE	BacDive	FALSE	1	Afipia birgiae	https://en.wikipedia.org/wiki/Afipia_birgiae; wikidata Q16825828
+motility	151654	species	TRUE	BacDive	FALSE	1	Cupriavidus laharis	https://en.wikipedia.org/wiki/Cupriavidus_laharis; wikidata Q16953260
+motility	1531	species	TRUE	BacDive	FALSE	8	Enterocloster clostridioformis	https://en.wikipedia.org/wiki/Enterocloster_clostridioformis; wikidata Q3681041
+motility	1562698	species	TRUE	BacDive	FALSE	1	Desulfurella amilsii	https://en.wikipedia.org/wiki/Desulfurella_amilsii; wikidata Q29566483
+motility	1569211	species	TRUE	BacDive	FALSE	1	Marinobacter halotolerans	https://en.wikipedia.org/wiki/Marinobacter_halotolerans; wikidata Q42955821
+motility	159292	species	TRUE	BacDive	FALSE	1	Tindallia californiensis	https://en.wikipedia.org/wiki/Tindallia_californiensis; wikidata Q3991564
+motility	1743163	species	FALSE	BacDive	TRUE	1	Polynucleobacter campilacus	https://en.wikipedia.org/wiki/Polynucleobacter_campilacus; wikidata Q60791521
+motility	175570	species	TRUE	BacDive	FALSE	1	Virgisporangium aurantiacum	https://en.wikipedia.org/wiki/Virgisporangium_aurantiacum; wikidata Q16993446
+motility	1772	species	TRUE	BacDive	FALSE	4	Mycolicibacterium smegmatis	https://en.wikipedia.org/wiki/Mycobacterium_smegmatis; wikidata Q606230
+motility	178399	species	TRUE	BacDive	FALSE	1	Marinomonas primoryensis	https://en.wikipedia.org/wiki/Marinomonas_primoryensis; wikidata Q48839727
+motility	1803212	species	FALSE	BacDive	TRUE	1	Sporosarcina terrae	https://en.wikipedia.org/wiki/Sporosarcina_terrae; wikidata Q62875887
+motility	1846260	species	TRUE	BacDive	FALSE	1	Pontibacter litorisediminis	https://en.wikipedia.org/wiki/Pontibacter_litorisediminis; wikidata Q29887780
+motility	185007	species	TRUE	BacDive	FALSE	1	Pseudobutyrivibrio xylanivorans	https://en.wikipedia.org/wiki/Pseudobutyrivibrio_xylanivorans; wikidata Q3924872
+motility	187981	species	TRUE	BacDive	FALSE	1	Marinobacter litoralis	https://en.wikipedia.org/wiki/Marinobacter_litoralis; wikidata Q26816897
+motility	199	species	TRUE	BacDive	FALSE	2	Campylobacter concisus	https://en.wikipedia.org/wiki/Campylobacter_concisus; wikidata Q2087197
+motility	200475	species	TRUE	BacDive	FALSE	1	Brumimicrobium glaciale	https://en.wikipedia.org/wiki/Brumimicrobium_glaciale; wikidata Q16847694
+motility	2161679	species	TRUE	BacDive	FALSE	1	Tabrizicola fusiformis	https://en.wikipedia.org/wiki/Tabrizicola_fusiformis; wikidata Q60329498
+motility	217041	species	FALSE	BacDive	TRUE	1	Caminibacter profundus	https://en.wikipedia.org/wiki/Caminibacter_profundus; wikidata Q17264659
+motility	225194	species	TRUE	BacDive	FALSE	1	Citrifermentans bemidjiense	https://en.wikipedia.org/wiki/Geobacter_bemidjiensis; wikidata Q16982247
+motility	236402	species	TRUE	BacDive	FALSE	1	Bartonella chomelii	https://en.wikipedia.org/wiki/Bartonella_chomelii; wikidata Q16975074
+motility	238834	species	TRUE	BacDive	FALSE	1	Clostridium estertheticum	https://en.wikipedia.org/wiki/Clostridium_estertheticum; wikidata Q996013
+motility	267135	species	TRUE	BacDive	FALSE	1	Erythrobacter donghaensis	https://en.wikipedia.org/wiki/Erythrobacter_donghaensis; wikidata Q26274084
+motility	28087	species	TRUE	BacDive	FALSE	2	Legionella sainthelensi	https://en.wikipedia.org/wiki/Legionella_sainthelensi; wikidata Q15262063
+motility	34	species	TRUE	BacDive	FALSE	1	Myxococcus xanthus	https://en.wikipedia.org/wiki/Myxococcus_xanthus; wikidata Q142803
+motility	355591	species	TRUE	BacDive	FALSE	1	Marinobacter vinifirmus	https://en.wikipedia.org/wiki/Marinobacter_vinifirmus; wikidata Q25862584
+motility	369401	species	TRUE	BacDive	FALSE	1	Flaviramulus basaltis	https://en.wikipedia.org/wiki/Flaviramulus_basaltis; wikidata Q25858660
+motility	373040	species	TRUE	BacDive	FALSE	1	Massilia aurea	https://en.wikipedia.org/wiki/Massilia_aurea; wikidata Q6784651
+motility	40223	species	TRUE	BacDive	FALSE	1	Methylophaga thalassica	https://en.wikipedia.org/wiki/Methylophaga_thalassica; wikidata Q18344175
+motility	40335	species	TRUE	BacDive	FALSE	1	Legionella tucsonensis	https://en.wikipedia.org/wiki/Legionella_tucsonensis; wikidata Q15395939
+motility	404335	species	FALSE	BacDive	TRUE	1	Syntrophomonas zehnderi	https://en.wikipedia.org/wiki/Syntrophomonas_zehnderi; wikidata Q16992911
+motility	422442	species	FALSE	BacDive	TRUE	1	Terrabacter aerolatus	https://en.wikipedia.org/wiki/Terrabacter_aerolatus; wikidata Q26295160
+motility	435	species	TRUE	BacDive	FALSE	1	Acetobacter aceti	https://en.wikipedia.org/wiki/Acetobacter_aceti; wikidata Q3604286
+motility	446	species	TRUE	BacDive	FALSE	7	Legionella pneumophila	https://en.wikipedia.org/wiki/Legionella_pneumophila; wikidata Q147885
+motility	45067	species	TRUE	BacDive	FALSE	1	Legionella lansingensis	https://en.wikipedia.org/wiki/Legionella_lansingensis; wikidata Q16992009
+motility	454	species	TRUE	BacDive	FALSE	1	Legionella israelensis	https://en.wikipedia.org/wiki/Legionella_israelensis; wikidata Q15261961
+motility	470	species	TRUE	BacDive	FALSE	74	Acinetobacter baumannii	https://en.wikipedia.org/wiki/Acinetobacter_baumannii; wikidata Q3241189
+motility	542	species	TRUE	BacDive	FALSE	1	Zymomonas mobilis	https://en.wikipedia.org/wiki/Zymomonas_mobilis; wikidata Q245744
+motility	558165	species	FALSE	BacDive	TRUE	1	Chryseomicrobium amylolyticum	https://en.wikipedia.org/wiki/Chryseomicrobium_amylolyticum; wikidata Q25841398
+motility	56812	species	TRUE	BacDive	FALSE	1	Shewanella frigidimarina	https://en.wikipedia.org/wiki/Shewanella_frigidimarina; wikidata Q16992540
+motility	570520	species	FALSE	BacDive	TRUE	1	Xanthomarina spongicola	https://en.wikipedia.org/wiki/Xanthomarina_spongicola; wikidata Q111621113
+motility	571256	species	FALSE	BacDive	TRUE	1	Brucella pituitosa	https://en.wikipedia.org/wiki/Brucella_pituitosa; wikidata Q18356046
+motility	589035	species	TRUE	BacDive	FALSE	1	Gemmobacter caeni	https://en.wikipedia.org/wiki/Gemmobacter_caeni; wikidata Q25859232
+motility	65505	species	TRUE	BacDive	FALSE	1	Virgisporangium ochraceum	https://en.wikipedia.org/wiki/Virgisporangium_ochraceum; wikidata Q16994529
+motility	659444	species	TRUE	BacDive	FALSE	1	Flavobacterium banpakuense	https://en.wikipedia.org/wiki/Flavobacterium_banpakuense; wikidata Q48966807
+motility	66969	species	TRUE	BacDive	FALSE	1	Legionella waltersii	https://en.wikipedia.org/wiki/Legionella_waltersii; wikidata Q16984341
+motility	670079	species	TRUE	BacDive	FALSE	1	Paeniglutamicibacter cryotolerans	https://en.wikipedia.org/wiki/Paeniglutamicibacter_cryotolerans; wikidata Q62857482
+motility	692994	species	FALSE	BacDive	TRUE	1	Mucilaginibacter dorajii	https://en.wikipedia.org/wiki/Mucilaginibacter_dorajii; wikidata Q28868596
+motility	70611	species	TRUE	BacDive	FALSE	1	Legionella taurinensis	https://en.wikipedia.org/wiki/Legionella_taurinensis; wikidata Q16984332
+motility	70993	species	TRUE	BacDive	FALSE	1	Flexithrix dorotheae	https://en.wikipedia.org/wiki/Flexithrix_dorotheae; wikidata Q15809794
+motility	74031	species	TRUE	BacDive	FALSE	2	Roseovarius tolerans	https://en.wikipedia.org/wiki/Roseovarius_tolerans; wikidata Q16992330
+motility	76112	species	TRUE	BacDive	FALSE	1	Thauera linaloolentis	https://en.wikipedia.org/wiki/Thauera_linaloolentis; wikidata Q16964462
+motility	86182	species	FALSE	BacDive	TRUE	1	Curvibacter lanceolatus	https://en.wikipedia.org/wiki/Curvibacter_lanceolatus; wikidata Q16953322
+motility	91823	species	TRUE	BacDive	FALSE	1	Legionella gresilensis	https://en.wikipedia.org/wiki/Legionella_gresilensis; wikidata Q16984301
+motility	93684	species	TRUE	BacDive	FALSE	1	Roseivivax halotolerans	https://en.wikipedia.org/wiki/Roseivivax_halotolerans; wikidata Q18391162
+motility	1030	genus	TRUE	Bergeys_2026	FALSE	1	Thiothrix	https://en.wikipedia.org/wiki/Thiothrix; wikidata Q7784706
+motility	337004	genus	FALSE	Bergeys_2026	TRUE	1	Microcella	https://en.wikipedia.org/wiki/Microcella; wikidata Q26212838
+motility	363408	genus	FALSE	Bergeys_2026	TRUE	1	Nonlabens	https://en.wikipedia.org/wiki/Nonlabens; wikidata Q26269174
+motility	370735	genus	TRUE	Bergeys_2026	FALSE	1	Zhihengliuella	https://en.wikipedia.org/wiki/Zhihengliuella; wikidata Q20739350
+motility	469	genus	TRUE	Bergeys_2026	FALSE	1	Acinetobacter	https://en.wikipedia.org/wiki/Acinetobacter; wikidata Q310457
+motility	896	genus	TRUE	Bergeys_2026	FALSE	1	Desulfococcus	https://en.wikipedia.org/wiki/Desulfococcus; wikidata Q24255193
+motility	911	genus	FALSE	Bergeys_2026	TRUE	1	Nitrobacter	https://en.wikipedia.org/wiki/Nitrobacter; wikidata Q146274
+spore formation	113567	species	TRUE	BacDive	FALSE	1	Actinoplanes italicus	https://en.wikipedia.org/wiki/Actinoplanes_italicus; wikidata Q16973955
+spore formation	243924	species	FALSE	BacDive	TRUE	1	Pseudomonas lutea	https://en.wikipedia.org/wiki/Pseudomonas_lutea; wikidata Q7255061
+spore formation	312089	species	TRUE	BacDive	FALSE	1	Clostridium ganghwense	https://en.wikipedia.org/wiki/Clostridium_ganghwense; wikidata Q3681066
+spore formation	393090	species	TRUE	BacDive	FALSE	1	Virgibacillus xinjiangensis	https://en.wikipedia.org/wiki/Virgibacillus_xinjiangensis; wikidata Q26306814
+spore formation	2039709	genus	FALSE	Bergeys_2026	TRUE	1	Desertibacillus	https://en.wikipedia.org/wiki/Desertibacillus; wikidata Q63364610
+spore formation	207599	genus	TRUE	Bergeys_2026	FALSE	1	Solirubrobacter	https://en.wikipedia.org/wiki/Solirubrobacter; wikidata Q20181122
+spore formation	53357	genus	FALSE	Bergeys_2026	TRUE	1	Intrasporangium	https://en.wikipedia.org/wiki/Intrasporangium; wikidata Q21216926

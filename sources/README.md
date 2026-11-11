@@ -17,3 +17,4 @@ Rules:
 | `bacdive/` | Every BacDive strain record from the public API | `run.sh` (`fetch.py` then `build.py`) |
 | `ncbi_assemblies/` | Genome size, G+C content and coding genes of one RefSeq assembly per species | `run.sh` (`build.py`) |
 | `microbe_directory/` | The Microbe Directory 2018 table, eleven traits | `run.sh` (`build.py`) |
+| `wikipedia_2026/` | Wikipedia introductory paragraphs carried by taxoniq, extracted with an LLM (preliminary, waldronlab/bugphyzz#296) | `collect.py`, `extract.py`, then `build_traits.py` |

@@ -37,3 +37,22 @@ The Microbe Directory	host-associated	binary	microbe_directory/host-associated.t
 The Microbe Directory	optimal ph	numeric	microbe_directory/optimal_ph.tsv
 The Microbe Directory	plant pathogenicity	binary	microbe_directory/plant_pathogenicity.tsv
 The Microbe Directory	spore formation	binary	microbe_directory/spore_formation.tsv
+Wikipedia_2026	aerophilicity	multistate-intersection	wikipedia_2026/aerophilicity.tsv
+Wikipedia_2026	gram stain	multistate-intersection	wikipedia_2026/gram_stain.tsv
+Wikipedia_2026	shape	multistate-intersection	wikipedia_2026/shape.tsv
+Wikipedia_2026	arrangement	multistate-intersection	wikipedia_2026/arrangement.tsv
+Wikipedia_2026	spore shape	multistate-intersection	wikipedia_2026/spore_shape.tsv
+Wikipedia_2026	motility	binary	wikipedia_2026/motility.tsv
+Wikipedia_2026	spore formation	binary	wikipedia_2026/spore_formation.tsv
+Wikipedia_2026	animal pathogen	binary	wikipedia_2026/animal_pathogen.tsv
+Wikipedia_2026	plant pathogenicity	binary	wikipedia_2026/plant_pathogenicity.tsv
+Wikipedia_2026	host-associated	binary	wikipedia_2026/host-associated.tsv
+Wikipedia_2026	habitat	multistate-union	wikipedia_2026/habitat.tsv
+Wikipedia_2026	growth temperature	numeric	wikipedia_2026/growth_temperature.tsv
+Wikipedia_2026	optimal ph	numeric	wikipedia_2026/optimal_ph.tsv
+Wikipedia_2026	gc content	range	wikipedia_2026/gc_content.tsv
+Wikipedia_2026	length	range	wikipedia_2026/length.tsv
+Wikipedia_2026	width	range	wikipedia_2026/width.tsv
+Wikipedia_2026	halophily class	multistate-intersection	wikipedia_2026/halophily_class.tsv
+Wikipedia_2026	temperature class	multistate-intersection	wikipedia_2026/temperature_class.tsv
+Wikipedia_2026	ph class	multistate-intersection	wikipedia_2026/ph_class.tsv

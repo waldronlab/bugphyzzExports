@@ -1,0 +1,17 @@
+physiology	reference	taxa	median_abs_diff	within_tolerance	tolerance	spearman
+growth temperature	BacDive	163	0	92	5	0.92
+growth temperature	BacMap	20	2.25	80	5	0.98
+growth temperature	Bergeys_2026	2	5	100	5	NA
+growth temperature	Madin_2020	95	0	89.5	5	0.98
+growth temperature	Microbial Fatty Acid Compositions	2	0.7	100	5	NA
+growth temperature	The Microbe Directory	36	0	83.3	5	0.98
+optimal ph	Madin_2020	40	0	97.5	0.5	0.99
+optimal ph	The Microbe Directory	15	0	93.3	0.5	0.99
+gc content	BacDive	22	0.12	86.4	2	0.96
+gc content	Bergeys_2026	8	0.65	75	2	1
+gc content	Madin_2020	14	0.1	78.6	2	1
+gc content	NCBI_RefSeq	25	0.5	76	2	0.97
+length	BacDive	22	0	100	1	0.97
+length	Bergeys_2026	7	0.3	71.4	1	0.74
+width	BacDive	22	0	95.5	0.25	0.88
+width	Bergeys_2026	9	0.05	66.7	0.25	0.92

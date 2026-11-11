@@ -1,0 +1,697 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+13			Dictyoglomus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dictyoglomus; wikidata Q12218368
+154			Winmispira thermophila	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spirochaeta_thermophila; wikidata Q22286485
+199			Campylobacter concisus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_concisus; wikidata Q2087197
+201			Campylobacter lari	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Campylobacter_lari; wikidata Q16851296
+228			Pseudoalteromonas haloplanktis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoalteromonas_haloplanktis; wikidata Q7254484
+270			Thermus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermus; wikidata Q7783265
+271			Thermus aquaticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermus_aquaticus; wikidata Q137165
+274			Thermus thermophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermus_thermophilus; wikidata Q139470
+277			Meiothermus ruber	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Meiothermus_ruber; wikidata Q25863044
+296			Pseudomonas fragi	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_fragi; wikidata Q16988684
+414			Methylococcus capsulatus	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylococcus_capsulatus; wikidata Q1948565
+497			Psychrobacter	psychrophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Psychrobacter; wikidata Q2116089
+497			Psychrobacter	psychrotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Psychrobacter; wikidata Q2116089
+498			Psychrobacter immobilis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_immobilis; wikidata Q16988779
+524			Acidiphilium cryptum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidiphilium_cryptum; wikidata Q16824912
+727			Haemophilus influenzae	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haemophilus_influenzae; wikidata Q1141979
+888			Desulfobotulus sapovorans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfobotulus_sapovorans; wikidata Q25841738
+929			Thermithiobacillus tepidarius	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermithiobacillus_tepidarius; wikidata Q16993056
+930			Acidithiobacillus thiooxidans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidithiobacillus_thiooxidans; wikidata Q16973931
+940			Hydrogenobacter thermophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hydrogenobacter_thermophilus; wikidata Q5954973
+983			Flavobacterium flevense	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_flevense; wikidata Q20721804
+1069			Rhodomicrobium vannielii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodomicrobium_vannielii; wikidata Q3934130
+1092			Chlorobium limicola	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlorobium_limicola; wikidata Q25841311
+1097			Chlorobaculum tepidum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chlorobaculum_tepidum; wikidata Q21261459
+1108			Chloroflexus aurantiacus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chloroflexus_aurantiacus; wikidata Q2473850
+1402			Bacillus licheniformis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_licheniformis; wikidata Q2878356
+1421			Lysinibacillus sphaericus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lysinibacillus_sphaericus; wikidata Q18324723
+1422			Geobacillus stearothermophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geobacillus_stearothermophilus; wikidata Q136876
+1426			Parageobacillus thermoglucosidasius	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geobacillus_thermoglucosidasius; wikidata Q5533950
+1458			Metabacillus fastidiosus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Metabacillus_fastidiosus; wikidata Q12062573
+1471			Bacillus methanolicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_methanolicus; wikidata Q25840118
+1484			Hydrogenibacillus schlegelii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hydrogenibacillus_schlegelii; wikidata Q25860805
+1493			Clostridium cellulovorans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_cellulovorans; wikidata Q3681038
+1501			Clostridium pasteurianum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_pasteurianum; wikidata Q3681124
+1525			Neomoorella thermoacetica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorella_thermoacetica; wikidata Q3862786
+1530			Clostridium carnis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_carnis; wikidata Q3681028
+1605			Ligilactobacillus animalis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ligilactobacillus_animalis; wikidata Q115109936
+1754			Thermoanaerobacter	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacter; wikidata Q3990297
+1757			Thermoanaerobacter ethanolicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacter_ethanolicus; wikidata Q3990298
+1839			Nocardioides	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardioides; wikidata Q21078416
+1867			Actinoplanes teichomyceticus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinoplanes_teichomyceticus; wikidata Q25834611
+1934			Streptomyces thermovulgaris	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_thermovulgaris; wikidata Q26293029
+1952			Streptomyces thermoviolaceus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_thermoviolaceus; wikidata Q21319376
+1956			Streptomyces diastaticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_diastaticus; wikidata Q21319402
+1957			Streptomyces sclerotialus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_sclerotialus; wikidata Q26292501
+2005			Microbispora	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbispora; wikidata Q21078430
+2005			Microbispora	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbispora; wikidata Q21078430
+2179			Methanothermus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanothermus; wikidata Q6823609
+2180			Methanothermus fervidus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanothermus_fervidus; wikidata Q16985580
+2184			Methanococcus	hyperthermophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanococcus; wikidata Q2711364
+2184			Methanococcus	mesophile	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Methanococcus; wikidata Q2711364
+2184			Methanococcus	thermophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanococcus; wikidata Q2711364
+2190			Methanocaldococcus jannaschii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanocaldococcus_jannaschii; wikidata Q6823580
+2210			Methanosarcina thermophila	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanosarcina_thermophila; wikidata Q15254951
+2221			Methanolobus tindarius	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanolobus_tindarius; wikidata Q16985552
+2261			Pyrococcus furiosus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrococcus_furiosus; wikidata Q146310
+2262			Pyrococcus woesei	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrococcus_woesei; wikidata Q16988926
+2263			Thermococcus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus; wikidata Q2710532
+2264			Thermococcus celer	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_celer; wikidata Q7783145
+2265			Thermococcus litoralis	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_litoralis; wikidata Q7783148
+2270			Thermoproteus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoproteus; wikidata Q863318
+2284			Sulfolobus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfolobus; wikidata Q1209791
+2285			Sulfolobus acidocaldarius	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfolobus_acidocaldarius; wikidata Q2364491
+2291			Desulfobacter hydrogenophilus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfobacter_hydrogenophilus; wikidata Q5265441
+2296			Desulforapulum autotrophicum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfobacterium_autotrophicum; wikidata Q16752262
+2308			Pyrodictium	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrodictium; wikidata Q1046911
+2320			Methanopyrus kandleri	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanopyrus_kandleri; wikidata Q16664181
+2325			Thermoanaerobacter kivui	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacter_kivui; wikidata Q3990300
+2335			Thermotoga	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermotoga; wikidata Q2716367
+2336			Thermotoga maritima	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermotoga_maritima; wikidata Q7783261
+2337			Thermotoga neapolitana	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermotoga_neapolitana; wikidata Q16993092
+2420			Thermosipho	hyperthermophile	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Thermosipho; wikidata Q21224955
+2420			Thermosipho	thermophile	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Thermosipho; wikidata Q21224955
+2423			Fervidobacterium islandicum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fervidobacterium_islandicum; wikidata Q16982012
+2704			Thermoanaerobacter acetoethylicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacter_acetoethylicus; wikidata Q3990294
+2713			Aquifex	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquifex; wikidata Q310736
+2734			Symbiobacterium thermophilum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Symbiobacterium_thermophilum; wikidata Q16992885
+12915			Acidianus infernus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidianus_infernus; wikidata Q12605453
+13773			Pyrobaculum aerophilum	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrobaculum_aerophilum; wikidata Q12622259
+28033			Sulfobacillus	thermophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sulfobacillus; wikidata Q20642767
+28033			Sulfobacillus	thermotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Sulfobacillus; wikidata Q20642767
+28034			Sulfobacillus thermosulfidooxidans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfobacillus_thermosulfidooxidans; wikidata Q26294142
+28037			Streptococcus mitis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptococcus_mitis; wikidata Q684674
+28042			Saccharopolyspora rectivirgula	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_rectivirgula; wikidata Q7396612
+28066			Rhodoferax fermentans	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodoferax_fermentans; wikidata Q16937770
+28195			Thermonema lapsum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermonema_lapsum; wikidata Q26296611
+28228			Colwellia	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia; wikidata Q19685592
+29292			Pyrococcus abyssi	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrococcus_abyssi; wikidata Q16988919
+29323			Thermoanaerobacter brockii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacter_brockii; wikidata Q3990296
+29395			Saccharococcus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharococcus; wikidata Q26283156
+29404			Microlunatus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microlunatus; wikidata Q19753282
+29539			Thermoleophilum album	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoleophilum_album; wikidata Q18394131
+29549			Rhodothermus marinus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodothermus_marinus; wikidata Q15842326
+31899			Caldicellulosiruptor bescii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldicellulosiruptor_bescii; wikidata Q5019084
+31910			Halovibrio variabilis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halovibrio_variabilis; wikidata Q25860708
+33002			Desulfurella acetivorans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurella_acetivorans; wikidata Q16960248
+33075			Acidobacterium capsulatum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidobacterium_capsulatum; wikidata Q16001631
+33911			Pseudonocardia compacta	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudonocardia_compacta; wikidata Q26277521
+33943			Kyrpidia tusciae	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kyrpidia_tusciae; wikidata Q18508783
+34031			Desulfobacter vibrioformis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfobacter_vibrioformis; wikidata Q16960125
+35754			Dactylosporangium aurantiacum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dactylosporangium_aurantiacum; wikidata Q25841624
+35786			Coprothermobacter proteolyticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Coprothermobacter_proteolyticus; wikidata Q3693225
+35837			Desulfacinum infernum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfacinum_infernum; wikidata Q16981285
+37448			Polaromonas vacuolata	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polaromonas_vacuolata; wikidata Q16963871
+37450			Colwellia rossensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia_rossensis; wikidata Q16980907
+37659			Clostridium algidicarnis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_algidicarnis; wikidata Q3681005
+37921			Arthrobacter agilis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_agilis; wikidata Q4034414
+38072			Bacillus infernus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_infernus; wikidata Q4838974
+38311			Rhodococcus marinonascens	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodococcus_marinonascens; wikidata Q16989143
+39152			Methanococcus maripaludis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanococcus_maripaludis; wikidata Q16985527
+39841			Thermodesulforhabdus norvegica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermodesulforhabdus_norvegica; wikidata Q16993080
+40414			Desulforhopalus vacuolatus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulforhopalus_vacuolatus; wikidata Q25841803
+41988			Cryobacterium psychrophilum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cryobacterium_psychrophilum; wikidata Q18349385
+42837			Ammonifex	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ammonifex; wikidata Q3614457
+43687			Metallosphaera sedula	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Metallosphaera_sedula; wikidata Q5990371
+43769			Corynebacterium propinquum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_propinquum; wikidata Q21262711
+44000			Caldicellulosiruptor	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldicellulosiruptor; wikidata Q3650566
+44001			Caldicellulosiruptor saccharolyticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldicellulosiruptor_saccharolyticus; wikidata Q3650572
+44060			Streptomyces megasporus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_megasporus; wikidata Q26291184
+44256			Caldanaerobius polysaccharolyticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldanaerobius_polysaccharolyticus; wikidata Q25840871
+44671			Pelotalea chapellei	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geobacter_chapellei; wikidata Q25859313
+44754			Fervidobacterium gondwanense	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fervidobacterium_gondwanense; wikidata Q16982008
+45462			Brevibacillus borstelensis	thermophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Brevibacillus_borstelensis; wikidata Q18210423
+45611			Psychrobacter frigidicola	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_frigidicola; wikidata Q16984310
+46223			Thermoflavimicrobium dichotomicum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoflavimicrobium_dichotomicum; wikidata Q26296411
+46351			Mycolicibacterium hassiacum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_hassiacum; wikidata Q6947035
+46539			Thermococcus hydrothermalis	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_hydrothermalis; wikidata Q16124880
+47157			Maridesulfovibrio bastinii	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_bastinii; wikidata Q16960174
+47158			Paucidesulfovibrio gracilis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_gracilis; wikidata Q16960192
+47303			Sulfuracidifex metallicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfolobus_metallicus; wikidata Q12603503
+47490			Thermoanaerobacterium aotearoense	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacterium_aotearoense; wikidata Q3990309
+47959			Annwoodia aquaesulis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Annwoodia_aquaesulis; wikidata Q62894420
+48381			Thermothrix	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermothrix; wikidata Q16956654
+48382			Thermothrix thiopara	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermothrix_thiopara; wikidata Q16948868
+48383			Thermothrix azorensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermothrix_azorensis; wikidata Q16991076
+49278			Psychroserpens burtonensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroserpens_burtonensis; wikidata Q16988839
+49280			Gelidibacter algens	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gelidibacter_algens; wikidata Q16982233
+49319			Rubrobacter xylanophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rubrobacter_xylanophilus; wikidata Q18391383
+49896			Acetomicrobium flavidum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acetomicrobium_flavidum; wikidata Q25480588
+49899			Thermococcus profundus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_profundus; wikidata Q16124919
+49900			Thermococcus stetteri	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_stetteri; wikidata Q16124892
+50339			Thermoplasma volcanium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoplasma_volcanium; wikidata Q16993083
+50714			Acidisphaera	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidisphaera; wikidata Q4674104
+50719			Vibrio diabolicus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_diabolicus; wikidata Q16993405
+51353			Methylosphaera hansonii	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylosphaera_hansonii; wikidata Q16985649
+52690			Acetobacterium carbinolicum	psychrotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Acetobacterium_carbinolicum; wikidata Q3604290
+52787			Anaerofilum pentosovorans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerofilum_pentosovorans; wikidata Q3614909
+52959			Polaribacter	mesophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Polaribacter; wikidata Q19944800
+52959			Polaribacter	psychrophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Polaribacter; wikidata Q19944800
+52972			Polaromonas	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polaromonas; wikidata Q16952603
+53573			Deferribacter thermophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Deferribacter_thermophilus; wikidata Q16955073
+53633			Sulfobacillus acidophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfobacillus_acidophilus; wikidata Q16992847
+53635			Acidimicrobium ferrooxidans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidimicrobium_ferrooxidans; wikidata Q19760243
+53952			Thermococcus peptonophilus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_peptonophilus; wikidata Q16993065
+53953			Pyrococcus horikoshii	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrococcus_horikoshii; wikidata Q16988922
+54252			Pyrolobus fumarii	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrolobus_fumarii; wikidata Q7263664
+54256			Pyrodictium abyssi	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrodictium_abyssi; wikidata Q16191774
+54258			Ignicoccus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ignicoccus; wikidata Q290183
+54262			Thermococcus chitonophagus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrococcus_chitonophagus; wikidata Q16993064
+54265			Carboxydothermus ferrireducens	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Carboxydothermus_ferrireducens; wikidata Q25840997
+54293			Thermosyntropha	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermosyntropha; wikidata Q3990332
+54294			Thermosyntropha lipolytica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermosyntropha_lipolytica; wikidata Q3990333
+55505			Thermonema rossianum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermonema_rossianum; wikidata Q26296626
+55779			Neomoorella glycerini	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorella_glycerini; wikidata Q3862784
+55802			Thermococcus barophilus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_barophilus; wikidata Q16993060
+56636			Aeropyrum pernix	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aeropyrum_pernix; wikidata Q4688419
+56804			Glaciecola punicea	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciecola_punicea; wikidata Q16982340
+56807			Brumicola pallidula	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciecola_pallidula; wikidata Q16982337
+57029			Psychroflexus torquis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_torquis; wikidata Q16988834
+57493			Kocuria	mesophile	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Kocuria; wikidata Q16947564
+58050			Moritella	psychrophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moritella; wikidata Q24255201
+58050			Moritella	psychrotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Moritella; wikidata Q24255201
+59298			Streptomyces thermocarboxydovorans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_thermocarboxydovorans; wikidata Q16992817
+59299			Streptomyces thermocarboxydus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_thermocarboxydus; wikidata Q16992819
+60443			Terrabacter tumescens	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Terrabacter_tumescens; wikidata Q26295220
+60454			Erythrobacter tepidarius	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erythrobacter_tepidarius; wikidata Q26274115
+62970			Methanogenium frigidum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanogenium_frigidum; wikidata Q16985533
+63186			Zobellia galactanivorans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Zobellia_galactanivorans; wikidata Q26308242
+63363			Aquifex aeolicus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/%22Aquifex_aeolicus%22; wikidata Q4034249
+64002			Nevskia ramosa	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nevskia_ramosa; wikidata Q26268454
+64160			Desulfurobacterium thermolithotrophum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurobacterium_thermolithotrophum; wikidata Q16981306
+64972			Oceanobacter kriegii	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacter_kriegii; wikidata Q26269536
+65380			Desulfobacter halotolerans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfobacter_halotolerans; wikidata Q18351389
+65555			Desulfocapsa sulfexigens	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfocapsa_sulfexigens; wikidata Q16960135
+67380			Streptomyces violaceus subsp. violarus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_violarus; wikidata Q26293328
+67573			Psychromonas antarctica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychromonas_antarctica; wikidata Q7256545
+68213			Streptomyces griseoaurantiacus	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_griseoaurantiacus; wikidata Q22285718
+68288			Cyclobacterium	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cyclobacterium; wikidata Q26219570
+69284			Pseudoxanthomonas japonensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoxanthomonas_japonensis; wikidata Q16988723
+71452			Enterococcus raffinosus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_raffinosus; wikidata Q17119101
+74109			Photobacterium profundum	psychrophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Photobacterium_profundum; wikidata Q7187712
+74969			Ferroplasma acidiphilum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ferroplasma_acidiphilum; wikidata Q5860815
+75292			Streptomyces thermogriseus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_thermogriseus; wikidata Q26292996
+75906			Thermocrinis ruber	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermocrinis_ruber; wikidata Q16993074
+76112			Thauera linaloolentis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thauera_linaloolentis; wikidata Q16964462
+76113			Thauera terpenica	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thauera_terpenica; wikidata Q16948735
+76861			Cellulomonas persica	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulomonas_persica; wikidata Q25841245
+76862			Cellulomonas iranensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulomonas_iranensis; wikidata Q25841239
+77524			Colwellia maris	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia_maris; wikidata Q25841492
+78356			Streptomyces thermocoprophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_thermocoprophilus; wikidata Q26292976
+78554			Alterococcus agarolyticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alterococcus_agarolyticus; wikidata Q61954062
+79269			Desulfurella multipotens	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurella_multipotens; wikidata Q16960259
+79270			Desulfurella kamchatkensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurella_kamchatkensis; wikidata Q16960253
+79271			Desulfurella propionica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurella_propionica; wikidata Q16960264
+79601			Metallosphaera hakonensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Metallosphaera_hakonensis; wikidata Q12595099
+80854			Moritella viscosa	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moritella_viscosa; wikidata Q25864525
+81408			Parageobacillus caldoxylosilyticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Parageobacillus_caldoxylosilyticus; wikidata Q111937147
+81412			Aminomonas paucivorans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aminomonas_paucivorans; wikidata Q3614343
+81425			Desulfovibrio aminophilus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_aminophilus; wikidata Q25841859
+81461			Thermanaerovibrio	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermanaerovibrio; wikidata Q3990289
+81462			Thermanaerovibrio acidaminovorans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermanaerovibrio_acidaminovorans; wikidata Q3990290
+81467			Aminobacterium mobile	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aminobacterium_mobile; wikidata Q25835861
+81468			Aminobacterium colombiense	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aminobacterium_colombiense; wikidata Q3614340
+81479			Rhodoferax antarcticus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodoferax_antarcticus; wikidata Q16976749
+82802			Trichococcus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trichococcus; wikidata Q26298120
+82802			Trichococcus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trichococcus; wikidata Q26298120
+83612			Psychroflexus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus; wikidata Q20524808
+83868			Palaeococcus ferrophilus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Palaeococcus_ferrophilus; wikidata Q16987145
+84404			Hippea	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hippea; wikidata Q26209424
+84698			Clostridium frigidicarnis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_frigidicarnis; wikidata Q3681064
+84981			Desulfofaba gelida	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfofaba_gelida; wikidata Q25841758
+84982			Desulfofrigus oceanense	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfofrigus_oceanense; wikidata Q16960146
+84983			Desulfofrigus fragile	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfofrigus_fragile; wikidata Q16960140
+85073			Thermochromatium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermochromatium; wikidata Q26296180
+85874			Thermacetogenium phaeum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermacetogenium_phaeum; wikidata Q3990277
+86170			Syntrophothermus lipocalidus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Syntrophothermus_lipocalidus; wikidata Q1112972
+89401			Colwellia demingiae	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia_demingiae; wikidata Q16980894
+89402			Colwellia hornerae	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia_hornerae; wikidata Q16980899
+89403			Colwellia psychrotropica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia_psychrotropica; wikidata Q16980903
+90373			Thiomargarita namibiensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomargarita_namibiensis; wikidata Q132118
+92172			Vibrio aerogenes	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_aerogenes; wikidata Q26299045
+92442			Arthrobacter psychrolactophilus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_psychrolactophilus; wikidata Q24959803
+93929			Thermotoga petrophila	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermotoga_petrophila; wikidata Q16993094
+94009			Thermicanus aegyptius	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermicanus_aegyptius; wikidata Q24952888
+94869			Clostridium gasigenes	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_gasigenes; wikidata Q3681068
+95172			Arthrobacter flavus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_flavus; wikidata Q16834025
+96345			Flavobacterium psychrophilum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_psychrophilum; wikidata Q18609891
+96940			Orenia sivashensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Orenia_sivashensis; wikidata Q3885520
+99286			Flavobacterium frigidarium	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_frigidarium; wikidata Q16982053
+99594			Thermohalobacter berrensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermohalobacter_berrensis; wikidata Q3990323
+101191			Methanomethylovorans	mesophile	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Methanomethylovorans; wikidata Q4044126
+101564			Ectopseudomonas alcaliphila	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_alcaliphila; wikidata Q7255000
+105229			Neobacillus fumarioli	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neobacillus_fumarioli; wikidata Q16980623
+105851			Acidilobus aceticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidilobus_aceticus; wikidata Q12605459
+106578			Thermoanaerobacter siderophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoanaerobacter_siderophilus; wikidata Q3990302
+108007			Thermanaerovibrio velox	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermanaerovibrio_velox; wikidata Q3990291
+108819			Coprothermobacter platensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Coprothermobacter_platensis; wikidata Q3693224
+109258			Desulfacinum hydrothermale	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfacinum_hydrothermale; wikidata Q16981282
+110321			Sinorhizobium medicae	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ensifer_medicae; wikidata Q21326825
+110500			Pelotomaculum thermopropionicum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pelotomaculum_thermopropionicum; wikidata Q3898984
+111955			Sulfurisphaera tokodaii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfurisphaera_tokodaii; wikidata Q62844933
+112002			Psychrobacter pacificensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_pacificensis; wikidata Q16988811
+114248			Tepidimonas	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidimonas; wikidata Q16963646
+114249			Tepidimonas ignava	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidimonas_ignava; wikidata Q16957013
+116090			Caloranaerobacter azorensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caloranaerobacter_azorensis; wikidata Q3650990
+117999			Denitrovibrio	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Denitrovibrio; wikidata Q26219571
+119641			Clostridium uliginosum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_uliginosum; wikidata Q3681179
+119979			Thermithiobacillus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermithiobacillus; wikidata Q2018317
+120213			Subtercola boreus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Subtercola_boreus; wikidata Q26293903
+120962			Roseiflexus castenholzii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseiflexus_castenholzii; wikidata Q16992318
+122355			Pseudomonas psychrophila	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_psychrophila; wikidata Q7255096
+126157			Psychrobacillus psychrodurans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacillus_psychrodurans; wikidata Q26279574
+128780			Stenotrophomonas acidaminiphila	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Stenotrophomonas_acidaminiphila; wikidata Q10374156
+128785			Pseudoxanthomonas mexicana	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoxanthomonas_mexicana; wikidata Q16988734
+128945			Nautilia lithotrophica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nautilia_lithotrophica; wikidata Q16986224
+129957			Carboxydothermus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Carboxydothermus; wikidata Q3658321
+129958			Carboxydothermus hydrogenoformans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Carboxydothermus_hydrogenoformans; wikidata Q3658323
+131540			Thiomicrorhabdus arctica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomicrorhabdus_arctica; wikidata Q62905353
+132925			Clostridium bowmanii	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_bowmanii; wikidata Q3681023
+133453			Caldilinea aerophila	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldilinea_aerophila; wikidata Q16850414
+135739			Marinobacter lutaoensis	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_lutaoensis; wikidata Q25862518
+136099			Knoellia	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Knoellia; wikidata Q21218819
+136100			Knoellia sinensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Knoellia_sinensis; wikidata Q21273975
+136274			Arthrobacter roseus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_roseus; wikidata Q18354256
+139021			Dietzia psychralcaliphila	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dietzia_psychralcaliphila; wikidata Q16960727
+139207			Thermococcus alcaliphilus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_alcaliphilus; wikidata Q16124851
+139808			Shimazuella kribbensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shimazuella_kribbensis; wikidata Q26285432
+140458			Thermacetogenium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermacetogenium; wikidata Q3990276
+145260			Methanothermobacter	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanothermobacter; wikidata Q13386782
+145263			Methanothermobacter marburgensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanothermobacter_marburgensis; wikidata Q16985577
+145287			Novosphingobium lentum	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Novosphingobium_lentum; wikidata Q26269435
+145483			Frigoribacterium faeni	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Frigoribacterium_faeni; wikidata Q21270502
+147825			Psychrobacter proteolyticus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_proteolyticus; wikidata Q16992260
+150120			Shewanella livingstonensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella_livingstonensis; wikidata Q16992544
+150333			Thermobrachium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermobrachium; wikidata Q3990316
+152526			Caminibacter hydrogeniphilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caminibacter_hydrogeniphilus; wikidata Q16851092
+152794			Corynebacterium efficiens	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corynebacterium_efficiens; wikidata Q18349027
+153151			Parageobacillus toebii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geobacillus_toebii; wikidata Q16982244
+153268			Aequorivita crocea	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aequorivita_crocea; wikidata Q28209260
+154108			Psychrobacter submarinus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_submarinus; wikidata Q16988826
+155863			Methanothermococcus okinawensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanothermococcus_okinawensis; wikidata Q18344108
+156972			Thioalkalicoccus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioalkalicoccus; wikidata Q28070506
+156979			Pseudoglutamicibacter cumminsii	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoglutamicibacter_cumminsii; wikidata Q62857685
+157228			Jeotgalicoccus psychrophilus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalicoccus_psychrophilus; wikidata Q15820974
+160232			Nanoarchaeum equitans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nanoarchaeum_equitans; wikidata Q221936
+160792			Caldanaerobius zeae	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldanaerobius_zeae; wikidata Q25840872
+161154			Thermanaeromonas toyohensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermanaeromonas_toyohensis; wikidata Q3990288
+161156			Thermodesulfobacterium hydrogeniphilum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermodesulfobacterium_hydrogeniphilum; wikidata Q16993077
+163361			Streptomyces beijiangensis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_beijiangensis; wikidata Q22287011
+165301			Lentzea	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentzea; wikidata Q26208777
+166484			Caminicella	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caminicella; wikidata Q3651598
+166793			Solirubrobacter pauli	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Solirubrobacter_pauli; wikidata Q26286109
+167643			Ilyobacter insuetus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ilyobacter_insuetus; wikidata Q25860861
+167645			Propionivibrio limicola	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Propionivibrio_limicola; wikidata Q16988547
+167964			Anaerolinea thermophila	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerolinea_thermophila; wikidata Q16828213
+169300			Geothermobacterium ferrireducens	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geothermobacterium_ferrireducens; wikidata Q117011303
+171003			Caloranaerobacter	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caloranaerobacter; wikidata Q3650989
+177969			Oscillatoria brevis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oscillatoria_brevis; wikidata Q39087436
+178399			Marinomonas primoryensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_primoryensis; wikidata Q48839727
+178566			Streptomyces mexicanus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_mexicanus; wikidata Q23306148
+178899			Carboxydocella thermautotrophica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Carboxydocella_thermautotrophica; wikidata Q3658320
+182141			Pseudoalteromonas prydzensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoalteromonas_prydzensis; wikidata Q7254496
+182262			Agarivorans albus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Agarivorans_albus; wikidata Q61954743
+182455			Alicyclobacillus acidiphilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_acidiphilus; wikidata Q16827248
+182773			Clostridium isatidis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_isatidis; wikidata Q3681091
+182900			Persephonella guaymasensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Persephonella_guaymasensis; wikidata Q16987870
+184064			Thermodesulfobium narugense	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermodesulfobium_narugense; wikidata Q3990321
+184882			Knoellia subterranea	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Knoellia_subterranea; wikidata Q21273978
+185949			Sphingomonas aurantiaca	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_aurantiaca; wikidata Q26286897
+185951			Sphingomonas aerolata	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_aerolata; wikidata Q26286826
+186651			Microvirga subterranea	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microvirga_subterranea; wikidata Q24960028
+187144			Caldithrix	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldithrix; wikidata Q5019101
+188907			Oleispira	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oleispira; wikidata Q19753559
+188908			Oleispira antarctica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oleispira_antarctica; wikidata Q16986850
+188932			Pedobacter cryoconitis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pedobacter_cryoconitis; wikidata Q18392440
+189326			Gelria	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gelria_(bacterium); wikidata Q5530502
+190818			Geoglobus	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geoglobus; wikidata Q863699
+191301			Caminibacter	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caminibacter; wikidata Q19683866
+191373			Pelotomaculum	mesophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pelotomaculum; wikidata Q3898980
+191373			Pelotomaculum	thermophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Pelotomaculum; wikidata Q3898980
+191495			Conexibacter woesei	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Conexibacter_woesei; wikidata Q25841502
+191497			Rhodoglobus aureus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodoglobus_aureus; wikidata Q26281426
+191770			Marinilactibacillus psychrotolerans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinilactibacillus_psychrotolerans; wikidata Q25862353
+192843			Rhodoferax ferrireducens	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodoferax_ferrireducens; wikidata Q1248918
+193384			Rhodoglobus vestalii	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodoglobus_vestalii; wikidata Q26281445
+195964			Asanoa	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Asanoa; wikidata Q26209048
+196015			Caldimonas manganoxidans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldimonas_manganoxidans; wikidata Q48969780
+196118			Methanocaldococcus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanocaldococcus; wikidata Q13601816
+196119			Methanotorris	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanotorris; wikidata Q6823607
+196587			Albidovulum inexpectatum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Albidovulum_inexpectatum; wikidata Q25834775
+196588			Erythrobacter cryptus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erythrobacter_cryptus; wikidata Q26274059
+197162			Deferribacter desulfuricans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Deferribacter_desulfuricans; wikidata Q18350965
+198347			Clostridium algoriphilum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_algoriphilum; wikidata Q19159040
+198467			Anoxybacillus gonensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anoxybacillus_gonensis; wikidata Q18352541
+198480			Psychrobacter fozii	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_fozii; wikidata Q16988770
+198481			Psychrobacter luti	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_luti; wikidata Q16988788
+201973			Planifilum fulgidum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Planifilum_fulgidum; wikidata Q26271079
+201975			Planifilum fimeticola	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Planifilum_fimeticola; wikidata Q26271075
+202604			Neomoorella mulderi	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorella_mulderi; wikidata Q3862785
+202747			Sulfurimonas autotrophica	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfurimonas_autotrophica; wikidata Q16992853
+205327			Clostridium frigoris	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_frigoris; wikidata Q3681065
+205328			Clostridium lacusfryxellense	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_lacusfryxellense; wikidata Q3681096
+206403			Sulfurovum lithotrophicum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfurovum_lithotrophicum; wikidata Q16992864
+207243			Palaeococcus helgesonii	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Palaeococcus_helgesonii; wikidata Q20669259
+207599			Solirubrobacter	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Solirubrobacter; wikidata Q20181122
+212403			Psychrobacter okhotskensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_okhotskensis; wikidata Q16988804
+213223			Geothermobacter	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geothermobacter; wikidata Q26219633
+216929			Mycolicibacterium psychrotolerans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycobacterium_psychrotolerans; wikidata Q6947087
+217041			Caminibacter profundus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caminibacter_profundus; wikidata Q17264659
+218204			Garciella	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Garciella; wikidata Q3758199
+219572			Pseudomonas antarctica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_antarctica; wikidata Q7255006
+219573			Pseudomonas meridiana	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_meridiana; wikidata Q7255068
+219574			Pseudomonas proteolytica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_proteolytica; wikidata Q7255094
+224999			Tepidanaerobacter syntrophicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidanaerobacter_syntrophicus; wikidata Q3984180
+225196			Geopsychrobacter electrodiphilus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geopsychrobacter_electrodiphilus; wikidata Q16982265
+227388			Thermodesulfobium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermodesulfobium; wikidata Q3990319
+227864			Cerasibacillus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cerasibacillus; wikidata Q26219547
+229203			Flavobacterium degerlachei	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_degerlachei; wikidata Q25858738
+229919			Anaerolinea thermolimosa	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerolinea_thermolimosa; wikidata Q16828209
+229920			Leptolinea tardivitalis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Leptolinea_tardivitalis; wikidata Q16984380
+229921			Levilinea saccharolytica	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Levilinea_saccharolytica; wikidata Q16984507
+232270			Effusibacillus pohliae	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Effusibacillus_pohliae; wikidata Q25842049
+235932			Geobacillus jurassicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geobacillus_jurassicus; wikidata Q20687062
+235986			Actinacidiphila glaucinigra	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_glauciniger; wikidata Q22285520
+238834			Clostridium estertheticum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_estertheticum; wikidata Q996013
+240169			Desulfurobacterium atlanticum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurobacterium_atlanticum; wikidata Q24975557
+242703			Acidilobus saccharovorans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidilobus_saccharovorans; wikidata Q12605460
+246191			Maridesulfovibrio ferrireducens	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Maridesulfovibrio_ferrireducens; wikidata Q25841871
+246602			Pseudoduganella violaceinigra	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoduganella_violaceinigra; wikidata Q26275644
+246618			Bifidobacterium thermacidophilum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bifidobacterium_thermacidophilum; wikidata Q16841633
+247482			Tepidimonas aquatica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidimonas_aquatica; wikidata Q16976680
+248451			Psychrobacter vallis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_vallis; wikidata Q16988830
+248452			Psychrobacter aquaticus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_aquaticus; wikidata Q16988749
+252246			Alicyclobacillus vulcanalis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_vulcanalis; wikidata Q25834861
+254719			Marinobacter alkaliphilus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_alkaliphilus; wikidata Q26816917
+256326			Psychrobacter arenosus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_arenosus; wikidata Q16979290
+257454			Paeniglutamicibacter psychrophenolicus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paeniglutamicibacter_psychrophenolicus; wikidata Q62857523
+261685			Thermosinus carboxydivorans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermosinus_carboxydivorans; wikidata Q3990331
+263818			Marinomonas ushuaiensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_ushuaiensis; wikidata Q25862709
+265570			Sulfurovum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfurovum; wikidata Q16992861
+267990			Lebetimonas acidiphila	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lebetimonas_acidiphila; wikidata Q25861286
+269253			Thioreductor micantisoli	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioreductor_micantisoli; wikidata Q26297686
+269258			Nitratiruptor	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nitratiruptor; wikidata Q21214874
+271096			Shewanella canadensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella_canadensis; wikidata Q26285272
+271097			Shewanella sediminis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella_sediminis; wikidata Q18357942
+271099			Shewanella atlantica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella_atlantica; wikidata Q26285250
+271155			Flavobacterium antarcticum	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_antarcticum; wikidata Q19831120
+273793			Phenylobacterium lituiforme	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phenylobacterium_lituiforme; wikidata Q26270953
+277961			Marinobacter maritimus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_maritimus; wikidata Q25862525
+278991			Aneurinibacillus terranovensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aneurinibacillus_terranovensis; wikidata Q25837728
+286152			Methanomethylovorans thermophila	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanomethylovorans_thermophila; wikidata Q16985559
+291045			Arthrobacter psychrochitiniphilus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_psychrochitiniphilus; wikidata Q24915655
+291048			Caminibacter mediatlanticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caminibacter_mediatlanticus; wikidata Q25840919
+291187			Algorimicrobium algoritergicola	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bizionia_algoritergicola; wikidata Q28407489
+292407			Dyadobacter crusticola	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dyadobacter_crusticola; wikidata Q25842005
+292635			Laceyella	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Laceyella; wikidata Q26209146
+292636			Thermoflavimicrobium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermoflavimicrobium; wikidata Q26296419
+295255			Solidesulfovibrio aerotolerans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Solidesulfovibrio_aerotolerans; wikidata Q25841853
+295352			Streptomyces bangladeshensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_bangladeshensis; wikidata Q22287007
+295419			Rubellimicrobium thermophilum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rubellimicrobium_thermophilum; wikidata Q26282674
+296745			Caldalkalibacillus thermarum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldalkalibacillus_thermarum; wikidata Q48971813
+296995			Exiguobacterium indicum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_indicum; wikidata Q25858435
+300231			Brumicola nitratireducens	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciecola_nitratireducens; wikidata Q16982333
+304413			Desulfuromonas svalbardensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfuromonas_svalbardensis; wikidata Q16960285
+304417			Desulfuromusa ferrireducens	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfuromusa_ferrireducens; wikidata Q16960290
+307643			Exiguobacterium profundum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_profundum; wikidata Q25858452
+309805			Persephonella marina	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Persephonella_marina; wikidata Q16987873
+310575			Advenella kashmirensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Advenella_kashmirensis; wikidata Q16973970
+310769			Fervidobacterium changbaicum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fervidobacterium_changbaicum; wikidata Q16982003
+311400			Thermococcus kodakarensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermococcus_kodakarensis; wikidata Q7783149
+312539			Acidianus sulfidivorans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidianus_sulfidivorans; wikidata Q12605452
+314319			Prolixibacter bellariivorans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prolixibacter_bellariivorans; wikidata Q62859518
+317658			Sulfurimonas paralvinellae	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfurimonas_paralvinellae; wikidata Q16992856
+319475			Clostridium lundense	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_lundense; wikidata Q3681105
+326544			Paraglaciecola psychrophila	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraglaciecola_psychrophila; wikidata Q63350279
+328396			Enterococcus aquimarinus	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterococcus_aquimarinus; wikidata Q25842099
+330734			Marinobacter psychrophilus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_psychrophilus; wikidata Q26816901
+331525			Kribbia	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kribbia; wikidata Q21219131
+331526			Kribbia dieselivorans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kribbia_dieselivorans; wikidata Q21274232
+334771			Ignisphaera aggregans	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ignisphaera_aggregans; wikidata Q12611044
+335431			Tepidimonas thermarum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidimonas_thermarum; wikidata Q16963302
+335476			Polaromonas hydrogenivorans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polaromonas_hydrogenivorans; wikidata Q16966209
+337094			Planifilum yunnanense	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Planifilum_yunnanense; wikidata Q28406302
+338644			Sulfobacillus thermotolerans	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sulfobacillus_thermotolerans; wikidata Q18393103
+339866			Thiomonas bhubaneswarensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiomonas_bhubaneswarensis; wikidata Q16976562
+343334			Costertonia	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Costertonia; wikidata Q27438577
+346179			Herbaspirillum rhizosphaerae	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Herbaspirillum_rhizosphaerae; wikidata Q5733344
+347481			Asticcacaulis benevestitus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Asticcacaulis_benevestitus; wikidata Q25839962
+348609			Methanogenium boonei	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanogenium_boonei; wikidata Q4044113
+348610			Methanogenium marinum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanogenium_marinum; wikidata Q16985539
+351091			Oscillibacter valericigenes	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oscillibacter_valericigenes; wikidata Q20721340
+351604			Geotalea uraniireducens	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geobacter_uraniireducens; wikidata Q21265798
+353224			Caldalkalibacillus uzonensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldalkalibacillus_uzonensis; wikidata Q25840862
+359110			Pseudomonas extremaustralis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudomonas_extremaustralis; wikidata Q26275938
+360296			Humidesulfovibrio arcticus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_arcticus; wikidata Q25841861
+364763			Ferrimonas kyonanensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ferrimonas_kyonanensis; wikidata Q25858524
+364901			Streptomyces gulbargensis	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_gulbargensis; wikidata Q22665877
+367298			Phycicoccus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phycicoccus; wikidata Q26271012
+367742			Ureibacillus composti	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ureibacillus_composti; wikidata Q26298664
+368783			Acidicaldus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidicaldus; wikidata Q4674094
+370735			Zhihengliuella	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Zhihengliuella; wikidata Q20739350
+373053			Calditerricola	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Calditerricola; wikidata Q26210083
+373054			Calditerricola satsumensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Calditerricola_satsumensis; wikidata Q25840895
+375929			Natranaerobius thermophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobius_thermophilus; wikidata Q26268336
+379547			Candidatus Aciduliprofundum boonei	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aciduliprofundum_boonei; wikidata Q25833622
+380248			Actinacidiphila alni	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_alni; wikidata Q22286885
+383750			Marinomonas arctica	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_arctica; wikidata Q48839433
+386301			Cryobacterium psychrotolerans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cryobacterium_psychrotolerans; wikidata Q25841597
+391358			Caldimonas hydrothermalis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldimonas_hydrothermale; wikidata Q25840889
+392714			Nonlabens antarcticus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nonlabens_antarcticus; wikidata Q62866713
+393060			Mesoflavibacter zeaxanthinifaciens	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesoflavibacter_zeaxanthinifaciens; wikidata Q25863066
+398257			Luteimonas composti	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Luteimonas_composti; wikidata Q16992045
+402171			Lapillicoccus jejuensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lapillicoccus_jejuensis; wikidata Q25861281
+405212			Alicyclobacillus acidocaldarius	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_acidocaldarius; wikidata Q21237564
+407159			Knoellia remsis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Knoellia_remsis; wikidata Q66663019
+411923			Moorella perchloratireducens (nom. illeg.)	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorella_perchloratireducens; wikidata Q61670636
+415218			Marihabitans asiaticum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marihabitans_asiaticum; wikidata Q25862305
+417367			Paenisporosarcina antarctica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paenisporosarcina_antarctica; wikidata Q26270506
+418453			Desulfovirgula	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovirgula; wikidata Q5265451
+418853			Sneathiella glossodoripedis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sneathiella_glossodoripedis; wikidata Q61954873
+421058			Chryseobacterium oranimense	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_oranimense; wikidata Q24897171
+421525			Kaistella haifensis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_haifense; wikidata Q24883970
+423605			Elusimicrobium minutum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Elusimicrobium_minutum; wikidata Q5360333
+424696			Ferroplasma thermophilum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ferroplasma_thermophilum; wikidata Q26156010
+425254			Cellulosilyticum ruminicola	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulosilyticum_ruminicola; wikidata Q48966607
+427753			Humibacter	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Humibacter; wikidata Q26212587
+433647			Terrimesophilobacter mesophilus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Terrimesophilobacter_mesophilus; wikidata Q25841596
+433659			Nocardioides mesophilus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardioides_mesophilus; wikidata Q26268952
+436510			Solidesulfovibrio marrakechensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_marrakechensis; wikidata Q16960211
+437503			Allohahella antarctica	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Allohahella_antarctica; wikidata Q60185164
+441616			Carboxydothermus siderophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Carboxydothermus_siderophilus; wikidata Q25841010
+442866			Fundidesulfovibrio butyratiphilus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fundidesulfovibrio_butyratiphilus; wikidata Q16960183
+442954			Knoellia aerolata	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Knoellia_aerolata; wikidata Q25860983
+444090			Caldimicrobium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldimicrobium; wikidata Q26219533
+444091			Caldimicrobium rimae	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldimicrobium_rimae; wikidata Q25840888
+444093			Ammonifex thiophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ammonifex_thiophilus; wikidata Q25835869
+447594			Caldanaerobacter uzonensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldanaerobacter_uzonensis; wikidata Q25840867
+453224			Desulfoconvexum algidum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfoconvexum_algidum; wikidata Q25841753
+456330			Caldanaerobius fijiensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldanaerobius_fijiensis; wikidata Q25840869
+461393			Actinomyces massiliensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinomyces_massiliensis; wikidata Q25834213
+466152			Singulisphaera	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Singulisphaera; wikidata Q26285740
+470826			Psychroflexus sediminis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_sediminis; wikidata Q26279722
+471798			Shimazuella	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shimazuella; wikidata Q26285440
+475960			Bellilinea	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bellilinea; wikidata Q26219968
+486264			Hymenobacter fastidiosus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_fastidiosus; wikidata Q20721745
+486267			Hymenobacter algoricola	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_algoricola; wikidata Q20721717
+486270			Hymenobacter antarcticus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_antarcticus; wikidata Q20721725
+487685			Methanolobus profundi	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanolobus_profundi; wikidata Q16985546
+488548			Lutaonella	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lutaonella; wikidata Q27438599
+497726			Nitrososphaera	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nitrososphaera; wikidata Q13376590
+498371			Nautilia abyssi	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nautilia_abyssi; wikidata Q26268377
+499207			Syntrophaceticus schinkii	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Syntrophaceticus_schinkii; wikidata Q18387161
+499228			Tepidanaerobacter	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidanaerobacter; wikidata Q3984179
+500465			Deferribacter autotrophicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Deferribacter_autotrophicus; wikidata Q16955070
+501022			Glaciibacter	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciibacter; wikidata Q26219638
+508460			Cloacibacillus evryensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cloacibacillus_evryensis; wikidata Q25841416
+510955			Kaistella solincola	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_solincola; wikidata Q24884280
+516051			Flagellimonas lutaonensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Muricauda_lutaonensis; wikidata Q26816880
+516123			Sporosalibacterium faouarense	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sporosalibacterium_faouarense; wikidata Q26288368
+519061			Methylorosula polaris	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylorosula_polaris; wikidata Q25863275
+551788			Caldicoprobacter oshimai	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldicoprobacter_oshimai; wikidata Q25840885
+552064			Fodinibacter luteus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fodinibacter_luteus; wikidata Q25858968
+554343			Psychrobacter piscatorii	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_piscatorii; wikidata Q16992259
+561061			Sphingobacterium psychroaquaticum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingobacterium_psychroaquaticum; wikidata Q26286414
+570267			Methanocella paludicola	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanocella_paludicola; wikidata Q4044101
+573074			Laceyella sediminis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Laceyella_sediminis; wikidata Q25861082
+574699			Laceyella tengchongensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Laceyella_tengchongensis; wikidata Q25861083
+588672			Patulibacter americanus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Patulibacter_americanus; wikidata Q26270819
+589872			Winogradskyella exilis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Winogradskyella_exilis; wikidata Q61944714
+614070			Shewanella algidipiscicola	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella_algidipiscicola; wikidata Q48839901
+622664			Ornithinibacter aureus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ornithinibacter_aureus; wikidata Q26269641
+633405			Lacticigenium	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacticigenium; wikidata Q26219690
+641549			Lacinutrix himadriensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacinutrix_himadriensis; wikidata Q62866061
+641665			Colwellia chukchiensis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia_chukchiensis; wikidata Q25841490
+643671			Larkinella arboricola	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Larkinella_arboricola; wikidata Q25861284
+643672			Singulisphaera rosea	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Singulisphaera_rosea; wikidata Q26285749
+646273			Nautilia nitratireducens	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nautilia_nitratireducens; wikidata Q61954902
+648799			Thermotalea	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermotalea; wikidata Q27438815
+649746			Acetomicrobium hydrogeniformans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acetomicrobium_hydrogeniformans; wikidata Q62858225
+650093			Paenisporosarcina indica	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paenisporosarcina_indica; wikidata Q26270509
+651661			Dyadobacter psychrophilus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dyadobacter_psychrophilus; wikidata Q25842012
+651662			Hymenobacter psychrophilus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_psychrophilus; wikidata Q25860830
+651663			Sphingopyxis bauzanensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingopyxis_bauzanensis; wikidata Q16979541
+653931			Sphingomonas alpina	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_alpina; wikidata Q26286856
+656366			Arthrobacter alpinus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_alpinus; wikidata Q24915524
+658167			Pollutimonas bauzanensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Candidimonas_bauzanensis; wikidata Q25840958
+658225			Sphingomonas glacialis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_glacialis; wikidata Q26287045
+661089			Carboxydothermus islandicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Carboxydothermus_islandicus; wikidata Q25841002
+667112			Lutispora	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lutispora; wikidata Q26219705
+667306			Aciditerrimonas ferrireducens	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aciditerrimonas_ferrireducens; wikidata Q25833568
+670052			Cryobacterium arcticum	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cryobacterium_arcticum; wikidata Q25841591
+670078			Arthrobacter livingstonensis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_livingstonensis; wikidata Q16834030
+670079			Paeniglutamicibacter cryotolerans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paeniglutamicibacter_cryotolerans; wikidata Q62857482
+672459			Nocardiopsis yanglingensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_yanglingensis; wikidata Q26816930
+676965			Neomoorella humiferrea	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorella_humiferrea; wikidata Q25864440
+681398			Paludibacter jiangxiensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paludibacter_jiangxiensis; wikidata Q29887900
+696763			Thermasporomyces composti	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermasporomyces_composti; wikidata Q26295856
+698776			Cellulosilyticum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulosilyticum; wikidata Q26219546
+699281			Caldicoprobacter algeriensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldicoprobacter_algeriensis; wikidata Q25840881
+728004			Glaciimonas immobilis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciimonas_immobilis; wikidata Q5566165
+728005			Devosia psychrophila	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Devosia_psychrophila; wikidata Q19596845
+745119			Brassicibacter mesophilus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brassicibacter_mesophilus; wikidata Q25840547
+747076			Tepidamorphus gemmatus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidamorphus_gemmatus; wikidata Q26294911
+748907			Arthrobacter cryoconiti	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_cryoconiti; wikidata Q24911894
+748908			Alpinimonas psychrophila	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alpinimonas_psychrophila; wikidata Q25835363
+748909			Nocardioides alpinus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardioides_alpinus; wikidata Q26268882
+752140			Pedobacter arcticus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pedobacter_arcticus; wikidata Q16987634
+759412			Natranaerobius trueperi	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobius_trueperi; wikidata Q26268340
+759413			Natronovirga	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronovirga; wikidata Q26268369
+768533			Chelativorans composti	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chelativorans_composti; wikidata Q39046721
+862261			Caldanaerobius	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldanaerobius; wikidata Q26209355
+866564			Polaromonas glacialis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polaromonas_glacialis; wikidata Q16943628
+866565			Polaromonas cryoconiti	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polaromonas_cryoconiti; wikidata Q16938546
+866566			Devosia glacialis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Devosia_glacialis; wikidata Q19596840
+870242			Carboxydothermus pertinax	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Carboxydothermus_pertinax; wikidata Q25841006
+872112			Fodinibacter (ex Wang et al. 2009)	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fodinibacter; wikidata Q26219620
+877208			Hymenobacter elongatus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_elongatus; wikidata Q20721731
+877209			Hymenobacter glaciei	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_glaciei; wikidata Q20721753
+879969			Macellibacteroides fermentans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Macellibacteroides_fermentans; wikidata Q25861999
+882824			Knoellia locipacati	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Knoellia_locipacati; wikidata Q62855613
+889944			Intrasporangium mesophilum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Intrasporangium_mesophilum; wikidata Q25860874
+904291			Microbacterium sediminis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_sediminis; wikidata Q25863551
+904291			Microbacterium sediminis	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_sediminis; wikidata Q25863551
+907364			Phytohabitans	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Phytohabitans; wikidata Q26271035
+910412			Melghirimyces algeriensis	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Melghirimyces_algeriensis; wikidata Q25863054
+913969			Knoellia flava	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Knoellia_flava; wikidata Q25860984
+933949			Brockia lithotrophica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brockia_lithotrophica; wikidata Q25840794
+937253			Thermohydrogenium	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermohydrogenium; wikidata Q3990325
+979970			Acetobacteroides hydrogenigenes	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acetobacteroides_hydrogenigenes; wikidata Q28868691
+986106			Acidiferrobacter	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidiferrobacter; wikidata Q26219958
+990712			Meinhardsimonia xiamenensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Meinhardsimonia_xiamenensis; wikidata Q134777591
+995034			Mycetocola miduiensis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mycetocola_miduiensis; wikidata Q63358662
+995037			Cryobacterium aureum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cryobacterium_aureum; wikidata Q62856052
+995038			Cryobacterium levicorallinum	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cryobacterium_levicorallinum; wikidata Q25841594
+1001240			Cryobacterium roopkundense	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cryobacterium_roopkundense; wikidata Q25841598
+1003997			Paenalicyclobacillus cellulosilyticus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alicyclobacillus_cellulosilyticus; wikidata Q56274733
+1004583			Neoscardovia arbecensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neoscardovia_arbecensis; wikidata Q26268422
+1006481			Microaerobacter	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microaerobacter; wikidata Q26219735
+1008460			Pyrococcus yayanosii	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pyrococcus_yayanosii; wikidata Q18456556
+1035120			Deferrisoma camini	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Deferrisoma_camini; wikidata Q25841650
+1078754			Dyadobacter arcticus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dyadobacter_arcticus; wikidata Q29565703
+1096341			Fonticella tunisiensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fonticella_tunisiensis; wikidata Q25858999
+1101373			Tepidimonas fonticaldi	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidimonas_fonticaldi; wikidata Q16944873
+1108801			Planifilum composti	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Planifilum_composti; wikidata Q28406247
+1121298			Clostridium amylolyticum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_amylolyticum; wikidata Q19159060
+1123067			Rubellimicrobium mesophilum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rubellimicrobium_mesophilum; wikidata Q26282654
+1125862			Deferrisoma	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Deferrisoma; wikidata Q26225693
+1125875			Noviherbaspirillum psychrotolerans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Noviherbaspirillum_psychrotolerans; wikidata Q26269408
+1125876			Halpernia frigidisoli	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_frigidisoli; wikidata Q24895360
+1125965			Brevundimonas abyssalis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brevundimonas_abyssalis; wikidata Q62880693
+1125966			Polycladomyces abyssicola	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polycladomyces_abyssicola; wikidata Q28406303
+1128911			Paraglaciecola arctica	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraglaciecola_arctica; wikidata Q26270711
+1129704			Kyrpidia	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kyrpidia; wikidata Q18706539
+1150112			Myroides guanonis	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Myroides_guanonis; wikidata Q26268303
+1156395			Dissulfuribacter thermophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dissulfuribacter_thermophilus; wikidata Q25841987
+1170224			Caldicoprobacter guelmensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldicoprobacter_guelmensis; wikidata Q25840884
+1191515			Ornithinibacter	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ornithinibacter; wikidata Q26269642
+1197717			Cloacibacillus porcorum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cloacibacillus_porcorum; wikidata Q25841417
+1202716			Rhodomicrobium udaipurense	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodomicrobium_udaipurense; wikidata Q21152231
+1216932			Clostridium bornimense	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_bornimense; wikidata Q19514988
+1224511			Noviherbaspirillum suwonense	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Noviherbaspirillum_suwonense; wikidata Q48966668
+1226730			Thermanaeromonas burensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermanaeromonas_burensis; wikidata Q29566150
+1236220			Melghirimyces thermohalophilus	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Melghirimyces_thermohalophilus; wikidata Q25863056
+1245527			Ureibacillus defluvii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ureibacillus_defluvii; wikidata Q62875899
+1245754			Glaciimonas frigoris	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciimonas_frigoris; wikidata Q55394492
+1259676			Sphingomonas psychrolutea	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sphingomonas_psychrolutea; wikidata Q26816870
+1266720			Neomoorella stamsii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moorella_stamsii; wikidata Q25864449
+1268041			Frondihabitans sucicola	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Frondihabitans_sucicola; wikidata Q54984349
+1279027			Hippea alviniae	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hippea_alviniae; wikidata Q25860783
+1281767			Tepidibacillus fermentans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidibacillus_fermentans; wikidata Q26294939
+1283284			Tolumonas lignilytica	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tolumonas_lignilytica; wikidata Q62898002
+1302351			Thermocrinis jamiesonii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermocrinis_jamiesonii; wikidata Q29566029
+1304284			Caldisalinibacter kiritimatiensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldisalinibacter_kiritimatiensis; wikidata Q25840893
+1323370			Caloranaerobacter ferrireducens	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caloranaerobacter_ferrireducens; wikidata Q25840912
+1331910			Thermogutta terrifontis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermogutta_terrifontis; wikidata Q26296442
+1335627			Acidicapsa acidiphila	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidicapsa_acidiphila; wikidata Q48845626
+1348429			Effusibacillus lacus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Effusibacillus_lacus; wikidata Q25842047
+1350429			Cyclobacterium qasimii	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cyclobacterium_qasimii; wikidata Q29887697
+1382801			Glycocaulis albus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glycocaulis_albus; wikidata Q62881129
+1392640			Rubrobacter calidifluminis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rubrobacter_calidifluminis; wikidata Q48966576
+1403538			Fervidicella	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fervidicella; wikidata Q26219613
+1413211			Tepidibacillus decaturensis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidibacillus_decaturensis; wikidata Q29566655
+1431249			Agaribacter marinus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Agaribacter_marinus; wikidata Q28406624
+1434004			Fonticella	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fonticella; wikidata Q26219624
+1434049			Thermophagus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermophagus; wikidata Q26296645
+1464124			Streptomyces alkalithermotolerans	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_alkalithermotolerans; wikidata Q22286879
+1469144			Carbonactinospora thermoautotrophica	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_thermoautotrophicus; wikidata Q21319381
+1469557			Lacinutrix jangbogonensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacinutrix_jangbogonensis; wikidata Q62866087
+1475483			Amylibacter marinus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Amylibacter_marinus; wikidata Q56284399
+1475951			Flavicella marina	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavicella_marina; wikidata Q62863912
+1477021			Conyzicola nivalis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Conyzicola_nivalis; wikidata Q62856036
+1482737			Aminobacterium thunnarium	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aminobacterium_thunnarium; wikidata Q25835868
+1484053			Mariniphaga anaerophila	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mariniphaga_anaerophila; wikidata Q25862394
+1484432			Algibacter psychrophilus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Algibacter_psychrophilus; wikidata Q62863160
+1485217			Massilia eurypsychrophila	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Massilia_eurypsychrophila; wikidata Q29887939
+1502725			Effusibacillus	thermophile	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Effusibacillus; wikidata Q26209380
+1509237			Plastoroseomonas arctica	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseomonas_arctica; wikidata Q48798813
+1511694			Thioalbus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thioalbus; wikidata Q26297033
+1524095			Hymenobacter frigidus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_frigidus; wikidata Q60524309
+1524096			Mucilaginibacter psychrotolerans	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mucilaginibacter_psychrotolerans; wikidata Q62868520
+1537568			Desulfovibrio biadhensis	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_biadhensis; wikidata Q25841862
+1542729			Pseudoflavitalea soli	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoflavitalea_soli; wikidata Q62860363
+1543965			Psychrobacillus soli	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacillus_soli; wikidata Q48967455
+1548890			Brassicibacter thermophilus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brassicibacter_thermophilus; wikidata Q62878298
+1562698			Desulfurella amilsii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfurella_amilsii; wikidata Q29566483
+1573172			Deferrisoma palaeochoriense	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Deferrisoma_palaeochoriense; wikidata Q29566368
+1574308			Sediminicola arcticus	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sediminicola_arcticus; wikidata Q62867348
+1577474			Raineyella antarctica	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Raineyella_antarctica; wikidata Q30682897
+1609627			Hydrogenibacillus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hydrogenibacillus; wikidata Q26219666
+1648500			Brockia	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brockia; wikidata Q26219528
+1649472			Natranaerobaculum	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobaculum; wikidata Q26268335
+1651082			Celeribacter persicus	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Celeribacter_persicus; wikidata Q60183486
+1653476			Caldimicrobium thiodismutans	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldimicrobium_thiodismutans; wikidata Q29566510
+1675854			Abyssivirga alkaniphila	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Abyssivirga_alkaniphila; wikidata Q29566497
+1676125			Thermogutta	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermogutta; wikidata Q26296449
+1679466			Apibacter adventoris	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Apibacter_adventoris; wikidata Q62475822
+1707952			Chloroflexus islandicus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chloroflexus_islandicus; wikidata Q62869905
+1715693			Shimia thalassica	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shimia_thalassica; wikidata Q105044062
+1742980			Aurantiacicella	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aurantiacicella; wikidata Q27438550
+1759371			Inmirania	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Inmirania; wikidata Q28735281
+1769738			Compostibacillus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Compostibacillus; wikidata Q27438777
+1780299			Anaerosolibacter	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaerosolibacter; wikidata Q27438805
+1794699			Thermodesulfobium acidiphilum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermodesulfobium_acidiphilum; wikidata Q54985360
+1806172			Tepidibacillus infernus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tepidibacillus_infernus; wikidata Q29566601
+1859103			Sporosalibacterium tautonense	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sporosalibacterium_tautonense; wikidata Q62878807
+1891224			Acinetobacter celticus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acinetobacter_celticus; wikidata Q55603138
+1897628			Rhodoplanes azumiensis	thermotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodoplanes_azumiensis; wikidata Q62882305
+1927912			Geogemma barossii	hyperthermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Strain_121; wikidata Q3267859
+1929105			Anaeromicrobium	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Anaeromicrobium; wikidata Q62620237
+1930856			Cavicella	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cavicella; wikidata Q28749346
+1936991			Lebetimonas natsushimae	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lebetimonas_natsushimae; wikidata Q60192360
+1940526			Labilibaculum filiforme	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Labilibaculum_filiforme; wikidata Q65121203
+1967665			Cognaticolwellia beringensis	psychrophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Colwellia_beringensis; wikidata Q60185167
+2008781			Annwoodia	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Annwoodia; wikidata Q48999579
+2052943			Trichococcus alkaliphilus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Trichococcus_alkaliphilus; wikidata Q62876527
+2054627			Alteraurantiacibacter lauratis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Altererythrobacter_lauratis; wikidata Q62889621
+2054628			Alteraurantiacibacter palmitatis	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Altererythrobacter_palmitatis; wikidata Q62889645
+2055160			Kyrpidia spormannii	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kyrpidia_spormannii; wikidata Q63372622
+2494657			Polaribacter septentrionalilitoris	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Polaribacter_septentrionalilitoris; wikidata Q97362050
+2547397			Antarcticimicrobium luteum	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Antarcticimicrobium_luteum; wikidata Q111169560
+2590900			Tenuifilum thalassicum	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tenuifilum_thalassicum; wikidata Q107503665
+2613330			Aliibacillus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliibacillus; wikidata Q111621083
+2668039			Glaciihabitans arcticus	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciihabitans_arcticus; wikidata Q112299912
+2711294			Grimontia sedimenti	mesophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Grimontia_sedimenti; wikidata Q111166001
+2742598			Limosilactobacillus	thermophile	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Limosilactobacillus; wikidata Q104157424
+2816119			Flavobacterium flabelliforme	psychrotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Flavobacterium_flabelliforme; wikidata Q129931437

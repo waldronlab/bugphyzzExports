@@ -1,0 +1,563 @@
+NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Note
+124			Blastopirellula marina	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Blastopirellula_marina; wikidata Q25840406
+251			Psychroflexus gondwanensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_gondwanensis; wikidata Q26279691
+662			Vibrio	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio; wikidata Q753490
+663			Vibrio alginolyticus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_alginolyticus; wikidata Q3556827
+669			Vibrio harveyi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_harveyi; wikidata Q3761158
+691			Vibrio natriegens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Vibrio_natriegens; wikidata Q7924681
+1282			Staphylococcus epidermidis	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_epidermidis; wikidata Q131915
+1371			Marinococcus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinococcus_halophilus; wikidata Q25862634
+1408			Bacillus pumilus	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Bacillus_pumilus; wikidata Q4838979
+1445			Alkalihalobacillus alcalophilus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_alcalophilus; wikidata Q4838957; moderate
+1850			Actinopolyspora halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinopolyspora_halophila; wikidata Q16825165
+2175			Methanohalophilus	halophilic	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Methanohalophilus; wikidata Q4044121; moderate
+2237			Haloarcula	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloarcula; wikidata Q5643348; extreme
+2238			Haloarcula marismortui	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloarcula_marismortui; wikidata Q25860043
+2242			Halobacterium salinarum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobacterium_salinarum; wikidata Q3782756; extreme
+2247			Halorubrum lacusprofundi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_lacusprofundi; wikidata Q25860604
+2256			Natronobacterium	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronobacterium; wikidata Q6980254; extreme
+2331			Halanaerobium praevalens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobium_praevalens; wikidata Q3782529; extreme
+2369			Arhodomonas aquaeolei	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arhodomonas_aquaeolei; wikidata Q20685937
+2742			Marinobacter	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter; wikidata Q6764459
+2745			Halomonas	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas; wikidata Q390336
+2746			Halomonas elongata	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_elongata; wikidata Q25860313
+28258			Cobetia marina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cobetia_marina; wikidata Q5138874
+29283			Halorubrum distributum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_distributum; wikidata Q26000523
+29378			Staphylococcus arlettae	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Staphylococcus_arlettae; wikidata Q7600396
+29549			Rhodothermus marinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodothermus_marinus; wikidata Q15842326; moderate
+29563			Halanaerobium salsuginis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobium_salsuginis; wikidata Q3782531; moderate
+29571			Vreelandella subglaciescola	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_subglaciescola; wikidata Q16982684
+31910			Halovibrio variabilis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halovibrio_variabilis; wikidata Q25860708
+33986			Exiguobacterium	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Exiguobacterium; wikidata Q16981932
+33987			Exiguobacterium aurantiacum	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_aurantiacum; wikidata Q25858427
+36738			Halococcus salifodinae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halococcus_salifodinae; wikidata Q16982675; extreme
+38311			Rhodococcus marinonascens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodococcus_marinonascens; wikidata Q16989143; moderate
+40222			Methylophaga	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylophaga; wikidata Q6824045
+42056			Oceanidesulfovibrio gabonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_gabonensis; wikidata Q16981299; moderate
+42422			Halobacteroides halobius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobacteroides_halobius; wikidata Q3782761; moderate
+43928			Halobaculum gomorrense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobaculum_gomorrense; wikidata Q16982667; extreme
+44935			Vreelandella venusta	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_venusta; wikidata Q5643419
+45611			Psychrobacter frigidicola	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_frigidicola; wikidata Q16984310
+45629			Pseudodesulfovibrio halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_halophilus; wikidata Q16981303
+45662			Desulfohalobium	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfohalobium; wikidata Q21078621; moderate
+45663			Desulfohalobium retbaense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfohalobium_retbaense; wikidata Q16981294
+45668			Halobacillus litoralis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobacillus_litoralis; wikidata Q16982656
+46466			Halocella	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halocella; wikidata Q3782762; moderate
+47055			Dethiosulfovibrio peptidovorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Dethiosulfovibrio_peptidovorans; wikidata Q3706148; slight
+47157			Maridesulfovibrio bastinii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_bastinii; wikidata Q16960174; moderate
+47158			Paucidesulfovibrio gracilis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_gracilis; wikidata Q16960192; moderate
+49319			Rubrobacter xylanophilus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rubrobacter_xylanophilus; wikidata Q18391383
+51668			Tetragenococcus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tetragenococcus; wikidata Q16679388; moderate
+51669			Tetragenococcus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tetragenococcus_halophilus; wikidata Q4249857
+52021			Billgrantia desiderata	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_desiderata; wikidata Q18348097
+53247			Pseudoalteromonas antarctica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudoalteromonas_antarctica; wikidata Q7254470; moderate
+55505			Thermonema rossianum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermonema_rossianum; wikidata Q26296626
+56688			Halorubrum	halophilic	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Halorubrum; wikidata Q5643444
+56779			Halanaerobium kushneri	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobium_kushneri; wikidata Q3782526
+56810			Psychrobacter glacincola	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_glacincola; wikidata Q16988776
+63129			Halanaerobacter salinarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobacter_salinarius; wikidata Q3782518
+63740			Halorubrum vacuolatum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_vacuolatum; wikidata Q25860648; extreme
+63742			Natrialba	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natrialba; wikidata Q14458468
+64642			Tetragenococcus muriaticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tetragenococcus_muriaticus; wikidata Q16993022; moderate
+64713			Halorubrum coriense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_coriense; wikidata Q25860592
+64974			Marinospirillum minutulum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinospirillum_minutulum; wikidata Q25862753
+64975			Marinospirillum megaterium	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinospirillum_megaterium; wikidata Q48840064
+65380			Desulfobacter halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfobacter_halotolerans; wikidata Q18351389
+66835			Desulfocella halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfocella_halophila; wikidata Q25841750
+66862			Ammoniphilus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ammoniphilus; wikidata Q21217355
+66864			Ammoniphilus oxalivorans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ammoniphilus_oxalivorans; wikidata Q25835873
+67573			Psychromonas antarctica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychromonas_antarctica; wikidata Q7256545
+74109			Photobacterium profundum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photobacterium_profundum; wikidata Q7187712
+74385			Gracilibacillus	halotolerant	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Gracilibacillus; wikidata Q16982473
+74386			Gracilibacillus halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gracilibacillus_halotolerans; wikidata Q16982480
+76008			Fusibacter	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fusibacter; wikidata Q3754894
+77007			Thiorhodovibrio winogradskyi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiorhodovibrio_winogradskyi; wikidata Q18394162; moderate
+78554			Alterococcus agarolyticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alterococcus_agarolyticus; wikidata Q61954062
+79660			Virgibacillus marismortui	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_marismortui; wikidata Q26306727; moderate
+80816			Haliangium ochraceum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haliangium_ochraceum; wikidata Q16982634; moderate
+80854			Moritella viscosa	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Moritella_viscosa; wikidata Q25864525
+82380			Microbacterium oxydans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_oxydans; wikidata Q25863426
+85581			Photobacterium damselae subsp. damselae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Photobacterium_damselae_subsp._damselae; wikidata Q63124005
+85924			Alkalispirillum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalispirillum; wikidata Q26219963; moderate
+86102			Idiomarina abyssalis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Idiomarina_abyssalis; wikidata Q25860843
+86666			Salimicrobium halophilum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salimicrobium_halophilum; wikidata Q26283880; moderate
+88724			Natrinema versiforme	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natrinema_versiforme; wikidata Q16986218; extreme
+89959			Natronincola histidinovorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronincola_histidinovorans; wikidata Q3873299; moderate
+91359			Enterovibrio calviensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enterovibrio_calviensis; wikidata Q25842144
+91797			Halobacteroides elegans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobacteroides_elegans; wikidata Q3782760
+94136			Alkalibacillus haloalkaliphilus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_haloalkaliphilus; wikidata Q25834899; extreme
+99594			Thermohalobacter berrensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermohalobacter_berrensis; wikidata Q3990323
+101192			Methanomethylovorans hollandica	non-halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methanomethylovorans_hollandica; wikidata Q16985555
+106633			Thioalkalivibrio	halophilic	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Thioalkalivibrio; wikidata Q19684476
+109262			Halothiobacillus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halothiobacillus; wikidata Q141419
+124252			Nocardiopsis halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_halotolerans; wikidata Q26269018
+124285			Nocardiopsis xinjiangensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_xinjiangensis; wikidata Q26816929
+135577			Idiomarina loihiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Idiomarina_loihiensis; wikidata Q16983517
+135826			Jeotgalibacillus alimentarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalibacillus_alimentarius; wikidata Q15631284; moderate
+141389			Chromohalobacter canadensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chromohalobacter_canadensis; wikidata Q25841329
+141692			Nocardiopsis halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_halophila; wikidata Q26269017
+141693			Nocardiopsis kunsanensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_kunsanensis; wikidata Q16986586; moderate
+142841			Selenihalanaerobacter	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Selenihalanaerobacter; wikidata Q3954744
+142842			Selenihalanaerobacter shriftii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Selenihalanaerobacter_shriftii; wikidata Q3954743
+146825			Halorhabdus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorhabdus; wikidata Q5643442
+146826			Halorhabdus utahensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorhabdus_utahensis; wikidata Q25860543
+146919			Salinibacter ruber	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinibacter_ruber; wikidata Q12859591; extreme
+147248			Halomonas alimentaria	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_alimentaria; wikidata Q18348092; moderate
+147825			Psychrobacter proteolyticus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_proteolyticus; wikidata Q16992260
+148448			Natronobacterium haloterrestre	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobiforma_haloterrestris; wikidata Q18392516; extreme
+154108			Psychrobacter submarinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_submarinus; wikidata Q16988826
+156205			Halobacillus trueperi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobacillus_trueperi; wikidata Q16982660
+157227			Jeotgalicoccus halotolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalicoccus_halotolerans; wikidata Q15820973; moderate
+157779			Kushneria marisflavi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_marisflavi; wikidata Q25861056
+159292			Tindallia californiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tindallia_californiensis; wikidata Q3991564; extreme
+160660			Acidihalobacter prosperus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Acidihalobacter_prosperus; wikidata Q25481238
+160794			Filobacillus	halotolerant	TRUE	Wikipedia_2026	usually	https://en.wikipedia.org/wiki/Filobacillus; wikidata Q16982028
+162028			Haliangium tepidum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haliangium_tepidum; wikidata Q16982639; moderate
+163877			Virgibacillus necropolis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_necropolis; wikidata Q16993440; moderate
+168379			Halorhodospira neutriphila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorhodospira_neutriphila; wikidata Q25860557; extreme
+171692			Virgibacillus carmonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_carmonensis; wikidata Q16993436; moderate
+173990			Rheinheimera pacifica	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rheinheimera_pacifica; wikidata Q26280281
+175306			Lentibacillus salicampi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_salicampi; wikidata Q18345921; moderate
+176898			Prauserella alba	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prauserella_alba; wikidata Q26274300; moderate
+178399			Marinomonas primoryensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_primoryensis; wikidata Q48839727
+179010			Psychrobacter jeotgali	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_jeotgali; wikidata Q16988783; moderate
+179637			Halococcus dombrowskii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halococcus_dombrowskii; wikidata Q16982670; extreme
+182710			Oceanobacillus iheyensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_iheyensis; wikidata Q16986730; extreme
+183763			Streptomonospora alba	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomonospora_alba; wikidata Q16992797
+184065			Salinicola halophilus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinicola_halophilus; wikidata Q62903502
+184067			Kushneria indalinina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_indalinina; wikidata Q62903407; moderate
+185641			Prauserella halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prauserella_halophila; wikidata Q26274340; moderate
+187980			Microbulbifer salipaludis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbulbifer_salipaludis; wikidata Q16985686; moderate
+187981			Marinobacter litoralis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_litoralis; wikidata Q26816897; moderate
+191770			Marinilactibacillus psychrotolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinilactibacillus_psychrotolerans; wikidata Q25862353; slight
+191770			Marinilactibacillus psychrotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinilactibacillus_psychrotolerans; wikidata Q25862353
+192812			Qipengyuania flava	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Qipengyuania_flava; wikidata Q25842593; slight
+195088			Halobacillus karajensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobacillus_karajensis; wikidata Q16982651
+197222			Paraglaciecola mesophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraglaciecola_mesophila; wikidata Q26270714; slight
+197345			Psychroflexus tropicus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_tropicus; wikidata Q17264647
+197482			Malaciobacter halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arcobacter_halophilus; wikidata Q16833561
+198480			Psychrobacter fozii	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_fozii; wikidata Q16988770
+198481			Psychrobacter luti	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_luti; wikidata Q16988788
+200904			Paraliobacillus ryukyuensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraliobacillus_ryukyuensis; wikidata Q26270756; slight
+200904			Paraliobacillus ryukyuensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraliobacillus_ryukyuensis; wikidata Q26270756; extreme
+200989			Alkalicoccus saliphilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalicoccus_saliphilus; wikidata Q62871131
+200990			Alkalibacillus filiformis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_filiformis; wikidata Q25834896
+202260			Virgibacillus sediminis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_sediminis; wikidata Q26306793; moderate
+202261			Virgibacillus kekensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_kekensis; wikidata Q26306707; moderate
+203193			Halobiforma	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobiforma; wikidata Q5643351
+204286			Cobetia	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cobetia; wikidata Q5138873
+205844			Novosphingobium pentaromativorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Novosphingobium_pentaromativorans; wikidata Q16986676
+207954			Neptuniibacter caesariensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Neptuniibacter_caesariensis; wikidata Q48840164; slight
+209639			Marinobacter lipolyticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_lipolyticus; wikidata Q16992070; moderate
+213248			Mesonia algae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesonia_algae; wikidata Q25863067; moderate
+215803			Enhygromyxa salina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enhygromyxa_salina; wikidata Q25842073; slight
+215803			Enhygromyxa salina	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Enhygromyxa_salina; wikidata Q25842073
+217169			Marinospirillum insulare	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinospirillum_insulare; wikidata Q25862745
+218204			Garciella	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Garciella; wikidata Q3758199
+218670			Marinobacter excellens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_excellens; wikidata Q26816892
+220754			Jeotgalibacillus campisalis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalibacillus_campisalis; wikidata Q25860911; moderate
+221711			Desulfovibrio brasiliensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_brasiliensis; wikidata Q16960177; moderate
+221989			Thalassotalea ganghwensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassotalea_ganghwensis; wikidata Q26295783
+223182			Halobacterium noricense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobacterium_noricense; wikidata Q16117914
+224402			Halococcus qingdaonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halococcus_qingdaonensis; wikidata Q25932997
+225144			Oceanisphaera litoralis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanisphaera_litoralis; wikidata Q26269507; moderate
+225453			Yaniella halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yaniella_halotolerans; wikidata Q26307880
+226010			Aestuariibacter salexigens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aestuariibacter_salexigens; wikidata Q16825790
+226011			Fluctibacter halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aestuariibacter_halophilus; wikidata Q16825783
+227979			Jeotgalicoccus	halophilic	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Jeotgalicoccus; wikidata Q3209086
+227979			Jeotgalicoccus	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Jeotgalicoccus; wikidata Q3209086
+229007			Halomonas ventosae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_ventosae; wikidata Q16982689; moderate
+236100			Marinobacter algicola	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_algicola; wikidata Q25862462; moderate
+237069			Tenuibacillus multivorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tenuibacillus_multivorans; wikidata Q62874033; moderate
+237679			Lentibacillus halodurans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_halodurans; wikidata Q25861321; moderate
+237684			Salinibacillus aidingensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinibacillus_aidingensis; wikidata Q48974080; moderate
+242600			Ichthyobacterium seriolicida	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ichthyobacterium_seriolicida; wikidata Q62868256; slight
+244365			Methylohalobius crimeensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylohalobius_crimeensis; wikidata Q17264648; moderate
+245836			Nocardiopsis salina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_salina; wikidata Q26269092
+246613			Microbacterium halotolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_halotolerans; wikidata Q25863331
+248451			Psychrobacter vallis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_vallis; wikidata Q16988830
+248452			Psychrobacter aquaticus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_aquaticus; wikidata Q16988749
+254954			Flagellimonas flavescens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Muricauda_flavescens; wikidata Q26816879; slight
+254955			Flagellimonas marinaquae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Muricauda_aquimarina; wikidata Q26816877; slight
+255984			Qipengyuania aquimaris	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Qipengyuania_aquimaris; wikidata Q26816854; slight
+256323			Marinobacter sediminum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_sediminum; wikidata Q18352761
+256324			Marinobacter bryozoorum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_bryozoorum; wikidata Q18352757
+257446			Lentibacillus juripiscarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_juripiscarius; wikidata Q18353588; moderate
+257772			Halomonas organivorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_organivorans; wikidata Q18348099
+260365			Shewanella aquimarina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella_aquimarina; wikidata Q48839978; slight
+261290			Halorubrum alkaliphilum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_alkaliphilum; wikidata Q25860569
+262076			Marinobacter flavimaris	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_flavimaris; wikidata Q25862478; slight
+262077			Marinobacter daepoensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_daepoensis; wikidata Q25862471; slight
+265425			Salinimonas chungwhensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinimonas_chungwhensis; wikidata Q26284207; moderate
+265426			Pontibacillus chungwhensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacillus_chungwhensis; wikidata Q26271248; moderate
+265976			Serinicoccus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Serinicoccus; wikidata Q21217676; moderate
+266892			Salibacterium qingdaonense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salibacterium_qingdaonense; wikidata Q26283826
+266951			Qipengyuania seohaensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Qipengyuania_seohaensis; wikidata Q25858127; slight
+266952			Qipengyuania gaetbuli	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Qipengyuania_gaetbuli; wikidata Q25842611; slight
+267135			Erythrobacter donghaensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erythrobacter_donghaensis; wikidata Q26274084; slight
+272774			Vreelandella alkaliphila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_alkaliphila; wikidata Q5643412
+273164			Pontibacillus marinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacillus_marinus; wikidata Q26271258; moderate
+279359			Christiangramia echinicola	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gramella_echinicola; wikidata Q25859786
+279369			Novosphingopyxis baekryungensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Novosphingopyxis_baekryungensis; wikidata Q26287478; slight
+279813			Thalassobacillus devorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassobacillus_devorans; wikidata Q26295569; moderate
+280236			Nocardiopsis gilva	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_gilva; wikidata Q26269016
+281252			Roseibium marinum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseibium_marinum; wikidata Q25861072
+281739			Idiomarina seosinensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Idiomarina_seosinensis; wikidata Q25860850
+282197			Jannaschia rubra	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jannaschia_rubra; wikidata Q25860904; slight
+284575			Lentibacillus lacisalsi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_lacisalsi; wikidata Q25861326; moderate
+284578			Lentibacillus salarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_salarius; wikidata Q25861328; moderate
+286420			Hahella ganghwensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hahella_ganghwensis; wikidata Q24975576
+290174			Aquimarina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquimarina; wikidata Q26209012
+290588			Shouchella oshimensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_oshimensis; wikidata Q111850714
+290588			Shouchella oshimensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_oshimensis; wikidata Q111850714
+291184			Lacinutrix copepodicola	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lacinutrix_copepodicola; wikidata Q61944772
+292222			Tsuneonella troitsensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tsuneonella_troitsensis; wikidata Q28405995
+292734			Psychrobacter namhaensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_namhaensis; wikidata Q15637726; slight
+293091			Haloquadratum walsbyi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloquadratum_walsbyi; wikidata Q3782773
+295065			Lentibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_halophilus; wikidata Q25861322; extreme
+295089			Pontixanthobacter luteolus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontixanthobacter_luteolus; wikidata Q28405977
+297171			Lentibacillus salis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_salis; wikidata Q25861331; moderate
+299480			Piscibacillus salipiscarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Piscibacillus_salipiscarius; wikidata Q26271055; moderate
+300231			Brumicola nitratireducens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glaciecola_nitratireducens; wikidata Q16982333
+300560			Isoptericola halotolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Isoptericola_halotolerans; wikidata Q25860882; moderate
+301388			Actinotalea bogoriensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulomonas_bogoriensis; wikidata Q25841226; slight
+302167			Virgibacillus dokdonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_dokdonensis; wikidata Q26306669; slight
+302484			Haloferax larsenii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloferax_larsenii; wikidata Q20081188; extreme
+306540			Halolactibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halolactibacillus_halophilus; wikidata Q25860235
+306572			Psychrobacter celer	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_celer; wikidata Q16977804; slight
+307521			Gracilibacillus boraciitolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gracilibacillus_boraciitolerans; wikidata Q16982477; moderate
+307643			Exiguobacterium profundum	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Exiguobacterium_profundum; wikidata Q25858452
+312089			Clostridium ganghwense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_ganghwense; wikidata Q3681066
+313367			Jannaschia seosinensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jannaschia_seosinensis; wikidata Q60185184; slight
+328224			Marinomonas dokdonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_dokdonensis; wikidata Q25862668; slight
+328225			Erythrobacter dokdonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Erythrobacter_dokdonensis; wikidata Q26274075; slight
+329523			Streptomyces albiaxialis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_albiaxialis; wikidata Q22286823
+330922			Psychrobacter cryohalolentis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychrobacter_cryohalolentis; wikidata Q16988762
+331971			Thalassobacillus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassobacillus; wikidata Q26295560; moderate
+332168			Halococcus hamelinensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halococcus_hamelinensis; wikidata Q25932958
+332516			Halovibrio denitrificans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halovibrio_denitrificans; wikidata Q25860704; extreme
+332518			Halospina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halospina; wikidata Q26225924; extreme
+332951			Halovivax	halophilic	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Halovivax; wikidata Q5643471
+335974			Marinobacter koreensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_koreensis; wikidata Q25862505; moderate
+337243			Halorubrum ezzemoulense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_ezzemoulense; wikidata Q25860596
+338193			Clostridium aestuarii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridium_aestuarii; wikidata Q19190596
+340214			Lentibacillus kapialis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_kapialis; wikidata Q25861324; moderate
+340680			Amorphus coralli	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Amorphus_coralli; wikidata Q25835875
+346183			Oceanisphaera donghaensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanisphaera_donghaensis; wikidata Q26269495; moderate
+347534			Zobellella denitrificans	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Zobellella_denitrificans; wikidata Q26308222
+349750			Sneathiella chinensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sneathiella_chinensis; wikidata Q61954871
+351052			Alkalilimnicola ehrlichii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalilimnicola_ehrlichii; wikidata Q16827267
+353800			Halostagnicola larsenii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halostagnicola_larsenii; wikidata Q20055215
+355591			Marinobacter vinifirmus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_vinifirmus; wikidata Q25862584; moderate
+359209			Marinomonas ostreistagni	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_ostreistagni; wikidata Q25862688
+361280			Tigheibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_halophilus; wikidata Q26306689
+361365			Tindallia texcoconensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tindallia_texcoconensis; wikidata Q26297874; moderate
+367188			Haladaptatus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haladaptatus; wikidata Q5641003
+367189			Haladaptatus paucihalophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haladaptatus_paucihalophilus; wikidata Q24727829
+368977			Alkalibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_halophilus; wikidata Q25834901
+372463			Oceanobacillus profundus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_profundus; wikidata Q26269532
+372463			Oceanobacillus profundus	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Oceanobacillus_profundus; wikidata Q26269532
+372655			Nocardiopsis terrae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_terrae; wikidata Q26269134
+373675			Thalassococcus halodurans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassococcus_halodurans; wikidata Q26295682
+374514			Nocardioides marinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardioides_marinus; wikidata Q26268951; slight
+374837			Marinomonas blandensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_blandensis; wikidata Q48839477; moderate
+375928			Natranaerobius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobius; wikidata Q26268338
+375929			Natranaerobius thermophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobius_thermophilus; wikidata Q26268336
+376171			Haloplanus natans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloplanus_natans; wikidata Q25860529
+376415			Halorubrum orientale	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_orientale; wikidata Q26000536
+376490			Desulfobaculum bizertense	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_bizertensis; wikidata Q25841864
+379482			Marinobacter pelagius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_pelagius; wikidata Q26816900; moderate
+381300			Thiohalospira halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiohalospira_halophila; wikidata Q26297482
+381634			Salinicoccus jeotgali	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinicoccus_jeotgali; wikidata Q16992377; moderate
+381706			Oceanobacillus chironomi	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_chironomi; wikidata Q16986723
+390884			Echinicola vietnamensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Echinicola_vietnamensis; wikidata Q25842032
+392823			Alkalibacillus silvisoli	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_silvisoli; wikidata Q25834905; moderate
+392825			Halalkalibacillus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halalkalibacillus; wikidata Q26219643; moderate
+393060			Mesoflavibacter zeaxanthinifaciens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesoflavibacter_zeaxanthinifaciens; wikidata Q25863066
+393090			Virgibacillus xinjiangensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_xinjiangensis; wikidata Q26306814; moderate
+394506			Salirhabdus euzebyi	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salirhabdus_euzebyi; wikidata Q26284380
+397268			Thiohalomonas	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiohalomonas; wikidata Q26297414; moderate
+398772			Methylohalomonas	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Methylohalomonas; wikidata Q26225937; moderate
+399363			Lacicoccus kunmingensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinicoccus_kunmingensis; wikidata Q26284027; moderate
+402385			Kushneria avicenniae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_avicenniae; wikidata Q25861055; moderate
+403935			Streptomyces radiopugnans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_radiopugnans; wikidata Q26292096
+404881			Albidovulum denitrificans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Defluviimonas_denitrificans; wikidata Q25841651; moderate
+405551			Saccharopolyspora halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_halophila; wikidata Q26283364
+405564			Actinopolyspora xinjiangensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinopolyspora_xinjiangensis; wikidata Q16825178
+406099			Aquisalimonas	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquisalimonas; wikidata Q26209605; moderate
+406100			Aquisalimonas asiatica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquisalimonas_asiatica; wikidata Q25838699; moderate
+407036			Sediminibacillus albus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sediminibacillus_albus; wikidata Q26284831; moderate
+408580			Bacillus coahuilensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bacillus_coahuilensis; wikidata Q4838962; moderate
+408753			Clostridiisalibacter paucivorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Clostridiisalibacter_paucivorans; wikidata Q25841419; moderate
+411959			Virgibacillus chiguensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_chiguensis; wikidata Q16993437
+415747			Thiohalomonas denitrificans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiohalomonas_denitrificans; wikidata Q26297406; moderate
+416230			Brachybacterium zhongshanense	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachybacterium_zhongshanense; wikidata Q25840530
+416585			Halorubrum californiense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_californiense; wikidata Q25860581
+418719			Marinobacter salsuginis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_salsuginis; wikidata Q25862555; moderate
+426756			Bhargavaea beijingensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bhargavaea_beijingensis; wikidata Q25840306; moderate
+426757			Bhargavaea ginsengi	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bhargavaea_ginsengi; wikidata Q25840310; moderate
+427072			Alkalicoccus chagannorensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalicoccus_chagannorensis; wikidata Q111748204; moderate
+427078			Salsuginibacillus kocurii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salsuginibacillus_kocurii; wikidata Q26284494; moderate
+428990			Novosphingobium mathurense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Novosphingobium_mathurense; wikidata Q26269438
+428991			Novosphingobium panipatense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Novosphingobium_panipatense; wikidata Q26269443
+430453			Marinobacter segnicrescens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_segnicrescens; wikidata Q26816905; moderate
+430457			Salinicola salarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinicola_salarius; wikidata Q26284112; moderate
+430457			Salinicola salarius	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinicola_salarius; wikidata Q26284112
+430914			Halorhabdus tiamatea	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorhabdus_tiamatea; wikidata Q25860539
+432303			Marinobacter guineae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_guineae; wikidata Q26816893; moderate
+433660			Nocardioides halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardioides_halotolerans; wikidata Q26268916
+434084			Marinobacterium marisflavi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacterium_marisflavi; wikidata Q48966772; slight
+438596			Salinimicrobium xinjiangense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinimicrobium_xinjiangense; wikidata Q26284196; moderate
+442899			Halolactibacillus alkaliphilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halolactibacillus_alkaliphilus; wikidata Q48972659
+446820			Lentibacillus salinarum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_salinarum; wikidata Q25861330; moderate
+447425			Halomonas nitroreducens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_nitroreducens; wikidata Q5643415
+453831			Saccharopolyspora qijiaojingensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_qijiaojingensis; wikidata Q26283429
+459525			Fictibacillus solisalsi	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fictibacillus_solisalsi; wikidata Q25858626
+462910			Pontibacillus yanchengensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacillus_yanchengensis; wikidata Q48967399; moderate
+469869			Virgibacillus arcticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_arcticus; wikidata Q16993433; moderate
+470815			Paraliobacillus quinghaiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraliobacillus_quinghaiensis; wikidata Q26270748; moderate
+470826			Psychroflexus sediminis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_sediminis; wikidata Q26279722; slight
+470866			Salinimicrobium terrae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinimicrobium_terrae; wikidata Q26284184; slight
+471825			Haloplasma contractile	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloplasma_contractile; wikidata Q263860
+472977			Natronobacillus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronobacillus; wikidata Q27438780; moderate
+475979			Marinobacter lacisalsi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_lacisalsi; wikidata Q26816896; moderate
+476102			Salirhabdus salicampi	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salirhabdus_salicampi; wikidata Q48967518
+476157			Altererythrobacter ishigakiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Altererythrobacter_ishigakiensis; wikidata Q28405972
+478441			Halorubrum kocurii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halorubrum_kocurii; wikidata Q25860600
+478780			Cellulomonas phragmiteti	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulomonas_phragmiteti; wikidata Q25841246; moderate
+480071			Virgibacillus siamensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_siamensis; wikidata Q16993441; moderate
+481353			Oceanobacillus kapialis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_kapialis; wikidata Q16986734; moderate
+482460			Sediminibacillus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sediminibacillus; wikidata Q26284839
+482461			Sediminibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sediminibacillus_halophilus; wikidata Q26284847; moderate
+485576			Aquisalibacillus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquisalibacillus; wikidata Q26219510; moderate
+488533			Marinobacter mobilis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_mobilis; wikidata Q26816898
+488535			Marinobacter zhejiangensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_zhejiangensis; wikidata Q26816916
+492233			Thiohalorhabdus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiohalorhabdus; wikidata Q26297457; extreme
+501010			Nocardiopsis sinuspersici	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Nocardiopsis_sinuspersici; wikidata Q26269099
+502821			Vreelandella stevensii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_stevensii; wikidata Q20817833
+502829			Vreelandella hamiltonii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_hamiltonii; wikidata Q20817831
+504092			Kushneria aurantia	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_aurantia; wikidata Q25861054; moderate
+510690			Sneathiella	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sneathiella; wikidata Q12217088
+510955			Kaistella solincola	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseobacterium_solincola; wikidata Q24884280
+516123			Sporosalibacterium faouarense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sporosalibacterium_faouarense; wikidata Q26288368; moderate
+516699			Arthrobacter halodurans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_halodurans; wikidata Q24911930
+516700			Jeotgalicoccus marinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalicoccus_marinus; wikidata Q15976313; moderate
+516703			Pontibacillus litoralis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacillus_litoralis; wikidata Q26271256; moderate
+516704			Pontibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacillus_halophilus; wikidata Q26271254; moderate
+517424			Salsuginibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salsuginibacillus_halophilus; wikidata Q26284476
+517425			Salisediminibacterium halotolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salisediminibacterium_halotolerans; wikidata Q26284415
+520043			Salibacterium halochares	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salibacterium_halochares; wikidata Q26283808
+521013			Limimaricola pyoseonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Limimaricola_pyoseonensis; wikidata Q60329164
+527200			Thiorhodococcus fuscus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thiorhodococcus_fuscus; wikidata Q26297728; moderate
+531814			Gracilibacillus ureilyticus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gracilibacillus_ureilyticus; wikidata Q16991919
+545501			Oceanobacillus oncorhynchi	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_oncorhynchi; wikidata Q16986750
+552063			Salinarimonas rosea	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinarimonas_rosea; wikidata Q18353707
+552903			Myceligenerans halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Myceligenerans_halotolerans; wikidata Q26237436
+553311			Virgibacillus salinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_salinus; wikidata Q26306785; moderate
+553385			Cobetia crustatorum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cobetia_crustatorum; wikidata Q62902853; slight
+555500			Galbibacter marinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Galbibacter_marinus; wikidata Q62865495; moderate
+556288			Brachybacterium saurashtrense	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachybacterium_saurashtrense; wikidata Q25840521
+558169			Lentibacillus jeotgali	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_jeotgali; wikidata Q25861323; moderate
+558541			Shewanella chilikensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shewanella_chilikensis; wikidata Q48841365
+564117			Marinobacter antarcticus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_antarcticus; wikidata Q26816888
+568106			Marinobacterium lutimaris	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacterium_lutimaris; wikidata Q25862611; moderate
+568899			Alteribacillus persepolensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alteribacillus_persepolensis; wikidata Q25835511; moderate
+570161			Marinifilum fragile	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinifilum_fragile; wikidata Q62029748; moderate
+571932			Thalassobacillus cyri	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassobacillus_cyri; wikidata Q26295552; moderate
+571933			Piscibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Piscibacillus_halophilus; wikidata Q26271053; moderate
+574347			Modicisalibacter	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Modicisalibacter; wikidata Q28744846; moderate
+578221			Virgibacillus litoralis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_litoralis; wikidata Q26306717; moderate
+584787			Gallaecimonas pentaromativorans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gallaecimonas_pentaromativorans; wikidata Q25859182
+586416			Terribacillus aidingensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Terribacillus_aidingensis; wikidata Q26295234; moderate
+587739			Yaniella soli	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yaniella_soli; wikidata Q26307889; slight
+587872			Yimella lutea	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Yimella_lutea; wikidata Q26308006
+589010			Jeotgalicoccus huakuii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalicoccus_huakuii; wikidata Q15991144; moderate
+589010			Jeotgalicoccus huakuii	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalicoccus_huakuii; wikidata Q15991144
+595502			Kushneria sinocarnis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_sinocarnis; wikidata Q25861057; moderate
+604088			Qipengyuania nanhaisediminis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Qipengyuania_nanhaisediminis; wikidata Q26816849; slight
+617000			Desulfonatronovibrio thiodismutans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronovibrio_thiodismutans; wikidata Q18351392
+617001			Desulfonatronum thioautotrophicum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronum_thioautotrophicum; wikidata Q18351395
+617002			Desulfonatronum thiosulfatophilum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfonatronum_thiosulfatophilum; wikidata Q18351405
+621109			Virgibacillus subterraneus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_subterraneus; wikidata Q26306805; moderate
+640948			Lentibacillus persicus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_persicus; wikidata Q25861327; moderate
+643747			Marinobacter oulmenensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_oulmenensis; wikidata Q25862533; moderate
+644353			Halanaerobaculum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobaculum; wikidata Q26219644
+649198			Amorphus orientalis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Amorphus_orientalis; wikidata Q25835877; moderate
+650891			Marinobacter daqiaonensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_daqiaonensis; wikidata Q26816891; moderate
+657387			Kushneria phosphatilytica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_phosphatilytica; wikidata Q105702340
+661979			Brachybacterium squillarum	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachybacterium_squillarum; wikidata Q62855517
+664683			Vreelandella titanicae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomonas_titanicae; wikidata Q287265
+664784			Haloechinothrix alba	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloechinothrix_alba; wikidata Q25860165
+670078			Arthrobacter livingstonensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arthrobacter_livingstonensis; wikidata Q16834030
+670079			Paeniglutamicibacter cryotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paeniglutamicibacter_cryotolerans; wikidata Q62857482
+682973			Chryseomicrobium palamuruense	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseomicrobium_palamuruense; wikidata Q62875640
+695982			Halogranum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halogranum; wikidata Q14469599
+698769			Virgibacillus alimentarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_alimentarius; wikidata Q16993432
+706427			Halanaerobacter jeridensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobacter_jeridensis; wikidata Q25859951; moderate
+708126			Jeotgalibaca dankookensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Jeotgalibaca_dankookensis; wikidata Q62876489
+742169			Fictibacillus nanhaiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fictibacillus_nanhaiensis; wikidata Q25858612; slight
+743737			Corallomonas stylophorae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Corallomonas_stylophorae; wikidata Q48838310
+744724			Halarchaeum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halarchaeum; wikidata Q14518067
+745410			Gallaecimonas	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gallaecimonas; wikidata Q5518819
+748008			Thalassobacillus pellis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thalassobacillus_pellis; wikidata Q26295591; moderate
+753702			Alkalibacterium subtropicum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacterium_subtropicum; wikidata Q25834916; slight
+759412			Natranaerobius trueperi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobius_trueperi; wikidata Q26268340; extreme
+759413			Natronovirga	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronovirga; wikidata Q26268369
+766894			Shouchella hunanensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_hunanensis; wikidata Q111850648; slight
+766895			Shouchella xiaoxiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_xiaoxiensis; wikidata Q111850739; slight
+767452			Serinicoccus chungangensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Serinicoccus_chungangensis; wikidata Q26285073
+767528			Geomicrobium	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geomicrobium; wikidata Q26211780; moderate
+869896			Halonotius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halonotius; wikidata Q14469284
+871740			Halomarina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halomarina; wikidata Q14469376
+880057			Aliidiomarina minuta	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina_minuta; wikidata Q65079458
+885475			Salipaludibacillus neizhouensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salipaludibacillus_neizhouensis; wikidata Q48975082; slight
+904291			Microbacterium sediminis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Microbacterium_sediminis; wikidata Q25863551
+908615			Psychroflexus halocasei	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_halocasei; wikidata Q26279702
+908940			Salisediminibacterium locisalis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salisediminibacterium_locisalis; wikidata Q26284431; moderate
+908941			Salimicrobium salexigens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salimicrobium_salexigens; wikidata Q26283892; moderate
+910412			Melghirimyces algeriensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Melghirimyces_algeriensis; wikidata Q25863054
+930117			Ornithinibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ornithinibacillus_halophilus; wikidata Q26269638; moderate
+930118			Marinobacter persicus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_persicus; wikidata Q25862540; moderate
+930128			Alteribacillus iranensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alteribacillus_iranensis; wikidata Q48967232; moderate
+930129			Alteribacillus bidgolensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alteribacillus_bidgolensis; wikidata Q25835485; moderate
+930131			Oceanobacillus limi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_limi; wikidata Q62873827
+930132			Aquibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquibacillus_halophilus; wikidata Q48967251; moderate
+931625			Winogradskyella ulvae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Winogradskyella_ulvae; wikidata Q62868166; slight
+992287			Cellulomonas pakistanensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Cellulomonas_pakistanensis; wikidata Q25841243; moderate
+994319			Marinobacter xestospongiae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_xestospongiae; wikidata Q26816915; slight
+995060			Actinopolyspora lacussalsi subsp. righensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actinopolyspora_righensis; wikidata Q16825174
+1000566			Halosaccharopolyspora lacisalsi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halosaccharopolyspora_lacisalsi; wikidata Q26283410
+1005926			Flagellimonas taeanensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Muricauda_taeanensis; wikidata Q26816885; moderate
+1028742			Pontixanthobacter gangjinensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontixanthobacter_gangjinensis; wikidata Q28405968
+1028745			Aestuariibaculum suncheonense	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aestuariibaculum_suncheonense; wikidata Q28407297
+1035043			Tenuibacillus halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tenuibacillus_halotolerans; wikidata Q26294894; moderate
+1048642			Aliidiomarina shirensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina_shirensis; wikidata Q63369528
+1055104			Cobetia amphilecti	halotolerant	TRUE	Wikipedia_2026	sometimes	https://en.wikipedia.org/wiki/Cobetia_amphilecti; wikidata Q62902840
+1073986			Halobellus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halobellus; wikidata Q14496727
+1076695			Halanaerobium sehlinense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaerobium_sehlinense; wikidata Q25859970; extreme
+1084522			Hymenobacter saemangeumensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_saemangeumensis; wikidata Q28403839; extreme
+1084523			Hymenobacter koreensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Hymenobacter_koreensis; wikidata Q28403589; extreme
+1087332			Actibacterium mucosum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actibacterium_mucosum; wikidata Q25833679; slight
+1096341			Fonticella tunisiensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fonticella_tunisiensis; wikidata Q25858999
+1117708			Marinifilum flexuosum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinifilum_flexuosum; wikidata Q25862332; moderate
+1122252			Marinospirillum celere	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinospirillum_celere; wikidata Q25862736
+1123045			Ponticaulis koreensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ponticaulis_koreensis; wikidata Q26271267
+1125964			Limimaricola cinnabarinus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Limimaricola_cinnabarinus; wikidata Q60329159
+1126234			Salinirubrum litoreum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinirubrum_litoreum; wikidata Q25935329
+1130080			Alkalibacterium gilvum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacterium_gilvum; wikidata Q25834907
+1130726			Albidovulum aestuarii	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Defluviimonas_aestuarii; wikidata Q60183440; moderate
+1137280			Marinobacter nitratireducens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_nitratireducens; wikidata Q26816899
+1137993			Geodermatophilus africanus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Geodermatophilus_africanus; wikidata Q25859350
+1150774			Natribacillus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natribacillus; wikidata Q26268351; moderate
+1155689			Psychroflexus salarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_salarius; wikidata Q26279713; moderate
+1156576			Marinococcus tarijensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinococcus_tarijensis; wikidata Q25862654; moderate
+1168171			Aquibacillus albus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquibacillus_albus; wikidata Q25838228; moderate
+1181886			Saccharopolyspora dendranthemae	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_dendranthemae; wikidata Q26283329
+1194079			Streptomyces chilikensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_chilikensis; wikidata Q22287093
+1216297			Virgibacillus natechei	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_natechei; wikidata Q26306736; moderate
+1220182			Winogradskyella litoriviva	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Winogradskyella_litoriviva; wikidata Q62868060; moderate
+1226730			Thermanaeromonas burensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Thermanaeromonas_burensis; wikidata Q29566150
+1229268			Salinibacillus xinjiangensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinibacillus_xinjiangensis; wikidata Q48967473
+1232657			Isoptericola salitolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Isoptericola_salitolerans; wikidata Q105041033
+1236220			Melghirimyces thermohalophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Melghirimyces_thermohalophilus; wikidata Q25863056
+1247518			Oceanobacillus pacificus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Oceanobacillus_pacificus; wikidata Q26269530
+1247613			Pseudooceanicola antarcticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pseudooceanicola_antarcticus; wikidata Q60192391; moderate
+1249554			Aliidiomarina	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina; wikidata Q26208947
+1267423			Roseivirga pacifica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseivirga_pacifica; wikidata Q25858475; moderate
+1269031			Haloarchaeobius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloarchaeobius; wikidata Q14508852
+1285924			Saccharopolyspora halotolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_halotolerans; wikidata Q26283375
+1303863			Aquisalimonas halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquisalimonas_halophila; wikidata Q25838739; moderate
+1304284			Caldisalinibacter kiritimatiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Caldisalinibacter_kiritimatiensis; wikidata Q25840893
+1305740			Marinobacter nanhaiticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_nanhaiticus; wikidata Q26816902; slight
+1323740			Marinobacter halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_halophilus; wikidata Q26816895
+1327750			Aquisalimonas lutea	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aquisalimonas_lutea; wikidata Q62900940; moderate
+1327752			Idiomarina aquatica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Idiomarina_aquatica; wikidata Q62899028; moderate
+1327753			Amorphus suaedae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Amorphus_suaedae; wikidata Q25835878; slight
+1334022			Zunongwangia mangrovi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Zunongwangia_mangrovi; wikidata Q26308296; slight
+1335746			Spiribacter salinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiribacter_salinus; wikidata Q65068262; moderate
+1364945			Salinirubellus salinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinirubellus_salinus; wikidata Q60741735
+1365611			Falsirhodobacter deserti	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Falsirhodobacter_deserti; wikidata Q57967468
+1368476			Lysinibacillus halotolerans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lysinibacillus_halotolerans; wikidata Q62873691
+1379154			Alkalibacillus almallahensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalibacillus_almallahensis; wikidata Q25834895
+1382801			Glycocaulis albus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Glycocaulis_albus; wikidata Q62881129; moderate
+1383812			Halocalculus aciditolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halocalculus_aciditolerans; wikidata Q25932880
+1384038			Streptomyces iconiensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_iconiensis; wikidata Q26290515
+1387713			Streptomyces smyrnaeus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_smyrnaeus; wikidata Q26292661
+1389223			Marinobacter shengliensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_shengliensis; wikidata Q26816904; moderate
+1400062			Tranquillimonas	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tranquillimonas; wikidata Q26298006
+1413210			Orenia metallireducens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Orenia_metallireducens; wikidata Q105972279
+1417747			Lentibacillus garicola	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_garicola; wikidata Q62873592; moderate
+1434004			Fonticella	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fonticella; wikidata Q26219624
+1434071			Aliidiomarina iranensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina_iranensis; wikidata Q63369441; slight
+1436961			Pontibacter chinhatensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacter_chinhatensis; wikidata Q29887766
+1449799			Pseudidiomarina halophila	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Idiomarina_halophila; wikidata Q62899092
+1449801			Pontibacillus salicampi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacillus_salicampi; wikidata Q48967395; moderate
+1470180			Prauserella isguenensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Prauserella_isguenensis; wikidata Q26274351
+1472767			Lentibacillus amyloliquefaciens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_amyloliquefaciens; wikidata Q62873579
+1476748			Bounagaea algeriensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Bounagaea_algeriensis; wikidata Q25840490
+1479511			Virgibacillus oceani	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_oceani; wikidata Q29565781; moderate
+1494078			Marinobacter aromaticivorans	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_aromaticivorans; wikidata Q26816889; slight
+1508770			Kushneria pakistanensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Kushneria_pakistanensis; wikidata Q62903432; moderate
+1526575			Psychroflexus planctonicus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Psychroflexus_planctonicus; wikidata Q25170542; moderate
+1537568			Desulfovibrio biadhensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Desulfovibrio_biadhensis; wikidata Q25841862; slight
+1542963			Halapricum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halapricum; wikidata Q25931650
+1548213			Alkalicoccus urumqiensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalicoccus_urumqiensis; wikidata Q111748177; moderate
+1548599			Halalkalibacter kiskunsagensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_kiskunsagensis; wikidata Q111850660; moderate
+1564956			Gracilibacillus massiliensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Gracilibacillus_massiliensis; wikidata Q60185216; moderate
+1569211			Marinobacter halotolerans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_halotolerans; wikidata Q42955821; moderate
+1569266			Litoribaculum	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Litoribaculum; wikidata Q27438598
+1604004			Halanaeroarchaeum sulfurireducens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halanaeroarchaeum_sulfurireducens; wikidata Q25931617
+1604349			Roseibium salinum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Roseibium_salinum; wikidata Q60192356
+1610490			Fictibacillus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Fictibacillus_halophilus; wikidata Q29566553; moderate
+1614693			Actibacterium naphthalenivorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Actibacterium_naphthalenivorans; wikidata Q60185177; moderate
+1614694			Celeribacter naphthalenivorans	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Celeribacter_naphthalenivorans; wikidata Q60183484; moderate
+1630542			Alkalihalophilus lindianensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_lindianensis; wikidata Q111850676
+1639035			Ancylomarina subtilis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ancylomarina_subtilis; wikidata Q62859043; moderate
+1649266			Pontibacter mucosus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacter_mucosus; wikidata Q29887785
+1649472			Natranaerobaculum	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natranaerobaculum; wikidata Q26268335
+1649580			Shouchella shacheensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalihalobacillus_shacheensis; wikidata Q111850733; moderate
+1667239			Alkalicoccus halolimnae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alkalicoccus_halolimnae; wikidata Q62871119; moderate
+1670830			Egicoccus halophilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Egicoccus_halophilus; wikidata Q48966572; moderate
+1685382			Pseudoponticoccus marisrubri	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Ponticoccus_marisrubri; wikidata Q60185245; moderate
+1697394			Pontibacillus salipaludis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Pontibacillus_salipaludis; wikidata Q48967396; slight
+1703343			Marinirhabdus gelatinilytica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinirhabdus_gelatinilytica; wikidata Q62866439; slight
+1713625			Marinococcus salis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinococcus_salis; wikidata Q48967306
+1715693			Shimia thalassica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Shimia_thalassica; wikidata Q105044062; slight
+1737568			Croceibacterium salegens	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Croceibacterium_salegens; wikidata Q62889668; slight
+1792290			Marinomonas spartinae	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinomonas_spartinae; wikidata Q48839737
+1807691			Echinicola rosea	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Echinicola_rosea; wikidata Q57411334
+1840204			Salininema	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salininema_proteolyticum; wikidata Q62595257
+1852015			Albirhodobacter confluentis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Albirhodobacter_confluentis; wikidata Q57828453; moderate
+1854574			Streptomyces huasconensis	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Streptomyces_huasconensis; wikidata Q111754249
+1857014			Tamilnaduibacter	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Tamilnaduibacter; wikidata Q26294639
+1859103			Sporosalibacterium tautonense	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sporosalibacterium_tautonense; wikidata Q62878807; moderate
+1874317			Marinobacter salinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Marinobacter_salinus; wikidata Q42955828
+1885916			Paraliobacillus sediminis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Paraliobacillus_sediminis; wikidata Q48967318; slight
+1898109			Salibacterium lacus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salibacterium_lacus; wikidata Q48964930
+1912324			Haloplanus salinarum	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Haloplanus_salinarium; wikidata Q48965972
+1915063			Winogradskyella aurantia	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Winogradskyella_aurantia; wikidata Q62867953; slight
+1926277			Sediminibacillus massiliensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Sediminibacillus_massiliensis; wikidata Q48967592; moderate
+1933879			Aliidiomarina sedimenti	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Aliidiomarina_sedimenti; wikidata Q63369493; moderate
+1935996			Spiribacter aquaticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Spiribacter_aquaticus; wikidata Q63345737; moderate
+1940526			Labilibaculum filiforme	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Labilibaculum_filiforme; wikidata Q65121203
+1940529			Lentibacillus sediminis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_sediminis; wikidata Q62873632; moderate
+2004408			Virgibacillus ndiopensis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_ndiopensis; wikidata Q66671108
+2024554			Virgibacillus indicus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_indicus; wikidata Q62874074; moderate
+2024555			Virgibacillus profundi	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Virgibacillus_profundi; wikidata Q62874137; moderate
+2024969			Natronospira	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Natronospira; wikidata Q62646075
+2032626			Halovibrio salipaludis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Halovibrio_salipaludis; wikidata Q105752856
+2035712			Guyparkeria	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Guyparkeria; wikidata Q48999590
+2041346			Chryseomicrobium excrementi	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Chryseomicrobium_excrementi; wikidata Q62875629; slight
+2047740			Rhodosalinus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Rhodosalinus; wikidata Q60199115; moderate
+2081980			Saccharopolyspora deserti	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Saccharopolyspora_deserti; wikidata Q55643351
+2182385			Brachybacterium endophyticum	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Brachybacterium_endophyticum; wikidata Q63371438
+2201383			Mangrovicoccus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mangrovicoccus; wikidata Q60199082
+2303538			Salinimonas sediminis	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Salinimonas_sediminis; wikidata Q63346272; slight
+2510307			Lentibacillus lipolyticus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_lipolyticus; wikidata Q111739166; moderate
+2583219			Lentibacillus cibarius	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_cibarius; wikidata Q111739471
+2583821			Arenibacterium halophilum	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Arenibacterium_halophilum; wikidata Q111168913
+2594475			Isoptericola halalbus	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Isoptericola_halalbus; wikidata Q104902944
+2687242			Mesonia oceanica	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Mesonia_oceanica; wikidata Q105274723; slight
+2705546			Alteripontixanthobacter muriae	halotolerant	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Alteripontixanthobacter_muriae; wikidata Q111552191
+2711294			Grimontia sedimenti	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Grimontia_sedimenti; wikidata Q111166001; slight
+2737028			Lentibacillus saliphilus	halophilic	TRUE	Wikipedia_2026	always	https://en.wikipedia.org/wiki/Lentibacillus_saliphilus; wikidata Q111739181; moderate
