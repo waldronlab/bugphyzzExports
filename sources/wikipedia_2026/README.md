@@ -50,7 +50,7 @@ A check of 30 random genus and species extractions against their text, made on t
 
 ## Halophily, temperature and pH classes
 
-Three physiologies that are new to bugphyzz, added in the `wikipedia-2026` branch of waldronlab/bugphyzz (`spreadsheet_links.tsv`, `attributes.tsv`). `physiologies()` returns them; the export does not include them yet, because every exported attribute needs a row in `validation_attributes.tsv`.
+Three physiologies that are new to bugphyzz, added in bugphyzz 1.7.18 (`spreadsheet_links.tsv`, `attributes.tsv`). `physiologies()` returns them and the export includes them. Imputed values are kept only for classes that pass the cross-validation; `ph class` has values for fewer than 1% of the tips of the tree and is not imputed.
 
 - `halophily class`: halophilic (441), halotolerant (120), non-halophilic (1). "Slight", "moderate" or "extreme" is in `Note`. BacDive's `halophily` is a different thing, the NaCl range of growth.
 - `temperature class`: thermophile (284), mesophile (174), psychrophile (116), psychrotolerant (71), hyperthermophile (34), thermotolerant (17).
