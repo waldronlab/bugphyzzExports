@@ -2,10 +2,12 @@
 
 Changes to the data pipeline and the exported files, newest first. Released data versions are on Zenodo (concept DOI 10.5281/zenodo.10980653); the `devel` branch holds the weekly export.
 
-## Unreleased
+## 2026-11-12, v1.2.0 (Zenodo DOI added after the release)
 
 - **New source `Wikipedia_2026`** (waldronlab/bugphyzz#296): traits read from the introductory paragraphs of English Wikipedia articles carried by taxoniq, 26,485 rows for 7,968 genera and species in 19 physiologies, confidence `medium`. Three of the physiologies are new: `halophily class`, `temperature class` and `ph class` (#106). See `sources/wikipedia_2026/README.md` for the comparison with the other sources.
 - **The data licence changes from CC BY 4.0 to CC BY-SA 4.0** with the Wikipedia source. The software stays Artistic-2.0.
+- **Validation re-run with the new source** (#107; taxPProValidation v1.0.8, bugphyzz 1.7.19): the attributes with imputed annotations are the same as in v1.1.0 (aerophilicity, gram stain, spore formation, coding genes, genome size, G+C content, growth temperature). The three classes are exported with stated values only: `halophily class` and `temperature class` score below the kappa threshold, and `ph class` has too few annotated tips to be imputed.
+- **Fix**: a multistate attribute too sparse for imputation is now written with its state in `Attribute_value` (#108).
 
 ## 2026-11-10, v1.1.0 (Zenodo 10.5281/zenodo.24114812)
 
