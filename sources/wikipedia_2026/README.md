@@ -2,7 +2,7 @@
 
 Genus and species traits from the introductory paragraphs of English Wikipedia articles, as carried by taxoniq (waldronlab/bugphyzz#296). The method is the one used for the Bergey's abstracts (`../bergeys_2026/`): an LLM reads each text and fills a fixed schema, and `build_traits.py` turns the result into curation-sheet tables.
 
-Status: a first run for review. The source needs the `Wikipedia_2026` row in `bugphyzz/inst/extdata/attribute_sources.tsv` (branch `wikipedia-2026` of waldronlab/bugphyzz), with confidence `medium` and evidence `nas`. The export comparison below was run with these.
+Status: in the export since data release v1.2.0 (10.5281/zenodo.24166279). The `Wikipedia_2026` row of `bugphyzz/inst/extdata/attribute_sources.tsv` gives it confidence `medium` and evidence `nas`.
 
 ## Provenance
 
@@ -11,12 +11,13 @@ Status: a first run for review. The source needs the `Wikipedia_2026` row in `bu
 - Extraction: `extract.py` with `system_prompt.txt`, model `gemini-3.8-flash` (Google Generative Language API), temperature 0, JSON output. Run 2026-11-10, 202 batches; three batches came back one taxon short and were re-run.
 - Second pass, 2026-11-10: halophily class, temperature class and pH class with `system_prompt_extremophily.txt`, same model and settings, on the 2,186 taxa whose text has a word for one of them (`select_batches.py`, 44 batches). Only the class words count; nothing is inferred from a habitat or a stated temperature.
 - `system_prompt.txt` gained the habitat terms "skin" and "intertidal zone" after the run. The run returned them as "other: skin" and "other: tidal flat", which `build_traits.py` maps (`OTHER_HABITAT`).
-- `build_traits.py` writes the TSVs, applying `overrides.tsv` (empty so far).
-- The text, the batches and the model output are not committed, because the extracts are CC BY-SA. They are on supermicro and on Levi's laptop under `~/data/wikipedia_2026/run_2026-11-10/`.
+- `revisions.py`, run 2026-11-12, finds the Wikipedia revision each extract came from (see Known limits).
+- `build_traits.py` writes the TSVs, applying `overrides.tsv` (empty so far). The Note links the revision and the Wikidata item.
+- The text with the revision of each article, the batches, the model output and the prompts are on Zenodo: 10.5281/zenodo.24173174 (CC BY-SA 4.0). They are enough to rebuild the tables without a new extraction (see Refreshing). They are not committed here, to keep the repository to the tables and the code.
 
 ## Licence
 
-Wikipedia text is CC BY-SA 4.0. The tables here hold values read from the text and a link to the article, and none of the text. Once this source is in the export, the bugphyzz data files are distributed under CC BY-SA 4.0 instead of CC BY 4.0 (export file headers, the repository README and `.zenodo.json`). The software stays Artistic-2.0.
+Wikipedia text is CC BY-SA 4.0. The tables here hold values read from the text and a link to the revision of the article, and none of the text; the text is in the Zenodo record above. Once this source is in the export, the bugphyzz data files are distributed under CC BY-SA 4.0 instead of CC BY 4.0 (export file headers, the repository README and `.zenodo.json`). The software stays Artistic-2.0.
 
 ## Output (2026-11-10)
 
@@ -109,19 +110,22 @@ In another 12 pairs the top state changes while the source stays Madin_2020 or P
 ## Known limits
 
 - Coverage is what Wikidata links to an NCBI taxid; 4,140 linked taxids are no longer in the taxonomy and are skipped rather than remapped through merged taxids.
-- An article can be edited by anyone and the extract is a snapshot of unknown date within the taxoniq build; the Note links the live article, not the revision.
+- taxoniq fetched the extracts live between 26 and 30 October 2026 and did not record revisions. `revisions.py` looked them up afterwards: 9,925 articles were not edited in that window, so the revision is exact; for 139 the edits did not touch the introduction; for 28 the introduction changed, and the revision whose introduction is closest to the stored text is kept (`matched_by` and `match_ratio` in `revisions.tsv` on Zenodo). The taxoniq build is not published (#111).
 - `physiologies()` leaves `Rank` empty for about half the rows because bugphyzz's internal `ranksParents` table predates these taxids (the same holds for Madin_2020). The export looks ranks up again, so nothing is lost there.
 - "Curved rod" is written as `vibrio`, as in Bergeys_2026, and disagrees with `bacillus` in BacDive or Bergeys_2026 for 19 taxa.
 
 ## Refreshing
 
+To rebuild the tables from the Zenodo record, unzip `extraction.zip` there and run only the `build_traits.py` line, with `records.jsonl` and `revisions.tsv` from the record.
+
 ```sh
-# on a machine with the Wikipedia-enabled taxoniq build
+# a new extraction, on a machine with the Wikipedia-enabled taxoniq build
 python3 -I collect.py <dir containing the ncbi_taxon_db package> <scratch_dir>
 python3 -I extract.py system_prompt.txt <scratch_dir>/batches <scratch_dir>/out 8   # needs ~/.pi/agent/auth.json google key
 python3 -I select_batches.py <scratch_dir>/records.jsonl <scratch_dir>/batches_extremophily 'halo|salt|salin|thermo|psychro|cryo|mesoph|acido|acid-|alkal|neutroph|cold|heat'
 python3 -I extract.py system_prompt_extremophily.txt <scratch_dir>/batches_extremophily <scratch_dir>/out_extremophily 8
-python3 -I build_traits.py <scratch_dir>/out <scratch_dir>/records.jsonl . <scratch_dir>/out_extremophily
+python3 -I revisions.py <scratch_dir>/records.jsonl <scratch_dir>/revisions.tsv   # only for a new extraction; set the window in the script
+python3 -I build_traits.py <scratch_dir>/out <scratch_dir>/records.jsonl . <scratch_dir>/out_extremophily <scratch_dir>/revisions.tsv
 # comparison; physiologies.rds is saveRDS(bugphyzz::physiologies("all")) without this source
 Rscript analysis/compare_sources.R physiologies.rds . <scratch_dir>/records.jsonl analysis/results
 Rscript analysis/added.R physiologies.rds . <scratch_dir>/records.jsonl analysis/results

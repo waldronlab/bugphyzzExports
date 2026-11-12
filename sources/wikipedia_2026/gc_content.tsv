@@ -1,37 +1,37 @@
 NCBI_ID	Genome_ID	Accession_ID	Taxon_name	Attribute	Attribute_value	Attribute_source	Frequency	Unit	Note
-68			Lysobacter	gc content	65.0-72.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Lysobacter; wikidata Q4518042
-192			Azospirillum brasilense	gc content	70.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Azospirillum_brasilense; wikidata Q16836505
-713			Actinobacillus	gc content	40.0-47.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Actinobacillus; wikidata Q310714
-816			Bacteroides	gc content	40.0-48.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Bacteroides; wikidata Q133186
-1269			Micrococcus	gc content	65.0-75.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Micrococcus; wikidata Q1954952
-1449			Amphibacillus xylanus	gc content	36.0-38.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Amphibacillus_xylanus; wikidata Q4748168
-1605			Ligilactobacillus animalis	gc content	41.1	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Ligilactobacillus_animalis; wikidata Q115109936
-1771			Mycolicibacterium phlei	gc content	73.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Mycobacterium_phlei; wikidata Q16986094
-1844			Nocardioides luteus	gc content	74.6-74.8	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Nocardioides_luteus; wikidata Q26268946
-2147			Acholeplasma	gc content	26.0-36.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Acholeplasma; wikidata Q481881
-2374			Acetonema longum	gc content	51.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Acetonema_longum; wikidata Q3604304
-28091			Neisseria weaveri	gc content	49.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Neisseria_weaveri; wikidata Q18391712
-28232			Geobacter metallireducens	gc content	59.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Geobacter_metallireducens; wikidata Q16982256
-28452			Leptospira alstonii	gc content	31.0-47.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Leptospira_alstonii; wikidata Q47175006
-29303			Streptantibioticus cattleyicolor	gc content	73.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Streptomyces_cattleya; wikidata Q18385815
-57043			Microbacterium esteraromaticum	gc content	69.3-69.7	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Microbacterium_esteraromaticum; wikidata Q25863320
-74829			Stutzerimonas balearica	gc content	64.6	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Pseudomonas_balearica; wikidata Q7255014
-75654			Duganella	gc content	63.0-64.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Duganella; wikidata Q5312483
-81467			Aminobacterium mobile	gc content	44.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Aminobacterium_mobile; wikidata Q25835861
-160232			Nanoarchaeum equitans	gc content	31.6	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Nanoarchaeum_equitans; wikidata Q221936
-160791			Rhizorhabdus wittichii	gc content	67.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Rhizorhabdus_wittichii; wikidata Q112996810
-185951			Sphingomonas aerolata	gc content	66.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Sphingomonas_aerolata; wikidata Q26286826
-207243			Palaeococcus helgesonii	gc content	42.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Palaeococcus_helgesonii; wikidata Q20669259
-223184			Kocuria marina	gc content	60.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Kocuria_marina; wikidata Q25860996
-284570			Microbacterium natoriense	gc content	69.1	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Microbacterium_natoriense; wikidata Q25863396
-396388			Aestuariimicrobium	gc content	69.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Aestuariimicrobium; wikidata Q4688596
-528209			Secundilactobacillus kimchicus	gc content	46.6	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Secundilactobacillus_kimchicus; wikidata Q117090107
-573501			Leeuwenhoekiella palythoae	gc content	41.2	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Leeuwenhoekiella_palythoae; wikidata Q25861300
-587753			Pseudomonas chlororaphis	gc content	61.9-64.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Pseudomonas_chlororaphis; wikidata Q7255026
-879566			Acetatifactor muris	gc content	48.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Acetatifactor_muris; wikidata Q25374326
-985762			Staphylococcus agnetis	gc content	35.8	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Staphylococcus_agnetis; wikidata Q20720510
-1004583			Neoscardovia arbecensis	gc content	57.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Neoscardovia_arbecensis; wikidata Q26268422
-1008460			Pyrococcus yayanosii	gc content	49.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Pyrococcus_yayanosii; wikidata Q18456556
-1715989			Candidatus Nitrospira inopinata	gc content	59.2	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Nitrospira_inopinata; wikidata Q105320670
-1742687			Arthrobacter deserti	gc content	68.3	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Arthrobacter_deserti; wikidata Q29566528
-1742992			Paenarthrobacter	gc content	61.3-62.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/wiki/Paenarthrobacter; wikidata Q27438445
+68			Lysobacter	gc content	65.0-72.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Lysobacter&oldid=1382073151; wikidata Q4518042
+192			Azospirillum brasilense	gc content	70.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Azospirillum_brasilense&oldid=1306810826; wikidata Q16836505
+713			Actinobacillus	gc content	40.0-47.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Actinobacillus&oldid=1367575552; wikidata Q310714
+816			Bacteroides	gc content	40.0-48.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Bacteroides&oldid=1364901754; wikidata Q133186
+1269			Micrococcus	gc content	65.0-75.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Micrococcus&oldid=1354827590; wikidata Q1954952
+1449			Amphibacillus xylanus	gc content	36.0-38.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Amphibacillus_xylanus&oldid=1314785209; wikidata Q4748168
+1605			Ligilactobacillus animalis	gc content	41.1	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Ligilactobacillus_animalis&oldid=1311910477; wikidata Q115109936
+1771			Mycolicibacterium phlei	gc content	73.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Mycobacterium_phlei&oldid=1180026068; wikidata Q16986094
+1844			Nocardioides luteus	gc content	74.6-74.8	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Nocardioides_luteus&oldid=1360713387; wikidata Q26268946
+2147			Acholeplasma	gc content	26.0-36.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Acholeplasma&oldid=1289820656; wikidata Q481881
+2374			Acetonema longum	gc content	51.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Acetonema_longum&oldid=1322858138; wikidata Q3604304
+28091			Neisseria weaveri	gc content	49.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Neisseria_weaveri&oldid=1361631504; wikidata Q18391712
+28232			Geobacter metallireducens	gc content	59.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Geobacter_metallireducens&oldid=1372939689; wikidata Q16982256
+28452			Leptospira alstonii	gc content	31.0-47.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Leptospira_alstonii&oldid=1224020925; wikidata Q47175006
+29303			Streptantibioticus cattleyicolor	gc content	73.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Streptomyces_cattleya&oldid=1331037827; wikidata Q18385815
+57043			Microbacterium esteraromaticum	gc content	69.3-69.7	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Microbacterium_esteraromaticum&oldid=1170136176; wikidata Q25863320
+74829			Stutzerimonas balearica	gc content	64.6	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Pseudomonas_balearica&oldid=1193249367; wikidata Q7255014
+75654			Duganella	gc content	63.0-64.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Duganella&oldid=1369638216; wikidata Q5312483
+81467			Aminobacterium mobile	gc content	44.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Aminobacterium_mobile&oldid=1171842451; wikidata Q25835861
+160232			Nanoarchaeum equitans	gc content	31.6	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Nanoarchaeum_equitans&oldid=1367459524; wikidata Q221936
+160791			Rhizorhabdus wittichii	gc content	67.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Rhizorhabdus_wittichii&oldid=1317978117; wikidata Q112996810
+185951			Sphingomonas aerolata	gc content	66.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Sphingomonas_aerolata&oldid=1325610179; wikidata Q26286826
+207243			Palaeococcus helgesonii	gc content	42.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Palaeococcus_helgesonii&oldid=1344917875; wikidata Q20669259
+223184			Kocuria marina	gc content	60.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Kocuria_marina&oldid=1314242150; wikidata Q25860996
+284570			Microbacterium natoriense	gc content	69.1	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Microbacterium_natoriense&oldid=1327099595; wikidata Q25863396
+396388			Aestuariimicrobium	gc content	69.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Aestuariimicrobium&oldid=1346655006; wikidata Q4688596
+528209			Secundilactobacillus kimchicus	gc content	46.6	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Secundilactobacillus_kimchicus&oldid=1316471018; wikidata Q117090107
+573501			Leeuwenhoekiella palythoae	gc content	41.2	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Leeuwenhoekiella_palythoae&oldid=1357584408; wikidata Q25861300
+587753			Pseudomonas chlororaphis	gc content	61.9-64.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Pseudomonas_chlororaphis&oldid=1342489149; wikidata Q7255026
+879566			Acetatifactor muris	gc content	48.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Acetatifactor_muris&oldid=1369635558; wikidata Q25374326
+985762			Staphylococcus agnetis	gc content	35.8	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Staphylococcus_agnetis&oldid=1208832101; wikidata Q20720510
+1004583			Neoscardovia arbecensis	gc content	57.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Neoscardovia_arbecensis&oldid=1373536530; wikidata Q26268422
+1008460			Pyrococcus yayanosii	gc content	49.0	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Pyrococcus_yayanosii&oldid=1369643279; wikidata Q18456556
+1715989			Candidatus Nitrospira inopinata	gc content	59.2	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Nitrospira_inopinata&oldid=1217532709; wikidata Q105320670
+1742687			Arthrobacter deserti	gc content	68.3	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Arthrobacter_deserti&oldid=1309011036; wikidata Q29566528
+1742992			Paenarthrobacter	gc content	61.3-62.5	Wikipedia_2026	always	mol%	https://en.wikipedia.org/w/index.php?title=Paenarthrobacter&oldid=1272583780; wikidata Q27438445
