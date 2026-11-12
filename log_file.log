@@ -4,16 +4,16 @@ Program Path: /__w/bugphyzzExports/bugphyzzExports/inst/scripts/export_bugphyzz.
 Working Directory: /__w/bugphyzzExports/bugphyzzExports 
 User Name: root 
 R Version: 4.6.1 (2026-06-24) 
-Machine: a45f0be47942 x86_64 
+Machine: 5658761a6ad8 x86_64 
 Operating System: Linux 7.0.0-1019-azure #20-Ubuntu SMP PREEMPT Mon Oct 19 22:41:16 UTC 2026 
 Base Packages: stats graphics grDevices utils datasets methods base 
-Other Packages: purrr_1.2.2 castor_1.8.7 Rcpp_1.1.2 phytools_2.5-2 maps_3.4.4 ape_5.8-1 tibble_3.3.1 tidyr_1.3.2 dplyr_1.2.1 rlang_1.3.0 taxPPro_1.0.1 bugphyzz_1.7.18 logr_1.4.1 common_1.1.5 
-Log Start Time: 2026-11-11 17:47:02.170834 
+Other Packages: purrr_1.2.2 castor_1.8.7 Rcpp_1.1.2 phytools_2.5-2 maps_3.4.4 ape_5.8-1 tibble_3.3.1 tidyr_1.3.2 dplyr_1.2.1 rlang_1.3.0 taxPPro_1.0.1 bugphyzz_1.7.19 logr_1.4.1 common_1.1.5 
+Log Start Time: 2026-11-12 03:46:14.660663 
 ========================================================================= 
 Importing 33 physiologies from bugphyzz: "growth temperature, coding genes, genome size, length, width, optimal ph, mutation rate per site per generation, mutation rate per site per year, gc content, animal pathogen, antimicrobial sensitivity, biofilm formation, extreme environment, health associated, hydrogen gas producing, lactate producing, motility, plant pathogenicity, spore formation, host-associated, sphingolipid producing, butyrate producing, aerophilicity, gram stain, biosafety level, COGEM pathogenicity rating, shape, spore shape, arrangement, hemolysis, halophily class, temperature class, ph class" 
 
    user  system elapsed 
- 35.046   1.197  87.266 
+ 30.685   1.032  80.188 
 
 gram stain: dropped 1 BacMap row(s) for Bacteroides vulgatus ATCC 8482 (435590): Bacteroides (now Phocaeicola) vulgatus is Gram negative (waldronlab/bugphyzz#260) 
 gram stain: dropped 1 BacMap row(s) for Parabacteroides distasonis ATCC 8503 (435591): Bacteroidota are Gram negative (waldronlab/bugphyzz#260) 
@@ -635,94 +635,94 @@ The following NCBI IDs might need to be updated:
 The following attributes are not valid and have been dropped: 
 Propagating aerophilicity of type multistate-intersection. 
    user  system elapsed 
-272.856   0.009 272.888 
+206.544   0.005 206.568 
 Propagating animal pathogen of type binary. 
    user  system elapsed 
-377.771   0.027 377.827 
+286.393   0.023 286.440 
 Propagating antimicrobial sensitivity of type binary. 
    user  system elapsed 
-340.471   0.019 340.514 
+261.737   0.023 261.784 
 Propagating arrangement of type multistate-intersection. 
    user  system elapsed 
-486.998   0.041 487.082 
+380.388   0.014 380.435 
 Propagating biofilm formation of type binary. 
 Not enough data for ASR for biofilm formation. Skipping ASR. 
 Propagating biosafety level of type multistate-intersection. 
    user  system elapsed 
-314.922   0.023 314.966 
+241.251   0.013 241.287 
 Propagating butyrate producing of type binary. 
 Not enough data for ASR for butyrate producing. Skipping ASR. 
 Propagating coding genes of type range. 
    user  system elapsed 
-  0.822   0.002   0.827 
+  0.582   0.001   0.585 
 Propagating COGEM pathogenicity rating of type multistate-intersection. 
    user  system elapsed 
-312.832   0.022 312.875 
+240.032   0.004 240.053 
 Propagating extreme environment of type binary. 
    user  system elapsed 
-344.276   0.019 344.317 
+264.128   0.021 264.171 
 Propagating gc content of type range. 
    user  system elapsed 
-  0.418   0.000   0.418 
+  0.292   0.001   0.293 
 Propagating genome size of type range. 
    user  system elapsed 
-  0.832   0.000   0.832 
+  0.576   0.000   0.576 
 Propagating gram stain of type multistate-intersection. 
    user  system elapsed 
-367.278   0.026 367.329 
+281.813   0.008 281.843 
 Propagating growth temperature of type range. 
    user  system elapsed 
-  0.823   0.000   0.823 
+  0.583   0.000   0.582 
 Propagating halophily class of type multistate-intersection. 
    user  system elapsed 
-315.898   0.014 315.930 
+244.495   0.004 244.517 
 Propagating health associated of type binary. 
 Not enough data for ASR for health associated. Skipping ASR. 
 Propagating hemolysis of type multistate-intersection. 
    user  system elapsed 
-349.975   0.010 350.007 
+269.834   0.012 269.865 
 Propagating host-associated of type binary. 
    user  system elapsed 
-320.525   0.012 320.555 
+245.711   0.007 245.736 
 Propagating hydrogen gas producing of type binary. 
 Not enough data for ASR for hydrogen gas producing. Skipping ASR. 
 Propagating lactate producing of type binary. 
 Not enough data for ASR for lactate producing. Skipping ASR. 
 Propagating length of type range. 
    user  system elapsed 
-  1.677   0.000   1.678 
+  1.184   0.000   1.183 
 Propagating motility of type binary. 
    user  system elapsed 
-419.504   0.027 419.560 
+324.235   0.006 324.263 
 Propagating mutation rate per site per generation of type range. 
 Not enough data for ASR for mutation rate per site per generation. Skipping ASR. 
 Propagating mutation rate per site per year of type range. 
 Not enough data for ASR for mutation rate per site per year. Skipping ASR. 
 Propagating optimal ph of type range. 
    user  system elapsed 
-  1.998   0.000   1.997 
+  1.418   0.000   1.418 
 Propagating ph class of type multistate-intersection. 
 Not enough data for ASR for ph class. Skipping ASR. 
 Propagating plant pathogenicity of type binary. 
    user  system elapsed 
-295.617   0.011 295.646 
+228.805   0.014 228.836 
 Propagating shape of type multistate-intersection. 
    user  system elapsed 
-483.338   0.037 483.408 
+374.793   0.022 374.845 
 Propagating sphingolipid producing of type binary. 
 Not enough data for ASR for sphingolipid producing. Skipping ASR. 
 Propagating spore formation of type binary. 
    user  system elapsed 
-271.901   0.010 271.929 
+211.779   0.008 211.803 
 Propagating spore shape of type multistate-intersection. 
    user  system elapsed 
-364.337   0.009 364.366 
+282.436   0.007 282.467 
 Propagating temperature class of type multistate-intersection. 
    user  system elapsed 
-286.763   0.018 286.801 
+221.914   0.009 221.937 
 Propagating width of type range. 
    user  system elapsed 
-  1.942   0.000   1.942 
+  1.452   0.000   1.452 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 7 of 269 taxon IDs. The followings are left unrankd: 488538, 342610, 85643, 338187, 62153, 395568, 52765 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 4 of 507 taxon IDs. The followings are left unrankd: 866775, 1183401, 741091, 190486 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 8 of 215 taxon IDs. The followings are left unrankd: 665938, 665937, 195041, 469587, 469586, 469596, 469594, 97139 
@@ -747,10 +747,10 @@ Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 2 of 797 taxon IDs. The followings are left unrankd: 1097466, 321318 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 1 of 4 taxon IDs. The followings are left unrankd: 190486 
 Warning message: In `dplyr::mutate()`(): There was 1 warning in `dplyr::mutate()`. ℹ In argument: `Rank = taxizedb::taxid2rank(.data$NCBI_ID, db = "ncbi")`. Caused by warning in `taxizedb::taxid2rank()`: ! No rank found for 1 of 134 taxon IDs. The followings are left unrankd: 342610 
-aerophilicity: kept 9751 of 29463 ASR annotations (attribute score 0.786; Score >= 0.5). 
-animal pathogen: kept 0 of 44938 ASR annotations (attribute score 0.426; Score >= 0.5). 
+aerophilicity: kept 9751 of 29463 ASR annotations (attribute score 0.782; Score >= 0.5). 
+animal pathogen: kept 0 of 44938 ASR annotations (attribute score 0.35; Score >= 0.5). 
 antimicrobial sensitivity: kept 0 of 47042 ASR annotations (attribute score 0.193; Score >= 0.5). 
-arrangement: kept 0 of 226530 ASR annotations (attribute score 0.364; Score >= 0.5). 
+arrangement: kept 0 of 226530 ASR annotations (attribute score 0.354; Score >= 0.5). 
 biofilm formation: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
 biosafety level: kept 0 of 39846 ASR annotations (attribute score 0.475; Score >= 0.5). 
 butyrate producing: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
@@ -759,27 +759,27 @@ COGEM pathogenicity rating: kept 0 of 70110 ASR annotations (attribute score 0.5
 extreme environment: kept 0 of 46138 ASR annotations (attribute score 0.41; Score >= 0.5). 
 gc content: kept 4187 of 4263 ASR annotations (attribute score 0.942; Score >= 0.5). 
 genome size: kept 7769 of 8009 ASR annotations (attribute score 0.882; Score >= 0.5). 
-gram stain: kept 8799 of 26397 ASR annotations (attribute score 0.929; Score >= 0.5). 
-growth temperature: kept 8114 of 8299 ASR annotations (attribute score 0.739; Score >= 0.5). 
-halophily class: kept 0 of 70200 ASR annotations (attribute score NA; Score >= 0.5). 
+gram stain: kept 8799 of 26397 ASR annotations (attribute score 0.933; Score >= 0.5). 
+growth temperature: kept 8114 of 8299 ASR annotations (attribute score 0.742; Score >= 0.5). 
+halophily class: kept 0 of 70200 ASR annotations (attribute score 0.082; Score >= 0.5). 
 health associated: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
 hemolysis: kept 0 of 93836 ASR annotations (attribute score 0.182; Score >= 0.5). 
-host-associated: kept 0 of 45970 ASR annotations (attribute score NA; Score >= 0.5). 
+host-associated: kept 0 of 45970 ASR annotations (attribute score 0.139; Score >= 0.5). 
 hydrogen gas producing: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
 lactate producing: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
-length: kept 0 of 17908 ASR annotations (attribute score 0.22; Score >= 0.5). 
-motility: kept 0 of 24712 ASR annotations (attribute score 0.586; Score >= 0.5). 
+length: kept 0 of 17908 ASR annotations (attribute score 0.084; Score >= 0.5). 
+motility: kept 0 of 24712 ASR annotations (attribute score 0.598; Score >= 0.5). 
 mutation rate per site per generation: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
 mutation rate per site per year: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
 optimal ph: kept 0 of 20925 ASR annotations (attribute score 0.195; Score >= 0.5). 
 ph class: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
-plant pathogenicity: kept 0 of 46344 ASR annotations (attribute score 0.362; Score >= 0.5). 
-shape: kept 0 of 127413 ASR annotations (attribute score 0.548; Score >= 0.5). 
+plant pathogenicity: kept 0 of 46344 ASR annotations (attribute score 0.43; Score >= 0.5). 
+shape: kept 0 of 127413 ASR annotations (attribute score 0.565; Score >= 0.5). 
 sphingolipid producing: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
-spore formation: kept 16571 of 33142 ASR annotations (attribute score 0.856; Score >= 0.5). 
-spore shape: kept 0 of 94124 ASR annotations (attribute score 0.193; Score >= 0.5). 
-temperature class: kept 0 of 140016 ASR annotations (attribute score NA; Score >= 0.5). 
-width: kept 0 of 17957 ASR annotations (attribute score 0.021; Score >= 0.5). 
+spore formation: kept 16571 of 33142 ASR annotations (attribute score 0.865; Score >= 0.5). 
+spore shape: kept 0 of 94124 ASR annotations (attribute score 0.172; Score >= 0.5). 
+temperature class: kept 0 of 140016 ASR annotations (attribute score 0.269; Score >= 0.5). 
+width: kept 0 of 17957 ASR annotations (attribute score -0.011; Score >= 0.5). 
 habitat: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
 disease association: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
 antimicrobial resistance: kept 0 of 0 ASR annotations (attribute score NA; Score >= 0.5). 
@@ -1213,7 +1213,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       Etc/UTC
- date     2026-11-11
+ date     2026-11-12
  pandoc   3.13 @ /usr/bin/pandoc
  quarto   1.10.18 @ /usr/local/bin/quarto
 
@@ -1225,7 +1225,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  bit                 4.6.0      2025-03-06 [1] RSPM (R 4.6.0)
  bit64               4.8.6      2026-09-01 [1] RSPM (R 4.6.0)
  blob                1.3.0      2026-01-14 [1] RSPM (R 4.6.0)
- bugphyzz          * 1.7.18     2026-11-11 [1] Github (waldronlab/bugphyzz@2e8523b)
+ bugphyzz          * 1.7.19     2026-11-12 [1] Github (waldronlab/bugphyzz@12c2e57)
  bugsigdbr           1.19.0     2026-04-28 [1] Bioconductor 3.24 (R 4.6.1)
  cachem              1.1.0      2024-05-16 [1] RSPM (R 4.6.0)
  castor            * 1.8.7      2026-08-04 [1] RSPM (R 4.6.0)
@@ -1290,7 +1290,7 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
  stringi             1.8.9      2026-08-04 [1] RSPM (R 4.6.0)
  stringr             1.6.0      2025-11-04 [1] RSPM (R 4.6.0)
  taxizedb            0.3.2      2025-06-18 [1] RSPM (R 4.6.0)
- taxPPro           * 1.0.1      2026-11-11 [1] Github (waldronlab/taxPPro@4f149c6)
+ taxPPro           * 1.0.1      2026-11-12 [1] Github (waldronlab/taxPPro@4f149c6)
  tibble            * 3.3.1      2026-01-11 [1] RSPM (R 4.6.0)
  tidyr             * 1.3.2      2025-12-19 [1] RSPM (R 4.6.0)
  tidyselect          1.2.1      2024-03-11 [1] RSPM (R 4.6.0)
@@ -1306,6 +1306,6 @@ rank: mixed; tax_id_type: NCBI_ID; physiology: antimicrobial resistance
 ──────────────────────────────────────────────────────────────────────────────
 
 ========================================================================= 
-Log End Time: 2026-11-11 19:34:06.29454 
-Log Elapsed Time: 0 01:47:04 
+Log End Time: 2026-11-12 05:09:21.690823 
+Log Elapsed Time: 0 01:23:07 
 ========================================================================= 
