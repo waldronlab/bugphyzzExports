@@ -7,7 +7,7 @@ package of a taxoniq build with the Wikipedia stage (description, en_wiki_title
 and wikidata indexes); the taxonomy-only release wheels do not have them.
 Writes <scratch_dir>/records.jsonl (one taxon per line) and
 <scratch_dir>/batches/batch_NNNN.json (50 taxa each, the input of extract.py).
-Neither is committed: the text is CC BY-SA.
+Neither is committed; the run used for the tables is on Zenodo, 10.5281/zenodo.24173174.
 """
 import sys, os, json, re, html, datetime
 db_pkg_dir, scratch = sys.argv[1:3]

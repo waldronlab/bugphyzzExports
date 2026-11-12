@@ -1,10 +1,12 @@
 #!/usr/bin/env python3 -I
 """Turn the Gemini extraction (one JSON list per batch) into bugphyzz curation-sheet rows.
 
-Usage: build_traits.py <extraction_dir> <records.jsonl> <out_dir> [<extremophily_dir>]
+Usage: build_traits.py <extraction_dir> <records.jsonl> <out_dir> [<extremophily_dir> [<revisions.tsv>]]
 <records.jsonl> is collect.py's output: the taxa, their rank, article title and text.
 <extremophily_dir> is the second pass (system_prompt_extremophily.txt): halophily,
 temperature class and ph class.
+<revisions.tsv> is revisions.py's output; with it the Note links the revision the
+text came from, without it the live article.
 Writes one TSV per physiology in the Google Sheet column layout
 (NCBI_ID, Genome_ID, Accession_ID, Taxon_name, Attribute, Attribute_value,
 Attribute_source, Frequency, [Unit,] Note), with overrides.tsv applied.
@@ -12,11 +14,24 @@ Attribute_source, Frequency, [Unit,] Note), with overrides.tsv applied.
 import json, sys, os, glob, csv, collections, re, urllib.parse
 ext_dir, records_file, out_dir = sys.argv[1:4]
 extremo_dir = sys.argv[4] if len(sys.argv) > 4 else None
+revisions = {}
+if len(sys.argv) > 5:
+    for r in csv.DictReader(open(sys.argv[5]), delimiter="\t"):
+        if r["revid"]: revisions[r["taxid"]] = r["revid"]
 os.makedirs(out_dir, exist_ok=True)
 SOURCE = "Wikipedia_2026"
 records = {}
 for line in open(records_file):
     r = json.loads(line); records[r["taxid"]] = r
+
+def article_note(rec):
+    """Link to the article (the revision the text came from, if known) and the Wikidata item."""
+    title = urllib.parse.quote(rec["en_wiki_title"].replace(" ", "_"), safe="()_,'")
+    if rec["taxid"] in revisions:
+        url = f"https://en.wikipedia.org/w/index.php?title={title}&oldid={revisions[rec['taxid']]}"
+    else:
+        url = "https://en.wikipedia.org/wiki/" + title
+    return url + ("; wikidata " + rec["wikidata_id"] if rec["wikidata_id"] else "")
 # bugphyzz exports genus, species and strain (ADR 0004); NCBI ranks below species count as strain
 RANKS = {"genus", "species", "subspecies", "strain", "biotype", "serotype", "serogroup", "varietas", "forma_specialis", "isolate", "pathogroup"}
 # extraction vocabulary -> bugphyzz attributes.tsv vocabulary (None = drop)
@@ -71,8 +86,7 @@ for taxid in sorted(taxa, key=int):
     if not g.get("about_taxon"):
         dropped["text not about the taxon"] += 1; continue
     low = rec["text"].lower()
-    url = "https://en.wikipedia.org/wiki/" + urllib.parse.quote(rec["en_wiki_title"].replace(" ", "_"), safe="()_,'")
-    note = url + ("; wikidata " + rec["wikidata_id"] if rec["wikidata_id"] else "")
+    note = article_note(rec)
     base = {"NCBI_ID": taxid, "Genome_ID": "", "Accession_ID": "", "Taxon_name": rec["name"], "Attribute_source": SOURCE, "Note": note}
     def emit(phys, attr, val, freq):
         if freq not in FREQ: dropped[f"frequency {freq}"] += 1; return
@@ -146,8 +160,7 @@ if extremo_dir:
             taxid = str(g["taxid"]); rec = records.get(taxid)
             if rec is None or rec["rank"] not in RANKS or not g.get("about_taxon"): continue
             low = rec["text"].lower()
-            url = "https://en.wikipedia.org/wiki/" + urllib.parse.quote(rec["en_wiki_title"].replace(" ", "_"), safe="()_,'")
-            note = url + ("; wikidata " + rec["wikidata_id"] if rec["wikidata_id"] else "")
+            note = article_note(rec)
             for key, phys, vocab in (("halophily", "halophily class", HALOPHILY), ("temperature_class", "temperature class", TEMPERATURE_CLASS), ("ph_class", "ph class", PH_CLASS)):
                 for e in g.get(key) or []:
                     if not isinstance(e, dict) or e.get("value") not in vocab: dropped[f"{phys} {e.get('value') if isinstance(e, dict) else e}"] += 1; continue
