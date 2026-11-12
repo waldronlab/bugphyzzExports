@@ -2,7 +2,7 @@
 
 Changes to the data pipeline and the exported files, newest first. Released data versions are on Zenodo (concept DOI 10.5281/zenodo.10980653); the `devel` branch holds the weekly export.
 
-## 2026-11-12, v1.2.0 (Zenodo DOI added after the release)
+## 2026-11-12, v1.2.0 (Zenodo 10.5281/zenodo.24166279)
 
 - **New source `Wikipedia_2026`** (waldronlab/bugphyzz#296): traits read from the introductory paragraphs of English Wikipedia articles carried by taxoniq, 26,485 rows for 7,968 genera and species in 19 physiologies, confidence `medium`. Three of the physiologies are new: `halophily class`, `temperature class` and `ph class` (#106). See `sources/wikipedia_2026/README.md` for the comparison with the other sources.
 - **The data licence changes from CC BY 4.0 to CC BY-SA 4.0** with the Wikipedia source. The software stays Artistic-2.0.
