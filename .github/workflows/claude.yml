@@ -32,4 +32,4 @@ jobs:
     uses: waldronlab/.github/.github/workflows/claude-review.yml@devel
     secrets: inherit
     with:
-      review_focus: "This is a Bioconductor package: check that exported functions are documented and that new code follows Bioconductor guidelines."
+      review_focus: "This repo is not an R package: it exports bugphyzz data weekly and for stable releases with the R scripts in inst/scripts and the GitHub workflows, and holds the scripted sources in sources/. Check that changes keep the weekly export and the release procedure in RELEASING.md working, follow sources/README.md, and do not change released data unintentionally."
