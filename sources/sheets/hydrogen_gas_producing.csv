@@ -1,0 +1,16 @@
+NCBI_ID,Genome_ID,Accession_ID,Taxon_name,Attribute,Attribute_value,Attribute_source,Frequency,Strain,Unit,Note
+411483,,,Faecalibacterium prausnitzii A2-165,hydrogen gas producing,FALSE,Barcenilla_2000,usually,A2-165,μ mol ml−1,
+622312,,,Roseburia inulinivorans DSM 16841,hydrogen gas producing,FALSE,Barcenilla_2000,usually,A2-194,μ mol ml−1,
+105835,,,Butyrate-producing bacterium L1-810,hydrogen gas producing,TRUE,Barcenilla_2000,usually,L1-810,μ mol ml−1,
+105837,,,Butyrate-producing bacterium T2-132,hydrogen gas producing,TRUE,Barcenilla_2000,usually,T2-132,μ mol ml−1,
+105825,,,Butyrate-producing bacterium A2-207,hydrogen gas producing,TRUE,Barcenilla_2000,usually,A2-207,μ mol ml−1,
+105845,,,Butyrate-producing bacterium T1-817,hydrogen gas producing,TRUE,Barcenilla_2000,usually,T1-817,μ mol ml−1,
+105830,,,"Butyrate-producing bacterium T1-815
+",hydrogen gas producing,TRUE,Barcenilla_2000,usually,T1-815,μ mol ml−1,
+360807,,,Roseburia inulinivorans,hydrogen gas producing,TRUE,Barcenilla_2000,usually,L1-83,μ mol ml−1,
+105829,,,Butyrate-producing bacterium A1-86,hydrogen gas producing,TRUE,Barcenilla_2000,usually,A1-86,μ mol ml−1,
+105844,,,Butyrate-producing bacterium L2-50,hydrogen gas producing,TRUE,Barcenilla_2000,usually,L2-50,μ mol ml−1,
+105834,,,Butyrate-producing bacterium L1-81,hydrogen gas producing,TRUE,Barcenilla_2000,usually,L1-81 ,μ mol ml−1,
+105833,,,Butyrate-producing bacterium L1-952,hydrogen gas producing,TRUE,Barcenilla_2000,usually,L1-952,μ mol ml−1,
+411490,,,Anaerostipes caccae L1-92,hydrogen gas producing,TRUE,Barcenilla_2000,usually,L1-92,μ mol ml−1,
+585394,,,Roseburia hominis A2-183,hydrogen gas producing,TRUE,Barcenilla_2000,usually,A2-183,μ mol ml−1,

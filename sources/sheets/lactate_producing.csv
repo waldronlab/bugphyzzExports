@@ -1,0 +1,17 @@
+NCBI_ID,Genome_ID,Accession_ID,Taxon_name,Attribute,Attribute_value,Attribute_source,Frequency,Note,Unit
+105825,,,Butyrate-producing bacterium A2-207,lactate producing,FALSE,Barcenilla_2000,usually,A2-207,mM
+411490,,,Anaerostipes caccae L1-92,lactate producing,TRUE,Barcenilla_2000,usually,L1-92,mM
+105844,,,Butyrate-producing bacterium L2-50,lactate producing,TRUE,Barcenilla_2000,usually,L2-50,mM
+105834,,,Butyrate-producing bacterium L1-81,lactate producing,TRUE,Barcenilla_2000,usually,L1-81,mM
+360807,,,Roseburia inulinivorans,lactate producing,TRUE,Barcenilla_2000,usually,L1-83,mM
+411483,,,Faecalibacterium prausnitzii A2-165,lactate producing,TRUE,Barcenilla_2000,usually,A2-165,mM
+105832,,,Butyrate-producing bacterium L1-93,lactate producing,TRUE,Barcenilla_2000,usually,L1-93,mM
+105837,,,Butyrate-producing bacterium T2-132,lactate producing,TRUE,Barcenilla_2000,usually,T2-132,mM
+105833,,,Butyrate-producing bacterium L1-952,lactate producing,TRUE,Barcenilla_2000,usually,L1-952,mM
+622312,,,Roseburia inulinivorans DSM 16841,lactate producing,TRUE,Barcenilla_2000,usually,A2-194,mM
+105845,,,Butyrate-producing bacterium T1-817,lactate producing,TRUE,Barcenilla_2000,usually,T1-817,mM
+585394,,,Roseburia hominis A2-183,lactate producing,TRUE,Barcenilla_2000,usually,A2-183,mM
+105830,,,"Butyrate-producing bacterium T1-815
+",lactate producing,TRUE,Barcenilla_2000,usually,T1-815,mM
+105835,,,Butyrate-producing bacterium L1-810,lactate producing,TRUE,Barcenilla_2000,usually,L1-810,mM
+105829,,,Butyrate-producing bacterium A1-86,lactate producing,TRUE,Barcenilla_2000,usually,A1-86,mM

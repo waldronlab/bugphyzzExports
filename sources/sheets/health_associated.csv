@@ -1,0 +1,31 @@
+NCBI_ID,Genome_ID,Accession_ID,Taxon_name,Attribute,Attribute_value,Attribute_source,Frequency
+1550024,,,Ruthenibacterium lactatiformans,Health associated,FALSE,Asnicar_2021,usually
+292800,,,Flavonifractor plautii,Health associated,FALSE,Asnicar_2021,usually
+562,,,Escherichia coli,Health associated,FALSE,Asnicar_2021,usually
+1504,,,Clostridium septicum,Health associated,FALSE,Asnicar_2021,usually
+147207,,,Collinsella intestinalis,Health associated,FALSE,Asnicar_2021,usually
+1262824,,,Clostridium sp CAG 58,Health associated,FALSE,Asnicar_2021,usually
+84112,,,Eggerthella lenta,Health associated,FALSE,Asnicar_2021,usually
+169435,,,Anaerotruncus colihominis,Health associated,FALSE,Asnicar_2021,usually
+208479,,,Clostridium bolteae,Health associated,FALSE,Asnicar_2021,usually
+29348,,,Clostridium spiroforme,Health associated,FALSE,Asnicar_2021,usually
+33038,,,Ruminococcus gnavus,Health associated,FALSE,Asnicar_2021,usually
+1522,,,Clostridium innocuum,Health associated,FALSE,Asnicar_2021,usually
+53443,,,Blautia hydrogenotrophica,Health associated,FALSE,Asnicar_2021,usually
+1512,,,Clostridium symbiosum,Health associated,FALSE,Asnicar_2021,usually
+1263064,,,Clostridium bolteae CAG 59,Health associated,FALSE,Asnicar_2021,usually
+853,,,Faecalibacterium prausnitzii,Health associated,TRUE,Asnicar_2021,usually
+39485,,,Eubacterium eligens,Health associated,TRUE,Asnicar_2021,usually
+1897011,,,Oscillibacter sp 57 20,Health associated,TRUE,Asnicar_2021,usually
+1115758,,,Romboutsia ilealis,Health associated,TRUE,Asnicar_2021,usually
+729,,,Haemophilus parainfluenzae,Health associated,TRUE,Asnicar_2021,usually
+1262988,,,Firmicutes bacterium CAG 95,Health associated,TRUE,Asnicar_2021,usually
+1855299,,,Oscillibacter sp PC13,Health associated,TRUE,Asnicar_2021,usually
+39778,,,Veillonella dispar,Health associated,TRUE,Asnicar_2021,usually
+1262942,,,Roseburia sp CAG 182,Health associated,TRUE,Asnicar_2021,usually
+39777,,,Veillonella atypica,Health associated,TRUE,Asnicar_2021,usually
+1262777,,,Clostridium sp CAG 167,Health associated,TRUE,Asnicar_2021,usually
+1911679,,,Veillonella infantium,Health associated,TRUE,Asnicar_2021,usually
+28025,,,Bifidobacterium animalis,Health associated,TRUE,Asnicar_2021,usually
+28025,,,Prevotella copri,Health associated,TRUE,Asnicar_2021,usually
+1263006,,,Firmicutes bacterium CAG 170,Health associated,TRUE,Asnicar_2021,usually

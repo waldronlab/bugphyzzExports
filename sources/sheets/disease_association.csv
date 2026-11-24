@@ -1,0 +1,571 @@
+Taxon_name,NCBI_ID,Genome_ID,Accession_ID,Attribute,Attribute_value,Attribute_source,Frequency,Note
+Propionibacterium acnes KPA171202,267747,NA,NC_006085,Acne,TRUE,BacMap,usually,acne
+Borrelia afzelii PKo,390236,NA,"NC_008273, NC_008274, NC_008277, NC_008564, NC_008565, NC_008566, NC_008567, NC_008568, NC_008569, NT_167350, NT_167351, NT_167352, CP002933",acrodermatitis,TRUE,BacMap,usually,acrodermatitis chronica atrophicans
+Mycoplasma arthritidis 158L3-1,243272,NA,NC_011025,polyarthritis,TRUE,BacMap,usually,acute rat polyarthritis and murine chronic proliferative arthritis
+Ehrlichia ruminantium str. Gardel,302409,NA,NC_006831,heartwater,TRUE,BacMap,usually,african heartwater
+Rickettsia africae ESF-5,347255,NA,"NC_012633, NC_012634",african tick-bite fever,TRUE,BacMap,usually,african tick-bite fever
+Anaplasma centrale str. Israel,574556,NA,NC_013532,anaplasmosis,TRUE,BacMap,usually,anaplasmosis
+Mycoplasma suis str. Illinois,768700,NA,NC_015155,anemia,TRUE,BacMap,usually,anemia
+Bacillus anthracis str. 'Ames Ancestor',261594,NA,"NC_007322, NC_007323, NC_007530",anthrax,TRUE,BacMap,usually,anthrax
+Bacillus anthracis str. A0248,592021,NA,"NC_012655, NC_012656, NC_012659",anthrax,TRUE,BacMap,usually,anthrax
+Bacillus anthracis str. Ames,198094,NA,NC_003997,anthrax,TRUE,BacMap,usually,anthrax
+Bacillus anthracis str. CDC 684,568206,NA,"NC_012577, NC_012579, NC_012581",anthrax,TRUE,BacMap,usually,anthrax
+Bacillus anthracis str. Sterne,260799,NA,NC_005945,anthrax,TRUE,BacMap,usually,anthrax
+Bacillus cereus biovar anthracis str. CI,637380,NA,"NC_014331, NC_014332, NC_014333, NC_014335",anthrax,TRUE,BacMap,usually,anthrax
+Clostridium difficile 630,272563,NA,"NC_008226, NC_009089",colitis,TRUE,BacMap,usually,antibiotic-associated diarrhea and pseudomembraneous colitis
+Clostridium difficile R20291,645463,NA,NC_013316,colitis,TRUE,BacMap,usually,antibiotic-associated diarrhea and pseudomembraneous colitis
+Candidatus Phytoplasma mali,37692,NA,NC_011047,Terrabacteria group,TRUE,BacMap,usually,apple proliferation disease
+Aster yellows witches'-broom phytoplasma AYWB,322098,NA,"NC_007716, NC_007717, NC_007718, NC_007719, NC_007720",Terrabacteria group,TRUE,BacMap,usually,aster yellows witches'-broom
+Mycoplasma pneumoniae M129,272634,NA,NC_000912,atypical pneumonia,TRUE,BacMap,usually,atypical pneumonia in older children and young adults
+Bartonella henselae str. Houston-1,283166,NA,NC_005956,bacillary angiomatosis,TRUE,BacMap,usually,"bacillary angiomatosis, cat scratch fever"
+Bartonella henselae str. Houston-1,283166,NA,NC_005956,cat scratch fever,TRUE,BacMap,usually,"bacillary angiomatosis, cat scratch fever"
+Bartonella quintana str. Toulouse,283165,NA,NC_005955,bacillary angiomatosis,TRUE,BacMap,usually,"bacillary angiomatosis, trench fever"
+Bartonella quintana str. Toulouse,283165,NA,NC_005955,trench fever,TRUE,BacMap,usually,"bacillary angiomatosis, trench fever"
+Campylobacter jejuni subsp. doylei 269.97,360109,NA,NC_009707,bacteremia,TRUE,BacMap,usually,bacteremia
+Xenorhabdus nematophila ATCC 19061,406817,NA,"NC_014170, NC_014228",bacteremia,TRUE,BacMap,usually,bacteremia
+Enterococcus faecalis V583,226185,NA,"NC_004668, NC_004669, NC_004670, NC_004671",bacteremia,TRUE,BacMap,usually,"bacteremia, endocarditis, urinary tract infection"
+Enterococcus faecalis V583,226185,NA,"NC_004668, NC_004669, NC_004670, NC_004671",endocarditis,TRUE,BacMap,usually,"bacteremia, endocarditis, urinary tract infection"
+Enterococcus faecalis V583,226185,NA,"NC_004668, NC_004669, NC_004670, NC_004671",urinary tract infection,TRUE,BacMap,usually,"bacteremia, endocarditis, urinary tract infection"
+Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853,439851,NA,"NC_011204, NC_011205",bacteremia,TRUE,BacMap,usually,"bacteremia, gastroenteritis"
+Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853,439851,NA,"NC_011204, NC_011205",gastroenteritis,TRUE,BacMap,usually,"bacteremia, gastroenteritis"
+Citrobacter koseri ATCC BAA-895,290338,NA,"NC_009792, NC_009793, NC_009794",bacteremia,TRUE,BacMap,usually,"bacteremia, meningoencephalitis, multiple brain abscesses"
+Citrobacter koseri ATCC BAA-895,290338,NA,"NC_009792, NC_009793, NC_009794",meningoencephalitis,TRUE,BacMap,usually,"bacteremia, meningoencephalitis, multiple brain abscesses"
+Citrobacter koseri ATCC BAA-895,290338,NA,"NC_009792, NC_009793, NC_009794",abscess,TRUE,BacMap,usually,"bacteremia, meningoencephalitis, multiple brain abscesses"
+Francisella philomiragia subsp. philomiragia ATCC 25017,484022,NA,"NC_010331, NC_010336",bacteremia,TRUE,BacMap,usually,"bacteremia, pneumonia"
+Francisella philomiragia subsp. philomiragia ATCC 25017,484022,NA,"NC_010331, NC_010336",pneumonia,TRUE,BacMap,usually,"bacteremia, pneumonia"
+Streptococcus mitis B6,365659,NA,NC_013853,endocarditis,TRUE,BacMap,usually,bacterial endocarditis
+Acidovorax citrulli AAC00-1,397945,NA,NC_008752,Blunervirus,TRUE,BacMap,usually,bacterial fruit blotch
+Renibacterium salmoninarum ATCC 33209,288705,NA,NC_010168,kidney disease,TRUE,BacMap,usually,bacterial kidney disease (bkd)
+Acidovorax avenae subsp. avenae ATCC 19860,643561,NA,NC_015138,bacterial leaf blight,TRUE,BacMap,usually,"bacterial leaf blight of maize and sorghum, brown stripe of rice and red stripe of sugarcane"
+Acidovorax avenae subsp. avenae ATCC 19860,643561,NA,NC_015138,sorghum,TRUE,BacMap,usually,"bacterial leaf blight of maize and sorghum, brown stripe of rice and red stripe of sugarcane"
+Xanthomonas campestris pv. vesicatoria str. 85-10,316273,NA,"NC_007504, NC_007505, NC_007506, NC_007507, NC_007508",Reaction to Leaf spot,TRUE,BacMap,usually,bacterial spot
+Gardnerella vaginalis ATCC 14019,525284,NA,NC_014644,bacterial vaginosis,TRUE,BacMap,usually,bacterial vaginosis
+Bartonella tribocorum CIP 105476,382640,NA,"NC_010160, NC_010161",bartonellosis,TRUE,BacMap,usually,bartinellosis
+Xanthomonas campestris pv. campestris str. ATCC 33913,190485,NA,NC_003902,reaction to black rot,TRUE,BacMap,usually,black rot
+Xanthomonas campestris pv. campestris str. 8004,314565,NA,NC_007086,reaction to black rot,TRUE,BacMap,usually,black rot and citrus canker
+Xanthomonas campestris pv. campestris str. 8004,314565,NA,NC_007086,canker,TRUE,BacMap,usually,black rot and citrus canker
+Xylella fastidiosa Temecula1,183190,NA,"NC_004554, NC_004556",reaction to black rot,TRUE,BacMap,usually,black rot and citrus canker
+Xylella fastidiosa Temecula1,183190,NA,"NC_004554, NC_004556",canker,TRUE,BacMap,usually,black rot and citrus canker
+Pantoea ananatis LMG 20103,706191,NA,NC_013956,bacterial leaf blight,TRUE,BacMap,usually,blight
+Stenotrophomonas maltophilia K279a,522373,NA,NC_010943,urinary tract infection,TRUE,BacMap,usually,"blood, respiratory, and urinary infections"
+Stenotrophomonas maltophilia K279a,522373,NA,NC_010943,blood infection,TRUE,BacMap,usually,"blood, respiratory, and urinary infections"
+Stenotrophomonas maltophilia K279a,522373,NA,NC_010943,respiratory system disease,TRUE,BacMap,usually,"blood, respiratory, and urinary infections"
+Bordetella avium 197N,360910,NA,NC_010645,bordetellosis,TRUE,BacMap,usually,bordetellosis
+Clostridium botulinum A str. ATCC 19397,441770,NA,NC_009697,botulism,TRUE,BacMap,usually,botulism
+Clostridium botulinum A str. ATCC 3502,413999,NA,"NC_009495, NC_009496",botulism,TRUE,BacMap,usually,botulism
+Clostridium botulinum A str. Hall,441771,NA,NC_009698,botulism,TRUE,BacMap,usually,botulism
+Clostridium botulinum A2 str. Kyoto,536232,NA,NC_012563,botulism,TRUE,BacMap,usually,botulism
+Clostridium botulinum A3 str. Loch Maree,498214,NA,"NC_010418, NC_010520",botulism,TRUE,BacMap,usually,botulism
+Clostridium botulinum B1 str. Okra,498213,NA,"NC_010379, NC_010516",botulism,TRUE,BacMap,usually,botulism
+Clostridium botulinum E3 str. Alaska E43,508767,NA,NC_010723,botulism,TRUE,BacMap,usually,botulism
+Clostridium botulinum F str. Langeland,441772,NA,"NC_009699, NC_009700",botulism,TRUE,BacMap,usually,botulism
+Anaplasma marginale str. Florida,320483,NA,NC_012026,anaplasmosis,TRUE,BacMap,usually,bovine anaplasmosis
+Anaplasma marginale str. St. Maries,234826,NA,NC_004842,anaplasmosis,TRUE,BacMap,usually,bovine anaplasmosis
+Mycobacterium bovis BCG str. Pasteur 1173P2,410289,NA,NC_008769,tuberculosis,TRUE,BacMap,usually,bovine tuberculosis
+Brucella abortus bv. 1 str. 9-941,262698,NA,"NC_006932, NC_006933",brucellosis,TRUE,BacMap,usually,brucellosis
+Brucella melitensis ATCC 23457,546272,NA,"NC_012441, NC_012442",brucellosis,TRUE,BacMap,usually,brucellosis
+Brucella melitensis biovar Abortus 2308,359391,NA,"NC_007618, NC_007624",brucellosis,TRUE,BacMap,usually,brucellosis
+Brucella melitensis bv. 1 str. 16M,224914,NA,"NC_003317, NC_003318",brucellosis,TRUE,BacMap,usually,brucellosis
+Brucella suis 1330,204722,NA,"NC_004310, NC_004311",brucellosis,TRUE,BacMap,usually,"brucellosis, infectious abortions, fever"
+Brucella suis 1330,204722,NA,"NC_004310, NC_004311",abortion,TRUE,BacMap,usually,"brucellosis, infectious abortions, fever"
+Brucella suis 1330,204722,NA,"NC_004310, NC_004311",fever,TRUE,BacMap,usually,"brucellosis, infectious abortions, fever"
+Brucella suis ATCC 23445,470137,NA,"NC_010167, NC_010169",brucellosis,TRUE,BacMap,usually,"brucellosis, infectious abortions, fever"
+Brucella suis ATCC 23445,470137,NA,"NC_010167, NC_010169",abortion,TRUE,BacMap,usually,"brucellosis, infectious abortions, fever"
+Brucella suis ATCC 23445,470137,NA,"NC_010167, NC_010169",fever,TRUE,BacMap,usually,"brucellosis, infectious abortions, fever"
+Yersinia pestis Angola,349746,NA,"NC_010157, NC_010158, NC_010159",plague,TRUE,BacMap,usually,bubonic plague
+Yersinia pestis Antiqua,360102,NA,"NC_008120, NC_008121, NC_008122, NC_008150",plague,TRUE,BacMap,usually,bubonic plague
+Yersinia pestis biovar Microtus str. 91001,229193,NA,"NC_005810, NC_005813, NC_005814, NC_005815, NC_005816",plague,TRUE,BacMap,usually,bubonic plague
+Yersinia pestis CO92,214092,NA,"NC_003131, NC_003132, NC_003134, NC_003143",plague,TRUE,BacMap,usually,bubonic plague
+Yersinia pestis KIM 10,187410,NA,"NC_004088, NC_004838",plague,TRUE,BacMap,usually,bubonic plague
+Yersinia pestis Nepal516,377628,NA,"NC_008118, NC_008119, NC_008149",plague,TRUE,BacMap,usually,bubonic plague
+Yersinia pestis Pestoides F,386656,NA,"NC_009377, NC_009378, NC_009381",plague,TRUE,BacMap,usually,bubonic plague
+Mycobacterium ulcerans Agy99,362242,NA,"NC_005916, NC_008611",Mycobacterial Infection,TRUE,BacMap,usually,buruli ulcer
+Brucella canis ATCC 23365,483179,NA,"NC_010103, NC_010104",brucellosis,TRUE,BacMap,usually,canine brucellosis
+Cryptobacterium curtum DSM 15641,469378,NA,NC_013170,caries,TRUE,BacMap,usually,"caries, periodontal disease"
+Cryptobacterium curtum DSM 15641,469378,NA,NC_013170,periodontal disorder,TRUE,BacMap,usually,"caries, periodontal disease"
+Streptococcus gordonii str. Challis substr. CH1,467705,NA,NC_009785,caries,TRUE,BacMap,usually,"caries, periodontal diseases"
+Streptococcus gordonii str. Challis substr. CH1,467705,NA,NC_009785,periodontal disorder,TRUE,BacMap,usually,"caries, periodontal diseases"
+Bartonella bacilliformis KC583,360095,NA,NC_008783,bartonellosis,TRUE,BacMap,usually,"carrion's disease, oroya fever"
+Bdellovibrio bacteriovorus HD100,264462,NA,NC_005363,cell lysis,TRUE,BacMap,usually,cell lysis
+Pseudomonas entomophila L48,384676,NA,NC_008027,cell lysis,TRUE,BacMap,usually,cellular destruction
+Burkholderia ambifaria MC40-6,398577,NA,"NC_010551, NC_010552, NC_010553, NC_010557",Burkholderia cepacia,TRUE,BacMap,usually,cepacia syndrome
+Vibrio cholerae M66-2,579112,NA,"NC_012578, NC_012580",cholera,TRUE,BacMap,usually,cholera
+Vibrio cholerae MJ-1236,593588,NA,"NC_012667, NC_012668",cholera,TRUE,BacMap,usually,cholera
+Vibrio cholerae O1 biovar El Tor str. N16961,243277,NA,"NC_002505, NC_002506",cholera,TRUE,BacMap,usually,cholera
+Vibrio cholerae O395,345073,NA,"NC_009456, NC_009457, CP001235",cholera,TRUE,BacMap,usually,cholera
+Granulibacter bethesdensis CGDNIH1,391165,NA,NC_008343,chronic granulomatous disease,TRUE,BacMap,usually,chronic granulomatous disease
+Mycoplasma synoviae 53,262723,NA,NC_007294,respiratory system disease,TRUE,BacMap,usually,chronic respiratory disease in chicken
+Mycoplasma gallisepticum str. R(low),710127,NA,NC_004829,respiratory system disease,TRUE,BacMap,usually,chronic respiratory diseases
+Xanthomonas axonopodis pv. citri str. 306,190486,NA,"NC_003919, NC_003921, NC_003922",canker,TRUE,BacMap,usually,citrus canker
+Xylella fastidiosa 9a5c,160492,NA,"NC_002488, NC_002489, NC_002490",Plant chlorosis,TRUE,BacMap,usually,citrus variegated chlorosis
+Xylella fastidiosa M12,405440,NA,NC_010513,Plant chlorosis,TRUE,BacMap,usually,citrus variegated chlorosis
+Flavobacterium psychrophilum JIP02/86,402612,NA,NC_009613,Flavobacterium psychrophilum,TRUE,BacMap,usually,"cold water disease, rainbow trout fry syndrome"
+Escherichia coli APEC O1,405955,NA,"NC_008563, NC_009837, NC_009838",Infection caused by Escherichia coli (disorder),TRUE,BacMap,usually,colibacillosis
+Mycoplasma mycoides subsp. mycoides SC str. PG1,272632,NA,NC_005364,contagious pleuropneumonia,TRUE,BacMap,usually,contagious bovine pleuropneumonia (cbpp)
+Agrobacterium vitis S4,311402,NA,"NC_011981, NC_011982, NC_011984, NC_011986, NC_011988, NC_011989, NC_011991",crown gall,TRUE,BacMap,usually,crown gall
+Microcystis aeruginosa NIES-843,449447,NA,NC_010296,Microcystis aeruginosa,TRUE,BacMap,usually,"cyanobacterial hepatotoxicosis, gastroenteritis, skin irritation"
+Microcystis aeruginosa NIES-843,449447,NA,NC_010296,gastroenteritis,TRUE,BacMap,usually,"cyanobacterial hepatotoxicosis, gastroenteritis, skin irritation"
+Microcystis aeruginosa NIES-843,449447,NA,NC_010296,skin irritation,TRUE,BacMap,usually,"cyanobacterial hepatotoxicosis, gastroenteritis, skin irritation"
+Escherichia coli UTI89,364106,NA,"NC_007941, NC_007946",cystitis,TRUE,BacMap,usually,cystitis
+Bifidobacterium dentium Bd1,401473,NA,NC_013714,Caries,TRUE,BacMap,usually,dental caries
+Streptococcus mutans UA159,210007,NA,NC_004350,Caries,TRUE,BacMap,usually,dental caries
+Streptococcus mutans NN2025,511691,NA,NC_013928,Caries,TRUE,BacMap,usually,"dental caries, endocarditis"
+Streptococcus mutans NN2025,511691,NA,NC_013928,endocarditis,TRUE,BacMap,usually,"dental caries, endocarditis"
+Escherichia coli E24377A,331111,NA,"NC_009786, NC_009787, NC_009788, NC_009789, NC_009790, NC_009791, NC_009801",diarrhea,TRUE,BacMap,usually,diarrhea
+Chromobacterium violaceum ATCC 12472,243365,NA,NC_005085,diarrhea,TRUE,BacMap,usually,diarrhea and occasionally septicemia
+Chromobacterium violaceum ATCC 12472,243365,NA,NC_005085,septicemia,TRUE,BacMap,usually,diarrhea and occasionally septicemia
+Corynebacterium diphtheriae NCTC 13129,257309,NA,NC_002935,diphtheria,TRUE,BacMap,usually,diphtheria
+Shigella boydii CDC 3083-94,344609,NA,"NC_010656, NC_010657, NC_010658, NC_010659, NC_010660, NC_010672",dysentery,TRUE,BacMap,usually,dysentery
+Shigella boydii Sb227,300268,NA,"NC_007608, NC_007613",dysentery,TRUE,BacMap,usually,dysentery
+Shigella dysenteriae Sd197,300267,NA,"NC_007606, NC_007607, NC_009344",dysentery,TRUE,BacMap,usually,dysentery
+Shigella flexneri 2a str. 2457T,198215,NA,NC_004741,dysentery,TRUE,BacMap,usually,dysentery
+Shigella flexneri 2a str. 301,198214,NA,"NC_004337, NC_004851",dysentery,TRUE,BacMap,usually,dysentery
+Shigella flexneri 5 str. 8401,373384,NA,NC_008258,dysentery,TRUE,BacMap,usually,dysentery
+Shigella sonnei Ss046,300269,NA,"NC_007384, NC_007385, NC_009345, NC_009346, NC_009347",dysentery,TRUE,BacMap,usually,dysentery
+Ehrlichia canis str. Jake,269484,NA,NC_007354,ehrlichiosis,TRUE,BacMap,usually,ehrlichiosis
+Proteus mirabilis HI4320,529507,NA,"NC_010554, NC_010555",infection,TRUE,BacMap,usually,"encephalitis, urinary tract infections, surgical wound infections, pyelonephritis, pneumonia, septicemia"
+Proteus mirabilis HI4320,529507,NA,"NC_010554, NC_010555",encephalitis,TRUE,BacMap,usually,"encephalitis, urinary tract infections, surgical wound infections, pyelonephritis, pneumonia, septicemia"
+Proteus mirabilis HI4320,529507,NA,"NC_010554, NC_010555",urinary tract infection,TRUE,BacMap,usually,"encephalitis, urinary tract infections, surgical wound infections, pyelonephritis, pneumonia, septicemia"
+Proteus mirabilis HI4320,529507,NA,"NC_010554, NC_010555",pyelonephritis,TRUE,BacMap,usually,"encephalitis, urinary tract infections, surgical wound infections, pyelonephritis, pneumonia, septicemia"
+Proteus mirabilis HI4320,529507,NA,"NC_010554, NC_010555",pneumonia,TRUE,BacMap,usually,"encephalitis, urinary tract infections, surgical wound infections, pyelonephritis, pneumonia, septicemia"
+Proteus mirabilis HI4320,529507,NA,"NC_010554, NC_010555",septicemia,TRUE,BacMap,usually,"encephalitis, urinary tract infections, surgical wound infections, pyelonephritis, pneumonia, septicemia"
+Rickettsia typhi str. Wilmington,257363,NA,NC_006142,typhus,TRUE,BacMap,usually,endemic typhus and murine typhus
+Streptococcus sanguinis SK36,388919,NA,NC_009009,Endocarditis,TRUE,BacMap,usually,endocarditis
+Streptococcus dysgalactiae subsp. equisimilis GGS_124,486410,NA,NC_012891,Endocarditis,TRUE,BacMap,usually,"endocarditis, septicemia, meningitis"
+Streptococcus dysgalactiae subsp. equisimilis GGS_124,486410,NA,NC_012891,septicemia,TRUE,BacMap,usually,"endocarditis, septicemia, meningitis"
+Streptococcus dysgalactiae subsp. equisimilis GGS_124,486410,NA,NC_012891,Meningitis,TRUE,BacMap,usually,"endocarditis, septicemia, meningitis"
+Geobacillus thermoglucosidasius C56-YS93,634956,NA,"NC_015660, NC_015661, NC_015665",infection,TRUE,BacMap,usually,endospore-forming
+Edwardsiella ictaluri 93-146,634503,NA,NC_012779,septicemia,TRUE,BacMap,usually,enteric septicemia
+Mycoplasma hyopneumoniae 7448,262722,NA,NC_007332,pneumonia,TRUE,BacMap,usually,enzootic pneumonia
+Mycoplasma hyopneumoniae J,262719,NA,NC_007295,pneumonia,TRUE,BacMap,usually,enzootic pneumonia
+Rickettsia canadensis str. McKiel,293613,NA,NC_009879,typhus,TRUE,BacMap,usually,epidemic typhus
+Riemerella anatipestifer DSM 15868,693978,NA,NC_014738,infection,TRUE,BacMap,usually,epizootic infectious polyserositis and septcemia
+Riemerella anatipestifer DSM 15868,693978,NA,NC_014738,septicemia,TRUE,BacMap,usually,epizootic infectious polyserositis and septcemia
+Erysipelothrix rhusiopathiae str. Fujisawa,650150,NA,NC_015601,erysipelas,TRUE,BacMap,usually,"erysipelas in animals, erysipeloid in human"
+Saccharomonospora viridis DSM 43017,471857,NA,NC_013159,pneumonia,TRUE,BacMap,usually,"farmer's lung, hypersensitivity pneumonitis"
+Actinobacillus pleuropneumoniae serovar 3 str. JL03,434271,NA,NC_010278,pneumonia,TRUE,BacMap,usually,fibrinous and necrotizing pleuropneumonia
+Actinobacillus pleuropneumoniae serovar 5b str. L20,416269,NA,NC_009053,pneumonia,TRUE,BacMap,usually,fibrinous and necrotizing pleuropneumonia
+Actinobacillus pleuropneumoniae serovar 7 str. AP76,537457,NA,"NC_010939, NC_010940, NC_010941, NC_010942",pneumonia,TRUE,BacMap,usually,fibrinous and necrotizing pleuropneumonia
+Bacillus cereus AH187,405534,NA,"NC_011654, NC_011655, NC_011656, NC_011657, NC_011658",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Bacillus cereus ATCC 10987,222523,NA,"NC_003909, NC_005707",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Bacillus cereus ATCC 14579,226900,NA,"NC_004721, NC_004722",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Bacillus cereus E33L,288681,NA,"NC_006274, NC_007103, NC_007104, NC_007105, NC_007106, NC_007107",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Bacillus cereus G9842,405531,NA,"NC_011772, NC_011774, NC_011775",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Bacillus cytotoxicus NVH 391-98,315749,NA,"NC_009673, NC_009674",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Bacillus licheniformis ATCC 14580,279010,NA,"NC_006270, NC_006322",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Bacillus weihenstephanensis KBAB4,315730,NA,"NC_010180, NC_010181, NC_010182, NC_010183, NC_010184",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Campylobacter jejuni RM1221,195099,NA,NC_003912,Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Campylobacter jejuni subsp. jejuni 81-176,354242,NA,"NC_008770, NC_008787, NC_008790",Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Campylobacter jejuni subsp. jejuni 81116,407148,NA,NC_009839,Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Campylobacter jejuni subsp. jejuni NCTC 11168,192222,NA,NC_002163,Foodborne Illness,TRUE,BacMap,usually,food poisoning
+Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91,550538,NA,NC_011274,typhoid,TRUE,BacMap,usually,fowl typhoid
+Aeromonas salmonicida subsp. salmonicida A449,382245,NA,"NC_004923, NC_004924, NC_004925, NC_009348, NC_009349, NC_009350",Furunculosis,TRUE,BacMap,usually,furunculosis
+Clostridium perfringens ATCC 13124,195103,NA,NC_008261,Gangrene,TRUE,BacMap,usually,gas gangrene
+Clostridium perfringens str. 13,195102,NA,"NC_003042, NC_003366",Gangrene,TRUE,BacMap,usually,gas gangrene
+Helicobacter pylori 26695,85962,NA,"NC_000915, NC_014257",ulcer,TRUE,BacMap,usually,gastric inflammation and peptic ulcer disease
+Helicobacter pylori 26695,85962,NA,"NC_000915, NC_014257",Gastroenteritis,TRUE,BacMap,usually,gastric inflammation and peptic ulcer disease
+Helicobacter pylori J99,85963,NA,NC_000921,ulcer,TRUE,BacMap,usually,gastric inflammation and peptic ulcer disease
+Helicobacter pylori J99,85963,NA,NC_000921,Gastroenteritis,TRUE,BacMap,usually,gastric inflammation and peptic ulcer disease
+Helicobacter pylori P12,570508,NA,"NC_011498, NC_011499",ulcer,TRUE,BacMap,usually,gastric inflammation and peptic ulcer disease
+Helicobacter pylori P12,570508,NA,"NC_011498, NC_011499",Gastroenteritis,TRUE,BacMap,usually,gastric inflammation and peptic ulcer disease
+Helicobacter acinonychis str. Sheeba,382638,NA,"NC_008229, NC_008230",duodenal lesions,TRUE,BacMap,usually,gastric lesions
+Helicobacter pylori B38,592205,NA,NC_012973,ulcer,TRUE,BacMap,usually,gastric ulcer
+Helicobacter pylori B8,693745,NA,NC_014256,ulcer,TRUE,BacMap,usually,gastric ulcer
+Helicobacter pylori HPAG1,357544,NA,"NC_008086, NC_008087",ulcer,TRUE,BacMap,usually,gastric ulcer
+Helicobacter pylori Shi470,512562,NA,NC_010698,ulcer,TRUE,BacMap,usually,gastric ulcer
+Campylobacter concisus 13826,360104,NA,"NC_009795, NC_009796, NC_009802",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Escherichia coli 55989,585055,NA,NC_011748,Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Escherichia coli ED1a,585397,NA,NC_011745,Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+"Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- str.",41514,NA,NC_010067,Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Salmonella enterica subsp. enterica serovar Agona str. SL483,454166,NA,"NC_011148, NC_011149",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Salmonella enterica subsp. enterica serovar Heidelberg str. SL476,454169,NA,"NC_011081, NC_011082, NC_011083",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Salmonella enterica subsp. enterica serovar Newport str. SL254,423368,NA,"NC_009140, NC_011079, NC_011080",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Salmonella enterica subsp. enterica serovar Schwarzengrund str.,439843,NA,"NC_011092, NC_011093, NC_011094",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Vibrio parahaemolyticus RIMD 2210633,223926,NA,"NC_004603, NC_004605",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Yersinia enterocolitica subsp. enterocolitica 8081,393305,NA,"NC_008791, NC_008800",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Yersinia pseudotuberculosis IP 31758,349747,NA,"NC_009704, NC_009705, NC_009708",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Yersinia pseudotuberculosis IP 32953,273123,NA,"NC_006153, NC_006154, NC_006155",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Yersinia pseudotuberculosis PB1/+,502801,NA,"NC_010634, NC_010635",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Yersinia pseudotuberculosis YPIII,502800,NA,NC_010465,Gastroenteritis,TRUE,BacMap,usually,gastroenteritis
+Arcobacter butzleri RM4018,367737,NA,NC_009850,Gastroenteritis,TRUE,BacMap,usually,gastroenteritis and bacteremia
+Arcobacter butzleri RM4018,367737,NA,NC_009850,bacteremia,TRUE,BacMap,usually,gastroenteritis and bacteremia
+Campylobacter lari RM2100,306263,NA,"NC_012039, NC_012040",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis and diarrhea
+Campylobacter lari RM2100,306263,NA,"NC_012039, NC_012040",diarrhea,TRUE,BacMap,usually,gastroenteritis and diarrhea
+Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,99287,NA,"NC_003197, NC_003277",Gastroenteritis,TRUE,BacMap,usually,gastroenteritis and food poisoning
+Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,99287,NA,"NC_003197, NC_003277",Foodborne Illness,TRUE,BacMap,usually,gastroenteritis and food poisoning
+Escherichia coli S88,585035,NA,"NC_011742, NC_011747",Gastroenteritis,TRUE,BacMap,usually,"gastroenteritis, opportunistic infections"
+Escherichia coli S88,585035,NA,"NC_011742, NC_011747",infection,TRUE,BacMap,usually,"gastroenteritis, opportunistic infections"
+Laribacter hongkongensis HLHK9,557598,NA,NC_012559,Gastroenteritis,TRUE,BacMap,usually,"gastroenteritis, opportunistic infections"
+Laribacter hongkongensis HLHK9,557598,NA,NC_012559,infection,TRUE,BacMap,usually,"gastroenteritis, opportunistic infections"
+Campylobacter curvus 525.92,360105,NA,NC_009715,Gastroenteritis,TRUE,BacMap,usually,"gastroenteritis, periodontal disease"
+Campylobacter curvus 525.92,360105,NA,NC_009715,Periodontal Disorder,TRUE,BacMap,usually,"gastroenteritis, periodontal disease"
+Aeromonas hydrophila subsp. hydrophila ATCC 7966,380703,NA,NC_008570,Gastroenteritis,TRUE,BacMap,usually,"gastroenteritis, septicemia, and others"
+Aeromonas hydrophila subsp. hydrophila ATCC 7966,380703,NA,NC_008570,septicemia,TRUE,BacMap,usually,"gastroenteritis, septicemia, and others"
+Vibrio vulnificus CMCP6,216895,NA,"NC_004459, NC_004460",Gastroenteritis,TRUE,BacMap,usually,"gastroenteritis, wound infections, primary septicemia"
+Vibrio vulnificus CMCP6,216895,NA,"NC_004459, NC_004460",infection,TRUE,BacMap,usually,"gastroenteritis, wound infections, primary septicemia"
+Vibrio vulnificus CMCP6,216895,NA,"NC_004459, NC_004460",septicemia,TRUE,BacMap,usually,"gastroenteritis, wound infections, primary septicemia"
+Vibrio vulnificus YJ016,196600,NA,"NC_005128, NC_005139, NC_005140",Gastroenteritis,TRUE,BacMap,usually,"gastroenteritis, wound infections, primary septicemia"
+Vibrio vulnificus YJ016,196600,NA,"NC_005128, NC_005139, NC_005140",infection,TRUE,BacMap,usually,"gastroenteritis, wound infections, primary septicemia"
+Vibrio vulnificus YJ016,196600,NA,"NC_005128, NC_005139, NC_005140",septicemia,TRUE,BacMap,usually,"gastroenteritis, wound infections, primary septicemia"
+Haemophilus ducreyi 35000HP,233412,NA,NC_002940,ulcer,TRUE,BacMap,usually,genital ulcer disease
+Burkholderia mallei ATCC 23344,243160,NA,"NC_006348, NC_006349",Glanders,TRUE,BacMap,usually,glanders and pneumonia
+Burkholderia mallei ATCC 23344,243160,NA,"NC_006348, NC_006349",pneumonia,TRUE,BacMap,usually,glanders and pneumonia
+Burkholderia mallei NCTC 10229,412022,NA,"NC_008835, NC_008836",Glanders,TRUE,BacMap,usually,glanders and pneumonia
+Burkholderia mallei NCTC 10229,412022,NA,"NC_008835, NC_008836",pneumonia,TRUE,BacMap,usually,glanders and pneumonia
+Burkholderia mallei NCTC 10247,320389,NA,"NC_009079, NC_009080",Glanders,TRUE,BacMap,usually,glanders and pneumonia
+Burkholderia mallei NCTC 10247,320389,NA,"NC_009079, NC_009080",pneumonia,TRUE,BacMap,usually,glanders and pneumonia
+Burkholderia mallei SAVP1,320388,NA,"NC_008784, NC_008785",Glanders,TRUE,BacMap,usually,glanders and pneumonia
+Burkholderia mallei SAVP1,320388,NA,"NC_008784, NC_008785",pneumonia,TRUE,BacMap,usually,glanders and pneumonia
+Haemophilus parasuis SH0165,557723,NA,NC_011852,Haemophilus,TRUE,BacMap,usually,glasser's disease
+Neisseria gonorrhoeae FA 1090,242231,NA,NC_002946,Gonorrhea,TRUE,BacMap,usually,gonorrhea
+Neisseria gonorrhoeae NCCP11945,521006,NA,"NC_011034, NC_011035",Gonorrhea,TRUE,BacMap,usually,gonorrhea
+Ehrlichia ruminantium str. Welgevonden,254945,NA,"NC_005295, NC_006832",heartwater,TRUE,BacMap,usually,heartwater
+Escherichia coli O157:H7 str. EC4115,444450,NA,"NC_011350, NC_011351, NC_011353",colitis,TRUE,BacMap,usually,hemorrhagic colitis
+Escherichia coli O157:H7 str. EDL933,155864,NA,"NC_002655, NC_007414",colitis,TRUE,BacMap,usually,hemorrhagic colitis
+Escherichia coli O157:H7 str. Sakai,386585,NA,"NC_002127, NC_002128, NC_002695",colitis,TRUE,BacMap,usually,hemorrhagic colitis
+Escherichia coli O157:H7 str. TW14359,544404,NA,"NC_013008, NC_013010",colitis,TRUE,BacMap,usually,hemorrhagic colitis
+Escherichia coli O26:H11 str. 11368,573235,NA,"NC_013361, NC_013362, NC_013363, NC_013369, NC_014543",colitis,TRUE,BacMap,usually,hemorrhagic colitis
+Helicobacter hepaticus ATCC 51449,235279,NA,NC_004917,infection,TRUE,BacMap,usually,"hepatitis, typhlitis, hepatocellular tumors, and gastric bowel disease"
+Helicobacter hepaticus ATCC 51449,235279,NA,NC_004917,tumors,TRUE,BacMap,usually,"hepatitis, typhlitis, hepatocellular tumors, and gastric bowel disease"
+Helicobacter hepaticus ATCC 51449,235279,NA,NC_004917,colitis,TRUE,BacMap,usually,"hepatitis, typhlitis, hepatocellular tumors, and gastric bowel disease"
+Aliivibrio salmonicida LFI1238,316275,NA,"NC_011311, NC_011312, NC_011313, NC_011314, NC_011315, NC_011316",infection,TRUE,BacMap,usually,hitra disease
+Candidatus Liberibacter asiaticus str. psy62,537021,NA,NC_012985,Terrabacteria group,TRUE,BacMap,usually,huanglongbing
+Anaplasma phagocytophilum HZ,212042,NA,NC_007797,human granulocytic anaplasmosis,TRUE,BacMap,usually,human granulocytic anaplasmosis
+Mycoplasma conjunctivae HRC/581,572263,NA,NC_012806,Conjunctivitis,TRUE,BacMap,usually,infectious keratoconjunctivitis
+Campylobacter fetus subsp. fetus 82-40,360106,NA,NC_008599,Infertility,TRUE,BacMap,usually,"infertility, infectious abortions, septicemia, meningitis"
+Campylobacter fetus subsp. fetus 82-40,360106,NA,NC_008599,abortion,TRUE,BacMap,usually,"infertility, infectious abortions, septicemia, meningitis"
+Campylobacter fetus subsp. fetus 82-40,360106,NA,NC_008599,septicemia,TRUE,BacMap,usually,"infertility, infectious abortions, septicemia, meningitis"
+Campylobacter fetus subsp. fetus 82-40,360106,NA,NC_008599,meningitis,TRUE,BacMap,usually,"infertility, infectious abortions, septicemia, meningitis"
+Brucella ovis ATCC 25840,444178,NA,"NC_009504, NC_009505",Inflammation,TRUE,BacMap,usually,inflammation of the epididymis and placenta
+Streptococcus equi subsp. zooepidemicus,40041,NA,"NC_011134, NC_012470",Inflammation,TRUE,BacMap,usually,"inflammatory airway disease, opportunistic infections"
+Streptococcus equi subsp. zooepidemicus,40041,NA,"NC_011134, NC_012470",infection,TRUE,BacMap,usually,"inflammatory airway disease, opportunistic infections"
+Brachyspira pilosicoli 95/1000,759914,NA,NC_014330,infection,TRUE,BacMap,usually,intestinal spirochetosis
+Lysinibacillus sphaericus C3-41,444177,NA,"NC_010381, NC_010382",toxin,TRUE,BacMap,usually,larvicidal toxin
+Pantoea sp. At-9b,592316,NA,"NC_014837, NC_014838, NC_014839, NC_014840, NC_014841, NC_014842",bacterial leaf blight,TRUE,BacMap,usually,"leaf blight, stewart's bacterial wilt"
+Legionella pneumophila 2300/99 Alcoy,423212,NA,NC_014125,legionnaire's disease,TRUE,BacMap,usually,legionnaire's disease
+Legionella pneumophila str. Corby,400673,NA,NC_009494,legionnaire's disease,TRUE,BacMap,usually,legionnaire's disease
+Legionella pneumophila str. Lens,297245,NA,"NC_006366, NC_006369",legionnaire's disease,TRUE,BacMap,usually,legionnaire's disease
+Legionella pneumophila str. Paris,297246,NA,"NC_006365, NC_006368",legionnaire's disease,TRUE,BacMap,usually,legionnaire's disease
+Legionella pneumophila subsp. pneumophila str. Philadelphia 1,272624,NA,NC_002942,legionnaire's disease,TRUE,BacMap,usually,legionnaire's disease
+Mycobacterium leprae Br4923,561304,NA,NC_011896,leprosy,TRUE,BacMap,usually,leprosy
+Mycobacterium leprae TN,272631,NA,NC_002677,leprosy,TRUE,BacMap,usually,leprosy
+Leptospira borgpetersenii serovar Hardjo-bovis JB197,355277,NA,"NC_008510, NC_008511",leprosy,TRUE,BacMap,usually,leptospirosis
+Leptospira borgpetersenii serovar Hardjo-bovis L550,355276,NA,"NC_008508, NC_008509",leprosy,TRUE,BacMap,usually,leptospirosis
+Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130,267671,NA,"NC_005823, NC_005824",leprosy,TRUE,BacMap,usually,leptospirosis
+Leptospira interrogans serovar Lai str. 56601,189518,NA,"NC_004342, NC_004343",leprosy,TRUE,BacMap,usually,leptospirosis
+Listeria monocytogenes EGD-e,169963,NA,NC_003210,Foodborne Illness,TRUE,BacMap,usually,listeriosis
+Listeria monocytogenes HCC23,552536,NA,NC_011660,Foodborne Illness,TRUE,BacMap,usually,listeriosis
+Listeria monocytogenes serotype 4b str. CLIP 80459,568819,NA,NC_012488,Foodborne Illness,TRUE,BacMap,usually,listeriosis
+Listeria monocytogenes serotype 4b str. F2365,265669,NA,NC_002973,Foodborne Illness,TRUE,BacMap,usually,listeriosis
+Borrelia recurrentis A1,412418,NA,"NC_011244, NC_011246, NC_011252, NC_011253, NC_011255, NC_011258, NC_011260, NC_011263",infection,TRUE,BacMap,usually,louse-borne relapsing fever
+Rickettsia prowazekii str. Madrid E,272947,NA,NC_000963,infection,TRUE,BacMap,usually,"louse-borne typhus, mediterranean spotted fever, epidemic typhus"
+Rickettsia prowazekii str. Madrid E,272947,NA,NC_000963,typhus,TRUE,BacMap,usually,"louse-borne typhus, mediterranean spotted fever, epidemic typhus"
+Pseudomonas aeruginosa LESB58,557722,NA,NC_011770,Infection,TRUE,BacMap,usually,lung infections
+Mycobacterium abscessus ATCC 19977,561007,NA,"NC_010394, NC_010397",infection,TRUE,BacMap,usually,"lung, skin, and wound infections"
+Borrelia bissettii DN127,521010,NA,"NC_015903, NC_015904, NC_015905, NC_015906, NC_015907, NC_015908, NC_015909, NC_015910, NC_015911, NC_015915, NC_015916, NC_015917, NC_015918, NC_015919, NC_015920, NC_015921, NC_015922",Lyme Disease,TRUE,BacMap,usually,lyme disease
+Borrelia burgdorferi B31,224326,NA,"NC_000948, NC_000949, NC_000950, NC_000951, NC_000952, NC_000953, NC_000954, NC_000955, NC_000956, NC_000957, NC_001318, NC_001849, NC_001850, NC_001851, NC_001852, NC_001853, NC_001854, NC_001855, NC_001856, NC_001857, NC_001903, NC_001904",Lyme Disease,TRUE,BacMap,usually,lyme disease
+Borrelia burgdorferi ZS7,445985,NA,"NC_011720, NC_011722, NC_011724, NC_011728, NC_011731, NC_011735, NC_011736, NC_011778, NC_011779, NC_011780, NC_011781, NC_011782, NC_011783, NC_011784, NC_011785",Lyme Disease,TRUE,BacMap,usually,lyme disease
+Borrelia garinii PBi,290434,NA,"NC_006128, NC_006129, NC_006156, NS_000196",Lyme Disease,TRUE,BacMap,usually,lyme disease
+Chlamydia trachomatis 434/Bu,471472,NA,NC_010287,infection,TRUE,BacMap,usually,lymphogranuloma vernerum
+Chlamydia trachomatis L2b/UCH-1/proctitis,471473,NA,NC_010280,infection,TRUE,BacMap,usually,"lymphogranuloma vernerum, proctitis"
+Staphylococcus aureus RF122,273036,NA,NC_007622,mastitis,TRUE,BacMap,usually,mastitis
+Streptococcus uberis 0140J,218495,NA,NC_012004,mastitis,TRUE,BacMap,usually,mastitis
+Mycoplasma agalactiae PG2,347257,NA,"NC_009497, NC_013948",mastitis,TRUE,BacMap,usually,"mastitis, arthritis, and pneumonia"
+Mycoplasma agalactiae PG2,347257,NA,"NC_009497, NC_013948",arthritis,TRUE,BacMap,usually,"mastitis, arthritis, and pneumonia"
+Mycoplasma agalactiae PG2,347257,NA,"NC_009497, NC_013948",pneumonia,TRUE,BacMap,usually,"mastitis, arthritis, and pneumonia"
+Burkholderia pseudomallei 1106a,357348,NA,"NC_009076, NC_009078",melioidosis,TRUE,BacMap,usually,melioidosis
+Burkholderia pseudomallei 1710b,320372,NA,"NC_007434, NC_007435",melioidosis,TRUE,BacMap,usually,melioidosis
+Burkholderia pseudomallei 668,320373,NA,"NC_009074, NC_009075",melioidosis,TRUE,BacMap,usually,melioidosis
+Burkholderia pseudomallei K96243,272560,NA,"NC_006350, NC_006351",melioidosis,TRUE,BacMap,usually,melioidosis
+Neisseria meningitidis 053442,374833,NA,NC_010120,meningitis septicemia,TRUE,BacMap,usually,meningitis and septicemia
+Neisseria meningitidis FAM18,272831,NA,NC_008767,meningitis septicemia,TRUE,BacMap,usually,meningitis and septicemia
+Neisseria meningitidis MC58,122586,NA,NC_003112,meningitis septicemia,TRUE,BacMap,usually,meningitis and septicemia
+Neisseria meningitidis Z2491,122587,NA,NC_003116,meningitis septicemia,TRUE,BacMap,usually,meningitis and septicemia
+Streptococcus suis BM407,568814,NA,"NC_012923, NC_012926",meningitis,TRUE,BacMap,usually,"meningitis, arthritis, pneumonia"
+Streptococcus suis BM407,568814,NA,"NC_012923, NC_012926",arthritis,TRUE,BacMap,usually,"meningitis, arthritis, pneumonia"
+Streptococcus suis BM407,568814,NA,"NC_012923, NC_012926",pneumonia,TRUE,BacMap,usually,"meningitis, arthritis, pneumonia"
+Streptococcus suis SC84,568813,NA,NC_012924,meningitis,TRUE,BacMap,usually,"meningitis, arthritis, pneumonia"
+Streptococcus suis SC84,568813,NA,NC_012924,arthritis,TRUE,BacMap,usually,"meningitis, arthritis, pneumonia"
+Streptococcus suis SC84,568813,NA,NC_012924,pneumonia,TRUE,BacMap,usually,"meningitis, arthritis, pneumonia"
+Streptococcus suis 05ZYH33,391295,NA,NC_009442,meningitis,TRUE,BacMap,usually,"meningitis, endocarditis, septicemia and arthritis"
+Streptococcus suis 05ZYH33,391295,NA,NC_009442,endocarditis,TRUE,BacMap,usually,"meningitis, endocarditis, septicemia and arthritis"
+Streptococcus suis 05ZYH33,391295,NA,NC_009442,septicemia arthritis,TRUE,BacMap,usually,"meningitis, endocarditis, septicemia and arthritis"
+Streptococcus suis 98HAH33,391296,NA,NC_009443,meningitis,TRUE,BacMap,usually,"meningitis, endocarditis, septicemia and arthritis"
+Streptococcus suis 98HAH33,391296,NA,NC_009443,endocarditis,TRUE,BacMap,usually,"meningitis, endocarditis, septicemia and arthritis"
+Streptococcus suis 98HAH33,391296,NA,NC_009443,septicemia arthritis,TRUE,BacMap,usually,"meningitis, endocarditis, septicemia and arthritis"
+Cronobacter sakazakii ATCC BAA-894,290339,NA,"NC_009778, NC_009779, NC_009780",infection,TRUE,BacMap,usually,"meningitis, septicemia, necrotizing enterocolitis"
+Haemophilus influenzae PittEE,374930,NA,NC_009566,infection,TRUE,BacMap,usually,"meningitis, septicemia, otitis media, sinusitis, chronic bronchitis"
+Haemophilus influenzae PittGG,374931,NA,NC_009567,infection,TRUE,BacMap,usually,"meningitis, septicemia, otitis media, sinusitis, chronic bronchitis"
+Haemophilus influenzae 86-028NP,281310,NA,NC_007146,infection,TRUE,BacMap,usually,"meningitis, speticemia, otitis media, sinusitis, chronic bronchitis"
+Haemophilus influenzae Rd KW20,71421,NA,NC_000907,infection,TRUE,BacMap,usually,"meningitis, speticemia, otitis media, sinusitis, chronic bronchitis"
+Ehrlichia chaffeensis str. Arkansas,205920,NA,NC_007799,ehrlichiosis,TRUE,BacMap,usually,monocytic ehrlichiosis
+Citrobacter rodentium ICC168,637910,NA,"NC_013716, NC_013717, NC_013718, NC_013719",infection,TRUE,BacMap,usually,murine colonic hyperplasia
+Thermobifida fusca YX,269800,NA,NC_007333,infection,TRUE,BacMap,usually,"mushroom worker's disease, farmer's lung disease"
+Burkholderia cenocepacia J2315,216591,NA,"NC_011000, NC_011001, NC_011002, NC_011003",pneumonia,TRUE,BacMap,usually,necrotizing pneumonia and chronic infections
+Burkholderia cenocepacia J2315,216591,NA,"NC_011000, NC_011001, NC_011002, NC_011003",infection,TRUE,BacMap,usually,necrotizing pneumonia and chronic infections
+Burkholderia sp. 383,482957,NA,"NC_007509, NC_007510, NC_007511",pneumonia,TRUE,BacMap,usually,necrotizing pneumonia and chronic infections
+Burkholderia sp. 383,482957,NA,"NC_007509, NC_007510, NC_007511",infection,TRUE,BacMap,usually,necrotizing pneumonia and chronic infections
+Burkholderia vietnamiensis G4,269482,NA,"NC_009226, NC_009227, NC_009228, NC_009229, NC_009230, NC_009254, NC_009255, NC_009256",pneumonia,TRUE,BacMap,usually,necrotizing pneumonia and chronic infections
+Burkholderia vietnamiensis G4,269482,NA,"NC_009226, NC_009227, NC_009228, NC_009229, NC_009230, NC_009254, NC_009255, NC_009256",infection,TRUE,BacMap,usually,necrotizing pneumonia and chronic infections
+Burkholderia cenocepacia AU 1054,331271,NA,"NC_008060, NC_008061, NC_008062",pneumonia,TRUE,BacMap,usually,"necrotizing pneumonia, chronic infections"
+Burkholderia cenocepacia AU 1054,331271,NA,"NC_008060, NC_008061, NC_008062",infection,TRUE,BacMap,usually,"necrotizing pneumonia, chronic infections"
+Burkholderia cenocepacia HI2424,331272,NA,"NC_008542, NC_008543, NC_008544, NC_008545",pneumonia,TRUE,BacMap,usually,"necrotizing pneumonia, chronic infections"
+Burkholderia cenocepacia HI2424,331272,NA,"NC_008542, NC_008543, NC_008544, NC_008545",infection,TRUE,BacMap,usually,"necrotizing pneumonia, chronic infections"
+Burkholderia cenocepacia MC0-3,406425,NA,"NC_010508, NC_010512, NC_010515",pneumonia,TRUE,BacMap,usually,"necrotizing pneumonia, chronic infections"
+Burkholderia cenocepacia MC0-3,406425,NA,"NC_010508, NC_010512, NC_010515",infection,TRUE,BacMap,usually,"necrotizing pneumonia, chronic infections"
+Streptococcus agalactiae NEM316,211110,NA,NC_004368,meningitis,TRUE,BacMap,usually,neonatal gbs meningitis
+Bacillus cellulosilyticus DSM 2522,649639,NA,NC_014829,infection,TRUE,BacMap,usually,infection
+Geobacillus sp. WCH70,471223,NA,"NC_012790, NC_012793, NC_012794",infection,TRUE,BacMap,usually,infection
+Nocardia farcinica IFM 10152,247156,NA,"NC_006361, NC_006362, NC_006363",infection,TRUE,BacMap,usually,nocardiosis
+Corynebacterium jeikeium K411,306537,NA,"NC_003080, NC_007164",infection,TRUE,BacMap,usually,nocosomial infections
+Acinetobacter sp. ADP1,62977,NA,NC_005966,infection,TRUE,BacMap,usually,nosocomial infections in immunocompromised individuals
+Acinetobacter sp. ADP1,62977,NA,NC_005966,pneumonia,TRUE,BacMap,usually,nosocomial infections in immunocompromised individuals
+Acinetobacter baumannii AB0057,480119,NA,"NC_011585, NC_011586",infection,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii AB0057,480119,NA,"NC_011585, NC_011586",pneumonia,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii AB307-0294,557600,NA,NC_011595,infection,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii AB307-0294,557600,NA,NC_011595,pneumonia,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii ACICU,405416,NA,"NC_010605, NC_010606, NC_010611",infection,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii ACICU,405416,NA,"NC_010605, NC_010606, NC_010611",pneumonia,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii ATCC 17978,400667,NA,"NC_009083, NC_009084, NC_009085",infection,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii ATCC 17978,400667,NA,"NC_009083, NC_009084, NC_009085",pneumonia,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii AYE,509173,NA,"NC_010401, NC_010402, NC_010403, NC_010404, NC_010410",infection,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii AYE,509173,NA,"NC_010401, NC_010402, NC_010403, NC_010404, NC_010410",pneumonia,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii SDF,509170,NA,"NC_010395, NC_010396, NC_010398, NC_010400",infection,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Acinetobacter baumannii SDF,509170,NA,"NC_010395, NC_010396, NC_010398, NC_010400",pneumonia,TRUE,BacMap,usually,"nosocomial infections, nosocomial pneumonia"
+Chlamydia trachomatis B/TZ1A828/OT,672161,NA,NC_012687,infection,TRUE,BacMap,usually,ocular infection
+Onion yellows phytoplasma OY-M,262768,NA,NC_005303,infection,TRUE,BacMap,usually,onions yellow disease
+Anaerococcus prevotii DSM 20548,525919,NA,"NC_013164, NC_013171",infection,TRUE,BacMap,usually,opportunistic infections
+Burkholderia xenovorans LB400,266265,NA,"NC_007951, NC_007952, NC_007953",infection,TRUE,BacMap,usually,opportunistic infections
+Corynebacterium aurimucosum ATCC 700975,548476,NA,"NC_010813, NC_012590",infection,TRUE,BacMap,usually,opportunistic infections
+Ochrobactrum anthropi ATCC 49188,439375,NA,"NC_009667, NC_009668, NC_009669, NC_009670, NC_009671, NC_009672",infection,TRUE,BacMap,usually,opportunistic infections
+Pseudomonas aeruginosa PA7,381754,NA,NC_009656,infection,TRUE,BacMap,usually,opportunistic infections
+Pseudomonas aeruginosa PAO1,208964,NA,NC_002516,infection,TRUE,BacMap,usually,opportunistic infections
+Pseudomonas aeruginosa UCBPP-PA14,208963,NA,NC_008463,infection,TRUE,BacMap,usually,opportunistic infections
+Bacteroides thetaiotaomicron VPI-5482,226186,NA,"NC_004663, NC_004703",infection,TRUE,BacMap,usually,opportunistic peritoneal diseases
+Bacteroides vulgatus ATCC 8482,435590,NA,NC_009614,infection,TRUE,BacMap,usually,opportunistic peritoneal diseases
+Parabacteroides distasonis ATCC 8503,435591,NA,NC_009615,infection,TRUE,BacMap,usually,opportunistic peritoneal diseases
+Dichelobacter nodosus VCS1703A,246195,NA,NC_009446,infection,TRUE,BacMap,usually,ovine footrot
+Mycobacterium avium subsp. paratuberculosis K-10,262316,NA,NC_002944,Tuberculosis,TRUE,BacMap,usually,paratuberculosis
+Salmonella enterica subsp. enterica serovar Paratyphi A str.,554290,NA,NC_011147,Fever,TRUE,BacMap,usually,paratyphoid fever
+Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC,295319,NA,NC_006511,Fever,TRUE,BacMap,usually,paratyphoid fever
+Salmonella enterica subsp. enterica serovar Paratyphi C strain,476213,NA,"NC_012124, NC_012125",infection,TRUE,BacMap,usually,paratyphoid fever
+Pasteurella multocida subsp. multocida str. Pm70,272843,NA,NC_002663,infection,TRUE,BacMap,usually,pasteurellosis
+Bacillus cereus AH820,405535,NA,"NC_011771, NC_011773, NC_011776, NC_011777",Periodontal disorder,TRUE,BacMap,usually,periodontal disease
+Porphyromonas gingivalis ATCC 33277,431947,NA,NC_010729,Periodontal disorder,TRUE,BacMap,usually,periodontal disease
+Porphyromonas gingivalis W83,242619,NA,NC_002950,Periodontal disorder,TRUE,BacMap,usually,periodontal disease
+Treponema denticola ATCC 35405,243275,NA,NC_002967,Periodontal disorder,TRUE,BacMap,usually,"periodontal disease, gum inflamation"
+Fusobacterium nucleatum subsp. nucleatum ATCC 25586,190304,NA,NC_003454,Periodontal disorder,TRUE,BacMap,usually,periodontal diseases and some inflammations
+Chlamydia muridarum Nigg,243161,NA,"NC_002182, NC_002620",pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydia trachomatis A/HAR-13,315277,NA,"NC_007429, NC_007430",pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydia trachomatis D/UW-3/CX,272561,NA,NC_000117,pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydophila abortus S26/3,218497,NA,NC_004552,pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydophila caviae GPIC,227941,NA,"NC_003361, NC_004720",pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydophila felis Fe/C-56,264202,NA,"NC_007899, NC_007900",pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydophila pneumoniae CWL029,115713,NA,NC_000922,pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydophila pneumoniae J138,138677,NA,NC_002491,pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Chlamydophila pneumoniae TW-183,182082,NA,NC_005043,pneumonia,TRUE,BacMap,usually,"pharyngitis, bronchitis and pneumonitis"
+Pseudomonas syringae pv. phaseolicola 1448A,264730,NA,"NC_005773, NC_007274, NC_007275",infection,TRUE,BacMap,usually,plant rot
+Pseudomonas syringae pv. syringae B728a,205918,NA,NC_007005,infection,TRUE,BacMap,usually,plant rot
+Pseudomonas syringae pv. tomato str. DC3000,223283,NA,"NC_004578, NC_004632, NC_004633",infection,TRUE,BacMap,usually,plant rot
+Ralstonia solanacearum GMI1000,267608,NA,"NC_003295, NC_003296",infection,TRUE,BacMap,usually,plant rot
+Bacillus cereus 03BB102,572264,NA,"NC_012472, NC_012473",pneumonia,TRUE,BacMap,usually,pneumonia
+Bacillus cereus B4264,405532,NA,NC_011725,pneumonia,TRUE,BacMap,usually,pneumonia
+Rhodococcus equi 103S,685727,NA,NC_014659,pneumonia,TRUE,BacMap,usually,pneumonia
+Serratia proteamaculans 568,399741,NA,"NC_009829, NC_009832",pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae 670-6B,189423,NA,NC_014498,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae 70585,488221,NA,NC_012468,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae AP200,574093,NA,NC_014494,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae CGSP14,516950,NA,NC_010582,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae D39,373153,NA,NC_008533,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae G54,512566,NA,NC_011072,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae Hungary19A-6,487214,NA,NC_010380,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae JJA,488222,NA,NC_012466,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae P1031,488223,NA,NC_012467,pneumonia,TRUE,BacMap,usually,pneumonia
+Streptococcus pneumoniae Taiwan19F-14,487213,NA,NC_012469,pneumonia,TRUE,BacMap,usually,pneumonia
+Klebsiella pneumoniae subsp. pneumoniae MGH 78578,272620,NA,"NC_009648, NC_009649, NC_009650, NC_009651, NC_009652, NC_009653",pneumonia,TRUE,BacMap,usually,pneumonia and urinary tract infections
+Klebsiella pneumoniae subsp. pneumoniae MGH 78578,272620,NA,"NC_009648, NC_009649, NC_009650, NC_009651, NC_009652, NC_009653",infection,TRUE,BacMap,usually,pneumonia and urinary tract infections
+Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044,484021,NA,"NC_006625, NC_012731",pneumonia,TRUE,BacMap,usually,pneumonia and urinary tract infections
+Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044,484021,NA,"NC_006625, NC_012731",urinary tract infection,TRUE,BacMap,usually,pneumonia and urinary tract infections
+Haemophilus somnus 129PT,205914,NA,"NC_006298, NC_008309",pneumonia,TRUE,BacMap,usually,"pneumonia, arthritis, myocarditis, and reproductive problems"
+Haemophilus somnus 129PT,205914,NA,"NC_006298, NC_008309",urinary tract infection,TRUE,BacMap,usually,"pneumonia, arthritis, myocarditis, and reproductive problems"
+Haemophilus somnus 2336,228400,NA,NC_010519,pneumonia,TRUE,BacMap,usually,"pneumonia, arthritis, myocarditis, and reproductive problems"
+Haemophilus somnus 2336,228400,NA,NC_010519,Arthritis,TRUE,BacMap,usually,"pneumonia, arthritis, myocarditis, and reproductive problems"
+Streptococcus pneumoniae ATCC 700669,561276,NA,NC_011900,pneumonia,TRUE,BacMap,usually,"pneumonia, meningitis, and bacteremia"
+Streptococcus pneumoniae ATCC 700669,561276,NA,NC_011900,Arthritis,TRUE,BacMap,usually,"pneumonia, meningitis, and bacteremia"
+Streptococcus pneumoniae TIGR4,170187,NA,NC_003028,pneumonia,TRUE,BacMap,usually,"pneumonia, meningitis, bacteremia, sinusitis, otitis media, conjunctivitis"
+Streptococcus pneumoniae TIGR4,170187,NA,NC_003028,meningitis,TRUE,BacMap,usually,"pneumonia, meningitis, bacteremia, sinusitis, otitis media, conjunctivitis"
+Streptococcus pneumoniae TIGR4,170187,NA,NC_003028,infection,TRUE,BacMap,usually,"pneumonia, meningitis, bacteremia, sinusitis, otitis media, conjunctivitis"
+Mycoplasma crocodyli MP145,512564,NA,NC_014014,Arthritis,TRUE,BacMap,usually,polyarthritis
+Neorickettsia risticii str. Illinois,434131,NA,NC_013009,Fever,TRUE,BacMap,usually,"potomac horse fever, equine monocytic ehrlichiosis"
+Neorickettsia risticii str. Illinois,434131,NA,NC_013009,ehrlichiosis,TRUE,BacMap,usually,"potomac horse fever, equine monocytic ehrlichiosis"
+Candidatus Protochlamydia amoebophila UWE25,264201,NA,NC_005861,pneumonia,TRUE,BacMap,usually,probable pneumonia agent
+Lawsonia intracellularis PHE/MN1-00,363253,NA,"NC_008011, NC_008012, NC_008013, NC_008014",infection,TRUE,BacMap,usually,proliferative enteropathy
+Coxiella burnetii CbuG_Q212,434923,NA,NC_011527,Fever,TRUE,BacMap,usually,q fever
+Coxiella burnetii CbuK_Q154,434924,NA,"NC_011526, NC_011528",Fever,TRUE,BacMap,usually,q fever
+Coxiella burnetii RSA 331,360115,NA,"NC_010115, NC_010117",Fever,TRUE,BacMap,usually,q fever
+Coxiella burnetii RSA 493,227377,NA,"NC_002971, NC_004704",Fever,TRUE,BacMap,usually,q fever
+Coxiella burnetii Dugway 5J108-111,434922,NA,"NC_009726, NC_009727",Fever,TRUE,BacMap,usually,q-fever
+Treponema paraluiscuniculi Cuniculi A,545776,NA,NC_015714,syphilis,TRUE,BacMap,usually,rabbit syphilis
+Eggerthella lenta DSM 2243,479437,NA,NC_013204,infection,TRUE,BacMap,usually,rare bacteremia
+Leptotrichia buccalis C-1013-b,523794,NA,NC_013192,infection,TRUE,BacMap,usually,"rare bacteremia, endocarditis"
+Leptotrichia buccalis C-1013-b,523794,NA,NC_013192,endocarditis,TRUE,BacMap,usually,"rare bacteremia, endocarditis"
+Tsukamurella paurometabola DSM 20162,521096,NA,"NC_014158, NC_014159",infection,TRUE,BacMap,usually,rare infections
+Veillonella parvula DSM 2008,479436,NA,NC_013520,infection,TRUE,BacMap,usually,rare opportunistic infections
+Shewanella oneidensis MR-1,211586,NA,"NC_004347, NC_004349",infection,TRUE,BacMap,usually,rare opportunistic pathogen of humans
+Streptobacillus moniliformis DSM 12112,519441,NA,"NC_013515, NC_013516",Fever,TRUE,BacMap,usually,rat bite fever
+Leifsonia xyli subsp. xyli str. CTCB07,281090,NA,NC_006087,infection,TRUE,BacMap,usually,ratoon stunting disease
+Mycoplasma fermentans JER,637387,NA,NC_014552,respiratory infection,TRUE,BacMap,usually,"respiratory and urogenital tract infections, arthritis"
+Mycoplasma fermentans JER,637387,NA,NC_014552,urlnary tract infection,TRUE,BacMap,usually,"respiratory and urogenital tract infections, arthritis"
+Mycoplasma fermentans JER,637387,NA,NC_014552,Arthritis,TRUE,BacMap,usually,"respiratory and urogenital tract infections, arthritis"
+Bordetella parapertussis 12822,257311,NA,NC_002928,respiratory infection,TRUE,BacMap,usually,respiratory deseases
+Bordetella pertussis Tohama I,257313,NA,NC_002929,respiratory infection,TRUE,BacMap,usually,respiratory deseases
+Mycoplasma bovis PG45,289397,NA,NC_014760,respiratory infection,TRUE,BacMap,usually,"respiratory disease, mastitis, arthritis"
+Mycoplasma bovis PG45,289397,NA,NC_014760,infection,TRUE,BacMap,usually,"respiratory disease, mastitis, arthritis"
+Mycoplasma bovis PG45,289397,NA,NC_014760,Arthritis,TRUE,BacMap,usually,"respiratory disease, mastitis, arthritis"
+Bordetella bronchiseptica RB50,257310,NA,NC_002927,respiratory infection,TRUE,BacMap,usually,respiratory diseases
+Mycoplasma fermentans M64,943945,NA,NC_014921,respiratory infection,TRUE,BacMap,usually,respiratory illness and arthritis
+Mycoplasma fermentans M64,943945,NA,NC_014921,Arthritis,TRUE,BacMap,usually,respiratory illness and arthritis
+Mycoplasma pulmonis UAB CTIP,272635,NA,NC_002771,respiratory infection,TRUE,BacMap,usually,respiratory mycoplasmosis
+Xanthomonas oryzae pv. oryzae KACC10331,291331,NA,NC_006834,infection,TRUE,BacMap,usually,rice bacterial blight disease
+Xanthomonas oryzae pv. oryzae MAFF 311018,342109,NA,NC_007705,infection,TRUE,BacMap,usually,rice bacterial blight disease
+Xanthomonas oryzae pv. oryzae PXO99A,360094,NA,NC_010717,infection,TRUE,BacMap,usually,rice bacterial blight disease
+Rickettsia akari str. Hartford,293614,NA,NC_009881,infection,TRUE,BacMap,usually,rickettsialpox
+Rickettsia conorii str. Malish 7,272944,NA,NC_003103,Fever,TRUE,BacMap,usually,rocky mountain spotted fever
+Rickettsia rickettsii str. 'Sheila Smith',392021,NA,NC_009882,Fever,TRUE,BacMap,usually,rocky mountain spotted fever
+Rickettsia rickettsii str. Iowa,452659,NA,NC_010263,Fever,TRUE,BacMap,usually,rocky mountain spotted fever
+Salmonella enterica subsp. enterica serovar Enteritidis str.,550537,NA,NC_011294,infection,TRUE,BacMap,usually,salmonellosis
+Salmonella enterica subsp. enterica serovar Choleraesuis str.,321314,NA,"NC_006855, NC_006856, NC_006905",infection,TRUE,BacMap,usually,salmonellosis and swine paratyphoid
+Salmonella enterica subsp. enterica serovar Choleraesuis str.,321314,NA,"NC_006855, NC_006856, NC_006905",typhus,TRUE,BacMap,usually,salmonellosis and swine paratyphoid
+Streptomyces scabiei 87.22,680198,NA,NC_013929,infection,TRUE,BacMap,usually,scab disease
+Orientia tsutsugamushi str. Boryong,357244,NA,NC_009488,typhus,TRUE,BacMap,usually,scrub typhus
+Orientia tsutsugamushi str. Ikeda,334380,NA,NC_010793,typhus,TRUE,BacMap,usually,scrub typhus
+Neorickettsia sennetsu str. Miyayama,222891,NA,NC_007798,Fever,TRUE,BacMap,usually,sennetsu fever
+Gordonia bronchialis DSM 43247,526226,NA,"NC_013441, NC_013442",infection,TRUE,BacMap,usually,"septicemia, endocarditis, lung and wound infections"
+Staphylococcus aureus subsp. aureus USA300_FPR3757,451515,NA,"NC_007790, NC_007791, NC_007792, NC_007793",infection,TRUE,BacMap,usually,"septicemia, pneumonia"
+Staphylococcus aureus subsp. aureus USA300_FPR3757,451515,NA,"NC_007790, NC_007791, NC_007792, NC_007793",pneumonia,TRUE,BacMap,usually,"septicemia, pneumonia"
+Staphylococcus aureus subsp. aureus USA300_TCH1516,451516,NA,"NC_010063, NC_010079, NC_012417",infection,TRUE,BacMap,usually,"septicemia, pneumonia"
+Staphylococcus aureus subsp. aureus USA300_TCH1516,451516,NA,"NC_010063, NC_010079, NC_012417",pneumonia,TRUE,BacMap,usually,"septicemia, pneumonia"
+Streptococcus agalactiae 2603V/R,208435,NA,NC_004116,infection,TRUE,BacMap,usually,"septicemia, pneumonia, and meningitis"
+Streptococcus agalactiae 2603V/R,208435,NA,NC_004116,pneumonia,TRUE,BacMap,usually,"septicemia, pneumonia, and meningitis"
+Streptococcus agalactiae 2603V/R,208435,NA,NC_004116,meningitis,TRUE,BacMap,usually,"septicemia, pneumonia, and meningitis"
+Streptococcus agalactiae A909,205921,NA,NC_007432,infection,TRUE,BacMap,usually,"septicemia, pneumonia, and meningitis"
+Streptococcus agalactiae A909,205921,NA,NC_007432,pneumonia,TRUE,BacMap,usually,"septicemia, pneumonia, and meningitis"
+Streptococcus agalactiae A909,205921,NA,NC_007432,meningitis,TRUE,BacMap,usually,"septicemia, pneumonia, and meningitis"
+Mycoplasma capricolum subsp. capricolum ATCC 27343,340047,NA,NC_007633,Arthritis,TRUE,BacMap,usually,severe arthritis and septicemia
+Mycoplasma capricolum subsp. capricolum ATCC 27343,340047,NA,NC_007633,infection,TRUE,BacMap,usually,severe arthritis and septicemia
+Bacteroides fragilis NCTC 9343,272559,NA,"NC_003228, NC_006873",infection,TRUE,BacMap,usually,"severe infection, diarrhea, and abcesses"
+Bacteroides fragilis NCTC 9343,272559,NA,"NC_003228, NC_006873",diarrhea,TRUE,BacMap,usually,"severe infection, diarrhea, and abcesses"
+Bacteroides fragilis YCH46,295405,NA,"NC_006297, NC_006347",infection,TRUE,BacMap,usually,"severe infection, diarrhea, and abcesses"
+Bacteroides fragilis YCH46,295405,NA,"NC_006297, NC_006347",diarrhea,TRUE,BacMap,usually,"severe infection, diarrhea, and abcesses"
+Pseudoalteromonas atlantica T6c,342610,NA,NC_008228,infection,TRUE,BacMap,usually,shell disease
+Staphylococcus aureus subsp. aureus str. Newman,426430,NA,NC_009641,infection,TRUE,BacMap,usually,"skin infections, pneumonia, endocarditis"
+Staphylococcus aureus subsp. aureus str. Newman,426430,NA,NC_009641,pneumonia,TRUE,BacMap,usually,"skin infections, pneumonia, endocarditis"
+Staphylococcus aureus subsp. aureus str. Newman,426430,NA,NC_009641,endocarditis,TRUE,BacMap,usually,"skin infections, pneumonia, endocarditis"
+Dickeya dadantii 3937,198628,NA,NC_014500,infection,TRUE,BacMap,usually,soft rot
+Dickeya zeae Ech1591,561229,NA,NC_012912,infection,TRUE,BacMap,usually,soft rot and wilt
+Dickeya dadantii Ech586,590409,NA,NC_013592,infection,TRUE,BacMap,usually,soft rot disease
+Dickeya dadantii Ech703,579405,NA,NC_012880,infection,TRUE,BacMap,usually,soft rot disease
+Pectobacterium wasabiae WPP163,561231,NA,NC_013421,infection,TRUE,BacMap,usually,soft rot disease
+Pectobacterium atrosepticum SCRI1043,218491,NA,NC_004547,infection,TRUE,BacMap,usually,soft rot disease of potatoes
+Shewanella putrefaciens CN-32,319224,NA,NC_009438,infection,TRUE,BacMap,usually,soft tissue infections
+Shewanella sp. W3-18-1,351745,NA,NC_008750,infection,TRUE,BacMap,usually,soft tissue infections
+Mycobacterium smegmatis str. MC2 155,246196,NA,NC_008596,infection,TRUE,BacMap,usually,soft tissue lesions
+Bacillus thuringiensis serovar konkukian str. 97-27,281309,NA,"NC_005957, NC_006578",infection,TRUE,BacMap,usually,sotto disease
+Bacillus thuringiensis str. Al Hakam,412694,NA,"NC_008598, NC_008600",infection,TRUE,BacMap,usually,sotto disease
+Pseudomonas mendocina ymp,399739,NA,NC_009439,infection,TRUE,BacMap,usually,spondylodiscitis (rare)
+Brucella abortus S19,430066,NA,"NC_010740, NC_010742",abortion,TRUE,BacMap,usually,spontaneous abortion
+Rickettsia felis URRWXCal2,315456,NA,"NC_007109, NC_007110, NC_007111",Fever,TRUE,BacMap,usually,spotted-fever like illness
+Streptococcus equi subsp. equi 4047,553482,NA,NC_012471,infection,TRUE,BacMap,usually,strangles
+Brachyspira hyodysenteriae WA1,565034,NA,"NC_012225, NC_012226",infection,TRUE,BacMap,usually,swine dysentery
+Mycoplasma hyopneumoniae 232,295358,NA,NC_006360,dysentery,TRUE,BacMap,usually,swine mycoplasmosis
+Treponema pallidum subsp. pallidum SS14,455434,NA,NC_010741,syphilis,TRUE,BacMap,usually,syphilis
+Treponema pallidum subsp. pallidum str. Nichols,243276,NA,NC_000919,syphilis,TRUE,BacMap,usually,syphilis
+Edwardsiella tarda EIB202,498217,NA,"NC_013508, NC_013509",infection,TRUE,BacMap,usually,"systemic disease in fish, occassional gastroenteritis, septicemia, and wound infections in humans"
+Edwardsiella tarda EIB202,498217,NA,"NC_013508, NC_013509",septicemia,TRUE,BacMap,usually,"systemic disease in fish, occassional gastroenteritis, septicemia, and wound infections in humans"
+Clostridium tetani E88,212717,NA,"NC_004557, NC_004565",Tetnus,TRUE,BacMap,usually,tetanus
+Borrelia duttonii Ly,412419,NA,"NC_011224, NC_011226, NC_011229, NC_011245, NC_011247, NC_011248, NC_011249, NC_011250, NC_011251, NC_011254, NC_011256, NC_011257, NC_011259, NC_011261, NC_011262, NC_011264, NC_011265",Fever,TRUE,BacMap,usually,tick-borne relapsing fever
+Borrelia hermsii DAH,314723,NA,NC_010673,Fever,TRUE,BacMap,usually,tick-borne relapsing fever
+Borrelia turicatae 91E135,314724,NA,NC_008710,Fever,TRUE,BacMap,usually,tick-borne relapsing fever
+Clavibacter michiganensis subsp. michiganensis NCPPB 382,443906,NA,"NC_009478, NC_009479, NC_009480",infection,TRUE,BacMap,usually,tomato bacterial wilt and canker
+Clavibacter michiganensis subsp. michiganensis NCPPB 382,443906,NA,"NC_009478, NC_009479, NC_009480",canker,TRUE,BacMap,usually,tomato bacterial wilt and canker
+Photorhabdus luminescens subsp. laumondii TTO1,243265,NA,NC_005126,septicemia,TRUE,BacMap,usually,toxemia and septicemia
+Photorhabdus luminescens subsp. laumondii TTO1,243265,NA,NC_005126,infection,TRUE,BacMap,usually,toxemia and septicemia
+Staphylococcus aureus subsp. aureus COL,93062,NA,"NC_002951, NC_006629",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus COL,93062,NA,"NC_002951, NC_006629",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus JH1,359787,NA,"NC_009619, NC_009632",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus JH1,359787,NA,"NC_009619, NC_009632",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus JH9,359786,NA,"NC_009477, NC_009487",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus JH9,359786,NA,"NC_009477, NC_009487",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus MRSA252,282458,NA,NC_002952,Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus MRSA252,282458,NA,NC_002952,Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus MSSA476,282459,NA,"NC_002953, NC_005951",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus MSSA476,282459,NA,"NC_002953, NC_005951",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus Mu50,158878,NA,"NC_002758, NC_002774",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus Mu50,158878,NA,"NC_002758, NC_002774",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus MW2,196620,NA,NC_003923,Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus MW2,196620,NA,NC_003923,Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus N315,158879,NA,"NC_002745, NC_003140",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus N315,158879,NA,"NC_002745, NC_003140",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus NCTC 8325,93061,NA,NC_007795,Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus aureus subsp. aureus NCTC 8325,93061,NA,NC_007795,Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus epidermidis ATCC 12228,176280,NA,"NC_004461, NC_005003, NC_005004, NC_005005, NC_005006, NC_005007, NC_005008",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus epidermidis ATCC 12228,176280,NA,"NC_004461, NC_005003, NC_005004, NC_005005, NC_005006, NC_005007, NC_005008",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus epidermidis RP62A,176279,NA,"NC_002976, NC_006663",Toxic Shock Syndrome,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Staphylococcus epidermidis RP62A,176279,NA,"NC_002976, NC_006663",Fever,TRUE,BacMap,usually,toxic-shock syndrome and staphylococcal scarlet fever
+Mycobacterium tuberculosis CDC1551,83331,NA,NC_002755,tuberculosis,TRUE,BacMap,usually,tuberculosis
+Mycobacterium tuberculosis F11,336982,NA,NC_009565,tuberculosis,TRUE,BacMap,usually,tuberculosis
+Mycobacterium tuberculosis H37Rv,83332,NA,NC_000962,tuberculosis,TRUE,BacMap,usually,tuberculosis
+Mycobacterium tuberculosis KZN 1435,478434,NA,NC_012943,tuberculosis,TRUE,BacMap,usually,tuberculosis
+Mycobacterium tuberculosis H37Ra,419947,NA,NC_009525,tuberculosis,TRUE,BacMap,usually,tuberculosis (attenuated)
+Mycobacterium bovis AF2122/97,233413,NA,NC_002945,tuberculosis,TRUE,BacMap,usually,tuberculosis in cattle
+Mycobacterium avium 104,243243,NA,NC_008595,tuberculosis,TRUE,BacMap,usually,tuberculosis type pulmonary infections
+Mycobacterium marinum M,216594,NA,"NC_010604, NC_010612",tuberculosis,TRUE,BacMap,usually,"tuberculosis-like infection in fish, skin infection, arthritis in human"
+Francisella tularensis subsp. holarctica FTNF002-00,458234,NA,NC_009749,infection,TRUE,BacMap,usually,tularemia
+Francisella tularensis subsp. holarctica LVS,376619,NA,NC_007880,infection,TRUE,BacMap,usually,tularemia
+Francisella tularensis subsp. holarctica OSU18,393011,NA,NC_008369,infection,TRUE,BacMap,usually,tularemia
+Francisella tularensis subsp. mediasiatica FSC147,441952,NA,NC_010677,infection,TRUE,BacMap,usually,tularemia
+Francisella tularensis subsp. tularensis FSC198,393115,NA,NC_008245,infection,TRUE,BacMap,usually,tularemia
+Francisella tularensis subsp. tularensis SCHU S4,177416,NA,NC_006570,infection,TRUE,BacMap,usually,tularemia
+Francisella tularensis subsp. tularensis WY96-3418,418136,NA,NC_009257,infection,TRUE,BacMap,usually,tularemia
+Agrobacterium tumefaciens str. C58,176299,NA,"NC_003062, NC_003063, NC_003064, NC_003065",Tumor,TRUE,BacMap,usually,tumors
+Salmonella enterica subsp. enterica serovar Typhi str. CT18,220341,NA,"NC_003198, NC_003384, NC_003385",typhoid,TRUE,BacMap,usually,typhoid fever
+Salmonella enterica subsp. enterica serovar Typhi str. Ty2,209261,NA,NC_004631,typhoid,TRUE,BacMap,usually,typhoid fever
+Corynebacterium urealyticum DSM 7109,504474,NA,NC_010545,urinary tract infection,TRUE,BacMap,usually,urinary tract infection
+Escherichia coli 536,362663,NA,NC_008253,urinary tract infection,TRUE,BacMap,usually,urinary tract infection
+Escherichia coli IAI39,585057,NA,NC_011750,urinary tract infection,TRUE,BacMap,usually,urinary tract infection
+Escherichia coli UMN026,585056,NA,"NC_011739, NC_011749, NC_011751",urinary tract infection,TRUE,BacMap,usually,urinary tract infection
+Escherichia coli CFT073,199310,NA,NC_004431,urinary tract infection,TRUE,BacMap,usually,urinary tract infections
+Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305,342451,NA,"NC_007350, NC_007351, NC_007352",urinary tract infection,TRUE,BacMap,usually,urinary tract infections
+Mycoplasma genitalium G37,243273,NA,NC_000908,urinary tract infection,TRUE,BacMap,usually,urogenital or respiratory tract infections
+Mycoplasma genitalium G37,243273,NA,NC_000908,respiratory infection,TRUE,BacMap,usually,urogenital or respiratory tract infections
+Mycoplasma penetrans HF-2,272633,NA,NC_004432,urinary tract infection,TRUE,BacMap,usually,urogenital or respiratory tract infections
+Mycoplasma penetrans HF-2,272633,NA,NC_004432,respiratory infection,TRUE,BacMap,usually,urogenital or respiratory tract infections
+Ureaplasma parvum serovar 3 str. ATCC 27815,505682,NA,NC_010503,urinary tract infection,TRUE,BacMap,usually,urogenital or respiratory tracts infections
+Ureaplasma parvum serovar 3 str. ATCC 27815,505682,NA,NC_010503,respiratory infection,TRUE,BacMap,usually,urogenital or respiratory tracts infections
+Ureaplasma parvum serovar 3 str. ATCC 700970,273119,NA,NC_002162,urinary tract infection,TRUE,BacMap,usually,urogenital or respiratory tracts infections
+Ureaplasma parvum serovar 3 str. ATCC 700970,273119,NA,NC_002162,respiratory infection,TRUE,BacMap,usually,urogenital or respiratory tracts infections
+Ureaplasma urealyticum serovar 10 str. ATCC 33699,565575,NA,NC_011374,urinary tract infection,TRUE,BacMap,usually,urogenital or respiratory tracts infections
+Ureaplasma urealyticum serovar 10 str. ATCC 33699,565575,NA,NC_011374,respiratory infection,TRUE,BacMap,usually,urogenital or respiratory tracts infections
+Staphylococcus aureus subsp. aureus Mu3,418127,NA,NC_009782,infection,TRUE,BacMap,usually,variety of infections
+Vibrio harveyi ATCC BAA-1116,2902295,NA,"NC_009777, NC_009783, NC_009784",infection,TRUE,BacMap,usually,vibriosis
+Vibrio splendidus LGP32,575788,NA,"NC_011744, NC_011753",infection,TRUE,BacMap,usually,vibriosis
+Tropheryma whipplei str. Twist,203267,NA,NC_004572,infection,TRUE,BacMap,usually,whipple's disease
+Tropheryma whipplei TW08/27,218496,NA,NC_004551,infection,TRUE,BacMap,usually,whipple's disease
+Streptococcus pyogenes M1 GAS,160490,NA,NC_002737,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS10270,370552,NA,NC_008022,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS10394,286636,NA,NC_006086,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS10750,370554,NA,NC_008024,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS2096,370553,NA,NC_008023,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS315,198466,NA,NC_004070,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS5005,293653,NA,NC_007297,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS6180,319701,NA,NC_007296,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS8232,186103,NA,NC_003485,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes MGAS9429,370551,NA,NC_008021,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes NZ131,471876,NA,NC_011375,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes SSI-1,193567,NA,NC_004606,infection,TRUE,BacMap,usually,wide range of infections
+Streptococcus pyogenes str. Manfredo,160491,NA,NC_009332,infection,TRUE,BacMap,usually,wide range of infections
+Staphylococcus haemolyticus JCSC1435,279808,NA,"NC_007168, NC_007169, NC_007170, NC_007171",infection,TRUE,BacMap,usually,wide range of opportunistic infections
+Clavibacter michiganensis subsp. sepedonicus,31964,NA,"NC_010399, NC_010407, NC_010408",infection,TRUE,BacMap,usually,"wilt and tuber rot, ring rot"
+Escherichia fergusonii ATCC 35469,585054,NA,"NC_011740, NC_011743",infection,TRUE,BacMap,usually,"wound and urinary tract infections, bacteremia"
+Escherichia fergusonii ATCC 35469,585054,NA,"NC_011740, NC_011743",urinary tract infection,TRUE,BacMap,usually,"wound and urinary tract infections, bacteremia"
+Photorhabdus asymbiotica subsp. asymbiotica ATCC 43949,553480,NA,NC_012962,infection,TRUE,BacMap,usually,"wound infections, bacteremia"
