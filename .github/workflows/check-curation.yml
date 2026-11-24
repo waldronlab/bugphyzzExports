@@ -1,0 +1,52 @@
+name: Check curation files
+
+# Checks the lines a pull request adds or changes in sources/sheets/ against
+# bugphyzz's rules (inst/scripts/check_curation.R, #115). Rows that were
+# already there are not checked.
+
+on:
+  pull_request:
+    paths:
+      - "sources/sheets/**"
+      - "inst/scripts/check_curation.R"
+      - "inst/scripts/test_check_curation.R"
+      - ".github/workflows/check-curation.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  check-curation:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # full history, to diff against the merge base with the PR's base
+          fetch-depth: 0
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      # Only bugphyzz and its imports: the rules are its extdata tables,
+      # read through its own functions. This repository's DESCRIPTION
+      # (taxPPro, castor, ...) is not installed.
+      - name: Install bugphyzz devel
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: github::waldronlab/bugphyzz@devel
+          dependencies: '"hard"'
+
+      - name: Test the check
+        run: Rscript inst/scripts/test_check_curation.R
+
+      - name: Check the changed lines of the changed curation files
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: Rscript inst/scripts/check_curation.R --base "$BASE_SHA"

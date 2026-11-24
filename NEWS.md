@@ -2,6 +2,10 @@
 
 Changes to the data pipeline and the exported files, newest first. Released data versions are on Zenodo (concept DOI 10.5281/zenodo.10980653); the `devel` branch holds the weekly export.
 
+## 2026-11-24, unreleased
+
+- **Check of edits to curation files** (#115): pull requests that change `sources/sheets/` run `inst/scripts/check_curation.R`, which fails when an added or changed line breaks bugphyzz's rules: field count, required columns and their order, the `valid_values` regex of each column in `curation_template.tsv`, `Attribute_source` in `attribute_sources.tsv`, and `Attribute` in `attributes.tsv` for the physiology after synonyms. Problems are reported as `file:line`. Rows already in the snapshot are not checked; `--all` lists what they fail.
+
 ## 2026-11-12, v1.2.0 (Zenodo 10.5281/zenodo.24166279)
 
 - **New source `Wikipedia_2026`** (waldronlab/bugphyzz#296): traits read from the introductory paragraphs of English Wikipedia articles carried by taxoniq, 26,485 rows for 7,968 genera and species in 19 physiologies, confidence `medium`. Three of the physiologies are new: `halophily class`, `temperature class` and `ph class` (#106). See `sources/wikipedia_2026/README.md` for the comparison with the other sources.

@@ -28,6 +28,23 @@ Rules:
   unchanged, because bugphyzz 1.8.x reads those links until Bioconductor
   3.24 is retired (ADR 0007).
 
+Check: a pull request that changes a file here is checked by
+`.github/workflows/check-curation.yml` (#115), which runs
+`inst/scripts/check_curation.R` on the lines the pull request adds or
+changes. It fails when a record has the wrong number of fields, a required
+column is missing or out of order, a value does not match its `valid_values`
+regex in bugphyzz's `curation_template.tsv`, `Attribute_source` is not in
+`attribute_sources.tsv`, or `Attribute` is not in `attributes.tsv` for the
+physiology after the synonym table is applied. Rows that were already in the
+snapshot are not checked. To run it before pushing, from the repository root
+with bugphyzz devel installed:
+
+```sh
+Rscript inst/scripts/check_curation.R --base origin/devel   # changed lines only
+Rscript inst/scripts/check_curation.R sources/sheets/shape.csv   # a whole file
+Rscript inst/scripts/check_curation.R --all                 # every file
+```
+
 Format notes:
 
 - The CSVs come from Google with CRLF line endings and no final newline. The
