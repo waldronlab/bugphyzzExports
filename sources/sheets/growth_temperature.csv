@@ -1,0 +1,1178 @@
+Taxon_name,NCBI_ID,Genome_ID,Accession_ID,Attribute,Attribute_value,Attribute_source,Frequency,Unit
+Staphylococcus aureus subsp. aureus Mu3,418127,Unknown,NC_009782,growth temperature,3,BacMap,unknown,Celcius
+Idiomarina loihiensis L2TR,283942,Unknown,NC_006512,growth temperature,4,BacMap,unknown,Celcius
+Psychrobacter sp. PRwf-1,349106,Unknown,"NC_009516, NC_009517, NC_009524",growth temperature,4,BacMap,unknown,Celcius
+Saccharophagus degradans 2-40,203122,Unknown,NC_007912,growth temperature,4,BacMap,unknown,Celcius
+Desulfotalea psychrophila LSv54,177439,Unknown,"NC_006138, NC_006139, NC_006140",growth temperature,7,BacMap,unknown,Celcius
+Colwellia psychrerythraea 34H,167879,Unknown,NC_003910,growth temperature,8,BacMap,unknown,Celcius
+Clostridium acetobutylicum ATCC 824,272562,Unknown,"NC_001988, NC_003030",growth temperature,10,BacMap,unknown,Celcius
+Shewanella halifaxensis HAW-EB4,458817,Unknown,NC_010334,growth temperature,10,BacMap,unknown,Celcius
+Shewanella sediminis HAW-EB3,425104,Unknown,NC_009831,growth temperature,10,BacMap,unknown,Celcius
+Cellulophaga algicola DSM 14237,688270,Unknown,NC_014934,growth temperature,15,BacMap,unknown,Celcius
+Pelodictyon phaeoclathratiforme BU-1,324925,Unknown,NC_011060,growth temperature,15,BacMap,unknown,Celcius
+Photobacterium profundum SS9,298386,Unknown,"NC_005871, NC_006370, NC_006371",growth temperature,15,BacMap,unknown,Celcius
+Pseudoalteromonas sp. SM9913,234831,Unknown,"NC_014800, NC_014803",growth temperature,15,BacMap,unknown,Celcius
+Renibacterium salmoninarum ATCC 33209,288705,Unknown,NC_010168,growth temperature,15,BacMap,unknown,Celcius
+Shewanella piezotolerans WP3,225849,Unknown,NC_011566,growth temperature,15,BacMap,unknown,Celcius
+Oenococcus oeni PSU-1,203123,Unknown,NC_008528,growth temperature,17,BacMap,unknown,Celcius
+Beijerinckia indica subsp. indica ATCC 9039,395963,Unknown,"NC_010578, NC_010580, NC_010581",growth temperature,20,BacMap,unknown,Celcius
+Desulfobacterium autotrophicum HRM2,177437,Unknown,"NC_012108, NC_012109",growth temperature,20,BacMap,unknown,Celcius
+Flavobacterium johnsoniae UW101,376686,Unknown,NC_009441,growth temperature,20,BacMap,unknown,Celcius
+Fluviicola taffensis DSM 16823,755732,Unknown,NC_015321,growth temperature,20,BacMap,unknown,Celcius
+Leifsonia xyli subsp. xyli str. CTCB07,281090,Unknown,NC_006087,growth temperature,20,BacMap,unknown,Celcius
+Leuconostoc mesenteroides subsp. mesenteroides ATCC 8293,203120,Unknown,"NC_008496, NC_008531",growth temperature,20,BacMap,unknown,Celcius
+Maricaulis maris MCS10,394221,Unknown,NC_008347,growth temperature,20,BacMap,unknown,Celcius
+Mesoplasma florum L1,265311,Unknown,NC_006055,growth temperature,20,BacMap,unknown,Celcius
+Methylobacterium populi BJ001,441620,Unknown,"NC_010721, NC_010725, NC_010727",growth temperature,20,BacMap,unknown,Celcius
+Mycoplasma mobile 163K,267748,Unknown,NC_006908,growth temperature,20,BacMap,unknown,Celcius
+Myxococcus xanthus DK 1622,246197,Unknown,NC_008095,growth temperature,20,BacMap,unknown,Celcius
+Polaromonas naphthalenivorans CJ2,365044,Unknown,"NC_008757, NC_008758, NC_008759, NC_008760, NC_008761, NC_008762, NC_008763, NC_008764, NC_008781",growth temperature,20,BacMap,unknown,Celcius
+Polaromonas sp. JS666,296591,Unknown,"NC_007948, NC_007949, NC_007950",growth temperature,20,BacMap,unknown,Celcius
+Rhodococcus erythropolis PR4,234621,Unknown,"NC_007486, NC_007487, NC_007491, NC_012490",growth temperature,20,BacMap,unknown,Celcius
+Shewanella denitrificans OS217,318161,Unknown,NC_007954,growth temperature,20,BacMap,unknown,Celcius
+Shewanella frigidimarina NCIMB 400,318167,Unknown,NC_008345,growth temperature,20,BacMap,unknown,Celcius
+Spirosoma linguale DSM 74,504472,Unknown,"NC_013730, NC_013731, NC_013732, NC_013733, NC_013734, NC_013735, NC_013736, NC_013737, NC_013738",growth temperature,20,BacMap,unknown,Celcius
+Sulfurimonas denitrificans DSM 1251,326298,Unknown,NC_007575,growth temperature,20,BacMap,unknown,Celcius
+Vibrio cholerae O1 biovar El Tor str. N16961,243277,Unknown,"NC_002505, NC_002506",growth temperature,20,BacMap,unknown,Celcius
+Vibrio cholerae O395,345073,Unknown,"NC_009456, NC_009457, CP001235",growth temperature,20,BacMap,unknown,Celcius
+Vibrio fischeri ES114,312309,Unknown,"NC_006840, NC_006841, NC_006842",growth temperature,20,BacMap,unknown,Celcius
+Vibrio fischeri MJ11,388396,Unknown,"NC_011184, NC_011185, NC_011186",growth temperature,20,BacMap,unknown,Celcius
+Vibrio harveyi ATCC BAA-1116,338187,Unknown,"NC_009777, NC_009783, NC_009784",growth temperature,20,BacMap,unknown,Celcius
+Vibrio parahaemolyticus RIMD 2210633,223926,Unknown,"NC_004603, NC_004605",growth temperature,20,BacMap,unknown,Celcius
+Vibrio vulnificus CMCP6,216895,Unknown,"NC_004459, NC_004460",growth temperature,20,BacMap,unknown,Celcius
+Vibrio vulnificus YJ016,196600,Unknown,"NC_005128, NC_005139, NC_005140",growth temperature,20,BacMap,unknown,Celcius
+Methanoculleus marisnigri JR1,368407,Unknown,NC_009051,growth temperature,21,BacMap,unknown,Celcius
+Aeromonas hydrophila subsp. hydrophila ATCC 7966,380703,Unknown,NC_008570,growth temperature,22,BacMap,unknown,Celcius
+Psychrobacter arcticus 273-4,259536,Unknown,NC_007204,growth temperature,22,BacMap,unknown,Celcius
+Tolumonas auensis DSM 9187,595494,Unknown,NC_012691,growth temperature,22,BacMap,unknown,Celcius
+Chitinophaga pinensis DSM 2588,485918,Unknown,NC_013132,growth temperature,23,BacMap,unknown,Celcius
+Methanococcoides burtonii DSM 6242,259564,Unknown,NC_007955,growth temperature,23.4,BacMap,unknown,Celcius
+Mycobacterium vanbaalenii PYR-1,350058,Unknown,NC_008726,growth temperature,24,BacMap,unknown,Celcius
+Agrobacterium radiobacter K84,311403,Unknown,"NC_011983, NC_011985, NC_011987, NC_011990, NC_011994",growth temperature,25,BacMap,unknown,Celcius
+Agrobacterium tumefaciens str. C58,176299,Unknown,"NC_003062, NC_003063, NC_003064, NC_003065",growth temperature,25,BacMap,unknown,Celcius
+Bacillus cereus ATCC 10987,222523,Unknown,"NC_003909, NC_005707",growth temperature,25,BacMap,unknown,Celcius
+Bacillus cereus ATCC 14579,226900,Unknown,"NC_004721, NC_004722",growth temperature,25,BacMap,unknown,Celcius
+Bacillus cereus E33L,288681,Unknown,"NC_006274, NC_007103, NC_007104, NC_007105, NC_007106, NC_007107",growth temperature,25,BacMap,unknown,Celcius
+Bacillus cereus G9842,405531,Unknown,"NC_011772, NC_011774, NC_011775",growth temperature,25,BacMap,unknown,Celcius
+Bacillus subtilis subsp. subtilis str. 168,224308,Unknown,NC_000964,growth temperature,25,BacMap,unknown,Celcius
+Bradyrhizobium japonicum USDA 110,224911,Unknown,NC_004463,growth temperature,25,BacMap,unknown,Celcius
+Burkholderia thailandensis E264,271848,Unknown,"NC_007650, NC_007651",growth temperature,25,BacMap,unknown,Celcius
+Chlorobium luteolum DSM 273,319225,Unknown,NC_007512,growth temperature,25,BacMap,unknown,Celcius
+Chromobacterium violaceum ATCC 12472,243365,Unknown,NC_005085,growth temperature,25,BacMap,unknown,Celcius
+Clavibacter michiganensis subsp. michiganensis NCPPB 382,443906,Unknown,"NC_009478, NC_009479, NC_009480",growth temperature,25,BacMap,unknown,Celcius
+Clavibacter michiganensis subsp. sepedonicus,31964,Unknown,"NC_010399, NC_010407, NC_010408",growth temperature,25,BacMap,unknown,Celcius
+Corynebacterium variabile DSM 44702,858619,Unknown,NC_015859,growth temperature,25,BacMap,unknown,Celcius
+Desulfovibrio alaskensis G20,207559,Unknown,NC_007519,growth temperature,25,BacMap,unknown,Celcius
+Desulfovibrio vulgaris str. Hildenborough,882,Unknown,"NC_002937, NC_005863",growth temperature,25,BacMap,unknown,Celcius
+Escherichia coli O157:H7 str. EDL933,155864,Unknown,"NC_002655, NC_007414",growth temperature,25,BacMap,unknown,Celcius
+Gluconobacter oxydans 621H,290633,Unknown,"NC_006672, NC_006673, NC_006674, NC_006675, NC_006676, NC_006677",growth temperature,25,BacMap,unknown,Celcius
+Lactobacillus acidophilus NCFM,272621,Unknown,NC_006814,growth temperature,25,BacMap,unknown,Celcius
+Lactobacillus brevis ATCC 367,387344,Unknown,"NC_008497, NC_008498, NC_008499",growth temperature,25,BacMap,unknown,Celcius
+Lactobacillus gasseri ATCC 33323,324831,Unknown,NC_008530,growth temperature,25,BacMap,unknown,Celcius
+Lactobacillus johnsonii NCC 533,257314,Unknown,NC_005362,growth temperature,25,BacMap,unknown,Celcius
+Lactobacillus plantarum WCFS1,220668,Unknown,"NC_004567, NC_006375, NC_006376, NC_006377",growth temperature,25,BacMap,unknown,Celcius
+Methylobacterium extorquens AM1,272630,Unknown,"NC_012807, NC_012808, NC_012809, NC_012810, NC_012811",growth temperature,25,BacMap,unknown,Celcius
+Methylobacterium extorquens PA1,419610,Unknown,NC_010172,growth temperature,25,BacMap,unknown,Celcius
+Paracoccus denitrificans PD1222,318586,Unknown,"NC_008686, NC_008687, NC_008688",growth temperature,25,BacMap,unknown,Celcius
+Pseudomonas aeruginosa PA7,381754,Unknown,NC_009656,growth temperature,25,BacMap,unknown,Celcius
+Pseudomonas aeruginosa PAO1,208964,Unknown,NC_002516,growth temperature,25,BacMap,unknown,Celcius
+Pseudomonas aeruginosa UCBPP-PA14,208963,Unknown,NC_008463,growth temperature,25,BacMap,unknown,Celcius
+Pseudomonas fluorescens Pf-5,220664,Unknown,NC_004129,growth temperature,25,BacMap,unknown,Celcius
+Pseudomonas fluorescens SBW25,216595,Unknown,"NC_009444, NC_012660",growth temperature,25,BacMap,unknown,Celcius
+Rhizobium leguminosarum bv. viciae 3841,216596,Unknown,"NC_008378, NC_008379, NC_008380, NC_008381, NC_008382, NC_008383, NC_008384",growth temperature,25,BacMap,unknown,Celcius
+Rhodobacter capsulatus SB 1003,272942,Unknown,"NC_014034, NC_014035",growth temperature,25,BacMap,unknown,Celcius
+Rhodobacter sphaeroides 2.4.1,272943,Unknown,"NC_007488, NC_007489, NC_007490, NC_007493, NC_007494, NC_009007, NC_009008",growth temperature,25,BacMap,unknown,Celcius
+Rhodobacter sphaeroides ATCC 17025,349102,Unknown,"NC_009428, NC_009429, NC_009430, NC_009431, NC_009432, NC_009433",growth temperature,25,BacMap,unknown,Celcius
+Rhodobacter sphaeroides ATCC 17029,349101,Unknown,"NC_009040, NC_009049, NC_009050",growth temperature,25,BacMap,unknown,Celcius
+Rhodobacter sphaeroides KD131,557760,Unknown,"NC_011958, NC_011960, NC_011962, NC_011963",growth temperature,25,BacMap,unknown,Celcius
+Rhodoferax ferrireducens T118,338969,Unknown,"NC_007901, NC_007908",growth temperature,25,BacMap,unknown,Celcius
+Rhodopseudomonas palustris BisA53,316055,Unknown,NC_008435,growth temperature,25,BacMap,unknown,Celcius
+Rhodopseudomonas palustris BisB18,316056,Unknown,NC_007925,growth temperature,25,BacMap,unknown,Celcius
+Rhodopseudomonas palustris BisB5,316057,Unknown,NC_007958,growth temperature,25,BacMap,unknown,Celcius
+Rhodopseudomonas palustris CGA009,258594,Unknown,"NC_005296, NC_005297",growth temperature,25,BacMap,unknown,Celcius
+Rhodopseudomonas palustris HaA2,316058,Unknown,NC_007778,growth temperature,25,BacMap,unknown,Celcius
+Rhodopseudomonas palustris TIE-1,395960,Unknown,NC_011004,growth temperature,25,BacMap,unknown,Celcius
+Rhodospirillum rubrum ATCC 11170,269796,Unknown,"NC_007641, NC_007643",growth temperature,25,BacMap,unknown,Celcius
+Saccharopolyspora erythraea NRRL 2338,405948,Unknown,NC_009142,growth temperature,25,BacMap,unknown,Celcius
+Shewanella woodyi ATCC 51908,392500,Unknown,NC_010506,growth temperature,25,BacMap,unknown,Celcius
+Sinorhizobium meliloti 1021,266834,Unknown,"NC_003037, NC_003047, NC_003078",growth temperature,25,BacMap,unknown,Celcius
+Sodalis glossinidius str. 'morsitans',343509,Unknown,"NC_007712, NC_007713, NC_007714, NC_007715",growth temperature,25,BacMap,unknown,Celcius
+Streptomyces avermitilis MA-4680,227882,Unknown,"NC_003155, NC_004719",growth temperature,25,BacMap,unknown,Celcius
+Streptomyces coelicolor A3(2),100226,Unknown,"NC_003888, NC_003903, NC_003904",growth temperature,25,BacMap,unknown,Celcius
+Streptomyces griseus subsp. griseus NBRC 13350,455632,Unknown,NC_010572,growth temperature,25,BacMap,unknown,Celcius
+Sulfuricurvum kujiense DSM 16994,709032,Unknown,"NC_014754, NC_014755, NC_014756, NC_014762, NC_014763",growth temperature,25,BacMap,unknown,Celcius
+Xanthomonas axonopodis pv. citri str. 306,190486,Unknown,"NC_003919, NC_003921, NC_003922",growth temperature,25,BacMap,unknown,Celcius
+Xanthomonas campestris pv. campestris str. 8004,314565,Unknown,NC_007086,growth temperature,25,BacMap,unknown,Celcius
+Xanthomonas campestris pv. campestris str. ATCC 33913,190485,Unknown,NC_003902,growth temperature,25,BacMap,unknown,Celcius
+Xanthomonas campestris pv. vesicatoria str. 85-10,316273,Unknown,"NC_007504, NC_007505, NC_007506, NC_007507, NC_007508",growth temperature,25,BacMap,unknown,Celcius
+Aromatoleum aromaticum EbN1,76114,Unknown,"NC_006513, NC_006823, NC_006824",growth temperature,26,BacMap,unknown,Celcius
+Desulfatibacillum alkenivorans AK-01,439235,Unknown,NC_011768,growth temperature,26,BacMap,unknown,Celcius
+Haliscomenobacter hydrossis DSM 1100,760192,Unknown,"NC_015510, NC_015511, NC_015512, NC_015513",growth temperature,26,BacMap,unknown,Celcius
+Xylella fastidiosa 9a5c,160492,Unknown,"NC_002488, NC_002489, NC_002490",growth temperature,26,BacMap,unknown,Celcius
+Xylella fastidiosa Temecula1,183190,Unknown,"NC_004554, NC_004556",growth temperature,26,BacMap,unknown,Celcius
+Dickeya dadantii 3937,198628,Unknown,NC_014500,growth temperature,27,BacMap,unknown,Celcius
+Pectobacterium atrosepticum SCRI1043,218491,Unknown,NC_004547,growth temperature,27,BacMap,unknown,Celcius
+Bartonella bacilliformis KC583,360095,Unknown,NC_008783,growth temperature,28,BacMap,unknown,Celcius
+Bdellovibrio bacteriovorus HD100,264462,Unknown,NC_005363,growth temperature,28,BacMap,unknown,Celcius
+Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130,267671,Unknown,"NC_005823, NC_005824",growth temperature,28,BacMap,unknown,Celcius
+Leptospira interrogans serovar Lai str. 56601,189518,Unknown,"NC_004342, NC_004343",growth temperature,28,BacMap,unknown,Celcius
+Rhodopirellula baltica SH 1,243090,Unknown,NC_005027,growth temperature,28,BacMap,unknown,Celcius
+Salinispora tropica CNB-440,369723,Unknown,NC_009380,growth temperature,28,BacMap,unknown,Celcius
+Sinorhizobium medicae WSM419,366394,Unknown,"NC_009620, NC_009621, NC_009622, NC_009636",growth temperature,28,BacMap,unknown,Celcius
+Sphingobium japonicum UT26S,452662,Unknown,"NC_014005, NC_014006, NC_014007, NC_014009, NC_014013",growth temperature,28,BacMap,unknown,Celcius
+Syntrophobotulus glycolicus DSM 8271,645991,Unknown,NC_015172,growth temperature,28,BacMap,unknown,Celcius
+Thiobacillus denitrificans ATCC 25259,292415,Unknown,NC_007404,growth temperature,28,BacMap,unknown,Celcius
+Thiomicrospira crunogena XCL-2,317025,Unknown,NC_007520,growth temperature,28,BacMap,unknown,Celcius
+Yersinia enterocolitica subsp. enterocolitica 8081,393305,Unknown,"NC_008791, NC_008800",growth temperature,28,BacMap,unknown,Celcius
+Yersinia pestis biovar Microtus str. 91001,229193,Unknown,"NC_005810, NC_005813, NC_005814, NC_005815, NC_005816",growth temperature,28,BacMap,unknown,Celcius
+Yersinia pestis CO92,214092,Unknown,"NC_003131, NC_003132, NC_003134, NC_003143",growth temperature,28,BacMap,unknown,Celcius
+Yersinia pestis KIM 10,187410,Unknown,"NC_004088, NC_004838",growth temperature,28,BacMap,unknown,Celcius
+Yersinia pseudotuberculosis IP 32953,273123,Unknown,"NC_006153, NC_006154, NC_006155",growth temperature,28,BacMap,unknown,Celcius
+Acidithiobacillus ferrooxidans ATCC 23270,243159,Unknown,NC_011761,growth temperature,30,BacMap,unknown,Celcius
+Acidobacterium capsulatum ATCC 51196,240015,Unknown,NC_012483,growth temperature,30,BacMap,unknown,Celcius
+Anaeromyxobacter dehalogenans 2CP-C,290397,Unknown,NC_007760,growth temperature,30,BacMap,unknown,Celcius
+Arthrobacter aurescens TC1,290340,Unknown,"NC_008711, NC_008712, NC_008713",growth temperature,30,BacMap,unknown,Celcius
+Arthrobacter phenanthrenivorans Sphe3,930171,Unknown,"NC_015145, NC_015146, NC_015147",growth temperature,30,BacMap,unknown,Celcius
+Burkholderia ambifaria AMMD,339670,Unknown,"NC_008385, NC_008390, NC_008391, NC_008392",growth temperature,30,BacMap,unknown,Celcius
+Burkholderia phytofirmans PsJN,398527,Unknown,"NC_010676, NC_010679, NC_010681",growth temperature,30,BacMap,unknown,Celcius
+Burkholderia xenovorans LB400,266265,Unknown,"NC_007951, NC_007952, NC_007953",growth temperature,30,BacMap,unknown,Celcius
+Candidatus Solibacter usitatus Ellin6076,234267,Unknown,NC_008536,growth temperature,30,BacMap,unknown,Celcius
+Clostridium botulinum E3 str. Alaska E43,508767,Unknown,NC_010723,growth temperature,30,BacMap,unknown,Celcius
+Corynebacterium efficiens YS-314,196164,Unknown,"NC_004319, NC_004320, NC_004369",growth temperature,30,BacMap,unknown,Celcius
+Corynebacterium glutamicum ATCC 13032,196627,Unknown,"NC_003450, NC_006958",growth temperature,30,BacMap,unknown,Celcius
+Corynebacterium glutamicum R,340322,Unknown,"NC_009342, NC_009343",growth temperature,30,BacMap,unknown,Celcius
+Cupriavidus metallidurans CH34,266264,Unknown,"NC_007971, NC_007972, NC_007973, NC_007974",growth temperature,30,BacMap,unknown,Celcius
+Cytophaga hutchinsonii ATCC 33406,269798,Unknown,NC_008255,growth temperature,30,BacMap,unknown,Celcius
+Deinococcus radiodurans R1,243230,Unknown,"NC_000958, NC_000959, NC_001263, NC_001264",growth temperature,30,BacMap,unknown,Celcius
+Delftia acidovorans SPH-1,398578,Unknown,NC_010002,growth temperature,30,BacMap,unknown,Celcius
+Desulfovibrio magneticus RS-1,573370,Unknown,"NC_012795, NC_012796, NC_012797",growth temperature,30,BacMap,unknown,Celcius
+Erysipelothrix rhusiopathiae str. Fujisawa,650150,Unknown,NC_015601,growth temperature,30,BacMap,unknown,Celcius
+Gemmatimonas aurantiaca T-27,379066,Unknown,NC_012489,growth temperature,30,BacMap,unknown,Celcius
+Geobacter bemidjiensis Bem,404380,Unknown,NC_011146,growth temperature,30,BacMap,unknown,Celcius
+Geobacter metallireducens GS-15,269799,Unknown,"NC_007515, NC_007517",growth temperature,30,BacMap,unknown,Celcius
+Geobacter sulfurreducens PCA,243231,Unknown,NC_002939,growth temperature,30,BacMap,unknown,Celcius
+Gluconacetobacter diazotrophicus PAl 5,272568,Unknown,"NC_010123, NC_010124, NC_010125, NC_011365, NC_011367",growth temperature,30,BacMap,unknown,Celcius
+Halothiobacillus neapolitanus c2,555778,Unknown,NC_013422,growth temperature,30,BacMap,unknown,Celcius
+Jannaschia sp. CCS1,290400,Unknown,"NC_007801, NC_007802",growth temperature,30,BacMap,unknown,Celcius
+Kangiella koreensis DSM 16069,523791,Unknown,NC_013166,growth temperature,30,BacMap,unknown,Celcius
+Lactobacillus casei ATCC 334,321967,Unknown,"NC_008502, NC_008526",growth temperature,30,BacMap,unknown,Celcius
+Lactobacillus casei str. Zhang,498216,Unknown,"NC_011352, NC_014334",growth temperature,30,BacMap,unknown,Celcius
+Listeria innocua Clip11262,272626,Unknown,"NC_003212, NC_003383",growth temperature,30,BacMap,unknown,Celcius
+Listeria monocytogenes EGD-e,169963,Unknown,NC_003210,growth temperature,30,BacMap,unknown,Celcius
+Listeria monocytogenes HCC23,552536,Unknown,NC_011660,growth temperature,30,BacMap,unknown,Celcius
+Listeria monocytogenes serotype 4b str. F2365,265669,Unknown,NC_002973,growth temperature,30,BacMap,unknown,Celcius
+Marinobacter aquaeolei VT8,351348,Unknown,"NC_008738, NC_008739, NC_008740",growth temperature,30,BacMap,unknown,Celcius
+Marivirga tractuosa DSM 4126,643867,Unknown,"NC_014750, NC_014759",growth temperature,30,BacMap,unknown,Celcius
+Methanococcus vannielii SB,406327,Unknown,NC_009634,growth temperature,30,BacMap,unknown,Celcius
+Methanosarcina mazei Go1,192952,Unknown,NC_003901,growth temperature,30,BacMap,unknown,Celcius
+Methanosphaerula palustris E1-9c,521011,Unknown,NC_011832,growth temperature,30,BacMap,unknown,Celcius
+Methylibium petroleiphilum PM1,420662,Unknown,"NC_008825, NC_008826",growth temperature,30,BacMap,unknown,Celcius
+Methylobacillus flagellatus KT,265072,Unknown,NC_007947,growth temperature,30,BacMap,unknown,Celcius
+Methylobacterium chloromethanicum CM4,440085,Unknown,"NC_011757, NC_011758, NC_011760",growth temperature,30,BacMap,unknown,Celcius
+Nocardioides sp. JS614,196162,Unknown,"NC_008697, NC_008699",growth temperature,30,BacMap,unknown,Celcius
+Oceanobacillus iheyensis HTE831,221109,Unknown,NC_004193,growth temperature,30,BacMap,unknown,Celcius
+Paludibacter propionicigenes WB4,694427,Unknown,NC_014734,growth temperature,30,BacMap,unknown,Celcius
+Parvularcula bermudensis HTCC2503,314260,Unknown,NC_014414,growth temperature,30,BacMap,unknown,Celcius
+Pediococcus pentosaceus ATCC 25745,278197,Unknown,NC_008525,growth temperature,30,BacMap,unknown,Celcius
+Pelobacter propionicus DSM 2379,338966,Unknown,"NC_008607, NC_008608, NC_008609",growth temperature,30,BacMap,unknown,Celcius
+Prosthecochloris aestuarii DSM 271,290512,Unknown,"NC_011059, NC_011061",growth temperature,30,BacMap,unknown,Celcius
+Pseudonocardia dioxanivorans CB1190,675635,Unknown,"NC_015312, NC_015313, NC_015314",growth temperature,30,BacMap,unknown,Celcius
+Ralstonia eutropha H16,381666,Unknown,"NC_005241, NC_008313, NC_008314",growth temperature,30,BacMap,unknown,Celcius
+Ralstonia eutropha JMP134,264198,Unknown,"NC_007336, NC_007337, NC_007347, NC_007348",growth temperature,30,BacMap,unknown,Celcius
+Ramlibacter tataouinensis TTB310,365046,Unknown,NC_015677,growth temperature,30,BacMap,unknown,Celcius
+Rhodococcus jostii RHA1,101510,Unknown,"NC_008268, NC_008269, NC_008270, NC_008271",growth temperature,30,BacMap,unknown,Celcius
+Robiginitalea biformata HTCC2501,313596,Unknown,NC_013222,growth temperature,30,BacMap,unknown,Celcius
+Spirochaeta coccoides DSM 17374,760011,Unknown,NC_015436,growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus RF122,273036,Unknown,NC_007622,growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus COL,93062,Unknown,"NC_002951, NC_006629",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus JH1,359787,Unknown,"NC_009619, NC_009632",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus JH9,359786,Unknown,"NC_009477, NC_009487",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus MRSA252,282458,Unknown,NC_002952,growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus MSSA476,282459,Unknown,"NC_002953, NC_005951",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus Mu50,158878,Unknown,"NC_002758, NC_002774",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus MW2,196620,Unknown,NC_003923,growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus N315,158879,Unknown,"NC_002745, NC_003140",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus NCTC 8325,93061,Unknown,NC_007795,growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus str. Newman,426430,Unknown,NC_009641,growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus epidermidis ATCC 12228,176280,Unknown,"NC_004461, NC_005003, NC_005004, NC_005005, NC_005006, NC_005007, NC_005008",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus epidermidis RP62A,176279,Unknown,"NC_002976, NC_006663",growth temperature,30,BacMap,unknown,Celcius
+Staphylococcus haemolyticus JCSC1435,279808,Unknown,"NC_007168, NC_007169, NC_007170, NC_007171",growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pneumoniae 670-6B,189423,Unknown,NC_014498,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pneumoniae ATCC 700669,561276,Unknown,NC_011900,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pneumoniae D39,373153,Unknown,NC_008533,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pneumoniae R6,171101,Unknown,NC_003098,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pneumoniae TIGR4,170187,Unknown,NC_003028,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pyogenes M1 GAS,160490,Unknown,NC_002737,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pyogenes MGAS315,198466,Unknown,NC_004070,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pyogenes MGAS8232,186103,Unknown,NC_003485,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pyogenes SSI-1,193567,Unknown,NC_004606,growth temperature,30,BacMap,unknown,Celcius
+Streptococcus pyogenes str. Manfredo,160491,Unknown,NC_009332,growth temperature,30,BacMap,unknown,Celcius
+Treponema denticola ATCC 35405,243275,Unknown,NC_002967,growth temperature,30,BacMap,unknown,Celcius
+Kineococcus radiotolerans SRS30216,266940,Unknown,"NC_009660, NC_009664, NC_009806",growth temperature,32,BacMap,unknown,Celcius
+Mycobacterium marinum M,216594,Unknown,"NC_010604, NC_010612",growth temperature,32,BacMap,unknown,Celcius
+Mycobacterium ulcerans Agy99,362242,Unknown,"NC_005916, NC_008611",growth temperature,32,BacMap,unknown,Celcius
+Ilyobacter polytropus DSM 2926,572544,Unknown,"NC_014632, NC_014633, NC_014634",growth temperature,32.2,BacMap,unknown,Celcius
+Dinoroseobacter shibae DFL 12,398580,Unknown,"NC_009952, NC_009955, NC_009956, NC_009957, NC_009958, NC_009959",growth temperature,33,BacMap,unknown,Celcius
+Azospirillum sp. B510,137722,Unknown,"NC_013854, NC_013855, NC_013856, NC_013857, NC_013858, NC_013859, NC_013860",growth temperature,34,BacMap,unknown,Celcius
+Acidiphilium cryptum JF-5,349163,Unknown,"NC_009467, NC_009468, NC_009469, NC_009470, NC_009471, NC_009472, NC_009473, NC_009474, NC_009484",growth temperature,35,BacMap,unknown,Celcius
+Bartonella grahamii as4aup,634504,Unknown,"NC_012846, NC_012847",growth temperature,35,BacMap,unknown,Celcius
+Bordetella avium 197N,360910,Unknown,NC_010645,growth temperature,35,BacMap,unknown,Celcius
+Bordetella bronchiseptica RB50,257310,Unknown,NC_002927,growth temperature,35,BacMap,unknown,Celcius
+Bordetella parapertussis 12822,257311,Unknown,NC_002928,growth temperature,35,BacMap,unknown,Celcius
+Bordetella pertussis Tohama I,257313,Unknown,NC_002929,growth temperature,35,BacMap,unknown,Celcius
+Capnocytophaga ochracea DSM 7271,521097,Unknown,NC_013162,growth temperature,35,BacMap,unknown,Celcius
+Caulobacter crescentus CB15,190650,Unknown,NC_002696,growth temperature,35,BacMap,unknown,Celcius
+Dehalococcoides ethenogenes 195,243164,Unknown,NC_002936,growth temperature,35,BacMap,unknown,Celcius
+Denitrovibrio acetiphilus DSM 12809,522772,Unknown,NC_013943,growth temperature,35,BacMap,unknown,Celcius
+Geobacter lovleyi SZ,398767,Unknown,"NC_010814, NC_010815",growth temperature,35,BacMap,unknown,Celcius
+Haemophilus ducreyi 35000HP,233412,Unknown,NC_002940,growth temperature,35,BacMap,unknown,Celcius
+Haemophilus influenzae 86-028NP,281310,Unknown,NC_007146,growth temperature,35,BacMap,unknown,Celcius
+Haemophilus influenzae Rd KW20,71421,Unknown,NC_000907,growth temperature,35,BacMap,unknown,Celcius
+Haemophilus somnus 129PT,205914,Unknown,"NC_006298, NC_008309",growth temperature,35,BacMap,unknown,Celcius
+Haemophilus somnus 2336,228400,Unknown,NC_010519,growth temperature,35,BacMap,unknown,Celcius
+Macrococcus caseolyticus JCSC5402,458233,Unknown,"NC_011995, NC_011996, NC_011997, NC_011998, NC_011999, NC_012000, NC_012001, NC_012002, NC_012003",growth temperature,35,BacMap,unknown,Celcius
+Methanococcus maripaludis S2,267377,Unknown,NC_005791,growth temperature,35,BacMap,unknown,Celcius
+Methanosarcina acetivorans C2A,188937,Unknown,NC_003552,growth temperature,35,BacMap,unknown,Celcius
+Methanosarcina barkeri str. Fusaro,269797,Unknown,"NC_007349, NC_007355",growth temperature,35,BacMap,unknown,Celcius
+Neisseria gonorrhoeae FA 1090,242231,Unknown,NC_002946,growth temperature,35,BacMap,unknown,Celcius
+Neisseria gonorrhoeae NCCP11945,521006,Unknown,"NC_011034, NC_011035",growth temperature,35,BacMap,unknown,Celcius
+Neisseria meningitidis FAM18,272831,Unknown,NC_008767,growth temperature,35,BacMap,unknown,Celcius
+Neisseria meningitidis MC58,122586,Unknown,NC_003112,growth temperature,35,BacMap,unknown,Celcius
+Neisseria meningitidis Z2491,122587,Unknown,NC_003116,growth temperature,35,BacMap,unknown,Celcius
+Streptococcus pyogenes MGAS10394,286636,Unknown,NC_006086,growth temperature,35,BacMap,unknown,Celcius
+Streptococcus pyogenes MGAS5005,293653,Unknown,NC_007297,growth temperature,35,BacMap,unknown,Celcius
+Streptococcus pyogenes MGAS6180,319701,Unknown,NC_007296,growth temperature,35,BacMap,unknown,Celcius
+Syntrophus aciditrophicus SB,56780,Unknown,NC_007759,growth temperature,35,BacMap,unknown,Celcius
+Methanosphaera stadtmanae DSM 3091,339860,Unknown,NC_007681,growth temperature,36,BacMap,unknown,Celcius
+Acholeplasma laidlawii PG-8A,441768,Unknown,NC_010163,growth temperature,37,BacMap,unknown,Celcius
+Acinetobacter baumannii ACICU,405416,Unknown,"NC_010605, NC_010606, NC_010611",growth temperature,37,BacMap,unknown,Celcius
+Acinetobacter baumannii SDF,509170,Unknown,"NC_010395, NC_010396, NC_010398, NC_010400",growth temperature,37,BacMap,unknown,Celcius
+Acinetobacter sp. ADP1,62977,Unknown,NC_005966,growth temperature,37,BacMap,unknown,Celcius
+Actinobacillus pleuropneumoniae serovar 3 str. JL03,434271,Unknown,NC_010278,growth temperature,37,BacMap,unknown,Celcius
+Actinobacillus succinogenes 130Z,339671,Unknown,NC_009655,growth temperature,37,BacMap,unknown,Celcius
+Aerococcus urinae ACS-120-V-Col10a,866775,Unknown,NC_015278,growth temperature,37,BacMap,unknown,Celcius
+Akkermansia muciniphila ATCC BAA-835,349741,Unknown,NC_010655,growth temperature,37,BacMap,unknown,Celcius
+Aminobacterium colombiense DSM 12261,572547,Unknown,NC_014011,growth temperature,37,BacMap,unknown,Celcius
+Anaplasma phagocytophilum HZ,212042,Unknown,NC_007797,growth temperature,37,BacMap,unknown,Celcius
+Bacillus cellulosilyticus DSM 2522,649639,Unknown,NC_014829,growth temperature,37,BacMap,unknown,Celcius
+Bacillus cereus B4264,405532,Unknown,NC_011725,growth temperature,37,BacMap,unknown,Celcius
+Bacteroides fragilis NCTC 9343,272559,Unknown,"NC_003228, NC_006873",growth temperature,37,BacMap,unknown,Celcius
+Bacteroides fragilis YCH46,295405,Unknown,"NC_006297, NC_006347",growth temperature,37,BacMap,unknown,Celcius
+Bacteroides salanitronis DSM 18170,667015,Unknown,"NC_015164, NC_015165, NC_015166, NC_015168",growth temperature,37,BacMap,unknown,Celcius
+Bartonella henselae str. Houston-1,283166,Unknown,NC_005956,growth temperature,37,BacMap,unknown,Celcius
+Bartonella quintana str. Toulouse,283165,Unknown,NC_005955,growth temperature,37,BacMap,unknown,Celcius
+Bifidobacterium adolescentis ATCC 15703,367928,Unknown,NC_008618,growth temperature,37,BacMap,unknown,Celcius
+Bifidobacterium longum DJO10A,205913,Unknown,"NC_004252, NC_004253, NC_010816",growth temperature,37,BacMap,unknown,Celcius
+Bifidobacterium longum NCC2705,206672,Unknown,"NC_004307, NC_004943",growth temperature,37,BacMap,unknown,Celcius
+Bifidobacterium longum subsp. infantis ATCC 15697,391904,Unknown,"NC_011593, AP010889",growth temperature,37,BacMap,unknown,Celcius
+Brucella abortus bv. 1 str. 9-941,262698,Unknown,"NC_006932, NC_006933",growth temperature,37,BacMap,unknown,Celcius
+Brucella abortus S19,430066,Unknown,"NC_010740, NC_010742",growth temperature,37,BacMap,unknown,Celcius
+Brucella melitensis bv. 1 str. 16M,224914,Unknown,"NC_003317, NC_003318",growth temperature,37,BacMap,unknown,Celcius
+Brucella ovis ATCC 25840,444178,Unknown,"NC_009504, NC_009505",growth temperature,37,BacMap,unknown,Celcius
+Brucella suis 1330,204722,Unknown,"NC_004310, NC_004311",growth temperature,37,BacMap,unknown,Celcius
+Brucella suis ATCC 23445,470137,Unknown,"NC_010167, NC_010169",growth temperature,37,BacMap,unknown,Celcius
+Campylobacter hominis ATCC BAA-381,360107,Unknown,"NC_009713, NC_009714",growth temperature,37,BacMap,unknown,Celcius
+Chlamydia muridarum Nigg,243161,Unknown,"NC_002182, NC_002620",growth temperature,37,BacMap,unknown,Celcius
+Chlamydia trachomatis D/UW-3/CX,272561,Unknown,NC_000117,growth temperature,37,BacMap,unknown,Celcius
+Chlamydophila abortus S26/3,218497,Unknown,NC_004552,growth temperature,37,BacMap,unknown,Celcius
+Chlamydophila caviae GPIC,227941,Unknown,"NC_003361, NC_004720",growth temperature,37,BacMap,unknown,Celcius
+Chlamydophila felis Fe/C-56,264202,Unknown,"NC_007899, NC_007900",growth temperature,37,BacMap,unknown,Celcius
+Chlamydophila pneumoniae CWL029,115713,Unknown,NC_000922,growth temperature,37,BacMap,unknown,Celcius
+Chlamydophila pneumoniae J138,138677,Unknown,NC_002491,growth temperature,37,BacMap,unknown,Celcius
+Chlamydophila pneumoniae TW-183,182082,Unknown,NC_005043,growth temperature,37,BacMap,unknown,Celcius
+Chromohalobacter salexigens DSM 3043,290398,Unknown,NC_007963,growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum A str. ATCC 19397,441770,Unknown,NC_009697,growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum A str. ATCC 3502,413999,Unknown,"NC_009495, NC_009496",growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum A str. Hall,441771,Unknown,NC_009698,growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum A2 str. Kyoto,536232,Unknown,NC_012563,growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum A3 str. Loch Maree,498214,Unknown,"NC_010418, NC_010520",growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum B str. Eklund 17B,935198,Unknown,"NC_010674, NC_010680",growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum B1 str. Okra,498213,Unknown,"NC_010379, NC_010516",growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum Ba4 str. 657,515621,Unknown,"NC_012654, NC_012657, NC_012658",growth temperature,37,BacMap,unknown,Celcius
+Clostridium botulinum F str. Langeland,441772,Unknown,"NC_009699, NC_009700",growth temperature,37,BacMap,unknown,Celcius
+Clostridium difficile 630,272563,Unknown,"NC_008226, NC_009089",growth temperature,37,BacMap,unknown,Celcius
+Clostridium perfringens ATCC 13124,195103,Unknown,NC_008261,growth temperature,37,BacMap,unknown,Celcius
+Clostridium perfringens str. 13,195102,Unknown,"NC_003042, NC_003366",growth temperature,37,BacMap,unknown,Celcius
+Clostridium phytofermentans ISDg,357809,Unknown,NC_010001,growth temperature,37,BacMap,unknown,Celcius
+Clostridium saccharolyticum WM1,610130,Unknown,NC_014376,growth temperature,37,BacMap,unknown,Celcius
+Clostridium tetani E88,212717,Unknown,"NC_004557, NC_004565",growth temperature,37,BacMap,unknown,Celcius
+Corynebacterium diphtheriae NCTC 13129,257309,Unknown,NC_002935,growth temperature,37,BacMap,unknown,Celcius
+Coxiella burnetii Dugway 5J108-111,434922,Unknown,"NC_009726, NC_009727",growth temperature,37,BacMap,unknown,Celcius
+Coxiella burnetii RSA 493,227377,Unknown,"NC_002971, NC_004704",growth temperature,37,BacMap,unknown,Celcius
+Cronobacter sakazakii ATCC BAA-894,290339,Unknown,"NC_009778, NC_009779, NC_009780",growth temperature,37,BacMap,unknown,Celcius
+Desulfitobacterium hafniense DCB-2,272564,Unknown,NC_011830,growth temperature,37,BacMap,unknown,Celcius
+Desulfohalobium retbaense DSM 5692,485915,Unknown,"NC_013223, NC_013224",growth temperature,37,BacMap,unknown,Celcius
+Desulfotomaculum reducens MI-1,349161,Unknown,NC_009253,growth temperature,37,BacMap,unknown,Celcius
+Desulfotomaculum ruminis DSM 2154,696281,Unknown,NC_015589,growth temperature,37,BacMap,unknown,Celcius
+Dichelobacter nodosus VCS1703A,246195,Unknown,NC_009446,growth temperature,37,BacMap,unknown,Celcius
+Enterococcus faecalis V583,226185,Unknown,"NC_004668, NC_004669, NC_004670, NC_004671",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli CFT073,199310,Unknown,NC_004431,growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli E24377A,331111,Unknown,"NC_009786, NC_009787, NC_009788, NC_009789, NC_009790, NC_009791, NC_009801",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli HS,331112,Unknown,NC_009800,growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli O127:H6 str. E2348/69,574521,Unknown,"NC_011601, NC_011602, NC_011603",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli O157:H7 str. EC4115,444450,Unknown,"NC_011350, NC_011351, NC_011353",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli O157:H7 str. Sakai,386585,Unknown,"NC_002127, NC_002128, NC_002695",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli O26:H11 str. 11368,573235,Unknown,"NC_013361, NC_013362, NC_013363, NC_013369, NC_014543",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli SE11,409438,Unknown,"NC_011407, NC_011408, NC_011411, NC_011413, NC_011415, NC_011416, NC_011419",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli SMS-3-5,439855,Unknown,"NC_010485, NC_010486, NC_010487, NC_010488, NC_010498",growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli str. K-12 substr. DH10B,316385,Unknown,NC_010473,growth temperature,37,BacMap,unknown,Celcius
+Escherichia coli str. K-12 substr. MG1655,511145,Unknown,NC_000913,growth temperature,37,BacMap,unknown,Celcius
+Fusobacterium nucleatum subsp. nucleatum ATCC 25586,190304,Unknown,NC_003454,growth temperature,37,BacMap,unknown,Celcius
+Helicobacter acinonychis str. Sheeba,382638,Unknown,"NC_008229, NC_008230",growth temperature,37,BacMap,unknown,Celcius
+Helicobacter hepaticus ATCC 51449,235279,Unknown,NC_004917,growth temperature,37,BacMap,unknown,Celcius
+Helicobacter pylori 26695,85962,Unknown,"NC_000915, NC_014257",growth temperature,37,BacMap,unknown,Celcius
+Helicobacter pylori HPAG1,357544,Unknown,"NC_008086, NC_008087",growth temperature,37,BacMap,unknown,Celcius
+Helicobacter pylori J99,85963,Unknown,NC_000921,growth temperature,37,BacMap,unknown,Celcius
+Hyphomonas neptunium ATCC 15444,228405,Unknown,NC_008358,growth temperature,37,BacMap,unknown,Celcius
+Jonesia denitrificans DSM 20603,471856,Unknown,NC_013174,growth temperature,37,BacMap,unknown,Celcius
+Klebsiella pneumoniae subsp. pneumoniae MGH 78578,272620,Unknown,"NC_009648, NC_009649, NC_009650, NC_009651, NC_009652, NC_009653",growth temperature,37,BacMap,unknown,Celcius
+Lawsonia intracellularis PHE/MN1-00,363253,Unknown,"NC_008011, NC_008012, NC_008013, NC_008014",growth temperature,37,BacMap,unknown,Celcius
+Mannheimia succiniciproducens MBEL55E,221988,Unknown,NC_006300,growth temperature,37,BacMap,unknown,Celcius
+Methanobrevibacter smithii ATCC 35061,420247,Unknown,NC_009515,growth temperature,37,BacMap,unknown,Celcius
+Methanocella paludicola SAE,304371,Unknown,NC_013665,growth temperature,37,BacMap,unknown,Celcius
+Methanocorpusculum labreanum Z,410358,Unknown,NC_008942,growth temperature,37,BacMap,unknown,Celcius
+Methanoregula boonei 6A8,456442,Unknown,NC_009712,growth temperature,37,BacMap,unknown,Celcius
+Methanospirillum hungatei JF-1,323259,Unknown,NC_007796,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium abscessus ATCC 19977,561007,Unknown,"NC_010394, NC_010397",growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium avium 104,243243,Unknown,NC_008595,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium avium subsp. paratuberculosis K-10,262316,Unknown,NC_002944,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium bovis AF2122/97,233413,Unknown,NC_002945,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium leprae Br4923,561304,Unknown,NC_011896,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium leprae TN,272631,Unknown,NC_002677,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium smegmatis str. MC2 155,246196,Unknown,NC_008596,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium tuberculosis CDC1551,83331,Unknown,NC_002755,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium tuberculosis F11,336982,Unknown,NC_009565,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium tuberculosis H37Ra,419947,Unknown,NC_009525,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium tuberculosis H37Rv,83332,Unknown,NC_000962,growth temperature,37,BacMap,unknown,Celcius
+Mycobacterium tuberculosis KZN 1435,478434,Unknown,NC_012943,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma arthritidis 158L3-1,243272,Unknown,NC_011025,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma bovis PG45,289397,Unknown,NC_014760,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma capricolum subsp. capricolum ATCC 27343,340047,Unknown,NC_007633,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma crocodyli MP145,512564,Unknown,NC_014014,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma fermentans M64,943945,Unknown,NC_014921,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma gallisepticum str. R(low),710127,Unknown,NC_004829,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma genitalium G37,243273,Unknown,NC_000908,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma hyopneumoniae 232,295358,Unknown,NC_006360,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma hyopneumoniae 7448,262722,Unknown,NC_007332,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma hyopneumoniae J,262719,Unknown,NC_007295,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma mycoides subsp. mycoides SC str. PG1,272632,Unknown,NC_005364,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma penetrans HF-2,272633,Unknown,NC_004432,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma pneumoniae M129,272634,Unknown,NC_000912,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma pulmonis UAB CTIP,272635,Unknown,NC_002771,growth temperature,37,BacMap,unknown,Celcius
+Mycoplasma synoviae 53,262723,Unknown,NC_007294,growth temperature,37,BacMap,unknown,Celcius
+Nocardia farcinica IFM 10152,247156,Unknown,"NC_006361, NC_006362, NC_006363",growth temperature,37,BacMap,unknown,Celcius
+Olsenella uli DSM 7084,633147,Unknown,NC_014363,growth temperature,37,BacMap,unknown,Celcius
+Pasteurella multocida subsp. multocida str. Pm70,272843,Unknown,NC_002663,growth temperature,37,BacMap,unknown,Celcius
+Phenylobacterium zucineum HLK1,450851,Unknown,"NC_011143, NC_011144",growth temperature,37,BacMap,unknown,Celcius
+Porphyromonas gingivalis ATCC 33277,431947,Unknown,NC_010729,growth temperature,37,BacMap,unknown,Celcius
+Porphyromonas gingivalis W83,242619,Unknown,NC_002950,growth temperature,37,BacMap,unknown,Celcius
+Propionibacterium acnes KPA171202,267747,Unknown,NC_006085,growth temperature,37,BacMap,unknown,Celcius
+Proteus mirabilis HI4320,529507,Unknown,"NC_010554, NC_010555",growth temperature,37,BacMap,unknown,Celcius
+Rickettsia rickettsii str. 'Sheila Smith',392021,Unknown,NC_009882,growth temperature,37,BacMap,unknown,Celcius
+Riemerella anatipestifer DSM 15868,693978,Unknown,NC_014738,growth temperature,37,BacMap,unknown,Celcius
+Saccharomonospora viridis DSM 43017,471857,Unknown,NC_013159,growth temperature,37,BacMap,unknown,Celcius
+Salinibacter ruber DSM 13855,309807,Unknown,"NC_007677, NC_007678",growth temperature,37,BacMap,unknown,Celcius
+Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67,321314,Unknown,"NC_006855, NC_006856, NC_006905",growth temperature,37,BacMap,unknown,Celcius
+Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150,295319,Unknown,NC_006511,growth temperature,37,BacMap,unknown,Celcius
+Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594,476213,Unknown,"NC_012124, NC_012125",growth temperature,37,BacMap,unknown,Celcius
+Salmonella enterica subsp. enterica serovar Typhi str. CT18,220341,Unknown,"NC_003198, NC_003384, NC_003385",growth temperature,37,BacMap,unknown,Celcius
+Salmonella enterica subsp. enterica serovar Typhi str. Ty2,209261,Unknown,NC_004631,growth temperature,37,BacMap,unknown,Celcius
+Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,99287,Unknown,"NC_003197, NC_003277",growth temperature,37,BacMap,unknown,Celcius
+Shewanella amazonensis SB2B,326297,Unknown,NC_008700,growth temperature,37,BacMap,unknown,Celcius
+Shigella boydii CDC 3083-94,344609,Unknown,"NC_010656, NC_010657, NC_010658, NC_010659, NC_010660, NC_010672",growth temperature,37,BacMap,unknown,Celcius
+Shigella boydii Sb227,300268,Unknown,"NC_007608, NC_007613",growth temperature,37,BacMap,unknown,Celcius
+Shigella dysenteriae Sd197,300267,Unknown,"NC_007606, NC_007607, NC_009344",growth temperature,37,BacMap,unknown,Celcius
+Shigella flexneri 2a str. 2457T,198215,Unknown,NC_004741,growth temperature,37,BacMap,unknown,Celcius
+Shigella flexneri 2a str. 301,198214,Unknown,"NC_004337, NC_004851",growth temperature,37,BacMap,unknown,Celcius
+Shigella flexneri 5 str. 8401,373384,Unknown,NC_008258,growth temperature,37,BacMap,unknown,Celcius
+Shigella sonnei Ss046,300269,Unknown,"NC_007384, NC_007385, NC_009345, NC_009346, NC_009347",growth temperature,37,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus USA300_FPR3757,451515,Unknown,"NC_007790, NC_007791, NC_007792, NC_007793",growth temperature,37,BacMap,unknown,Celcius
+Staphylococcus aureus subsp. aureus USA300_TCH1516,451516,Unknown,"NC_010063, NC_010079, NC_012417",growth temperature,37,BacMap,unknown,Celcius
+Streptococcus agalactiae 2603V/R,208435,Unknown,NC_004116,growth temperature,37,BacMap,unknown,Celcius
+Streptococcus agalactiae A909,205921,Unknown,NC_007432,growth temperature,37,BacMap,unknown,Celcius
+Streptococcus agalactiae NEM316,211110,Unknown,NC_004368,growth temperature,37,BacMap,unknown,Celcius
+Streptococcus gordonii str. Challis substr. CH1,467705,Unknown,NC_009785,growth temperature,37,BacMap,unknown,Celcius
+Streptococcus mutans UA159,210007,Unknown,NC_004350,growth temperature,37,BacMap,unknown,Celcius
+Streptococcus suis 05ZYH33,391295,Unknown,NC_009442,growth temperature,37,BacMap,unknown,Celcius
+Streptococcus suis 98HAH33,391296,Unknown,NC_009443,growth temperature,37,BacMap,unknown,Celcius
+Streptococcus thermophilus LMD-9,322159,Unknown,"NC_008500, NC_008501, NC_008532",growth temperature,37,BacMap,unknown,Celcius
+Streptococcus uberis 0140J,218495,Unknown,NC_012004,growth temperature,37,BacMap,unknown,Celcius
+Syntrophobacter fumaroxidans MPOB,335543,Unknown,NC_008554,growth temperature,37,BacMap,unknown,Celcius
+Tropheryma whipplei str. Twist,203267,Unknown,NC_004572,growth temperature,37,BacMap,unknown,Celcius
+Tropheryma whipplei TW08/27,218496,Unknown,NC_004551,growth temperature,37,BacMap,unknown,Celcius
+Ureaplasma urealyticum serovar 10 str. ATCC 33699,565575,Unknown,NC_011374,growth temperature,37,BacMap,unknown,Celcius
+Synechococcus sp. PCC 7002,32049,Unknown,"NC_010474, NC_010475, NC_010476, NC_010477, NC_010478, NC_010479, NC_010480",growth temperature,38,BacMap,unknown,Celcius
+Bifidobacterium animalis subsp. lactis AD011,442563,Unknown,NC_011835,growth temperature,39,BacMap,unknown,Celcius
+Bifidobacterium animalis subsp. lactis Bl-04,580050,Unknown,NC_012814,growth temperature,39,BacMap,unknown,Celcius
+Bacillus clausii KSM-K16,66692,Unknown,NC_006582,growth temperature,40,BacMap,unknown,Celcius
+Clostridium lentocellum DSM 5427,642492,Unknown,NC_015275,growth temperature,40,BacMap,unknown,Celcius
+Haloarcula marismortui ATCC 43049,272569,Unknown,"NC_006389, NC_006390, NC_006391, NC_006392, NC_006393, NC_006394, NC_006395, NC_006396, NC_006397",growth temperature,40,BacMap,unknown,Celcius
+Halogeometricum borinquense DSM 11551,469382,Unknown,"NC_014729, NC_014731, NC_014732, NC_014735, NC_014736, NC_014737",growth temperature,40,BacMap,unknown,Celcius
+Lactococcus lactis subsp. cremoris MG1363,416870,Unknown,NC_009004,growth temperature,40,BacMap,unknown,Celcius
+Lactococcus lactis subsp. cremoris SK11,272622,Unknown,"NC_008503, NC_008504, NC_008505, NC_008506, NC_008507, NC_008527",growth temperature,40,BacMap,unknown,Celcius
+Lactococcus lactis subsp. lactis Il1403,272623,Unknown,NC_002662,growth temperature,40,BacMap,unknown,Celcius
+Rhodospirillum centenum SW,414684,Unknown,NC_011420,growth temperature,40,BacMap,unknown,Celcius
+Halobacterium sp. NRC-1,64091,Unknown,"NC_001869, NC_002607, NC_002608",growth temperature,42,BacMap,unknown,Celcius
+Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365,321956,Unknown,NC_008529,growth temperature,42,BacMap,unknown,Celcius
+Methanococcus aeolicus Nankai-3,419665,Unknown,NC_009635,growth temperature,42,BacMap,unknown,Celcius
+Halomicrobium mukohataei DSM 12286,485914,Unknown,"NC_013201, NC_013202",growth temperature,45,BacMap,unknown,Celcius
+Methylococcus capsulatus str. Bath,243233,Unknown,NC_002977,growth temperature,45,BacMap,unknown,Celcius
+Nautilia profundicola AmH,598659,Unknown,NC_012115,growth temperature,45,BacMap,unknown,Celcius
+Streptococcus thermophilus CNRZ1066,299768,Unknown,NC_006449,growth temperature,45,BacMap,unknown,Celcius
+Streptococcus thermophilus LMG 18311,264199,Unknown,NC_006448,growth temperature,45,BacMap,unknown,Celcius
+Thermomonospora curvata DSM 43183,471852,Unknown,NC_013510,growth temperature,45,BacMap,unknown,Celcius
+Deinococcus geothermalis DSM 11300,319795,Unknown,"NC_008010, NC_008025, NC_009939",growth temperature,47,BacMap,unknown,Celcius
+Chlorobium tepidum TLS,194439,Unknown,NC_002932,growth temperature,48,BacMap,unknown,Celcius
+Bacillus tusciae DSM 2912,562970,Unknown,NC_014098,growth temperature,50,BacMap,unknown,Celcius
+Halobacterium salinarum R1,478009,Unknown,"NC_010364, NC_010366, NC_010367, NC_010368, NC_010369",growth temperature,50,BacMap,unknown,Celcius
+Halorhabdus utahensis DSM 12940,519442,Unknown,NC_013158,growth temperature,50,BacMap,unknown,Celcius
+Heliobacterium modesticaldum Ice1,498761,Unknown,NC_010337,growth temperature,50,BacMap,unknown,Celcius
+Mahella australiensis 50-1 BON,697281,Unknown,NC_015520,growth temperature,50,BacMap,unknown,Celcius
+Meiothermus ruber DSM 1279,504728,Unknown,NC_013946,growth temperature,50,BacMap,unknown,Celcius
+Meiothermus silvanus DSM 9946,526227,Unknown,"NC_014212, NC_014213, NC_014214",growth temperature,50,BacMap,unknown,Celcius
+Methanohalobium evestigatum Z-7303,644295,Unknown,"NC_014253, NC_014254",growth temperature,50,BacMap,unknown,Celcius
+Roseiflexus castenholzii DSM 13941,383372,Unknown,NC_009767,growth temperature,50,BacMap,unknown,Celcius
+Thermobifida fusca YX,269800,Unknown,NC_007333,growth temperature,50,BacMap,unknown,Celcius
+Chloroflexus aurantiacus J-10-fl,324602,Unknown,NC_010175,growth temperature,52,BacMap,unknown,Celcius
+Hippea maritima DSM 10411,760142,Unknown,NC_015318,growth temperature,52,BacMap,unknown,Celcius
+Calditerrivibrio nitroreducens DSM 19672,768670,Unknown,"NC_014749, NC_014758",growth temperature,55,BacMap,unknown,Celcius
+Geobacillus thermoglucosidasius C56-YS93,634956,Unknown,"NC_015660, NC_015661, NC_015665",growth temperature,55,BacMap,unknown,Celcius
+Pelotomaculum thermopropionicum SI,370438,Unknown,NC_009454,growth temperature,55,BacMap,unknown,Celcius
+Syntrophothermus lipocalidus DSM 12680,643648,Unknown,NC_014220,growth temperature,55,BacMap,unknown,Celcius
+Thermanaerovibrio acidaminovorans DSM 6589,525903,Unknown,NC_013522,growth temperature,55,BacMap,unknown,Celcius
+Thermosynechococcus elongatus BP-1,197221,Unknown,NC_004113,growth temperature,55,BacMap,unknown,Celcius
+Acidothermus cellulolyticus 11B,351607,Unknown,NC_008578,growth temperature,58,BacMap,unknown,Celcius
+Hydrogenobaculum sp. Y04AAS1,380749,Unknown,NC_011126,growth temperature,58,BacMap,unknown,Celcius
+Moorella thermoacetica ATCC 39073,264732,Unknown,NC_007644,growth temperature,58,BacMap,unknown,Celcius
+Thermoplasma acidophilum DSM 1728,273075,Unknown,NC_002578,growth temperature,59,BacMap,unknown,Celcius
+Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446,521098,Unknown,"NC_013205, NC_013206, NC_013207, NC_013208",growth temperature,60,BacMap,unknown,Celcius
+Anoxybacillus flavithermus WK1,491915,Unknown,NC_011567,growth temperature,60,BacMap,unknown,Celcius
+Clostridium thermocellum ATCC 27405,203119,Unknown,NC_009012,growth temperature,60,BacMap,unknown,Celcius
+Deferribacter desulfuricans SSM1,639282,Unknown,"NC_013939, NC_013940",growth temperature,60,BacMap,unknown,Celcius
+Halothermothrix orenii H 168,373903,Unknown,NC_011899,growth temperature,60,BacMap,unknown,Celcius
+Methanothermococcus okinawensis IH1,647113,Unknown,"NC_015632, NC_015636",growth temperature,60,BacMap,unknown,Celcius
+Oceanithermus profundus DSM 14977,670487,Unknown,"NC_014753, NC_014761",growth temperature,60,BacMap,unknown,Celcius
+Picrophilus torridus DSM 9790,263820,Unknown,NC_005877,growth temperature,60,BacMap,unknown,Celcius
+Rubrobacter xylanophilus DSM 9941,266117,Unknown,NC_008148,growth temperature,60,BacMap,unknown,Celcius
+Symbiobacterium thermophilum IAM 14863,292459,Unknown,NC_006177,growth temperature,60,BacMap,unknown,Celcius
+Thermoanaerobacter sp. X514,399726,Unknown,NC_010320,growth temperature,60,BacMap,unknown,Celcius
+Thermoplasma volcanium GSS1,273116,Unknown,NC_002689,growth temperature,60,BacMap,unknown,Celcius
+Coprothermobacter proteolyticus DSM 5265,309798,Unknown,NC_011295,growth temperature,63,BacMap,unknown,Celcius
+Caldicellulosiruptor hydrothermalis 108,632292,Unknown,NC_014652,growth temperature,65,BacMap,unknown,Celcius
+Geobacillus thermodenitrificans NG80-2,420246,Unknown,"NC_009328, NC_009329",growth temperature,65,BacMap,unknown,Celcius
+Methanothermobacter thermautotrophicus str. Delta H,187420,Unknown,NC_000916,growth temperature,65,BacMap,unknown,Celcius
+Rhodothermus marinus DSM 4252,518766,Unknown,"NC_013501, NC_013502",growth temperature,65,BacMap,unknown,Celcius
+Thermoanaerobacter brockii subsp. finnii Ako-1,509193,Unknown,NC_014964,growth temperature,65,BacMap,unknown,Celcius
+Thermodesulfovibrio yellowstonii DSM 11347,289376,Unknown,NC_011296,growth temperature,65,BacMap,unknown,Celcius
+Thermotoga lettingae TMO,416591,Unknown,NC_009828,growth temperature,65,BacMap,unknown,Celcius
+Thermus scotoductus SA-01,743525,Unknown,"NC_014974, NC_014975",growth temperature,65,BacMap,unknown,Celcius
+Thermobaculum terrenum ATCC BAA-798,525904,Unknown,"NC_013525, NC_013526",growth temperature,67,BacMap,unknown,Celcius
+Sulfurihydrogenibium azorense Az-Fu1,204536,Unknown,NC_012438,growth temperature,68,BacMap,unknown,Celcius
+Thermosediminibacter oceani DSM 16646,555079,Unknown,NC_014377,growth temperature,68,BacMap,unknown,Celcius
+Thermus thermophilus HB27,262724,Unknown,"NC_005835, NC_005838",growth temperature,68,BacMap,unknown,Celcius
+Aciduliprofundum boonei T469,439481,Unknown,NC_013926,growth temperature,70,BacMap,unknown,Celcius
+Ammonifex degensii KC4,429009,Unknown,"NC_013385, NC_013386",growth temperature,70,BacMap,unknown,Celcius
+Desulfurobacterium thermolithotrophum DSM 11699,868864,Unknown,NC_015185,growth temperature,70,BacMap,unknown,Celcius
+Fervidobacterium nodosum Rt17-B1,381764,Unknown,NC_009718,growth temperature,70,BacMap,unknown,Celcius
+Metallosphaera sedula DSM 5348,399549,Unknown,NC_009440,growth temperature,70,BacMap,unknown,Celcius
+Sulfolobus acidocaldarius DSM 639,330779,Unknown,NC_007181,growth temperature,70,BacMap,unknown,Celcius
+Thermoanaerobacter italicus Ab9,580331,Unknown,NC_013921,growth temperature,70,BacMap,unknown,Celcius
+Thermoanaerobacter mathranii subsp. mathranii str. A3,583358,Unknown,NC_014209,growth temperature,70,BacMap,unknown,Celcius
+Thermodesulfatator indicus DSM 15286,667014,Unknown,NC_015681,growth temperature,70,BacMap,unknown,Celcius
+Thermomicrobium roseum DSM 5159,309801,Unknown,"NC_011959, NC_011961",growth temperature,70,BacMap,unknown,Celcius
+Thermosipho melanesiensis BI429,391009,Unknown,NC_009616,growth temperature,70,BacMap,unknown,Celcius
+Thermotoga neapolitana DSM 4359,309803,Unknown,NC_011978,growth temperature,70,BacMap,unknown,Celcius
+Thermotoga thermarum DSM 5069,688269,Unknown,NC_015707,growth temperature,70,BacMap,unknown,Celcius
+Persephonella marina EX-H1,123214,Unknown,"NC_012439, NC_012440",growth temperature,73,BacMap,unknown,Celcius
+Thermaerobacter marianensis DSM 12885,644966,Unknown,NC_014831,growth temperature,74,BacMap,unknown,Celcius
+Caldicellulosiruptor owensensis OL,632518,Unknown,NC_014657,growth temperature,75,BacMap,unknown,Celcius
+Sulfolobus islandicus L.D.8.5,425944,Unknown,"NC_013769, NC_013770",growth temperature,75,BacMap,unknown,Celcius
+Sulfolobus islandicus L.S.2.15,429572,Unknown,NC_012589,growth temperature,75,BacMap,unknown,Celcius
+Sulfolobus islandicus M.14.25,427317,Unknown,NC_012588,growth temperature,75,BacMap,unknown,Celcius
+Sulfolobus islandicus M.16.27,427318,Unknown,NC_012632,growth temperature,75,BacMap,unknown,Celcius
+Sulfolobus islandicus M.16.4,426118,Unknown,NC_012726,growth temperature,75,BacMap,unknown,Celcius
+Sulfolobus islandicus Y.G.57.14,439386,Unknown,NC_012622,growth temperature,75,BacMap,unknown,Celcius
+Sulfolobus islandicus Y.N.15.51,419942,Unknown,"NC_012623, NC_012624",growth temperature,75,BacMap,unknown,Celcius
+Thermoanaerobacter tengcongensis MB4,273068,Unknown,NC_003869,growth temperature,75,BacMap,unknown,Celcius
+Thermosipho africanus TCF52B,484019,Unknown,NC_011653,growth temperature,75,BacMap,unknown,Celcius
+Thermovibrio ammonificans HB-1,648996,Unknown,"NC_014917, NC_014926",growth temperature,75,BacMap,unknown,Celcius
+Thermotoga sp. RQ2,126740,Unknown,NC_010483,growth temperature,76,BacMap,unknown,Celcius
+Caldicellulosiruptor kristjanssonii 177R1B,632335,Unknown,"NC_014719, NC_014721",growth temperature,78,BacMap,unknown,Celcius
+Carboxydothermus hydrogenoformans Z-2901,246194,Unknown,NC_007503,growth temperature,78,BacMap,unknown,Celcius
+Dictyoglomus thermophilum H-6-12,309799,Unknown,NC_011297,growth temperature,78,BacMap,unknown,Celcius
+Acidilobus saccharovorans 345-15,666510,Unknown,NC_014374,growth temperature,80,BacMap,unknown,Celcius
+Caldicellulosiruptor obsidiansis OB47,608506,Unknown,NC_014392,growth temperature,80,BacMap,unknown,Celcius
+Methanocaldococcus vulcanius M7,579137,Unknown,"NC_013407, NC_013408, NC_013409",growth temperature,80,BacMap,unknown,Celcius
+Methanothermus fervidus DSM 2088,523846,Unknown,NC_014658,growth temperature,80,BacMap,unknown,Celcius
+Sulfolobus tokodaii str. 7,273063,Unknown,NC_003106,growth temperature,80,BacMap,unknown,Celcius
+Thermococcus onnurineus 1,523850,Unknown,NC_011529,growth temperature,80,BacMap,unknown,Celcius
+Thermotoga maritima MSB8,243274,Unknown,NC_000853,growth temperature,80,BacMap,unknown,Celcius
+Thermotoga petrophila RKU-1,390874,Unknown,NC_009486,growth temperature,80,BacMap,unknown,Celcius
+Desulfurococcus kamchatkensis 1221n,490899,Unknown,NC_011766,growth temperature,82,BacMap,unknown,Celcius
+Archaeoglobus fulgidus DSM 4304,224325,Unknown,NC_000917,growth temperature,83,BacMap,unknown,Celcius
+Caldivirga maquilingensis IC-167,397948,Unknown,NC_009954,growth temperature,85,BacMap,unknown,Celcius
+Ferroglobus placidus DSM 10642,589924,Unknown,NC_013849,growth temperature,85,BacMap,unknown,Celcius
+Methanocaldococcus infernus ME,573063,Unknown,NC_014122,growth temperature,85,BacMap,unknown,Celcius
+Methanocaldococcus jannaschii DSM 2661,243232,Unknown,"NC_000909, NC_001732, NC_001733",growth temperature,85,BacMap,unknown,Celcius
+Staphylothermus hellenicus DSM 12710,591019,Unknown,NC_014205,growth temperature,85,BacMap,unknown,Celcius
+Sulfolobus solfataricus P2,273057,Unknown,NC_002754,growth temperature,85,BacMap,unknown,Celcius
+Thermococcus kodakarensis KOD1,69014,Unknown,NC_006624,growth temperature,85,BacMap,unknown,Celcius
+Thermoproteus neutrophilus V24Sta,444157,Unknown,NC_010525,growth temperature,85,BacMap,unknown,Celcius
+Vulcanisaeta distributa DSM 14429,572478,Unknown,NC_014537,growth temperature,85,BacMap,unknown,Celcius
+Thermococcus gammatolerans EJ3,593117,Unknown,NC_012804,growth temperature,88,BacMap,unknown,Celcius
+Thermofilum pendens Hrk 5,368408,Unknown,"NC_008696, NC_008698",growth temperature,88,BacMap,unknown,Celcius
+Aeropyrum pernix K1,272557,Unknown,NC_000854,growth temperature,90,BacMap,unknown,Celcius
+Methanocaldococcus sp. FS406-22,644281,Unknown,"NC_013887, NC_013888",growth temperature,90,BacMap,unknown,Celcius
+Pyrobaculum calidifontis JCM 11548,410359,Unknown,NC_009073,growth temperature,90,BacMap,unknown,Celcius
+Staphylothermus marinus F1,399550,Unknown,NC_009033,growth temperature,92,BacMap,unknown,Celcius
+Hyperthermus butylicus DSM 5456,415426,Unknown,NC_008818,growth temperature,95,BacMap,unknown,Celcius
+Ignisphaera aggregans DSM 17230,583356,Unknown,NC_014471,growth temperature,95,BacMap,unknown,Celcius
+Aquifex aeolicus VF5,224324,Unknown,"NC_000918, NC_001880",growth temperature,96,BacMap,unknown,Celcius
+Methanopyrus kandleri AV19,190192,Unknown,NC_003551,growth temperature,98,BacMap,unknown,Celcius
+Pyrococcus horikoshii OT3,70601,Unknown,NC_000961,growth temperature,98,BacMap,unknown,Celcius
+Pyrobaculum aerophilum str. IM2,178306,Unknown,NC_003364,growth temperature,100,BacMap,unknown,Celcius
+Pyrobaculum islandicum DSM 4184,384616,Unknown,NC_008701,growth temperature,100,BacMap,unknown,Celcius
+Pyrococcus furiosus DSM 3638,186497,Unknown,NC_003413,growth temperature,100,BacMap,unknown,Celcius
+Pyrococcus abyssi GE5,272844,Unknown,"NC_000868, NC_001773",growth temperature,103,BacMap,unknown,Celcius
+Moritella 5710,246794,Unknown,Unknown,growth temperature,-5,Microbial Fatty Acid Compositions,unknown,Celcius
+Allochromatium vinosum D,1049,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Allochromatium warmingii 6512,61595,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Chromatium purpuratum 5500,37487,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira abdelmalekii 9840,421629,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira halochloris 9850,1052,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira halophila 9628,1053,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira halophila 9630,1053,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira halophila SL1,1053,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira shaposhnikovii N1,1054,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira vacuolata DSM 2111,1054,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Medicago sativa 0,3879,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Micrococcus roseus CIP 5693,1275,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Moritella 5710,246794,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Sinapis alba 0,3728,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermocrinis HI 11/12,638303,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Thiocapsa roseopersicina 6311,1058,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Thiocapsa roseopersicina 9314,1058,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Thiocystis gelatinosa 2611,46450,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Thiocystis minor 1211,61597,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Trichodesmium erythraeum 0,1206,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Triticum aestivum 0,4565,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Trypanosoma lewisi,5695,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Trypanosoma rhodesiense,31286,Unknown,Unknown,growth temperature,0,Microbial Fatty Acid Compositions,unknown,Celcius
+Carnobacterium AT7,333990,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Colwellia MT41,58049,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Psychromonas CNPT3,314282,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Psychromonas HS11,333987,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella gelidimarina ACAM 456,56813,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella PT48,333988,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella PT99,60034,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio marinus MP-1; ATCC 15381,90736,Unknown,Unknown,growth temperature,2,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella olleyana ACEM 9; ACAM 644; LMG 21437,135626,Unknown,Unknown,growth temperature,4,Microbial Fatty Acid Compositions,unknown,Celcius
+Listeria monocytogenes 10403S,393133,Unknown,Unknown,growth temperature,5,Microbial Fatty Acid Compositions,unknown,Celcius
+Listeria monocytogenes SLCC53,1639,Unknown,Unknown,growth temperature,5,Microbial Fatty Acid Compositions,unknown,Celcius
+Moritella 5710,246794,Unknown,Unknown,growth temperature,5,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas fluorescens NCMB 129,294,Unknown,Unknown,growth temperature,5,Microbial Fatty Acid Compositions,unknown,Celcius
+Colwellia demingiae 0,89401,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Colwellia hornerae IC035; ACAM 607,89402,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Colwellia psychrerythraea 0,28229,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Colwellia psychrotropica ACAM 179,89403,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Colwellia rossensis S51-W(gv)1; ACAM 608,37450,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Moritella 5710,246794,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella alga,38313,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella olleyana ACEM 9; ACAM 644; LMG 21437,135626,Unknown,Unknown,growth temperature,10,Microbial Fatty Acid Compositions,unknown,Celcius
+Algoriphagus ratkowskyi IC025T,57028,Unknown,Unknown,growth temperature,11,Microbial Fatty Acid Compositions,unknown,Celcius
+Brumimicrobium glaciale IC156T,200475,Unknown,Unknown,growth temperature,11,Microbial Fatty Acid Compositions,unknown,Celcius
+Cryomorpha ignava 1-22T,101383,Unknown,Unknown,growth temperature,11,Microbial Fatty Acid Compositions,unknown,Celcius
+"Microscilla aggregans var catalatica NCIMB 1418T , ATCC 23190",70993,Unknown,Unknown,growth temperature,11,Microbial Fatty Acid Compositions,unknown,Celcius
+Chaetoceros calcitrans,265524,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Cryptomonas ovata 0,70450,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Hemiselmis virescens 0,77927,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Isochrysis galbana,37099,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Pavlova lutheri,2832,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Phaeodactylum tricornutum,2850,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Tetraselmis suecica,270643,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio marinus MP1,90736,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio marinus PS-207,90736,Unknown,Unknown,growth temperature,15,Microbial Fatty Acid Compositions,unknown,Celcius
+Gymnodinium splendens,143672,Unknown,Unknown,growth temperature,16,Microbial Fatty Acid Compositions,unknown,Celcius
+Agmenellum quadruplicatum,32049,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Asterionella glacialis,35130,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Chaetoceros affinis,426623,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Chrysotila lamellosa,424539,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Dunaliella bioculata,13790,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Dunaliella minuta,289299,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Dunaliella primolecta,257627,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Emiliania huxleyi,2903,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Heterosigma akashiwo,2829,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Nitzschia closterium,265526,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Pavlova pinguis,119481,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Phaeodactylum tricornutum,2850,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyridium cruentum,35688,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Prorocentrum micans,2945,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodomonas baltica,295837,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Scrippsiella trochoidea,71861,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechocystis sp,1143,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Tetraselmis marina,41888,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Tetraselmis suecica,270643,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Thalassiosira weissflogii,67004,Unknown,Unknown,growth temperature,18,Microbial Fatty Acid Compositions,unknown,Celcius
+Gymnodinium sanguineum CS-35,143672,Unknown,Unknown,growth temperature,18.5,Microbial Fatty Acid Compositions,unknown,Celcius
+Scrippsiella CS-295/c,631050,Unknown,Unknown,growth temperature,18.5,Microbial Fatty Acid Compositions,unknown,Celcius
+Symbiodinium microadriaticum Freud CS-155,2951,Unknown,Unknown,growth temperature,18.5,Microbial Fatty Acid Compositions,unknown,Celcius
+Flexibacter psychrophilus 0,96345,Unknown,Unknown,growth temperature,19,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 123,264665,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 202A1,258826,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 202A1/35,213622,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 202A2,213623,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 277,136142,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 37,1095113,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 90,46234,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena lemmermannii NC83/1,54295,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanizomenon 202,88823,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanizomenon cf gracile 271,136082,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanizomenon gracile 219,285684,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanizomenon PCC 7905,88824,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanizomenon TR183,88825,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Calothrix marchica PCC 7714,235923,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Chaetoceros calcitrans CS-178,265524,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Chaetoceros gracilis CS-176,184592,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Chroomonas salina CS-174,402395,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Cryptomonas appendiculata 0,254934,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Cryptomonas maculata 0,195069,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Cryptomonas ovata,70450,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Cyclotella cryptica 0,29204,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Cylindrospermum stagnale PCC 7417,56107,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Cylindrotheca closterium 0,2856,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Cylindrotheca fusiformis,2853,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Dunaliella salina Dunal,3046,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Dunaliella tertiolecta CS-175,3047,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectocarpus siliculosus,2880,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Eutreptia viridis,96908,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Hemiselmis brunnescens 0,77925,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Hemiselmis rufescens 0,77926,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Heterosigma akashiwo,2829,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Isochrysis galbana,37099,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Isochrysis galbana T-ISO,37099,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Microcystis 199,213610,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nannochloris atomus 251/6,133490,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nannochloris atomus CS-183,133490,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nannochloris maculata 251/3,133488,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nannochloropsis gaditana B-3,72520,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nannochloropsis oculata n-66,43925,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nannochloropsis salina Hibberd,5749,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Navicula pelliculosa FW-50,913975,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nitzschia thermalis 135-M,265528,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nostoc 152,213632,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Nostoc PCC 73102,63737,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Pavlova lutheri CS-182,2832,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Peridinium sociale,454282,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Phaeodactylum tricornutum 74-M,2850,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Planktothrix 2,235922,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Prymnesium parvum,97485,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodomonas lens,354590,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Skeletonema costatum CS-181,2843,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Tetraselmis suecica 66/4,270643,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Tetraselmis suecica CS-187,270643,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Thalassiosira pseudonana CS-173,35128,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Tribonema aequale,2981,Unknown,Unknown,growth temperature,20,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas fluorescens NCMB 129,294,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella aquimarina JCM 12193,260365,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Sphingomonas aromaticivorans B0522,48935,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Sphingomonas aromaticivorans B0695,48935,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Sphingomonas aromaticivorans F199,48935,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Sphingomonas stygia B0712,48937,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Sphingomonas subterranea B0478,48936,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechocystis PCC6803,1148,Unknown,Unknown,growth temperature,22,Microbial Fatty Acid Compositions,unknown,Celcius
+Gloeodinium montanum,425804,Unknown,Unknown,growth temperature,24,Microbial Fatty Acid Compositions,unknown,Celcius
+Shewanella olleyana ACEM 9; ACAM 644; LMG 21437,135626,Unknown,Unknown,growth temperature,24,Microbial Fatty Acid Compositions,unknown,Celcius
+Absidia repens DSM 812,90262,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Aeromonas hydrophila 9079-79; ATCC 7966,644,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Aeromonas hydrophila 9080-79; ATCC 9071,644,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Aeromonas salmonicida 9087-79; ATCC 14174,645,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Aeromonas salmonicida 9542-76; Pasteur institute strain 186-68,645,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 6302; ICC 1551,1296348,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 6314; ICC 1545,889393,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena 6411,889391,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena spiroides 6310; ICC 1552,135104,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena variabilis 6309,447716,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Arthrobacter agilis ATCC 998,37921,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Aspergillus awamori DSM 63272,105351,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Calothrix desertica 7102,32056,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Calothrix parietina 6303,32054,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Chilomonas paramecium,2898,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Chilomonas paramecium 0,2898,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorella minutissima UTEX2341,3081,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Coprinus comatus DSM 3342,56187,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Cunninghamella homothallica DSM 1156,155729,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Cytophaga pectinovora 0,29533,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Cytophaga succinicans 0,29536,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Cytophaga succinicans NCIMB 2278,29536,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Cytophaga xantha 0,69322,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfovibrio desulfuricans,876,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli 7458-71,562,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli U9-41,562,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Euglena gracilis,3039,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Flavobacterium aquatile 0,245,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Flavobacterium branchiophilum 0,55197,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Flavobacterium odoratum LMG 4029,76832,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Flexibacter aurantiacus subspecies excathedrus 0,986,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Flexibacter columnaris 0,996,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Gloeocapsa 6501,55396,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Halomonas halodenitrificans ATCC 13511,28252,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Isochrysis CCMP 1324,1321669,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Isochrysis CCMP 463,948922,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Isochrysis galbana 0,37099,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Isochrysis galbana TK1,37099,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Lactobacillus heterohiochii S56,29398,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Lepista nuda DSM 3347,64659,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Lyngbya 6703,314103,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis 62/12,193093,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis F10V2a,193112,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis IMET 10484,193095,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis Pi5,193100,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis SC2,187303,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylosinus sporium KS17,428,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylosinus trichosporium SM6,426,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Mortierella ramanniana DSM 62752,41833,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Mortierella vinacea DSM 3154,44442,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Mucor flavus DSM 2184,439312,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Nannochloropsis oculata 0,43925,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Neochloris oleoabundans,1127754,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Nodularia sphaerocarpa 7103; SAUG B-1466-1,137816,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Nostoc 6719; BC-172,1296334,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Oscillatoria 6407,402777,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Oscillatoria 6412; ICC 1546,587412,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Oscillatoria 6506; ICC 1547,272129,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Oscillatoria 6602,587413,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Oscillatoria agardhii 6507; var suspensa,1035353,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Pavlova lutheri CCMP 1325 TK2,2832,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Pavlova salina 0,561169,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Penicillium janczewskii DSM 847,121612,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Photobacterium angustum 9093-79; ATCC 25915,661,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Photobacterium leiognathi 9094-79; ATCC 25521,553611,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Photobacterium phosphoreum 9540-78; NCMB 844,659,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Phycisphaera mikurensis,547188,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Plectonema 6402; ICC 1541,272136,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Plectonema boryanum 6306; SAUG B-1463-1A,272134,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Plesiomonas shigelloides 1261-80,703,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Plesiomonas shigelloides 9091-79; ATCC 14029,703,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodomonas lens 0,354590,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Salinibacterium amurskyense KMM 3673,205941,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Scenedesmus obliquus,3088,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Schizothrix calcicola 7004; MAN,240295,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirulina 6313,129961,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Talaromyces helicus DSM 3705,36628,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Tolypothrix tenuis 7101; SAUG B-1482-3,231146,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio alginolyticus 166-70,663,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio alginolyticus 287-80,663,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio alginolyticus 9065-79; ATCC 17749,663,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio algosus ATCC 14390,431776,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio anguillarum 9063-79; ATCC 19264,55601,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio cholerae 2507-78; V. Baselski strain 401,666,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio cholerae 9060-79; ATCC 14035,666,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio cholerae ATCC 14033,666,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio fluvialis 9554-78; VL 2926,676,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio fluvialis 9555-78; VL 5125,676,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio gazogenes 1289-80,687,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio gazogenes 2820-79; ATCC 29988,687,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio harveyi 9098-79; ATCC 14126,669,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio harveyi 9539-79; VL 1493,669,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio marinus PS-207,90736,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio metschnikovii 9528-78; NCTC 8443,28172,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio metschnikovii 9529-78; NCTC 11170,28172,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio parahaemolyticus 1159-80,670,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio parahaemolyticus 9062-79; ATCC 17802,670,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio parahaemolyticus ATCC 17802,670,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio splendidus 9106-79; ATCC 25914,29497,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio vulnificus 9107-79; ATCC 27562,672,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Vibrio vulnificus 9121-79,672,Unknown,Unknown,growth temperature,25,Microbial Fatty Acid Compositions,unknown,Celcius
+Euglena gracilis Z,3039,Unknown,Unknown,growth temperature,26,Microbial Fatty Acid Compositions,unknown,Celcius
+Plectonema boryanum 594,1184,Unknown,Unknown,growth temperature,26,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirulina platensis 0,118562,Unknown,Unknown,growth temperature,26,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorobium limicola forma Thiosulfaticum 2230,1092,Unknown,Unknown,growth temperature,27,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorobium limicola forma Thiosulfaticum 8327,1092,Unknown,Unknown,growth temperature,27,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorobium limicola forma Thiosulfaticum 8327c,1092,Unknown,Unknown,growth temperature,27,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorobium limicola Tassajara,1092,Unknown,Unknown,growth temperature,27,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira mobilis 9903,195064,Unknown,Unknown,growth temperature,27,Microbial Fatty Acid Compositions,unknown,Celcius
+Erythrobacter longus OCh 101,1044,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylococcus capsulatus ATCC 33009,414,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylococcus luteus UQM 3304,415,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylococcus whittenburyi UQM 3310,39770,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis echinoides UQM 3495,29468,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis minimus UQM 3497,29469,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylocystis parvus UQM 3309,134,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylomonas agile UQM 3308,39774,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylomonas aurantiaca UQM 3406,39771,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylomonas fodinarum UQM 3268,39772,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylomonas methanica UQM 3307,421,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylosinus sporium UQM 3306,428,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylosinus trichosporium UQM 3311,426,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyrobacter neustonensis ACM 2508,1112,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyrobacter neustonensis ACM 2721,1112,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyrobacter neustonensis ACM 2844,1112,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyrobacter neustonensis ACM 2847,1112,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Roseobacter denitrificans OCh 114,2434,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechocystis PCC6803,1148,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Trypanosoma lewisi,5695,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Trypanosoma rhodesiense,31286,Unknown,Unknown,growth temperature,28,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena variabilis,1172,Unknown,Unknown,growth temperature,29,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlamydomonas reinhardtii,3055,Unknown,Unknown,growth temperature,29,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorella vulgaris,3077,Unknown,Unknown,growth temperature,29,Microbial Fatty Acid Compositions,unknown,Celcius
+Dunaliella tertiolecta,3047,Unknown,Unknown,growth temperature,29,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyridium cruentum,35688,Unknown,Unknown,growth temperature,29,Microbial Fatty Acid Compositions,unknown,Celcius
+Acetobacter hansenii ATCC 35959,436,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Acinetobacter calcoaceticus DSM 586,471,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Agmenellum quadruplicatum 7002; PR-6,32049,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Agmenellum quadruplicatum PR-6,32049,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Agrobacterium radiobacter DSM 30147,358,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena variabilis 0,1172,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaenopsis circularis 6720,109266,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Anacystis marina 7001,180281,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Anacystis nidulans 6301,269084,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanocapsa 6701,1144,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanocapsa 6702,122356,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanocapsa 6714,1147,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanocapsa 6803,1148,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanocapsa 6805,122357,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Arthrobacter ramosus DSM 20546,1672,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Azospirillum halopraeferens DSM 3675,34010,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus subtilis DSM 10,1423,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorogloea fritschii 6712,118675,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Chlorogloea fritschii 6718,102122,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Clostridium pasteurianum W-5,1501,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Coccochloris elabens 7003; 17-A,374981,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Coccochloris peniocystis 6307,292564,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Cytophaga DSM 3661,69322,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Cytophaga johnsonae Cy j1,986,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Deinococcus radiodurans sark,1299,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Dermabacter hominis S51,36740,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Dermabacter hominis S67,36740,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Dermabacter hominis S69; NCFB 2769,36740,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Dermabacter hominis S79,36740,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfobacter 3ac11; DSM 2057,449305,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfovibrio desulfuricans,876,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfuromonas acetoxidans DSM 684,891,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli DSM 301,562,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Flexibacter elegans Fx e1,997,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Gloeocapsa alpicola 6308; 1051,1357543,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Gloeocapsa alpicola 6910; 1051,1357543,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Leptospira icterohaemorrhagiae,90062,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Lyngbya lagerheimii 7104; MONT,28074,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylobacterium organophilum RG,410,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylobacterium organophilum XX,410,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylohalobius crimeensis 10Ki,244365,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylohalobius crimeensis 4Kr,244365,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylosarcina fibrata AML-C10; ATCC 700909; DSM 13736,105972,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylosarcina quisquiliarum AML-D4; ATCC 700908; DSM 13737,105973,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylosinus trichosporium 0B3B,426,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Micrococcus luteus ATCC 15801,1270,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Micrococcus luteus ATCC 4698,1270,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Micrococcus luteus CIP 5345,1270,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Microcoleus vaginatus 6304; SAUG B-1449-3,118323,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Microcystis aeruginosa 7005,267870,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Micromonospora DSM 43172,522673,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Mycobacterium phlei DSM 43239,1771,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Myxococcus fulvus Mx f2,33,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Nocardioides simplex DSM 20130,2045,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Nostoc muscorum NM,1179,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Oscillatoria williamsii Mev,56109,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Paracoccus denitrificans ATCC 13543,266,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Paracoccus denitrificans ATCC 19367,266,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Paracoccus denitrificans DSM 1408,266,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Plectonema terebrans SP-31,272135,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas putida DSM 549,303,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodococcus ruber DSM 43338,1830,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Roseomonas genomospecies 4 ATCC 25590,204528,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirochaeta aurantia J1,147,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirochaeta aurantia J4T,147,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirochaeta litoralis R1,151,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirochaeta stenostrepta Z1,152,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirochaeta zuelzerae ATCC 19044,156,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Sporocytophaga myxococcoides,153721,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Stigmatella aurantiaca Sg a1,41,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Streptomyces griseus subspecies griseus DSM 40855,1911,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Sulfurospirillum deleyianum 0,65553,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechococcus 6312,195253,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechococcus 6605,1173020,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechococcus 6901,47918,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechococcus 6903,102126,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema denticola Biotype ambiquum,158,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema denticola Biotype comondonii,158,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema denticola Biotype denticola,158,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema phagedenis Biotype kazan 5,162,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema phagedenis Biotype phagedenis,162,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema phagedenis Biotype reiteri,162,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema refringens Biotype calligyrum,174922,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema refringens Biotype nichols,174922,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema refringens Biotype noguchi,174922,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema refringens Biotype refringens,174922,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Treponema vincentii 0,69710,Unknown,Unknown,growth temperature,30,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfobacter 3ac10; DSM 2035,449304,Unknown,Unknown,growth temperature,31,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfobacter postgatei DSM 2034,2293,Unknown,Unknown,growth temperature,31,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena ATCC 33047,52271,Unknown,Unknown,growth temperature,33,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaena variabilis ATCC 29143,1172,Unknown,Unknown,growth temperature,33,Microbial Fatty Acid Compositions,unknown,Celcius
+Anabaenopsis PCC 9215,165800,Unknown,Unknown,growth temperature,33,Microbial Fatty Acid Compositions,unknown,Celcius
+Nostoc commune 0,1178,Unknown,Unknown,growth temperature,33,Microbial Fatty Acid Compositions,unknown,Celcius
+Nostoc paludosum PCC 9206,212362,Unknown,Unknown,growth temperature,33,Microbial Fatty Acid Compositions,unknown,Celcius
+Borrelia burgdorferi,139,Unknown,Unknown,growth temperature,34,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechocystis PCC6803,1148,Unknown,Unknown,growth temperature,34,Microbial Fatty Acid Compositions,unknown,Celcius
+Aphanothece halophytica PCC 7418,72020,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga gingivalis 27,1017,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga gingivalis D6182,1017,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga ochracea 25,1018,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga ochracea C4295,1018,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga sputigena 4,1019,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfotomaculum acetoxidans DSM 771,58138,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Legionella pneumophila Flint,446,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Legionella pneumophila Philadelphia 1,446,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Legionella pneumophila Philadelphia 2,446,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Legionella pneumophila Philadelphia 3,446,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Legionella pneumophila Philadelphia 4,446,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Legionella pneumophila Pontiac,446,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Oscillatoria limnetica 0,35624,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas diminuta,293,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophilia,40324,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Spirulina N 27,454135,Unknown,Unknown,growth temperature,35,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira mobilis 9903,195064,Unknown,Unknown,growth temperature,36,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter A9112,529,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter C349,529,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter C675,529,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter C7259,529,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter D8708,529,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter D9035,529,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter D9053,529,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter xylosoxidans D7818,85698,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter xylosoxidans D8432,85698,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter xylosoxidans D9221,85698,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter xylosoxidans D9448,85698,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Achromobacter xylosoxidans KC1064; ATCC 27061,85698,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes denitrificans B7042,32002,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes denitrificans KC367,32002,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B2566,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B2608,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B4636,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B5037,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B5069,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B5104,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B6288,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis B6353,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis C1549,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis C7859,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes faecalis C8194,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes odorans C8351,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Alcaligenes odorans C8486,511,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus subtilis 168,1423,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides fragilis ATCC 25285,817,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides gracilis CCUG 13143 (ATCC 33236),824,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides ureolyticus CCUG 7319 (ATCC 33387),827,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Bilophila wadsworthia 0,35833,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter fetus subspecies venerealis CCUG 538 (ATCC 19438),196,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis J14,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis L25,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis L26,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q1,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q11,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q13,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q14,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q2,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q21,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q3; NCTC 11638,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q4; NCTC 11637,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q5,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Q6,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Campylobacter pyloridis Ql5,210,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga gingivalis,1017,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga ochraceus,1018,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Capnocytophaga sputigena,1019,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfomonas pigra ATCC 29098,901,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli W3110,562,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fibrobacter succinogenes ATCC 19169,833,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Francisella tularensis 0,263,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Francisella tularensis ATCC 6223,263,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Francisella tularensis subspecies Novicida U112,263,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium gonidiaformans VPI 0482A; ATCC 25563; Prevot 3554A,849,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium gonidiaformans VPI 11360,849,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium gonidiaformans VPI 4381; Prevot 470D,849,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium gonidiaformans VPI 4879,849,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium mortiferum VPI 4123A; ATCC 25557; Prevot 350A,850,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium mortiferum VPI 4249,850,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium mortiferum VPI 473,850,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium mortiferum VPI 5696; Finegold B609,850,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium naviforme VPI 11936C,77917,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium naviforme VPI 12188,77917,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium naviforme VPI 4877; Prevot 1800,77917,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium necrophorum N167,859,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium necrophorum SPH1,859,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium necrophorum VPI 6161,859,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium nucleatum ATCC 10953,851,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium nucleatum F1,851,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium nucleatum F15,851,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium nucleatum F8,851,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium nucleatum Fev 1,851,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium plautii VPI 0310; Prevot S1,292800,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium plautii VPI 0311; Prevot S2,292800,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium plautii VPI 0312; Prevot S4,292800,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium plautii VPI 4145; Prevot S3,292800,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium prausnitzii VPI 4815,853,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium russii VPI 0307; ATCC 25533; Prevot 593A,854,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium russii VPI 10646,854,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium russii VPI 11018,854,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium varium ATCC 8501,856,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium varium Lille 109,856,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium varium VPI 0499A; Prevot 1669BA,856,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Fusobacterium varium VPI 4234; Prevot 587A,856,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Hallella seregens 0,52229,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Lactobacillus reuteri CRL 1098,1598,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Listeria monocytogenes 10403S,393133,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Listeria monocytogenes SLCC53,1639,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylococcus capsulatus Bath,414,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Moraxella catarrhalis ATCC 8176,480,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Neisseria sicca ATCC 9912,490,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Oribaculum catoniae 0,41976,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyromonas endodontalis HG 181 (H 11a-e),28124,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyromonas endodontalis HG 182 (BN 11a-f),28124,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyromonas endodontalis HG 370 (ATCC 35406),28124,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Porphyromonas endodontalis HG 412,28124,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella buccae ATCC 33574,28126,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella buccae ES12-B,28126,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella buccae ES17-1,28126,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella buccae ES9-1,28126,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella disiens DSM 20516,28130,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella heparinolyticus ATCC 35895,28113,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella oralis ES14B-3A,28134,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella oralis ES15-2,28134,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella oralis ES4-B,28134,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella oris ATCC 33573,28135,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella oris ES14B-3A,28135,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella oris ES9-3,28135,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella oris RPG,28135,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Prevotella veroralis ATCC 33779,28137,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas acidovorans,80866,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas aeruginosa,287,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas alcaligenes A7708,43263,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas alcaligenes RYS 142,43263,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas cepacia,292,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas diminuta,293,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas fluorescens,294,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila AJ 2082,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila P-1,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila P-19,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila P-7,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila P-7-2,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila RYS 67; ATCC 13637,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila YF-3,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila YF-6,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas maltophila YF-8,40324,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas mendocina,300,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas pseudoalcaligenes,330,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas pseudoalcaligenes A2985,330,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas pseudoalcaligenes A9863,330,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas pseudoalcaligenes B1373,330,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas pseudoalcaligenes KC945,330,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas pseudomallei,28450,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas putida,303,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas putrefaciens,24,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas putrefaciens B7000,24,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas putrefaciens B7120,24,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas putrefaciens B7128,24,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas putrefaciens KC988,24,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas stutzeri,316,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas testosteroni,285,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Pseudomonas vesicularis,41276,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Salinibacter ruber M31; DSM 13855,146919,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermomonas haemolytica A50-7-3;DSM 13605,141949,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermomonas hydrothermalis SGM-6,213588,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermomonas hydrothermalis SGM-7,213588,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Wolinella curva CCUG 13146 (ATCC 35224),200,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Wolinella recta FDC 371 (ATCC 33238),203,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Wolinella succinogenes CCUG 12550 (ATICC 29543),844,Unknown,Unknown,growth temperature,37,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechocystis PCC6803,1148,Unknown,Unknown,growth temperature,38,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides amylophilus 78,867,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides succinogenes A3c,833,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides succinogenes B21A,833,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides succinogenes S85,833,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacteroides symbiosus ATCC 14940,1512,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Butyrivibrio fibrisolvens A38,831,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Butyrivibrio fibrisolvens D1,831,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Eubacterium ruminantium B1C23,42322,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Lactobacillus GA1,1630,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Microcoleus chthonoplastes Ba-1,64178,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Ruminococcus flavefaciens B34b,1265,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Ruminococcus flavefaciens C1a,1265,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Ruminococcus flavefaciens C94,1265,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Ruminococcus flavefaciens FD1,1265,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Selenomonas ruminantium HD1,971,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Streptococcus bovis 0,1335,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Succinimonas amylolytica N6,83769,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Succinivibrio dextrinosolvens 24,83771,Unknown,Unknown,growth temperature,39,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,40,Microbial Fatty Acid Compositions,unknown,Celcius
+Ectothiorhodospira mobilis 9903,195064,Unknown,Unknown,growth temperature,42,Microbial Fatty Acid Compositions,unknown,Celcius
+Escherichia coli ML30,562,Unknown,Unknown,growth temperature,43,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylococcus JB140,39769,Unknown,Unknown,growth temperature,45,Microbial Fatty Acid Compositions,unknown,Celcius
+Methylomonas gracilis UQM 3315,73779,Unknown,Unknown,growth temperature,45,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus filiformis 0,276,Unknown,Unknown,growth temperature,45,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechococcus 6716; Cl53,32048,Unknown,Unknown,growth temperature,48,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechococcus 6717; Y52,115741,Unknown,Unknown,growth temperature,48,Microbial Fatty Acid Compositions,unknown,Celcius
+Synechococcus lividus 6715,33070,Unknown,Unknown,growth temperature,48,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermomonas haemolytica A50-7-3;DSM 13605,141949,Unknown,Unknown,growth temperature,50,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermomonas hydrothermalis SGM-6,213588,Unknown,Unknown,growth temperature,50,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermomonas hydrothermalis SGM-7,213588,Unknown,Unknown,growth temperature,50,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus aquaticus ATCC 25104,271,Unknown,Unknown,growth temperature,50,Microbial Fatty Acid Compositions,unknown,Celcius
+Chloroflexus aurantiacus J-10-fl,324602,Unknown,Unknown,growth temperature,52,Microbial Fatty Acid Compositions,unknown,Celcius
+Chloroflexus aurantiacus OK-70-fl,1108,Unknown,Unknown,growth temperature,52,Microbial Fatty Acid Compositions,unknown,Celcius
+Clostridium thermosaccharolyticum 3814,1517,Unknown,Unknown,growth temperature,55,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus aquaticus ATCC 25104,271,Unknown,Unknown,growth temperature,55,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus caldolyticus,1394,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus caldotenax,1395,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Meiothermus ruber ATCC 35948,277,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus DSM 4252,518766,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus DSM 4252,518766,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus DSM 4253,29549,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus aquaticus ATCC 25104,271,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus DSM 4250,206164,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus filiformis 0,276,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus thermophilus HB-8,274,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus thermophilus HB-8; ATCC 27634,300852,Unknown,Unknown,growth temperature,60,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus stearothermophilus ATCC 12016,1422,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Desulfovibrio thermophilus DSM 1276,886,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus ATCC 43812,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus DSM 4252,518766,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus DSM 4253,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus FRR-15,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus NR-29,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus NR-32,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus PRQ-34,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus PRQ-55,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus marinus RM-25,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus obamensis JCM 9785,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus PRQ-36,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus PRQ-40,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus PRQ-50,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus PRQ-52,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Rhodothermus PRQ-55,29549,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Sulfurihydrogenibium subterraneum HGMK1,171121,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus aquaticus ATCC 25104,271,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus B; NCIMB 11247,274,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus thermophilus HB-8; ATCC 27634,300852,Unknown,Unknown,growth temperature,65,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus caldolyticus,1394,Unknown,Unknown,growth temperature,70,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus caldotenax,1395,Unknown,Unknown,growth temperature,70,Microbial Fatty Acid Compositions,unknown,Celcius
+Hydrogenobacter thermophilus TK-6; IAM 12695,940,Unknown,Unknown,growth temperature,70,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus aquaticus ATCC 25104,271,Unknown,Unknown,growth temperature,70,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus filiformis 0,276,Unknown,Unknown,growth temperature,70,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus aquaticus YT-1; ATCC 25104,271,Unknown,Unknown,growth temperature,73,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus filiformis 0,276,Unknown,Unknown,growth temperature,73,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus oshimai SPS-17,56957,Unknown,Unknown,growth temperature,73,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus thermophilus HB-8; ATCC 27634,300852,Unknown,Unknown,growth temperature,73,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermoanaerobacter yonseiensis KB1,1388761,Unknown,Unknown,growth temperature,75,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus aquaticus ATCC 25104,271,Unknown,Unknown,growth temperature,75,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermus filiformis 0,276,Unknown,Unknown,growth temperature,75,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus caldolyticus,1394,Unknown,Unknown,growth temperature,80,Microbial Fatty Acid Compositions,unknown,Celcius
+Bacillus caldotenax,1395,Unknown,Unknown,growth temperature,80,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermocrinis ruber OC 1/4; DSM 12173,932678,Unknown,Unknown,growth temperature,80,Microbial Fatty Acid Compositions,unknown,Celcius
+Thermotoga maritima,2336,Unknown,Unknown,growth temperature,80,Microbial Fatty Acid Compositions,unknown,Celcius
+Aquifex aeolicus VF5,224324,Unknown,Unknown,growth temperature,85,Microbial Fatty Acid Compositions,unknown,Celcius
+Aquifex pyrophilus Ko15a; DSM 6858,2714,Unknown,Unknown,growth temperature,85,Microbial Fatty Acid Compositions,unknown,Celcius

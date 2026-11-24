@@ -1,3 +1,6 @@
 bugphyzz*csv filter=lfs diff=lfs merge=lfs -text
 bugphyzz*csv.gz filter=lfs diff=lfs merge=lfs -text
 *.gmt filter=lfs diff=lfs merge=lfs -text
+
+# Curation-sheet snapshots: store with LF line endings
+sources/sheets/*.csv text
