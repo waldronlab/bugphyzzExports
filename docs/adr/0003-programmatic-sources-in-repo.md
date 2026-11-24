@@ -3,6 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-11-05
 - **Deciders:** Levi Waldron
+- **Amended by:** 0007 (hand curation moves from the Google Sheets to `sources/sheets/`)
 
 ## Context and Problem Statement
 

@@ -39,9 +39,16 @@ Format notes:
   `mutation_rate_per_site_per_year.csv` (five "Yersinia pseudotuberculosis"
   records). Those records span two lines in the file.
 
-Licence: the curated data is CC BY 4.0, as bugphyzz data releases were before
-Wikipedia-derived annotations were added (see the repository README); the
-`Attribute_source` column names the underlying source of each row.
+Licence: these files are row extracts kept for reproducibility of the
+extraction, and rows copied from a source are available only under that
+source's own terms, named in the `Attribute_source` column; the repository's
+CC licence covers the project's own curation and compilation, not those
+rows. The facts extracted from the sources carry no copyright, and the data
+files bugphyzz distributes remain CC BY 4.0 (CC BY-SA 4.0 with the
+Wikipedia-derived annotations; see the repository README). In particular,
+ProTraits is CC BY-NC 4.0 and Bergey's Manual is Wiley's; the KEGG-derived
+files (`genome_size.csv`, `coding_genes.csv`) are to be retired in favour of
+values computed from NCBI RefSeq (waldronlab/bugphyzz#309).
 
 | File | Google Sheet |
 |---|---|
