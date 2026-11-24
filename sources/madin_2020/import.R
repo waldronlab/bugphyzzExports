@@ -2,9 +2,12 @@
 ## Import Madin et al. 2020 (Sci Data 7:170) condensed species traits into
 ## bugphyzz curation-sheet rows, one TSV per physiology.
 ##
-## Source: https://github.com/bacteria-archaea-traits/bacteria-archaea-traits,
-## output/condensed_traits_NCBI.csv at the commit below. One row per
-## (taxon, data source); we take the majority value per NCBI species taxid.
+## Source: condensed_traits_NCBI v1.2.0 on figshare,
+## https://doi.org/10.6084/m9.figshare.13557827 (version 1, CC BY 4.0). The
+## file is byte-identical to output/condensed_traits_NCBI.csv at commit
+## 396dcd4d of github.com/bacteria-archaea-traits/bacteria-archaea-traits,
+## which has no licence file. One row per (taxon, data source); we take the
+## majority value per NCBI species taxid.
 ## Everything with a bugphyzz attribute is imported, including aerophilicity
 ## (`metabolism`), which duplicates the Madin_2020 rows pasted into the
 ## aerophilicity Google Sheet in 2022; those sheet rows should be removed
@@ -12,11 +15,21 @@
 ##
 ## Usage: Rscript import.R [out_dir]
 suppressPackageStartupMessages({library(dplyr); library(readr); library(tidyr)})
-commit <- "396dcd4d98ca20b613ba280f5514611651b6fb91" # 2020-10-16; update when refreshing
-url <- sprintf("https://raw.githubusercontent.com/bacteria-archaea-traits/bacteria-archaea-traits/%s/output/condensed_traits_NCBI.csv", commit)
+url <- "https://ndownloader.figshare.com/files/26019011" # condensed_traits_NCBI.csv of figshare 13557827 v1
+md5 <- "763522b14bbbd1e820215ea98312bc41" # as figshare reports it; update both when refreshing
 out_dir <- if (length(commandArgs(TRUE))) commandArgs(TRUE)[1] else dirname(sub("--file=", "", grep("--file=", commandArgs(), value = TRUE)))
 local <- Sys.getenv("MADIN_CSV", unset = "")
-m <- read_csv(if (nzchar(local)) local else url, show_col_types = FALSE, guess_max = 2e5)
+if (nzchar(local)) {
+    csv <- local
+} else {
+    csv <- tempfile(fileext = ".csv")
+    options(timeout = max(600, getOption("timeout")))
+    download.file(url, csv, mode = "wb", quiet = TRUE)
+    got <- unname(tools::md5sum(csv))
+    if (got != md5)
+        stop("Downloaded file has MD5 ", got, ", expected ", md5)
+}
+m <- read_csv(csv, show_col_types = FALSE, guess_max = 2e5)
 SOURCE <- "Madin_2020"
 ## Madin pools ~25 upstream resources. Records that come from resources bugphyzz
 ## imports directly are excluded here so they are not counted twice; the
