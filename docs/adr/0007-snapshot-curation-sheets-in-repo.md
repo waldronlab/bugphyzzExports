@@ -1,6 +1,6 @@
 # 0007. Hand curation moves from Google Sheets to `sources/sheets/`
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-24
 - **Deciders:** Levi Waldron
 - **Amends:** 0003
