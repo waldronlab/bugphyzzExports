@@ -15,7 +15,10 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-BUGPHYZZ_RAW=${BUGPHYZZ_RAW:-https://raw.githubusercontent.com/waldronlab/bugphyzz/devel/inst/extdata}
+# Pinned to the bugphyzz commit the README cites, so the documented snapshot
+# can be reproduced; devel's link column will point back at this directory
+# after waldronlab/bugphyzz#306.
+BUGPHYZZ_RAW=${BUGPHYZZ_RAW:-https://raw.githubusercontent.com/waldronlab/bugphyzz/e33fb4a/inst/extdata}
 
 fetch() { # fetch <physiology> <url>
     local file="${1// /_}.csv"

@@ -18,10 +18,12 @@ Rules:
 - Rows copied from a cited source (the `Attribute_source` column) are not
   edited. A wrong row gets a drop in `../sheet_overrides.tsv` (ADR 0005);
   editing the copy would attribute to the source a claim it never made.
-- These files are deliberately not in `../manifest.tsv`. bugphyzz reads them
-  as the sheet data itself (the `link` column of `spreadsheet_links.tsv` and
-  `spreadsheet_customlinks.tsv` points here); listing them in the manifest
-  would read every row twice.
+- These files are deliberately not in `../manifest.tsv`. bugphyzz will read
+  them as the sheet data itself, with the `link` column of
+  `spreadsheet_links.tsv` and `spreadsheet_customlinks.tsv` pointing here
+  (waldronlab/bugphyzz#306; until that merges, bugphyzz and the export still
+  read the live sheets). Listing them in the manifest would read every row
+  twice.
 - The sheets stay view-only with their publish-to-the-web CSV links
   unchanged, because bugphyzz 1.8.x reads those links until Bioconductor
   3.24 is retired (ADR 0007).
