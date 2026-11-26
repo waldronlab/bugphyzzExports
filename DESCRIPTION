@@ -35,7 +35,7 @@ Remotes:
 Depends:
     R (>= 4.3)
 Suggests: 
-    bugphyzz (>= 0.99.0),
+    bugphyzz (>= 1.9.2),
     bugsigdbr,
     castor,
     dplyr,
@@ -45,7 +45,7 @@ Suggests:
     rlang,
     sessioninfo,
     stringr,
-    taxPPro (>= 1.0.0),
+    taxPPro (>= 1.0.2),
     tibble,
     tidyr
 Imports: 
