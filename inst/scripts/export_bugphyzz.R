@@ -20,6 +20,13 @@ suppressMessages({
     library(purrr)
 })
 
+## The source priority that replaces the alphabetical tie-break (#66) needs
+## both; taxPPro falls back to the old rule without bugphyzz's Priority column
+stopifnot(
+    packageVersion("bugphyzz") >= "1.9.2",
+    packageVersion("taxPPro") >= "1.0.2"
+)
+
 source("inst/scripts/stop_on_unmapped.R")
 
 logfile <- "log_file"
