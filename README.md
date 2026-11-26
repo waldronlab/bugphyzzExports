@@ -9,6 +9,8 @@ uncharacterized microbes through Ancestral State Reconstruction (ASR).
 
 You can learn more about this project [here](https://github.com/waldronlab/bugphyzz).
 
+This repository is one step of the bugphyzz pipeline; the table under [How the data are produced](https://github.com/waldronlab/bugphyzz#how-the-data-are-produced) in the bugphyzz README shows how the repositories fit together.
+
 This repository contains the code for resolving conflicting annotations
 and run the ASR step. It also contains the devel version of the annotations
 (before being released on Zenodo) distributed across different text files.
